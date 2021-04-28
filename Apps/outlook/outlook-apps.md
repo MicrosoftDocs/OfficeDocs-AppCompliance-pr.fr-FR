@@ -1,0 +1,44 @@
+---
+title: Sécurité et conformité des applications Microsoft Outlook - Toutes les applications
+ms.author: elmalova
+author: elenamalova
+ms.date: 04/19/2021
+ms.topic: article
+ms.service: attestation
+description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Outlook.
+localization_priority: Normal
+ms.openlocfilehash: 25b36a6836c28bedcbf328564ede50bc680c6a37
+ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52071283"
+---
+# <a name="microsoft-outlook-app-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Outlook
+
+Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant les applications et les modules complémentaires Outlook qu'elles utilisent. Ces informations sont complétées par les informations du catalogue d'applications [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) et les informations fournies par les développeurs lorsqu'ils soumettent leurs applications. Ces informations de sécurité, de gestion des données et de conformité sont destinées à aider les organisations à évaluer et à gérer les risques associés à l'utilisation de ces applications.
+
+| **App** | **Partenaire** | **Publisher Attested** | **Certifié** | **Informations de gestion des données** | **Informations sur la sécurité des applications cloud** |
+|:--------|:------------|:----------------------:|:-----------------------------:|:----------------------------------:|
+| [Adobe Sign Add-In pour Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Oui | Oui |
+| [Vidéos altru](./altru-videos.md) | Altru | **✓** |  | Oui | Oui |
+| [Calendriers de contacts approuvés](./approved-contact-calendars.md) | Contact approuvé | **✓** |  | Oui | Oui |
+| [Asana pour Outlook](./asana-for-outlook.md) | Asana | **✓** |  | Oui | Oui |
+| [harmon.ie pour Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  | Oui | Oui |
+| [Facture et suivi du temps : facture Zoho](./zoho-corporation-private-limited-invoice-and-time-tracking.md) | Zoho Corporation Private Limited | **✓** |  | Oui | Oui |
+| [IPlanner Office 365 Planner Add-in for Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Oui | Oui |
+| [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Oui | Oui |
+| [Jira Cloud pour Outlook (officiel)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  | Oui | Oui |
+| [MIPA - Votre propre Assistant personnel](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Oui | Oui |
+| [ngDesk](./all-blue-solutions-ngdesk.md) | Toutes les solutions bleues | **✓** |  | Oui | Oui |
+| [Office2SharePoint pour Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Oui | Oui |
+| [officeatwork | S chooser de contenu pour Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Oui | Oui |
+| [OnePlaceMail pour Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | OnePlace Solutions | **✓** |  | Oui | Oui |
+| [Matrice de priorité : transformer les e-mails en tâches](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Oui | Oui |
+| [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  | Oui | Oui |
+| [ServiceDesk Plus pour la messagerie](./zoho-corporation-private-limited-servicedesk-plus-for-email.md) | Zoho Corporation Private Limited | **✓** |  | Oui | Oui |
+| [Le add-in StarLeaf pour Outlook](./starleaf-add-in-for-outlook.md) | StarLeaf | **✓** |  | Oui | Oui |
+| [Wrike pour Outlook](./wrike-inc-for-outlook.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Oui | Oui |
+| [Wunder365](./jiji-technologies-private-limited-wunder365.md) | JiJi Technologies Private Limited | **✓** |  | Oui | Oui |
+| [Outil campagnes Zoho pour l'automatisation marketing](./zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md) | Zoho Corporation Private Limited | **✓** |  | Oui | Oui |
+| [Zoho CRM pour la messagerie](./zoho-corporation-private-limited-crm-for-email.md) | Zoho Corporation Private Limited | **✓** |  | Oui | Oui |

@@ -1,0 +1,75 @@
+### YamlMime:ZonePivotGroups
+groups:
+- id: app-info-data-mcas
+  title: Catégories d’informations sur l’application
+  prompt: 'Choisissez la catégorie d’informations que vous souhaitez voir pour cette application :'
+  pivots:
+  - id: general
+    title: Général
+  - id: data
+    title: Gestion des données
+  - id: mcas
+    title: Sécurité et conformité
+- id: app-info-mcas
+  title: Catégories d’informations sur l’application
+  prompt: 'Choisissez la catégorie d’informations que vous souhaitez voir pour cette application :'
+  pivots:
+  - id: general
+    title: Général
+  - id: mcas
+    title: Sécurité et conformité
+- id: app-info-identity
+  title: Catégories d’informations sur l’application
+  prompt: 'Choisissez la catégorie d’informations que vous souhaitez voir pour cette application :'
+  pivots:
+  - id: general
+    title: Général
+  - id: identity
+    title: Identité
+- id: app-info-data
+  title: Catégories d’informations sur l’application
+  prompt: 'Choisissez la catégorie d’informations que vous souhaitez voir pour cette application :'
+  pivots:
+  - id: general
+    title: Général
+  - id: data
+    title: Gestion des données
+- id: app-info-data-identity
+  title: Catégories d’informations sur l’application
+  prompt: 'Choisissez la catégorie d’informations que vous souhaitez voir pour cette application :'
+  pivots:
+  - id: general
+    title: Général
+  - id: data
+    title: Gestion des données
+  - id: identity
+    title: Identité
+- id: app-info-mcas-identity
+  title: Catégories d’informations sur l’application
+  prompt: 'Choisissez la catégorie d’informations que vous souhaitez voir pour cette application :'
+  pivots:
+  - id: general
+    title: Général
+  - id: mcas
+    title: Sécurité et conformité
+  - id: identity
+    title: Identité
+- id: app-info-data-mcas-identity
+  title: Catégories d’informations sur l’application
+  prompt: 'Choisissez la catégorie d’informations que vous souhaitez voir pour cette application :'
+  pivots:
+  - id: general
+    title: Général
+  - id: data
+    title: Gestion des données
+  - id: mcas
+    title: Sécurité et conformité
+  - id: identity
+    title: Identité
+metadata:
+  ms.openlocfilehash: 63cbd1492249802a82a13a4a68fd056a5ba26754
+  ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 04/28/2021
+  ms.locfileid: "52071227"
