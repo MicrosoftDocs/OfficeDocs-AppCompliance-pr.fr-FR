@@ -1,0 +1,153 @@
+---
+title: Informations sur l'application pour TeamSticker par Communitio par Communitio Corporation
+ms.author: elmalova
+author: elenamalova
+ms.date: 01/05/2021
+ms.topic: article
+ms.service: attestation
+description: Toutes les informations de sécurité et de conformité disponibles pour TeamSticker par Communitio, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 7cfc69b1e013fbb348b2e38f1afb75a7d3011b75
+ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52093822"
+---
+# <a name="teamsticker-by-communitio"></a><span data-ttu-id="ca7b1-103">TeamSticker par Communitio</span><span class="sxs-lookup"><span data-stu-id="ca7b1-103">TeamSticker by Communitio</span></span>
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p><span data-ttu-id="ca7b1-104">Last updated by the developer on: January 5, 2021</span><span class="sxs-lookup"><span data-stu-id="ca7b1-104">Last updated by the developer on: January 5, 2021</span></span></p>
+
+* <span data-ttu-id="ca7b1-105"><a href="https://teams.microsoft.com/l/app/bceca1f0-723f-44d0-b732-b3506c0a641d" target="_blank">Afficher dans Teams store</a></span><span class="sxs-lookup"><span data-stu-id="ca7b1-105"><a href="https://teams.microsoft.com/l/app/bceca1f0-723f-44d0-b732-b3506c0a641d" target="_blank">View in Teams store</a></span></span>
+* <span data-ttu-id="ca7b1-106"><a href="https://appsource.microsoft.com/product/office/WA200000894" target="_blank">Afficher dans AppSource</a></span><span class="sxs-lookup"><span data-stu-id="ca7b1-106"><a href="https://appsource.microsoft.com/product/office/WA200000894" target="_blank">View in AppSource</a></span></span>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a><span data-ttu-id="ca7b1-107">Informations générales</span><span class="sxs-lookup"><span data-stu-id="ca7b1-107">General information</span></span>
+
+<span data-ttu-id="ca7b1-108">Informations fournies par Communitio Corporation à Microsoft :</span><span class="sxs-lookup"><span data-stu-id="ca7b1-108">Information provided by Communitio Corporation to Microsoft:</span></span>
+
+| <span data-ttu-id="ca7b1-109">**Information**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-109">**Information**</span></span> | <span data-ttu-id="ca7b1-110">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-110">**Response**</span></span> |
+|:----------------|:-------------|
+| <span data-ttu-id="ca7b1-111">Nom de l'application</span><span class="sxs-lookup"><span data-stu-id="ca7b1-111">App name</span></span> | <span data-ttu-id="ca7b1-112">TeamSticker par Communitio</span><span class="sxs-lookup"><span data-stu-id="ca7b1-112">TeamSticker by Communitio</span></span> |
+| <span data-ttu-id="ca7b1-113">ID</span><span class="sxs-lookup"><span data-stu-id="ca7b1-113">ID</span></span> | <span data-ttu-id="ca7b1-114">WA200000894</span><span class="sxs-lookup"><span data-stu-id="ca7b1-114">WA200000894</span></span> |
+| <span data-ttu-id="ca7b1-115">Fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="ca7b1-115">Capabilities</span></span> | <span data-ttu-id="ca7b1-116">Bot, Onglet, Extension de la messagerie</span><span class="sxs-lookup"><span data-stu-id="ca7b1-116">Bot, Tab, Messaging Extension</span></span> |
+| <span data-ttu-id="ca7b1-117">Office 365 clients pris en charge</span><span class="sxs-lookup"><span data-stu-id="ca7b1-117">Office 365 clients supported</span></span> | <span data-ttu-id="ca7b1-118">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ca7b1-118">Microsoft Teams</span></span> |
+| <span data-ttu-id="ca7b1-119">Nom de la société partenaire</span><span class="sxs-lookup"><span data-stu-id="ca7b1-119">Partner company name</span></span> | <span data-ttu-id="ca7b1-120">Communitio Corporation</span><span class="sxs-lookup"><span data-stu-id="ca7b1-120">Communitio Corporation</span></span> |
+| <span data-ttu-id="ca7b1-121">URL du site web partenaire</span><span class="sxs-lookup"><span data-stu-id="ca7b1-121">URL of partner website</span></span> | [https://www.teamsuite.biz/](https://www.teamsuite.biz/) |
+| <span data-ttu-id="ca7b1-122">URL de la Teams d'informations sur l'application</span><span class="sxs-lookup"><span data-stu-id="ca7b1-122">URL of Teams application info page</span></span> | [https://www.teamsuite.biz/feature/](https://www.teamsuite.biz/feature/) |
+| <span data-ttu-id="ca7b1-123">URL de la politique de confidentialité</span><span class="sxs-lookup"><span data-stu-id="ca7b1-123">URL of Privacy Policy</span></span> | [https://www.teamsuite.biz/privacy/](https://www.teamsuite.biz/privacy/) |
+| <span data-ttu-id="ca7b1-124">URL des conditions d'utilisation</span><span class="sxs-lookup"><span data-stu-id="ca7b1-124">URL of Terms of Use</span></span> | [https://www.teamsuite.biz/terms/](https://www.teamsuite.biz/terms/) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a><span data-ttu-id="ca7b1-125">Gestion des données par l'application</span><span class="sxs-lookup"><span data-stu-id="ca7b1-125">How the app handles data</span></span>
+
+<span data-ttu-id="ca7b1-126">Ces informations ont été fournies par Communitio Corporation sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-126">This information has been provided by Communitio Corporation about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
+
+#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="ca7b1-127">Accès aux données à l'aide de Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="ca7b1-127">Data access using Microsoft Graph</span></span>
+
+<span data-ttu-id="ca7b1-128">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-128">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
+
+>| <span data-ttu-id="ca7b1-129">**Permission**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-129">**Permission**</span></span>  | <span data-ttu-id="ca7b1-130">**Type d'autorisation (Délégué/Application)**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-130">**Type of permission (Delegated/Application)**</span></span> | <span data-ttu-id="ca7b1-131">**Les données sont-elles collectées ? Justification de la collecte ?**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-131">**Is data collected? Justification for collecting it?**</span></span> | <span data-ttu-id="ca7b1-132">**Les données sont-elles stockées ? Justification de son stockage ?**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-132">**Is data stored? Justification for storing it?**</span></span> | <span data-ttu-id="ca7b1-133">**ID d'application Azure AD**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-133">**Azure AD App ID**</span></span> |
+>|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
+>| <span data-ttu-id="ca7b1-134">Chat.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="ca7b1-134">Chat.ReadWrite</span></span> | <span data-ttu-id="ca7b1-135">application</span><span class="sxs-lookup"><span data-stu-id="ca7b1-135">application</span></span> |  <span data-ttu-id="ca7b1-136">Étant donné que l'application publie des billets pour la conversation.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-136">Because Application posts to chat.</span></span> | <span data-ttu-id="ca7b1-137">L'application ne stocke pas de données.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-137">Application does not to store any data.</span></span> | <span data-ttu-id="ca7b1-138">bceca1f0-723f-44d0-b732-b3506c0a641d</span><span class="sxs-lookup"><span data-stu-id="ca7b1-138">bceca1f0-723f-44d0-b732-b3506c0a641d</span></span> |
+>| <span data-ttu-id="ca7b1-139">Group.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="ca7b1-139">Group.ReadWrite.All</span></span> | <span data-ttu-id="ca7b1-140">les deux</span><span class="sxs-lookup"><span data-stu-id="ca7b1-140">both</span></span> | <span data-ttu-id="ca7b1-141">L'application collecte l'ID de groupe et le nom du groupe.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-141">Application collect group id and group name.</span></span> | <span data-ttu-id="ca7b1-142">L'application stocke l'ID de groupe et la paire nom.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-142">Application stores the group id and name pair.</span></span> | <span data-ttu-id="ca7b1-143">bceca1f0-723f-44d0-b732-b3506c0a641d</span><span class="sxs-lookup"><span data-stu-id="ca7b1-143">bceca1f0-723f-44d0-b732-b3506c0a641d</span></span> |
+>| <span data-ttu-id="ca7b1-144">User.Read</span><span class="sxs-lookup"><span data-stu-id="ca7b1-144">User.Read</span></span> | <span data-ttu-id="ca7b1-145">délégué</span><span class="sxs-lookup"><span data-stu-id="ca7b1-145">delegated</span></span> | <span data-ttu-id="ca7b1-146">L'application collecte l'image de profil de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-146">Application collects user's profile image.</span></span> | <span data-ttu-id="ca7b1-147">L'application stocke l'image de profil de l'utilisateur pour afficher l'icône utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-147">Application stores user's profile image to display user icon.</span></span> | <span data-ttu-id="ca7b1-148">bceca1f0-723f-44d0-b732-b3506c0a641d</span><span class="sxs-lookup"><span data-stu-id="ca7b1-148">bceca1f0-723f-44d0-b732-b3506c0a641d</span></span> |
+>| <span data-ttu-id="ca7b1-149">User.Read.All</span><span class="sxs-lookup"><span data-stu-id="ca7b1-149">User.Read.All</span></span> | <span data-ttu-id="ca7b1-150">les deux</span><span class="sxs-lookup"><span data-stu-id="ca7b1-150">both</span></span> | <span data-ttu-id="ca7b1-151">L'application collecte l'objectId/e-mail/nom de l'utilisateur pour rechercher l'utilisateur à envoyer la carte.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-151">Application collects user's objectId / email / name to find user to send card.</span></span> | <span data-ttu-id="ca7b1-152">L'application ne stocke aucune donnée dans ce cas.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-152">Application does not store any data in this case.</span></span> | <span data-ttu-id="ca7b1-153">bceca1f0-723f-44d0-b732-b3506c0a641d</span><span class="sxs-lookup"><span data-stu-id="ca7b1-153">bceca1f0-723f-44d0-b732-b3506c0a641d</span></span> |
+>| <span data-ttu-id="ca7b1-154">offline_access</span><span class="sxs-lookup"><span data-stu-id="ca7b1-154">offline_access</span></span> | <span data-ttu-id="ca7b1-155">délégué</span><span class="sxs-lookup"><span data-stu-id="ca7b1-155">delegated</span></span> | <span data-ttu-id="ca7b1-156">L'application collecte le jeton d'api de l'utilisateur pour utiliser User.Read / User.Read.All en arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-156">Application collect user's api token to use User.Read / User.Read.All in background.</span></span> | <span data-ttu-id="ca7b1-157">L'application stocke le jeton d'api de l'utilisateur pour utiliser User.Read / User.Read.All en arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-157">Application stores user's api token to use User.Read / User.Read.All in background.</span></span> | <span data-ttu-id="ca7b1-158">bceca1f0-723f-44d0-b732-b3506c0a641d</span><span class="sxs-lookup"><span data-stu-id="ca7b1-158">bceca1f0-723f-44d0-b732-b3506c0a641d</span></span> |
+>| <span data-ttu-id="ca7b1-159">openid</span><span class="sxs-lookup"><span data-stu-id="ca7b1-159">openid</span></span> | <span data-ttu-id="ca7b1-160">délégué</span><span class="sxs-lookup"><span data-stu-id="ca7b1-160">delegated</span></span> | <span data-ttu-id="ca7b1-161">Aucune donnée collectée.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-161">No data collected.</span></span> | <span data-ttu-id="ca7b1-162">L'application utilise cette autorisation pour se connecter par openid.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-162">Application uses this permission to login by openid.</span></span> | <span data-ttu-id="ca7b1-163">bceca1f0-723f-44d0-b732-b3506c0a641d</span><span class="sxs-lookup"><span data-stu-id="ca7b1-163">bceca1f0-723f-44d0-b732-b3506c0a641d</span></span> |
+>| <span data-ttu-id="ca7b1-164">profil</span><span class="sxs-lookup"><span data-stu-id="ca7b1-164">profile</span></span> | <span data-ttu-id="ca7b1-165">délégué</span><span class="sxs-lookup"><span data-stu-id="ca7b1-165">delegated</span></span> | <span data-ttu-id="ca7b1-166">L'application collecte l'objectId/e-mail/nom de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-166">Application collects user's objectId / email / name.</span></span> | <span data-ttu-id="ca7b1-167">L'application stocke l'objectId/e-mail/nom de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-167">Application stores user's objectId / email / name.</span></span> | <span data-ttu-id="ca7b1-168">bceca1f0-723f-44d0-b732-b3506c0a641d</span><span class="sxs-lookup"><span data-stu-id="ca7b1-168">bceca1f0-723f-44d0-b732-b3506c0a641d</span></span> |
+
+#### <a name="data-access-using-other-microsoft-apis"></a><span data-ttu-id="ca7b1-169">Accès aux données à l'aide d'autres API Microsoft</span><span class="sxs-lookup"><span data-stu-id="ca7b1-169">Data access using other Microsoft APIs</span></span>
+
+<span data-ttu-id="ca7b1-170">Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d'identification organisationnelle (OII).</span><span class="sxs-lookup"><span data-stu-id="ca7b1-170">Apps and add-ins built on Microsoft 365 may use additional Microsoft APIs other than Microsoft Graph to collect or process organizational identifiable information (OII).</span></span> <span data-ttu-id="ca7b1-171">List any Microsoft APIs other than Microsoft Graph this app uses.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-171">List any Microsoft APIs other than Microsoft Graph this app uses.</span></span>
+
+>| <span data-ttu-id="ca7b1-172">**API**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-172">**API**</span></span> |  <span data-ttu-id="ca7b1-173">**OII est-il collecté ?**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-173">**Is OII collected?**</span></span> |  <span data-ttu-id="ca7b1-174">**Qu'est-ce qu'OII collecté ?**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-174">**What OII is Collected?**</span></span> | <span data-ttu-id="ca7b1-175">**Justification de la collecte des OII ?**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-175">**Justification for collecting OII?**</span></span> | <span data-ttu-id="ca7b1-176">**OII est-il stocké ?**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-176">**Is OII stored?**</span></span> | <span data-ttu-id="ca7b1-177">**Justification du stockage des OII ?**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-177">**Justification for storing OII?**</span></span> |
+>|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|  <span data-ttu-id="ca7b1-178">Bot Framework REST API</span><span class="sxs-lookup"><span data-stu-id="ca7b1-178">Bot Framework REST API</span></span> | <span data-ttu-id="ca7b1-179">Non</span><span class="sxs-lookup"><span data-stu-id="ca7b1-179">No</span></span> |  |  |  |  |
+
+#### <a name="non-microsoft-services-used"></a><span data-ttu-id="ca7b1-180">Non utilisé services Microsoft</span><span class="sxs-lookup"><span data-stu-id="ca7b1-180">Non-Microsoft services used</span></span>
+
+<span data-ttu-id="ca7b1-181">Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-181">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
+
+><span data-ttu-id="ca7b1-182">Les éléments services Microsoft ne sont pas utilisés.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-182">Non-Microsoft services are not used.</span></span>
+
+#### <a name="data-access-via-bots"></a><span data-ttu-id="ca7b1-183">Accès aux données via des bots</span><span class="sxs-lookup"><span data-stu-id="ca7b1-183">Data access via bots</span></span>
+
+<span data-ttu-id="ca7b1-184">Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d'identification de l'utilisateur final (EUII) : la liste (prénom, nom, nom d'affichage, adresse e-mail) d'un membre d'une équipe ou d'une conversation à qui elle est ajoutée.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-184">If this app contains a bot or a messaging extension, it can access end-user identifiable information (EUII): the roster (first name, last name, display name, email address) of any team member in a team or chat it's added to.</span></span> <span data-ttu-id="ca7b1-185">Cette application utilise-t-elle cette fonctionnalité ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-185">Does this app make use of this capability?</span></span>
+
+>| <span data-ttu-id="ca7b1-186">**Justification de l'accès à EUII ?**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-186">**Justification for accessing EUII?**</span></span>  | <span data-ttu-id="ca7b1-187">**L'EUII est-il stocké dans des bases de données ?**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-187">**Is EUII stored in database(s)?**</span></span> | <span data-ttu-id="ca7b1-188">**Justification du stockage de l'EUII ?**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-188">**Justification for storing EUII?**</span></span> |
+>|:--------------------------------|:---------------------|:--------------------------|
+>| <span data-ttu-id="ca7b1-189">Parce que vous avez l'autorisation User.Read.All.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-189">Because having permission of User.Read.All.</span></span> | <span data-ttu-id="ca7b1-190">Non</span><span class="sxs-lookup"><span data-stu-id="ca7b1-190">No</span></span> |  |
+
+
+
+#### <a name="telemetry-data"></a><span data-ttu-id="ca7b1-191">Données de télémétrie</span><span class="sxs-lookup"><span data-stu-id="ca7b1-191">Telemetry data</span></span>
+
+<span data-ttu-id="ca7b1-192">Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-192">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="ca7b1-193">Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-193">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
+
+><span data-ttu-id="ca7b1-194">Aucun OII ou EUII n'apparaît dans la télémétrie ou les journaux des applications.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-194">No OII or EUII appear in the applications telemetry or logs.</span></span>
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="ca7b1-195">Contrôles organisationnels pour les données stockées par le partenaire</span><span class="sxs-lookup"><span data-stu-id="ca7b1-195">Organizational controls for data stored by partner</span></span>
+
+<span data-ttu-id="ca7b1-196">Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-196">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
+
+><span data-ttu-id="ca7b1-197">S/O</span><span class="sxs-lookup"><span data-stu-id="ca7b1-197">N/A</span></span>
+
+#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="ca7b1-198">Examen humain des informations organisationnelles</span><span class="sxs-lookup"><span data-stu-id="ca7b1-198">Human review of organizational information</span></span>
+
+<span data-ttu-id="ca7b1-199">Les humains sont-ils impliqués dans la révision ou l'analyse de données d'informations d'identification organisationnelle (OII) collectées ou stockées par cette application ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-199">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
+
+><span data-ttu-id="ca7b1-200">Non</span><span class="sxs-lookup"><span data-stu-id="ca7b1-200">No</span></span>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+<span data-ttu-id="ca7b1-201">Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-201">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
+
+<iframe height='1020' title='<span data-ttu-id="ca7b1-202">Microsoft Cloud App Security Informations</span><span class="sxs-lookup"><span data-stu-id="ca7b1-202">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36366' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="ca7b1-203">
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36366" target="_blank">Afficher dans un nouvel onglet</a></span><span class="sxs-lookup"><span data-stu-id="ca7b1-203">
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36366" target="_blank">View in a new tab</a></span></span>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a><span data-ttu-id="ca7b1-204">Informations d'identité</span><span class="sxs-lookup"><span data-stu-id="ca7b1-204">Identity information</span></span>
+
+<span data-ttu-id="ca7b1-205">Ces informations ont été fournies par Communitio Corporation sur la façon dont cette application gère l'authentification, l'autorisation, les meilleures pratiques d'inscription des applications et d'autres critères d'identité.</span><span class="sxs-lookup"><span data-stu-id="ca7b1-205">This information has been provided by Communitio Corporation about how this app handles authentication, authorization, application registration best practices, and other Identity criteria.</span></span>
+
+| <span data-ttu-id="ca7b1-206">**Information**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-206">**Information**</span></span> | <span data-ttu-id="ca7b1-207">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="ca7b1-207">**Response**</span></span> |
+|:----------------|:-------------|
+| <span data-ttu-id="ca7b1-208">Intégrez-vous La plateforme d'identification Microsoft (Azure AD) ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-208">Do you integrate with Microsoft Identify Platform (Azure AD)?</span></span>  | <span data-ttu-id="ca7b1-209">Oui</span><span class="sxs-lookup"><span data-stu-id="ca7b1-209">Yes</span></span> |
+| <span data-ttu-id="ca7b1-210">Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft'intégration ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-210">Have you reviewed and complied with all applicable best practices outlined in the Microsoft identity platform integration checklist?</span></span>  | <span data-ttu-id="ca7b1-211">Oui</span><span class="sxs-lookup"><span data-stu-id="ca7b1-211">Yes</span></span> |
+| <span data-ttu-id="ca7b1-212">Votre application utilise-t-elle MSAL (Bibliothèque d'authentification Microsoft) pour l'authentification ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-212">Does your app use MSAL (Microsoft Authentication Library) for authentication?</span></span> | <span data-ttu-id="ca7b1-213">Non</span><span class="sxs-lookup"><span data-stu-id="ca7b1-213">No</span></span> |
+| <span data-ttu-id="ca7b1-214">Votre application prend-elle en charge les stratégies d'accès conditionnel ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-214">Does your app support Conditional Access policies?</span></span> | <span data-ttu-id="ca7b1-215">Non</span><span class="sxs-lookup"><span data-stu-id="ca7b1-215">No</span></span> |
+| <span data-ttu-id="ca7b1-216">Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-216">Does your app request least privilege permissions for your scenario?</span></span> | <span data-ttu-id="ca7b1-217">Oui</span><span class="sxs-lookup"><span data-stu-id="ca7b1-217">Yes</span></span> |
+| <span data-ttu-id="ca7b1-218">Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-218">Does your app's statically registered permissions accurately reflect the permissions your app will request dynamically and incrementally?</span></span> | <span data-ttu-id="ca7b1-219">Oui</span><span class="sxs-lookup"><span data-stu-id="ca7b1-219">Yes</span></span> |
+| <span data-ttu-id="ca7b1-220">Votre application prend-elle en charge l'location multiple ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-220">Does your app support multi-tenancy?</span></span> | <span data-ttu-id="ca7b1-221">Oui</span><span class="sxs-lookup"><span data-stu-id="ca7b1-221">Yes</span></span> |
+| <span data-ttu-id="ca7b1-222">Votre application a-t-elle un client confidentiel ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-222">Does your app have a confidential client?</span></span> | <span data-ttu-id="ca7b1-223">Non</span><span class="sxs-lookup"><span data-stu-id="ca7b1-223">No</span></span> |
+| <span data-ttu-id="ca7b1-224">Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-224">Do you own all of the redirect Unified Resource Identifier (URI) registered for your app?</span></span> | <span data-ttu-id="ca7b1-225">Oui</span><span class="sxs-lookup"><span data-stu-id="ca7b1-225">Yes</span></span> |
+| <span data-ttu-id="ca7b1-226">Pour votre application, qu'est-ce que vous évitez d'utiliser ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-226">For your app, what do you avoid using?</span></span> | <span data-ttu-id="ca7b1-227">- URIs de redirection générique,</span><span class="sxs-lookup"><span data-stu-id="ca7b1-227">- Wildcard redirect URIs,</span></span>
+<br />
+- <span data-ttu-id="ca7b1-228">OAuth2 implicit Flow, unless required for a SPA</span><span class="sxs-lookup"><span data-stu-id="ca7b1-228">OAuth2 Implicit Flow, unless required for a SPA</span></span>
+<br />
+- <span data-ttu-id="ca7b1-229">Flux d'informations d'identification du mot de passe du propriétaire de la ressource (ROPC) | | Votre application expose-t-elle des API web ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-229">Resource Owner Password Credential (ROPC) flow | | Does your app expose any web APIs?</span></span> <span data-ttu-id="ca7b1-230">| Oui, | | Votre modèle d'autorisation autorise-t-il uniquement les appels à réussir si l'application cliente reçoit le consentement approprié ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-230">| Yes | | Does your permission model only allow calls to succeed if the client app receives the proper consent?</span></span> <span data-ttu-id="ca7b1-231">| Oui, | | Votre application utilise-t-elle les API d'aperçu ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-231">| Yes | | Does your app use preview APIs?</span></span> <span data-ttu-id="ca7b1-232">| Aucun | | Votre application utilise-t-elle des API dépréciées ?</span><span class="sxs-lookup"><span data-stu-id="ca7b1-232">| No | | Does your app use deprecated APIs?</span></span> <span data-ttu-id="ca7b1-233">| Aucun |</span><span class="sxs-lookup"><span data-stu-id="ca7b1-233">| No |</span></span>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
