@@ -1,18 +1,19 @@
 ---
-title: Informations sur l'application pour le texte par contact approuvé
+title: Informations sur l’application pour le texte par contact approuvé
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour Text, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour Text, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 234dd55134c0d3d54c4911f4ba82340475ef969c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 477983aec1aeb8d25b3b0766c41fe7bc66d479a0
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093914"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251083"
 ---
 # <a name="text"></a>Texte
 
@@ -34,11 +35,11 @@ Informations fournies par le contact approuvé à Microsoft :
 | Nom de l'application | Texte |
 | ID | WA200000383 |
 | Fonctionnalités | Bot, Onglet |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Contact approuvé |
 | URL du site web partenaire | [https://sales.approvedcontact.com/syniverse-microsoft-teams...](https://sales.approvedcontact.com/syniverse-microsoft-teams-text/) |
 | URL de la politique de confidentialité | [https://sales.approvedcontact.com/wp-content/uploads/text-p...](https://sales.approvedcontact.com/wp-content/uploads/text-privacy-policy.pdf) |
-| URL des conditions d'utilisation | [https://sales.approvedcontact.com/wp-content/uploads/text-t...](https://sales.approvedcontact.com/wp-content/uploads/text-terms-of-use.pdf) |
+| URL des conditions d’utilisation | [https://sales.approvedcontact.com/wp-content/uploads/text-t...](https://sales.approvedcontact.com/wp-content/uploads/text-terms-of-use.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -46,54 +47,54 @@ Informations fournies par le contact approuvé à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par le contact approuvé sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par le contact approuvé sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d'autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d'application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | délégué | Pour le bot de texte, nous captureons l'identificateur d'équipe pour la création de futurs canaux pour les messages texte entrants. | Nous permet de créer des canaux Teams pour les utilisateurs. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| email | délégué |  | Obtention des informations de contact de l'utilisateur. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| offline_access | délégué | Les jetons d'actualisation sont stockés dans notre base de données. | Permet de rendre persistants les jetons d'actualisation dans notre base de données pour synchroniser les calendriers des utilisateurs lorsqu'ils ne sont pas présents. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| openid | délégué |  | Permet à l'utilisateur de se connecter. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| Group.ReadWrite.All | délégué | Pour le bot de texte, nous captureons l’identificateur d’équipe pour la création de futurs canaux pour les messages texte entrants. | Nous permet de créer des canaux Teams pour les utilisateurs. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| email | délégué |  | Obtention des informations de contact de l’utilisateur. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| offline_access | délégué | Les jetons d’actualisation sont stockés dans notre base de données. | Permet de rendre persistants les jetons d’actualisation dans notre base de données pour synchroniser les calendriers des utilisateurs lorsqu’ils ne sont pas présents. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| openid | délégué |  | Permet à l’utilisateur de se connecter. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 >| profil | délégué |  |  | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d'identification de l'utilisateur final (EUII) : la liste (prénom, nom, nom d'affichage, adresse e-mail) d'un membre d'une équipe ou d'une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->| **Justification de l'accès à EUII ?**  | **L'EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l'EUII ?** |
+>| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Nous utilisons la liste de travail pour comparer les heures de libre/occupé pour tous les membres de l'équipe afin de planifier des réunions à une heure d'ouverture. | Nous stockons simplement l'adresse e-mail afin de pouvoir comparer les heures de libre/occupé. |  |
+>| Nous utilisons la liste de travail pour comparer les heures de libre/occupé pour tous les membres de l’équipe afin de planifier des réunions à une heure d’ouverture. | Nous stockons simplement l’adresse e-mail afin de pouvoir comparer les heures de libre/occupé. |  |
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui, nous logons les adresses de messagerie pour connecter les achats de licences à Commercial Appsource. Nous vous offrons la possibilité de supprimer ces informations de nos journaux.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Seuls les développeurs ont accès à nos journaux. Nous appliquez la 2FA pour l'accès à toutes les plateformes de développement.
+>Seuls les développeurs ont accès à nos journaux. Nous appliquez la 2FA pour l’accès à toutes les plateformes de développement.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains sont-ils impliqués dans la révision ou l'analyse de données d'informations d'identification organisationnelle (OII) collectées ou stockées par cette application ?
+Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Non
 

@@ -1,18 +1,19 @@
 ---
-title: Informations sur l'application pour Lebotbot par Lebot
+title: Informations sur l’application pour Lebotbot par Lebot
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/14/2019
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour Lebot, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour Lebot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a2780151a9a7c08d695e6605990d93ce93f18652
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b87e35439eb7287aefa5ea8e60049d0564c8bd83
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093224"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252004"
 ---
 # <a name="woobot"></a>Woobot
 
@@ -34,12 +35,12 @@ Informations fournies par LeBot à Microsoft :
 | Nom de l'application | Woobot |
 | ID | WA104381664 |
 | Fonctionnalités | Bot, Onglet, Extension de la messagerie |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Woobot |
 | URL du site web partenaire | [https://woobot.io](https://woobot.io) |
-| URL de la Teams d'informations sur l'application | [https://woobot.io/support](https://woobot.io/support) |
+| URL de la Teams d’informations sur l’application | [https://woobot.io/support](https://woobot.io/support) |
 | URL de la politique de confidentialité | [https://woobot.io/privacy](https://woobot.io/privacy) |
-| URL des conditions d'utilisation | [https://woobot.io/terms](https://woobot.io/terms) |
+| URL des conditions d’utilisation | [https://woobot.io/terms](https://woobot.io/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,44 +48,44 @@ Informations fournies par LeBot à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par LeBot sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par LeBot sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->Cette application n'utilise pas Microsoft Graph.
+>Cette application n’utilise pas Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d'identification de l'utilisateur final (EUII) : la liste (prénom, nom, nom d'affichage, adresse e-mail) d'un membre d'une équipe ou d'une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->| **Justification de l'accès à EUII ?**  | **L'EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l'EUII ?** |
+>| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Afin de ma Teams utilisateurs Salesforce, nous avons besoin d'une liste d'ID d'utilisateur d'équipe. Nous stockons également les noms d'équipe et de canaux afin que les utilisateurs peuvent envoyer des notifications à ces équipes. En outre, nous stockons les ID d'utilisateur d'équipe qui ont été les bienvenus par l'application, et qui ne l'ont pas été, de sorte que lorsqu'un nouvel utilisateur rejoint une équipe, lebotbot peut accueillir personnellement cet utilisateur. Nous stockons également les noms d'équipe et de canaux afin que les utilisateurs peuvent envoyer des notifications à ces équipes. |  ID d'utilisateur, ID d'équipe et nom de l'équipe, ID de canal et nom du canal, et quels utilisateurs sont membres Teams. |  |
+>| Afin de ma Teams utilisateurs Salesforce, nous avons besoin d’une liste d’ID d’utilisateur d’équipe. Nous stockons également les noms d’équipe et de canaux afin que les utilisateurs peuvent envoyer des notifications à ces équipes. En outre, nous stockons les ID d’utilisateur d’équipe qui ont été les bienvenus par l’application, et qui ne l’ont pas été, de sorte que lorsqu’un nouvel utilisateur rejoint une équipe, lebotbot peut accueillir personnellement cet utilisateur. Nous stockons également les noms d’équipe et de canaux afin que les utilisateurs peuvent envoyer des notifications à ces équipes. |  ID d’utilisateur, ID d’équipe et nom de l’équipe, ID de canal et nom du canal, et quels utilisateurs sont membres Teams. |  |
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Non
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les clients ont un contrôle total sur leurs données de configuration qui sont créées par eux dans notre système. Aucune autre donnée client n'est stockée dans notre système.
+>Les clients ont un contrôle total sur leurs données de configuration qui sont créées par eux dans notre système. Aucune autre donnée client n’est stockée dans notre système.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

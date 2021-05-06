@@ -1,18 +1,19 @@
 ---
-title: Informations d'application pour AVA par AvePoint, Inc.
+title: Informations d’application pour AVA par AvePoint, Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/23/2020
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour AVA, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour AVA, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e5a5c364d2b49d598d6a5bd8c550b5aa8cc92913
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 17bc19b1b6803640a4c04f427215bcfc5f82339a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093901"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250843"
 ---
 # <a name="ava"></a>AVA
 
@@ -34,12 +35,12 @@ Informations fournies par AvePoint, Inc. à Microsoft :
 | Nom de l'application | AVA |
 | ID | WA104381883 |
 | Fonctionnalités | Bot, Onglet |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | AvePoint, Inc. |
 | URL du site web partenaire | [https://www.avepoint.com](https://www.avepoint.com) |
-| URL de la Teams d'informations sur l'application | [https://www.avepoint.com/support/](https://www.avepoint.com/support/) |
+| URL de la Teams d’informations sur l’application | [https://www.avepoint.com/support/](https://www.avepoint.com/support/) |
 | URL de la politique de confidentialité | [https://www.avepoint.com/privacy-policy](https://www.avepoint.com/privacy-policy) |
-| URL des conditions d'utilisation | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
+| URL des conditions d’utilisation | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,58 +48,58 @@ Informations fournies par AvePoint, Inc. à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par AvePoint, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par AvePoint, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d'autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d'application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Mail.ReadWrite.Shared | délégué | Aucune | Rechercher les e-mails de l'utilisateur et déplacer le courrier vers le dossier spécifié | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
->| User.Read | délégué |  Jeton d'accès de l'utilisateur : utilisé pour la recherche et la restauration des données de l'utilisateur | Permet à l'utilisateur de se connecter et d'accorder le jeton d'accès à l'application | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
->| User.ReadWrite | délégué | DisplayName, UserPrincipalName, JobTitle, Organization, Country, MySiteUrl : enregistrer les informations de base de l'utilisateur qui a utilisé l'application | Obtenir les informations de profil de base de l'utilisateur | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
+>| Mail.ReadWrite.Shared | délégué | Aucune | Rechercher les e-mails de l’utilisateur et déplacer le courrier vers le dossier spécifié | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
+>| User.Read | délégué |  Jeton d’accès de l’utilisateur : utilisé pour la recherche et la restauration des données de l’utilisateur | Permet à l’utilisateur de se connecter et d’accorder le jeton d’accès à l’application | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
+>| User.ReadWrite | délégué | DisplayName, UserPrincipalName, JobTitle, Organization, Country, MySiteUrl : enregistrer les informations de base de l’utilisateur qui a utilisé l’application | Obtenir les informations de profil de base de l’utilisateur | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
 
-#### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l'aide d'autres API Microsoft
+#### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
-Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d'identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
+Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Qu'est-ce qu'OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| API REST SharePoint | Oui | Recherchez le fichier dans le recyclage du site personnel de l'utilisateur et restituer ces fichiers. Nécessite l'autorisation AllSites.Manage. |  | Aucune |  |
+>| API REST SharePoint | Oui | Recherchez le fichier dans le recyclage du site personnel de l’utilisateur et restituer ces fichiers. Nécessite l’autorisation AllSites.Manage. |  | Aucune |  |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d'identification de l'utilisateur final (EUII) : la liste (prénom, nom, nom d'affichage, adresse e-mail) d'un membre d'une équipe ou d'une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->Aucun EUII n'est accessible.
+>Aucun EUII n’est accessible.
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Oui, le courrier électronique et l'ID client de l'utilisateur apparaissent dans les journaux. Les journaux sont stockés dans un emplacement sécurisé et seul le personnel autorisé peut y accéder lors du dépannage. Les journaux seront archivés après 60 jours à des fins d'audit de sécurité et supprimés au bout d'un an.
+>Oui, le courrier électronique et l’ID client de l’utilisateur apparaissent dans les journaux. Les journaux sont stockés dans un emplacement sécurisé et seul le personnel autorisé peut y accéder lors du dépannage. Les journaux seront archivés après 60 jours à des fins d’audit de sécurité et supprimés au bout d’un an.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données de l'application sont stockées dans Azure SQL Database et stockage Azure. Le chiffrement SQL et stockage Azure Azure est activé.
-Seuls les administrateurs autorisés peuvent accéder aux données. L'authentification MFA est requise pour que les administrateurs se connectent. Les opérations sont auditées. La liste d'adresses IP est également utilisée pour restreindre l'accès aux données.
+>Les données de l’application sont stockées dans Azure SQL Database et stockage Azure. Le chiffrement SQL et stockage Azure Azure est activé.
+Seuls les administrateurs autorisés peuvent accéder aux données. L’authentification MFA est requise pour que les administrateurs se connectent. Les opérations sont auditées. La liste d’adresses IP est également utilisée pour restreindre l’accès aux données.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains sont-ils impliqués dans la révision ou l'analyse de données d'informations d'identification organisationnelle (OII) collectées ou stockées par cette application ?
+Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Non
 

@@ -1,18 +1,19 @@
 ---
-title: Informations sur l'application pour l'outil de rapports iPlanner Office 365 Planner par iGlobe
+title: Informations sur l’application pour l’outil de rapports iPlanner Office 365 Planner par iGlobe
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour l'outil de rapports iPlanner pour le planificateur Office 365, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: certified
+description: Toutes les informations de sécurité et de conformité disponibles pour l’outil de rapports iPlanner pour le planificateur Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d6416261759acca5b77c6307c2267d11dd8eea4f
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: c03fa88d76dc00da911841512bb209742dbc5d2e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093419"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251483"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>Outil de rapports iPlanner pour Office 365 planner
 
@@ -35,7 +36,7 @@ Informations fournies par iGlobe à Microsoft :
 | Nom de la société partenaire | iGlobe |
 | URL du site web partenaire | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
 | URL de la politique de confidentialité | [https://iglobecrm.com/content/legal-information](https://iglobecrm.com/content/legal-information) |
-| URL des conditions d'utilisation | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474836912/Product_42949680354/Asset_9d620695-979f-49e4-bc56-98259b0cdeb2/EULAPlanner.pdf) |
+| URL des conditions d’utilisation | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474836912/Product_42949680354/Asset_9d620695-979f-49e4-bc56-98259b0cdeb2/EULAPlanner.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -43,32 +44,32 @@ Informations fournies par iGlobe à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par iGlobe sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par iGlobe sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d'autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d'application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | Pour créer une entrée de calendrier dans l'utilisateur&#8217;calendrier à la date d'échéance de la tâche. |  |
->| Directory.AccessAsUser.All | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | Pour vérifier que l'utilisateur a le consentement et a accès pour utiliser l'API. |  |
->| Directory.ReadWrite.All | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | Pour obtenir la tâche du planificateur, Outlook To Do courriers électroniques marqués et les mettre à jour. Pour créer une tâche du planificateur. |  |
->| Files.ReadWrite.All | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | Pour accéder au fichier en tant que pièce jointe et télécharger des fichiers vers une tâche. |  |
->| Group.Read.All | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | Pour obtenir la liste des plans et mettre à jour la tâche. |  |
->| Group.ReadWrite.All | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | Pour obtenir la tâche du planificateur et ajouter de nouvelles tâches, mettez à jour le compartiment et la ligne de compartiment. |  |
->| Mail.Read | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | User.Read, pour obtenir la tâche du planificateur Outlook To Do, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur |  |
->| Mail.ReadWrite | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | Pour afficher les messages électroniques et envoyer des messages électroniques. |  |
->| Mail.ReadWrite.All | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | Obtenir l'objet du courrier à partir du courrier sélectionné. Permet à l'application d'obtenir des informations à partir de l'e-mail sélectionné, ce qui permet de copier le champ de description dans la description de la tâche et d'enregistrer des pièces jointes à partir du courrier électronique ou du courrier lui-même dans la tâche. Envoyer une notification. |  |
->| Tasks.ReadWrite | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | Pour obtenir les utilisateurs Outlook To Do et mettre à jour User.Read, pour obtenir la Outlook To Do tâches du planificateur, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur. |  |
->| User.Read | délégué | Aucune donnée n'est stockée dans les bases de données d'application. | Activer la connexion et lire le profil utilisateur |  |
+>| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour créer une entrée de calendrier dans l’utilisateur&#8217;calendrier à la date d’échéance de la tâche. |  |
+>| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour vérifier que l’utilisateur a le consentement et a accès pour utiliser l’API. |  |
+>| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la tâche du planificateur, Outlook To Do courriers électroniques marqués et les mettre à jour. Pour créer une tâche du planificateur. |  |
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder au fichier en tant que pièce jointe et télécharger des fichiers vers une tâche. |  |
+>| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la liste des plans et mettre à jour la tâche. |  |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la tâche du planificateur et ajouter de nouvelles tâches, mettez à jour le compartiment et la ligne de compartiment. |  |
+>| Mail.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | User.Read, pour obtenir la tâche du planificateur Outlook To Do, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur |  |
+>| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour afficher les messages électroniques et envoyer des messages électroniques. |  |
+>| Mail.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Obtenir l’objet du courrier à partir du courrier sélectionné. Permet à l’application d’obtenir des informations à partir de l’e-mail sélectionné, ce qui permet de copier le champ de description dans la description de la tâche et d’enregistrer des pièces jointes à partir du courrier électronique ou du courrier lui-même dans la tâche. Envoyer une notification. |  |
+>| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir les utilisateurs Outlook To Do et mettre à jour User.Read, pour obtenir la Outlook To Do tâches du planificateur, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur. |  |
+>| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Activer la connexion et lire le profil utilisateur |  |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
@@ -76,7 +77,7 @@ Si l'application transfère ou partage des données organisationnelles avec un s
 
 #### <a name="add-in-data-access"></a>Accès aux données du add-in
 
-List the permissions this app requires for accessing your organization's data, the justification and purpose for this permission (what does the app use this information for?) and whether the app stores any of this information in its databases.
+List the permissions this app requires for accessing your organization’s data, the justification and purpose for this permission (what does the app use this information for?) and whether the app stores any of this information in its databases.
 
 >| **Autorisation**  | **Description** |
 >|:----------------|:----------------|
@@ -85,21 +86,21 @@ List the permissions this app requires for accessing your organization's data, t
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->iGlobe collecte des données pour fonctionner efficacement et vous offrir les meilleures expériences avec nos produits et services. Pour la gestion des licences : données collectées pour administrer le compte de licence de votre organisation&#8217;, par exemple lorsque vous déployez un module de licence gratuit, créez un abonnement d'essai ou achetez un abonnement. Les informations suivantes sont collectées. 
+>iGlobe collecte des données pour fonctionner efficacement et vous offrir les meilleures expériences avec nos produits et services. Pour la gestion des licences : données collectées pour administrer le compte de licence de votre organisation&#8217;, par exemple lorsque vous déployez un module de licence gratuit, créez un abonnement d’essai ou achetez un abonnement. Les informations suivantes sont collectées. 
 - À des fins financières : nom et adresse de la société
-- Utilisateurs abonnés : nom d'utilisateur et e-mail
+- Utilisateurs abonnés : nom d’utilisateur et e-mail
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Toutes les données se trouve sur le client. Aucune donnée d'application n'est stockée. Un add-in moderne s'exécute dans un navigateur en bac à sable,&#8220;hors processus&#8221;. Il interagit avec les données des utilisateurs à l'aide services Microsoft. Le module peut uniquement accéder aux données avec lesquelles l'utilisateur travaille.
+>Toutes les données se trouve sur le client. Aucune donnée d’application n’est stockée. Un add-in moderne s’exécute dans un navigateur en bac à sable,&#8220;hors processus&#8221;. Il interagit avec les données des utilisateurs à l’aide services Microsoft. Le module peut uniquement accéder aux données avec lesquelles l’utilisateur travaille.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains sont-ils impliqués dans la révision ou l'analyse de données d'informations d'identification organisationnelle (OII) collectées ou stockées par cette application ?
+Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Non
 

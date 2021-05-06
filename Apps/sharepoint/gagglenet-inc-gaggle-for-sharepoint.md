@@ -1,18 +1,19 @@
 ---
-title: Informations sur l'application pour Quégle pour SharePoint par Gaggle.net, Inc.
+title: Informations sur l’application pour Quégle pour SharePoint par Gaggle.net, Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour Leglegle pour SharePoint, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour Leglegle pour SharePoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 51a61dc6180dcf6af22f2c140a9f8f6dfee77492
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 3023d4ea1cd9fa08db125533cefdd7ff910581ab
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093969"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251673"
 ---
 # <a name="gaggle-for-sharepoint"></a>SharePoint
 
@@ -36,7 +37,7 @@ Informations fournies par Gaggle.net, Inc. à Microsoft :
 | Nom de la société partenaire | Gaggle.net, Inc. |
 | URL du site web partenaire | [https://gaggle.net/](https://gaggle.net/) |
 | URL de la politique de confidentialité | [https://gaggle.net/privacy](https://gaggle.net/privacy) |
-| URL des conditions d'utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -44,20 +45,20 @@ Informations fournies par Gaggle.net, Inc. à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Gaggle.net, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par Gaggle.net, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->Cette application n'utilise pas Microsoft Graph.
+>Cette application n’utilise pas Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
@@ -65,7 +66,7 @@ Si l'application transfère ou partage des données organisationnelles avec un s
 
 #### <a name="add-in-data-access"></a>Accès aux données du add-in
 
-List the permissions this app requires for accessing your organization's data, the justification and purpose for this permission (what does the app use this information for?) and whether the app stores any of this information in its databases.
+List the permissions this app requires for accessing your organization’s data, the justification and purpose for this permission (what does the app use this information for?) and whether the app stores any of this information in its databases.
 
 >| **Autorisation**  | **Description** |
 >|:----------------|:----------------|
@@ -74,19 +75,19 @@ List the permissions this app requires for accessing your organization's data, t
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Adresses IP, adresses e-mail, noms d'utilisateur. L'accès à toutes les données de télémétrie/journalisation est basé sur un schéma d'autorisations basé sur un groupe, en utilisant le principe du moindre privilège. Des contrôles d'accès physique et logique sont en place pour garantir l'accès non autorisé aux OII et eIUU.
+>Adresses IP, adresses e-mail, noms d’utilisateur. L’accès à toutes les données de télémétrie/journalisation est basé sur un schéma d’autorisations basé sur un groupe, en utilisant le principe du moindre privilège. Des contrôles d’accès physique et logique sont en place pour garantir l’accès non autorisé aux OII et eIUU.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Données stockées dans des systèmes de journalisation au niveau du système ou dans des bases de données. L'accès à toutes les données est basé sur un schéma d'autorisations basé sur un groupe, en utilisant le principe du moindre privilège. Des contrôles d'accès physique et logique sont en place pour garantir l'accès non autorisé aux OII et eIUU.
+>Données stockées dans des systèmes de journalisation au niveau du système ou dans des bases de données. L’accès à toutes les données est basé sur un schéma d’autorisations basé sur un groupe, en utilisant le principe du moindre privilège. Des contrôles d’accès physique et logique sont en place pour garantir l’accès non autorisé aux OII et eIUU.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains sont-ils impliqués dans la révision ou l'analyse de données d'informations d'identification organisationnelle (OII) collectées ou stockées par cette application ?
+Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Oui
 

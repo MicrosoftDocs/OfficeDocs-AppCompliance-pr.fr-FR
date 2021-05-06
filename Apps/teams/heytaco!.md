@@ -1,18 +1,19 @@
 ---
-title: Informations sur l'application pour HeyTaco! par HeyTaco!
+title: Informations sur l’application pour HeyTaco! par HeyTaco!
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour HeyTaco!, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour HeyTaco!, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 08b99f83abb4031719759544622437004b9aa56c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 83c133791e21b399e5eb0782a626a9919c5b6668
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093725"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250642"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
@@ -34,11 +35,11 @@ Informations fournies par HeyTaco! à Microsoft :
 | Nom de l'application | HeyTaco! |
 | ID | WA200001346 |
 | Fonctionnalités | Bot, Onglet |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | HeyTaco! |
 | URL du site web partenaire | [https://www.heytaco.chat](https://www.heytaco.chat) |
 | URL de la politique de confidentialité | [https://www.heytaco.chat/privacy](https://www.heytaco.chat/privacy) |
-| URL des conditions d'utilisation | [https://www.heytaco.chat/terms](https://www.heytaco.chat/terms) |
+| URL des conditions d’utilisation | [https://www.heytaco.chat/terms](https://www.heytaco.chat/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -46,46 +47,46 @@ Informations fournies par HeyTaco! à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par HeyTaco ! sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par HeyTaco ! sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d'autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d'application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | délégué | utilisé pour faire correspondre l'utilisateur pour les transferts de données de Slack vers MS Teams | utilisé pour faire correspondre l'utilisateur pour les transferts de données de Slack vers MS Team | be8d11cf-265a-4974-9912-4ff28c29fc21 |
+>| email | délégué | utilisé pour faire correspondre l’utilisateur pour les transferts de données de Slack vers MS Teams | utilisé pour faire correspondre l’utilisateur pour les transferts de données de Slack vers MS Team | be8d11cf-265a-4974-9912-4ff28c29fc21 |
 >| openid | délégué | utilisé pour se connecter à HeyTaco ! | utilisé pour se connecter à HeyTaco ! | be8d11cf-265a-4974-9912-4ff28c29fc21 |
->| profil | délégué | permet de capturer le nom d'utilisateur, l'image de profil, le décalage de fuseau horaire, l'ID client et l'ID d'équipe | utilisé pour capturer le nom d'utilisateur, l'avatar, le décalage de fuseau horaire, l'ID client et l'ID d'équipe | be8d11cf-265a-4974-9912-4ff28c29fc21 |
+>| profil | délégué | permet de capturer le nom d’utilisateur, l’image de profil, le décalage de fuseau horaire, l’ID client et l’ID d’équipe | utilisé pour capturer le nom d’utilisateur, l’avatar, le décalage de fuseau horaire, l’ID client et l’ID d’équipe | be8d11cf-265a-4974-9912-4ff28c29fc21 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d'identification de l'utilisateur final (EUII) : la liste (prénom, nom, nom d'affichage, adresse e-mail) d'un membre d'une équipe ou d'une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->| **Justification de l'accès à EUII ?**  | **L'EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l'EUII ?** |
+>| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Pour indiquer à l'utilisateur qu'il a reçu un reçu et de qui il s'agit. | Adresse de messagerie (pour les migrations d'une plateforme à une autre) Nom (pour le message d'accueil de l'utilisateur) Image de profil (pour l'affichage dans le classement) Fuseau horaire (pour afficher correctement les informations données sur la page d'activité) ID de locataire (Pour l'agrégation des données par client) ID d'équipe (Pour l'agrégation des données par équipe)  |  |
+>| Pour indiquer à l’utilisateur qu’il a reçu un reçu et de qui il s’agit. | Adresse de messagerie (pour les migrations d’une plateforme à une autre) Nom (pour le message d’accueil de l’utilisateur) Image de profil (pour l’affichage dans le classement) Fuseau horaire (pour afficher correctement les informations données sur la page d’activité) ID de locataire (Pour l’agrégation des données par client) ID d’équipe (Pour l’agrégation des données par équipe)  |  |
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->LES EUII et OII ne sont connectés à aucune journalisation. Seuls les types d'erreur et les types d'action.
+>LES EUII et OII ne sont connectés à aucune journalisation. Seuls les types d’erreur et les types d’action.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
 >HeyTaco! les bases de données et les sauvegardes de données sont hébergées sur Amazon Web Services (AWS). 
 
@@ -97,7 +98,7 @@ Nous avons la gestion des accès privilégiés en place pour protéger les donn�
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains sont-ils impliqués dans la révision ou l'analyse de données d'informations d'identification organisationnelle (OII) collectées ou stockées par cette application ?
+Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Oui
 

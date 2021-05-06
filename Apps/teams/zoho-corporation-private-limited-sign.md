@@ -1,18 +1,19 @@
 ---
-title: Informations sur l'application pour le signe Zoho par Zoho Corporation Private Limited
+title: Informations sur l’application pour le signe Zoho par Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour Zoho Sign, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour Zoho Sign, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 19ef808d02a008780fe3688c7ef3e2f767f2649e
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 49c6a98506f3586468fcd3658567a9508f5175b6
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094230"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251954"
 ---
 # <a name="zoho-sign"></a>Zoho Sign
 
@@ -34,12 +35,12 @@ Informations fournies par Zoho Corporation Private Limited à Microsoft :
 | Nom de l'application | Zoho Sign |
 | ID | WA104382011 |
 | Fonctionnalités | Tab |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Zoho Corporation Private Limited |
 | URL du site web partenaire | [https://zoho.com](https://zoho.com) |
-| URL de la Teams d'informations sur l'application | [https://www.zoho.com/sign/help/teams-extension.html](https://www.zoho.com/sign/help/teams-extension.html) |
+| URL de la Teams d’informations sur l’application | [https://www.zoho.com/sign/help/teams-extension.html](https://www.zoho.com/sign/help/teams-extension.html) |
 | URL de la politique de confidentialité | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
-| URL des conditions d'utilisation | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
+| URL des conditions d’utilisation | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,52 +48,52 @@ Informations fournies par Zoho Corporation Private Limited à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Zoho Corporation Private Limited sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par Zoho Corporation Private Limited sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d'autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d'application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Contacts.ReadWrite | délégué |  | Avoir un accès total aux contacts des utilisateurs. |  |
 >| Contacts.ReadWrite.Shared | délégué |  | Lire et écrire des contacts utilisateur et partagés. |  |
 >| Files.ReadWrite | délégué |  | Avoir un accès total aux fichiers utilisateur. |  |
->| Files.ReadWrite.All | délégué |  | Avoir un accès total à tous les fichiers accessibles par l'utilisateur. |  |
->| Files.ReadWrite.Selected | délégué |  | Lire et écrire des fichiers sélectionnés par l'utilisateur. |  |
+>| Files.ReadWrite.All | délégué |  | Avoir un accès total à tous les fichiers accessibles par l’utilisateur. |  |
+>| Files.ReadWrite.Selected | délégué |  | Lire et écrire des fichiers sélectionnés par l’utilisateur. |  |
 >| User.ReadBasic.All | délégué |  | Lire les profils de base de tous les utilisateurs. |  |
->| email | délégué |  | Afficher l'adresse e-mail de l'utilisateur. |  |
->| offline_access | délégué |  | Conservez l'accès aux données à qui vous avez accordé l'accès. |  |
->| profil | délégué |  | Afficher le profil de base de l'utilisateur. |  |
+>| email | délégué |  | Afficher l’adresse e-mail de l’utilisateur. |  |
+>| offline_access | délégué |  | Conservez l’accès aux données à qui vous avez accordé l’accès. |  |
+>| profil | délégué |  | Afficher le profil de base de l’utilisateur. |  |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d'identification de l'utilisateur final (EUII) : la liste (prénom, nom, nom d'affichage, adresse e-mail) d'un membre d'une équipe ou d'une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->Aucun EUII n'est accessible.
+>Aucun EUII n’est accessible.
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous ne collectons pas d'EUII/PII dans la télémétrie et les journaux. Nous avons mis en place des scripts pour rechercher et alerter la résolution de ces données visibles.
+>Nous ne collectons pas d’EUII/PII dans la télémétrie et les journaux. Nous avons mis en place des scripts pour rechercher et alerter la résolution de ces données visibles.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les clients en tant que contrôleur de données ont accès aux données en tout temps. Les administrateurs peuvent ajouter ou supprimer des utilisateurs du signe Zoho. Ils pourront afficher toutes les informations stockées dans l'application, y compris les pistes d'audit complètes, les rapports d'utilisation. Ils peuvent supprimer des données et des utilisateurs, transférer le contrôle des données entre les utilisateurs.
+>Les clients en tant que contrôleur de données ont accès aux données en tout temps. Les administrateurs peuvent ajouter ou supprimer des utilisateurs du signe Zoho. Ils pourront afficher toutes les informations stockées dans l’application, y compris les pistes d’audit complètes, les rapports d’utilisation. Ils peuvent supprimer des données et des utilisateurs, transférer le contrôle des données entre les utilisateurs.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
