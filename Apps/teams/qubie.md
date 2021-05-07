@@ -1,18 +1,19 @@
 ---
-title: Informations sur l'application pour Qu qurc par Qu sous
+title: Informations sur l’application pour Qu qurc par Qu sous
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour Qu catalog, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour Qu catalog, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: eb1a7b373c43b098d90c8ab7fce89be52dca7e71
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: aea17d24b3fbe2f840c21947213fefc7a4bfb283
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093276"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252354"
 ---
 # <a name="qubie"></a>Qubie
 
@@ -34,12 +35,12 @@ Informations fournies par Qurc à Microsoft :
 | Nom de l'application | Qubie |
 | ID | WA104381933 |
 | Fonctionnalités | Bot, Onglet |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Qubie |
 | URL du site web partenaire | [https://www.questback.com/our-products/performance-suite/te...](https://www.questback.com/our-products/performance-suite/teams-triumph-with-qubie/) |
-| URL de la Teams d'informations sur l'application | [https://www.questback.com/qubie-ms-teams](https://www.questback.com/qubie-ms-teams) |
+| URL de la Teams d’informations sur l’application | [https://www.questback.com/qubie-ms-teams](https://www.questback.com/qubie-ms-teams) |
 | URL de la politique de confidentialité | [https://www.questback.com/qubie-privacy-policy/](https://www.questback.com/qubie-privacy-policy/) |
-| URL des conditions d'utilisation | [https://www.questback.com/qubie-terms-and-conditions/](https://www.questback.com/qubie-terms-and-conditions/) |
+| URL des conditions d’utilisation | [https://www.questback.com/qubie-terms-and-conditions/](https://www.questback.com/qubie-terms-and-conditions/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,44 +48,44 @@ Informations fournies par Qurc à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Qu condition sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par Qu condition sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->Cette application n'utilise pas Microsoft Graph.
+>Cette application n’utilise pas Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d'identification de l'utilisateur final (EUII) : la liste (prénom, nom, nom d'affichage, adresse e-mail) d'un membre d'une équipe ou d'une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->| **Justification de l'accès à EUII ?**  | **L'EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l'EUII ?** |
+>| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Afficher le nom lors de la suppression de commentaires dans la conversation d'équipe et pour répondre à l'utilisateur qui a un bogue ou envoie des questions. Répondez à l'utilisateur qui a un bogue ou qui a une question. S'affiche lors de l'affichage des questions sur les performances de l'équipe afin que l'utilisateur connaisse le contexte de la question. Afficher le nom de l'équipe lors de l'affichage des rapports et des graphiques. | Nom d'affichage, adresse e-mail, nom de l'équipe  |  |
+>| Afficher le nom lors de la suppression de commentaires dans la conversation d’équipe et pour répondre à l’utilisateur qui a un bogue ou envoie des questions. Répondez à l’utilisateur qui a un bogue ou qui a une question. S’affiche lors de l’affichage des questions sur les performances de l’équipe afin que l’utilisateur connaisse le contexte de la question. Afficher le nom de l’équipe lors de l’affichage des rapports et des graphiques. | Nom d’affichage, adresse e-mail, nom de l’équipe  |  |
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nom d'affichage et courrier électronique de l'utilisateur : utilisé pour communiquer avec les utilisateurs qui envoient des bogues/questions
+>Nom d’affichage et courrier électronique de l’utilisateur : utilisé pour communiquer avec les utilisateurs qui envoient des bogues/questions
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Ils peuvent contacter l'équipe de rappel pour modifier/supprimer des données d'audit.
+>Ils peuvent contacter l’équipe de rappel pour modifier/supprimer des données d’audit.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

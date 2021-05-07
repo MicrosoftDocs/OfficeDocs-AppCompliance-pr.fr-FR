@@ -1,18 +1,19 @@
 ---
-title: Informations d'application pour Jetdocs par Jetdocs
+title: Informations d’application pour Jetdocs par Jetdocs
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour Jetdocs, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour Jetdocs, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 378abf284c54f1931f63dc1f05dccaff01bf8bd4
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7401cacdcbecd28fdf0a19bb7349b21c1168f547
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093685"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252504"
 ---
 # <a name="jetdocs"></a>Jetdocs
 
@@ -34,11 +35,11 @@ Informations fournies par Jetdocs à Microsoft :
 | Nom de l'application | Jetdocs |
 | ID | WA200002236 |
 | Fonctionnalités | Bot, Onglet |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Jetdocs |
 | URL du site web partenaire | [https://jetdocs.io/](https://jetdocs.io/) |
 | URL de la politique de confidentialité | [https://jetdocs.io/privacy/](https://jetdocs.io/privacy/) |
-| URL des conditions d'utilisation | [https://jetdocs.io/terms/](https://jetdocs.io/terms/) |
+| URL des conditions d’utilisation | [https://jetdocs.io/terms/](https://jetdocs.io/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -46,46 +47,46 @@ Informations fournies par Jetdocs à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Jetdocs sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par Jetdocs sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->Cette application n'utilise pas Microsoft Graph.
+>Cette application n’utilise pas Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d'identification de l'utilisateur final (EUII) : la liste (prénom, nom, nom d'affichage, adresse e-mail) d'un membre d'une équipe ou d'une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->Aucun EUII n'est accessible.
+>Aucun EUII n’est accessible.
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Non : tous les journaux/analyses stockent uniquement les ID d'utilisateur internes, aucune information d'identification externe
+>Non : tous les journaux/analyses stockent uniquement les ID d’utilisateur internes, aucune information d’identification externe
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données sont actuellement stockées sur une base de données AWS. L'accès est contrôlé par le biais d'un groupe de sécurité qui permet uniquement à l'application backend déployée d'y accéder, ainsi que les adresses IP sur liste blanche pour les développeurs administrateurs au sein de l'entreprise (actuellement uniquement alex@jetdocs.io IP personnelle). Les données stockées sont chiffrées.
+>Les données sont actuellement stockées sur une base de données AWS. L’accès est contrôlé par le biais d’un groupe de sécurité qui permet uniquement à l’application backend déployée d’y accéder, ainsi que les adresses IP sur liste blanche pour les développeurs administrateurs au sein de l’entreprise (actuellement uniquement alex@jetdocs.io IP personnelle). Les données stockées sont chiffrées.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains sont-ils impliqués dans la révision ou l'analyse de données d'informations d'identification organisationnelle (OII) collectées ou stockées par cette application ?
+Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Non
 
