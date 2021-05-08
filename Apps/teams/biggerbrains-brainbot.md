@@ -1,46 +1,46 @@
 ---
-title: Informations d’application pour centrical par Biz-Effective
+title: Informations d’application pour BrainBot par Biggerbrains
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/12/2021
+ms.date: 04/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Centrical, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour BrainBot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8255572428a9fc1bc2ea9dbe30edb558c3fc03ff
+ms.openlocfilehash: b45d2bdc985dea83e925f38ae65222836dd16848
 ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253165"
+ms.locfileid: "52253387"
 ---
-# <a name="centrical"></a>Centrical
+# <a name="brainbot"></a>BrainBot
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 12, 2021</p>
+<p>Last updated by the developer on: April 28, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/7a70b8e4-43ca-46a7-b7c3-eb31b33de397" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001531" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/3c95872f-ca12-456e-84b9-c717fe93330c" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381981" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Biz-Effective à Microsoft :
+Informations fournies par Biggerbrains à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Centrical |
-| ID | WA200001531 |
-| Fonctionnalités | Bot, Onglet, Extension de la messagerie |
+| Nom de l'application | BrainBot |
+| ID | WA104381981 |
+| Fonctionnalités | Bot |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Biz-Effective |
-| URL du site web partenaire | [https://centrical.com](https://centrical.com) |
-| URL de la Teams d’informations sur l’application | [https://centrical.com/solutions/solutions-by-use-case-2/mic...](https://centrical.com/solutions/solutions-by-use-case-2/microsoft-teams-gamification/) |
-| URL de la politique de confidentialité | [https://centrical.com/privacy](https://centrical.com/privacy) |
-| URL des conditions d’utilisation | [https://centrical.com/terms](https://centrical.com/terms) |
+| Nom de la société partenaire | Biggerbrains |
+| URL du site web partenaire | [https://brainbot.ai](https://brainbot.ai) |
+| URL de la Teams d’informations sur l’application | [https://brainbot.ai](https://brainbot.ai) |
+| URL de la politique de confidentialité | [https://brainbot.ai/privacypolicy/](https://brainbot.ai/privacypolicy/) |
+| URL des conditions d’utilisation | [https://brainbot.ai/terms/](https://brainbot.ai/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,13 +50,15 @@ Informations fournies par Biz-Effective à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Biz-Effective sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Biggerbrains sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->Cette application n’utilise pas Microsoft Graph.
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
+>| User.Read | application | Nous utilisons des noms complets d’adresses &amp; de messagerie dans le cadre du processus d’authentification. En outre, les adresses e-mail sont utilisées pour envoyer des séquences d’apprentissage à l’utilisateur lorsqu’il s’est abonné à un | Nous utilisons des noms complets d’adresses &amp; de messagerie dans le cadre du processus d’authentification. En outre, les adresses e-mail sont utilisées pour envoyer des séquences d’apprentissage à l’utilisateur lorsqu’il s’est abonné à un | b256b34a-b377-4fc2-b25a-a8f5f0594e86 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -69,7 +71,9 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->Aucun EUII n’est accessible.
+>| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
+>|:--------------------------------|:---------------------|:--------------------------|
+>| Nous utilisons des noms complets d’adresses &amp; de messagerie dans le cadre du processus d’authentification. En outre, les adresses e-mail sont utilisées pour envoyer des séquences d’apprentissage à l’utilisateur lorsqu’il s’est abonné à un | Noms complets des &amp; adresses e-mail | Ils sont utilisés à des fins de connexion et dans le cadre de la fonctionnalité d’application pour envoyer des séquences d’apprentissage à l’utilisateur lorsqu’il s’est abonné à un |
 
 
 
@@ -77,13 +81,13 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
+>Les réponses des utilisateurs aux évaluations de formation sont stockées jusqu’à ce que la personne ou l’organisation demande la suppression.  Les comptes inactifs sont supprimés au bout de douze mois. 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Nous respectons la norme SOC2 Type 2, la norme ISO 27001 et le R GDPR. Plusieurs contrôles sont placés pour garantir la confidentialité et la sécurité des données. Nous utilisons les données uniquement pour notre application et ne les partageons pas avec des tiers.
+>n/a, aucune donnée n’est stockée dans les systèmes partenaires
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -99,9 +103,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36383' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37584' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36383" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37584" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,22 +115,21 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Biz-Effective sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par Biggerbrains sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
-| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Non |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | false |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
-| Votre application prend-elle en charge l’location multiple ? | Oui |
+| Votre application prend-elle en charge l’location multiple ? | Non |
 | Votre application a-t-elle un client confidentiel ? | Non |
 | Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
 | Pour votre application, qu’est-ce que vous évitez d’utiliser ? | - URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/>- Flux ROPC (Resource Owner Password Credential) |
-| Votre application expose-t-elle des API web ? | Oui |
-| Votre modèle d’autorisation autorise-t-il uniquement les appels à réussir si l’application cliente reçoit le consentement approprié ? | Oui |
+| Votre application expose-t-elle des API web ? | Non |
 | Votre application utilise-t-elle les API d’aperçu ? | Non |
 | Votre application utilise-t-elle des API dépréciées ? | Non |
 

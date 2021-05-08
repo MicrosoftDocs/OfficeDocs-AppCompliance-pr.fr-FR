@@ -1,20 +1,21 @@
 ---
-title: Outil Informations sur l'application pour les campagnes Zoho pour l'automatisation marketing par Zoho Corporation Private Limited
+title: Outil Informations sur l’application pour les campagnes Zoho pour l’automatisation marketing par Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour l'outil Campagnes de Zoho pour l'automatisation marketing, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour l’outil Campagnes de Zoho pour l’automatisation marketing, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0c8422a016ac803605ab37c10e93f1afe4de657c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: e6107ce4526c7880253d52b6cecb0898c205f57e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094033"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252905"
 ---
-# <a name="zoho-campaigns-tool-for-marketing-automation"></a>Outil campagnes Zoho pour l'automatisation marketing
+# <a name="zoho-campaigns-tool-for-marketing-automation"></a>Outil campagnes Zoho pour l’automatisation marketing
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -30,13 +31,13 @@ Informations fournies par Zoho Corporation Private Limited à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Outil campagnes Zoho pour l'automatisation marketing |
+| Nom de l'application | Outil campagnes Zoho pour l’automatisation marketing |
 | ID | WA104380835 |
 | Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Zoho Corporation Private Limited |
 | URL du site web partenaire | [https://www.zoho.com/](https://www.zoho.com/) |
 | URL de la politique de confidentialité | [https://zoho.com/privacy.html](https://zoho.com/privacy.html) |
-| URL des conditions d'utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -44,30 +45,30 @@ Informations fournies par Zoho Corporation Private Limited à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Zoho Corporation Private Limited sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par Zoho Corporation Private Limited sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d'autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d'application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | délégué | L'ID de calendrier est stocké pour créer des événements dans ce calendrier à partir des campagnes Zoho. | Permet à l'utilisateur d'importer un événement de calendrier Office 365 dans les campagnes Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Calendars.ReadWrite | délégué |  | Permet à l'utilisateur d'ajouter des événements Zoho Campaigns au calendrier Office365. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.Read | délégué |  Pour enregistrer les informations de contact. | Permet à l'utilisateur d'importer des contacts Office365 dans les campagnes Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Calendars.Read | délégué | L’ID de calendrier est stocké pour créer des événements dans ce calendrier à partir des campagnes Zoho. | Permet à l’utilisateur d’importer un événement de calendrier Office 365 dans les campagnes Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Calendars.ReadWrite | délégué |  | Permet à l’utilisateur d’ajouter des événements Zoho Campaigns au calendrier Office365. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Contacts.Read | délégué |  Pour enregistrer les informations de contact. | Permet à l’utilisateur d’importer des contacts Office365 dans les campagnes Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| Contacts.ReadWrite | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| User.Read | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| User.ReadBasic.All | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| email | délégué | Le courrier électronique est stocké pour l'identification de l'utilisateur. |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| email | délégué | Le courrier électronique est stocké pour l’identification de l’utilisateur. |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| offline_access | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| profil | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
@@ -75,24 +76,24 @@ Si l'application transfère ou partage des données organisationnelles avec un s
 
 #### <a name="add-in-data-access"></a>Accès aux données du add-in
 
-List the permissions this app requires for accessing your organization's data, the justification and purpose for this permission (what does the app use this information for?) and whether the app stores any of this information in its databases.
+List the permissions this app requires for accessing your organization’s data, the justification and purpose for this permission (what does the app use this information for?) and whether the app stores any of this information in its databases.
 
 >| **Autorisation**  | **Description** |
 >|:----------------|:----------------|
->| Lire l'élément | Ce module complémentaire peut accéder à des informations personnelles sur le message actif, telles que les noms des expéditeurs, les noms des destinataires, les adresses e-mail, le corps du message et les informations de pièce jointe. Le add-in peut envoyer ces données à un service tiers. D'autres éléments de votre boîte&#8217;ne peuvent pas être lus ou modifiés. |
+>| Lire l’élément | Ce module complémentaire peut accéder à des informations personnelles sur le message actif, telles que les noms des expéditeurs, les noms des destinataires, les adresses e-mail, le corps du message et les informations de pièce jointe. Le add-in peut envoyer ces données à un service tiers. D’autres éléments de votre boîte&#8217;ne peuvent pas être lus ou modifiés. |
 >| Envoyer des données | Peut envoyer des données sur Internet |
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous ne collectons pas d'EUII/PII dans la télémétrie et les journaux. Nous avons mis en place des scripts pour rechercher et alerter la résolution de ces données visibles.
+>Nous ne collectons pas d’EUII/PII dans la télémétrie et les journaux. Nous avons mis en place des scripts pour rechercher et alerter la résolution de ces données visibles.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Le client peut sélectionner les données qui doivent être chiffrées via EAR (Chiffrement au repos) avec des restrictions de sécurité. Les mots de passe sont hachés par défaut. L'accès logique aux serveurs est fourni via un réseau dédié &amp; isolé et est hautement sécurisé et
+>Le client peut sélectionner les données qui doivent être chiffrées via EAR (Chiffrement au repos) avec des restrictions de sécurité. Les mots de passe sont hachés par défaut. L’accès logique aux serveurs est fourni via un réseau dédié &amp; isolé et est hautement sécurisé et
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

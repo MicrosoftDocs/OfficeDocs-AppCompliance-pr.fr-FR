@@ -6,14 +6,14 @@ ms.date: 04/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour l’Équipe, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Le Monde, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 996cd1a4de1ac793bacb354e8985f600cbb0a0f5
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 3fead70ef460ec81d89144420850ce47e3aee3e4
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252080"
+ms.locfileid: "52258781"
 ---
 # <a name="tribute"></a>Erz
 
@@ -21,7 +21,7 @@ ms.locfileid: "52252080"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: April 16, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/cfb46a87-a75b-4045-9f22-a0ae0614fd60" target="_blank">Afficher dans Teams store</a>
+* <a href="https://teams.microsoft.com/l/app/cfb46a87-a75b-4045-9f22-a0ae0614fd60" target="_blank">Afficher dans le magasin Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002589" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
@@ -34,11 +34,11 @@ Informations fournies par Co. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Erz |
 | ID | WA200002589 |
-| Fonctionnalités | Tab |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Fonctionnalités | Onglet |
+| Clients Office 365 pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Tribute Co. |
 | URL du site web partenaire | [https://www.tributementorship.com](https://www.tributementorship.com) |
-| URL de la Teams d’informations sur l’application | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
+| URL de la page d’informations sur l’application Teams | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
 | URL de la politique de confidentialité | [https://www.tributementorship.com/privacy](https://www.tributementorship.com/privacy) |
 | URL des conditions d’utilisation | [https://www.tributementorship.com/terms](https://www.tributementorship.com/terms) |
 
@@ -59,11 +59,11 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >Cette application n’utilise pas Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
+#### <a name="non-microsoft-services-used"></a>Services non Microsoft utilisés
 
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
->Les éléments services Microsoft ne sont pas utilisés.
+>Les services autres que Microsoft ne sont pas utilisés.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -97,9 +97,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du [catalogue Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Informations sur la sécurité des applications Microsoft Cloud' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -116,8 +116,8 @@ Ces informations ont été fournies par l’application Co. sur la façon dont c
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
-| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | true |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration de la plateforme d’identités Microsoft ?  | Oui |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Non |

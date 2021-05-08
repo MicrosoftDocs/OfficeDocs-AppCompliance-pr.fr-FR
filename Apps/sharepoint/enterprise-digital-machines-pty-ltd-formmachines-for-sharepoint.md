@@ -1,18 +1,19 @@
 ---
-title: Informations d'application pour les FormMachines SharePoint par ENTERPRISE DIGITAL MACHINES PTY LTD
+title: Informations d’application pour les FormMachines SharePoint par ENTERPRISE DIGITAL MACHINES PTY LTD
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour les FormMachines pour SharePoint, ses stratégies de gestion des données, ses informations de catalogue d'applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour les FormMachines pour SharePoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ee74d9fdcac17263b45a34deeb730b21b6b45ecc
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: d2793ffd2c43275af52a02032878a6e47660306f
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093974"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252784"
 ---
 # <a name="formmachines-for-sharepoint"></a>FormMachines pour SharePoint
 
@@ -36,7 +37,7 @@ Informations fournies par ENTERPRISE DIGITAL MACHINES PTY LTD à Microsoft :
 | Nom de la société partenaire | ENTERPRISE DIGITAL MACHINES PTY LTD |
 | URL du site web partenaire | [https://www.formmachines.com/](https://www.formmachines.com/) |
 | URL de la politique de confidentialité | [https://www.formmachines.com/?dirKey=fm-privacy](https://www.formmachines.com/?dirKey=fm-privacy) |
-| URL des conditions d'utilisation | [https://www.formmachines.com/?dirKey=fm-terms-of-use](https://www.formmachines.com/?dirKey=fm-terms-of-use) |
+| URL des conditions d’utilisation | [https://www.formmachines.com/?dirKey=fm-terms-of-use](https://www.formmachines.com/?dirKey=fm-terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -44,22 +45,22 @@ Informations fournies par ENTERPRISE DIGITAL MACHINES PTY LTD à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l'application
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par ENTERPRISE DIGITAL MACHINES PTY LTD sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l'application.
+Ces informations ont été fournies par ENTERPRISE DIGITAL MACHINES PTY LTD sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l'aide de Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d'autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d'application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | délégué | (connexion, courrier électronique, Azure Guid, displayName, first_login_date_time) | permet à l'utilisateur de se connecter et donne à l'application l'accès à son UPN pour activer la connexion silencieuse, nous permet d'identifier chaque utilisateur de manière unique | 8c87660f-d36f-41f6-b0ae-025253f380aa |
+>| User.Read | délégué | (connexion, courrier électronique, Azure Guid, displayName, first_login_date_time) | permet à l’utilisateur de se connecter et donne à l’application l’accès à son UPN pour activer la connexion silencieuse, nous permet d’identifier chaque utilisateur de manière unique | 8c87660f-d36f-41f6-b0ae-025253f380aa |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l'application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l'application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l'application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
@@ -67,7 +68,7 @@ Si l'application transfère ou partage des données organisationnelles avec un s
 
 #### <a name="add-in-data-access"></a>Accès aux données du add-in
 
-List the permissions this app requires for accessing your organization's data, the justification and purpose for this permission (what does the app use this information for?) and whether the app stores any of this information in its databases.
+List the permissions this app requires for accessing your organization’s data, the justification and purpose for this permission (what does the app use this information for?) and whether the app stores any of this information in its databases.
 
 >| **Autorisation**  | **Description** |
 >|:----------------|:----------------|
@@ -76,19 +77,19 @@ List the permissions this app requires for accessing your organization's data, t
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d'identification organisationnelle (OII) ou d'identification de l'utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->. Nous ne logons que les erreurs. Dans notre journal des erreurs, nous n'allons enregistrer que les informations relatives aux erreurs. Le client ou le client qui a déclenché une erreur particulière n'est pas collecté. Seuls les ingénieurs du support technique ont accès aux journaux d'erreurs. Les journaux d'erreur sont consultables en ligne, et non téléchargés et consultables. Les journaux d'erreurs sont supprimés automatiquement après 30 jours
+>. Nous ne logons que les erreurs. Dans notre journal des erreurs, nous n’allons enregistrer que les informations relatives aux erreurs. Le client ou le client qui a déclenché une erreur particulière n’est pas collecté. Seuls les ingénieurs du support technique ont accès aux journaux d’erreurs. Les journaux d’erreur sont consultables en ligne, et non téléchargés et consultables. Les journaux d’erreurs sont supprimés automatiquement après 30 jours
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l'organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l'audit, l'archivage, la stratégie de l'utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->. Les données sont stockées dans des centres de données Azure aux États-Unis. Les données fournies par le client, telles que les modèles et les soumissions, sont chiffrées dans la base de données. Les pièces jointes sont stockées dans des conteneurs PRIVÉs Azure BLOB, les utilisateurs doivent s'authentifier avant d'y accéder. Nous avons au maximum deux administrateurs qui peuvent accéder à nos ressources de production, pour le dépannage et le déploiement. Ces deux comptes d'administrateur sont partitionn s différemment pour tous les autres comptes. Le nombre d'accès administrateur ne dépassera jamais deux
+>. Les données sont stockées dans des centres de données Azure aux États-Unis. Les données fournies par le client, telles que les modèles et les soumissions, sont chiffrées dans la base de données. Les pièces jointes sont stockées dans des conteneurs PRIVÉs Azure BLOB, les utilisateurs doivent s’authentifier avant d’y accéder. Nous avons au maximum deux administrateurs qui peuvent accéder à nos ressources de production, pour le dépannage et le déploiement. Ces deux comptes d’administrateur sont partitionn s différemment pour tous les autres comptes. Le nombre d’accès administrateur ne dépassera jamais deux
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains sont-ils impliqués dans la révision ou l'analyse de données d'informations d'identification organisationnelle (OII) collectées ou stockées par cette application ?
+Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Oui
 

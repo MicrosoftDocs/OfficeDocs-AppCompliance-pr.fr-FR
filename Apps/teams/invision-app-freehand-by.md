@@ -1,27 +1,27 @@
 ---
-title: Informations sur l’application gratuite par InVision par l’application InVision
+title: Informations sur les applications gratuites par InVision par l’application InVision
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/16/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour la gestion libre par InVision, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour la gestion gratuite par InVision, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8ff5737df8fbc08c1030365bebba67d3ce32b38a
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: fa9a02b63eff4001789f5a7c854fd9ee554d6e84
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252117"
+ms.locfileid: "52258771"
 ---
 # <a name="freehand-by-invision"></a>Libre-service par InVision
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 16, 2021</p>
+<p>Last updated by the developer on: May 6, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">Afficher dans Teams store</a>
+* <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">Afficher dans le magasin Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381362" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
@@ -34,11 +34,11 @@ Informations fournies par l’application InVision à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Libre-service par InVision |
 | ID | WA104381362 |
-| Fonctionnalités | Tab |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Fonctionnalités | Onglet |
+| Clients Office 365 pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Application InVision |
 | URL du site web partenaire | [https://www.invisionapp.com/](https://www.invisionapp.com/) |
-| URL de la Teams d’informations sur l’application | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
+| URL de la page d’informations sur l’application Teams | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
 | URL de la politique de confidentialité | [https://www.invisionapp.com/privacy](https://www.invisionapp.com/privacy) |
 | URL des conditions d’utilisation | [https://www.invisionapp.com/terms](https://www.invisionapp.com/terms) |
 
@@ -59,11 +59,11 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >Cette application n’utilise pas Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
+#### <a name="non-microsoft-services-used"></a>Services non Microsoft utilisés
 
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
->| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
+>| **Tous les OII de services non-Microsoft sont transférés vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-------------------|:--------------------------|:--------------------------|
 >| https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors |
 
@@ -85,7 +85,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les évaluations des risques tierces sont effectuées sur les fournisseurs qui traitéent des informations personnelles. Des clauses ont été ajoutées contractuellement pour inclure le droit d’audit &#8220;&#8221; et la diligence raisonnable se produit une fois par an en fonction de facteurs critiques/de risque. Le service juridique a implémenté des addendums de protection des données à ajouter contractuellement le cas échéant, ainsi que des normes acceptables qui répondent aux exigences d’InVision. (Notez que les sous-traitants n’auraient pas accès aux données de projet client dans un format non chiffré.)
+>Les évaluations des risques tierces sont effectuées sur les fournisseurs qui traitéent des informations personnelles. Des clauses ont été ajoutées contractuellement pour inclure le droit &#8220;auditer&#8221; et la diligence raisonnable se produit à une fois par an en fonction de facteurs critiques/de risque. Le service juridique a implémenté des addendums de protection des données à ajouter contractuellement le cas échéant, ainsi que des normes acceptables qui répondent aux exigences d’InVision. (Notez que les sous-traitants n’auraient pas accès aux données de projet client dans un format non chiffré.)
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -99,9 +99,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du [catalogue Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20788' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Informations sur la sécurité des applications Microsoft Cloud' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20788' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20788" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -113,12 +113,12 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par l’application InVision sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par l’application InVision sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Non |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration de la plateforme d’identités Microsoft ?  | Non |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Non |
