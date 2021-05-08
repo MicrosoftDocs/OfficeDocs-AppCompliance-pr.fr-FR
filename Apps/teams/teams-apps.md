@@ -2,17 +2,17 @@
 title: Sécurité et conformité de l’application Microsoft Teams – Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/19/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations sur la conformité et la sécurité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 31d085e5a2f8d01e8899f7c3fe911184c2cff879
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6bc983288ea2acb783fd99a80c6c4dbcfbf83fae
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071042"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251043"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Sécurité et conformité de l’application Microsoft Teams
 
@@ -21,6 +21,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourn
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** | **Informations sur le traitement des données** | **Informations sur la Sécurité des applications cloud**  | **Fonctionnalités de l’application** |
 |:--------|:------------|:----------------------:|:-------------:|:-----------------------------:|:----------------------------------:|:---------------------|
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  | Oui | Oui | Onglet, Connecteur |
+| [ADI](./akari-solutions-limited-adi.md) | Solutions Akari Limitée | **✓** |  | Oui | Oui | Bot |
 | [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Oui | Oui | Bot, Onglet |
 | [Tableau de tâches Agile](./agile-is-task-board.md) | Agile-IS | **✓** |  | Oui | Oui | Onglet |
 | [Bureau de service Alvao](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  | Oui | Oui | Bot, Extension de la messagerie |
@@ -31,10 +32,14 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourn
 | [atSpoke](./townsend-street-labs-inc-atspoke.md) | Townsend Street Labs, Inc. | **✓** |  | Oui | Oui | Bot |
 | [AttendanceBot](./anaek-attendancebot.md) | Anaek | **✓** |  | Oui | Oui | Bot |
 | [AVA](./avepoint-inc-ava.md) | AvePoint, Inc. | **✓** |  | Oui | Oui | Bot, Onglet |
+| [Beekast](./beekast.md) | Beekast | **✓** |  | Oui | Oui | Onglet |
 | [Beesy](./beesapps-beesy.md) | BeesApps | **✓** |  | Oui | Oui | Bot, Onglet |
 | [Connexion de tableau](./engage-squared-board-connect.md) | Engage Squared | **✓** |  | Oui | Oui | Onglet |
 | [Bonusly](./bonusly.md) | Bonusly | **✓** |  | Oui | Oui | Bot |
+| [BrainBot](./biggerbrains-brainbot.md) | Biggerbrains | **✓** |  | Oui | Oui | Bot |
 | [Breakthru](./breakthru.md) | Breakthru | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
+| [Brightidea](./brightidea.md) | Brightidea | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
+| [Bot C.AI d’adoption](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** |  | Oui | Oui | Bot, Onglet |
 | [BOT Calendrier](./approved-contact-calendar-bot.md) | Contact approuvé | **✓** |  | Oui | Oui | Bot, Onglet |
 | [CatchEm](./chimu-software-catchem.md) | Logiciel Chimu | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
@@ -48,15 +53,18 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourn
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  | Oui | Oui | Onglet |
 | [Droplr](./droplr.md) | Droplr | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
 | [Signal dynamique](./dynamic-signal.md) | Signal dynamique | **✓** |  | Oui | Oui | Bot, Onglet |
+| [Projets faciles](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  | Oui | Oui | Bot, Extension de la messagerie |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  | Oui | Oui | Onglet |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  | Oui | Oui | Onglet |
 | [elmah.io](./elmahio.md) | elmah.io | **✓** |  | Oui | Oui | Connecteur |
 | [Email TeamMate](./harmonie-email-teammate.md) | harmon.ie | **✓** |  | Oui | Oui | Bot, Extension de la messagerie |
+| [Empuls](./empuls.md) | Empuls | **✓** |  | Oui | Oui | Bot, Extension de la messagerie |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  | Oui | Oui | Bot |
 | [Evernote](./evernote.md) | Evernote | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
 | [Evocom](./evocom-informationssysteme-gmbh.md) | Evocom Informationssysteme GmbH | **✓** |  | Oui | Oui | Onglet |
 | [ezTeam](./enterprizid-inc-ezteam.md) | EnterprizID Inc | **✓** |  | Oui | Oui | Bot, Onglet |
 | [FormMachines](./enterprise-digital-machines-formmachines.md) | Entreprise d’ordinateurs numériques | **✓** |  | Oui | Oui | Onglet, Connecteur |
+| [Main levée par InVision](./invision-app-freehand-by.md) | Application InVision | **✓** |  | Oui | Oui | Onglet |
 | [Freshdesk](./freshworks-inc-freshdesk.md) | Freshworks INC | **✓** |  | Oui | Oui | Bot |
 | [Fusion à distance](./jujo-inc-fusion-remote.md) | Jujo Inc. | **✓** |  | Oui | Oui | Bot |
 | [Go1](./go1.md) | Go1 | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
@@ -66,8 +74,10 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourn
 | [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  | Oui | Oui | Bot, Onglet |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
 | [Hibob](./hibob-inc.md) | Hibob Inc. | **✓** |  | Oui | Oui | Bot |
+| [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  | Oui | Oui | Bot, Extension de la messagerie |
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  | Oui | Oui | Onglet |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  | Oui | Oui | Onglet, Connecteur |
+| [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  | Oui | Oui | Bot |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Équipe Industry Intelligence | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
 | [InStation](./developers-invillia-instation.md) | Développeurs Invillia | **✓** |  | Oui | Oui | Onglet |
 | [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  | Oui | Oui | Bot, Onglet |
@@ -103,10 +113,13 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourn
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  | Oui | Oui | Onglet, Connecteur |
 | [OfficeSpace](./officespace-software.md) | Logiciel OfficeSpace | **✓** |  | Oui | Oui | Bot |
 | [Officevibe](./officevibe.md) | Officevibe | **✓** |  | Oui | Oui | Bot |
+| [Onsight Connect](./librestream-onsight-connect.md) | Librestream | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
 | [OpenAgora](./open-agora-openagora.md) | Open Agora | **✓** |  | Oui | Oui | Bot, Onglet |
 | [Org@Work](./lundano-org@work.md) | Lundano | **✓** |  | Oui | Oui | Bot, Onglet |
+| [Notificateur de package](./qburst-technologies-pvt-ltd-package-notifier.md) | QBURST TECHNOLOGIES PVT LTD | **✓** |  | Oui | Oui | Connecteur |
 | [Perfony](./perfony.md) | Perfony | **✓** |  | Oui | Oui | Onglet |
 | [Piazza](./piazza.md) | Piazza | **✓** |  | Oui | Oui | Onglet |
+| [Calendrier de l'équipe Planyway](./rubius-planyway-team-calendar.md) | Rubius | **✓** |  | Oui | Oui | Onglet |
 | [Polly](./polly.md) | Polly | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
 | [Vidéo Prezi](./prezi-video.md) | Prezi | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Oui | Oui | Bot, Onglet, Extension de la messagerie, Connecteur |
@@ -139,22 +152,27 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourn
 | [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  | Oui | Oui | Bot |
 | [Slido](./slido.md) | Slido | **✓** |  | Oui | Oui | Bot, Onglet |
 | [Smart Connect pour Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  | Oui | Oui | Bot, Extension de la messagerie |
+| [Suite d’apprentissage SMART](./smart-technologies-ulc-learning-suite.md) | SMART Technologies ULC | **✓** |  | Oui | Oui | Onglet |
 | [Smartnotation](./smartnotation-bv.md) | Smartnotation B.V. | **✓** |  | Oui | Oui | Onglet, Connecteur |
 | [Smartsheet](./smartsheet.md) | Smartsheet | **✓** |  | Oui | Oui | Bot, Onglet |
-| [SmartWork](./smartwork-of-intumit.md) | SmartWork de Intumit | **✓** |  | Oui | Oui | Bot |
+| [SmartWork](./smartwork-of-intumit.md) | SmartWork de Intumit | **✓** |  | Oui | Oui | Bot, Onglet |
+| [SmileBack](./smileback.md) | SmileBack | **✓** |  | Oui | Oui | Connecteur |
 | [Soapbox](./soapbox.md) | Soapbox | **✓** |  | Oui | Oui | Bot, Onglet |
 | [Spinify](./spinify.md) | Spinify | **✓** |  | Oui | Oui | Bot, Onglet |
 | [Stack Overflow pour Teams](./stack-overflow-for-teams.md) | Stack Overflow | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  | Oui | Oui | Bot |
 | [StarLeaf](./starleaf.md) | StarLeaf | **✓** |  | Oui | Oui | Bot, Extension de la messagerie |
+| [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  | Oui | Oui | Onglet |
 | [Streem](./streem.md) | Streem | **✓** |  | Oui | Oui | Bot |
 | [Studi.ly](./inlogic-office-store-studily.md) | inLogic-Office Store | **✓** |  | Oui | Oui | Onglet |
 | [SurveyMonkey](./surveymonkey.md) | SurveyMonkey | **✓** |  | Oui | Oui | Bot, Onglet, Extension de la messagerie, Connecteur |
+| [SurveySparrow](./admin@surveysparrowcom-surveysparrow.md) | admin@surveysparrow.com | **✓** |  | Oui | Oui | Bot |
 | [Sympli](./sympli-llc.md) | Sympli, LLC | **✓** |  | Oui | Oui | Bot, Extension de la messagerie |
 | [TackleBox](./insiten-tacklebox.md) | Insiten | **✓** |  | Oui | Oui | Onglet, Connecteur |
 | [Talla](./talla-inc.md) | Talla Inc. | **✓** |  | Oui | Oui | Bot, Onglet |
 | [Talview Interviews](./talview-inc-interviews.md) | Talview Inc | **✓** |  | Oui | Oui | Onglet |
 | [TaskList](./limestat-inc-tasklist.md) | LimeStat, Inc | **✓** |  | Oui | Oui | Bot |
+| [Teamhood](./eylean-uab-teamhood.md) | Eylean, UAB | **✓** |  | Oui | Oui | Bot, Extension de la messagerie |
 | [TeamMate par ChitChattr](./chitchattr-teammate-by.md) | ChitChattr | **✓** |  | Oui | Oui | Bot, Onglet |
 | [TeamMood](./power-up-conseil-teammood.md) | Power Up Conseil | **✓** |  | Oui | Oui | Bot |
 | [Gestionnaire Teams](./solutions2share-gmbh-teams-manager.md) | Solutions2Share GmbH | **✓** |  | Oui | Oui | Bot, Onglet |
@@ -165,7 +183,9 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourn
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  | Oui | Oui | Bot, Extension de la messagerie |
 | [timeghost](./kollisch-gmbh-timeghost.md) | K&#246;llisch GmbH | **✓** |  | Oui | Oui | Onglet |
 | [TINYpulse](./tinypulse.md) | TINYpulse | **✓** |  | Oui | Oui | Bot, Connecteur |
+| [Tribute](./tribute-co.md) | Tribute Co. | **✓** |  | Oui | Oui | Onglet |
 | [Trivia](./springworks-hr-tech-trivia.md) | Springworks HR Tech | **✓** |  | Oui | Oui | Bot, Onglet |
+| [Trivie](./trivie-inc.md) | Trivie, Inc. | **✓** |  | Oui | Oui | Onglet |
 | [Tryane Analytics](./tryane-analytics.md) | Tryane | **✓** |  | Oui | Oui | Onglet |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  | Oui | Oui | Bot, Onglet |
 | [Viima](./viima-solutions-oy.md) | Viima Solutions Oy | **✓** |  | Oui | Oui | Onglet |
