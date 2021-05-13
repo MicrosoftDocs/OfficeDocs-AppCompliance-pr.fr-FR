@@ -6,12 +6,12 @@ description: Guide de l’utilisateur isv pour Microsoft 365 conformité des app
 keywords: Guide de l’utilisateur isv pour Microsoft 365 conformité des applications
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1338edfc5ad4447d9167eea66388cd8d7a65a883
-ms.sourcegitcommit: 47fdc4f6dcfbc1b4c74f7e1e49343b9b1ce6ef9c
+ms.openlocfilehash: a6b0abb55359a16d4651722d776dfb16282edc87
+ms.sourcegitcommit: bb6c1353781d7b6f8b171bf6853b85e42fda656e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/11/2021
-ms.locfileid: "52313273"
+ms.locfileid: "52324083"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Guide de l’utilisateur du partenaire pour le Microsoft 365 conformité des applications
 
@@ -44,7 +44,7 @@ Page d’accueil : il s’agit de la page d’accueil une fois qu’un partenair
 
 ![Office Store se trouve sur le navigation de gauche](../media/Picture2.png)
 
-Lorsque vous sélectionnez « Vue d’ensemble » , le partenaire peut voir la liste des applications envoyées par le biais de l’Partner Center et disponibles pour le programme Microsoft 365 conformité.
+Lorsque vous sélectionnez « Vue d’ensemble », le partenaire peut voir la liste des applications envoyées par le biais de l’Centre partenaires et disponibles pour le programme Microsoft 365 conformité.
 
 **Étape 2** : sélectionnez une application dans la liste pour commencer le processus Publisher attestation.
 
@@ -62,7 +62,7 @@ Lors de la sélection d’une application, une autre barre de navigation appara�
 
 ![import/Export](../media/NewFeature%20impExp.PNG)
 
-**Remarque**: si vous revenir pour mettre à jour/soumettre à nouveau votre application, cliquez sur la liste de listes pour « Choisir le produit » et sélectionnez l’application, puis cliquez sur « clone ».
+**Remarque**: si vous revenir pour mettre à jour/soumettre à nouveau votre application, cliquez sur la liste pour « Choisir le produit » et sélectionnez l’application, puis cliquez sur « cloner ».
 
 ![CLone ](../media/clone.PNG)
  ![ Clone2](../media/clone2.PNG)
@@ -150,17 +150,17 @@ Une fois envoyé, il est soumis à révision.
 
 ![Attestation en cours de révision](../media/existing%20isv%203.png)
 
-## <a name="6---microsoft-365-re-certification-workflow"></a>6. Flux Microsoft 365 Re-Certification de travail :
-
-**Microsoft 365Publisher de renouvellement de l’attestation et de la certification :** 
+## <a name="6---microsoft-365-publisher-attestation-and-certification-renewal-workflow"></a>6. Flux Microsoft 365 Publisher attestation et de renouvellement de certification :
 
 Microsoft 365 Le programme de conformité des applications propose désormais un processus de renouvellement annuel. Au cours de ce processus, les développeurs d’applications peuvent mettre à jour Publisher questionnaire d’attestation et les documents requis pour Microsoft 365 certification. 
 
 **Avantages :**
 
-- Conservez votre badge de certification dans AppSource pour différencier votre application des autres. 
+- Conservez votre badge de certification dans AppSource et Team Store pour différencier votre application des autres. 
 - Augmentez la confiance des clients à l’aide de votre application certifiée. 
 - Aidez les administrateurs informatiques à prendre des décisions éclairées avec des informations de certification mises à jour. 
+
+Le nouveau processus de renouvellement est disponible dans [l’Partner Center](https://partner.microsoft.com/en-us/dashboard/home) pour offrir une expérience transparente. Un rappel de renouvellement s’affiche dans l’Partner Center à partir de 90 jours avant la date d’expiration. Les rappels périodiques sont également envoyés par courrier électronique à 90, 60 et 30 jours avant l’expiration.
 
 **Niveau 1 : renouvellement Publisher attestation d’attestation :** 
 
@@ -178,7 +178,7 @@ Les réponses de l’attestation Publisher de l’application doivent être reso
 
 ![Microsoft 365Publisher de renouvellement de l’attestation et de la certification ](../media/3.PNG)
 
-Remarque : une fois expirée, Publisher processus de renouvellement de l’attestation d’attestation peuvent être démarrés à tout moment en cliquant sur « Renouveler ». 
+Remarque : une fois expirée, Publisher processus de renouvellement de l’attestation d’attestation peut être démarré à tout moment en cliquant sur « Renouveler ». 
 
 **Niveau 2 : renouvellement Microsoft 365 certification** 
 
