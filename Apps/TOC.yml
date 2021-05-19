@@ -5,20 +5,20 @@
       items:
         - name: Vue d’ensemble
           href: overview.md
-        - name: Qu’est-ce Publisher vérification ?
+        - name: Qu’est-ce Publisher vérification des données?
           href: 'https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview'
-        - name: Qu’est-ce Publisher attestation d’attestation ?
+        - name: Qu’est-ce Publisher attestation?
           href: docs/enterprise-app-attestation-guide.md
-        - name: Qu’est-ce Microsoft 365 certification ?
+        - name: Qu’est-ce Microsoft 365 certification?
           href: docs/enterprise-app-certification-guide.md
     - name: Pour les développeurs
       expanded: true
       items:
-        - name: Vérification Publisher complète
+        - name: Vérification complète Publisher’œil
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
-        - name: Attestation d’Publisher complète
+        - name: Attestation Publisher complète
           href: docs/attestation.md
-        - name: Certification Microsoft 365 complète
+        - name: Certification complète Microsoft 365'œil
           href: docs/certification.md
         - name: Microsoft 365 Guide de soumission de certification
           href: docs/certification-submission-guide.md
@@ -49,10 +49,14 @@
           href: teams/anaek-attendancebot.md
         - name: AVA
           href: teams/avepoint-inc-ava.md
+        - name: Axelleron ( Axelleron )
+          href: teams/axelleron.md
         - name: Beekast
           href: teams/beekast.md
         - name: Beesy
           href: teams/beesapps-beesy.md
+        - name: Berrycast Berrycast
+          href: teams/technologies-openmind-inc-les-berrycast.md
         - name: Connexion de tableau
           href: teams/engage-squared-board-connect.md
         - name: Bonusly
@@ -63,10 +67,12 @@
           href: teams/breakthru.md
         - name: Brightidea
           href: teams/brightidea.md
-        - name: C.AI Adoption Bot
+        - name: Bot C.AI d’adoption
           href: teams/contexxtai-cai-adoption-bot.md
         - name: BOT Calendrier
           href: teams/approved-contact-calendar-bot.md
+        - name: CalendrierHero
+          href: teams/calendarhero-inc.md
         - name: CatchEm
           href: teams/chimu-software-catchem.md
         - name: Centrical
@@ -113,7 +119,7 @@
           href: teams/enterprizid-inc-ezteam.md
         - name: FormMachines
           href: teams/enterprise-digital-machines-formmachines.md
-        - name: Libre-service par InVision
+        - name: Main levée par InVision
           href: teams/invision-app-freehand-by.md
         - name: Freshdesk
           href: teams/freshworks-inc-freshdesk.md
@@ -211,7 +217,7 @@
           href: teams/officespace-software.md
         - name: Officevibe
           href: teams/officevibe.md
-        - name: Les Connecter
+        - name: Onsight Connect
           href: teams/librestream-onsight-connect.md
         - name: OpenAgora
           href: teams/open-agora-openagora.md
@@ -223,7 +229,7 @@
           href: teams/perfony.md
         - name: Piazza
           href: teams/piazza.md
-        - name: Calendrier d’équipe Planyway
+        - name: Calendrier de l'équipe Planyway
           href: teams/rubius-planyway-team-calendar.md
         - name: Polly
           href: teams/polly.md
@@ -231,12 +237,14 @@
           href: teams/prezi-video.md
         - name: Priority Matrix
           href: teams/appfluence-inc-priority-matrix.md
-        - name: Prodoscore ProdBot
+        - name: ProdBot (ProdBot)
           href: teams/prodoscore-prodbot.md
         - name: Q
           href: teams/moduleq-q.md
         - name: qbo
           href: teams/unscrambl-qbo.md
+        - name: qChange Expérience leader
+          href: teams/qchange-software-solution-inc-leader-experience.md
         - name: Qubie
           href: teams/qubie.md
         - name: QuickLinks
@@ -289,7 +297,7 @@
           href: teams/slido.md
         - name: Smart Connect pour Jira
           href: teams/yasoon-gmbh-smart-connect-for-jira.md
-        - name: SMART Learning Suite
+        - name: Suite d’apprentissage SMART
           href: teams/smart-technologies-ulc-learning-suite.md
         - name: Smartnotation
           href: teams/smartnotation-bv.md
@@ -323,13 +331,17 @@
           href: teams/sympli-llc.md
         - name: TackleBox
           href: teams/insiten-tacklebox.md
+        - name: TagTeam
+          href: teams/smarter-business-solution-gmbh-tagteam.md
         - name: Talla
           href: teams/talla-inc.md
         - name: Talview Interviews
           href: teams/talview-inc-interviews.md
         - name: TaskList
           href: teams/limestat-inc-tasklist.md
-        - name: Team en équipe
+        - name: TeamGether (teamGether)
+          href: teams/effency-teamgether.md
+        - name: Teamhood
           href: teams/eylean-uab-teamhood.md
         - name: TeamMate par ChitChattr
           href: teams/chitchattr-teammate-by.md
@@ -351,7 +363,7 @@
           href: teams/kollisch-gmbh-timeghost.md
         - name: TINYpulse
           href: teams/tinypulse.md
-        - name: Erz
+        - name: Tribute
           href: teams/tribute-co.md
         - name: Trivia
           href: teams/springworks-hr-tech-trivia.md
@@ -391,14 +403,12 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-        - name: Assistant réunion Zoom.ai
-          href: teams/zoomai-inc-meeting-assistant.md
     - name: Applications pour Microsoft Outlook
       href: outlook/outlook-apps.md
       items:
-        - name: Adobe Sign Add-In for Outlook
+        - name: Adobe Sign Add-In pour Outlook
           href: outlook/adobe-inc-sign-add-in-for-outlook.md
-        - name: Vidéos altru
+        - name: Altru Vidéos
           href: outlook/altru-videos.md
         - name: Calendriers de contacts approuvés
           href: outlook/approved-contact-calendars.md
@@ -406,151 +416,151 @@
           href: outlook/asana-for-outlook.md
         - name: harmon.ie pour Outlook
           href: outlook/harmonie-corporation-for-outlook.md
-        - name: 'Facture et suivi du temps : facture Zoho'
+        - name: Suivi des factures et du temps - Facture Zoho
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: IPlanner Office 365 Planner pour Outlook
+        - name: Add-in Office 365 planificateur d’iPlanner pour Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: Jira Cloud for Outlook (Official)
+        - name: Jira Cloud for Outlook (Officiel)
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
-        - name: MIPA - Votre propre Assistant personnel
+        - name: MIPA - Votre assistant personnel
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
-        - name: ngDesk
+        - name: ngDesk (en)
           href: outlook/all-blue-solutions-ngdesk.md
         - name: Office2SharePoint pour Outlook
           href: outlook/iglobe-office2sharepoint-for-outlook.md
-        - name: officeatwork | S’il s’Outlook
+        - name: bureauatwork | Choix de contenu pour Outlook
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
-        - name: OnePlaceMail for Outlook
+        - name: OnePlaceMail pour Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: 'Matrice de priorité : transformer les e-mails en tâches'
+        - name: Matrix prioritaire - Transformez les e-mails en tâches
           href: outlook/appfluence-inc-priority-matrix-turn-emails-into-tasks.md
         - name: Salesforce
           href: outlook/salesforcecom-salesforce.md
-        - name: ServiceDesk Plus pour la messagerie
+        - name: ServiceDesk Plus pour e-mail
           href: outlook/zoho-corporation-private-limited-servicedesk-plus-for-email.md
-        - name: Le add-in StarLeaf pour Outlook
+        - name: Ajout starleaf pour Outlook
           href: outlook/starleaf-add-in-for-outlook.md
-        - name: Wrike for Outlook
+        - name: Wrike pour Outlook
           href: outlook/wrike-inc-for-outlook.md
         - name: Wunder365
           href: outlook/jiji-technologies-private-limited-wunder365.md
-        - name: Outil campagnes Zoho pour l’automatisation marketing
+        - name: Outil Zoho Campaigns pour l’automatisation marketing
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
-        - name: Zoho CRM pour la messagerie
+        - name: Zoho CRM pour e-mail
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
     - name: Applications pour Microsoft Word
       href: word/word-apps.md
       items:
-        - name: Adobe Sign pour Word et PowerPoint
+        - name: Adobe Signe pour mot et PowerPoint
           href: word/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel de documents de mot à mot
           href: word/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie pour Office
           href: word/harmonie-corporation-for-office.md
-        - name: Diagrammes de graphiques pour Word
+        - name: Diagrammes de Lucidchart pour mot
           href: word/lucid-software-inc-lucidchart-diagrams-for-word.md
         - name: Office2SharePoint pour Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: bureauatwork | Choix de contenu pour Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | Concepteur pour Office
+        - name: bureauatwork | Designer pour Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: bureauatwork | Modèle Chooser pour Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: officeatwork | Téléchargeur pour Office
+        - name: bureauatwork | Uploader pour Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Verifier for Office
+        - name: bureauatwork | Vérificateur pour Office
           href: word/officeatwork-officeatworkverifier-for-office.md
-        - name: officeatwork | Assistant pour Office
+        - name: bureauatwork | Assistant pour Office
           href: word/officeatwork-officeatworkwizard-for-office.md
-        - name: Wrike for Office Documents
+        - name: Wrike pour Office documents
           href: word/wrike-inc-for-office-documents.md
         - name: Wunder365 pour Office
           href: word/jiji-technologies-private-limited-wunder365-for-office.md
-        - name: 'xLaw : système de gestion des connaissances'
+        - name: xLaw - système de gestion des connaissances
           href: word/evertn-xlaw-knowledge-management-system.md
     - name: Applications pour Microsoft PowerPoint
       href: powerpoint/powerpoint-apps.md
       items:
-        - name: Adobe Sign pour Word et PowerPoint
+        - name: Adobe Signe pour mot et PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel de documents de mot à mot
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie pour Office
           href: powerpoint/harmonie-corporation-for-office.md
-        - name: Diagrammes de diagrammes de graphiques PowerPoint
+        - name: Diagrammes de Lucidchart pour PowerPoint
           href: powerpoint/lucid-software-inc-lucidchart-diagrams-for-powerpoint.md
-        - name: NoMore
+        - name: NoPlus
           href: powerpoint/nomorehours-nomore.md
         - name: Office2SharePoint pour Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: bureauatwork | Choix de contenu pour Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: bureauatwork | Modèle Chooser pour Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: Wrike for Office Documents
+        - name: Wrike pour Office documents
           href: powerpoint/wrike-inc-for-office-documents.md
     - name: Applications pour Microsoft SharePoint
       href: sharepoint/sharepoint-apps.md
       items:
-        - name: Tableau des tâches agile pour SharePoint Online
+        - name: Tableau de travail agile pour SharePoint en ligne
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
         - name: FormMachines pour SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-for-sharepoint.md
-        - name: SharePoint
+        - name: Gaggle pour SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
-        - name: Modules add-ons iGlobe CRM
+        - name: Add-ons iGlobe CRM
           href: sharepoint/iglobe-crm-add-ons.md
-        - name: IGlobe CRM Office 365 for Microsoft Office 365
+        - name: iGlobe CRM Office 365 pour Microsoft Office 365
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: Konnect eMail Parser
           href: sharepoint/konnect-email-parser.md
-        - name: officeatwork | S’il s’SharePoint
+        - name: bureauatwork | Modèle Chooser pour SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
     - name: Applications pour Microsoft Excel
       href: excel/excel-apps.md
       items:
         - name: CloudExtend Analytics pour NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel de documents de mot à mot
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie pour Office
           href: excel/harmonie-corporation-for-office.md
-        - name: Outil de rapports iPlanner pour Office 365 planner
+        - name: outil de reporting iPlanner pour Office 365 Planner
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
-        - name: Jira Cloud for Excel
+        - name: Jira Cloud pour Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Diagrammes d’image graphique pour Excel
+        - name: Diagrammes de Lucidchart pour Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
         - name: MeaningCloud Text Analytics pour Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint pour Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: bureauatwork | Choix de contenu pour Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: bureauatwork | Modèle Chooser pour Office
           href: excel/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: QuickCells Graphs
+        - name: Graphiques QuickCells
           href: excel/cc-1c-quickcells-graphs.md
         - name: Solveurs QuickCells
           href: excel/cc-1c-quickcells-solvers.md
         - name: Sheetgo
           href: excel/sheetgo-europe-sl.md
-        - name: Wrike for Office Documents
+        - name: Wrike pour Office documents
           href: excel/wrike-inc-for-office-documents.md
         - name: Wunder365 pour Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
     - name: Applications pour Microsoft OneNote
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork | S’il s’il s’Office
+        - name: bureauatwork | Choix de contenu pour Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: Wunder365 pour Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
     - name: Applications pour Microsoft Project
       href: project/project-apps.md
       items:
-        - name: officeatwork | S’il s’Office
+        - name: bureauatwork | Modèle Chooser pour Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
