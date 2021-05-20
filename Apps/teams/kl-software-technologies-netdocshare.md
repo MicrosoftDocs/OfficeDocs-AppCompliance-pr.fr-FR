@@ -1,12 +1,12 @@
 ---
-title: Informations d’application pour netDocShare par KL Software Technologies
+title: Informations sur l’application pour netDocShare par technologies logicielles DE LAO
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour netDocShare, ses politiques de traitement des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité et de conformité dans le registre STAR de l’ASC.
+description: Toutes les informations de sécurité et de conformité disponibles pour netDocShare, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a3d27c85d6ceadf6f2cbf8d7c9b1449b95dc8327
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -15,30 +15,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52552025"
 ---
-# <a name="netdocshare"></a><span data-ttu-id="ce278-103">netDocShare</span><span class="sxs-lookup"><span data-stu-id="ce278-103">netDocShare</span></span>
+# <a name="netdocshare"></a><span data-ttu-id="b69cc-103">netDocShare</span><span class="sxs-lookup"><span data-stu-id="b69cc-103">netDocShare</span></span>
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p><span data-ttu-id="ce278-104">Dernière mise à jour par le développeur le: Juin 23, 2020</span><span class="sxs-lookup"><span data-stu-id="ce278-104">Last updated by the developer on: June 23, 2020</span></span></p>
+<p><span data-ttu-id="b69cc-104">Last updated by the developer on: June 23, 2020</span><span class="sxs-lookup"><span data-stu-id="b69cc-104">Last updated by the developer on: June 23, 2020</span></span></p>
 
-* <span data-ttu-id="ce278-105"><a href="https://teams.microsoft.com/l/app/f1a2add5-d007-4062-a10a-60f4ea29fdbc" target="_blank">Vue dans Teams magasin</a></span><span class="sxs-lookup"><span data-stu-id="ce278-105"><a href="https://teams.microsoft.com/l/app/f1a2add5-d007-4062-a10a-60f4ea29fdbc" target="_blank">View in Teams store</a></span></span>
-* <span data-ttu-id="ce278-106"><a href="https://appsource.microsoft.com/product/office/WA200001619" target="_blank">Voir dans AppSource</a></span><span class="sxs-lookup"><span data-stu-id="ce278-106"><a href="https://appsource.microsoft.com/product/office/WA200001619" target="_blank">View in AppSource</a></span></span>
+* <span data-ttu-id="b69cc-105"><a href="https://teams.microsoft.com/l/app/f1a2add5-d007-4062-a10a-60f4ea29fdbc" target="_blank">Afficher dans Teams store</a></span><span class="sxs-lookup"><span data-stu-id="b69cc-105"><a href="https://teams.microsoft.com/l/app/f1a2add5-d007-4062-a10a-60f4ea29fdbc" target="_blank">View in Teams store</a></span></span>
+* <span data-ttu-id="b69cc-106"><a href="https://appsource.microsoft.com/product/office/WA200001619" target="_blank">Afficher dans AppSource</a></span><span class="sxs-lookup"><span data-stu-id="b69cc-106"><a href="https://appsource.microsoft.com/product/office/WA200001619" target="_blank">View in AppSource</a></span></span>
 
 ::: zone pivot="general"
 
-### <a name="general-information"></a><span data-ttu-id="ce278-107">Informations générales</span><span class="sxs-lookup"><span data-stu-id="ce278-107">General information</span></span>
+### <a name="general-information"></a><span data-ttu-id="b69cc-107">Informations générales</span><span class="sxs-lookup"><span data-stu-id="b69cc-107">General information</span></span>
 
-<span data-ttu-id="ce278-108">Informations fournies par KL Software Technologies à Microsoft :</span><span class="sxs-lookup"><span data-stu-id="ce278-108">Information provided by KL Software Technologies to Microsoft:</span></span>
+<span data-ttu-id="b69cc-108">Informations fournies par les technologies logicielles DE LASO à Microsoft :</span><span class="sxs-lookup"><span data-stu-id="b69cc-108">Information provided by KL Software Technologies to Microsoft:</span></span>
 
-| <span data-ttu-id="ce278-109">**Information**</span><span class="sxs-lookup"><span data-stu-id="ce278-109">**Information**</span></span> | <span data-ttu-id="ce278-110">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="ce278-110">**Response**</span></span> |
+| <span data-ttu-id="b69cc-109">**Information**</span><span class="sxs-lookup"><span data-stu-id="b69cc-109">**Information**</span></span> | <span data-ttu-id="b69cc-110">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="b69cc-110">**Response**</span></span> |
 |:----------------|:-------------|
-| <span data-ttu-id="ce278-111">Nom de l'application</span><span class="sxs-lookup"><span data-stu-id="ce278-111">App name</span></span> | <span data-ttu-id="ce278-112">netDocShare</span><span class="sxs-lookup"><span data-stu-id="ce278-112">netDocShare</span></span> |
-| <span data-ttu-id="ce278-113">ID</span><span class="sxs-lookup"><span data-stu-id="ce278-113">ID</span></span> | <span data-ttu-id="ce278-114">WA200001619</span><span class="sxs-lookup"><span data-stu-id="ce278-114">WA200001619</span></span> |
-| <span data-ttu-id="ce278-115">Office 365 clients soutenus</span><span class="sxs-lookup"><span data-stu-id="ce278-115">Office 365 clients supported</span></span> | <span data-ttu-id="ce278-116">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ce278-116">Microsoft Teams</span></span> |
-| <span data-ttu-id="ce278-117">Nom de l’entreprise partenaire</span><span class="sxs-lookup"><span data-stu-id="ce278-117">Partner company name</span></span> | <span data-ttu-id="ce278-118">KL Software Technologies</span><span class="sxs-lookup"><span data-stu-id="ce278-118">KL Software Technologies</span></span> |
-| <span data-ttu-id="ce278-119">URL du site web partenaire</span><span class="sxs-lookup"><span data-stu-id="ce278-119">URL of partner website</span></span> | [https://www.netdocshare.com/](https://www.netdocshare.com/) |
-| <span data-ttu-id="ce278-120">URL de la politique de confidentialité</span><span class="sxs-lookup"><span data-stu-id="ce278-120">URL of Privacy Policy</span></span> | [https://www.netdocshare.com/privacy-policy/](https://www.netdocshare.com/privacy-policy/) |
-| <span data-ttu-id="ce278-121">URL des conditions d’utilisation</span><span class="sxs-lookup"><span data-stu-id="ce278-121">URL of Terms of Use</span></span> | [https://www.netdocshare.com/terms-of-use/](https://www.netdocshare.com/terms-of-use/) |
+| <span data-ttu-id="b69cc-111">Nom de l'application</span><span class="sxs-lookup"><span data-stu-id="b69cc-111">App name</span></span> | <span data-ttu-id="b69cc-112">netDocShare</span><span class="sxs-lookup"><span data-stu-id="b69cc-112">netDocShare</span></span> |
+| <span data-ttu-id="b69cc-113">ID</span><span class="sxs-lookup"><span data-stu-id="b69cc-113">ID</span></span> | <span data-ttu-id="b69cc-114">WA200001619</span><span class="sxs-lookup"><span data-stu-id="b69cc-114">WA200001619</span></span> |
+| <span data-ttu-id="b69cc-115">Office 365 clients pris en charge</span><span class="sxs-lookup"><span data-stu-id="b69cc-115">Office 365 clients supported</span></span> | <span data-ttu-id="b69cc-116">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b69cc-116">Microsoft Teams</span></span> |
+| <span data-ttu-id="b69cc-117">Nom de la société partenaire</span><span class="sxs-lookup"><span data-stu-id="b69cc-117">Partner company name</span></span> | <span data-ttu-id="b69cc-118">KL Software Technologies</span><span class="sxs-lookup"><span data-stu-id="b69cc-118">KL Software Technologies</span></span> |
+| <span data-ttu-id="b69cc-119">URL du site web partenaire</span><span class="sxs-lookup"><span data-stu-id="b69cc-119">URL of partner website</span></span> | [https://www.netdocshare.com/](https://www.netdocshare.com/) |
+| <span data-ttu-id="b69cc-120">URL de la politique de confidentialité</span><span class="sxs-lookup"><span data-stu-id="b69cc-120">URL of Privacy Policy</span></span> | [https://www.netdocshare.com/privacy-policy/](https://www.netdocshare.com/privacy-policy/) |
+| <span data-ttu-id="b69cc-121">URL des conditions d’utilisation</span><span class="sxs-lookup"><span data-stu-id="b69cc-121">URL of Terms of Use</span></span> | [https://www.netdocshare.com/terms-of-use/](https://www.netdocshare.com/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -46,47 +46,47 @@ ms.locfileid: "52552025"
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a><span data-ttu-id="ce278-122">Comment l’application gère les données</span><span class="sxs-lookup"><span data-stu-id="ce278-122">How the app handles data</span></span>
+### <a name="how-the-app-handles-data"></a><span data-ttu-id="b69cc-122">Gestion des données par l’application</span><span class="sxs-lookup"><span data-stu-id="b69cc-122">How the app handles data</span></span>
 
-<span data-ttu-id="ce278-123">Ces informations ont été fournies par KL Software Technologies sur la façon dont cette application recueille et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.</span><span class="sxs-lookup"><span data-stu-id="ce278-123">This information has been provided by KL Software Technologies about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
+<span data-ttu-id="b69cc-123">Ces informations ont été fournies par les technologies logicielles DUTN sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.</span><span class="sxs-lookup"><span data-stu-id="b69cc-123">This information has been provided by KL Software Technologies about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
 
-#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="ce278-124">Accès aux données à l’aide de Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="ce278-124">Data access using Microsoft Graph</span></span>
+#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="b69cc-124">Accès aux données à l’aide de Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="b69cc-124">Data access using Microsoft Graph</span></span>
 
-<span data-ttu-id="ce278-125">Énumérez [toutes les autorisations microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) cette application nécessite.</span><span class="sxs-lookup"><span data-stu-id="ce278-125">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
+<span data-ttu-id="b69cc-125">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span><span class="sxs-lookup"><span data-stu-id="b69cc-125">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
 
-><span data-ttu-id="ce278-126">Cette application n’utilise pas microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="ce278-126">This application does not use Microsoft Graph.</span></span>
-
-
-#### <a name="non-microsoft-services-used"></a><span data-ttu-id="ce278-127">Non-services Microsoft utilisé</span><span class="sxs-lookup"><span data-stu-id="ce278-127">Non-Microsoft services used</span></span>
-
-<span data-ttu-id="ce278-128">Si l’application transfère ou partage des données organisationnelles avec un service non Microsoft, énumérez le service non Microsoft utilisé par l’application, quelles données sont transférées et justifiez pourquoi l’application doit transférer ces informations.</span><span class="sxs-lookup"><span data-stu-id="ce278-128">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
-
-><span data-ttu-id="ce278-129">Les produits non services Microsoft ne sont pas utilisés.</span><span class="sxs-lookup"><span data-stu-id="ce278-129">Non-Microsoft services are not used.</span></span>
-
-#### <a name="data-access-via-bots"></a><span data-ttu-id="ce278-130">Accès aux données via des bots</span><span class="sxs-lookup"><span data-stu-id="ce278-130">Data access via bots</span></span>
-
-<span data-ttu-id="ce278-131">Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations identifiables de l’utilisateur final (EUII) : la liste (prénom, nom de famille, nom d’affichage, adresse e-mail) de n’importe quel membre de l’équipe ou chat à qui elle est ajoutée.</span><span class="sxs-lookup"><span data-stu-id="ce278-131">If this app contains a bot or a messaging extension, it can access end-user identifiable information (EUII): the roster (first name, last name, display name, email address) of any team member in a team or chat it's added to.</span></span> <span data-ttu-id="ce278-132">Cette application utilise-t-elle cette fonctionnalité ?</span><span class="sxs-lookup"><span data-stu-id="ce278-132">Does this app make use of this capability?</span></span>
-
-><span data-ttu-id="ce278-133">Aucun EUII n’est accessible.</span><span class="sxs-lookup"><span data-stu-id="ce278-133">No EUII is accessed.</span></span>
+><span data-ttu-id="b69cc-126">Cette application n’utilise pas Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="b69cc-126">This application does not use Microsoft Graph.</span></span>
 
 
-#### <a name="telemetry-data"></a><span data-ttu-id="ce278-134">Données de télémétrie</span><span class="sxs-lookup"><span data-stu-id="ce278-134">Telemetry data</span></span>
+#### <a name="non-microsoft-services-used"></a><span data-ttu-id="b69cc-127">Non utilisé services Microsoft</span><span class="sxs-lookup"><span data-stu-id="b69cc-127">Non-Microsoft services used</span></span>
 
-<span data-ttu-id="ce278-135">Des informations organisationnelles identifiables (OII) ou des informations identifiables de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ?</span><span class="sxs-lookup"><span data-stu-id="ce278-135">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="ce278-136">Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de conservation et de suppression ?</span><span class="sxs-lookup"><span data-stu-id="ce278-136">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
+<span data-ttu-id="b69cc-128">Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.</span><span class="sxs-lookup"><span data-stu-id="b69cc-128">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
 
-><span data-ttu-id="ce278-137">Oui.</span><span class="sxs-lookup"><span data-stu-id="ce278-137">Yes.</span></span> <span data-ttu-id="ce278-138">Nous stockons EUII et OII dans noSQL Mongo DB personnalisé hébergé sur Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="ce278-138">We store EUII and OII in custom NoSQL Mongo DB hosted on Microsoft Azure.</span></span> <span data-ttu-id="ce278-139">Une fois que le client cesse son abonnement, nous supprimerons ces informations de la base de données ci-dessus.</span><span class="sxs-lookup"><span data-stu-id="ce278-139">Once the client discontinues their subscription we will delete this information from above database.</span></span>
+><span data-ttu-id="b69cc-129">Les éléments services Microsoft ne sont pas utilisés.</span><span class="sxs-lookup"><span data-stu-id="b69cc-129">Non-Microsoft services are not used.</span></span>
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="ce278-140">Contrôles organisationnels des données stockées par partenaire</span><span class="sxs-lookup"><span data-stu-id="ce278-140">Organizational controls for data stored by partner</span></span>
+#### <a name="data-access-via-bots"></a><span data-ttu-id="b69cc-130">Accès aux données via des bots</span><span class="sxs-lookup"><span data-stu-id="b69cc-130">Data access via bots</span></span>
 
-<span data-ttu-id="ce278-141">Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple la suppression, la conservation, la vérification, l’archivage, la politique de l’utilisateur final, etc.</span><span class="sxs-lookup"><span data-stu-id="ce278-141">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
+<span data-ttu-id="b69cc-131">Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée.</span><span class="sxs-lookup"><span data-stu-id="b69cc-131">If this app contains a bot or a messaging extension, it can access end-user identifiable information (EUII): the roster (first name, last name, display name, email address) of any team member in a team or chat it's added to.</span></span> <span data-ttu-id="b69cc-132">Cette application utilise-t-elle cette fonctionnalité ?</span><span class="sxs-lookup"><span data-stu-id="b69cc-132">Does this app make use of this capability?</span></span>
 
-><span data-ttu-id="ce278-142">Les données d’application sont stockées dans NoSQL Mongo DB hébergée Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="ce278-142">Application data is stored in NoSQL Mongo DB hosted on Microsoft Azure.</span></span> <span data-ttu-id="ce278-143">Les données sont cryptées et seuls deux administrateurs de notre locataire Azure y ont accès.</span><span class="sxs-lookup"><span data-stu-id="ce278-143">Data is encrypted and only two Administrators of our Azure tenant has access to it.</span></span> <span data-ttu-id="ce278-144">2FA est activé pour tous les comptes admin et les deux comptes admin sont des comptes d’utilisateurs Azure AD d’entreprise</span><span class="sxs-lookup"><span data-stu-id="ce278-144">2FA is enabled for all admin accounts and both admin accounts are corporate Azure AD user accounts</span></span>
+><span data-ttu-id="b69cc-133">Aucun EUII n’est accessible.</span><span class="sxs-lookup"><span data-stu-id="b69cc-133">No EUII is accessed.</span></span>
 
-#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="ce278-145">Examen humain de l’information organisationnelle</span><span class="sxs-lookup"><span data-stu-id="ce278-145">Human review of organizational information</span></span>
 
-<span data-ttu-id="ce278-146">Les humains participent-ils à l’examen ou à l’analyse des données d’information organisationnelle identifiables (OII) qui sont recueillies ou stockées par cette application?</span><span class="sxs-lookup"><span data-stu-id="ce278-146">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
+#### <a name="telemetry-data"></a><span data-ttu-id="b69cc-134">Données de télémétrie</span><span class="sxs-lookup"><span data-stu-id="b69cc-134">Telemetry data</span></span>
 
-><span data-ttu-id="ce278-147">Oui</span><span class="sxs-lookup"><span data-stu-id="ce278-147">Yes</span></span>
+<span data-ttu-id="b69cc-135">Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ?</span><span class="sxs-lookup"><span data-stu-id="b69cc-135">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="b69cc-136">Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?</span><span class="sxs-lookup"><span data-stu-id="b69cc-136">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
+
+><span data-ttu-id="b69cc-137">Oui.</span><span class="sxs-lookup"><span data-stu-id="b69cc-137">Yes.</span></span> <span data-ttu-id="b69cc-138">Nous stockons LES EUII et OII dans une base de données NoSQL Mongo personnalisée hébergée sur Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="b69cc-138">We store EUII and OII in custom NoSQL Mongo DB hosted on Microsoft Azure.</span></span> <span data-ttu-id="b69cc-139">Une fois que le client a abandonné son abonnement, nous supprimons ces informations de la base de données ci-dessus.</span><span class="sxs-lookup"><span data-stu-id="b69cc-139">Once the client discontinues their subscription we will delete this information from above database.</span></span>
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="b69cc-140">Contrôles organisationnels pour les données stockées par le partenaire</span><span class="sxs-lookup"><span data-stu-id="b69cc-140">Organizational controls for data stored by partner</span></span>
+
+<span data-ttu-id="b69cc-141">Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.</span><span class="sxs-lookup"><span data-stu-id="b69cc-141">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
+
+><span data-ttu-id="b69cc-142">Les données d’application sont stockées dans la base de données Mongo NoSQL hébergée sur Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="b69cc-142">Application data is stored in NoSQL Mongo DB hosted on Microsoft Azure.</span></span> <span data-ttu-id="b69cc-143">Les données sont chiffrées et seuls deux administrateurs de notre client Azure y ont accès.</span><span class="sxs-lookup"><span data-stu-id="b69cc-143">Data is encrypted and only two Administrators of our Azure tenant has access to it.</span></span> <span data-ttu-id="b69cc-144">2FA est activé pour tous les comptes d’administrateur et les deux comptes d’administrateur sont des comptes d’utilisateur Azure AD d’entreprise</span><span class="sxs-lookup"><span data-stu-id="b69cc-144">2FA is enabled for all admin accounts and both admin accounts are corporate Azure AD user accounts</span></span>
+
+#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="b69cc-145">Examen humain des informations organisationnelles</span><span class="sxs-lookup"><span data-stu-id="b69cc-145">Human review of organizational information</span></span>
+
+<span data-ttu-id="b69cc-146">Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?</span><span class="sxs-lookup"><span data-stu-id="b69cc-146">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
+
+><span data-ttu-id="b69cc-147">Oui</span><span class="sxs-lookup"><span data-stu-id="b69cc-147">Yes</span></span>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -94,11 +94,11 @@ ms.locfileid: "52552025"
 
 ::: zone pivot="mcas"
 
-<span data-ttu-id="ce278-148">Les informations du catalogue [Microsoft Cloud App Security apparaissent](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="ce278-148">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
+<span data-ttu-id="b69cc-148">Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="b69cc-148">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
 
-<iframe height='1020' title='<span data-ttu-id="ce278-149">Microsoft Cloud App Security information</span><span class="sxs-lookup"><span data-stu-id="ce278-149">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35898' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="ce278-150">
+<iframe height='1020' title='<span data-ttu-id="b69cc-149">Microsoft Cloud App Security Informations</span><span class="sxs-lookup"><span data-stu-id="b69cc-149">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35898' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="b69cc-150">
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35898" target="_blank">Afficher dans un nouvel onglet</a></span><span class="sxs-lookup"><span data-stu-id="ce278-150">
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35898" target="_blank">Afficher dans un nouvel onglet</a></span><span class="sxs-lookup"><span data-stu-id="b69cc-150">
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35898" target="_blank">View in a new tab</a></span></span>
 
