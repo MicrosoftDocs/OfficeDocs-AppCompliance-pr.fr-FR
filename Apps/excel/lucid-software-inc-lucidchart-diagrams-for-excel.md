@@ -1,12 +1,12 @@
 ---
-title: Informations d’application pour lucidchart diagrams for Excel par Lucid Software Inc
+title: Informations sur l’application pour diagrammes de diagrammes Excel parFact Software Inc
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations disponibles sur la sécurité et la conformité pour lucidchart Diagrams for Excel, ses politiques de traitement des données, ses informations sur le catalogue d’applications Microsoft Cloud App Security et les informations de sécurité et de conformité dans le registre STAR de l’ASC.
+description: Toutes les informations de sécurité et de conformité disponibles pour les diagrammes de Excel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 5481ed9ce5f8e589fe5ea8703fb48b53c5dab488
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -15,29 +15,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52548794"
 ---
-# <a name="lucidchart-diagrams-for-excel"></a>Diagrammes de Lucidchart pour Excel
+# <a name="lucidchart-diagrams-for-excel"></a>Diagrammes d’image graphique pour Excel
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur le: Décembre 16, 2019</p>
+<p>Last updated by the developer on: December 16, 2019</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104380194" target="_blank">Voir dans AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104380194" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Lucid Software Inc à Microsoft :
+Informations fournies par Software Inc. à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Diagrammes de Lucidchart pour Excel |
+| Nom de l'application | Diagrammes d’image graphique pour Excel |
 | ID | WA104380194 |
-| Office 365 clients soutenus | Excel 2016 ou plus tard sur Mac, Excel 2013 ou plus tard Windows, Excel sur le Web |
-| Nom de l’entreprise partenaire | Lucid Software Inc |
+| Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2013 ou une Windows, Excel sur le Web |
+| Nom de la société partenaire | Lucid Software Inc |
 | URL du site web partenaire | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
 | URL de la politique de confidentialité | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
-| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=fr-États-Unis](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,53 +45,53 @@ Informations fournies par Lucid Software Inc à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Comment l’application gère les données
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Lucid Software Inc sur la façon dont cette application recueille et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Lass Software Inc. sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-Énumérez [toutes les autorisations microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) cette application nécessite.
+List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Demande)** | **Les données sont-elles collectées? Justification pour le recueillir?** | **Les données sont-elles stockées ? Justification pour le stocker?** | **Id d’application AD Azure** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | Délégué | Nom et adresse e-mail. | Les autorisations d’e-mail, d’openid et de profil permettent à Lucidchart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour enregistrer un compte Lucidchart pour eux si nécessaire. Afin de vérifier les données qui reviennent de Microsoft, nous faisons une demande pour obtenir la clé publique avec laquelle leur réponse est signée. Aucune autre donnée n’est reçue ou envoyée à Microsoft dans le cadre de notre flux SSO. |  |
->| openid | Délégué | Nom et adresse e-mail. | Les autorisations d’e-mail, d’openid et de profil permettent à Lucidchart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour enregistrer un compte Lucidchart pour eux si nécessaire. Afin de vérifier les données qui reviennent de Microsoft, nous faisons une demande pour obtenir la clé publique avec laquelle leur réponse est signée. Aucune autre donnée n’est reçue ou envoyée à Microsoft dans le cadre de notre flux SSO. |  |
->| profil | Délégué | Nom et adresse e-mail. | Les autorisations d’e-mail, d’openid et de profil permettent à Lucidchart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour enregistrer un compte Lucidchart pour eux si nécessaire. Afin de vérifier les données qui reviennent de Microsoft, nous faisons une demande pour obtenir la clé publique avec laquelle leur réponse est signée. Aucune autre donnée n’est reçue ou envoyée à Microsoft dans le cadre de notre flux SSO. |  |
+>| email | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Cechart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte Dechart pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. |  |
+>| openid | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Cechart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte Dechart pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. |  |
+>| profil | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Cechart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte Dechart pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. |  |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
-Les applications et les modules complémentaires intégrés à Microsoft 365 peuvent utiliser d’autres API Microsoft que Microsoft Graph pour recueillir ou traiter des informations organisationnelles identifiables (OII). Énumérez toutes les API Microsoft autres que Microsoft Graph utilisations de cette application.
+Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **L’ŒIL est-il recueilli?** |  **Quel OII est recueilli?** | **Justification de la collecte de l’ŒII?** | **OII est-il stocké ?** | **Justification pour stocker OII?** |
+>| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| Interface API JavaScript pour Office | Oui | Nous utilisons le Office OneDrive javascript SDK à partir d’ouvrir le OneDrive de fichiers à l’aide OneDrive.open(). Nous ne générons aucun jeton d’accès et nous ne faisons aucune demande OneDrive’API de notre pays; le OneDrive choix de fichiers SDK le fait pour nous. Nous ne voyons que les noms de fichiers que l’utilisateur choisit. |  | Si l’utilisateur sélectionne un fichier à l’aide OneDrive de fichier, nous stockons le nom du fichier. |  |
+>| Interface API JavaScript pour Office | Oui | Nous utilisons le SDK javascript Office OneDrive pour ouvrir le SDK OneDrive à l’aide de OneDrive.open(). Nous ne générons aucun jeton d’accès et nous ne faisons pas de demandes aux API OneDrive nous-mêmes ; Le SDK OneDrive s’il s’agit d’un s’il s’agit d’un fichier de recherche le fait pour nous. Nous ne pouvons voir que les noms de fichiers que l’utilisateur choisit. |  | Si l’utilisateur sélectionne un fichier à l’aide OneDrive sélecateur de fichiers, nous stockons le nom du fichier. |  |
 
-#### <a name="non-microsoft-services-used"></a>Non-services Microsoft utilisé
+#### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l’application transfère ou partage des données organisationnelles avec un service non Microsoft, énumérez le service non Microsoft utilisé par l’application, quelles données sont transférées et justifiez pourquoi l’application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
->| **Tous les services Microsoft OII non services Microsoft sont transférés à** |  **Quel OII est transféré?** | **Justification du transfert d’OII?** |
+>| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Les données lucidchart sont stockées dans AWS. |  | Nous n’utilisons pas d’API Microsoft. Nous utilisons openID pour obtenir des données utilisateur de base pour effectuer SSO. Nous utilisons leur API de sélection de fichiers, mais cela ne nous donne pas accès aux fichiers de l’utilisateur autres que ceux qu’ils nous soumettent par l’intermédiaire du cueilleur. |
+>| Les données d’unchart sont stockées dans AWS. |  | Nous n’utilisons aucune API Microsoft. Nous utilisons openID pour obtenir des données utilisateur de base afin d’effectuer l’ouvrez-vous. Nous utilisons leur API de s’il s’agit de fichiers, mais cela ne nous donne pas accès aux fichiers de l’utilisateur autres que ceux qu’il nous envoie par le biais du s picker. |
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Des informations organisationnelles identifiables (OII) ou des informations identifiables de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de conservation et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous connectons des adresses e-mail et IP pour des raisons de sécurité et de support. Tous les journaux d’accès aux &amp; journaux enregistrés sont en fait immuables dans un système tiers. L’accès aux journaux nécessite l’AMF.
+>Nous logons les e-mails et les adresses IP pour des raisons de sécurité et de support. Tous les accès aux journaux sont enregistrés et ne peuvent pas être changés &amp; dans un système tiers. L’accès aux journaux nécessite l’mffa.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels des données stockées par partenaire
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple la suppression, la conservation, la vérification, l’archivage, la politique de l’utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données lucidchart sont stockées dans AWS. Il est crypté au repos et en transit. Lucidchart utilise les règles du moindre privilège et de l’AMF.
+>Les données d’unchart sont stockées dans AWS. Il est chiffré au repos et en transit. Cechart utilise les règles de privilège minimum et l’ation MFA.
 
-#### <a name="human-review-of-organizational-information"></a>Examen humain de l’information organisationnelle
+#### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains participent-ils à l’examen ou à l’analyse des données d’information organisationnelle identifiables (OII) qui sont recueillies ou stockées par cette application?
+Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Non
 
@@ -101,9 +101,9 @@ Les humains participent-ils à l’examen ou à l’analyse des données d’inf
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security apparaissent](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security information' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12761' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12761' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/12761" target="_blank">Afficher dans un nouvel onglet</a>
 

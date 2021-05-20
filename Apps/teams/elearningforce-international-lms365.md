@@ -1,12 +1,12 @@
 ---
-title: Informations d’application pour LMS365 par ELEARNINGFORCE International
+title: Informations sur l’application pour LMS365 par ELEARNINGFORCE International
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations disponibles sur la sécurité et la conformité pour LMS365, ses politiques de traitement des données, ses informations sur le catalogue d’applications Microsoft Cloud App Security et les informations de sécurité et de conformité dans le registre STAR de l’ASC.
+description: Toutes les informations de sécurité et de conformité disponibles pour LMS365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 44ed1631c7d0221b463f518f2494b7a8744eef30
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -19,10 +19,10 @@ ms.locfileid: "52552215"
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur le: Février 25, 2021</p>
+<p>Last updated by the developer on: February 25, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/d136f17e-df84-47f2-97a4-13aa24c0c647" target="_blank">Vue dans Teams magasin</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381467" target="_blank">Voir dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/d136f17e-df84-47f2-97a4-13aa24c0c647" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381467" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
@@ -33,11 +33,11 @@ Informations fournies par ELEARNINGFORCE International à Microsoft :
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | LMS365 |
-| ID | WA104381467 WA104381467 |
-| Office 365 clients soutenus | Microsoft Teams |
-| Nom de l’entreprise partenaire | ELEARNINGFORCE International |
+| ID | WA104381467 |
+| Office 365 clients pris en charge | Microsoft Teams |
+| Nom de la société partenaire | ELEARNINGFORCE International |
 | URL du site web partenaire | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
-| URL de la page Teams’informations d’application | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
+| URL de la Teams d’informations sur l’application | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
 | URL de la politique de confidentialité | [https://www.elearningforce.com/privacy](https://www.elearningforce.com/privacy) |
 | URL des conditions d’utilisation | [https://www.elearningforce.com/LMS365-SaaS-Terms](https://www.elearningforce.com/LMS365-SaaS-Terms) |
 
@@ -47,63 +47,63 @@ Informations fournies par ELEARNINGFORCE International à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Comment l’application gère les données
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par ELEARNINGFORCE International sur la façon dont cette application recueille et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+CES informations ont été fournies par ELEARNINGFORCE International sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-Énumérez [toutes les autorisations microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) cette application nécessite.
+List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Demande)** | **Les données sont-elles collectées? Justification pour le recueillir?** | **Les données sont-elles stockées ? Justification pour le stocker?** | **Id d’application AD Azure** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| GroupMember.Read.All | application | Aucune | Permet à l’application d’élargir les membres du groupe AD, ce qui est nécessaire pour inscrire un groupe d’utilisateurs aux cours. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| Mail.Send | Délégué | Aucune | L’autorisation est demandée dynamiquement lors de la configuration du compte e-mail pour notification. Permet à l’application d’envoyer des e-mails de notification | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| RoleManagement.Read.Directory | application | Aucune | Permet à l’application d’obtenir SharePoint domaine pendant l’approvisionnement des locataires. Le domaine est utilisé pour la construction d’URL. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Invite.All | Délégué | Aucune | Permet à l’application d’inviter des utilisateurs externes en cours connectés au nom de l’utilisateur | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Read | Délégué | Aucune | Connectez-vous et lisez le profil de l’utilisateur. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Read.All | Délégué | Aucune | Permet à l’application de lire le profil complet de l’utilisateur connecté à l’actualité. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Read.All | application | Permet à l’application de lire le profil complet de l’utilisateur. Il&#8217;nécessaire de lire les utilisateurs et&#8217; pour construire des rapports hiérarchiques. | Les données personnelles suivantes sont stockées dans une base de données dédiée pour le client respectif utilisé pour les fonctionnalités du tableau de bord learner management &amp; manager au sein de l’application. Nom du compte, nom d’affichage de l’utilisateur, adresse e-mail, département, titre de l’emploi, Office, pays, ville, identité du gestionnaire/courriel | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| profil | Délégué | Aucune | Consultez le profil de base de l’utilisateur. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>| GroupMember.Read.All | application | Aucun | Permet à l’application de développer les membres du groupe AD, ce qui est nécessaire pour inscrire un groupe d’utilisateurs aux cours. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>| Mail.Send | délégué | Aucun | L’autorisation est demandée dynamiquement lors de la configuration du compte de messagerie pour la notification. Permet à l’application d’envoyer des courriers électroniques de notification | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>| RoleManagement.Read.Directory | application | Aucun | Permet à l’application d’obtenir SharePoint domaine pendant la mise en service du client. Le domaine est utilisé pour la construction d’URL. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>| User.Invite.All | délégué | Aucun | Permet à l’application d’inviter des utilisateurs externes au nom de l’utilisateur actuellement connecté | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>| User.Read | délégué | Aucun | Connectez-vous et lisez le profil utilisateur. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>| User.Read.All | délégué | Aucun | Permet à l’application de lire le profil complet de l’utilisateur actuellement connecté. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>| User.Read.All | application | Permet à l’application de lire le profil utilisateur complet. Il est&#8217;lire les utilisateurs et les responsables&#8217; pour créer des rapports de hiérarchie. | Les données personnelles suivantes sont stockées dans une base de données dédiée pour le client respectif utilisé pour les fonctionnalités du tableau de bord du Gestionnaire de gestion &amp; de l’apprentissage au sein de l’application. Nom du compte, nom complet de l’utilisateur, adresse e-mail, service, fonction, Office, pays, ville, ID de gestionnaire/e-mail | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>| profil | délégué | Aucun | Afficher le profil de base de l’utilisateur. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
-Les applications et les modules complémentaires intégrés à Microsoft 365 peuvent utiliser d’autres API Microsoft que Microsoft Graph pour recueillir ou traiter des informations organisationnelles identifiables (OII). Énumérez toutes les API Microsoft autres que Microsoft Graph utilisations de cette application.
+Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **L’ŒIL est-il recueilli?** |  **Quel OII est recueilli?** | **Justification de la collecte de l’ŒII?** | **OII est-il stocké ?** | **Justification pour stocker OII?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| SharePoint | Non |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Non-services Microsoft utilisé
+#### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
-Si l’application transfère ou partage des données organisationnelles avec un service non Microsoft, énumérez le service non Microsoft utilisé par l’application, quelles données sont transférées et justifiez pourquoi l’application doit transférer ces informations.
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
->Les produits non services Microsoft ne sont pas utilisés.
+>Les éléments services Microsoft ne sont pas utilisés.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations identifiables de l’utilisateur final (EUII) : la liste (prénom, nom de famille, nom d’affichage, adresse e-mail) de n’importe quel membre de l’équipe ou chat à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->| **Justification de l’accès à l’EUII?**  | **L’EUII est-il stocké dans la base de données?** | **Justification du stockage de l’EUII ?** |
+>| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Nous n’utilisons le prénom que pour afficher un message personnalisé lorsque le Bot accueille l’utilisateur. | Les données personnelles sont stockées dans une base de données Azure dédiée pour le client respectif utilisé pour les fonctionnalités du tableau de bord learner management &amp; manager au sein de l’application LMS365. | Nom du compte, nom d’affichage de l’utilisateur, adresse e-mail, département, titre de l’emploi, Office, pays, ville, identité du gestionnaire/courriel |
+>| Nous utilisons le prénom uniquement pour afficher un message personnalisé lorsque le bot accueillira l’utilisateur. | Les données personnelles sont stockées dans une base de données Azure dédiée pour le client respectif utilisé pour les fonctionnalités du tableau de bord du Gestionnaire de gestion de l’apprentissage dans &amp; l’application LMS365. | Nom du compte, nom complet de l’utilisateur, adresse e-mail, service, fonction, Office, pays, ville, ID de gestionnaire/e-mail |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Des informations organisationnelles identifiables (OII) ou des informations identifiables de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de conservation et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Oui, nous utilisons insights Log Analytics télémétrie / journaux qui sont utilisés pour le tournage de difficulté seulement et ont une stratégie de conservation de 90 jours après quoi toutes les données sont supprimées.
+>Oui, nous utilisons la télémétrie/les journaux Insights Log Analytics qui sont utilisés uniquement pour la recherche de problèmes et qui ont une stratégie de rétention de 90 jours après laquelle toutes les données sont supprimées.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels des données stockées par partenaire
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
-Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple la suppression, la conservation, la vérification, l’archivage, la politique de l’utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->LMS365 est équipé d’une fonction purge qui supprimera toutes les données personnelles de la base de données LMS365 clients.
+>LMS365 est doté d’une fonction Purge qui supprime toutes les données personnelles des clients LMS365 Database.
 
-#### <a name="human-review-of-organizational-information"></a>Examen humain de l’information organisationnelle
+#### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains participent-ils à l’examen ou à l’analyse des données d’information organisationnelle identifiables (OII) qui sont recueillies ou stockées par cette application?
+Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Non
 
@@ -113,9 +113,9 @@ Les humains participent-ils à l’examen ou à l’analyse des données d’inf
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security apparaissent](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security information' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35695' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35695' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35695" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -127,23 +127,23 @@ Les informations du catalogue [Microsoft Cloud App Security apparaissent](https:
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par ELEARNINGFORCE International sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’enregistrement des applications et d’autres critères d’identité.
+Ces informations ont été fournies par ELEARNINGFORCE International sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Vous intégrez-vous à la plate-forme Microsoft Identify Platform (Azure AD)?  | Oui |
-| Avez-vous examiné et respecté toutes les pratiques exemplaires applicables décrites dans la liste de vérification Plateforme d’identités Microsoft’intégration?  | Oui |
-| Votre application utilise-t-elle MSAL (Microsoft Authentication Library) pour l’authentification ? | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Énumérer les types de politiques prises en charge | Plates-formes d’appareils, État de l’appareil, applications client |
-| Votre application demande-t-elle le moins d’autorisations de privilège pour votre scénario ? | Oui |
-| Les autorisations enregistrées statiquement de votre application reflètent-elles fidèlement les autorisations que votre application demandera de manière dynamique et progressive ? | Oui |
-| Votre application prend-elle en charge la multi-location ? | Oui |
+| Liste des types de stratégies pris en charge | Plateformes d’appareil, état de l’appareil, applications clientes |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
+| Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
-| Possédez-vous l’ensemble de l’identifiant de ressources unifié (URI) redirigé enregistré pour votre application ? | Oui |
-| Votre application expose-t-elle des API Web ? | Oui |
-| Votre modèle d’autorisation ne permet-il aux appels de réussir que si l’application client reçoit le consentement approprié ? | Oui |
-| Votre application utilise-t-elle des API de prévisualisation ? | Non |
+| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
+| Votre application expose-t-elle des API web ? | Oui |
+| Votre modèle d’autorisation autorise-t-il uniquement les appels à réussir si l’application cliente reçoit le consentement approprié ? | Oui |
+| Votre application utilise-t-elle les API d’aperçu ? | Non |
 | Votre application utilise-t-elle des API dépréciées ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
