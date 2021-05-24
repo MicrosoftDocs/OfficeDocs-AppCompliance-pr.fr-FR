@@ -22,7 +22,7 @@
           href: docs/certification.md
         - name: Microsoft 365 Guide de soumission de certification
           href: docs/certification-submission-guide.md
-    - name: Applications pour Microsoft Teams
+    - name: Microsoft Teams Applications
       href: teams/teams-apps.md
       items:
         - name: 365Projects
@@ -49,13 +49,13 @@
           href: teams/anaek-attendancebot.md
         - name: AVA
           href: teams/avepoint-inc-ava.md
-        - name: Érantleron
+        - name: Axelleron
           href: teams/axelleron.md
         - name: Beekast
           href: teams/beekast.md
         - name: Beesy
           href: teams/beesapps-beesy.md
-        - name: Cast
+        - name: Berrycast
           href: teams/technologies-openmind-inc-les-berrycast.md
         - name: Connexion de tableau
           href: teams/engage-squared-board-connect.md
@@ -243,7 +243,7 @@
           href: teams/moduleq-q.md
         - name: qbo
           href: teams/unscrambl-qbo.md
-        - name: qChange Leader Experience
+        - name: Expérience de leader qChange
           href: teams/qchange-software-solution-inc-leader-experience.md
         - name: Qubie
           href: teams/qubie.md
@@ -383,6 +383,8 @@
           href: teams/wide-ideas.md
         - name: Woobot
           href: teams/woobot.md
+        - name: Workboard
+          href: teams/workboard.md
         - name: Workday
           href: teams/workday.md
         - name: Wrike
@@ -403,7 +405,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Applications pour Microsoft Outlook
+    - name: Applications Microsoft Outlook
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign Add-In for Outlook
@@ -450,7 +452,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM pour la messagerie
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Applications pour Microsoft Word
+    - name: Microsoft Word Applications
       href: word/word-apps.md
       items:
         - name: Adobe Sign pour Word et PowerPoint
@@ -459,7 +461,7 @@
           href: word/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie pour Office
           href: word/harmonie-corporation-for-office.md
-        - name: Diagrammes de graphiques pour Word
+        - name: Diagrammes graphiques pour Word
           href: word/lucid-software-inc-lucidchart-diagrams-for-word.md
         - name: Office2SharePoint pour Office
           href: word/iglobe-office2sharepoint-for-office.md
@@ -469,7 +471,7 @@
           href: word/officeatwork-officeatworkdesigner-for-office.md
         - name: officeatwork | S’il s’Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: officeatwork | Téléchargeur pour Office
+        - name: officeatwork | Uploader for Office
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork | Verifier for Office
           href: word/officeatwork-officeatworkverifier-for-office.md
@@ -481,7 +483,7 @@
           href: word/jiji-technologies-private-limited-wunder365-for-office.md
         - name: 'xLaw : système de gestion des connaissances'
           href: word/evertn-xlaw-knowledge-management-system.md
-    - name: Applications pour Microsoft PowerPoint
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign pour Word et PowerPoint
@@ -502,7 +504,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Wrike for Office Documents
           href: powerpoint/wrike-inc-for-office-documents.md
-    - name: Applications pour Microsoft SharePoint
+    - name: Microsoft SharePoint Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Tableau des tâches agile pour SharePoint Online
@@ -519,7 +521,7 @@
           href: sharepoint/konnect-email-parser.md
         - name: officeatwork | S’il s’SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
-    - name: Applications pour Microsoft Excel
+    - name: Microsoft Excel Applications
       href: excel/excel-apps.md
       items:
         - name: CloudExtend Analytics pour NetSuite
@@ -532,7 +534,7 @@
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
         - name: Jira Cloud pour Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Diagrammes d’image graphique pour Excel
+        - name: Diagrammes de diagrammes d’Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
         - name: MeaningCloud Text Analytics pour Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
@@ -552,14 +554,14 @@
           href: excel/wrike-inc-for-office-documents.md
         - name: Wunder365 pour Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Applications pour Microsoft OneNote
+    - name: Microsoft OneNote Applications
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | S’il s’il s’Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: Wunder365 pour Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Applications pour Microsoft Project
+    - name: Microsoft Project Applications
       href: project/project-apps.md
       items:
         - name: officeatwork | S’il s’Office
