@@ -2,24 +2,24 @@
 title: Informations d’application pour les calendriers de contacts approuvés par le contact approuvé
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 05/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les calendriers de contacts approuvés, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 57dd499fe648ed9a9b481d4175056977a0d6fa61
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 6849ef81797483688f6e0fad69338b1a015748d0
+ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552555"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629646"
 ---
 # <a name="approved-contact-calendars"></a>Calendriers de contacts approuvés
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: May 10, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380294" target="_blank">Afficher dans AppSource</a>
 
@@ -35,9 +35,9 @@ Informations fournies par le contact approuvé à Microsoft :
 | ID | WA104380294 |
 | Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Contact approuvé |
-| URL du site web partenaire | [https://approvedcontact.com/](https://approvedcontact.com/) |
+| URL du site web partenaire | [www.approvedcontact.com](www.approvedcontact.com) |
 | URL de la politique de confidentialité | [https://approvedcontact.com/Privacy%20Policy.pdf](https://approvedcontact.com/Privacy%20Policy.pdf) |
-| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL des conditions d’utilisation | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,3 +105,27 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informations d’identité
+
+Ces informations ont été fournies par le contact approuvé sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
+| Votre application prend-elle en charge l’location multiple ? | Oui |
+| Votre application a-t-elle un client confidentiel ? | Non |
+| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
+| Votre application expose-t-elle des API web ? | Non |
+| Votre application utilise-t-elle les API d’aperçu ? | Non |
+| Votre application utilise-t-elle des API dépréciées ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

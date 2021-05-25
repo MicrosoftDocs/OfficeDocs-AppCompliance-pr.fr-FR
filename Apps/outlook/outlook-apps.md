@@ -2,21 +2,21 @@
 title: Sécurité et conformité des applications Microsoft Outlook - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/18/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 06cae2eff49ec4ad80a27fe5dea2c3fd2ef5b30d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: bf0efa79460f5c5d794f1b300af9ff6af98dd2b7
+ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552485"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629626"
 ---
 # <a name="microsoft-outlook-app-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Outlook
 
-Microsoft collabore avec nos partenaires Microsoft 365 développeurs pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant Outlook applications et les applications qu’elles utilisent. Les informations sont complétées des informations du catalogue d’applications [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) et des informations fournies par les développeurs lors de la soumission de leurs applications. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
+Microsoft collabore avec nos partenaires Microsoft 365 développeurs pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant les applications et les Outlook Microsoft qu’elles utilisent. Les informations sont complétées des informations du catalogue d’applications [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) et des informations fournies par les développeurs lors de la soumission de leurs applications. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|

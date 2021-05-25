@@ -2,24 +2,24 @@
 title: Informations sur l’application pour le texte par contact approuvé
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 05/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Text, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2cc4abf4924ca9af1ddd5b49b6a38c4427f3404a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 8d9e5cfd3b082692656c7bb9a67417564cf7ab57
+ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552385"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629658"
 ---
 # <a name="text"></a>Texte
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: May 10, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/a622ceb4-b6e2-4557-8218-e22e80975ba4" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000383" target="_blank">Afficher dans AppSource</a>
@@ -34,11 +34,11 @@ Informations fournies par le contact approuvé à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Texte |
 | ID | WA200000383 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Contact approuvé |
-| URL du site web partenaire | [https://sales.approvedcontact.com/syniverse-microsoft-teams...](https://sales.approvedcontact.com/syniverse-microsoft-teams-text/) |
+| URL du site web partenaire | [www.approvedcontact.com](www.approvedcontact.com) |
 | URL de la politique de confidentialité | [https://sales.approvedcontact.com/wp-content/uploads/text-p...](https://sales.approvedcontact.com/wp-content/uploads/text-privacy-policy.pdf) |
-| URL des conditions d’utilisation | [https://sales.approvedcontact.com/wp-content/uploads/text-t...](https://sales.approvedcontact.com/wp-content/uploads/text-terms-of-use.pdf) |
+| URL des conditions d’utilisation | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,10 +57,10 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Group.ReadWrite.All | délégué | Pour le bot de texte, nous captureons l’identificateur d’équipe pour la création de futurs canaux pour les messages texte entrants. | Nous permet de créer des canaux Teams pour les utilisateurs. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| email | délégué |  | Obtention des informations de contact de l’utilisateur. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| offline_access | délégué | Les jetons d’actualisation sont stockés dans notre base de données. | Utilisé pour rendre persistants les jetons d’actualisation dans notre base de données pour synchroniser les calendriers des utilisateurs lorsqu’ils ne sont pas présents. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| openid | délégué |  | Permet à l’utilisateur de se connecter. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| profil | délégué |  |  | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| email | délégué | adresses de messagerie | Obtention des informations de contact de l’utilisateur. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| offline_access | délégué | Les jetons d’actualisation sont stockés dans notre base de données. | Utilisé pour rendre persistants les jetons d’actualisation dans notre base de données | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| openid | délégué | Informations d’identification de connexion | Permet à l’utilisateur de se connecter. afin que les textes soient remis dans Teams canaux | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| profil | délégué | adresses de messagerie | Obtention des informations de contact de l’utilisateur. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -75,12 +75,12 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Nous utilisons la liste de travail pour comparer les heures de libre/occupé pour tous les membres de l’équipe afin de planifier des réunions à une heure d’ouverture. | Nous stockons simplement l’adresse e-mail afin de pouvoir comparer les heures de libre/occupé. |  |
+>| Utilisé pour rendre persistants les jetons d’actualisation dans notre base de données | Nous stockons les adresses de messagerie. | Utilisé pour rendre persistants les jetons d’actualisation dans notre base de données |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui, nous logons les adresses de messagerie pour connecter les achats de licences à Commercial Appsource. Nous vous offrons la possibilité de supprimer ces informations de nos journaux.
 
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35752' frameborder='no' style='width: 100%;'></iframe>
 
@@ -112,3 +112,27 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informations d’identité
+
+Ces informations ont été fournies par le contact approuvé sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
+| Votre application prend-elle en charge l’location multiple ? | Oui |
+| Votre application a-t-elle un client confidentiel ? | Non |
+| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
+| Votre application expose-t-elle des API web ? | Non |
+| Votre application utilise-t-elle les API d’aperçu ? | Non |
+| Votre application utilise-t-elle des API dépréciées ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
