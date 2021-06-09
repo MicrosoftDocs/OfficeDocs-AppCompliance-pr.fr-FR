@@ -41,6 +41,8 @@
           href: teams/asana.md
         - name: askR.ai
           href: teams/askrai.md
+        - name: Assembly
+          href: teams/carrothr-inc-assembly.md
         - name: AtBot
           href: teams/h3-solutions-inc-atbot.md
         - name: atSpoke
@@ -65,8 +67,12 @@
           href: teams/biggerbrains-brainbot.md
         - name: Breakthru
           href: teams/breakthru.md
+        - name: Sondage lumineux
+          href: teams/chat-apps-llc-bright-poll.md
         - name: Brightidea
           href: teams/brightidea.md
+        - name: Diffusion
+          href: teams/cerkl-broadcast.md
         - name: Bot C.AI d’adoption
           href: teams/contexxtai-cai-adoption-bot.md
         - name: BOT Calendrier
@@ -77,6 +83,8 @@
           href: teams/chimu-software-catchem.md
         - name: Centrical
           href: teams/biz-effective-centrical.md
+        - name: ChurnZero
+          href: teams/churnzero.md
         - name: Réunions Cisco Webex
           href: teams/cisco-webex-meetings.md
         - name: Clever Ads
@@ -93,7 +101,7 @@
           href: teams/diamondsoft-solutions-llc-dbit.md
         - name: DisasterTech DICE
           href: teams/disastertech-dice.md
-        - name: DocuSign eSignature
+        - name: eSignature DocuSign
           href: teams/docusign-inc-esignature.md
         - name: Droplr
           href: teams/droplr.md
@@ -199,6 +207,8 @@
           href: teams/iglobe-mipa-your-personal-assistant.md
         - name: monday.com
           href: teams/mondaycom.md
+        - name: Avancer avec Jira
+          href: teams/move-work-forward-with-jira.md
         - name: MURAL
           href: teams/mural.md
         - name: Mybys
@@ -235,6 +245,8 @@
           href: teams/piazza.md
         - name: Calendrier de l'équipe Planyway
           href: teams/rubius-planyway-team-calendar.md
+        - name: PlayQuiz - Aprende et Juega
+          href: teams/teamschamp-playquiz-aprende-and-juega.md
         - name: Polly
           href: teams/polly.md
         - name: Vidéo Prezi
@@ -249,6 +261,8 @@
           href: teams/unscrambl-qbo.md
         - name: Expérience de leader qChange
           href: teams/qchange-software-solution-inc-leader-experience.md
+        - name: Qualifié
+          href: teams/qualified.md
         - name: Qubie
           href: teams/qubie.md
         - name: QuickLinks
@@ -267,7 +281,7 @@
           href: teams/researchspace-rspace.md
         - name: Saberr
           href: teams/saberr.md
-        - name: Point de départ
+        - name: Sailpoint
           href: teams/sailpoint-technologies-inc.md
         - name: SalesTim
           href: teams/salestim.md
@@ -413,7 +427,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Applications Microsoft Outlook
+    - name: Applications microsoft Outlook
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign Add-In for Outlook
@@ -428,7 +442,7 @@
           href: outlook/harmonie-corporation-for-outlook.md
         - name: 'Facture et suivi du temps : facture Zoho'
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: IPlanner Office 365 planner pour Outlook
+        - name: IPlanner Office 365 Planner pour Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
@@ -469,11 +483,11 @@
           href: word/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie pour Office
           href: word/harmonie-corporation-for-office.md
-        - name: Diagrammes graphiques pour Word
+        - name: Diagrammes de graphiques pour Word
           href: word/lucid-software-inc-lucidchart-diagrams-for-word.md
         - name: Office2SharePoint pour Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: officeatwork | S’il s’il s’Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Concepteur pour Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
@@ -491,7 +505,7 @@
           href: word/jiji-technologies-private-limited-wunder365-for-office.md
         - name: 'xLaw : système de gestion des connaissances'
           href: word/evertn-xlaw-knowledge-management-system.md
-    - name: Microsoft PowerPoint Apps
+    - name: Applications microsoft PowerPoint
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign pour Word et PowerPoint
@@ -506,13 +520,13 @@
           href: powerpoint/nomorehours-nomore.md
         - name: Office2SharePoint pour Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: officeatwork | S’il s’il s’Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Wrike for Office Documents
           href: powerpoint/wrike-inc-for-office-documents.md
-    - name: Microsoft SharePoint Apps
+    - name: Applications microsoft SharePoint
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Tableau des tâches agile pour SharePoint Online
@@ -540,15 +554,15 @@
           href: excel/harmonie-corporation-for-office.md
         - name: Outil de rapports iPlanner pour Office 365 planner
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
-        - name: Jira Cloud pour Excel
+        - name: Jira Cloud for Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Diagrammes de diagrammes d’Excel
+        - name: Diagrammes d’image graphique pour Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
         - name: MeaningCloud Text Analytics pour Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint pour Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: officeatwork | S’il s’il s’Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -565,7 +579,7 @@
     - name: Microsoft OneNote Applications
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork | S’il s’Office
+        - name: officeatwork | S’il s’il s’Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: Wunder365 pour Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
