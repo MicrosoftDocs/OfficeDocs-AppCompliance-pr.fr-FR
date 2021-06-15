@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MindManager, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d9ed1eab16b73a84dcd3ddc41cc0b716865b9a29
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: 69efbc45560d3271f03f8af8e9cfeb1aa7c89e5d
+ms.sourcegitcommit: 41be194e2be4de3cdb686daee7a8f6e4d1fc765a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790030"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904540"
 ---
 # <a name="mindmanager"></a>MindManager
 
@@ -36,7 +36,7 @@ Informations fournies par Corel à Microsoft :
 | ID | WA200002261 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Corel |
-| URL du site web partenaire | [www.mindmanager.com](www.mindmanager.com) |
+| URL du site web partenaire | [https://www.mindmanager.com](https://www.mindmanager.com) |
 | URL de la politique de confidentialité | [https://www.corel.com/en/corel-privacy-policy/](https://www.corel.com/en/corel-privacy-policy/) |
 | URL des conditions d’utilisation | [https://www.mindjet.com/go/mmcloudterms](https://www.mindjet.com/go/mmcloudterms) |
 
@@ -58,10 +58,10 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| ChannelMessage.Send | délégué | Informations sur les modifications apportées dans un fichier MindManager qui peuvent ensuite être publiées en tant que message | métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
 >| Chat.Send | délégué | Informations sur les modifications apportées dans un fichier MindManager qui peuvent ensuite être publiées en tant que message | métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Files.ReadWrite | délégué | liste des sites, liste de dossiers, métadonnées de fichiers, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | - données de profil : pour identifier l’utilisateur et afficher son profil - contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Sites.ReadWrite.All | délégué | liste des sites, liste de dossiers, métadonnées de fichiers, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>| Files.ReadWrite | délégué | liste des sites, liste de dossiers, métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | - données de profil : pour identifier l’utilisateur et afficher son profil - contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>| Sites.ReadWrite.All | délégué | liste des sites, liste de dossiers, métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
 >| User.Read | délégué | données de profil : pour identifier l’utilisateur et afficher son profil | données de profil : pour identifier l’utilisateur et afficher son profil | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| offline_access | délégué | Cela nous permet d’enregistrer un fichier à son emplacement d’origine ultérieurement pour le compte de l’utilisateur, si nécessaire. | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>| offline_access | délégué | Cela nous permet d’enregistrer ultérieurement un fichier à son emplacement d’origine pour le compte de l’utilisateur, si nécessaire. | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -81,7 +81,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -117,7 +117,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Corel sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Corel sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
