@@ -2,17 +2,17 @@
 title: Sécurité et conformité de l’application Microsoft Teams – Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations sur la conformité et la sécurité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: c4ba6cd0abc0c6a7a026feabdd1a57e688d4a0d1
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: cef1ac5ebbbedaa90cfd9905947f8452cd21bb82
+ms.sourcegitcommit: 1b9ad544fd91bb0fb25e467baf2d368a812dc476
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52851584"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52927249"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Sécurité et conformité de l’application Microsoft Teams
 
@@ -72,17 +72,19 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Evocom](./evocom-informationssysteme-gmbh.md) | Evocom Informationssysteme GmbH | **✓** |  |
 | [ezTeam](./enterprizid-inc-ezteam.md) | EnterprizID Inc | **✓** |  |
 | [FormMachines](./enterprise-digital-machines-formmachines.md) | Entreprise d’ordinateurs numériques | **✓** |  |
-| [Main levée par InVision](./invision-app-freehand-by.md) | Application InVision | **✓** |  |
+| [Freehand](./invisionapp-inc-freehand.md) | InVisionApp Inc. | **✓** |  |
 | [Freshdesk](./freshworks-inc-freshdesk.md) | Freshworks INC | **✓** |  |
 | [Fusion à distance](./jujo-inc-fusion-remote.md) | Jujo Inc. | **✓** |  |
 | [Go1](./go1.md) | Go1 | **✓** |  |
 | [Goodera](./goodera.md) | Goodera | **✓** |  |
 | [Informations d’analyse Google](./freevolut-ltd-google-analytics-insights.md) | Freevolut LTD | **✓** |  |
+| [GoToConnect](./logmein-inc-gotoconnect.md) | LogMeIn Inc. | **✓** |  |
 | [Guru](./guru-technologies.md) | Guru Technologies | **✓** |  |
 | [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  |
 | [Hibob](./hibob-inc.md) | Hibob Inc. | **✓** |  |
 | [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
+| [Highspot](./highspot.md) | Highspot | **✓** |  |
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  |
 | [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  |
@@ -90,7 +92,6 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [InStation](./developers-invillia-instation.md) | Développeurs Invillia | **✓** |  |
 | [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  |
 | [Jira Cloud](./atlassian-jira-cloud.md) | Atlassian | **✓** |  |
-| [Jive Communications](./jive-by-logmein-inc-communications.md) | Jive par LogMeIn Inc. | **✓** |  |
 | [Karma](./sliday-ltd-karma.md) | Sliday LTD | **✓** |  |
 | [Klaxoon](./klaxoon.md) | Klaxoon | **✓** |  |
 | [Kronos](./kronos-inc.md) | Kronos, Inc. | **✓** |  |
@@ -102,6 +103,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Conversation en direct](./social-intents-live-chat.md) | Intentions sociales | **✓** |  |
 | [LMS365](./elearningforce-international-lms365.md) | ELEARNINGFORCE International | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Lucidchart](./lucid-software-lucidchart.md) | Logiciel Lucid | **✓** |  |
+| [Lucidspark](./lucid-software-lucidspark.md) | Logiciel Lucid | **✓** |  |
 | [LuckyDraw](./tony-xia-luckydraw.md) | Tony Xia | **✓** |  |
 | [MailClark](./mailclark.md) | MailClark | **✓** |  |
 | [Medxnote MT](./medxnote-mt.md) | Medxnote | **✓** |  |
