@@ -6,74 +6,74 @@ description: Guide de l’utilisateur isv pour Microsoft 365 conformité des app
 keywords: Guide de l’utilisateur isv pour Microsoft 365 conformité des applications
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: b8560fe46bbad2710001467e9edfeab72d6e0cb7
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 437fcbc56309ca14566dbb95f470097af82c26bf
+ms.sourcegitcommit: bfabb191087786fae2b476e3f30861317886defa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52549927"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53179043"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Guide de l’utilisateur du partenaire pour le Microsoft 365 conformité des applications
 
-|||
+|Phase|Titre|
 |---|---|
-|Niveau 1| Attestation de l’éditeur|
-|Niveau 2| Certification Microsoft 365|
+|Étape 1| Attestation de l’éditeur|
+|Étape 2| Certification Microsoft 365|
 
 ## <a name="1-overview"></a>1. Vue d’ensemble
-Ce document agit comme un guide utilisateur pas à pas pour nos partenaires, inscrit au programme de conformité des applications Microsoft 365 visant à faire l’objet d’une attestation et d’une certification Publisher par le portail de l’Centre partenaires.
+Ce document agit comme un guide utilisateur pas à pas pour nos partenaires inscrits au programme de conformité des applications Microsoft 365 visant à faire l’objet d’une attestation et d’une certification Publisher à l’aide du portail de l’Centre partenaires.
 
 ## <a name="2-acronyms--definitions"></a>2. Acronymes & définitions
-| | |
+| Acronyme |Définition |
 |---|----|
-|Acronyme | Définition |
-|PC (Partner Center)|Portail pour tous les partenaires Microsoft. Un partenaire se connecte à l’Centre de partenaires et Self-Assessment questionnaire https://partner.microsoft.com/|
-|ISV|Independent Software Vendor A.k.a. Partenaire ou développeur|
-|Source de l’application| Catalogue d’applications (https://appsource.microsoft.com/)
-||Exemple : Désormais, agent virtuel (https://appsource.microsoft.com/en-us/product/office/WA104381816)|
+|PC [(Partner Center)](https://partner.microsoft.com/)|Portail pour tous les partenaires Microsoft. Un partenaire se connecte à l’Partner Center et envoie Self-Assessment questionnaire. [Partner Center](https://partner.microsoft.com/dashboard/home) for Microsoft 365 App Compliance|
+|ISV|Fournisseur de logiciels indépendant. A.k.a. Partenaire ou développeur|
+|Source de l’application| [Catalogue d’applications](https://appsource.microsoft.com/)
+||Exemple : [désormais agent virtuel](https://appsource.microsoft.com/product/office/WA104381816)|
 
 ## <a name="3---publisher-attestation-workflow"></a>3. Flux Publisher attestation d’attestation
 
 Page d’accueil : il s’agit de la page d’accueil une fois qu’un partenaire se connecte à l’Partner Center.
 
-![Écran d’accueil de l’Partner Center](../media/Picture1.png)
+![Écran d’accueil de l’Partner Center](../media/UserGuidePhotos/01.png)
 
 **Étape 1**   : sur le côté gauche de la page, dans la barre de navigation :
 1. Sélectionnez Office store
 1. Sélection d’une vue d’ensemble
 
-![Office Store se trouve sur le navigation de gauche](../media/Picture2.png)
+![Office Store se trouve sur le navigation de gauche](../media/UserGuidePhotos/02.png)
 
-Lorsque vous sélectionnez « Vue d’ensemble », le partenaire peut voir la liste des applications envoyées par le biais de l’Centre partenaires et disponibles pour le programme Microsoft 365 conformité.
+Lorsque vous sélectionnez « Vue d’ensemble » , le partenaire peut voir la liste des applications envoyées par le biais de l’Partner Center et disponibles pour le programme Microsoft 365 conformité.
 
 **Étape 2** : sélectionnez une application dans la liste pour commencer le processus Publisher attestation.
 
-![Sélectionnez l’application que vous souhaitez attester](../media/Picture3.png)
+![Sélectionnez l’application que vous souhaitez attester](../media/UserGuidePhotos/03.png)
 
-Lors de la sélection d’une application, une autre barre de navigation apparaît avec l’option « Conformité des applications »
+Lors de la sélection d’une application, une autre barre de navigation apparaît avec l’option « Conformité des applications ».
 
 **Étape 3 :** sélectionnez « Conformité des applications »
 
-![Sélectionner la conformité des applications](../media/App%20compliance%20step%203.png)
+![Sélectionner la conformité des applications](../media/UserGuidePhotos/04.png)
 
 **Étape 4 :** Remplir le questionnaire Self-Assessment pour l’attestation Publisher de données
 
-![Import/Export](../media/step4-new%20add.PNG)
+![Attestation de l’éditeur](../media/UserGuidePhotos/5.5.PNG)
 
-![import/Export](../media/NewFeature%20impExp.PNG)
+**Remarque :** Si vous revenir pour mettre à jour/soumettre à nouveau votre application, cliquez sur la liste de listes pour « Choisir le produit » et sélectionnez l’application, puis cliquez sur « Cloner ».
 
-**Remarque**: si vous revenir pour mettre à jour/soumettre à nouveau votre application, cliquez sur la liste pour « Choisir le produit » et sélectionnez l’application, puis cliquez sur « cloner ».
+![Clone](../media/UserGuidePhotos/05.PNG)
 
-![CLone ](../media/clone.PNG)
- ![ Clone2](../media/clone2.PNG)
+Vous pouvez également tirer parti de la Import/Export pour terminer le formulaire hors connexion et l’importer une fois terminé.
+
+![Fonctionnalité d’importation et d’exportation](../media/UserGuidePhotos/06.PNG)
 
 Vous pouvez également tirer parti de la Import/Export pour terminer le formulaire hors connexion et l’importer une fois terminé. 
 
 **Étape 5 :** une fois terminée, cliquez sur « Envoyer ». L’évaluation est désormais « en cours de révision ».
 
-![Click Sumbit](../media/Picture8.png)
+![Click Sumbit](../media/UserGuidePhotos/07.png)
 
-![La révision est en cours](../media/Picture9.png)
+![La révision est en cours](../media/UserGuidePhotos/08.png)
 
 ### <a name="approvereject-scenarios"></a>Scénarios d’approbation/de rejet :
 
@@ -81,11 +81,8 @@ Vous pouvez également tirer parti de la Import/Export pour terminer le formulai
 
 En cas de rejet à ce stade, un partenaire peut :
 -   Afficher le rapport d’échec.
-    - Le partenaire sera averti dans l’Centre de partenaires et par courrier électronique.
--   Mettez à jour Self-Assessment réponses.
--   Soumettez de une autre fois l’auto-évaluation.
-
-![Mettre à jour et resoumettre l’évaluation](../media/Picture10.png)
+    - Le partenaire sera averti par courrier électronique et pourra afficher le rapport d’échec dans l’Partner Center
+-   Mettre à jour et soumettre à nouveau Publisher ![ de l’attestation d’attestation et soumettre à nouveau l’évaluation](../media/UserGuidePhotos/09.png)
 
 **Ré-envoi Publisher attestation B.Publisher**
 
@@ -174,11 +171,11 @@ Les réponses de l’attestation Publisher de l’application doivent être reso
 
 ![Microsoft 365Publisher de renouvellement de l’attestation et de la certification ](../media/2.PNG)
 
-**Publisher attestation expirée :** Les informations de l’application doivent être renouvelés avant la date d’expiration pour conserver la page d’attestation Publisher de l’application sur les documents Microsoft. Le renouvellement opportun garantit également la poursuite du badging et des icônes pour l’application dans AppSource et Team Store.
+**Publisher attestation expirée :** Les informations de l’application doivent être renouvelés avant la date d’expiration pour conserver la page d’attestation Publisher de l’application dans les documents Microsoft. Le renouvellement opportun garantit également la poursuite du badging et des icônes pour l’application dans AppSource et Team Store.
 
 ![Microsoft 365Publisher de renouvellement de l’attestation et de la certification ](../media/3.PNG)
 
-Remarque : une fois expirée, Publisher processus de renouvellement de l’attestation d’attestation peut être démarré à tout moment en cliquant sur « Renouveler ». 
+Remarque : une fois expirée, Publisher processus de renouvellement de l’attestation d’attestation peuvent être démarrés à tout moment en cliquant sur « Renouveler ». 
 
 **Niveau 2 : renouvellement Microsoft 365 certification** 
 
@@ -196,7 +193,7 @@ Publisher L’attestation est terminée. Le renouvellement de la certification a
 
 Rejet du renouvellement de certification : la certification peut être rejetée si : 
 
- - L’application ne comprend pas les outils, processus ou configurations requis et ne peut pas implémenter les modifications requises dans la fenêtre de certification. 
+ - L’application n’a pas les outils, processus ou configurations requis en place et ne peut pas implémenter les modifications requises dans la fenêtre de certification. 
  - L’application présente des vulnérabilités en suspens et ne peut pas être corrigée dans la fenêtre de certification. 
 
 ![Microsoft 365Publisher de renouvellement de l’attestation et de la certification ](../media/5.PNG)
