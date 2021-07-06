@@ -1,5 +1,5 @@
 ---
-title: Informations sur les applications pour Smart Connecter Jira par yasoon
+title: Informations sur l’application pour Smart Connecter Jira par yasoon
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/22/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Smart Connecter pour Jira, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6fb1be576d588727c75f14d72db48bc3a7a8aeb5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b8266a72ed6690bd4c9994b64bceccbe73d87013
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550734"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278966"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect pour Jira
 
@@ -34,12 +34,12 @@ Informations fournies par yasoon ContrôleH à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Smart Connect pour Jira |
 | ID | WA200002055 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | yasoon GmbH |
-| URL du site web partenaire | [https://yasoon.com](https://yasoon.com) |
+| URL du site web partenaire | [https://www.yasoon.com](https://www.yasoon.com) |
 | URL de la Teams d’informations sur l’application | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
-| URL de la politique de confidentialité | [https://yasoon.com/privacy-policy-services](https://yasoon.com/privacy-policy-services) |
-| URL des conditions d’utilisation | [https://yasoon.com/terms-of-use](https://yasoon.com/terms-of-use) |
+| URL de la politique de confidentialité | [https://yasoon.com/privacy-policy-services/](https://yasoon.com/privacy-policy-services/) |
+| URL des conditions d’utilisation | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474846970/Product_42949680957/Asset_3f25ec80-eacb-454f-8cc2-eeee583b65c6/170825EULAOfficeaddinEN.doc) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -127,11 +127,11 @@ Ces informations ont été fournies par yasoon ContrôleH sur la façon dont cet
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour qbo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 245ab6925aa77a005194e1badf31b926280454a1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7f3e775cca00c9e4517a292b1b66183f5417bf53
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551074"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53279056"
 ---
 # <a name="qbo"></a>qbo
 
@@ -34,9 +34,9 @@ Informations fournies par Unscrambl à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | qbo |
 | ID | WA200001708 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Unscrambl |
-| URL du site web partenaire | [https://qbo.ai](https://qbo.ai) |
+| URL du site web partenaire | [https://unscrambl.com](https://unscrambl.com) |
 | URL de la Teams d’informations sur l’application | [https://qbo.ai](https://qbo.ai) |
 | URL de la politique de confidentialité | [https://qbo.ai/legal/](https://qbo.ai/legal/) |
 | URL des conditions d’utilisation | [https://qbo.ai/legal/#service](https://qbo.ai/legal/#service) |
@@ -63,7 +63,7 @@ Les applications et les compléments créés sur Microsoft 365 peuvent utiliser 
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| API Bot Framework | Oui | Nom de domaine, comme identifié à partir du courrier électronique d’un utilisateur | Nous collectons des messages électroniques pour l’envoi d’un rapport, si l’utilisateur le souhaite. | Courrier électronique uniquement | Stocké dans le cadre du profil utilisateur |
+>| API Bot Framework | Oui | Nom de domaine identifié à partir de l’e-mail d’un utilisateur | Nous collectons des messages électroniques pour l’envoi d’un rapport, si l’utilisateur le souhaite. | Courrier électronique uniquement | Stocké dans le cadre du profil utilisateur |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
@@ -122,7 +122,7 @@ Ces informations ont été fournies par Unscrambl sur la façon dont cette appli
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

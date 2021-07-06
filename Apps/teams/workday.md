@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Workday, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 181356178c5af1fc2f728ad84b2bbd33a7fc92a1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f85cc0ccc778f7ed3440e85795574faad3868d24
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550814"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53279006"
 ---
 # <a name="workday"></a>Workday
 
@@ -34,12 +34,12 @@ Informations fournies par Workday à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Workday |
 | ID | WA200001555 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Workday |
-| URL du site web partenaire | [https://nw.myworkday.com/microsoftteams](https://nw.myworkday.com/microsoftteams) |
+| URL du site web partenaire | [https://www.workday.com/en-us/homepage.html](https://www.workday.com/en-us/homepage.html) |
 | URL de la Teams d’informations sur l’application | [https://nw.myworkday.com/microsoftteams/](https://nw.myworkday.com/microsoftteams/) |
 | URL de la politique de confidentialité | [https://www.workday.com/en-us/privacy.html](https://www.workday.com/en-us/privacy.html) |
-| URL des conditions d’utilisation | [https://nw.myworkday.com/microsoftteams/post-license](https://nw.myworkday.com/microsoftteams/post-license) |
+| URL des conditions d’utilisation | [https://nw.myworkday.com/microsoftteams/post-license/](https://nw.myworkday.com/microsoftteams/post-license/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,7 +57,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| TeamsAppInstallation.ReadWriteForUser.All | application | Récupérer l’ID d’application, installer l’application pour l’utilisateur, obtenir Teams licence d’accès à partir d’AAD | Nous ne stockons pas les données liées à cette fonctionnalité.  Il nous permet d’installer l’application pour l’utilisateur. | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
+>| TeamsAppInstallation.ReadWriteForUser.All | application | Récupérer l’ID de l’application, installer l’application pour l’utilisateur, obtenir Teams licence d’accès à partir d’AAD | Nous ne stockons pas les données liées à cette fonctionnalité.  Il nous permet d’installer l’application pour l’utilisateur. | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
 >| User.Read.All | application | Récupérer les utilisateurs AAID pour envoyer des messages aux utilisateurs. | Just the AAID and Teams AAID  | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
 
 
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36384' frameborder='no' style='width: 100%;'></iframe>
 
@@ -116,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Workday sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Workday sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|

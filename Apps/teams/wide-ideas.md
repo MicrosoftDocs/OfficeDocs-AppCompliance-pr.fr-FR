@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour les idées larges par idées larges
+title: Informations sur les applications pour les idées larges par idées larges
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/03/2020
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les idées larges, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f1fc5d97736ba587595ef6c742b14ce75c0b1863
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 05daba10da032e947976d99411e0e70982e17f00
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550894"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53279048"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -34,11 +34,11 @@ Informations fournies par Les idées larges à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Wide Ideas |
 | ID | WA200000819 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Wide Ideas |
 | URL du site web partenaire | [https://getwideideas.com](https://getwideideas.com) |
-| URL de la politique de confidentialité | [https://getwideideas.com/privacy-policy](https://getwideideas.com/privacy-policy) |
-| URL des conditions d’utilisation | [https://getwideideas.com/terms](https://getwideideas.com/terms) |
+| URL de la politique de confidentialité | [https://getwideideas.com/privacy-policy/](https://getwideideas.com/privacy-policy/) |
+| URL des conditions d’utilisation | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474849364/Product_42949683744/Asset_0831a14b-e5df-4f0b-8385-3c06edaeceeb/GENERALTERMSANDCONDITIONSWideI.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -58,7 +58,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Directory.Read.All | application | Nous allons enregistrer l’ID de groupe et les utilisateurs appartenant à quels groupes | Permet à l’application de lire les données dans l’annuaire de notre organisation Clients, telles que les utilisateurs et les groupes.  | 77baef51-6387-4aff-9b3f-23e4654c30cd |
 >| Group.ReadWrite.All | application | Nous allons enregistrer l’ID de canal associé au groupe. | Permet aux utilisateurs de créer des équipes, des canaux et des onglets à l’Microsoft Teams à partir du portail client. Cela permet également aux utilisateurs de synchroniser des équipes existantes dans Microsoft Teams dans le portail client. | 77baef51-6387-4aff-9b3f-23e4654c30cd |
->| User.Read | délégué | Nous enregistreons le message &amp; électronique de nom | Permet aux utilisateurs de se connecter et d’accorder l’accès à Microsoft Graph en leur nom | 77baef51-6387-4aff-9b3f-23e4654c30cd |
+>| User.Read | délégué | Nous enregistreons le message &amp; électronique de nom | Permet aux utilisateurs de se connecter et de donner accès à Microsoft Graph en leur nom | 77baef51-6387-4aff-9b3f-23e4654c30cd |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Pour créer des utilisateurs dans notre système d’arrière-projet et accorder des autorisations d’accès au contenu lié à l’équipe. | We store: Name - To shown the name of the user, Email address - To identify the user |  |
+>| Pour créer des utilisateurs dans notre système back-end et accorder des autorisations pour accéder au contenu lié à l’équipe. | We store: Name - To shown the name of the user, Email address - To identify the user |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -90,7 +90,7 @@ L’organisation peut nous envoyer une demande en tant que fournisseur s’il so
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Stockage des données : toutes les données client sont stockées dans Microsoft Azure services. Les utilisateurs doivent être authentifiés à 2 facteurs via Azure AD. L’accès basé sur un rôle (RBAC) est en place. Tout accès à Microsoft Azure est strictement effectué par le biais de connexions chiffrées. Toutes les données sont chiffrées au repos. Tous les services sont protégés par le Centre de sécurité Azure. 
+>Stockage des données : toutes les données client sont stockées dans Microsoft Azure services. Les utilisateurs doivent être authentifiés à 2 facteurs via Azure AD. L’accès basé sur un rôle (RBAC) est en place. Tout accès aux Microsoft Azure est strictement effectué par le biais de connexions chiffrées. Toutes les données sont chiffrées au repos. Tous les services sont protégés par le Centre de sécurité Azure. 
 
 Nous avons également une stratégie d’accès en place conformément au principe du moindre privilège. 
 
@@ -107,7 +107,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35870' frameborder='no' style='width: 100%;'></iframe>
 
