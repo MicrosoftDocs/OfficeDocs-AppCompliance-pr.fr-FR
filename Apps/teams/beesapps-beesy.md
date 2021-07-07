@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Beesy, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d669b1b43c7b273b3cc68ed6cfc0f24b7234a293
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e9d982e61f2afeda47bcfdab51c549346fc5fe60
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552345"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281396"
 ---
 # <a name="beesy"></a>Beesy
 
@@ -34,9 +34,9 @@ Informations fournies par BeesApps à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Beesy |
 | ID | WA200001248 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | BeesApps |
-| URL du site web partenaire | [https://www.beesy.me/](https://www.beesy.me/) |
+| URL du site web partenaire | [https://www.beesapps.com/](https://www.beesapps.com/) |
 | URL de la politique de confidentialité | [https://www.beesy.me/legal/privacypolicy_en.pdf](https://www.beesy.me/legal/privacypolicy_en.pdf) |
 | URL des conditions d’utilisation | [https://www.beesy.me/legal/termsofservice_en_v1.03.pdf](https://www.beesy.me/legal/termsofservice_en_v1.03.pdf) |
 
@@ -71,7 +71,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Nous accédons à ces données pour fournir un contexte dans le bot afin d’enregistrer les actions directement à la personne qui discute (notre bot est un assistant virtuel). | Aucune donnée n’est stockée directement à partir de la liste. Nous comparons le membre de l’équipe à une personne déjà intégrée dans beesy.me données de service, juste en correspondance. |  |
+>| Nous accédons à ces données pour fournir un contexte dans le bot afin d’enregistrer les actions directement à la personne qui discute (notre bot est un assistant virtuel). | Aucune donnée n’est stockée directement à partir de la liste. Nous comparons le membre de l’équipe à une personne déjà intégrée dans beesy.me de service, juste en correspondance. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35940' frameborder='no' style='width: 100%;'></iframe>
 

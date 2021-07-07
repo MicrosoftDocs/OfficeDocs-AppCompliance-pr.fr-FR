@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Stack Overflow pour Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 62f32ce131b2ebdf827d8e11e24873fc552577a7
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: da3e4b0f9a5219bcf0d652938f24397c12b7bdb4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552745"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280856"
 ---
 # <a name="stack-overflow-for-teams"></a>Stack Overflow pour Teams
 
@@ -34,11 +34,11 @@ Informations fournies par Stack Overflow à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Stack Overflow pour Teams |
 | ID | WA200000739 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Stack Overflow |
-| URL du site web partenaire | [https://stackoverflow.com](https://stackoverflow.com) |
+| URL du site web partenaire | [https://www.stackoverflow.com](https://www.stackoverflow.com) |
 | URL de la politique de confidentialité | [https://stackoverflow.com/legal/privacy-policy](https://stackoverflow.com/legal/privacy-policy) |
-| URL des conditions d’utilisation | [https://stackoverflow.com/legal/terms-of-service/public](https://stackoverflow.com/legal/terms-of-service/public) |
+| URL des conditions d’utilisation | [https://stackoverflow.com/legal/terms-of-service/teams](https://stackoverflow.com/legal/terms-of-service/teams) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -77,7 +77,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Non. Le mappage de l’utilisateur Teams MS et de l’utilisateur so Teams se produit dans le produit SO Teams.
-MS Teams nous envoie leurs ID identifiables et nous les enregistreons en interne pour ma propres cartes à l’utilisateur.
+MS Teams nous envoie leurs ID identifiables et nous les enregistreons en interne pour ma cartographier l’utilisateur.
 En outre, MS Teams nous envoie un JWT pour les demandes de bot (empêche la contrefaçon de demande) et les demandes Tab valides à l’aide du cookie SO.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire

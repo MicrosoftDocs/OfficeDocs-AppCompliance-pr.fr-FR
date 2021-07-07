@@ -1,5 +1,5 @@
 ---
-title: Informations sur les applications pour les modules complémentaires iGlobe CRM par iGlobe
+title: Informations sur l’application pour les modules complémentaires iGlobe CRM par iGlobe
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/17/2020
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour les modules complémentaires iGlobe CRM, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b1e1fc9636b7c6e612e1a9a11ef5770638a5217f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 251f417ae2aee8dce2e908d7b75a3ab462442422
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553485"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282127"
 ---
 # <a name="iglobe-crm-add-ons"></a>Modules add-ons iGlobe CRM
 
@@ -34,7 +34,7 @@ Informations fournies par iGlobe à Microsoft :
 | ID | WA200002010 |
 | Office 365 clients pris en charge | SharePoint 2016 ou ultérieure |
 | Nom de la société partenaire | iGlobe |
-| URL du site web partenaire | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| URL du site web partenaire | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | URL de la politique de confidentialité | [https://iglobecrm.com/content/legal-information](https://iglobecrm.com/content/legal-information) |
 | URL des conditions d’utilisation | [https://iglobecrm.com/content/iglobe-crm-office-365-end-use...](https://iglobecrm.com/content/iglobe-crm-office-365-end-user-license-agreement) |
 
@@ -142,12 +142,12 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Paramètres de sécurité par défaut et autres stratégies courantes telles que Bloquer l’authentification héritée* Exiger l’authentification multifacteur pour les administrateurs* Exiger l’authentification multifacteur pour la gestion Azure* Exiger l’authentification multifacteur pour tous les utilisateurs* |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

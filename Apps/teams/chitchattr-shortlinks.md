@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Shortlinks, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fd20b08617862fd84cd015db424b92322e5dffed
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ad1101aaf6739390f466a387c95f988d3a052520
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553255"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281366"
 ---
 # <a name="shortlinks"></a>Shortlinks
 
@@ -34,12 +34,12 @@ Informations fournies par ChitChattr à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Shortlinks |
 | ID | WA200001846 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | ChitChattr |
-| URL du site web partenaire | [https://www.chitchattr.com?p=shortlinks](https://www.chitchattr.com?p=shortlinks) |
+| URL du site web partenaire | [https://www.chitchattr.com](https://www.chitchattr.com) |
 | URL de la Teams d’informations sur l’application | [https://www.chitchattr.com/shortlinks/](https://www.chitchattr.com/shortlinks/) |
 | URL de la politique de confidentialité | [https://www.chitchattr.com/privacy?p=shortlinks](https://www.chitchattr.com/privacy?p=shortlinks) |
-| URL des conditions d’utilisation | [https://www.chitchattr.com/termsofuse?p=shortlinks](https://www.chitchattr.com/termsofuse?p=shortlinks) |
+| URL des conditions d’utilisation | [https://www.chitchattr.com/termsofuse](https://www.chitchattr.com/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -61,7 +61,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| Bot Framework Services | Non |  |  |  |  |
 
@@ -88,7 +88,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Nous utilisons uniquement les services hébergés par Azure (y compris Mongo Atlas) et avons un contrôle total sur les données de ces services.
+>Nous utilisons uniquement les services hébergés par Azure (y compris Mongo Atlas) et nous avons un contrôle total sur les données de ces services.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
 
@@ -116,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par ChitChattr sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par ChitChattr sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|

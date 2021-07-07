@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Mybys, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ff78bfc3a2cab87e0d4c48dbd4707eb3fba1dd02
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c36e0bb86b707dad0f03dfd2e00c2405d701860b
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552165"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281889"
 ---
 # <a name="mybys"></a>Mybys
 
@@ -34,9 +34,9 @@ Informations fournies par Facilis à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Mybys |
 | ID | WA200002605 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Facilis |
-| URL du site web partenaire | [https://facilisglobal.com/](https://facilisglobal.com/) |
+| URL du site web partenaire | [https://facilisglobal.com](https://facilisglobal.com) |
 | URL de la Teams d’informations sur l’application | [https://facilisglobal.com/products/microsoft-teams](https://facilisglobal.com/products/microsoft-teams) |
 | URL de la politique de confidentialité | [https://facilisglobal.com/privacy-policy](https://facilisglobal.com/privacy-policy) |
 | URL des conditions d’utilisation | [https://facilisglobal.com/terms-conditions](https://facilisglobal.com/terms-conditions) |
@@ -111,11 +111,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Facilis sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Facilis sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

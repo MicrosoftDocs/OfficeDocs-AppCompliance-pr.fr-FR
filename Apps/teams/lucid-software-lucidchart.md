@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Cechart, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cdfec0551da7278ac92c3e24caa2664a26a89bea
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 65a82c3e895af38dc719411c7729825acae2f9be
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552965"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281767"
 ---
 # <a name="lucidchart"></a>Lucidchart
 
@@ -34,12 +34,12 @@ Informations fournies par Software à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Lucidchart |
 | ID | WA104381935 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Logiciel Lucid |
 | URL du site web partenaire | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL de la Teams d’informations sur l’application | [https://lucidchart.zendesk.com/](https://lucidchart.zendesk.com/) |
-| URL de la politique de confidentialité | [https://lucid.co/privacy](https://lucid.co/privacy) |
-| URL des conditions d’utilisation | [https://lucid.co/tos](https://lucid.co/tos) |
+| URL de la politique de confidentialité | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
+| URL des conditions d’utilisation | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -88,7 +88,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous logons les e-mails et les adresses IP pour des raisons de sécurité et de support. Tous les accès aux journaux sont enregistrés et ne peuvent pas être changés &amp; dans un système tiers. L’accès aux journaux nécessite l’mffa.
+>Nous logons les e-mails et les adresses IP pour des raisons de sécurité et de support. Tous les accès aux journaux sont enregistrés et ne peuvent pas être changés &amp; dans un système tiers. L’accès aux journaux nécessite l' mba.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 

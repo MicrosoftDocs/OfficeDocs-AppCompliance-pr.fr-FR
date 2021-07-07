@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Reach, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 83df050a6f58bc1d0b7d49239b40ddf2ba80849a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 91729da78b1a031be38569bfd4e4168f2a96f83a
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551995"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281777"
 ---
 # <a name="reach"></a>Reach
 
@@ -34,12 +34,12 @@ Informations fournies par LiveTiles à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Reach |
 | ID | WA200002045 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | LiveTiles |
 | URL du site web partenaire | [https://livetilesglobal.com](https://livetilesglobal.com) |
 | URL de la Teams d’informations sur l’application | [https://livetilesglobal.com/products/livetiles-reach/](https://livetilesglobal.com/products/livetiles-reach/) |
-| URL de la politique de confidentialité | [https://livetilesglobal.com/privacy-policy](https://livetilesglobal.com/privacy-policy) |
-| URL des conditions d’utilisation | [https://livetilesglobal.com/eula](https://livetilesglobal.com/eula) |
+| URL de la politique de confidentialité | [https://livetilesglobal.com/privacy-policy/](https://livetilesglobal.com/privacy-policy/) |
+| URL des conditions d’utilisation | [https://livetilesglobal.com/eula/](https://livetilesglobal.com/eula/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -58,9 +58,9 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| TeamsActivity.Send | application | none | none | a7c1920d-3ac0-42db-9757-078a2b321fd8  |
->| User.Read | délégué | User DisplayName, User Email Address, UPN. Obligatoire pour permettre aux utilisateurs de se connecter à l’application et d’obtenir des informations de base de l’utilisateur, telles que le nom complet. L’adresse e-mail est utilisée pour envoyer des notifications par courrier électronique.  | User DisplayName, User Email Address, UPN. Obligatoire pour permettre aux utilisateurs de se connecter à l’application et d’obtenir des informations de base de l’utilisateur, telles que le nom complet. L’adresse e-mail est utilisée pour envoyer des notifications par courrier électronique.  | d492530a-8cff-481c-90da-9c3c3f1be7da |
->| User.ReadBasic.All | délégué | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Téléphone Number, User Business Téléphone Number, User Office Location. Obligatoire pour permettre aux utilisateurs de rechercher d’autres utilisateurs dans l’application (Phonebook) et voir le profil de base et les informations de contact des autres utilisateurs.  | aucune | d492530a-8cff-481c-90da-9c3c3f1be7da |
->| Directory.Read.All | application | Appartenance aux groupes, groupes AD dans l’annuaire. L’appartenance à un groupe d’utilisateurs est stockée dans un cache pour minimiser les appels à l’API Microsoft Graph. Obligatoire pour permettre aux utilisateurs de rechercher des groupes Active Directory. En outre, cette autorisation est requise pour que l’application résolve l’appartenance à un groupe AD d’utilisateurs dans les travaux web du serveur arrière. | Appartenance à un groupe d’utilisateurs. L’appartenance à un groupe d’utilisateurs est stockée dans un cache pour minimiser les appels à l’API Microsoft Graph. Obligatoire pour permettre aux utilisateurs de rechercher des groupes Active Directory. En outre, cette autorisation est requise pour que l’application résolve l’appartenance à un groupe AD d’utilisateurs dans les travaux web du serveur arrière.  | d492530a-8cff-481c-90da-9c3c3f1be7da  |
+>| User.Read | délégué | User DisplayName, User Email Address, UPN. Obligatoire pour permettre aux utilisateurs de se connecter à l’application et d’obtenir des informations de base de l’utilisateur, telles que le nom complet. L’adresse de messagerie est utilisée pour envoyer des notifications par courrier électronique.  | User DisplayName, User Email Address, UPN. Obligatoire pour permettre aux utilisateurs de se connecter à l’application et d’obtenir des informations de base de l’utilisateur, telles que le nom complet. L’adresse de messagerie est utilisée pour envoyer des notifications par courrier électronique.  | d492530a-8cff-481c-90da-9c3c3f1be7da |
+>| User.ReadBasic.All | délégué | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Téléphone Number, User Business Téléphone Number, User Office Location. Obligatoire pour permettre aux utilisateurs de rechercher d’autres utilisateurs dans l’application (Phonebook) et voir les informations de profil et de contact de base des autres utilisateurs.  | aucune | d492530a-8cff-481c-90da-9c3c3f1be7da |
+>| Directory.Read.All | application | Appartenance à un groupe, groupes AD dans l’annuaire. L’appartenance à un groupe d’utilisateurs est stockée dans un cache pour minimiser les appels à l’API Microsoft Graph. Obligatoire pour permettre aux utilisateurs de rechercher des groupes Active Directory. En outre, cette autorisation est requise pour que l’application résolve l’appartenance au groupe AD des utilisateurs dans les travaux web du serveur arrière. | Appartenance à un groupe d’utilisateurs. L’appartenance à un groupe d’utilisateurs est stockée dans un cache pour minimiser les appels à l’API Microsoft Graph. Obligatoire pour permettre aux utilisateurs de rechercher des groupes Active Directory. En outre, cette autorisation est requise pour que l’application résolve l’appartenance au groupe AD des utilisateurs dans les travaux web du serveur arrière.  | d492530a-8cff-481c-90da-9c3c3f1be7da  |
 >| User.Read.All | application | Les données récupérées à partir du profil utilisateur dépendent de la configuration de la fonctionnalité de ciblage d’audience spécifiée dans l’application. Obligatoire pour permettre à l’application de lire les profils utilisateur sans utilisateur. La lecture des données de profil est nécessaire pour la fonctionnalité de ciblage d’informations au sein de l’application, afin que les informations s’affichent pour des utilisateurs spécifiques en fonction d’une valeur de propriété de profil spécifique.  | aucune | d492530a-8cff-481c-90da-9c3c3f1be7da  |
 
 
@@ -81,7 +81,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >adresse de messagerie, UPN. Rétention maximale de 60 jours, après leur suppression
 
@@ -103,7 +103,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36551' frameborder='no' style='width: 100%;'></iframe>
 
@@ -121,12 +121,12 @@ Ces informations ont été fournies par LiveTiles sur la façon dont cette appli
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Non |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Authentification multifacteur, restriction des emplacements utilisateur et des plages IP |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |

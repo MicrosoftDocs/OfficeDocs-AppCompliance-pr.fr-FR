@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TagTeam, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5c4976272cd5ee2f280544bf1bb6fb674ca5297d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b4e3fcf89e816c115887fa5bd0df38cc95d4ae2f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553320"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280946"
 ---
 # <a name="tagteam"></a>TagTeam
 
@@ -34,9 +34,9 @@ Informations fournies à Microsoft par La solution d’entreprise plus intellige
 |:----------------|:-------------|
 | Nom de l'application | TagTeam |
 | ID | WA200002829 |
-| Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Solution d’entreprise plus intelligente |
-| URL du site web partenaire | [https://www.smarterbusiness.at/en](https://www.smarterbusiness.at/en) |
+| Office 365 clients pris en charge | Microsoft Teams |
+| Nom de la société partenaire | Smarter Business Solution GmbH |
+| URL du site web partenaire | [https://www.smarterbusiness.at](https://www.smarterbusiness.at) |
 | URL de la Teams d’informations sur l’application | [https://www.smarterbusiness.at/en/tagteam-help](https://www.smarterbusiness.at/en/tagteam-help) |
 | URL de la politique de confidentialité | [https://www.smarterbusiness.at/en/add-in-privacy-policy](https://www.smarterbusiness.at/en/add-in-privacy-policy) |
 | URL des conditions d’utilisation | [https://www.smarterbusiness.at/en/terms-of-use-for-tagteam](https://www.smarterbusiness.at/en/terms-of-use-for-tagteam) |
@@ -118,11 +118,11 @@ Ces informations ont été fournies par la solution d’entreprise Plus intellig
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

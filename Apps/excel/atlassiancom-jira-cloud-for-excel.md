@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Jira Cloud pour Excel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cbed2eb7aada40d5631391a9549600a4af3edebf
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 73212faa010d95233281a0cf7f120e9ee0fd1ffb
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52549824"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281196"
 ---
-# <a name="jira-cloud-for-excel"></a>Jira Cloud pour Excel
+# <a name="jira-cloud-for-excel"></a>Jira Cloud for Excel
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,13 +31,13 @@ Informations fournies par Atlassian.com à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Jira Cloud pour Excel |
+| Nom de l'application | Jira Cloud for Excel |
 | ID | WA200000556 |
 | Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2016 ou une Windows, Excel sur le Web |
 | Nom de la société partenaire | Atlassian.com |
-| URL du site web partenaire | [https://www.atlassian.com/](https://www.atlassian.com/) |
-| URL de la politique de confidentialité | [https://www.atlassian.com/legal/privacy-policy](https://www.atlassian.com/legal/privacy-policy) |
-| URL des conditions d’utilisation | [https://www.microsoft.com/en-us/store/standard-application-...](https://www.microsoft.com/en-us/store/standard-application-license-terms) |
+| URL du site web partenaire | [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) |
+| URL de la politique de confidentialité | [https://www.msteams-atlassian.com/privacy-policy/](https://www.msteams-atlassian.com/privacy-policy/) |
+| URL des conditions d’utilisation | [https://www.msteams-atlassian.com/legal/](https://www.msteams-atlassian.com/legal/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -74,9 +74,9 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Certains choix s’offrent à vous en ce qui concerne vos informations. Vous trouverez ci-dessous un résumé de ces choix, de leur exercice et de toutes les limitations.
+>Certains choix s’offrent à vous en ce qui concerne vos informations. Vous trouverez ci-dessous un résumé de ces choix, de leur utilisation et de toutes les limitations.
 
-Vos choix : vous avez le droit de demander une copie de vos informations, de nous opposer à notre utilisation de vos informations (y compris à des fins marketing), de demander la suppression ou la restriction de vos informations ou de demander vos informations dans un format électronique structuré. Ci-dessous, nous décrivons les outils et les processus permettant d’effectuer ces demandes. Vous pouvez exercer certains choix en vous connectant aux Services et en utilisant les paramètres disponibles dans les Services ou votre compte. Lorsque les services sont administrés pour vous par un administrateur (voir l’avis aux utilisateurs finaux ci-dessous), vous devrez peut-être contacter votre administrateur pour vous aider à répondre à &quot; &quot; vos demandes en &quot; &quot; premier. Pour toutes les autres demandes, vous pouvez nous contacter comme indiqué dans la section Contactez-nous ci-dessous pour demander de l’aide.
+Vos choix : vous avez le droit de demander une copie de vos informations, de nous opposer à notre utilisation de vos informations (y compris à des fins marketing), de demander la suppression ou la restriction de vos informations ou de demander vos informations dans un format électronique structuré. Ci-dessous, nous décrivons les outils et les processus permettant d’effectuer ces demandes. Vous pouvez exercer certains choix en vous connectant aux Services et en utilisant les paramètres disponibles dans les Services ou votre compte. Lorsque les services sont administrés pour vous par un administrateur (voir l’avis aux utilisateurs finaux ci-dessous), vous devrez peut-être contacter votre administrateur pour vous aider à répondre à vos demandes en &quot; &quot; &quot; &quot; premier. Pour toutes les autres demandes, vous pouvez nous contacter comme indiqué dans la section Contactez-nous ci-dessous pour demander de l’aide.
 
 Votre demande et vos choix peuvent être limités dans certains cas : par exemple, si la réalisation de votre demande révélerait des informations sur une autre personne, ou si vous demandez de supprimer des informations que nous ou votre administrateur sommes autorisés par la loi ou si nous avons des intérêts légitimes attrayants à conserver. Lorsque vous nous avez demandé de partager des données avec des tiers, par exemple, en installant des applications tierces, vous devrez contacter directement ces fournisseurs de services tiers pour que vos informations soit supprimées ou restreintes. Si vous avez des problèmes non résolus, vous avez peut-être le droit de vous plaindre auprès d’une autorité de protection des données dans le pays où vous travaillez, où vous travaillez ou où vous pensez que vos droits ont été enfreints.
 
@@ -86,15 +86,15 @@ Désactivez votre compte : si vous ne souhaitez plus utiliser nos services, vous
 
 Supprimez vos informations : nos services et la documentation associée vous donnent la possibilité de supprimer certaines informations vous concernant dans le Service. Par exemple, vous pouvez supprimer le contenu qui contient des informations vous concernant à l’aide des outils de recherche et d’édition de mots clés associés à ce contenu, et vous pouvez supprimer certaines informations de profil dans vos paramètres de profil. Veuillez noter, toutefois, que nous devrez peut-être conserver certaines informations à des fins de conservation des registres, pour effectuer des transactions ou pour respecter nos obligations légales.   
 
-Demandez-nous d’arrêter d’utiliser vos informations : Dans certains cas, vous pouvez nous demander d’arrêter d’accéder à vos informations, de les stocker, de les utiliser et de les traiter dans les cas où nous pensons ne pas avoir les droits appropriés pour le faire. Par exemple, si vous pensez qu’un compte Services a été créé pour vous sans votre autorisation ou si vous n’êtes plus un utilisateur actif, vous pouvez demander que nous supprimions votre compte comme prévu dans cette stratégie. Lorsque vous nous avez donné votre consentement pour utiliser vos informations à des fins limitées, vous pouvez nous contacter pour retirer ce consentement, mais cela n’affectera aucun traitement qui a déjà eu lieu à ce moment-là. Vous pouvez également refuser l’utilisation de vos informations à des fins marketing en nous contactant, comme indiqué ci-dessous. Lorsque vous faites de telles demandes, nous pouvons avoir besoin de temps pour examiner et faciliter votre demande. En cas de retard ou de litige quant à l’utilisation de vos informations, nous limiterons toute utilisation supplémentaire de vos informations jusqu’à ce que la demande soit honorée ou que le litige soit résolu, à condition que votre administrateur ne s’y objecte pas (le cas échéant). Si vous vous objectez aux informations vous concernant en cours de partage avec une application tierce, désactivez l’application ou contactez votre administrateur pour le faire.
+Demandez-nous d’arrêter d’utiliser vos informations : Dans certains cas, vous pouvez nous demander d’arrêter d’accéder à vos informations, de les stocker, de les utiliser et de les traiter dans les cas où nous pensons que nous ne sommes pas en droit de le faire. Par exemple, si vous pensez qu’un compte Services a été créé pour vous sans votre autorisation ou si vous n’êtes plus un utilisateur actif, vous pouvez demander que nous supprimions votre compte comme prévu dans cette stratégie. Lorsque vous nous avez donné votre consentement pour utiliser vos informations à des fins limitées, vous pouvez nous contacter pour retirer ce consentement, mais cela n’affectera aucun traitement qui a déjà eu lieu à ce moment-là. Vous pouvez également refuser l’utilisation de vos informations à des fins marketing en nous contactant, comme indiqué ci-dessous. Lorsque vous faites de telles demandes, nous pouvons avoir besoin de temps pour examiner et faciliter votre demande. En cas de retard ou de litige quant à l’utilisation de vos informations, nous limiterons toute utilisation supplémentaire de vos informations jusqu’à ce que la demande soit honorée ou que le litige soit résolu, à condition que votre administrateur ne s’y objecte pas (le cas échéant). Si vous vous objectez aux informations vous concernant en cours de partage avec une application tierce, désactivez l’application ou contactez votre administrateur pour le faire.
 
-Désinscription des communications : vous pouvez refuser de recevoir des communications promotionnelles de notre part en utilisant le lien de désabonnement dans chaque e-mail, en mettant à jour vos préférences de messagerie dans le menu des paramètres de votre compte de service ou en nous contactant comme indiqué ci-dessous pour supprimer vos informations de contact de notre liste de courriers promotionnels ou de notre base de données d’inscription.  Même après avoir choisi de ne plus recevoir de messages promotionnels de notre part, vous continuerez à recevoir des messages transactionnels de notre part concernant nos services. Vous pouvez refuser certains messages de notification dans les paramètres de votre compte. 
+Désinscription des communications : vous pouvez refuser de recevoir des communications promotionnelles de notre part en utilisant le lien de désabonnement dans chaque e-mail, en mettant à jour vos préférences de messagerie dans le menu des paramètres de votre compte de service, ou en nous contactant comme indiqué ci-dessous pour supprimer vos informations de contact de notre liste de messages promotionnels ou de notre base de données d’inscription.  Même après avoir choisi de ne plus recevoir de messages promotionnels de notre part, vous continuerez à recevoir des messages transactionnels de notre part concernant nos services. Vous pouvez refuser certains messages de notification dans les paramètres de votre compte. 
 
-Vous pourrez peut-être refuser de recevoir des publicités personnalisées d’autres sociétés membres de Network Advertising Initiative ou abonnées aux principes Self-Regulatory de la Digital Advertising Alliance pour la publicité comportementale en ligne. Pour plus d’informations sur cette pratique et pour comprendre vos options, visitez : https://www.aboutads.info et https://optout.networkadvertising.org/ https://www.youronlinechoices.eu . 
+Vous pouvez choisir de ne plus recevoir d’annonces personnalisées d’autres sociétés membres de Network Advertising Initiative ou abonnées aux principes Self-Regulatory de la Digital Advertising Alliance pour la publicité comportementale en ligne. Pour plus d’informations sur cette pratique et pour comprendre vos options, visitez : https://www.aboutads.info et https://optout.networkadvertising.org/ https://www.youronlinechoices.eu . 
 
 Désactiver les contrôles de cookie : les contrôles de cookies appropriés basés sur le navigateur sont décrits dans notre notification de &amp; suivi des cookies.
 
-Send &quot; &quot; Do Not Track &quot; &quot; Signals: Some browsers have incorporated &quot; &quot; Do Not Track &quot; &quot; (DNT) features that can send a signal to the websites you visit indicating you do not wish to be tracked. Étant donné qu’il n’existe pas encore de compréhension commune de l’interprétation du signal DNT, nos services ne répondent pas actuellement aux signaux DNT du navigateur. Vous pouvez utiliser la gamme d’autres outils que nous fournissons pour contrôler la collecte et l’utilisation des données, y compris la possibilité de ne plus recevoir de marketing de notre part, comme décrit ci-dessus.
+Envoyer les signaux ne pas me suivre : certains navigateurs ont incorporé des fonctionnalités Ne pas me suivre &quot; &quot; &quot; &quot; &quot; &quot; &quot; &quot; (DNT) qui peuvent envoyer un signal aux sites web que vous visitez indiquant que vous ne souhaitez pas être suivi. Étant donné qu’il n’existe pas encore de compréhension commune de l’interprétation du signal DNT, nos services ne répondent pas actuellement aux signaux DNT du navigateur. Vous pouvez utiliser la gamme d’autres outils que nous fournissons pour contrôler la collecte et l’utilisation des données, y compris la possibilité de ne plus recevoir de marketing de notre part, comme décrit ci-dessus.
 
 Portabilité des données : la portabilité des données permet d’obtenir certaines de vos informations dans un format que vous pouvez déplacer d’un fournisseur de services à un autre (par exemple, lorsque vous transférez votre numéro de téléphone mobile à un autre opérateur).  Selon le contexte, cela s’applique à certaines de vos informations, mais pas à toutes vos informations.  Si vous le demandez, nous vous fournirons un fichier électronique des informations de votre compte de base et des informations que vous créez sur les espaces que vous sous votre seul contrôle, comme votre référentiel Bitbucket personnel.  
 
@@ -105,7 +105,7 @@ Portabilité des données : la portabilité des données permet d’obtenir cert
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596' frameborder='no' style='width: 100%;'></iframe>
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour harmon.ie pour Office, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bae4b6d16c862819564ddb74682b3773d53a4336
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9c04ab6e1a50167fbf489191e5845f86cb09ee00
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553625"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282368"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie pour Office
 
@@ -35,9 +35,9 @@ Informations fournies par harmon.ie Corporation à Microsoft :
 | ID | WA104381050 |
 | Office 365 clients pris en charge | PowerPoint 2016 ou ultérieur sur Windows, Word 2016 ou ultérieur sur Windows, Excel sur le Web, Word sur le web, PowerPoint sur le web, Word 2016 ou une ultérieure sur Mac, PowerPoint 2016 ou une PowerPoint 2016 ultérieure sur Mac |
 | Nom de la société partenaire | harmon.ie Corporation |
-| URL du site web partenaire | [https://harmon.ie/](https://harmon.ie/) |
+| URL du site web partenaire | [https://harmon.ie](https://harmon.ie) |
 | URL de la politique de confidentialité | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
-| URL des conditions d’utilisation | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474836605/Product_42949673246/Asset_37060a29-311b-4239-be49-1758aebbeb1a/harmonieEULA.pdf) |
+| URL des conditions d’utilisation | [https://harmon.ie/legal/eula](https://harmon.ie/legal/eula) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,7 +55,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | délégué | Requis par harmon.ie pour Outlook permettant aux utilisateurs de se connecter et d’obtenir le rôle de l’utilisateur | aucune | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
+>| Directory.AccessAsUser.All | délégué | Requis par harmon.ie pour Outlook permettre aux utilisateurs de se connecter et d’obtenir le rôle de l’utilisateur | aucune | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
 >| Files.ReadWrite.All | délégué | Requis par harmon.ie pour Outlook pour lui permettre de transférer des pièces jointes à partir de Outlook et de &amp; l’enregistrer dans SharePoint | aucune | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
 >| Mail.ReadWrite | délégué | Requis par harmon.ie pour Outlook pour lui permettre de transférer des pièces jointes à partir de Outlook et de &amp; l’enregistrer dans SharePoint | aucune | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
 >| User.Read | délégué | Requis par le harmon.ie pour Outlook pour résoudre l’image de profil des utilisateurs | aucune | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
@@ -71,7 +71,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Utilisateurs et données d’utilisation upn
 
@@ -93,7 +93,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36360' frameborder='no' style='width: 100%;'></iframe>
 
@@ -111,7 +111,7 @@ Ces informations ont été fournies par harmon.ie Corporation sur la façon dont
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

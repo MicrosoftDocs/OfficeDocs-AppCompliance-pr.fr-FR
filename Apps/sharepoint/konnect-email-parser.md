@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour konnect eMail Parser, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6341fbe817009d86dbd92256fed54c72ff89161f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1af3a75f49bf10e0185ba80a289fd05524c8130e
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552465"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282117"
 ---
 # <a name="konnect-email-parser"></a>Konnect eMail Parser
 
@@ -35,7 +35,7 @@ Informations fournies par Konnect eMail à Microsoft :
 | ID | WA200001893 |
 | Office 365 clients pris en charge | SharePoint 2016 ou ultérieure |
 | Nom de la société partenaire | Konnect eMail |
-| URL du site web partenaire | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| URL du site web partenaire | [https://www.konnectemail.com](https://www.konnectemail.com) |
 | URL de la politique de confidentialité | [https://www.konnectemail.com/privacy-policy-sharepoint-pars...](https://www.konnectemail.com/privacy-policy-sharepoint-parser-app) |
 | URL des conditions d’utilisation | [https://www.konnectemail.com/eula](https://www.konnectemail.com/eula) |
 
@@ -68,7 +68,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Journaux conservés pendant 90 jours dans Azure Application Insights
+>Journaux conservés pendant 90 jours dans Azure Application Informations
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -88,7 +88,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36554' frameborder='no' style='width: 100%;'></iframe>
 

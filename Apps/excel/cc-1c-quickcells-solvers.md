@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les solveurs QuickCells, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e69c2618b3351bef5549227556c3f21df81e5704
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 82e644360c38b9add9c7426bf788177fe0da7698
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52549754"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281176"
 ---
 # <a name="quickcells-solvers"></a>Solveurs QuickCells
 
@@ -35,7 +35,7 @@ Informations fournies par CC-1C à Microsoft :
 | ID | WA200001864 |
 | Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2016 ou une Windows, Excel sur le Web |
 | Nom de la société partenaire | CC-1C |
-| URL du site web partenaire | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| URL du site web partenaire | [https://quickcells.co](https://quickcells.co) |
 | URL de la politique de confidentialité | [https://quickcells.co/legal/privacy](https://quickcells.co/legal/privacy) |
 | URL des conditions d’utilisation | [https://quickcells.co/legal/tos](https://quickcells.co/legal/tos) |
 
@@ -106,11 +106,11 @@ Ces informations ont été fournies par CC-1C sur la façon dont cette applicati
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Non |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Non |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |

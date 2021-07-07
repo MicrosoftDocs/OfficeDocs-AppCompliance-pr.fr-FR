@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TeamGether, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4856abc549692b7963c9a21c2c073133626a78ea
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1c992ffe3240ed8775832240ab9107debe12b9f2
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553326"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281907"
 ---
 # <a name="teamgether"></a>TeamGether
 
@@ -34,12 +34,12 @@ Informations fournies par EFFENCY à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | TeamGether |
 | ID | WA200002660 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | EFFENCY |
 | URL du site web partenaire | [https://www.effency.fr](https://www.effency.fr) |
 | URL de la Teams d’informations sur l’application | [https://www.effency.fr/teams/](https://www.effency.fr/teams/) |
-| URL de la politique de confidentialité | [https://www.effency.fr/protection-des-donnees](https://www.effency.fr/protection-des-donnees) |
-| URL des conditions d’utilisation | [https://www.effency.fr/conditions-generales](https://www.effency.fr/conditions-generales) |
+| URL de la politique de confidentialité | [https://www.effency.fr/protection-des-donnees/](https://www.effency.fr/protection-des-donnees/) |
+| URL des conditions d’utilisation | [https://www.effency.fr/conditions-generales/](https://www.effency.fr/conditions-generales/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -115,7 +115,7 @@ Ces informations ont été fournies par EFFENCY sur la façon dont cette applica
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -6,14 +6,14 @@ ms.date: 02/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Excel-to-Word Document Automation, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Excel-à-Word Document Automation, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e3f7d7ec2b59ac21a44ca92737e9fbdba4cfdaaa
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8dc1ac8d012545326f0d3c4f96764d5a2ed391b7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52549854"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281206"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel-to-Word Document Automation
 
@@ -35,7 +35,7 @@ Informations fournies par AnalysisPlace à Microsoft :
 | ID | WA104380955 |
 | Office 365 clients pris en charge | Excel 2016 ou ultérieur sur Mac, Excel 2016 ou ultérieur sur Windows, Word 2016 ou ultérieur sur Mac, Word 2016 ou ultérieur sur Windows, PowerPoint 2016 ou ultérieur sur Mac, PowerPoint 2016 ou ultérieur sur Windows, Excel sur le Web, Word sur le web, PowerPoint sur le web |
 | Nom de la société partenaire | AnalysisPlace |
-| URL du site web partenaire | [https://analysisplace.com/](https://analysisplace.com/) |
+| URL du site web partenaire | [https://analysisplace.com](https://analysisplace.com) |
 | URL de la politique de confidentialité | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
 | URL des conditions d’utilisation | [https://analysisplace.com/Terms](https://analysisplace.com/Terms) |
 
@@ -106,11 +106,11 @@ Ces informations ont été fournies par AnalysisPlace sur la façon dont cette a
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Non |
 | Votre application a-t-elle un client confidentiel ? | Oui |

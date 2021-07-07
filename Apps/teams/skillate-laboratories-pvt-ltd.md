@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Skillate, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 982f32da96968ac9426ef93a86741e037c0f1713
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e92d7e997ba94746820fde5daccb028fc246e255
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553875"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281046"
 ---
 # <a name="skillate"></a>Skillate
 
@@ -28,18 +28,18 @@ ms.locfileid: "52553875"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par l’Adl. Pvt de compétences. Ltd. à Microsoft :
+Informations fournies par SkillateMéts Pvt. Ltd. à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | Skillate |
 | ID | WA200002490 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Skillate Laboratories Pvt. Ltd. |
-| URL du site web partenaire | [https://skillate.com/](https://skillate.com/) |
+| URL du site web partenaire | [https://www.skillate.com](https://www.skillate.com) |
 | URL de la Teams d’informations sur l’application | [https://www.skillate.com/features/intelligent-hiring/](https://www.skillate.com/features/intelligent-hiring/) |
-| URL de la politique de confidentialité | [https://www.skillate.com/privacy-policy](https://www.skillate.com/privacy-policy) |
-| URL des conditions d’utilisation | [https://www.skillate.com/terms-and-conditions](https://www.skillate.com/terms-and-conditions) |
+| URL de la politique de confidentialité | [https://www.skillate.com/privacy-policy/](https://www.skillate.com/privacy-policy/) |
+| URL des conditions d’utilisation | [https://www.skillate.com/terms-and-conditions/](https://www.skillate.com/terms-and-conditions/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -58,7 +58,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| email | délégué | Les données sont collectées pour autoriser l’utilisateur final sur Les compétences | Nous stockons l’adresse e-mail uniquement pour créer le compte de l’utilisateur sur l’application Compétences | ed4df345-c860-4ffe-b614-0460d9106f0f |
->| openid | délégué | Nous utilisons l’API pour consigner l’utilisateur sur Microsoft afin de nous servir de l’oD SSO | Nous stockons uniquement le prénom et le nom de l’utilisateur final | ed4df345-c860-4ffe-b614-0460d9106f0f |
+>| openid | délégué | Nous utilisons l’API pour la journalisation de l’utilisateur sur Microsoft afin de les compétences à l’aide de l' cesso | Nous stockons uniquement le prénom et le nom de l’utilisateur final | ed4df345-c860-4ffe-b614-0460d9106f0f |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -78,7 +78,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -100,7 +100,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36380' frameborder='no' style='width: 100%;'></iframe>
 
@@ -118,7 +118,7 @@ Ces informations ont été fournies par l’équipe Des laboratoires de compéte
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour L’Outil de réception d’insiten
+title: Informations sur l’application pour LeBoxéreur par Insiten
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/12/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LeBoxétère, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6d521b6172e4915d6ce10ea493069355ce3abfdf
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3ca294c588f6447c5e54c53cf1dec33b1e849a47
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552065"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281827"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -34,9 +34,9 @@ Informations fournies par Insiten à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | TackleBox |
 | ID | WA200002310 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Insiten |
-| URL du site web partenaire | [https://tacklebox.app/](https://tacklebox.app/) |
+| URL du site web partenaire | [https://insiten.com](https://insiten.com) |
 | URL de la Teams d’informations sur l’application | [https://tacklebox.app](https://tacklebox.app) |
 | URL de la politique de confidentialité | [https://tacklebox.app/privacy/](https://tacklebox.app/privacy/) |
 | URL des conditions d’utilisation | [https://tacklebox.app/terms/](https://tacklebox.app/terms/) |
@@ -61,7 +61,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Sites.Read.All | délégué | Autoriser les utilisateurs à parcourir et à lier Excel fichiers situés dans des canaux Teams privés | Aucun | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
 >| User.Read | délégué | Permet à l’application de lire le profil des utilisateurs inscrits et de réessigner leur adresse e-mail pour les notifications | E-mail | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
 >| openid | délégué | Permet aux utilisateurs de se connecter à notre application à l’aide Microsoft 365 compte | ID de client et ID d’objet pour l’utilisateur | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
->| profil | délégué | Permet à l’application d’afficher le profil de base des utilisateurs (nom, nom d’utilisateur) pour faire de la collaboration | UPN, Prénom, Nom | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
+>| profil | délégué | Permet à l’application d’afficher le profil de base des utilisateurs (nom, nom d’utilisateur) pour faire la démonstration de la collaboration | UPN, Prénom, Nom | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -119,11 +119,11 @@ Ces informations ont été fournies par Insiten sur la façon dont cette applica
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Alvo Service Desk, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fd5a6939e93720fa6422cc61b9b7c785539ec24a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d5fe88303b18c41be50f5c108cd4c0b4bfb16314
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552405"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282067"
 ---
 # <a name="alvao-service-desk"></a>Bureau de service Alvao
 
@@ -34,9 +34,9 @@ Informations fournies par ALVAO s.r.o. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Bureau de service Alvao |
 | ID | WA200002488 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | ALVAO s.r.o. |
-| URL du site web partenaire | [https://www.alvao.com/en/ ](https://www.alvao.com/en/ ) |
+| URL du site web partenaire | [https://www.alvao.com/en/](https://www.alvao.com/en/) |
 | URL de la Teams d’informations sur l’application | [https://doc.alvao.com/support/doc/en/alvao_10_4/modules/alv...](https://doc.alvao.com/support/doc/en/alvao_10_4/modules/alvao_teams_addin/default.aspx) |
 | URL de la politique de confidentialité | [https://www.alvao.com/en/gdpr](https://www.alvao.com/en/gdpr) |
 | URL des conditions d’utilisation | [https://www.alvao.com/en/storage/app/media/documents/licens...](https://www.alvao.com/en/storage/app/media/documents/license_SD_10.3_en.pdf) |
@@ -115,11 +115,11 @@ Ces informations ont été fournies par ALVAO s.r.o. sur la façon dont cette ap
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Non |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Non |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |

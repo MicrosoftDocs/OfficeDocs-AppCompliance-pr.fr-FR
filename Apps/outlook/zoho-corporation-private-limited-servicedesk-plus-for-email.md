@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ServiceDesk Plus pour la messagerie, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: dc342375eba7084f5afb31b0f879e46e959fa970
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 759c59f93daa664dcc6b5b0b230a4b0fedfbf140
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553655"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282388"
 ---
 # <a name="servicedesk-plus-for-email"></a>ServiceDesk Plus pour la messagerie
 
@@ -33,11 +33,11 @@ Informations fournies par Zoho Corporation Private Limited à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | ServiceDesk Plus pour la messagerie |
 | ID | WA104381518 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Zoho Corporation Private Limited |
-| URL du site web partenaire | [https://www.zoho.com/](https://www.zoho.com/) |
+| URL du site web partenaire | [https://www.manageengine.com/products/service-desk](https://www.manageengine.com/products/service-desk) |
 | URL de la politique de confidentialité | [https://www.manageengine.com/privacy.html](https://www.manageengine.com/privacy.html) |
-| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL des conditions d’utilisation | [https://ondemand.manageengine.com/terms.html](https://ondemand.manageengine.com/terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

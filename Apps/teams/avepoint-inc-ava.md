@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour AVA, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6176bc86a6d382285623d3e3286852afd4a4ff96
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c55d372c0249302da425ea5b2483aba88f1a2e42
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552365"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281406"
 ---
 # <a name="ava"></a>AVA
 
@@ -34,11 +34,11 @@ Informations fournies par AvePoint, Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | AVA |
 | ID | WA104381883 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | AvePoint, Inc. |
-| URL du site web partenaire | [https://www.avepoint.com](https://www.avepoint.com) |
+| URL du site web partenaire | [https://www.avepoint.com/](https://www.avepoint.com/) |
 | URL de la Teams d’informations sur l’application | [https://www.avepoint.com/support/](https://www.avepoint.com/support/) |
-| URL de la politique de confidentialité | [https://www.avepoint.com/privacy-policy](https://www.avepoint.com/privacy-policy) |
+| URL de la politique de confidentialité | [https://www.avepoint.com/company/privacy-policy/](https://www.avepoint.com/company/privacy-policy/) |
 | URL des conditions d’utilisation | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -65,7 +65,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| API REST SharePoint | Oui | Recherchez le fichier dans le recyclage du site personnel de l’utilisateur et restituer ces fichiers. Nécessite l’autorisation AllSites.Manage. |  | Aucun |  |
 
@@ -107,7 +107,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35842' frameborder='no' style='width: 100%;'></iframe>
 

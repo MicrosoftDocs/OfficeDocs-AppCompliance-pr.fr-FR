@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Kudozza, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3c55726061f0663cf395ea5edb45adf96f35bce3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 85221e2c57cbe5954e3343d8a44cec704c71eda9
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553815"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280776"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -34,12 +34,12 @@ Informations fournies par surviveF5 Contrôleh à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Kudozza |
 | ID | WA200002599 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | surviveF5 GmbH |
-| URL du site web partenaire | [https://www.kudozza.com](https://www.kudozza.com) |
+| URL du site web partenaire | [https://surviveF5.com](https://surviveF5.com) |
 | URL de la Teams d’informations sur l’application | [https://kudozza.com](https://kudozza.com) |
-| URL de la politique de confidentialité | [https://www.kudozza.com/privacy](https://www.kudozza.com/privacy) |
-| URL des conditions d’utilisation | [https://www.kudozza.com/terms](https://www.kudozza.com/terms) |
+| URL de la politique de confidentialité | [https://kudozza.com/privacy](https://kudozza.com/privacy) |
+| URL des conditions d’utilisation | [https://kudozza.com/terms](https://kudozza.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36547' frameborder='no' style='width: 100%;'></iframe>
 
@@ -121,7 +121,7 @@ Ces informations ont été fournies par surviveF5 Contrôleh sur la façon dont 
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

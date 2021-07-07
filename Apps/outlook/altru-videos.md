@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour les vidéos altru par Altru
+title: Informations sur l’application pour les vidéos Altru par Altru
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/27/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les vidéos Altru, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 85f884846493c52203d9479277bbdb889a79679e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 50f3b5adfb587502d852637e3465ff1cc5c06db8
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552575"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281666"
 ---
 # <a name="altru-videos"></a>Vidéos altru
 
@@ -33,11 +33,11 @@ Informations fournies par Altru à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Vidéos altru |
 | ID | WA200000026 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Altru |
-| URL du site web partenaire | [https://www.altrulabs.com/](https://www.altrulabs.com/) |
+| URL du site web partenaire | [https://www.icims.com](https://www.icims.com) |
 | URL de la politique de confidentialité | [https://www.altrulabs.com/privacy](https://www.altrulabs.com/privacy) |
-| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL des conditions d’utilisation | [https://www.icims.com/gc/video-studio-service-addendum/](https://www.icims.com/gc/video-studio-service-addendum/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +106,7 @@ Ces informations ont été fournies par Altru sur la façon dont cette applicati
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

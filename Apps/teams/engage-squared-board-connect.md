@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les Connecter du comité, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6b314c6cc51515efced101ba986555d859dc4182
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3b7e2eb64055713e06f927882aa7bbf56cf62991
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553185"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281893"
 ---
 # <a name="board-connect"></a>Connexion de tableau
 
@@ -34,11 +34,11 @@ Informations fournies par Engage Squared à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Connexion de tableau |
 | ID | WA200001955 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Engage Squared |
-| URL du site web partenaire | [https://boardconnect.app](https://boardconnect.app) |
+| URL du site web partenaire | [https://engagesq.com](https://engagesq.com) |
 | URL de la Teams d’informations sur l’application | [https://boardconnect.app](https://boardconnect.app) |
-| URL de la politique de confidentialité | [https://boardconnect.app/privacy](https://boardconnect.app/privacy) |
+| URL de la politique de confidentialité | [https://boardconnect.app/privacy/](https://boardconnect.app/privacy/) |
 | URL des conditions d’utilisation | [https://boardconnect.app/terms](https://boardconnect.app/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -61,7 +61,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Group.ReadWrite.All | délégué | Pour permettre à l’application de créer, mettre à jour et supprimer des événements de calendrier de groupe. | Nous stockons l’ID du groupe, ainsi que l’ID de client : il est stocké et utilisé du point de vue de la gestion des licences afin de pouvoir vérifier que l’organisation est titulaire d’une licence pour le Connecter. Nous l’utilisons également pour suivre le nombre d’installations des applications au sein du client, car cela est en ligne avec notre modèle de gestion des licences. | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
 >| Sites.Manage.All | délégué | Pour permettre à l’application de créer des listes et des bibliothèques, gérez les éléments de liste et gérez les documents sur une collection de sites d’équipe. | Aucun | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
 >| User.Read | délégué | Pour autoriser les utilisateurs à se connecter à l’application et permettre à l’application de lire le profil de l’utilisateur actuellement connecté. | Aucune donnée de ce point de terminaison n’est stockée dans notre stockage de table Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs au nom de l’utilisateur inscrit, afin de l’afficher dans l’application. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. | Aucun, les données ne sont pas stockées dans notre stockage de table Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
+>| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs pour le compte de l’utilisateur inscrit, afin de l’afficher dans l’application. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. | Aucun, les données ne sont pas stockées dans notre stockage de table Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
 >| offline_access | délégué | Pour permettre à l’application d’obtenir un jeton d’actualisation, qu’elle peut utiliser pour obtenir un nouveau jeton d’accès à l’expiration de l’actuel. | Aucun, les données ne sont pas stockées dans notre stockage de table Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
 
 
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36435' frameborder='no' style='width: 100%;'></iframe>
 
@@ -116,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Engage Squared sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Engage Squared sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -124,7 +124,7 @@ Ces informations ont été fournies par Engage Squared sur la façon dont cette 
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |

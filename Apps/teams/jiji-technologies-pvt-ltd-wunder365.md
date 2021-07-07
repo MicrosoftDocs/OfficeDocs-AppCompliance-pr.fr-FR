@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Wunder365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0399c1da90a5a744eaa23457a67f99b654de8303
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9ef4f9f97964d1d099676654ff2cfaaa11532167
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553025"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281817"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -34,9 +34,9 @@ Informations fournies par JiJi Technologies Pvt Ltd à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Wunder365 |
 | ID | WA200000742 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | JiJi Technologies Pvt Ltd |
-| URL du site web partenaire | [https://www.wunder365.com](https://www.wunder365.com) |
+| URL du site web partenaire | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | URL de la Teams d’informations sur l’application | [https://www.wunder365.com/wunder365-for-office](https://www.wunder365.com/wunder365-for-office) |
 | URL de la politique de confidentialité | [https://www.wunder365.com/teams-app-privacy-policy](https://www.wunder365.com/teams-app-privacy-policy) |
 | URL des conditions d’utilisation | [https://www.wunder365.com/terms-of-service](https://www.wunder365.com/terms-of-service) |
@@ -67,7 +67,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| API REST SharePoint | Non |  |  |  |  |
 
@@ -86,16 +86,16 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous nous connectons à Azure Application Insights. Nous consignons l’ID de locataire et l’ID de messagerie de l’utilisateur pour identifier les problèmes et aider les clients à résoudre les problèmes.
+>Nous nous connectons à Azure Application Informations. Nous consignons l’ID de locataire et l’identifiant de messagerie de l’utilisateur pour identifier les problèmes et aider les clients à résoudre les problèmes.
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Toutes les applications Web et toutes Stockage ressources sont situées dans un abonnement qui n’est pas connecté à notre AAD d’entreprise avec uniquement des administrateurs qui ont accès aux ressources. 2FA est requis pour ces administrateurs. 
+>Toutes les applications Web et Stockage ressources sont situées dans un abonnement qui n’est pas connecté à notre entreprise AAD avec uniquement des administrateurs qui ont accès aux ressources. 2FA est requis pour ces administrateurs. 
 
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
@@ -110,7 +110,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250' frameborder='no' style='width: 100%;'></iframe>
 
@@ -128,12 +128,12 @@ Ces informations ont été fournies par JiJi Technologies Pvt Ltd sur la façon 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Exiger une authentification multifacteur pour les utilisateurs ayant des rôles d’administration, exiger une authentification multifacteur pour les tâches de gestion Azure, bloquer les ouvertures de signature pour les utilisateurs qui tentent d’utiliser des protocoles d’authentification hérités, exiger des emplacements fiables pour l’inscription à l’authentification multifacteur Azure AD, bloquer ou accorder l’accès à partir d’emplacements spécifiques, Blocage du comportement de la signature à risque |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour 8x8, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 66c25d4d6afd365763add08274e98b09e07e9254
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: e6b886dc575994e36926847685d1de81647a10ea
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987791"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281476"
 ---
-# <a name="8x8"></a>8 x 8
+# <a name="8x8"></a>8x8
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,11 +32,11 @@ Informations fournies par 8x8, Inc à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | 8 x 8 |
+| Nom de l'application | 8x8 |
 | ID | WA200002665 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | 8x8, Inc |
-| URL du site web partenaire | [www.8x8.com](www.8x8.com) |
+| URL du site web partenaire | [https://www.8x8.com](https://www.8x8.com) |
 | URL de la Teams d’informations sur l’application | [https://www.8x8.com/products/integrations/8x8-voice-for-mic...](https://www.8x8.com/products/integrations/8x8-voice-for-microsoft-teams) |
 | URL de la politique de confidentialité | [https://www.8x8.com/terms-and-conditions/privacy-policy?loc...](https://www.8x8.com/terms-and-conditions/privacy-policy?locale=us) |
 | URL des conditions d’utilisation | [https://www.8x8.com/terms-and-conditions](https://www.8x8.com/terms-and-conditions) |

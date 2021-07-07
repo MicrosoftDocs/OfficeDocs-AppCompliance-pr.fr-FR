@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Zoho CRM pour le courrier électronique, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4f06fd2f6a14bbad4d1265df9754884d515f6cb6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2c4d85b33c0d43bc492fe6e04058bd4e92768077
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553675"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282398"
 ---
 # <a name="zoho-crm-for-email"></a>Zoho CRM pour la messagerie
 
@@ -33,11 +33,11 @@ Informations fournies par Zoho Corporation Private Limited à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Zoho CRM pour la messagerie |
 | ID | WA104379468 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Zoho Corporation Private Limited |
 | URL du site web partenaire | [https://www.zoho.com/](https://www.zoho.com/) |
 | URL de la politique de confidentialité | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
-| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL des conditions d’utilisation | [https://www.zoho.com/crm/zohocrm-terms.html](https://www.zoho.com/crm/zohocrm-terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,9 +57,9 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Calendars.ReadWrite | délégué | L’ID de dossier de calendrier est stocké pour synchroniser les contacts entre Zoho CRM et &amp; Microsoft, inversement. Les informations de calendrier telles event_name, event_location, participant_details sont stockées. | Permet à l’utilisateur de synchroniser des événements Office365 avec Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| Contacts.ReadWrite | délégué | L’ID du dossier contacts est stocké pour synchroniser les contacts entre Zoho CRM et &amp; Microsoft, inversement. Les informations de contact telles first_name, last_name, l’adresse e-mail sont stockées. | Permet à l’utilisateur de synchroniser les contacts Office365 avec Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read | délégué |  | Permet à l’utilisateur d’importer le fichier Office365 dans Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.All | délégué |  | Permet à l’utilisateur d’importer le fichier Office365 dans Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.Selected | délégué | UserPrincipalName est stocké pour l’identification de l’utilisateur | Permet à l’utilisateur d’importer le fichier Office365 dans Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read | délégué |  | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.All | délégué |  | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.Selected | délégué | UserPrincipalName est stocké pour l’identification de l’utilisateur | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| User.ReadBasic.All | délégué | Propriétés utilisateur telles que first_name, last_name, adresse e-mail. | Lire les profils de base de tous les utilisateurs | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| email | délégué | UserPrincipaName est stocké pour le retrait de l’utilisateur | Afficher l’adresse e-mail de l’utilisateur | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| offline_access | délégué |  | Gérer l’accès aux données auxquelles vous avez accordé l’accès | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
@@ -84,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Le client peut sélectionner les données qui doivent être chiffrées via EAR (Chiffrement au repos) avec des restrictions de sécurité. Les mots de passe sont hachés par défaut. L’accès logique aux serveurs est fourni par le biais d’un réseau dédié &amp; isolé et est hautement sécurisé et
+>Le client peut sélectionner les données qui doivent être chiffrées via EAR (Chiffrement au repos) avec des restrictions de sécurité. Les mots de passe sont hachés par défaut. L’accès logique aux serveurs est fourni via un réseau dédié &amp; isolé et est hautement sécurisé et
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

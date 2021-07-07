@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Salesforce, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 29c00595a806c5144b34701ba54860353f9cafc0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b5999dd08ed27ce75bc958e431c0974e10830a3c
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553705"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281696"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -33,11 +33,11 @@ Informations fournies par salesforce.com à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Salesforce |
 | ID | WA104379334 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | salesforce.com |
-| URL du site web partenaire | [https://www.salesforce.com/](https://www.salesforce.com/) |
-| URL de la politique de confidentialité | [https://www.salesforce.com/company/privacy](https://www.salesforce.com/company/privacy) |
-| URL des conditions d’utilisation | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474843361/Product_42949677285/Asset_540860c0-685e-4047-9f3a-082a748e57a2/LIGHTNINGFOROUTLOOKOrderFormSu.doc) |
+| URL du site web partenaire | [https://www.salesforce.com](https://www.salesforce.com) |
+| URL de la politique de confidentialité | [https://www.salesforce.com/company/privacy/](https://www.salesforce.com/company/privacy/) |
+| URL des conditions d’utilisation | [https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC...](https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC&amp;p5=WA104379334&amp;cmu=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -59,7 +59,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| Interface API JavaScript pour Office | Oui | Le add-in utilise les fonctions de Office.js et EWS pour copier le contenu et les pièces jointes d’un e-mail qu’un utilisateur Outlook a décidé de se connecter à Salesforce. Des fonctionnalités similaires sont utilisées côté calendrier pour enregistrer des rendez-vous dans Salesforce. |  | Le complément utilise des fonctions telles que getUserIdentityTokenAsync pour obtenir l’identité utilisateur Outlook actuelle, GetItem (.js et EWS) pour obtenir et définir AdditionalProperties et le contenu du message électronique actuel lors de l’enregistrement dans les enregistrements Salesforce, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. |  |
 >| Services Web Exchange (EWS) | Oui | Le add-in utilise les fonctions de Office.js et EWS pour copier le contenu et les pièces jointes d’un e-mail qu’un utilisateur Outlook a décidé de se connecter à Salesforce. Des fonctionnalités similaires sont utilisées côté calendrier pour enregistrer des rendez-vous dans Salesforce. |  | Le complément utilise des fonctions telles que getUserIdentityTokenAsync pour obtenir l’identité utilisateur Outlook actuelle, GetItem (.js et EWS) pour obtenir et définir AdditionalProperties et le contenu du message électronique actuel lors de l’enregistrement dans les enregistrements Salesforce, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. |  |
@@ -96,7 +96,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11114' frameborder='no' style='width: 100%;'></iframe>
 

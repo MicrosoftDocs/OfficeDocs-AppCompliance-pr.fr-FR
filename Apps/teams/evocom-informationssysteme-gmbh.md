@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Evocom, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 69eed6c53706cb64ea4c4af64d455e01ecc98c9f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1a3be83c266ee993ad377a2489a85248bdafab67
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553165"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281286"
 ---
 # <a name="evocom"></a>Evocom
 
@@ -34,12 +34,12 @@ Informations fournies par Evocom Informationsysteme Baseh à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Evocom |
 | ID | WA200002050 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Evocom Informationssysteme GmbH |
-| URL du site web partenaire | [https://www.evocom.de/](https://www.evocom.de/) |
+| URL du site web partenaire | [https://evocom.de](https://evocom.de) |
 | URL de la Teams d’informations sur l’application | [https://evocom.de/microsoft365](https://evocom.de/microsoft365) |
-| URL de la politique de confidentialité | [https://www.evocom.de/privacy](https://www.evocom.de/privacy) |
-| URL des conditions d’utilisation | [https://www.evocom.de/termsofuse](https://www.evocom.de/termsofuse) |
+| URL de la politique de confidentialité | [https://evocom.de/privacy](https://evocom.de/privacy) |
+| URL des conditions d’utilisation | [https://evocom.de/termsofuse](https://evocom.de/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -118,12 +118,12 @@ Ces informations ont été fournies par Evocom Informationsysteme Contrôleh sur
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Authentification multifacteur |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |

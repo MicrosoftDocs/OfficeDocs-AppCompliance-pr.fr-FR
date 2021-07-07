@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SurveyMonkey, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 57ba8ed84e0d9ea4101ea82ed5d92aef1f634ed1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: daf5de5437a08ca8b748157a5e136bbe7b114122
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552725"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280816"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -34,12 +34,12 @@ Informations fournies par SurveyMonkey à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | SurveyMonkey |
 | ID | WA104381088 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | SurveyMonkey |
 | URL du site web partenaire | [https://www.surveymonkey.com](https://www.surveymonkey.com) |
 | URL de la Teams d’informations sur l’application | [https://help.surveymonkey.com/articles/en_US/kb/Microsoft-T...](https://help.surveymonkey.com/articles/en_US/kb/Microsoft-Teams-Integration) |
-| URL de la politique de confidentialité | [https://www.surveymonkey.com/privacy](https://www.surveymonkey.com/privacy) |
-| URL des conditions d’utilisation | [https://www.surveymonkey.com/mp/policy/terms-of-use/](https://www.surveymonkey.com/mp/policy/terms-of-use/) |
+| URL de la politique de confidentialité | [https://www.surveymonkey.com/mp/legal/privacy-policy/](https://www.surveymonkey.com/mp/legal/privacy-policy/) |
+| URL des conditions d’utilisation | [https://www.surveymonkey.com/mp/legal/terms-of-use/](https://www.surveymonkey.com/mp/legal/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -66,7 +66,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Seul l’ID d’utilisateur MS est stocké dans SurveyMonkey afin d’associer des réponses et des enquêtes à l’utilisateur de l’équipe. |  | Pour les équipes, nous utilisons Microsoft Teams javascript SDK dans le module de tâche créer, prendre des enquêtes et des résultats de l’enquête module modal. |
+>| Seul l’ID d’utilisateur MS est stocké dans SurveyMonkey afin d’associer des réponses et des enquêtes à l’utilisateur de l’équipe. |  | Pour les équipes, nous utilisons Microsoft Teams SDK JavaScript dans le module de tâche créer, prendre des enquêtes et des résultats de l’enquête module modal. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -74,14 +74,14 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Nous appelons v3/conversations/{id}/pagedmembers pour vérifier que l’application est ajoutée à une équipe et obtenir le nombre de membres. C’est pour le suivi interne de l’utilisation, nous regardons uniquement la taille de la liste de conversation, les autres informations sont ignorées. | Oui, la taille de la conversation est stockée (un seul nombre) |  |
+>| Nous appelons v3/conversations/{id}/pagedmembers pour vérifier que l’application est ajoutée à une équipe et obtenir le nombre de membres. Il s’agit d’un suivi interne de l’utilisation, nous regardons uniquement la taille de la liste de conversation, les autres informations sont ignorées. | Oui, la taille de la conversation est stockée (un seul nombre) |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->EUII : un journal de réussite/échec est créé chaque fois qu’une enquête reçoit une réponse et que nous essayons d’envoyer cette réponse à Teams via le connecteur, ce journal inclut user_id, survey_id, integration_id (qui dans la base de données peut être utilisé pour rechercher l’ID d’équipe MS, L’ID utilisateur MS)
+>EUII : un journal de réussite/échec est créé chaque fois qu’une enquête reçoit une réponse et que nous essayons d’envoyer cette réponse à Teams via le connecteur, ce journal inclut user_id, survey_id, integration_id (qui dans la base de données peut être utilisé pour rechercher l’ID d’équipe MS, l’ID utilisateur MS)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -93,7 +93,7 @@ SurveyMonkey utilise l’authentification utilisateur centrale pour maintenir la
 
 Seuls les appareils émis par l’entreprise sont autorisés à accéder à notre réseau de production. Toutes les valeurs par défaut du fournisseur sans fil sont modifiées avant l’installation, y compris, mais sans s’y limiter, les clés de chiffrement sans fil par défaut, les mots de passe et les chaînes communautaires SNMP. 2FA et VPN sont requis pour le faire à distance. Nous avons un réseau Wifi distinct pour l’accès invité dans nos bureaux d’entreprise.
 
-Tous les services, protocoles et ports autorisés doivent avoir une justification et une approbation professionnelles documentées, y compris l’utilisation des fonctionnalités de sécurité implémentées pour les protocoles considérés comme non sécurisés. Les routeurs et pare-feu sont configurés pour limiter la divulgation d’adresses IP aux personnes non autorisées ou involontaires et limiter l’accès Internet entrant aux adresses IP dans le pare-feu DMZ et les règles de routeur sont examinés au moins tous les six mois.
+Tous les services, protocoles et ports autorisés doivent avoir une justification et une approbation professionnelles documentées, y compris l’utilisation des fonctionnalités de sécurité implémentées pour les protocoles considérés comme non sécurisés. Les routeurs et les pare-feu sont configurés pour limiter la divulgation d’adresses IP aux personnes non autorisées ou involontaires et limiter l’accès Internet entrant aux adresses IP dans le pare-feu DMZ et les jeux de règles de routeur sont examinés au moins tous les six mois.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 

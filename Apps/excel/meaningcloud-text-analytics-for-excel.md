@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MeaningCloud Text Analytics pour Excel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 93b73861138ad99eeb2ed6eac9df86656f1f8748
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d1361025e7379890dac4921e6a05737d381513e0
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548814"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281122"
 ---
 # <a name="meaningcloud-text-analytics-for-excel"></a>MeaningCloud Text Analytics pour Excel
 
@@ -35,7 +35,7 @@ Informations fournies par MeaningCloud à Microsoft :
 | ID | WA200002421 |
 | Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2013 ou une Windows, Excel sur le Web |
 | Nom de la société partenaire | MeaningCloud |
-| URL du site web partenaire | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| URL du site web partenaire | [https://meaningcloud.com](https://meaningcloud.com) |
 | URL de la politique de confidentialité | [https://www.meaningcloud.com/data-protection-policy](https://www.meaningcloud.com/data-protection-policy) |
 | URL des conditions d’utilisation | [https://www.meaningcloud.com/terms-and-conditions](https://www.meaningcloud.com/terms-and-conditions) |
 
@@ -88,7 +88,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36382' frameborder='no' style='width: 100%;'></iframe>
 

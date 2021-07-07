@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Adobe Sign pour Word et PowerPoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: aa9b4a19f83574d7d9428bbf979ac7ee1375227c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 0c5ed86f2de8925a87b726db9c2a9946721e06c7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553645"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282378"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign pour Word et PowerPoint
 
@@ -32,11 +32,11 @@ Informations fournies par Adobe Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Adobe Sign pour Word et PowerPoint |
 | ID | WA104381155 |
-| Office 365 clients pris en charge | Word 2016 ou une ultérieure sur Mac, PowerPoint 2013 Service Pack 1 ou ultérieur sur Windows, Word 2013 Service Pack 1 ou ultérieur sur Windows, Word sur le web, PowerPoint sur le web, PowerPoint 2016 ou une ultérieure sur Mac |
+| Office 365 clients pris en charge | Word 2016 ou une ultérieure sur Mac, PowerPoint 2013 Service Pack 1 ou une ultérieure sur Windows, Word 2013 Service Pack 1 ou ultérieur sur Windows, Word sur le web, PowerPoint sur le web, PowerPoint 2016 ou ultérieur sur Mac |
 | Nom de la société partenaire | Adobe Inc. |
-| URL du site web partenaire | [https://www.adobe.com/](https://www.adobe.com/) |
-| URL de la politique de confidentialité | [https://www.adobe.com/privacy/policies-business/esign.html](https://www.adobe.com/privacy/policies-business/esign.html) |
-| URL des conditions d’utilisation | [https://support.office.com/client/61994a3b-2c87-41c4-a88d-a...](https://support.office.com/client/61994a3b-2c87-41c4-a88d-a6455efa362d?omkt=en) |
+| URL du site web partenaire | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
+| URL de la politique de confidentialité | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
+| URL des conditions d’utilisation | [https://www.adobe.com/legal/licenses-terms.html](https://www.adobe.com/legal/licenses-terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +71,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nos journaux contiennent suffisamment d’informations pour pouvoir identifier et résoudre les problèmes des clients. Les journaux sont conservés pendant 90 jours et l’accès est restreint. Notre base de données stocke des informations d’identification hachées pour l’authentification lorsque l’utilisateur est hors connexion. La stratégie de rétention de base de données est de 30 jours à partir de la dernière utilisation
 
@@ -93,7 +93,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11641' frameborder='no' style='width: 100%;'></iframe>
 
@@ -111,7 +111,7 @@ Ces informations ont été fournies par Adobe Inc. sur la façon dont cette appl
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

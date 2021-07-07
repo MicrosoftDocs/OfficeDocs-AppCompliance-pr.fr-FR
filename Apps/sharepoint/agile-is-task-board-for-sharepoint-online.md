@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le tableau des tâches Agile pour SharePoint Online, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bebf3ab2580037bba226df853c340de1e6f71cf9
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 649c3ee34514214e91eaa1fe5ed43b43f6d9a43b
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553525"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282245"
 ---
 # <a name="agile-task-board-for-sharepoint-online"></a>Tableau des tâches agile pour SharePoint Online
 
@@ -35,9 +35,9 @@ Informations fournies par Agile-IS à Microsoft :
 | ID | WA200002087 |
 | Office 365 clients pris en charge | SharePoint 2016 ou ultérieure |
 | Nom de la société partenaire | Agile-IS |
-| URL du site web partenaire | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| URL du site web partenaire | [https://www.agile-is.de](https://www.agile-is.de) |
 | URL de la politique de confidentialité | [https://www.agile-is.de/en/telemetry](https://www.agile-is.de/en/telemetry) |
-| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?linkid=2041178](https://go.microsoft.com/fwlink/?linkid=2041178) |
+| URL des conditions d’utilisation | [https://www.agile-is.de/en/termsofuse](https://www.agile-is.de/en/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -68,7 +68,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous collectons le nom de domaine et un ID d’utilisateur hachage dans nos données de télémétrie d’informations sur l’application. Dans chaque instance d’application, la transmission des données de télémétrie peut être contrôlée et désactivée. Une suppression ultérieure des données doit être demandée de notre part.
+>Nous collectons le nom de domaine et l’ID d’utilisateur hachage dans les données de télémétrie d’informations sur l’application. Dans chaque instance d’application, la transmission des données de télémétrie peut être contrôlée et désactivée. Une suppression ultérieure des données doit être demandée de notre part.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -91,7 +91,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36140' frameborder='no' style='width: 100%;'></iframe>
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Office2SharePoint pour Office, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1d1fccbab2aab91eacbc5a43ef79462dd536ff6e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 85198f216bb99ab5d172886d7852878d0cf61be1
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548844"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281136"
 ---
 # <a name="office2sharepoint-for-office"></a>Office2SharePoint pour Office
 
@@ -34,7 +34,7 @@ Informations fournies par iGlobe à Microsoft :
 | ID | WA104381787 |
 | Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2016 ou une ultérieure sur Windows, Excel sur le Web, Word 2016 ou ultérieur sur Mac, Word sur le web, Word 2016 ou ultérieur sur Windows, PowerPoint 2016 ou ultérieur sur Mac, PowerPoint sur le web, PowerPoint 2016 ou une Windows |
 | Nom de la société partenaire | iGlobe |
-| URL du site web partenaire | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
+| URL du site web partenaire | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | URL de la politique de confidentialité | [https://www.iglobecrm.com/content/legal-information](https://www.iglobecrm.com/content/legal-information) |
 | URL des conditions d’utilisation | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-office2sharepoint) |
 
@@ -58,8 +58,8 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Directory.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Recherchez les autorisations et obtenez les sites et les listes. Créez des dossiers, obtenez des fichiers et enregistrez des fichiers. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
 >| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Recherchez les autorisations et obtenez les sites et les listes. Créez des dossiers, obtenez des fichiers et enregistrez des fichiers. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
 >| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir les sites de groupe utilisateurs. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder aux messages sélectionnés et obtenir les pièces jointes. À partir du courrier électronique ou de l’SharePoint site de groupes au courrier électronique. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder aux messages sélectionnés et obtenir les pièces jointes. À partir du courrier électronique ou de l’SharePoint site de groupes au courrier électronique. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder aux e-mails sélectionnés et obtenir les pièces jointes. À partir du courrier électronique ou de l’SharePoint site de groupes au courrier électronique. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder aux e-mails sélectionnés et obtenir les pièces jointes. À partir du courrier électronique ou de l’SharePoint site de groupes au courrier électronique. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
 >| Sites.Manage.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de créer ou de supprimer des bibliothèques de documents et des listes dans toutes les collections de sites pour le compte de l’utilisateur. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
 >| Sites.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir les utilisateurs SharePoint site. Obtenez des fichiers et enregistrez les pièces jointes à partir du courrier sélectionné. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
 >| Sites.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
@@ -69,7 +69,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| Exchange - EWS. AccessAsUser.All | Non |  |  |  |  |
 >| Exchange - Mail.ReadWrite | Non |  |  |  |  |
@@ -89,7 +89,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >iGlobe collecte des données pour fonctionner efficacement et vous offrir les meilleures expériences avec nos produits et services. Pour la gestion des licences : données collectées pour administrer le compte de licence de votre organisation&#8217;, par exemple lorsque vous déployez un module de licence gratuit, créez un abonnement d’essai ou achetez un abonnement. Les informations suivantes sont collectées. À des fins financières : Nom de la société et adresse des utilisateurs abonnés : nom d’utilisateur et e-mail
 
@@ -98,7 +98,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Toutes les données d’application se trouve sur le client et elles sont contrôlées par l’administrateur client comme tous les autres services Office 365. Aucune donnée d’application n’est stockée dans le add-in. Un add-in moderne s’exécute dans un navigateur en bac à sable,&#8220;hors processus&#8221;. Le module peut uniquement accéder aux données avec lesquelles l’utilisateur travaille. Il interagit avec les données des utilisateurs à l’aide services Microsoft.
+>Toutes les données d’application se trouve sur le client et sont contrôlées par l’administrateur client comme tous les autres services Office 365. Aucune donnée d’application n’est stockée dans le add-in. Un add-in moderne s’exécute dans un navigateur en bac à sable,&#8220;hors processus&#8221;. Le module peut uniquement accéder aux données avec lesquelles l’utilisateur travaille. Il interagit avec les données des utilisateurs à l’aide services Microsoft.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -112,7 +112,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35747' frameborder='no' style='width: 100%;'></iframe>
 
@@ -130,7 +130,7 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |

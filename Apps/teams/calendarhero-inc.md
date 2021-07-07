@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour CalendarHero, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d27858000c591c320cfadc301ea16ddf2fac89bd
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f3609c1e5884a49e4b52077295108622e10e7ff5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553316"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281997"
 ---
 # <a name="calendarhero"></a>CalendarHero
 
@@ -34,12 +34,12 @@ Informations fournies par CalendarHero Inc à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | CalendarHero |
 | ID | WA200000150 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | CalendarHero Inc |
-| URL du site web partenaire | [https://calendarhero.com](https://calendarhero.com) |
+| URL du site web partenaire | [https://zoom.ai](https://zoom.ai) |
 | URL de la Teams d’informations sur l’application | [https://faq.zoom.ai/](https://faq.zoom.ai/) |
-| URL de la politique de confidentialité | [https://calendarhero.com/privacy](https://calendarhero.com/privacy) |
-| URL des conditions d’utilisation | [https://calendarhero.com/terms-of-use](https://calendarhero.com/terms-of-use) |
+| URL de la politique de confidentialité | [https://zoom.ai/privacy-policy](https://zoom.ai/privacy-policy) |
+| URL des conditions d’utilisation | [https://zoom.ai/terms-of-use](https://zoom.ai/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -60,7 +60,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Calendars.ReadWrite | les deux | Les réunions sont mises en cache dans notre mongoDB sur Azure, mais les descriptions sont chiffrées. | Accès aux événements de calendrier de l’utilisateur. |  |
 >| Contacts.ReadWrite | les deux | Nom et adresse e-mail des contacts. | Lisez les contacts de l’utilisateur (afin de pouvoir les inviter à une réunion). |  |
 >| Group.Read.All | les deux | Nom et membres du groupe. | (Facultatif) lire les groupes d’utilisateurs d’entreprise (pour la planification avec des groupes). |  |
->| Mail.Read | les deux | Adresse de messagerie/nom du contact, fréquence/recency des interactions. | (Facultatif) est utilisé pour lire les métadon données de courrier électronique pour savoir qui sont les contacts les plus importants de l’utilisateur (via Machine Learning). |  |
+>| Mail.Read | les deux | Adresse de messagerie/nom du contact, fréquence/recency des interactions. | (Facultatif) est utilisé pour lire les métadon données de courrier électronique en dessous de qui sont les contacts les plus importants de l’utilisateur (via Machine Learning). |  |
 >| MailboxSettings.ReadWrite | les deux | Fuseau horaire de l’utilisateur. | Fuseau horaire de l’utilisateur. |  |
 >| User.Read.All | les deux | E-mail de nom &amp; d’utilisateur (stocké en tant que contact). | (Facultatif) lire les utilisateurs d’entreprise (pour la planification avec des collègues) |  |
 >| offline_access | application | Non | Nous devons lire et écrire dans notre back-end à tout moment, sans que l’utilisateur soit présent. |  |
@@ -105,7 +105,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35668' frameborder='no' style='width: 100%;'></iframe>
 

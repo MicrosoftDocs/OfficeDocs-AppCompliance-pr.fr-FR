@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la facture et le suivi du temps - Zoho Invoice, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0909b65a673af03aa6b190d181f1572ab84b5e77
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 0a3e8afb7be998c2fba33e7c4320956cbd990ef3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553665"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281576"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>Facture et suivi du temps : facture Zoho
 
@@ -33,11 +33,11 @@ Informations fournies par Zoho Corporation Private Limited à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Facture et suivi du temps : facture Zoho |
 | ID | WA104381067 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Zoho Corporation Private Limited |
 | URL du site web partenaire | [https://www.zoho.com/](https://www.zoho.com/) |
-| URL de la politique de confidentialité | [https://zoho.com/privacy.html](https://zoho.com/privacy.html) |
-| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL de la politique de confidentialité | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
+| URL des conditions d’utilisation | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,7 +55,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Contacts.Read | délégué |  |  Autoriser les utilisateurs à synchroniser les contacts Office365 avec la facture Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Contacts.Read | délégué |  |  Autoriser les utilisateurs à synchroniser les contacts Office365 avec Zoho Invoice. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| Mail.Read | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| Mail.Send | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| User.Export.All | délégué |  | Autoriser l’utilisateur à exporter toutes les informations associées à l’utilisateur. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |

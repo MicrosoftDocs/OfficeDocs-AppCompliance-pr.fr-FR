@@ -6,14 +6,14 @@ ms.date: 09/28/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Le rappel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Remind, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8e2124ed68b2e9d750c8bc6a229eca0ccad200b5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 56999a3dc9723eab8b56fcdbc434283a7c864534
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552445"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282097"
 ---
 # <a name="remind"></a>Rappeler
 
@@ -34,11 +34,11 @@ Informations fournies par 88 Personnes limitées à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Rappeler |
 | ID | WA200001444 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | 88 Ventures Limited |
-| URL du site web partenaire | [https://www.teamsreminder.app](https://www.teamsreminder.app) |
-| URL de la politique de confidentialité | [https://www.teamsreminder.app/#privacy](https://www.teamsreminder.app/#privacy) |
-| URL des conditions d’utilisation | [https://www.teamsreminder.app/#terms](https://www.teamsreminder.app/#terms) |
+| URL du site web partenaire | [https://moonbearapp.com](https://moonbearapp.com) |
+| URL de la politique de confidentialité | [https://teamsreminder.app/#privacy](https://teamsreminder.app/#privacy) |
+| URL des conditions d’utilisation | [https://teamsreminder.app/#terms](https://teamsreminder.app/#terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -76,7 +76,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun EEUI et OII n’est partagé avec la fonctionnalité de télémétrie ou de journalisation
 
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36058' frameborder='no' style='width: 100%;'></iframe>
 

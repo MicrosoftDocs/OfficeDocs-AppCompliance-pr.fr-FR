@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour OnePlaceMail pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5094d1ad5e7b028ac115529de16ddb9cbef2086f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 97c9b74768b11e3c63a302566a20a2cb762275a0
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552495"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281706"
 ---
-# <a name="oneplacemail-for-outlook"></a>OnePlaceMail pour Outlook
+# <a name="oneplacemail-for-outlook"></a>OnePlaceMail for Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,13 +31,13 @@ Informations fournies par OnePlace Solutions à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | OnePlaceMail pour Outlook |
+| Nom de l'application | OnePlaceMail for Outlook |
 | ID | WA104380723 |
 | Office 365 clients pris en charge | Outlook 2013 ou version ultérieure sur Windows, Outlook 2016 ou version ultérieure sur Mac, Outlook sur iOS, Outlook sur Android, Outlook sur le web |
 | Nom de la société partenaire | OnePlace Solutions |
-| URL du site web partenaire | [https://www.oneplacesolutions.com/](https://www.oneplacesolutions.com/) |
+| URL du site web partenaire | [https://www.oneplacesolutions.com](https://www.oneplacesolutions.com) |
 | URL de la politique de confidentialité | [https://www.oneplacesolutions.com/oneplacemailapp-privacy](https://www.oneplacesolutions.com/oneplacemailapp-privacy) |
-| URL des conditions d’utilisation | [https://www.oneplacesolutions.com/oneplacemailapp-eula](https://www.oneplacesolutions.com/oneplacemailapp-eula) |
+| URL des conditions d’utilisation | [https://www.oneplacesolutions.com/eula.html](https://www.oneplacesolutions.com/eula.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,7 +56,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Group.ReadWrite.All | délégué | Obligatoire pour déterminer Teams dont l’utilisateur actuel est membre. | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
->| Mail.ReadWrite.Shared | délégué | Obligatoire pour accéder aux propriétés de messagerie pour définir SharePoint colonnes et ajouter la catégorie Transféré à SharePoint sur l’élément de courrier | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
+>| Mail.ReadWrite.Shared | délégué | Obligatoire pour accéder aux propriétés de messagerie pour définir SharePoint colonnes et ajouter la catégorie Transféré SharePoint sur l’élément de courrier | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
 >| MailboxSettings.ReadWrite | délégué | Aucune donnée collectée ou utilisée, utilisée pour ajouter une catégorie à la liste principale des catégories dans une boîte aux lettres d’utilisateurs | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
 >| Sites.ReadWrite.All | délégué | Obligatoire pour définir des propriétés sur les éléments que l’application a téléchargés vers SharePoint. | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
 >| User.Read | délégué | Requis pour l’authentification à l’Graph Microsoft. | Les données suivantes sont stockées par l’application dans une base de données et sont utilisées pour le suivi des abonnements et des licences utilisateur : ID utilisateur, e-mail, prénom, nom. | 44a72516-136f-4a55-ae26-ef09977230be |
@@ -68,7 +68,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| SharePoint | Oui | SharePoint URL, bibliothèque/liste/noms de dossiers | Les informations organisationnelles accessibles par sont utilisées pour faciliter le processus d’enregistrement du courrier électronique et des pièces jointes Exchange à SharePoint. Ces données supplémentaires ne sont pas stockées au repos et sont chiffrées en transit. Ces données incluent des exemples de SharePoint de colonnes telles que les valeurs de colonne Choice, les valeurs de taxonomie, les noms de types de contenu, les noms de dossiers, les noms de sites.  | Bien que ces données ne sont pas stockées ou collectées par l’application, elles peuvent apparaître dans la télémétrie/les journaux où elles sont conservées pendant 90 jours. | Les données ne sont pas stockées |
 
@@ -86,13 +86,13 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->LES EUII et OII apparaissent dans la télémétrie. Ces informations sont stockées dans Application Insights, chiffrées au repos, accessibles contrôlées et supprimées après 90 jours
+>LES EUII et OII apparaissent dans la télémétrie. Ces informations sont stockées dans l’application Informations, chiffrées au repos, accessibles contrôlées et supprimées après 90 jours
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données stockées dans l’application sont chiffrées en transit et au repos. Nous nous appuyons Office 365 informations d’identification pour nos applications, donc nous ne stockons pas les mots de passe utilisateur dans notre système. L’accès aux données/journaux/télémétrie stockés est étroitement contrôlé aux membres du personnel de l’administration interne, qui ont besoin d’accéder aux informations dans le but d’exécution et de surveillance de l’état de l’application. Two-Factor'authentification appliquée pour tous les membres du personnel d’administration interne.
+>Les données stockées dans l’application sont chiffrées en transit et au repos. Nous nous appuyons Office 365 informations d’identification pour nos applications, donc nous ne stockons pas les mots de passe utilisateur dans notre système. L’accès aux données stockées/journaux/télémétrie est étroitement contrôlé au personnel de l’administration interne, ayant besoin d’accéder aux informations dans le but d’exécution et de surveillance de l’état de l’application. Two-Factor'authentification appliquée pour tous les membres du personnel d’administration interne.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -124,11 +124,11 @@ Ces informations ont été fournies par OnePlace Solutions sur la façon dont ce
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

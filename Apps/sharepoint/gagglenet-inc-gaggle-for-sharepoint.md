@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Leglegle pour SharePoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3678860272fa669d66d53dc650a685a1ed8c5ef2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 72f13f1e2db58d8376c857bac1d41433a09321a6
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553495"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281516"
 ---
 # <a name="gaggle-for-sharepoint"></a>SharePoint
 
@@ -35,9 +35,9 @@ Informations fournies par Gaggle.net, Inc. à Microsoft :
 | ID | WA104374324 |
 | Office 365 clients pris en charge | SharePoint 2013 ou ultérieure |
 | Nom de la société partenaire | Gaggle.net, Inc. |
-| URL du site web partenaire | [https://gaggle.net/](https://gaggle.net/) |
-| URL de la politique de confidentialité | [https://gaggle.net/privacy](https://gaggle.net/privacy) |
-| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL du site web partenaire | [https://Gaggle.net](https://Gaggle.net) |
+| URL de la politique de confidentialité | [https://www.gaggle.net/student-data-privacy-notice/](https://www.gaggle.net/student-data-privacy-notice/) |
+| URL des conditions d’utilisation | [https://www.gaggle.net/terms-conditions/](https://www.gaggle.net/terms-conditions/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -66,7 +66,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Adresses IP, adresses e-mail, noms d’utilisateur. L’accès à toutes les données de télémétrie/journalisation est basé sur un schéma d’autorisations basé sur un groupe, en utilisant le principe du moindre privilège. Des contrôles d’accès physique et logique sont en place pour garantir l’accès non autorisé aux OII et eIUU.
 
@@ -88,7 +88,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20688' frameborder='no' style='width: 100%;'></iframe>
 

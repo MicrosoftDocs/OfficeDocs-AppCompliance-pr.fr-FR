@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Brightidea, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0ef99ec3d04a72624f002c05f6a120a34f674b8a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8648dbe30e43ca31964493d797cb3629234fa671
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553285"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281386"
 ---
 # <a name="brightidea"></a>Brightidea
 
@@ -34,9 +34,9 @@ Informations fournies par Brightidea à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Brightidea |
 | ID | WA200002795 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Brightidea |
-| URL du site web partenaire | [https://www.brightidea.com](https://www.brightidea.com) |
+| URL du site web partenaire | [https://brightidea.com](https://brightidea.com) |
 | URL de la politique de confidentialité | [https://www.brightidea.com/privacy/](https://www.brightidea.com/privacy/) |
 | URL des conditions d’utilisation | [https://www.brightidea.com/terms-of-use/](https://www.brightidea.com/terms-of-use/) |
 
@@ -63,7 +63,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Amazon Web Services (AWS) | adresse de messagerie/domaine | Pour faire correspondre les auteurs d’idées Teams à leur compte Brightidea ; notre base de données utilisateur est dans AWS |
+>| Amazon Web Services | adresse de messagerie/domaine | Pour faire correspondre les auteurs d’idées Teams à leur compte Brightidea ; notre base de données utilisateur est dans AWS |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/13199' frameborder='no' style='width: 100%;'></iframe>
 
@@ -112,7 +112,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Brightidea sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Brightidea sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|

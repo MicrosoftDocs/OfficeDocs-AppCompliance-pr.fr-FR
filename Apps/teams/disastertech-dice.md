@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour DisasterTech DICE, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 29d53402a9bbf635e83d6d262227a8363577e261
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c9aceaf48c36012ad8c6eb062c1161746d55da6a
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552235"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281919"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -34,9 +34,9 @@ Informations fournies par DisasterTech à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | DisasterTech DICE |
 | ID | WA200001909 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | DisasterTech |
-| URL du site web partenaire | [https://dice.disastertech.com](https://dice.disastertech.com) |
+| URL du site web partenaire | [https://www.disastertech.com](https://www.disastertech.com) |
 | URL de la politique de confidentialité | [https://dice.disastertech.com/privacy.html](https://dice.disastertech.com/privacy.html) |
 | URL des conditions d’utilisation | [https://dice.disastertech.com/tos.html](https://dice.disastertech.com/tos.html) |
 

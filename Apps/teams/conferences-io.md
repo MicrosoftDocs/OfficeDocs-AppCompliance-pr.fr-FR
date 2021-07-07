@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les conférences, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cc2d3c2845660ddda7b2d759d4d30cb4191286dd
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f1ac0d98833813915b3485a7b5c00233f41ddee8
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553215"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281336"
 ---
 # <a name="conferences-io"></a>Conférences E/S
 
@@ -34,12 +34,12 @@ Informations fournies par les I/S conférences à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Conférences E/S |
 | ID | WA200001867 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Conférences E/S |
-| URL du site web partenaire | [https://teamsapp.conferences.io/](https://teamsapp.conferences.io/) |
+| URL du site web partenaire | [https://conferences.io](https://conferences.io) |
 | URL de la Teams d’informations sur l’application | [https://www.conferences.io/our-platform/features/](https://www.conferences.io/our-platform/features/) |
 | URL de la politique de confidentialité | [https://teamsapp.conferences.io/privacy/](https://teamsapp.conferences.io/privacy/) |
-| URL des conditions d’utilisation | [https://teamsapp.conferences.io/terms/](https://teamsapp.conferences.io/terms/) |
+| URL des conditions d’utilisation | [https://teamsapp.conferences.io/eula/](https://teamsapp.conferences.io/eula/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -64,7 +64,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Amazon Web Services (AWS) | Nom, adresse e-mail | La base de données principale de l’application se trouve sur Amazon Web Services. |
+>| Amazon Web Services | Nom, adresse e-mail | La base de données principale de l’application se trouve sur Amazon Web Services. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -97,7 +97,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36361' frameborder='no' style='width: 100%;'></iframe>
 
@@ -115,7 +115,7 @@ Ces informations ont été fournies par conferences i/o sur la façon dont cette
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

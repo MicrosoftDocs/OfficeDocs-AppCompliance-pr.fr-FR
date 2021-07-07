@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Trivia, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fbd1b9f5f308f3690a9d55a40993ba6122e8f81b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 6facd1d8622d78a616329030cef6ffa83bf3bec3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553845"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280896"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -34,9 +34,9 @@ Informations fournies par Springworks HR Tech à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Trivia |
 | ID | WA200001956 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Springworks HR Tech |
-| URL du site web partenaire | [https://springworks.in/](https://springworks.in/) |
+| URL du site web partenaire | [https://www.springworks.in](https://www.springworks.in) |
 | URL de la Teams d’informations sur l’application | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
 | URL de la politique de confidentialité | [https://trivia.springworks.in/policy](https://trivia.springworks.in/policy) |
 | URL des conditions d’utilisation | [https://trivia.springworks.in/tnc](https://trivia.springworks.in/tnc) |
@@ -124,7 +124,7 @@ Ces informations ont été fournies par Springworks HR Tech sur la façon dont c
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

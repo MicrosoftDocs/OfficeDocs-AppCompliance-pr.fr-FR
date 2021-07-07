@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour AttendanceBot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d99f924734bd6857b32ebb85942e5ef7ddb3cf18
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 900bbe4856204c7b1de0c988388aedc0f79366c5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553425"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281446"
 ---
 # <a name="attendancebot"></a>AttendanceBot
 
@@ -34,11 +34,11 @@ Informations fournies par Anaek à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | AttendanceBot |
 | ID | WA104381652 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Anaek |
-| URL du site web partenaire | [https://www.attendancebot.com/microsoft-teams/](https://www.attendancebot.com/microsoft-teams/) |
+| URL du site web partenaire | [https://www.harmonizehq.com](https://www.harmonizehq.com) |
 | URL de la Teams d’informations sur l’application | [https://www.attendancebot.com](https://www.attendancebot.com) |
-| URL de la politique de confidentialité | [https://www.attendancebot.com/attendance/privacy/](https://www.attendancebot.com/attendance/privacy/) |
+| URL de la politique de confidentialité | [https://www.attendancebot.com/privacy](https://www.attendancebot.com/privacy) |
 | URL des conditions d’utilisation | [https://www.attendancebot.com/attendance/tos/](https://www.attendancebot.com/attendance/tos/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -115,7 +115,7 @@ Ces informations ont été fournies par Anaek sur la façon dont cette applicati
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

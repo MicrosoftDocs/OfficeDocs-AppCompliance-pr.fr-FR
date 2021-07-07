@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SIGNL4, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a619327000c93e3292e266c8b025034370a8b623
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 425c0738b5628f959ba81e5682c22afe6774cfba
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553205"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281326"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -34,9 +34,9 @@ Informations fournies par Derdack SIGNL4 à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | SIGNL4 |
 | ID | WA200001239 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Derdack SIGNL4 |
-| URL du site web partenaire | [https://www.signl4.com](https://www.signl4.com) |
+| URL du site web partenaire | [https://www.derdack.com](https://www.derdack.com) |
 | URL de la politique de confidentialité | [https://www.signl4.com/privacy-policy/](https://www.signl4.com/privacy-policy/) |
 | URL des conditions d’utilisation | [https://www.signl4.com/terms_of_use/](https://www.signl4.com/terms_of_use/) |
 
@@ -63,7 +63,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| L’envoi de notifications de facturation au client lors de l’utilisation de l’application s’adresse à nouveau, adresse e-mail, adresse e-mail. Twilio, numéros de téléphone, alertes de contenu pour l’envoi d’alertes via SMS messages texte |  | L’API de gestion Azure, les alertes Azure Monitor sont collectées, la collecte se produit car les systèmes envoient des notifications pour ces alertes |
+>| L’envoi de notifications de facturation au client lors de l’utilisation de l’application s’adresse à nouveau, adresse e-mail, adresse e-mail. Twilio, numéros de téléphone, alertes de contenu pour l’envoi d’alertes par SMS |  | L’API de gestion Azure, les alertes Azure Monitor sont collectées, la collecte se produit car les systèmes envoient des notifications pour ces alertes |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -74,7 +74,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Les informations d’adresse de messagerie sont contenues dans les journaux. Des données de contenu d’alerte supplémentaires, envoyées par l’organisation, peuvent également être incluses dans les journaux. Pour éviter cela, l’organisation peut mettre fin au compte dans l’application.
 Les données dans les journaux sont requises pour la prise en charge et la résolution des problèmes que ma client a avec l’application.
@@ -97,7 +97,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35955' frameborder='no' style='width: 100%;'></iframe>
 

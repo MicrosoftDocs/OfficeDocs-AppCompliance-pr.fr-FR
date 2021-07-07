@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Hoylu, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4b63b3bd9cfec20a665d7fd112d2db09c280b594
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b48adaf3c3816bea363b0fd8e6581f061a5eaed1
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553085"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281857"
 ---
 # <a name="hoylu"></a>Hoylu
 
@@ -34,11 +34,11 @@ Informations fournies par Hoylu à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Hoylu |
 | ID | WA200001573 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Hoylu |
 | URL du site web partenaire | [https://hoylu.com](https://hoylu.com) |
-| URL de la politique de confidentialité | [https://hoylu.com/privacy-policy](https://hoylu.com/privacy-policy) |
-| URL des conditions d’utilisation | [https://hoylu.com/terms-of-use](https://hoylu.com/terms-of-use) |
+| URL de la politique de confidentialité | [https://www.hoylu.com/privacy-policy/](https://www.hoylu.com/privacy-policy/) |
+| URL des conditions d’utilisation | [https://www.hoylu.com/terms-of-use/](https://www.hoylu.com/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -74,7 +74,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Oui. La journalisation est effectuée pour la sécurité des applications, et les euii et OII sont collectés sous la forme du prénom et du nom, du courrier électronique, de l’adresse IP, de l’ID d’organisation. Le fournisseur de journalisation de Hoylu est Datadog. Datadog a certifié sa conformité avec l’infrastructure de bouclier de protection des données UE-États-Unis et est un registre STAR pour la Cloud Security Alliance (CSA). Datadog poursuit également des validations tierces indépendantes clés de sa sécurité, de ses processus et de ses services, y compris la réalisation de l’audit SOC 2 Type II. Un utilisateur peut demander la suppression de ces informations par le biais d’un processus conforme au R GDPR à tout moment.
+>Oui. La journalisation est effectuée pour la sécurité des applications, et les euii et OII sont collectés sous la forme du prénom et du nom, du courrier électronique, de l’adresse IP, de l’ID d’organisation. Le fournisseur de journalisation de Hoylu est Datadog. Datadog a certifié sa conformité avec l’infrastructure de bouclier de protection des données UE-U.S. et est un registre STAR pour la Cloud Security Alliance (CSA). Datadog poursuit également des validations tierces indépendantes clés de sa sécurité, de ses processus et de ses services, y compris la réalisation de l’audit SOC 2 Type II. Un utilisateur peut demander la suppression de ces informations par le biais d’un processus conforme au R GDPR à tout moment.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -94,7 +94,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35933' frameborder='no' style='width: 100%;'></iframe>
 

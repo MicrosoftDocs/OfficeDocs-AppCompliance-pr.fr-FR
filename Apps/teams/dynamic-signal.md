@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le signal dynamique, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0d3c59f6809bafe16eec2a1d709f40a980576b1b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 19f633362ac605ef5891b3d7e11f34a8ec04d74f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552225"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281306"
 ---
 # <a name="dynamic-signal"></a>Signal dynamique
 
@@ -34,9 +34,9 @@ Informations fournies par le signal dynamique à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Signal dynamique |
 | ID | WA200000102 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Signal dynamique |
-| URL du site web partenaire | [https://dynamicsignal.com](https://dynamicsignal.com) |
+| URL du site web partenaire | [https://www.dynamicsignal.com](https://www.dynamicsignal.com) |
 | URL de la Teams d’informations sur l’application | [https://support.dynamicsignal.com/hc/en-us/requests/new?tic...](https://support.dynamicsignal.com/hc/en-us/requests/new?ticket_form_id=360000290032) |
 | URL de la politique de confidentialité | [https://dynamicsignal.com/privacy/](https://dynamicsignal.com/privacy/) |
 | URL des conditions d’utilisation | [https://dynamicsignal.com/terms-of-use/platform-terms-of-us...](https://dynamicsignal.com/terms-of-use/platform-terms-of-use/) |
@@ -60,7 +60,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| User.Read | délégué | Le signal dynamique synchronise les utilisateurs d’Azure AD avec sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Lire les autorisations d’un utilisateur spécifique pour synchroniser les utilisateurs de la plateforme Signal dynamique avec Azure AD. | 79ff4a2a-e22b-47d5-94dc-ef76fe46af75 |
 >| User.Read.All | délégué | Le signal dynamique synchronise les utilisateurs d’Azure AD avec sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Lire les autorisations d’un utilisateur spécifique pour synchroniser les utilisateurs de la plateforme Signal dynamique avec Azure AD. | 79ff4a2a-e22b-47d5-94dc-ef76fe46af75 |
 >| offline_access | délégué | Le signal dynamique synchronise les utilisateurs d’Azure AD avec sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Conserver l’accès aux groupes et aux équipes du client. | 79ff4a2a-e22b-47d5-94dc-ef76fe46af75 |
->| openid | délégué | Le signal dynamique synchronise les utilisateurs d’Azure AD avec sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Authentifier les utilisateurs avec l’application de signal dynamique. | 79ff4a2a-e22b-47d5-94dc-ef76fe46af75 |
+>| openid | délégué | Le signal dynamique synchronise les utilisateurs d’Azure AD avec sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Authentifier les utilisateurs avec l’application Signal dynamique. | 79ff4a2a-e22b-47d5-94dc-ef76fe46af75 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35740' frameborder='no' style='width: 100%;'></iframe>
 

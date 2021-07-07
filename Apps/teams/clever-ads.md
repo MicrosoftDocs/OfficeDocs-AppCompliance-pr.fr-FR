@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Clever Ads, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0b092ef8ab27bec0a2f5c3bf294b301a71d1649a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d0ef9f59476133e673a0bf9edf99e63cfc424559
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552275"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281947"
 ---
 # <a name="clever-ads"></a>Clever Ads
 
@@ -34,11 +34,11 @@ Informations fournies par Clever Ads à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Clever Ads |
 | ID | WA200001182 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Clever Ads |
-| URL du site web partenaire | [https://www.cleverads.com/](https://www.cleverads.com/) |
-| URL de la politique de confidentialité | [https://www.cleverads.com/privacy-policy](https://www.cleverads.com/privacy-policy) |
-| URL des conditions d’utilisation | [https://www.cleverads.com/terms-conditions](https://www.cleverads.com/terms-conditions) |
+| URL du site web partenaire | [https://cleverads.com](https://cleverads.com) |
+| URL de la politique de confidentialité | [https://cleverads.com/privacy-policy](https://cleverads.com/privacy-policy) |
+| URL des conditions d’utilisation | [https://cleverads.com/terms-conditions](https://cleverads.com/terms-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35867' frameborder='no' style='width: 100%;'></iframe>
 

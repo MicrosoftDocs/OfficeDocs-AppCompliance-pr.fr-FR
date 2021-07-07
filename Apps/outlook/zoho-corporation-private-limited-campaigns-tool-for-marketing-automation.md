@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour l’outil Campagnes zoho pour l’automatisation marketing, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour l’outil Campagnes de Zoho pour l’automatisation marketing, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e67de0ca2871d5432b5a29ead52194225bc51c9a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e54e3313dcfa51542439775a0c3ca0cae38aca93
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553685"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281586"
 ---
 # <a name="zoho-campaigns-tool-for-marketing-automation"></a>Outil campagnes Zoho pour l’automatisation marketing
 
@@ -33,11 +33,11 @@ Informations fournies par Zoho Corporation Private Limited à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Outil campagnes Zoho pour l’automatisation marketing |
 | ID | WA104380835 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Zoho Corporation Private Limited |
 | URL du site web partenaire | [https://www.zoho.com/](https://www.zoho.com/) |
-| URL de la politique de confidentialité | [https://zoho.com/privacy.html](https://zoho.com/privacy.html) |
-| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL de la politique de confidentialité | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
+| URL des conditions d’utilisation | [https://www.zoho.com/campaigns/zc-terms.html](https://www.zoho.com/campaigns/zc-terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,7 +57,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Calendars.Read | délégué | L’ID de calendrier est stocké pour créer des événements dans ce calendrier à partir des campagnes Zoho. | Permet à l’utilisateur d’importer un événement de calendrier Office 365 dans les campagnes Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| Calendars.ReadWrite | délégué |  | Permet à l’utilisateur d’ajouter des événements Zoho Campaigns au calendrier Office365. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.Read | délégué |  Pour enregistrer les informations de contact. | Permet à l’utilisateur d’importer des contacts Office 365 dans les campagnes Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Contacts.Read | délégué |  Pour enregistrer les informations de contact. | Permet à l’utilisateur d’importer des contacts Office365 dans les campagnes Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| Contacts.ReadWrite | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| User.Read | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 >| User.ReadBasic.All | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
@@ -84,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Le client peut sélectionner les données qui doivent être chiffrées via EAR (Chiffrement au repos) avec des restrictions de sécurité. Les mots de passe sont hachés par défaut. L’accès logique aux serveurs est fourni par le biais d’un réseau dédié &amp; isolé et est hautement sécurisé et
+>Le client peut sélectionner les données qui doivent être chiffrées via EAR (Chiffrement au repos) avec des restrictions de sécurité. Les mots de passe sont hachés par défaut. L’accès logique aux serveurs est fourni via un réseau dédié &amp; isolé et est hautement sécurisé et
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -93,7 +93,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28293' frameborder='no' style='width: 100%;'></iframe>
 

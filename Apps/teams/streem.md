@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Streem, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e2846048e24c525f55b3a51a5a5ce7c9fa2f862e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d4bedfee8b2a65a0164c845dba10ebf0c44c4eac
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553825"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280826"
 ---
 # <a name="streem"></a>Streem
 
@@ -34,12 +34,11 @@ Informations fournies par Streem à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Streem |
 | ID | WA200000197 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Streem |
-| URL du site web partenaire | [https://streem.com.au](https://streem.com.au) |
-| URL de la Teams d’informations sur l’application | [S/O](N/A) |
-| URL de la politique de confidentialité | [https://streem.com.au/privacy](https://streem.com.au/privacy) |
-| URL des conditions d’utilisation | [https://streem.com.au/terms/general](https://streem.com.au/terms/general) |
+| URL du site web partenaire | [https://www.streem.com.au](https://www.streem.com.au) |
+| URL de la politique de confidentialité | [https://www.streem.com.au/privacy](https://www.streem.com.au/privacy) |
+| URL des conditions d’utilisation | [https://www.streem.com.au/terms/general](https://www.streem.com.au/terms/general) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -97,7 +96,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36909' frameborder='no' style='width: 100%;'></iframe>
 

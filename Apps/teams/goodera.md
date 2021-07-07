@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Goodera, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 55b69d4abaedb8f838f201812e11db2cc9aac39f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 46dc2de8dc444591a42a0a3e4ecaa1c31232ebc3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552145"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281867"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -34,10 +34,9 @@ Informations fournies par Goodera à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Goodera |
 | ID | WA200002136 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Goodera |
-| URL du site web partenaire | [https://about.goodera.com](https://about.goodera.com) |
-| URL de la Teams d’informations sur l’application | [S/O](N/A) |
+| URL du site web partenaire | [https://goodera.com](https://goodera.com) |
 | URL de la politique de confidentialité | [https://about.goodera.com/privacy](https://about.goodera.com/privacy) |
 | URL des conditions d’utilisation | [https://about.goodera.com/terms](https://about.goodera.com/terms) |
 
@@ -97,7 +96,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36432' frameborder='no' style='width: 100%;'></iframe>
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les diagrammes d’diagrammes de PowerPoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 024b2e925ba84967bf40754908a8d98baa1d705f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7fcf941323e998bd2e4ffba59f60410e745a1613
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553605"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282358"
 ---
 # <a name="lucidchart-diagrams-for-powerpoint"></a>Diagrammes de diagrammes de graphiques PowerPoint
 
@@ -35,7 +35,7 @@ Informations fournies par Software Inc. à Microsoft :
 | ID | WA104380117 |
 | Office 365 clients pris en charge | PowerPoint 2016 ou une ultérieure sur Mac, PowerPoint sur le web, PowerPoint 2013 ou une Windows |
 | Nom de la société partenaire | Lucid Software Inc |
-| URL du site web partenaire | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
+| URL du site web partenaire | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL de la politique de confidentialité | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
 | URL des conditions d’utilisation | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 
@@ -47,7 +47,7 @@ Informations fournies par Software Inc. à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Las Software Inc. sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Lass Software Inc. sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -81,7 +81,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous logons les e-mails et les adresses IP pour des raisons de sécurité et de support. Tous les accès aux journaux sont enregistrés et ne peuvent pas être changés &amp; dans un système tiers. L’accès aux journaux nécessite l’mffa.
+>Nous logons les e-mails et les adresses IP pour des raisons de sécurité et de support. Tous les accès aux journaux sont enregistrés et ne peuvent pas être changés &amp; dans un système tiers. L’accès aux journaux nécessite l' mba.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
