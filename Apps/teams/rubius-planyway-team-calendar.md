@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le calendrier de l’équipe Planyway, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 69f23970621b0105d1359bb41d3539b643991448
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d712799259406f65b30a7d186763bb0addba9d1e
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553925"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283098"
 ---
 # <a name="planyway-team-calendar"></a>Calendrier de l'équipe Planyway
 
@@ -34,9 +34,9 @@ Informations fournies par Rubius à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Calendrier de l'équipe Planyway |
 | ID | WA200002712 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Rubius |
-| URL du site web partenaire | [https://planyway.com](https://planyway.com) |
+| URL du site web partenaire | [https://rubius.com](https://rubius.com) |
 | URL de la Teams d’informations sur l’application | [https://planyway.com](https://planyway.com) |
 | URL de la politique de confidentialité | [https://planyway.com/legal/privacy-policy](https://planyway.com/legal/privacy-policy) |
 | URL des conditions d’utilisation | [https://planyway.com/legal/terms-of-use](https://planyway.com/legal/terms-of-use) |
@@ -95,7 +95,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37864' frameborder='no' style='width: 100%;'></iframe>
 

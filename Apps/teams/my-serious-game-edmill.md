@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour EdMill, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0fe3cef0358d5dca0e78888be9f6f57a53e87bd4
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2e0737b48d027b51d9dc44f57b9d9cc3a11610bd
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552915"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282948"
 ---
 # <a name="edmill"></a>EdMill
 
@@ -34,12 +34,12 @@ Informations fournies par My-Serious-Game à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | EdMill |
 | ID | WA200002622 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | My-Serious-Game |
-| URL du site web partenaire | [https://www.edmill.com/](https://www.edmill.com/) |
+| URL du site web partenaire | [https://www.my-serious-game.com](https://www.my-serious-game.com) |
 | URL de la Teams d’informations sur l’application | [https://www.edmill.com](https://www.edmill.com) |
 | URL de la politique de confidentialité | [https://app.edmill.com/privacy-policy](https://app.edmill.com/privacy-policy) |
-| URL des conditions d’utilisation | [https://www.edmill.com/cgu/](https://www.edmill.com/cgu/) |
+| URL des conditions d’utilisation | [https://app.edmill.com/static/cgv.pdf](https://app.edmill.com/static/cgv.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -73,7 +73,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -95,7 +95,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36913' frameborder='no' style='width: 100%;'></iframe>
 
@@ -109,11 +109,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par My-Serious-Game sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par My-Serious-Game sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |

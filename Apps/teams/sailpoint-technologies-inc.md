@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LePoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: befd216c19352c4b812703fe7d59d2c3fd3fd7d7
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: bcde5fdd363b217adabcdfd91074dedfcbe73b88
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790033"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283078"
 ---
-# <a name="sailpoint"></a>Point de départ
+# <a name="sailpoint"></a>Sailpoint
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,11 +32,11 @@ Informations fournies à Microsoft par LePoint Technologies, Inc. à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Point de départ |
+| Nom de l'application | Sailpoint |
 | ID | WA200002761 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Technologies ToyPoint, Inc. |
-| URL du site web partenaire | [sailpoint.com](sailpoint.com) |
+| Nom de la société partenaire | SailPoint Technologies, Inc. |
+| URL du site web partenaire | [https://sailpoint.com](https://sailpoint.com) |
 | URL de la politique de confidentialité | [https://www.sailpoint.com/legal/privacy/](https://www.sailpoint.com/legal/privacy/) |
 | URL des conditions d’utilisation | [https://www.sailpoint.com/legal/customer-agreements/](https://www.sailpoint.com/legal/customer-agreements/) |
 
@@ -48,7 +48,7 @@ Informations fournies à Microsoft par LePoint Technologies, Inc. à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Les technologies ContrôlePoint, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Technologies ContrôlePoint, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -69,12 +69,12 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Nous avons besoin de noms d’utilisateurs pour diriger les messages au sein Teams | Non |  |
+>| Nous avons besoin de noms d’utilisateur pour diriger les messages au sein Teams | Non |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 

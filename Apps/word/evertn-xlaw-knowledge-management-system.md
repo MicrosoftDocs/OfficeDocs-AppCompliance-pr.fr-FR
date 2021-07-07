@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 'Toutes les informations de sécurité et de conformité disponibles pour xLaw : système de gestion des connaissances, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e10b2149f8d103ae9c9ab042402168be6ac73e9b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 57f63c4bc93739fa2a251d797ea4475ef786a09d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552655"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283488"
 ---
 # <a name="xlaw---knowledge-management-system"></a>xLaw : système de gestion des connaissances
 
@@ -35,7 +35,7 @@ Informations fournies par evertn à Microsoft :
 | ID | WA104381077 |
 | Office 365 clients pris en charge | Word 2016 ou une ultérieure sur Mac, Word sur le web, Word 2013 ou une Windows |
 | Nom de la société partenaire | evertn |
-| URL du site web partenaire | [https://xlaw.eu/](https://xlaw.eu/) |
+| URL du site web partenaire | [https://extendlaw.com](https://extendlaw.com) |
 | URL de la politique de confidentialité | [https://xlaw.eu/en/privacypolicy.html](https://xlaw.eu/en/privacypolicy.html) |
 | URL des conditions d’utilisation | [https://xlaw.eu/en/tos.html](https://xlaw.eu/en/tos.html) |
 
@@ -66,7 +66,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -88,7 +88,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36910' frameborder='no' style='width: 100%;'></iframe>
 
@@ -106,7 +106,7 @@ Ces informations ont été fournies par evertn sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

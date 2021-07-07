@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour officeatwork | S’il s’Office contenu, ses stratégies de gestion des données, ses Microsoft Cloud App Security catalogue d’applications et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f4d95e0dcbb0a7234299f190766e85b17f6a853f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 39c7e2b45c8fa4d525d3b024533fbf63fa17b0be
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550344"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283278"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork | S’il s’il s’Office
 
@@ -34,7 +34,7 @@ Informations fournies par officeatwork à Microsoft :
 | ID | WA104380602 |
 | Office 365 clients pris en charge | Excel sur iPad, Excel 2016 ou une ultérieure sur Mac, Excel 2013 Service Pack 1 ou une Windows, Excel sur le Web, Word sur iPad, Word 2016 ou ultérieur sur Mac, Word sur le web, Word 2013 Service Pack 1 ou ultérieur sur Windows, PowerPoint sur iPad, PowerPoint 2016 ou ultérieur sur Mac, PowerPoint sur le web, PowerPoint 2013 Service Pack 1 ou ultérieur sur Windows, OneNote sur le web |
 | Nom de la société partenaire | officeatwork |
-| URL du site web partenaire | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
+| URL du site web partenaire | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL de la politique de confidentialité | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | URL des conditions d’utilisation | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 
@@ -123,12 +123,12 @@ Ces informations ont été fournies par officeatwork sur la façon dont cette ap
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Paramètres de sécurité par défaut |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Non |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

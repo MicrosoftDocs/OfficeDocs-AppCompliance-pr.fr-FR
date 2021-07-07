@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Prezi Video, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8b689869b4c8799d396a61ccbecd0d1b4a4e5c51
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8bd0c290442e01f6f7a07f39bc38f2f7ece2123b
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552835"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283138"
 ---
 # <a name="prezi-video"></a>Vidéo Prezi
 
@@ -34,11 +34,11 @@ Informations fournies par Prezi à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Vidéo Prezi |
 | ID | WA200001577 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Prezi |
 | URL du site web partenaire | [https://prezi.com](https://prezi.com) |
-| URL de la politique de confidentialité | [https://prezi.com/privacy-policy/201910_NL/](https://prezi.com/privacy-policy/201910_NL/) |
-| URL des conditions d’utilisation | [https://prezi.com/terms-of-use/201910_NL/](https://prezi.com/terms-of-use/201910_NL/) |
+| URL de la politique de confidentialité | [https://prezi.com/privacy-policy/](https://prezi.com/privacy-policy/) |
+| URL des conditions d’utilisation | [https://prezi.com/terms-of-use/](https://prezi.com/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

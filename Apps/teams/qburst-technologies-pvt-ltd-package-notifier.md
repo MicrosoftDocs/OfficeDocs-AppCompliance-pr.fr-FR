@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le notificateur de package, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 32a5d38cf65162adfcf236d955d881b77cba0ec7
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 76f042a43f4a14b7ee1de71a9bb70a5e646413d4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552815"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283128"
 ---
 # <a name="package-notifier"></a>Notificateur de package
 
@@ -34,10 +34,9 @@ Informations fournies par QBURST TECHNOLOGIES PVT LTD à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Notificateur de package |
 | ID | WA200002737 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | QBURST TECHNOLOGIES PVT LTD |
-| URL du site web partenaire | [https://package-notifier.qburst.in](https://package-notifier.qburst.in) |
-| URL de la Teams d’informations sur l’application | [S/O](N/A) |
+| URL du site web partenaire | [https://www.qburst.in](https://www.qburst.in) |
 | URL de la politique de confidentialité | [https://package-notifier.qburst.in/privacy-policy.html](https://package-notifier.qburst.in/privacy-policy.html) |
 | URL des conditions d’utilisation | [https://package-notifier.qburst.in/terms-and-conditions.html](https://package-notifier.qburst.in/terms-and-conditions.html) |
 
@@ -61,7 +60,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| Azure DevOps Services REST API | Non |  |  |  |  |
 
@@ -102,7 +101,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37866' frameborder='no' style='width: 100%;'></iframe>
 
@@ -125,7 +124,7 @@ Ces informations ont été fournies par QBURST TECHNOLOGIES PVT LTD sur la faço
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | 499b84ac-1321-427f-aa17-267ca6975798/user_impersonation offline_access |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

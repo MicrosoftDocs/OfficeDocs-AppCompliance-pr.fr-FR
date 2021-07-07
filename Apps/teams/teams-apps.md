@@ -2,17 +2,17 @@
 title: Sécurité et conformité de l’application Microsoft Teams – Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/16/2021
+ms.date: 07/02/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations sur la conformité et la sécurité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 2f12550c4470613265304c0c4a4de4affe07c3e6
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: 52d1f9ed3b066d4df0fa51d230b7967ea3d81bb3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987709"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283248"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Sécurité et conformité de l’application Microsoft Teams
 
@@ -53,12 +53,14 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [CatchEm](./chimu-software-catchem.md) | Logiciel Chimu | **✓** |  |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  |
 | [ChurnZero](./churnzero.md) | ChurnZero | **✓** |  |
+| [CI-Out-of-Office Lite](./ci-solution-gmbh-out-of-office-lite.md) | ci solution GmbH | **✓** |  |
 | [Cisco Webex Meetings](./cisco-webex-meetings.md) | Réunions Cisco Webex | **✓** |  |
 | [API Clever](./clever-ads.md) | Clever Ads | **✓** |  |
 | [Cloverpop](./cloverpop.md) | Cloverpop | **✓** |  |
 | [COCO](./hexaware-technologies-ltd-coco.md) | Hexaware Technologies Ltd. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Complish](./cauzey-pty-ltd-complish.md) | Cauzey Pty Ltd | **✓** |  |
 | [Conférences E/S](./conferences-io.md) | Conférences E/S | **✓** |  |
+| [Connecter+](./reward-gateway-connectplus.md) | Passerelle de récompense | **✓** |  |
 | [Centre de contacts](./landis-technologies-llc-contact-center.md) | Landis Technologies LLC | **✓** |  |
 | [Espace de travail Datto](./datto-inc-workplace.md) | Datto, Inc. | **✓** |  |
 | [DBit](./diamondsoft-solutions-llc-dbit.md) | Diamondsoft Solutions, LLC | **✓** |  |
@@ -73,6 +75,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Email TeamMate](./harmonie-email-teammate.md) | harmon.ie | **✓** |  |
 | [Empuls](./empuls.md) | Empuls | **✓** |  |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  |
+| [eTeamer](./missing-eteamer.md) | &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [Evocom](./evocom-informationssysteme-gmbh.md) | Evocom Informationssysteme GmbH | **✓** |  |
 | [ezTeam](./enterprizid-inc-ezteam.md) | EnterprizID Inc | **✓** |  |
@@ -87,7 +90,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [GoToConnect](./logmein-inc-gotoconnect.md) | LogMeIn Inc. | **✓** |  |
 | [Guru](./guru-technologies.md) | Guru Technologies | **✓** |  |
 | [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  |
-| [hi Digital Coach](./digital-attitude-hi-coach.md) | Digital Attitude | **✓** |  |
+| [hi Digital Coach](./digital-attitude-srl-hi-coach.md) | Digital Attitude Srl | **✓** |  |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  |
 | [Hibob](./hibob-inc.md) | Hibob Inc. | **✓** |  |
 | [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
@@ -113,6 +116,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Lucidchart](./lucid-software-lucidchart.md) | Logiciel Lucid | **✓** |  |
 | [Lucidspark](./lucid-software-lucidspark.md) | Logiciel Lucid | **✓** |  |
 | [LuckyDraw](./tony-xia-luckydraw.md) | Tony Xia | **✓** |  |
+| [Lumio par SMART](./smart-technologies-ulc-lumio-by.md) | SMART Technologies ULC | **✓** |  |
 | [MailClark](./mailclark.md) | MailClark | **✓** |  |
 | [Medxnote MT](./medxnote-mt.md) | Medxnote | **✓** |  |
 | [MeisterTask](./meisterlabs-gmbh-meistertask.md) | MeisterLabs GmbH | **✓** |  |
@@ -149,7 +153,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [qbo](./unscrambl-qbo.md) | Unscrambl | **✓** |  |
 | [Expérience de leader qChange](./qchange-software-solution-inc-leader-experience.md) | qChange Software Solution, Inc. | **✓** |  |
 | [Qualifié](./qualified.md) | Qualifié | **✓** |  |
-| [Qubie](./qubie.md) | Qubie | **✓** |  |
+| [Qubie](./tivian-qubie.md) | Tivian | **✓** |  |
 | [QuickLinks](./chitchattr-quicklinks.md) | ChitChattr | **✓** |  |
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
 | [RememberThis](./tom-morgan-rememberthis.md) | Tom Morgan | **✓** |  |
@@ -174,11 +178,11 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Simple In/Out](./simply-made-apps-inc-simple-inout.md) | Simply Made Apps, Inc. | **✓** |  |
 | [Site24x7](./zoho-corporation-private-limited-site24x7.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Skillate](./skillate-laboratories-pvt-ltd.md) | Skillate Laboratories Pvt. Ltd. | **✓** |  |
+| [SkilledHuman](./saltflat-limited-skilledhuman.md) | SaltFlat limité | **✓** |  |
 | [Skills par Pipe9](./pipe9com-skills-by-pipe9.md) | Pipe9.com | **✓** |  |
 | [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  |
 | [Slido](./slido.md) | Slido | **✓** |  |
 | [Smart Connect pour Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  |
-| [Suite d’apprentissage SMART](./smart-technologies-ulc-learning-suite.md) | SMART Technologies ULC | **✓** |  |
 | [Smartnotation](./smartnotation-bv.md) | Smartnotation B.V. | **✓** |  |
 | [Smartsheet](./smartsheet.md) | Smartsheet | **✓** |  |
 | [SmartWork](./smartwork-of-intumit.md) | SmartWork de Intumit | **✓** |  |
@@ -201,6 +205,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Talla](./talla-inc.md) | Talla Inc. | **✓** |  |
 | [Talview Interviews](./talview-inc-interviews.md) | Talview Inc | **✓** |  |
 | [TaskList](./limestat-inc-tasklist.md) | LimeStat, Inc | **✓** |  |
+| [Bot de vérification de l’intégrité de TeaMe](./missing-teame-health-check-bot.md) | &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; | **✓** |  |
 | [TeamGether](./effency-teamgether.md) | EFFENCY | **✓** |  |
 | [Teamhood](./eylean-uab-teamhood.md) | Eylean, UAB | **✓** |  |
 | [TeamMate par ChitChattr](./chitchattr-teammate-by.md) | ChitChattr | **✓** |  |
@@ -223,7 +228,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Webex Call](./cisco-webex-call.md) | Cisco | **✓** |  |
 | [Wide Ideas](./wide-ideas.md) | Wide Ideas | **✓** |  |
 | [Woobot](./woobot.md) | Woobot | **✓** |  |
-| [Workboard](./workboard.md) | Workboard | **✓** |  |
+| [Workboard](./workboard.md) | Workboard | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [WorkDay](./workday.md) | Workday | **✓** |  |
 | [Wrike](./wrike-inc.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Wunder365](./jiji-technologies-pvt-ltd-wunder365.md) | JiJi Technologies Pvt Ltd | **✓** |  |

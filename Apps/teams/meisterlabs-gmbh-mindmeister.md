@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Mind Contrôle, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a37e6c35b7a557ee146ad91e65d8f453dd94377e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: bc3c15dabdcf5b01503d835f8cc45dccf8909539
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551915"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282968"
 ---
 # <a name="mindmeister"></a>MindMeister
 
@@ -34,12 +34,12 @@ Informations fournies à Microsoft par ÉvrierLabs Contrôleh :
 |:----------------|:-------------|
 | Nom de l'application | MindMeister |
 | ID | WA104381116 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | MeisterLabs GmbH |
 | URL du site web partenaire | [https://www.mindmeister.com](https://www.mindmeister.com) |
 | URL de la Teams d’informations sur l’application | [https://support.mindmeister.com/](https://support.mindmeister.com/) |
 | URL de la politique de confidentialité | [https://www.mindmeister.com/privacy](https://www.mindmeister.com/privacy) |
-| URL des conditions d’utilisation | [https://www.mindmeister.com/legal](https://www.mindmeister.com/legal) |
+| URL des conditions d’utilisation | [https://www.mindmeister.com/terms](https://www.mindmeister.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20874' frameborder='no' style='width: 100%;'></iframe>
 

@@ -1,5 +1,5 @@
 ---
-title: Informations d’application pour Asana Outlook par Asana
+title: Informations d’application pour Asana pour Outlook par Asana
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/02/2020
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Asana pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cd3d403d7b25c1ad5dda60dff8d93c18dfe59c30
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 631e8ea5e7265566b1c8332987ea31f9d5ec41bc
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553745"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282908"
 ---
 # <a name="asana-for-outlook"></a>Asana pour Outlook
 
@@ -35,9 +35,9 @@ Informations fournies par Asana à Microsoft :
 | ID | WA104381833 |
 | Office 365 clients pris en charge | Outlook 2016 ou ultérieure sur Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Asana |
-| URL du site web partenaire | [https://asana.com/](https://asana.com/) |
+| URL du site web partenaire | [https://asana.com](https://asana.com) |
 | URL de la politique de confidentialité | [https://asana.com/terms#privacy-policy](https://asana.com/terms#privacy-policy) |
-| URL des conditions d’utilisation | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL des conditions d’utilisation | [https://asana.com/terms#terms-of-service](https://asana.com/terms#terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -68,9 +68,9 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Notre application enregistre uniquement les informations relatives aux données Asana. La seule fois que nous journalisons des informations sur l’utilisateur Outlook, c’est lorsque l’utilisateur joint explicitement un e-mail ou télécharge une pièce jointe vers Asana, et même alors, nous ne logons pas le contenu. Les journaux à court terme existent sur des serveurs qui peuvent inclure des données utilisateur, mais ils sont éphémères et limités à des périodes inférieures à 72 heures.
+>Notre application enregistre uniquement les informations relatives aux données Asana. La seule fois que nous journalisons des informations sur l’utilisateur Outlook, c’est lorsque l’utilisateur joint explicitement un e-mail ou télécharge une pièce jointe dans Asana, et même alors, nous ne logons pas le contenu. Les journaux à court terme existent sur des serveurs qui peuvent inclure des données utilisateur, mais ils sont éphémères et limités à des périodes inférieures à 72 heures.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -91,7 +91,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/10417' frameborder='no' style='width: 100%;'></iframe>
 

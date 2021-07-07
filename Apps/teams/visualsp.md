@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour VisualSP, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c4acb8087cb69ae70b4734ec0230830ac6fd377e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7f8fb55c479f6730643d85ac866703f59d1f621e
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550934"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283358"
 ---
 # <a name="visualsp"></a>VisualSP
 
@@ -34,11 +34,11 @@ Informations fournies par VisualSP à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | VisualSP |
 | ID | WA200001426 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | VisualSP |
-| URL du site web partenaire | [https://www.visualsp.com](https://www.visualsp.com) |
+| URL du site web partenaire | [https://visualsp.com](https://visualsp.com) |
 | URL de la Teams d’informations sur l’application | [https://www.visualsp.com/visualsp-for-microsoft-teams/](https://www.visualsp.com/visualsp-for-microsoft-teams/) |
-| URL de la politique de confidentialité | [https://www.visualsp.com/company/privacy-policy/](https://www.visualsp.com/company/privacy-policy/) |
+| URL de la politique de confidentialité | [https://www.visualsp.com/company/privacy-policy](https://www.visualsp.com/company/privacy-policy) |
 | URL des conditions d’utilisation | [https://www.visualsp.com/terms-of-service/](https://www.visualsp.com/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -95,7 +95,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36365' frameborder='no' style='width: 100%;'></iframe>
 

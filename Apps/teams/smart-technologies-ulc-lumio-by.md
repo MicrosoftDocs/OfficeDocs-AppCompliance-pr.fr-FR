@@ -1,44 +1,45 @@
 ---
-title: Informations sur l’application Teams Manager par Solutions2ShareShare
+title: Informations d’application pour Lumio par SMART par SMART Technologies ULC
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour le Gestionnaire Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fbca7409c87bed006a18b31d7de2fa43afd9b95f
+description: Toutes les informations de sécurité et de conformité disponibles pour Lumio par SMART, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 50cde4ecae9abf39b199b381bcf8e5da33b345e6
 ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283188"
+ms.locfileid: "53283301"
 ---
-# <a name="teams-manager"></a>Gestionnaire Teams
+# <a name="lumio-by-smart"></a>Lumio par SMART
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: April 19, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/87000000-3db9-bb44-5015-0b4a327a6597" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000764" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/e0ffcbc7-f3f2-46b7-a189-afd01c545782" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001874" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Solutions2ShareSyh à Microsoft :
+Informations fournies par SMART Technologies ULC à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Gestionnaire Teams |
-| ID | WA200000764 |
+| Nom de l'application | Lumio par SMART |
+| ID | WA200001874 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Solutions2Share GmbH |
-| URL du site web partenaire | [https://teams-manager.com/](https://teams-manager.com/) |
-| URL de la politique de confidentialité | [https://www.teams-manager.com/privacy](https://www.teams-manager.com/privacy) |
-| URL des conditions d’utilisation | [https://www.teams-manager.com/terms-of-use/](https://www.teams-manager.com/terms-of-use/) |
+| Nom de la société partenaire | SMART Technologies ULC |
+| URL du site web partenaire | [https://smarttech.com](https://smarttech.com) |
+| URL de la Teams d’informations sur l’application | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
+| URL de la politique de confidentialité | [https://www.smarttech.com/en/legal/privacy-policies](https://www.smarttech.com/en/legal/privacy-policies) |
+| URL des conditions d’utilisation | [https://www.smarttech.com/legal/sls-terms](https://www.smarttech.com/legal/sls-terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,7 +49,7 @@ Informations fournies par Solutions2ShareSyh à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Solutions2ShareShare SharingH sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par smart Technologies ULC sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -56,11 +57,8 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | les deux | Nous stockons tenantID et TeamId pour matric les modèles.  | Autoriser la liste de tous les Teams et créer des Teams. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| Notes.ReadWrite.All | application | Aucun | Permet à l’application d’ajouter des blocs-notes à une équipe approuvée. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.Read | délégué | Aucun | Permet à l’utilisateur de se connecter et donne à l’application l’accès à son UPN pour activer la connexion silencieuse. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.Read.All | les deux | Nous enregistreons l’ID de l’utilisateur entré dans la section d’approbation/d’administration. | List all users to show them in the people picker within the app. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.ReadBasic.All | délégué | Aucun | List all users to show them in the people picker within the app. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
+>| Directory.Read.All | délégué | Les données sont utilisées pour vérifier les autorisations de groupe, aucune donnée n’est collectée.  | Aucune donnée d’annuaire n’est stockée dans la base de données | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
+>| Group.Read.All | délégué | Le groupe dont ils sont appart permet de vérifier qu’ils font partie du groupe d’étudiants ou d’enseignants pour déterminer les fonctionnalités. Aucune donnée collectée.  | Seules les données stockées sont l’ID unique des clients | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -80,14 +78,13 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous nous connectons à Azure Log Analytics et utilisons leurs stratégies d’archivage/rétention.
-Nous consignons l’ID client et l’ID d’équipe pour identifier les problèmes et aider les clients à résoudre les problèmes.
+>Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Nous avons un processus de conformité et de fonctionnement pour le contrôle d’accès. Toutes les données et jetons liés à l’utilisateur sont chiffrés. Les données sont stockées dans une Azure SQL Database. Nous utilisons le pare-feu pour autoriser uniquement les connexions à partir d’adresses IP spécifiques (plages d’adresses IP protégées entre les systèmes). Nous avons activé Privileged Access Management (PMA) dans Azure.
+>Nous appuyons le droit à l’oubli dans tous nos systèmes partenaires, y compris les journaux, l’audit et l’archivage. Il s’agit d’un processus manuel dans lequel un administrateur système pour ce partenaire supprimera, modifiera ou archivera des données. 
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -103,11 +100,24 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35836' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37582' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35836" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37582" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informations d’identité
+
+Ces informations ont été fournies par smart Technologies ULC sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour atSpoke, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9a159ce3ac976eb1916cd94b3eb1cf002f8e13c1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b3e3027c83c78373347a972124853add6214ee8d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551194"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283388"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -34,11 +34,11 @@ Informations fournies par Les Ateliers De La Rue, Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | atSpoke |
 | ID | WA200001454 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Townsend Street Labs, Inc. |
-| URL du site web partenaire | [https://www.atspoke.com](https://www.atspoke.com) |
+| URL du site web partenaire | [https://www.atspoke.com/](https://www.atspoke.com/) |
 | URL de la politique de confidentialité | [https://www.atspoke.com/privacy-policy/](https://www.atspoke.com/privacy-policy/) |
-| URL des conditions d’utilisation | [https://www.atspoke.com/terms-of-service](https://www.atspoke.com/terms-of-service) |
+| URL des conditions d’utilisation | [https://www.atspoke.com/terms-of-service/](https://www.atspoke.com/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,7 +48,7 @@ Informations fournies par Les Ateliers De La Rue, Inc. à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Les Ateliers De La rue, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par LaBoe street Labs, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -67,7 +67,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Oui, nous utilisons des services tiers pour l’efficacité opérationnelle. Google, Inc. : données stockées sur des volumes logiques, des sauvegardes de stockage dans le réseau Google Cloud natif, des journaux de service et d’API ou des journaux d’application. Les événements transactionnels consignés peuvent contenir des identificateurs d’utilisateur, des informations de contact et du contenu client. MongoDB, Inc.: Données stockées dans des collections de bases de données en nuage. - Contenu client qui inclut les demandes classées par les utilisateurs, les réponses aux demandes ajoutées par les utilisateurs et les articles de connaissances ajoutés par les utilisateurs. - Identificateurs d’utilisateur (nom, e-mail, avatar et numéro de téléphone utilisés pour créer un compte d’utilisateur Spoke). Mailgun Technologies, Inc.: Identificateur d’utilisateur et informations de contact pour envoyer des communications par courrier électronique (par exemple, nom et courrier électronique). Twilio, Inc.: Numéro de téléphone de l’utilisateur et contenu client : contenu échangé au moyen de l’utilisation des services de Twilio&#8217;, tels que le texte, les corps des messages, les médias vocaux et vidéo, les images et le son. Mixpanel, Inc. : les données personnelles transférées incluent le nom, le courrier électronique, l’adresse IP et les données personnelles incluses dans le contenu du message. Cloudinary, Inc.: Contenu client basé sur un fichier soumis par les utilisateurs finaux. Elasticsearch, Inc.: Les événements transactionnels d’application consignés peuvent contenir du texte tronqué à partir du contenu client. Stitch, Inc. : informations de contact, informations d’utilisation, identificateurs non traditionnels des utilisateurs autorisés de l’abonné et autres données personnelles que l’abonné ou ses utilisateurs autorisés soumettent à la plateforme. Mode Analytics, Inc.: Informations d’identificateur d’utilisateur pour fournir des analyses par utilisateur. DataDog : les événements transactionnels d’application consignés peuvent contenir du texte tronqué à partir du contenu client ; la rétention du journal est de 14 jours. Fullstory, Inc.: Recordings of actions taken on our web user interface; inclut le compte d’utilisateur de Spoke à des fins d’identification. |  | Nous utilisons l’API REST Bot Framework. Nous utilisons cette API pour envoyer et recevoir des messages au service de bot askSpoke. |
+>| Oui, nous utilisons des services tiers pour l’efficacité opérationnelle. Google, Inc. : données stockées sur des volumes logiques, des sauvegardes de stockage dans le réseau Google Cloud natif, des journaux de service et d’API ou des journaux d’application. Les événements transactionnels consignés peuvent contenir des identificateurs d’utilisateur, des informations de contact et du contenu client. MongoDB, Inc.: Données stockées dans des collections de bases de données en nuage. - Contenu client qui inclut les demandes classées par les utilisateurs, les réponses aux demandes ajoutées par les utilisateurs et les articles de connaissances ajoutés par les utilisateurs. - Identificateurs d’utilisateur (nom, e-mail, avatar et numéro de téléphone utilisés pour créer un compte d’utilisateur Spoke). Mailgun Technologies, Inc.: Identificateur d’utilisateur et informations de contact pour envoyer des communications par courrier électronique (par exemple, nom et courrier électronique). Twilio, Inc.: Numéro de téléphone de l’utilisateur et contenu client : contenu échangé au moyen de l’utilisation des services de Twilio&#8217;, tels que le texte, les corps des messages, les médias vocaux et vidéo, les images et le son. Mixpanel, Inc. : les données personnelles transférées incluent le nom, le courrier électronique, l’adresse IP et les données personnelles incluses dans le contenu du message. Cloudinary, Inc.: Contenu client basé sur un fichier soumis par les utilisateurs finaux. Elasticsearch, Inc.: Les événements transactionnels d’application consignés peuvent contenir du texte tronqué à partir du contenu client. Stitch, Inc. : informations de contact, informations d’utilisation, identificateurs non traditionnels des utilisateurs autorisés de l’abonné et autres données personnelles que l’abonné ou ses utilisateurs autorisés soumettent à la plateforme. Mode Analytics, Inc.: Informations d’identificateur d’utilisateur pour fournir des analyses par utilisateur. DataDog : les événements transactionnels d’application consignés peuvent contenir du texte tronqué à partir du contenu client ; la rétention des journaux est de 14 jours. Fullstory, Inc.: Recordings of actions taken on our web user interface; inclut le compte d’utilisateur de Spoke à des fins d’identification. |  | Nous utilisons l’API REST Bot Framework. Nous utilisons cette API pour envoyer et recevoir des messages au service de bot askSpoke. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 

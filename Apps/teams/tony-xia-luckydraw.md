@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LeDraw, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5ba1afff33ce27c6f520b34f73423c734c8859ec
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 24990484921465f2ad6a761efd6b3f3686344cc7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551264"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283398"
 ---
 # <a name="luckydraw"></a>LuckyDraw
 
@@ -34,9 +34,9 @@ Informations fournies par Tony Tale à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | LuckyDraw |
 | ID | WA200000091 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Tony Xia |
-| URL du site web partenaire | [https://luckydraw.teetee365.com](https://luckydraw.teetee365.com) |
+| URL du site web partenaire | [https://luckydraw.teetee365.com/](https://luckydraw.teetee365.com/) |
 | URL de la Teams d’informations sur l’application | [https://luckydraw4web4prd.z7.web.core.windows.net/](https://luckydraw4web4prd.z7.web.core.windows.net/) |
 | URL de la politique de confidentialité | [https://luckydraw.teetee365.com/privacy](https://luckydraw.teetee365.com/privacy) |
 | URL des conditions d’utilisation | [https://luckydraw.teetee365.com/terms](https://luckydraw.teetee365.com/terms) |
@@ -77,7 +77,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->L’EUII est consigné dans certaines situations. Par exemple, l’utilisateur démarre une activité de dessin. L’application utilise Azure Application Insights dont la rétention des données est de 90 jours par défaut.
+>L’EUII est consigné dans certaines situations. Par exemple, l’utilisateur démarre une activité de dessin de dessin. L’application utilise Azure Application Informations dont la rétention des données est de 90 jours par défaut.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 

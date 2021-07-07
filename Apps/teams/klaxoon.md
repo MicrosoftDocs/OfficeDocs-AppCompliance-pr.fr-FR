@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Ceinson, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 127b45d805b02136ba99f56aecfc583f30bdda25
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3b4dee1e024940df3d9c81bdb2b2345a8421c9db
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553015"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283008"
 ---
 # <a name="klaxoon"></a>Klaxoon
 
@@ -34,11 +34,11 @@ Informations fournies par Leinson à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Klaxoon |
 | ID | WA104382058 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Klaxoon |
 | URL du site web partenaire | [https://klaxoon.com](https://klaxoon.com) |
-| URL de la politique de confidentialité | [https://klaxoon.com/privacy](https://klaxoon.com/privacy) |
-| URL des conditions d’utilisation | [https://klaxoon.com/static/terms.pdf](https://klaxoon.com/static/terms.pdf) |
+| URL de la politique de confidentialité | [https://klaxoon.com/privacy-policy](https://klaxoon.com/privacy-policy) |
+| URL des conditions d’utilisation | [https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06...](https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06814d1c3354495b2.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36053' frameborder='no' style='width: 100%;'></iframe>
 

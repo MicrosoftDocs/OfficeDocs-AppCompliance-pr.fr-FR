@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le Centre de contacts, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f6e143a7666d5f3a4cfb5744b7a27edfbe60b982
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 121d59640731b43137d1b2e9d7df987a2a78fe01
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552015"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282998"
 ---
 # <a name="contact-center"></a>Centre de contacts
 
@@ -34,10 +34,10 @@ Informations fournies par Landis Technologies LLC à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Centre de contacts |
 | ID | WA200001428 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Landis Technologies LLC |
-| URL du site web partenaire | [https://landistechnologies.com/office365contactcenter/](https://landistechnologies.com/office365contactcenter/) |
-| URL de la politique de confidentialité | [https://landistechnologies.com/legal/](https://landistechnologies.com/legal/) |
+| URL du site web partenaire | [https://landistechnologies.com/](https://landistechnologies.com/) |
+| URL de la politique de confidentialité | [https://www.landistechnologies.com/legal/](https://www.landistechnologies.com/legal/) |
 | URL des conditions d’utilisation | [https://landistechnologies.com/eula/](https://landistechnologies.com/eula/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -95,13 +95,13 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Oui. Les demandes Graph API MS sont enregistrées pour vous aider à prendre en charge les incidences. Elle est supprimée par défaut Microsoft Azure Application Insights.
+>Oui. Les demandes Graph API MS sont enregistrées pour vous aider à prendre en charge les incidences. Elle est supprimée par défaut Microsoft Azure application Informations défaut.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->A- Stored: in Azure SQL B- Encrypted? Oui C- Qui pouvez accéder ? Administrateurs de la DB - Accès autorisé ? Le responsable de la sécurité approuve les comptes d’administrateur, 2FA pour les administrateurs, plage d’adresses IP protégées.
+>A- Stored: in Azure SQL B- Encrypted? Oui C- Qui pouvez accéder ? Administrateurs de la DB - Accès autorisé ? Le responsable de la sécurité approuve les comptes d’administrateur, 2FA pour les administrateurs, plage protégée IP.
 
 
 
@@ -117,7 +117,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35934' frameborder='no' style='width: 100%;'></iframe>
 

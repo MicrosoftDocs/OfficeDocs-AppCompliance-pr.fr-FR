@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour qChange Leader Experience, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 312240988228c487ea9d616ba0e62fe58d5ee8f1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 47a13e3336c443a861bf2c62d074767bf36eb816
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551947"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283118"
 ---
-# <a name="qchange-leader-experience"></a>qChange Leader Experience
+# <a name="qchange-leader-experience"></a>Expérience de leader qChange
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,11 +32,11 @@ Informations fournies par qChange Software Solution, Inc. à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | qChange Leader Experience |
+| Nom de l'application | Expérience de leader qChange |
 | ID | WA200001639 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | qChange Software Solution, Inc. |
-| URL du site web partenaire | [https://www.qchange.com/](https://www.qchange.com/) |
+| URL du site web partenaire | [https://qchange.com](https://qchange.com) |
 | URL de la Teams d’informations sur l’application | [https://www.qchange.com/leader-experience](https://www.qchange.com/leader-experience) |
 | URL de la politique de confidentialité | [https://www.qchange.com/privacy-policy](https://www.qchange.com/privacy-policy) |
 | URL des conditions d’utilisation | [https://www.qchange.com/terms-of-service](https://www.qchange.com/terms-of-service) |
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38162' frameborder='no' style='width: 100%;'></iframe>
 
@@ -121,7 +121,7 @@ Ces informations ont été fournies par qChange Software Solution, Inc. sur la f
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

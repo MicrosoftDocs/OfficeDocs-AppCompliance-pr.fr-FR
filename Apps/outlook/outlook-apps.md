@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Outlook - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/21/2021
+ms.date: 07/02/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: bf0efa79460f5c5d794f1b300af9ff6af98dd2b7
-ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
+ms.openlocfilehash: 00e8b55b4cb0767405adc0bab02a084256df0418
+ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629626"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53265770"
 ---
 # <a name="microsoft-outlook-app-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Outlook
 
@@ -24,16 +24,17 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeurs pour fourni
 | [Vidéos altru](./altru-videos.md) | Altru | **✓** |  |
 | [Calendriers de contacts approuvés](./approved-contact-calendars.md) | Contact approuvé | **✓** |  |
 | [Asana pour Outlook](./asana-for-outlook.md) | Asana | **✓** |  |
+| [CI-Signature](./ci-solution-gmbh-signature.md) | ci solution | **✓** |  |
 | [harmon.ie pour Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  |
 | [Facture et suivi du temps : facture Zoho](./zoho-corporation-private-limited-invoice-and-time-tracking.md) | Zoho Corporation Private Limited | **✓** |  |
-| [IPlanner Office 365 planner pour Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [IPlanner Office 365 Planner pour Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Jira Cloud for Outlook (Official)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
 | [MIPA - Votre propre Assistant personnel](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | Toutes les solutions bleues | **✓** |  |
 | [Office2SharePoint pour Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | S’il s’Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [OnePlaceMail pour Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | OnePlace Solutions | **✓** |  |
+| [OnePlaceMail for Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | OnePlace Solutions | **✓** |  |
 | [Matrice de priorité : transformer les e-mails en tâches](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
 | [ServiceDesk Plus pour la messagerie](./zoho-corporation-private-limited-servicedesk-plus-for-email.md) | Zoho Corporation Private Limited | **✓** |  |

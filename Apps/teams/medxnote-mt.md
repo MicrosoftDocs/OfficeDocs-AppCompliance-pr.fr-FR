@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Medxnote MT, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: eca02f06a34c5a4d815bd2087826567cf4be27d6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ee4a304ac2844bff1fcec309fe0c96edba04208f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551965"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282978"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -34,9 +34,9 @@ Informations fournies par Medxnote à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Medxnote MT |
 | ID | WA200001823 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Medxnote |
-| URL du site web partenaire | [https://medxnote.com](https://medxnote.com) |
+| URL du site web partenaire | [https://medxnote.com/](https://medxnote.com/) |
 | URL de la politique de confidentialité | [https://medxnote.com/privacy-policy/](https://medxnote.com/privacy-policy/) |
 | URL des conditions d’utilisation | [https://medxnote.com/terms-conditions/](https://medxnote.com/terms-conditions/) |
 
@@ -75,9 +75,9 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->l’adresse e-mail, le nom, l’ID de client et l’ID de canal peuvent apparaître dans les journaux Toutes les données du journal sont automatiquement supprimées au bout d’un mois au plus tard.
+>l’adresse e-mail, le nom, l’ID de locataire et l’ID de canal peuvent apparaître dans les journaux Toutes les données du journal sont automatiquement supprimées au bout d’un mois au plus tard.
 L’accès à ceux-ci est limité à quelques administrateurs d’organisation qui ont un accès 2FA appliqué.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36056' frameborder='no' style='width: 100%;'></iframe>
 

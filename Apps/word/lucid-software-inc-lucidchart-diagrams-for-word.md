@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour diagrammes de Diagrammes de Diagrammes pour Word parFact Software Inc
+title: Informations d’application pour diagrammes de diagrammes de Diagrammes de Diagrammes pour Word parFact Software Inc
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les diagrammes Dechart pour Word, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4e7e4bd31854f3861d60e8c740c39a11edc5bb5f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 460fc988ffcbd1da237838616910f6c5b6383ee5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552635"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283468"
 ---
-# <a name="lucidchart-diagrams-for-word"></a>Diagrammes graphiques pour Word
+# <a name="lucidchart-diagrams-for-word"></a>Diagrammes de graphiques pour Word
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,11 +31,11 @@ Informations fournies par Software Inc. à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Diagrammes graphiques pour Word |
+| Nom de l'application | Diagrammes de graphiques pour Word |
 | ID | WA104380118 |
 | Office 365 clients pris en charge | Word 2016 ou une ultérieure sur Mac, Word 2013 ou une Windows, Word sur le web |
 | Nom de la société partenaire | Lucid Software Inc |
-| URL du site web partenaire | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
+| URL du site web partenaire | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL de la politique de confidentialité | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
 | URL des conditions d’utilisation | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 
@@ -63,7 +63,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| Interface API JavaScript pour Office | Oui | Nous utilisons le SDK javascript Office OneDrive pour ouvrir le SDK OneDrive à l’aide de OneDrive.open(). Nous ne générons aucun jeton d’accès et nous ne faisons pas de demandes aux API OneDrive nous-mêmes ; Le SDK OneDrive s’il s’agit d’un s’il s’agit d’un fichier de recherche le fait pour nous. Nous ne pouvons voir que les noms de fichiers que l’utilisateur choisit. |  | Si l’utilisateur sélectionne un fichier à l’aide OneDrive sélecateur de fichiers, nous stockons le nom du fichier. |  |
 
@@ -73,15 +73,15 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Les données d’unchart sont stockées dans AWS. |  | Nous n’utilisons aucune API Microsoft. Nous utilisons openID pour obtenir des données utilisateur de base afin d’effectuer l’ouvrez-vous. Nous utilisons leur API de s’il s’agit de fichiers, mais cela ne nous donne pas accès aux fichiers de l’utilisateur autres que ceux qu’il nous envoie par le biais du s picker. |
+>| Les données d’unchart sont stockées dans AWS. |  | Nous n’utilisons aucune API Microsoft. Nous utilisons openID pour obtenir des données utilisateur de base afin d’effectuer l’ouvrez-vous. Nous utilisons leur API de s’il s’agit de fichiers, mais cela ne nous donne pas accès aux fichiers de l’utilisateur autres que ceux qu’il nous envoie par le biais du s sélectionneur. |
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous logons les e-mails et les adresses IP pour des raisons de sécurité et de support. Tous les accès aux journaux sont enregistrés et ne peuvent pas être changés &amp; dans un système tiers. L’accès aux journaux nécessite l’mffa.
+>Nous logons les e-mails et les adresses IP pour des raisons de sécurité et de support. Tous les accès aux journaux sont enregistrés et ne peuvent pas être changés &amp; dans un système tiers. L’accès aux journaux nécessite l' mba.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 

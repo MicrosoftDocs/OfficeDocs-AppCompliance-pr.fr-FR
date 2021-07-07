@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Saberr, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: dd1546926d21546930bebb734b18f6b09a3b63b5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ccaa5375c606778ce1869ed9fae7998f4d3dc3f7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551804"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283088"
 ---
 # <a name="saberr"></a>Saberr
 
@@ -34,9 +34,9 @@ Informations fournies par Saberr à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Saberr |
 | ID | WA200001501 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Saberr |
-| URL du site web partenaire | [https://saberr.com](https://saberr.com) |
+| URL du site web partenaire | [https://www.saberr.com](https://www.saberr.com) |
 | URL de la Teams d’informations sur l’application | [https://help.saberr.com/en/articles/3854472-use-coachbot-in...](https://help.saberr.com/en/articles/3854472-use-coachbot-in-microsoft-teams-to-get-notifications-and-quick-actions) |
 | URL de la politique de confidentialité | [https://help.saberr.com/en/articles/3853094-privacy-for-use...](https://help.saberr.com/en/articles/3853094-privacy-for-users-of-coachbot-s-microsoft-teams-or-slack-integrations) |
 | URL des conditions d’utilisation | [https://help.saberr.com/en/articles/3853596-terms-and-condi...](https://help.saberr.com/en/articles/3853596-terms-and-conditions) |
@@ -57,7 +57,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | délégué | E-mail, prénom et nom. Utilisé pour la création de compte dans notre API. | E-mail, prénom et nom. Utilisé pour la création de compte dans notre API. | 9de91aee-708c-4d9f-958b-109fdb79d993 |
+>| User.Read | délégué | E-mail, prénom et nom de famille. Utilisé pour la création de compte dans notre API. | E-mail, prénom et nom de famille. Utilisé pour la création de compte dans notre API. | 9de91aee-708c-4d9f-958b-109fdb79d993 |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
@@ -122,11 +122,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Cette information a été fournie par Saberr sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Cette information a été fournie par Saberr sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

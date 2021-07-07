@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Trivie, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 92da7dff6c2e344dc6f51c6ed386dd841139f44d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3130bccb3e639100603e9790e247a8ca0f151102
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551144"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283370"
 ---
 # <a name="trivie"></a>Trivie
 
@@ -34,12 +34,12 @@ Informations fournies par Trivie, Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Trivie |
 | ID | WA200002718 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Trivie, Inc. |
-| URL du site web partenaire | [https://www.trivie.com](https://www.trivie.com) |
+| URL du site web partenaire | [https://trivie.com](https://trivie.com) |
 | URL de la Teams d’informations sur l’application | [https://trivie.com](https://trivie.com) |
-| URL de la politique de confidentialité | [https://www.trivie.com/privacy-policy](https://www.trivie.com/privacy-policy) |
-| URL des conditions d’utilisation | [https://www.trivie.com/terms-of-service](https://www.trivie.com/terms-of-service) |
+| URL de la politique de confidentialité | [https://trivie.com/privacy-policy](https://trivie.com/privacy-policy) |
+| URL des conditions d’utilisation | [https://trivie.com/terms-of-service](https://trivie.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Prénom, nom, e-mail. Suppression sur demande du client ou résiliation de contrat +30 jours.
 
@@ -97,7 +97,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37865' frameborder='no' style='width: 100%;'></iframe>
 
@@ -115,7 +115,7 @@ Ces informations ont été fournies par Trivie, Inc. sur la façon dont cette ap
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

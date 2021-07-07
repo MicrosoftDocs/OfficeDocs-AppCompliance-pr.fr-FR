@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TeamsChamp, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d7e48aa2c60e33f22de04c103b7a8727d323b10a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 44d3d36d48e6af741cb25154e5a954b8366af9a3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551394"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283438"
 ---
 # <a name="teamschamp"></a>TeamsChamp
 
@@ -34,9 +34,9 @@ Informations fournies par TeamsChamp à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | TeamsChamp |
 | ID | WA200001487 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | TeamsChamp |
-| URL du site web partenaire | [https://www.teamschamp.com/](https://www.teamschamp.com/) |
+| URL du site web partenaire | [https://www.encamina.com](https://www.encamina.com) |
 | URL de la Teams d’informations sur l’application | [https://www.teamschamp.com](https://www.teamschamp.com) |
 | URL de la politique de confidentialité | [https://www.teamschamp.com/privacy-policy/](https://www.teamschamp.com/privacy-policy/) |
 | URL des conditions d’utilisation | [https://www.teamschamp.com/terms/](https://www.teamschamp.com/terms/) |
@@ -87,7 +87,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->suppression, rétention, audit, archivage, toutes les gestions dans le centre d’administration de bande
+>suppression, rétention, audit, archivage, toutes les gestions dans le centre d’administration stripe
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -119,11 +119,11 @@ Ces informations ont été fournies par TeamsChamp sur la façon dont cette appl
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

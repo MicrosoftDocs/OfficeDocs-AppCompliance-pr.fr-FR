@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour officeatwork | Uploader pour Office par officeatwork
+title: Informations sur l’application pour officeatwork | Uploader pour les Office par officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/08/2020
@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour officeatwork | Téléchargeur pour Office, ses stratégies de gestion des données, ses Microsoft Cloud App Security catalogue d’applications et informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 15b81d268f091a702bcda34fdc15d25161098e9d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 872034760bea88cfe6e8b75b02d19819a6686b46
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552605"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283448"
 ---
-# <a name="officeatwork--uploader-for-office"></a>officeatwork | Uploader for Office
+# <a name="officeatwork--uploader-for-office"></a>officeatwork | Téléchargeur pour Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Last updated by the developer on: December 8, 2020</p>
@@ -34,7 +34,7 @@ Informations fournies par officeatwork à Microsoft :
 | ID | WA104381430 |
 | Office 365 clients pris en charge | Word sur iPad, Word 2016 ou ultérieur sur Mac, Word 2016 ou une Windows, Word sur le web |
 | Nom de la société partenaire | officeatwork |
-| URL du site web partenaire | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
+| URL du site web partenaire | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL de la politique de confidentialité | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | URL des conditions d’utilisation | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 
@@ -104,7 +104,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35750' frameborder='no' style='width: 100%;'></iframe>
 
@@ -122,7 +122,7 @@ Ces informations ont été fournies par officeatwork sur la façon dont cette ap
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |

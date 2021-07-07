@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 'Toutes les informations de sécurité et de conformité disponibles pour MIPA : votre Assistant personnel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3c6e09d38057c2a84196982a94ea8f938b295fbe
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1f203cb6c99584fb8633fcfaafe9155a97d300fe
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552085"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283028"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA – Votre assistant personnel
 
@@ -33,9 +33,9 @@ Informations fournies par iGlobe à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | MIPA – Votre assistant personnel |
 | ID | WA200000148 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | iGlobe |
-| URL du site web partenaire | [https://mipa.iglobe.dk/](https://mipa.iglobe.dk/) |
+| URL du site web partenaire | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | URL de la Teams d’informations sur l’application | [https://mipa.iglobe.dk/Support](https://mipa.iglobe.dk/Support) |
 | URL de la politique de confidentialité | [https://instassl.iglobecrm.com/legal-information](https://instassl.iglobecrm.com/legal-information) |
 | URL des conditions d’utilisation | [https://mipa.iglobe.dk/EULA](https://mipa.iglobe.dk/EULA) |
@@ -58,7 +58,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers | e854ea05-68ab-4204-fb-db4a784fb4d16 |
 >| Contacts.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs. Pour vérifier que l’utilisateur a le consentement et a accès à l’utilisation de l’API. | e854ea05-68ab-4204-fb-db4a784fb4d16 |
+>| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs. Pour vérifier que l’utilisateur a le consentement et a accès pour utiliser l’API. | e854ea05-68ab-4204-fb-db4a784fb4d16 |
 >| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | e854ea05-68ab-4204-fb-db4a784fb4d16 |
 >| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | e854ea05-68ab-4204-fb-db4a784fb4d16 |
 >| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | e854ea05-68ab-4204-fb-db4a784fb4d16 |
@@ -72,7 +72,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| User.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | e854ea05-68ab-4204-fb-db4a784fb4d16 |
 >| email | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de lire l’adresse e-mail principale de vos utilisateurs (pour l' cesso). | e854ea05-68ab-4204-fb-db4a784fb4d16 |
 >| offline_access | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de voir et de mettre à jour les données à qui vous lui avez donné accès, même lorsque les utilisateurs n’utilisent pas l’application. Cela ne donne pas à l’application d’autorisations supplémentaires (pour l' sso). | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| openid | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet aux utilisateurs de se connecter à l’application avec leurs comptes professionnels ou scolaires et permet à l’application de voir les informations de profil utilisateur de base ( pour l' utilisateur sso). | e854ea05-68ab-4204-fb-db4a784fb4d16 |
+>| openid | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet aux utilisateurs de se connecter à l’application avec leurs comptes professionnels ou scolaires et permet à l’application d’voir les informations de profil utilisateur de base ( pour l' cesso). | e854ea05-68ab-4204-fb-db4a784fb4d16 |
 >| profil | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | e854ea05-68ab-4204-fb-db4a784fb4d16 |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
@@ -148,12 +148,12 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Paramètres de sécurité par défaut et autres stratégies courantes telles que Bloquer l’authentification héritée* Exiger l’authentification multifacteur pour les administrateurs* Exiger l’authentification multifacteur pour la gestion Azure* Exiger l’authentification multifacteur pour tous les utilisateurs* |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Non |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

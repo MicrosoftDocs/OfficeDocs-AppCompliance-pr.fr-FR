@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ScrumGenius, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ba3b54f7d99672d657b200bf36725d0c7bf03d83
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: fb8b30ddc27b512a5731ef3ec42cb76ed097c56c
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553905"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283048"
 ---
 # <a name="scrumgenius"></a>ScrumGenius
 
@@ -34,9 +34,9 @@ Informations fournies par ScrumGenius à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | ScrumGenius |
 | ID | WA104381097 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | ScrumGenius |
-| URL du site web partenaire | [https://scrumgenius.com/](https://scrumgenius.com/) |
+| URL du site web partenaire | [https://scrumgenius.com](https://scrumgenius.com) |
 | URL de la politique de confidentialité | [https://scrumgenius.com/privacy/](https://scrumgenius.com/privacy/) |
 | URL des conditions d’utilisation | [https://scrumgenius.com/tos/](https://scrumgenius.com/tos/) |
 
