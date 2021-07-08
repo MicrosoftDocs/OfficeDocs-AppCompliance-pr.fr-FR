@@ -2,16 +2,16 @@
 title: Qu’est-ce Publisher attestation d’attestation ?
 author: LGerrard
 ms.author: legerrar
-description: Plus d’informations sur le programme Publisher attestation d’attestation d’attestation d’information
-keywords: Certification d’attestation d’application 365 - Éditeur appSource
+description: Plus d’informations sur le programme Publisher attestation d’attestation
+keywords: Éditeur appSource de certification d’attestation d’application 365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 5b49b6aa06dffc0df6a87cf1e9b0824806a90cc2
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: 3479395605bd7e3ecc0ab618b8030987e67d2617
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053478"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315084"
 ---
 # <a name="what-is-publisher-attestation"></a>Qu’est-ce Publisher attestation d’attestation ?
 
@@ -20,7 +20,7 @@ Publisher L’attestation est le niveau suivant dans le Microsoft 365 conformit�
 > [!IMPORTANT]
 > Microsoft ne valide pas les informations fournies. Le développeur d’applications est le seul responsable des informations qu’il fournit dans l’attestation de publication. 
 
-L’Attestation de l’éditeur s’applique aux applications qui s’intègrent à ces plateformes Microsoft :
+Publisher L’attestation s’applique à WebApps et à toutes les applications qui s’intègrent aux plateformes Microsoft suivantes :
 - Teams
 - Word
 - Excel
@@ -29,7 +29,6 @@ L’Attestation de l’éditeur s’applique aux applications qui s’intègrent
 - SharePoint
 - Project
 - OneNote
-- Applications Web
 
 ### <a name="benefits-for-it-admins"></a>Avantages pour les administrateurs informatiques
 Les avantages de la réalisation de l’attestation Publisher pour les administrateurs informatiques incluent :
@@ -37,14 +36,14 @@ Les avantages de la réalisation de l’attestation Publisher pour les administr
 -   Temps réduit pour passer en revue la sécurité et la conformité d’une application
 
 ### <a name="benefits-for-app-developers"></a>Avantages pour les développeurs d’applications 
-Les avantages de l’exécution de l’attestation Publisher pour les développeurs incluent : 
+Les avantages de la réalisation de l’attestation Publisher pour les développeurs incluent : 
 -   Économies de temps. Afficher la page Documents Microsoft de l’application pour obtenir des informations sur les questions fréquemment posées
 -   Accélération de la chronologie de révision interne de la sécurité et de la conformité d’une organisation
 -   Transparence accrue
 - Microsoft fournit ce service sans frais supplémentaires
--   Différenciation des autres applications du Store
+-   Différenciation des autres applications du Windows Store
 -   Lien vers votre page de documents à partir de votre entrée dans AppSource, Teams Admin Center et Microsoft Admin Center
--   Qualification pour démarrer la certification Microsoft 365 certification
+-   Qualification pour démarrer la certification Microsoft 365 de sécurité
 
 
 ## <a name="publisher-attestation-scope"></a>Publisher Étendue de l’attestation
@@ -66,7 +65,7 @@ L’attestation est valide pendant un an à partir de l’heure de soumission. T
 
 ## <a name="reviewing-an-apps-publisher-attestation"></a>Examen de l’attestation d’Publisher d’une application
 
-Le développeur peut consulter des informations détaillées sur les résultats de l’attestation d’Publisher d’une application sur la page de documents Microsoft créée pour son application. Toutes les applications qui ont obtenu une attestation Publisher ou une certification Microsoft 365 sont répertoriées, et chaque liste indique clairement le niveau d’obtention du programme de conformité.
+Le développeur peut consulter des informations détaillées sur les résultats de l’attestation d’Publisher d’une application sur la page de documents Microsoft créée pour son application. Toutes les applications qui ont obtenu une attestation Publisher ou une certification Microsoft 365 sont répertoriées, et chaque liste indique clairement le niveau obtenu dans le programme de conformité.
 
 **Consultez la [liste MIPA](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas) pour obtenir un exemple d’application qui a terminé l’attestation Publisher.** 
 

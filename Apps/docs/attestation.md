@@ -6,12 +6,12 @@ description: Plus d’informations sur le programme Publisher attestation d’at
 keywords: questionnaire appSource de certification d’attestation d’application 365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 4d5284beb199cc1c5a77bd6091bbc04428b545bd
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: abedb09bc280c0b643f037324178aa854f2f117f
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053428"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315104"
 ---
 # <a name="complete-publisher-attestation"></a>Attestation d’Publisher complète
 
@@ -19,6 +19,16 @@ Publisher L’attestation est un programme volontaire qui vous permet d’effect
 
 > [!IMPORTANT]
 > Microsoft ne valide pas les informations fournies. Le développeur est le seul responsable des informations qu’il fournit dans l’auto-évaluation. 
+
+**Publisher L’attestation s’applique à WebApps et à toutes les applications qui s’intègrent aux produits Microsoft suivants :**
+- Teams
+- Word
+- Excel
+- PowerPoint 
+- Outlook
+- SharePoint
+- Project
+- OneNote
 
 
 ## <a name="program-benefits"></a>Avantages du programme
@@ -28,17 +38,7 @@ Publisher L’attestation est un programme volontaire qui vous permet d’effect
 - Différent des autres applications du Windows Store. 
 - Lien vers la page de vos documents à partir de votre entrée dans AppSource, Teams Centre d’administration Microsoft et Centre d’administration Microsoft. 
 - Qualification pour démarrer l’Microsoft 365 certification.
-
-## <a name="publisher-attestation-applies-to-apps-that-integrate-with"></a>Publisher L’attestation s’applique aux applications qui s’intègrent avec :
-- Teams
-- Word
-- Excel
-- PowerPoint 
-- Outlook
-- SharePoint
-- Project
-- OneNote
-- Applications Web
+ 
 
 ## <a name="publisher-attestation-process"></a>Publisher Processus d’attestation
 
@@ -47,7 +47,7 @@ Publisher L’attestation est un programme volontaire qui vous permet d’effect
 2. **Attendez les commentaires et** les résultats de l’examen . Pendant la vérification de la cohérence, si les analystes trouvent des problèmes bloquants tels que des données de réponse insuffisantes, vous serez contacté pour obtenir plus d’informations. Les analystes conserveront un journal d’activité d’application détaillant les résultats de l’examen et vos soumissions de suivi tout au long du processus. Une fois que vous avez déterminé que votre rapport d’attestation est terminé et que vos réponses sont acceptables, votre envoi est approuvé. Votre statut d’approbation sera valide pendant un an à partir de l’heure de la soumission.
 
 > [!NOTE]
-> Si, au cours de la période d’état de l’approbation intermédiaire, vous mettez à jour ou modifiez votre application ou que vous recevez une notification de notification d’erreur de soumission d’attestation signalée, vous devez réviser et soumettre à nouveau votre documentation.
+> Si, au cours de la période d’état d’approbation intermédiaire, vous mettez à jour ou modifiez votre application, ou si vous recevez une notification de mauvaise information de soumission d’attestation signalée, vous devez réviser et soumettre à nouveau votre documentation.
 
 3. **Afficher le portail en ligne** — Une fois votre attestation approuvée, votre application est répertoriée dans le référentiel en ligne et inclut les informations suivantes :
 
