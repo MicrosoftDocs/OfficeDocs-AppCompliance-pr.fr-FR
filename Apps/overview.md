@@ -7,12 +7,12 @@ keywords: Certification ou Attestation d’éditeur de l’application m365 Micr
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: fd06ecd028876a862fa3938253817fae3ff0fea0
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: c644414281f46696ff49f3b9eb1341f02e96f0ba
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053438"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315114"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Programme de conformité de l’application Microsoft 365
 
@@ -36,7 +36,7 @@ La vérification de l’éditeur s’applique aux applications répondant aux co
 
 L’[Attestation de l’éditeur](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-attestation-guide) est l’emplacement dans lequel les développeurs partagent des données générales, de traitement des données, de sécurité et de conformité relatives à leur service d’application. Ceci réduit le besoin pour les administrateurs informatiques de travailler directement avec les éditeurs de l’application. Toutes les informations nécessaires à la prise de décision informée peuvent être trouvées pour toutes les applications ayant terminé l’attestation de l’éditeur au même endroit et dans un format cohérent. L’objectif est de faciliter et d’accélérer le processus d’adoption de l’application tout en assurant les clients que les applications utilisées chez leurs locataires répondent aux normes de l’organisation.
 
-L’Attestation de l’éditeur s’applique aux applications qui s’intègrent à ces plateformes Microsoft :
+Publisher Attestation s’applique à WebApps et à toutes les applications qui s’intègrent aux produits Microsoft suivants :
 -   Teams
 -   Word
 -   Excel
@@ -45,7 +45,6 @@ L’Attestation de l’éditeur s’applique aux applications qui s’intègrent
 - SharePoint
 - Project
 - OneNote
-- Applications web
 
 > [!IMPORTANT]
 > Microsoft ne valide pas les informations fournies. Le développeur atteste uniquement de l’authenticité, de l’exactitude et de l’intégrité de la documentation de l’attestation et des données de performances de l’application correspondantes. 
