@@ -1,26 +1,27 @@
 ---
-title: Informations sur l’application pour officeatwork | S’il s’Outlook contenu par officeatwork
+title: Informations sur l’application pour le s choisissez d’image par officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
-description: Toutes les informations de sécurité et de conformité disponibles pour officeatwork | S’il s’Outlook contenu, ses stratégies de gestion des données, ses Microsoft Cloud App Security catalogue d’applications et les informations de sécurité/conformité dans le Registre CSA STAR.
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour le s chooser d’image, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e4218aa4ef1cf61734b1234859e1203493b6e3b8
-ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
+ms.openlocfilehash: f5de723dfa038a621d06771b0bf4b329821eca97
+ms.sourcegitcommit: 5cd33d38cc7376b28458ee47ebc2c2710ce7f113
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2021
-ms.locfileid: "53366138"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339819"
 ---
-# <a name="officeatwork--content-chooser-for-outlook"></a>officeatwork | S’il s’Outlook
+# <a name="image-chooser"></a>S chooser d’image
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 23, 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104380690" target="_blank">Afficher dans AppSource</a>
+* <a href="https://appsource.microsoft.com/product/web-apps/officeatwork-ag.image-chooser" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
@@ -30,12 +31,11 @@ Informations fournies par officeatwork à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | officeatwork - S’il s’il s’Outlook |
-| ID | WA104380690 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
+| Nom de l'application | S chooser d’image |
+| ID | officeatwork-ag.image-chooser |
 | Nom de la société partenaire | officeatwork |
 | URL du site web partenaire | [https://www.officeatwork.com](https://www.officeatwork.com) |
-| URL de la politique de confidentialité | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
+| URL de la politique de confidentialité | [https://www.officeatwork.com/privacy-policy.html](https://www.officeatwork.com/privacy-policy.html) |
 | URL des conditions d’utilisation | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -54,16 +54,16 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée. | Favoris : pour pouvoir lire et écrire des données aux utilisateurs OneDrive. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée. | OneDrive : pour pouvoir lire et écrire des données aux utilisateurs OneDrive. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée. | Teams : pour pouvoir lire et écrire des données dans un groupe. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| GroupMember.Read.All | délégué | Aucune donnée n’est stockée. | SharePoint En ligne - Prise en charge des groupes de sécurité : pour permettre à l’application de ré lister des groupes, lire les propriétés de groupe de base et lire les appartenances de tous les groupes à partir des utilisateurs inscrits | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Sites.Read.All | délégué | Aucune donnée n’est stockée. | SharePoint En ligne : pour activer la lecture de données à SharePoint Online. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| User.Read | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre à l’application Officeatwork de lire les propriétés de base de l’utilisateur. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| User.Read.All | délégué | Aucune donnée n’est stockée. | Teams : pour savoir à quels groupes appartient un utilisateur. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| offline_access | délégué | Aucune donnée n’est stockée. | Sing-In : pour activer la sign-in automatique via des jetons d’actualisation, comme sans, les utilisateurs doivent se connecter manuellement chaque fois qu’ils lancent l’application officeatwork. Cette étendue est uniquement requise pour les applications hôtes non-SSO. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| openid | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre aux utilisateurs de se connectent à l’application officeatwork avec leur compte d’organisation et/ou Microsoft. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| profil | délégué | Aucune donnée n’est stockée. | Sing-In : pour afficher l’utilisateur inscrit dans l’application officeatwork. Cela permet d’assurer/de confirmer à l’utilisateur quel compte a été utilisé pour se connecter à l’application officeatwork. | edb24f8f-38af-4b3e-9475-0da243678d5a |
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée. | Favoris : pour pouvoir lire et écrire des données aux utilisateurs OneDrive. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée. | OneDrive : pour pouvoir lire et écrire des données aux utilisateurs OneDrive. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée. | Teams : pour pouvoir lire et écrire des données dans un groupe. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| GroupMember.Read.All | délégué | Aucune donnée n’est stockée. | SharePoint En ligne - Prise en charge des groupes de sécurité : pour permettre à l’application de ré lister des groupes, lire les propriétés de groupe de base et lire les appartenances de tous les groupes à partir des utilisateurs inscrits | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Sites.Read.All | délégué | Aucune donnée n’est stockée. | SharePoint En ligne : pour activer la lecture de données à partir SharePoint Online. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| User.Read | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre à l’application Officeatwork de lire les propriétés de base de l’utilisateur. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| User.Read.All | délégué | Aucune donnée n’est stockée. | Teams : pour savoir à quels groupes appartient un utilisateur. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| offline_access | délégué | Aucune donnée n’est stockée. | Sing-In : pour activer la sign-in automatique via des jetons d’actualisation, comme sans, les utilisateurs doivent se connecter manuellement chaque fois qu’ils lancent l’application officeatwork. Cette étendue est uniquement requise pour les applications hôtes non-SSO. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| openid | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre aux utilisateurs de se connectent à l’application officeatwork avec leur compte d’organisation et/ou Microsoft. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| profil | délégué | Aucune donnée n’est stockée. | Sing-In : pour afficher l’utilisateur inscrit dans l’application officeatwork. Cela permet d’assurer/de confirmer à l’utilisateur quel compte a été utilisé pour se connecter à l’application officeatwork. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
@@ -83,7 +83,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui, les événements incluent les oid et tenantId et sont envoyés à Azure AppInsights. Les événements sont automatiquement supprimés après 90 jours. Si un client souhaite que ces données soit supprimées, il peut utiliser le lien fourni dans la déclaration de confidentialité pour lancer la suppression de ces données.
 
@@ -107,9 +107,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35751' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/40833' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35751" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/40833" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

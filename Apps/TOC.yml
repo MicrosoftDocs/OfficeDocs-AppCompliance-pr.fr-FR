@@ -62,7 +62,7 @@
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: Wunder365 pour Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Applications microsoft Outlook
+    - name: Applications Microsoft Outlook
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign Add-In for Outlook
@@ -93,7 +93,7 @@
           href: outlook/iglobe-office2sharepoint-for-outlook.md
         - name: officeatwork | S’il s’Outlook
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
-        - name: OnePlaceMail for Outlook
+        - name: OnePlaceMail pour Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
         - name: 'Matrice de priorité : transformer les e-mails en tâches'
           href: outlook/appfluence-inc-priority-matrix-turn-emails-into-tasks.md
@@ -126,6 +126,8 @@
           href: powerpoint/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | S’il s’il s’Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork | S’il s’Office
+          href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
@@ -223,12 +225,14 @@
           href: teams/biz-effective-centrical.md
         - name: ChurnZero
           href: teams/churnzero.md
-        - name: Lite ci-out-of-Office
+        - name: CI-Out-of-Office Lite
           href: teams/ci-solution-gmbh-out-of-office-lite.md
         - name: Réunions Cisco Webex
           href: teams/cisco-webex-meetings.md
         - name: Clever Ads
           href: teams/clever-ads.md
+        - name: ClipTraining
+          href: teams/cliptraining.md
         - name: Cloverpop
           href: teams/cloverpop.md
         - name: COCO
@@ -473,7 +477,7 @@
           href: teams/zoho-corporation-private-limited-site24x7.md
         - name: Skillate
           href: teams/skillate-laboratories-pvt-ltd.md
-        - name: Skilled Qu’est-ce que c
+        - name: SkilledHuman
           href: teams/saltflat-limited-skilledhuman.md
         - name: Skills par Pipe9
           href: teams/pipe9com-skills-by-pipe9.md
@@ -527,7 +531,7 @@
           href: teams/talview-inc-interviews.md
         - name: TaskList
           href: teams/limestat-inc-tasklist.md
-        - name: Bot de vérification de l’état du teame
+        - name: Bot de vérification de l’intégrité de TeaMe
           href: teams/missing-teame-health-check-bot.md
         - name: TeamGether
           href: teams/effency-teamgether.md
@@ -635,6 +639,8 @@
           href: saas/officeatwork-designer.md
         - name: IGlobe CRM Office 365 for Microsoft 365
           href: saas/iglobe-crm-office-365-for-microsoft.md
+        - name: S chooser d’image
+          href: saas/officeatwork-image-chooser.md
         - name: iPlanner Pro Office 365
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
