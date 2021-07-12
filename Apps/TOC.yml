@@ -44,6 +44,8 @@
         - name: officeatwork | S’il s’il s’Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
+          href: excel/officeatwork-officeatworkimage-chooser-for-office.md
+        - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: QuickCells Graphs
           href: excel/cc-1c-quickcells-graphs.md
@@ -60,9 +62,11 @@
       items:
         - name: officeatwork | S’il s’il s’Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork | S’il s’Office
+          href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 pour Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Applications Microsoft Outlook
+    - name: Applications microsoft Outlook
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign Add-In for Outlook
@@ -93,7 +97,7 @@
           href: outlook/iglobe-office2sharepoint-for-outlook.md
         - name: officeatwork | S’il s’Outlook
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
-        - name: OnePlaceMail pour Outlook
+        - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
         - name: 'Matrice de priorité : transformer les e-mails en tâches'
           href: outlook/appfluence-inc-priority-matrix-turn-emails-into-tasks.md
@@ -126,6 +130,8 @@
           href: powerpoint/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | S’il s’il s’Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork | S’il s’Office
+          href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | S’il s’Office
@@ -617,6 +623,8 @@
         - name: officeatwork | Concepteur pour Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
         - name: officeatwork | S’il s’Office
+          href: word/officeatwork-officeatworkimage-chooser-for-office.md
+        - name: officeatwork | S’il s’Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Téléchargeur pour Office
           href: word/officeatwork-officeatworkuploader-for-office.md
@@ -653,6 +661,8 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
+        - name: S chooser des diapositives
+          href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser
           href: saas/officeatwork-template-chooser.md
         - name: Template Chooser Browser
