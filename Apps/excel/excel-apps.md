@@ -2,19 +2,19 @@
 title: 'Microsoft Excel Sécurité et conformité des applications : toutes les applications'
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 07/14/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les Microsoft Excel applications.
 localization_priority: Normal
-ms.openlocfilehash: 4e420551bcf1b60ddd0a36719fc12d60bb489cbf
-ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
+ms.openlocfilehash: a8cda8484e930dfce615338d027c97eaec60396a
+ms.sourcegitcommit: 0098942ce316ab984e09fd9d2063cbc516c8bfb5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341160"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53422685"
 ---
-# <a name="microsoft-excel-app-security-and-compliance"></a>Microsoft Excel Sécurité et conformité des applications
+# <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel Sécurité et conformité des applications
 
 Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant Microsoft Excel applications et les applications qu’elles utilisent. Les informations sont complétées des informations du catalogue d’applications [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) et des informations fournies par les développeurs lors de la soumission de leurs applications. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 
@@ -34,5 +34,4 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [QuickCells Graphs](./cc-1c-quickcells-graphs.md) | CC-1C | **✓** |  |
 | [Solveurs QuickCells](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |
 | [Sheetgo](./sheetgo-europe-sl.md) | SHEETGO EUROPE SL | **✓** |  |
-| [Wrike for Office Documents](./wrike-inc-for-office-documents.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Wunder365 pour Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |

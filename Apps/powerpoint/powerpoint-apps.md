@@ -2,21 +2,21 @@
 title: Sécurité et conformité des applications Microsoft PowerPoint - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 07/14/2021
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications PowerPoint Microsoft.
+description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft PowerPoint.
 localization_priority: Normal
-ms.openlocfilehash: ceb3e1a04b3e9dad963f86a09f41e8405357c945
-ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
+ms.openlocfilehash: 38dd48a4754c1ef71ecbe544b8d4e0f049398d9e
+ms.sourcegitcommit: 0098942ce316ab984e09fd9d2063cbc516c8bfb5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341180"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53422705"
 ---
-# <a name="microsoft-powerpoint-app-security-and-compliance"></a>Sécurité et conformité des applications Microsoft PowerPoint
+# <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft PowerPoint
 
-Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant les applications et les PowerPoint Microsoft qu’elles utilisent. Les informations sont complétées des informations du catalogue d’applications [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) et des informations fournies par les développeurs lors de la soumission de leurs applications. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
+Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant les applications microsoft PowerPoint et les applications qu’elles utilisent. Les informations sont complétées des informations du catalogue d’applications [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) et des informations fournies par les développeurs lors de la soumission de leurs applications. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -30,4 +30,3 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [officeatwork | S’il s’Office](./officeatwork-officeatworkslide-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | S’il s’Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SlideHub](./nomorehours-slidehub.md) | nomorehours | **✓** |  |
-| [Wrike for Office Documents](./wrike-inc-for-office-documents.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
