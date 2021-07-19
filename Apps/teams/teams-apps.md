@@ -1,22 +1,22 @@
 ---
-title: Sécurité et conformité de l’application Microsoft Teams – Toutes les applications
+title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 07/15/2021
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations sur la conformité et la sécurité disponibles pour toutes les applications Microsoft Teams.
+description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 3aff0e5fd1a550d3b0a786711bb1e82ff895a5cd
-ms.sourcegitcommit: 5cd33d38cc7376b28458ee47ebc2c2710ce7f113
+ms.openlocfilehash: f54a599b7f74c565b64528e1d9b0d176e9748410
+ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339785"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53456612"
 ---
-# <a name="microsoft-teams-app-security-and-compliance"></a>Sécurité et conformité de l’application Microsoft Teams
+# <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
-Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fournir les informations nécessaires aux organisations pour accélérer et informer des décisions relatives aux compléments et applications Microsoft Teams qu’elles utilisent. Les informations sont complétées des informations du catalogue d’applications [Microsoft Cloud App Security](https://www.microsoft.com/fr-FR/enterprise-mobility-security/cloud-app-security) et des informations fournies par les développeurs lors de la soumission de leurs applications. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
+Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions relatives aux applications et compléments Microsoft Teams qu’elles utilisent. Les informations sont complétées des informations du catalogue d’applications [Microsoft Cloud App Security](https://www.microsoft.com/fr-FR/enterprise-mobility-security/cloud-app-security) et des informations fournies par les développeurs lors de la soumission de leurs applications. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -28,6 +28,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Tableau de tâches Agile](./agile-is-task-board.md) | Agile-IS | **✓** |  |
 | [Bureau de service Alvao](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  |
 | [ApproveSimple](./capriza-inc-approvesimple.md) | Capriza, Inc | **✓** |  |
+| [Appspace](./appspace-inc.md) | Appspace, Inc. | **✓** |  |
 | [Asana](./asana.md) | Asana | **✓** |  |
 | [askR.ai](./askrai.md) | askR.ai | **✓** |  |
 | [Assembly](./carrothr-inc-assembly.md) | CarrotHR Inc. | **✓** |  |
@@ -59,6 +60,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [ClipTraining](./cliptraining.md) | ClipTraining | **✓** |  |
 | [Cloverpop](./cloverpop.md) | Cloverpop | **✓** |  |
 | [COCO](./hexaware-technologies-ltd-coco.md) | Hexaware Technologies Ltd. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [CodeStream](./codestream.md) | CodeStream | **✓** |  |
 | [Complish](./cauzey-pty-ltd-complish.md) | Cauzey Pty Ltd | **✓** |  |
 | [Conférences E/S](./conferences-io.md) | Conférences E/S | **✓** |  |
 | [Connecter+](./reward-gateway-connectplus.md) | Passerelle de récompense | **✓** |  |
@@ -85,6 +87,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Freehand](./invisionapp-inc-freehand.md) | InVisionApp Inc. | **✓** |  |
 | [Freshdesk](./freshworks-inc-freshdesk.md) | Freshworks INC | **✓** |  |
 | [Fusion à distance](./jujo-inc-fusion-remote.md) | Jujo Inc. | **✓** |  |
+| [GitHub](./microsoft-corporation-github.md) | Microsoft Corporation | **✓** |  |
 | [Go1](./go1.md) | Go1 | **✓** |  |
 | [Goodera](./goodera.md) | Goodera | **✓** |  |
 | [Informations d’analyse Google](./freevolut-ltd-google-analytics-insights.md) | Freevolut LTD | **✓** |  |
@@ -231,7 +234,6 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Woobot](./woobot.md) | Woobot | **✓** |  |
 | [Workboard](./workboard.md) | Workboard | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [WorkDay](./workday.md) | Workday | **✓** |  |
-| [Wrike](./wrike-inc.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Wunder365](./jiji-technologies-pvt-ltd-wunder365.md) | JiJi Technologies Pvt Ltd | **✓** |  |
 | [Yeeflow](./akmii-yeeflow.md) | Akmii | **✓** |  |
 | [Zoho CRM](./zoho-corporation-pvt-ltd-crm.md) | Zoho Corporation Pvt Ltd | **✓** |  |
