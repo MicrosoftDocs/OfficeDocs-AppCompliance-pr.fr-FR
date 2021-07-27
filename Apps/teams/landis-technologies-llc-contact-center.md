@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le Centre de contacts, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 121d59640731b43137d1b2e9d7df987a2a78fe01
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 57fd0d98d6c7139c6356b4c23a6ac8a21c48e6b6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282998"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521487"
 ---
 # <a name="contact-center"></a>Centre de contacts
 
@@ -55,25 +55,25 @@ Ces informations ont été fournies par Landis Technologies LLC sur la façon do
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calls.AccessMedia.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.Initiate.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.InitiateGroupCall.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.JoinGroupCall.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.JoinGroupCallAsGuest.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| OnlineMeetings.Read.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| OnlineMeetings.ReadWrite.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| User.Read | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| User.Read.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.AccessMedia.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.Initiate.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.InitiateGroupCall.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.JoinGroupCall.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.JoinGroupCallAsGuest.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| OnlineMeetings.Read.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| OnlineMeetings.ReadWrite.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| User.Read | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| User.Read | délégué | Profil utilisateur | Permet à l’utilisateur de se connecter | c22c3a9e-5d2c-4177-8ea1-1c53c5af36b8 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calls.AccessMedia.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.Initiate.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.InitiateGroupCall.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.JoinGroupCall.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.JoinGroupCallAsGuest.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| OnlineMeetings.Read.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| OnlineMeetings.ReadWrite.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| User.Read | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| User.Read.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.AccessMedia.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.Initiate.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.InitiateGroupCall.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.JoinGroupCall.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.JoinGroupCallAsGuest.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| OnlineMeetings.Read.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| OnlineMeetings.ReadWrite.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| User.Read | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise le suivi des sentiments &amp; d’enregistrement des appels | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| User.Read | délégué | Profil utilisateur | Permet à l’utilisateur de se connecter | [c22c3a9e-5d2c-4177-8ea1-1c53c5af36b8](https://docs.microsoft.com/microsoft-365-app-certification/azure/c22c3a9e-5d2c-4177-8ea1-1c53c5af36b8) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -87,13 +87,13 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Fournir des rapports d’appels et des analyses utilisateur. | Prénom, nom et UPN ou numéro de téléphone. Ces informations sont utilisées dans les rapports de détails des appels et l’analyse de l’activité de l’utilisateur. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui. Les demandes Graph API MS sont enregistrées pour vous aider à prendre en charge les incidences. Elle est supprimée par défaut Microsoft Azure application Informations défaut.
 
@@ -101,7 +101,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->A- Stored: in Azure SQL B- Encrypted? Oui C- Qui pouvez accéder ? Administrateurs de la DB - Accès autorisé ? Le responsable de la sécurité approuve les comptes d’administrateur, 2FA pour les administrateurs, plage protégée IP.
+>A- Stored: in Azure SQL B- Encrypted? Oui C- Qui pouvez-vous accéder ? Administrateurs de la DB - Accès autorisé ? Le responsable de la sécurité approuve les comptes d’administrateur, 2FA pour les administrateurs, plage d’adresses IP protégées.
 
 
 
@@ -117,7 +117,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35934' frameborder='no' style='width: 100%;'></iframe>
 

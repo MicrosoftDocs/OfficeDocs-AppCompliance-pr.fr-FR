@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Clever Ads, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d0ef9f59476133e673a0bf9edf99e63cfc424559
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7880682782fe62fad68426bb59b74e3997bb7f64
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281947"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521877"
 ---
 # <a name="clever-ads"></a>Clever Ads
 
@@ -55,8 +55,8 @@ Ces informations ont été fournies par Clever Ads sur la façon dont cette appl
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | délégué | User.Read : nous stockons UPN, AzureObjectId pour identifier l’utilisateur. | User.Read permet à l’utilisateur de se connecter au tableau de bord de l’application. Nous utilisons UPN, AzureObjectId pour la signature de l’utilisateur. | ac2b56c0-f2a5-4e90-b618-882f8d3596f0 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | délégué | User.Read : nous stockons UPN, AzureObjectId pour identifier l’utilisateur. | User.Read permet à l’utilisateur de se connecter au tableau de bord de l’application. Nous utilisons UPN, AzureObjectId pour la signature de l’utilisateur. | [ac2b56c0-f2a5-4e90-b618-882f8d3596f0](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac2b56c0-f2a5-4e90-b618-882f8d3596f0) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -70,13 +70,13 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| L’application accède à la liste pour identifier si un utilisateur appartient ou non à l’équipe et envoie des messages programmés par l’utilisateur à ses équipes. | Nous stockons l’ID utilisateur, azureObjectId, UPN, tenantId, conversationId et serviceUrl afin de pouvoir envoyer des messages à l’utilisateur ou à l’équipe et l’identifier lors de l’accès à l’onglet du tableau de bord. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nous ne stockons pas d’informations organisationnelles dans nos journaux ou télémétrie. Nous allons simplement enregistrer les actions de l’utilisateur comme envoyer un message au bot ou cliquer sur un bouton, même dans ces journaux, l’ID de l’utilisateur est notre ID d’utilisateur interne, non lié à l’ID de Microsoft Teams.
 
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35867' frameborder='no' style='width: 100%;'></iframe>
 

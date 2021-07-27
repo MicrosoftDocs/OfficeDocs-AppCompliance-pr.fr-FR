@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 'Toutes les informations de sécurité et de conformité disponibles pour MIPA : votre Assistant personnel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1f203cb6c99584fb8633fcfaafe9155a97d300fe
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 1cdc2ef1a79ac303722820e241e07b7e98d92cb7
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283028"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521587"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA – Votre assistant personnel
 
@@ -55,32 +55,32 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| Contacts.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs. Pour vérifier que l’utilisateur a le consentement et a accès pour utiliser l’API. | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. Intégration à iGlobe CRM Office 365 | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour le courrier marqué | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| MailboxSettings.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour le courrier marqué, lire et mettre à jour Outlook To Do entiers | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| User.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| User.ReadBasic.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| User.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| email | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de lire l’adresse e-mail principale de vos utilisateurs (pour l' cesso). | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| offline_access | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de voir et de mettre à jour les données à qui vous lui avez donné accès, même lorsque les utilisateurs n’utilisent pas l’application. Cela ne donne pas à l’application d’autorisations supplémentaires (pour l' sso). | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| openid | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet aux utilisateurs de se connecter à l’application avec leurs comptes professionnels ou scolaires et permet à l’application d’voir les informations de profil utilisateur de base ( pour l' cesso). | e854ea05-68ab-4204-fb-db4a784fb4d16 |
->| profil | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | e854ea05-68ab-4204-fb-db4a784fb4d16 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Contacts.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs. Pour vérifier que l’utilisateur a le consentement et a accès pour utiliser l’API. | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. Intégration à iGlobe CRM Office 365 | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour le courrier marqué | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| MailboxSettings.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour le courrier marqué, lire et mettre à jour Outlook To Do entiers | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| User.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook faire des entrées, lire, mettre à jour, créer des tâches de panneur | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| User.ReadBasic.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| User.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| email | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de lire l’adresse e-mail principale de vos utilisateurs (pour l' cesso). | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| offline_access | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de voir et de mettre à jour les données à qui vous lui avez donné accès, même lorsque les utilisateurs n’utilisent pas l’application. Cela ne donne pas à l’application d’autorisations supplémentaires (pour l' sso). | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| openid | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet aux utilisateurs de se connecter à l’application avec leurs comptes professionnels ou scolaires et permet à l’application de voir les informations de profil utilisateur de base ( pour l' utilisateur sso). | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| profil | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | [e854ea05-68ab-4204-fb-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Exchange - Calendars.ReadWrite.All | Non |  |  |  |  |
 >| Exchange - EWS. AccessAsUser.All | Non |  |  |  |  |
 >| Exchange - Mail.Read | Non |  |  |  |  |
@@ -130,7 +130,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no' style='width: 100%;'></iframe>
 
@@ -148,7 +148,7 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |

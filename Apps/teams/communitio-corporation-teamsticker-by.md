@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TeamSticker par Communitio, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 944fa2eaf8df347cf3ce1b96bad9cd8521dceed3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 871c410b520fc7b8697942a4921104329a239338
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281937"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521857"
 ---
 # <a name="teamsticker-by-communitio"></a>TeamSticker par Communitio
 
@@ -56,21 +56,21 @@ Ces informations ont été fournies par Communitio Corporation sur la façon don
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Chat.ReadWrite | application |  Étant donné que l’application publie des billets pour la conversation. | L’application ne stocke pas de données. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| Group.ReadWrite.All | les deux | L’application collecte l’ID de groupe et le nom du groupe. | L’application stocke l’ID de groupe et la paire nom. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| User.Read | délégué | L’application collecte l’image de profil de l’utilisateur. | L’application stocke l’image de profil de l’utilisateur pour afficher l’icône utilisateur. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| User.Read.All | les deux | L’application collecte l’objectId/e-mail/nom de l’utilisateur pour rechercher l’utilisateur à envoyer la carte. | L’application ne stocke aucune donnée dans ce cas. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| offline_access | délégué | L’application collecte le jeton d’api de l’utilisateur pour utiliser User.Read / User.Read.All en arrière-plan. | L’application stocke le jeton d’api de l’utilisateur pour utiliser User.Read / User.Read.All en arrière-plan. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| openid | délégué | Aucune donnée collectée. | L’application utilise cette autorisation pour se connecter par openid. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| profil | délégué | L’application collecte l’objectId/e-mail/nom de l’utilisateur. | L’application stocke l’objectId/e-mail/nom de l’utilisateur. | bceca1f0-723f-44d0-b732-b3506c0a641d |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Chat.ReadWrite | application |  Étant donné que l’application publie des billets pour la conversation. | L’application ne stocke pas de données. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| Group.ReadWrite.All | les deux | L’application collecte l’ID de groupe et le nom du groupe. | L’application stocke l’ID de groupe et la paire nom. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| User.Read | délégué | L’application collecte l’image de profil de l’utilisateur. | L’application stocke l’image de profil de l’utilisateur pour afficher l’icône utilisateur. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| User.Read.All | les deux | L’application collecte l’objectId/e-mail/nom de l’utilisateur pour rechercher l’utilisateur à envoyer la carte. | L’application ne stocke aucune donnée dans ce cas. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| offline_access | délégué | L’application collecte le jeton d’api de l’utilisateur pour utiliser User.Read / User.Read.All en arrière-plan. | L’application stocke le jeton d’api de l’utilisateur pour utiliser User.Read / User.Read.All en arrière-plan. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| openid | délégué | Aucune donnée collectée. | L’application utilise cette autorisation pour se connecter par openid. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| profil | délégué | L’application collecte l’objectId/e-mail/nom de l’utilisateur. | L’application stocke l’objectId/e-mail/nom de l’utilisateur. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >|  Bot Framework REST API | Non |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -84,7 +84,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Parce que vous avez l’autorisation User.Read.All. | Non |  |
 
 
@@ -98,7 +98,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->S/O
+>N/A
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -112,7 +112,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36366' frameborder='no' style='width: 100%;'></iframe>
 
@@ -130,7 +130,7 @@ Ces informations ont été fournies par Communitio Corporation sur la façon don
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

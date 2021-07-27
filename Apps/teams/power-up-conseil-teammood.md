@@ -2,24 +2,24 @@
 title: Informations sur l’application pour TeamMood par Power Up Conseil
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/05/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TeamMood, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 83135e227edd83a4bf807f7a1c7d27cd094d3b4c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e64ee816ff86bfacca7e479d8d36a95272bd2e44
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551834"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521280"
 ---
 # <a name="teammood"></a>TeamMood
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 5, 2021</p>
+<p>Last updated by the developer on: June 30, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/670cd639-d430-4972-87b5-4c2eb18af991" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002451" target="_blank">Afficher dans AppSource</a>
@@ -34,7 +34,7 @@ Informations fournies par Power Up Conseil à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | TeamMood |
 | ID | WA200002451 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Power Up Conseil |
 | URL du site web partenaire | [https://www.teammood.com](https://www.teammood.com) |
 | URL de la Teams d’informations sur l’application | [https://help.teammood.com/en/articles/4294405-microsoft-tea...](https://help.teammood.com/en/articles/4294405-microsoft-teams-integration-for-teammood) |
@@ -63,7 +63,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS | adresse de messagerie de l’entreprise, prénom, nom | Adresses de messagerie pour gérer le compte sur TeamMood. Prénoms et noms pour personnaliser les communications avec les utilisateurs. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -77,7 +77,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->adresses e-mail. Les journaux sont conservés pendant 365 jours.
+>adresses e-mail. Les journaux sont conservés 365 jours.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -115,7 +115,7 @@ Ces informations ont été fournies par Power Up Conseil sur la façon dont cett
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Non |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

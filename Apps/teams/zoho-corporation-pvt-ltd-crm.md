@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Zoho CRM, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5448307eeccd20e77b25282f299b52b094077b82
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 5408c7dd2ce3a7cd27c98905156bdbb45c6edede
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550504"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528010"
 ---
 # <a name="zoho-crm"></a>Zoho CRM
 
@@ -34,7 +34,7 @@ Informations fournies par Zoho Corporation Pvt Ltd à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Zoho CRM |
 | ID | WA104382094 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Zoho Corporation Pvt Ltd |
 | URL du site web partenaire | [https://www.zoho.com/](https://www.zoho.com/) |
 | URL de la Teams d’informations sur l’application | [https://www.zoho.com/crm/help/microsoft-teams-integration.h...](https://www.zoho.com/crm/help/microsoft-teams-integration.html) |
@@ -56,16 +56,16 @@ Ces informations ont été fournies par Zoho Corporation Pvt Ltd sur la façon d
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | délégué | L’ID de dossier de calendrier est stocké pour synchroniser les contacts entre Zoho CRM et &amp; Microsoft, inversement. Les informations de calendrier telles event_name, event_location, participant_details sont stockées. | Permet à l’utilisateur de synchroniser des événements Office365 avec Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.ReadWrite | délégué | L’ID du dossier contacts est stocké pour synchroniser les contacts de Zoho CRM avec &amp; Microsoft, et inversement. Les informations de contact telles first_name, last_name, l’adresse e-mail sont stockées. | Permet à l’utilisateur de synchroniser les contacts Office365 avec Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read | délégué |  | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.All | délégué |  | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.Selected | délégué | UserPrincipalName est stocké pour l’identification de l’utilisateur | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | délégué | Propriétés utilisateur telles que first_name, last_name, adresse e-mail. | Lire les profils de base de tous les utilisateurs | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| email | délégué | UserPrincipaName est stocké pour le retrait de l’utilisateur | Afficher l’adresse e-mail de l’utilisateur | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| offline_access | délégué |  | Gérer l’accès aux données auxquelles vous avez accordé l’accès | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| profil | délégué |  | Afficher le profil de base de l’utilisateur | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué | L’ID de dossier de calendrier est stocké pour synchroniser les contacts de Zoho CRM avec &amp; Microsoft, et inversement. Les informations de calendrier telles event_name, event_location, participant_details sont stockées. | Permet à l’utilisateur de synchroniser des événements Office365 avec Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.ReadWrite | délégué | L’ID du dossier contacts est stocké pour synchroniser les contacts de Zoho CRM avec &amp; Microsoft, et inversement. Les informations de contact telles first_name, last_name, l’adresse e-mail sont stockées. | Permet à l’utilisateur de synchroniser les contacts Office365 avec Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read | délégué |  | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.All | délégué |  | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.Selected | délégué | UserPrincipalName est stocké pour l’identification de l’utilisateur | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | délégué | Propriétés utilisateur telles que first_name, last_name, adresse e-mail. | Lire les profils de base de tous les utilisateurs | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| email | délégué | UserPrincipaName est stocké pour le retrait de l’utilisateur | Afficher l’adresse e-mail de l’utilisateur | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| offline_access | délégué |  | Gérer l’accès aux données auxquelles vous avez accordé l’accès | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| profil | délégué |  | Afficher le profil de base de l’utilisateur | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -83,7 +83,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nous ne collectons pas d’EUII/PII dans la télémétrie et les journaux. Nous avons mis en place des scripts pour rechercher et alerter la résolution de ces données visibles
 

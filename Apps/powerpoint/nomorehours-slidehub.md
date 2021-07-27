@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour SlideHub par nomorehours
+title: Informations d’application pour SlideHub par nomorehours
 ms.author: elmalova
 author: elenamalova
 ms.date: 04/20/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SlideHub, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 39e3c631cdcd79de9eab484749f45354b87ca0cf
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7eca7f35cb46db8450f6805c9e8a4c2503934dd6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282657"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527810"
 ---
 # <a name="slidehub"></a>SlideHub
 
@@ -54,8 +54,8 @@ Ces informations ont été fournies par nomorehours sur la façon dont cette app
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | application | e-mail et nom. Le courrier électronique est utilisé comme nom d’utilisateur dans l’application. La collecte du courrier électronique peut vous aider à vous inscrire et à vous connecter plus rapidement à l’application. Le nom est utilisé dans le cas d’un événement d’inscription. | Le courrier électronique est utilisé pour activer la connexion via Office 365 et, dans certains cas, inscrire les utilisateurs qui font partie de l’organisation qui ont déjà accepté les termes en leur nom. | 33ccef75-8248-44e8-88d3-24526ca9c2d3 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | application | e-mail et nom. Le courrier électronique est utilisé comme nom d’utilisateur dans l’application. La collecte du courrier électronique peut vous aider à vous inscrire et à vous connecter plus rapidement à l’application. Le nom est utilisé dans le cas d’un événement d’inscription. | Le courrier électronique est utilisé pour activer la connexion via Office 365 et, dans certains cas, inscrire les utilisateurs qui font partie de l’organisation qui ont déjà accepté les termes en leur nom. | [33ccef75-8248-44e8-88d3-24526ca9c2d3](https://docs.microsoft.com/microsoft-365-app-certification/azure/33ccef75-8248-44e8-88d3-24526ca9c2d3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -68,7 +68,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -76,7 +76,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->S/O
+>N/A
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -90,7 +90,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37585' frameborder='no' style='width: 100%;'></iframe>
 
@@ -108,7 +108,7 @@ Ces informations ont été fournies par nomorehours sur la façon dont cette app
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

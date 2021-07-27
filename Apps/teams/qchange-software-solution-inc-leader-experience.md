@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour qChange Leader Experience, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 47a13e3336c443a861bf2c62d074767bf36eb816
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: efa6d9c9165a852ff45f1d6c68d8aeb3343a18e3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283118"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521152"
 ---
 # <a name="qchange-leader-experience"></a>Expérience de leader qChange
 
@@ -56,8 +56,8 @@ Ces informations ont été fournies par qChange Software Solution, Inc. sur la f
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | délégué | Informations de calendrier utilisateur et avatar | Microsoft Graph jeton pour l’utilisateur. Il est utilisé pour tirer les données de calendrier de l’utilisateur. | c35f7dcf-1079-4510-a6ec-1f69659c98c1 32dbfdc9-7832-4969-ad02-77a4902fae35 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | délégué | Informations de calendrier utilisateur et avatar | Microsoft Graph jeton pour l’utilisateur. Il est utilisé pour tirer les données de calendrier de l’utilisateur. | [c35f7dcf-1079-4510-a6ec-1f69659c98c1 32dbfdc9-7832-4969-ad02-77a4902fae35](https://docs.microsoft.com/microsoft-365-app-certification/azure/c35f7dcf-1079-4510-a6ec-1f69659c98c1 32dbfdc9-7832-4969-ad02-77a4902fae35) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -71,7 +71,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Prénom, nom et adresse de messagerie des utilisateurs qui ont accepté des invitations aux événements de calendrier d’un utilisateur authentifié. | Prénom, nom et adresse de messagerie des utilisateurs qui ont accepté des invitations aux événements de calendrier d’un utilisateur authentifié. | Ces utilisateurs peuvent être invités à utiliser notre application par un utilisateur authentifié de notre application. |
 
 
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38162' frameborder='no' style='width: 100%;'></iframe>
 
@@ -121,7 +121,7 @@ Ces informations ont été fournies par qChange Software Solution, Inc. sur la f
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

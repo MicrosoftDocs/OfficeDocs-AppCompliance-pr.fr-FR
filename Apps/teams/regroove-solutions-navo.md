@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Navo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 11346ff15831615ac6b617d8d14f83f38c7de0a5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: e17eac9ef2db9418a38900d0de84ce62fad71097
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283108"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521207"
 ---
 # <a name="navo"></a>Navo
 
@@ -55,9 +55,9 @@ Ces informations ont été fournies par Regroove Solutions sur la façon dont ce
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | application | Nous stockons le nombre d’utilisateurs et l’interrogeons une fois par cycle de facturation. Nous utilisons également l’ID de location comme ID pour l’organisation. | Nous permet de compter le nombre d’utilisateurs dans la location, que nous utilisons à des fins de facturation. Il nous permet également de faire une requête pour voir dans quels groupes se trouve un utilisateur, afin de pouvoir utiliser le contrôle de sécurité pour protéger certaines données. Nous interrogeons également l’ID de location de l’organisation. | 75ce4e02-e37b-479c-81c7-438348a2a251 |
->| User.Read | délégué | Aucune donnée stockée | Activer la connexion et lire le profil utilisateur | 75ce4e02-e37b-479c-81c7-438348a2a251 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | application | Nous stockons le nombre d’utilisateurs et l’interrogeons une fois par cycle de facturation. Nous utilisons également l’ID de location comme ID pour l’organisation. | Nous permet de compter le nombre d’utilisateurs dans la location, que nous utilisons à des fins de facturation. Il nous permet également de faire une requête pour voir dans quels groupes se trouve un utilisateur, afin de pouvoir utiliser le contrôle de sécurité pour protéger certaines données. Nous interrogeons également l’ID de location de l’organisation. | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
+>| User.Read | délégué | Aucune donnée stockée | Activer la connexion et lire le profil utilisateur | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -65,7 +65,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Nous stockons l’ID de location et le nombre d’utilisateurs dans Stripe. |  | User.Read | Delegated | Se connectez et lisez le profil utilisateur - Aucune donnée stockée |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -79,7 +79,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Oui, dans application Informations stockons l’ID d’utilisateur authentifié et l’ID de compte d’utilisateur (ID de client).
+>Oui, dans application Informations stockons l’ID authentifié par l’utilisateur et l’ID de compte d’utilisateur (ID de location).
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35974' frameborder='no' style='width: 100%;'></iframe>
 

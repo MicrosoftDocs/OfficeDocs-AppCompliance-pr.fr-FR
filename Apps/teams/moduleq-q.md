@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Q, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3444110a1d98a1a9a1157c21e76774373782b8c2
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: a1a9995b6b723d7ed712f9a0fdbe9315ee53c7f0
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53456583"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521297"
 ---
 # <a name="q"></a>Q
 
@@ -56,12 +56,12 @@ Ces informations ont été fournies par ModuleQ sur la façon dont cette applica
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | application | stocke les données de réunion, à l’exception du corps du message et des pièces jointes | Permet à l’application de lire les événements de calendrier d’un utilisateur afin de comprendre intelligemment ses priorités professionnelles. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| Group.Read.All | délégué | Aucun | Permet à l’application d’interagir dans une équipe pour le partage de contenu. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| Mail.Read | application | stocke les données de courrier électronique, à l’exception du corps du message et des pièces jointes | Permet à l’application de lire le courrier d’un utilisateur afin de comprendre intelligemment ses priorités professionnelles | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| User.Read | délégué | e-mail utilisateur et jetons d’authentification | Permet à l’utilisateur de se connecter et de lier Office 365 compte à son compte ModuleQ | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| User.Read.All | délégué | Aucun | Autorisez l’application à obtenir la liste des Teams dont l’utilisateur fait partie. Utilisé uniquement pour le partage  | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | application | stocke les données de réunion, à l’exception du corps du message et des pièces jointes | Permet à l’application de lire les événements de calendrier d’un utilisateur afin de comprendre intelligemment ses priorités professionnelles. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Group.Read.All | délégué | Aucun | Permet à l’application d’interagir dans une équipe pour le partage de contenu. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Mail.Read | application | stocke les données de courrier électronique, à l’exception du corps du message et des pièces jointes | Permet à l’application de lire le courrier d’un utilisateur afin de comprendre intelligemment ses priorités professionnelles | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| User.Read | délégué | e-mail utilisateur et jetons d’authentification | Permet à l’utilisateur de se connecter et de lier Office 365 compte à son compte ModuleQ | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| User.Read.All | délégué | Aucun | Autorisez l’application à obtenir la liste des Teams dont l’utilisateur fait partie. Utilisé uniquement pour le partage  | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft

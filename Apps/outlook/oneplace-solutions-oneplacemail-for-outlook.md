@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour OnePlaceMail pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 97c9b74768b11e3c63a302566a20a2cb762275a0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 18dc1ab4ba71102564c1c85f7ed3846d9f4f1700
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281706"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527930"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail for Outlook
 
@@ -54,22 +54,22 @@ Ces informations ont été fournies par OnePlace Solutions sur la façon dont ce
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | délégué | Obligatoire pour déterminer Teams dont l’utilisateur actuel est membre. | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
->| Mail.ReadWrite.Shared | délégué | Obligatoire pour accéder aux propriétés de messagerie pour définir SharePoint colonnes et ajouter la catégorie Transféré SharePoint sur l’élément de courrier | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
->| MailboxSettings.ReadWrite | délégué | Aucune donnée collectée ou utilisée, utilisée pour ajouter une catégorie à la liste principale des catégories dans une boîte aux lettres d’utilisateurs | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
->| Sites.ReadWrite.All | délégué | Obligatoire pour définir des propriétés sur les éléments que l’application a téléchargés vers SharePoint. | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.Read | délégué | Requis pour l’authentification à l’Graph Microsoft. | Les données suivantes sont stockées par l’application dans une base de données et sont utilisées pour le suivi des abonnements et des licences utilisateur : ID utilisateur, e-mail, prénom, nom. | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadBasic.All | délégué | Obligatoire pour afficher l’image de profil utilisateur dans le champ S sélectionneur de personnes. | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadBasic.All | délégué | Obligatoire pour afficher l’image de profil utilisateur dans le champ S sélectionneur de personnes. | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadWrite.All | délégué | Obligatoire pour déterminer si le service Teams est activé au sein de la location Office 365 utilisateurs. | Aucun | 44a72516-136f-4a55-ae26-ef09977230be |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | délégué | Obligatoire pour déterminer Teams dont l’utilisateur actuel est membre. | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Mail.ReadWrite.Shared | délégué | Obligatoire pour accéder aux propriétés de messagerie pour définir SharePoint colonnes et ajouter la catégorie Transféré à SharePoint sur l’élément de courrier | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| MailboxSettings.ReadWrite | délégué | Aucune donnée collectée ou utilisée, utilisée pour ajouter une catégorie à la liste principale des catégories dans une boîte aux lettres d’utilisateurs | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Sites.ReadWrite.All | délégué | Obligatoire pour définir des propriétés sur les éléments que l’application a téléchargés vers SharePoint. | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.Read | délégué | Requis pour l’authentification à l’Graph Microsoft. | Les données suivantes sont stockées par l’application dans une base de données et sont utilisées pour le suivi des abonnements et des licences utilisateur : ID utilisateur, e-mail, prénom, nom. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | délégué | Obligatoire pour afficher l’image de profil utilisateur dans le champ S sélectionneur de personnes. | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | délégué | Obligatoire pour afficher l’image de profil utilisateur dans le champ S sélectionneur de personnes. | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadWrite.All | délégué | Obligatoire pour déterminer si le service Teams est activé au sein de la location Office 365 utilisateurs. | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint | Oui | SharePoint URL, bibliothèque/liste/noms de dossiers | Les informations organisationnelles accessibles par sont utilisées pour faciliter le processus d’enregistrement du courrier électronique et des pièces jointes Exchange à SharePoint. Ces données supplémentaires ne sont pas stockées au repos et sont chiffrées en transit. Ces données incluent des exemples de SharePoint de colonnes telles que les valeurs de colonne Choice, les valeurs de taxonomie, les noms de types de contenu, les noms de dossiers, les noms de sites.  | Bien que ces données ne sont pas stockées ou collectées par l’application, elles peuvent apparaître dans la télémétrie/les journaux où elles sont conservées pendant 90 jours. | Les données ne sont pas stockées |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -77,7 +77,7 @@ Les applications et les compléments créés sur Microsoft 365 peuvent utiliser 
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Le service Chargify est utilisé pour la gestion et la facturation des abonnements. Pour la création d’un abonnement in-app (gratuit), le prénom, le nom et l’adresse de messagerie de l’utilisateur sont partagés avec Chargify. Pour les abonnements achetés (qui supportent plusieurs utilisateurs sous licence), les détails des utilisateurs individuels ne sont pas partagés avec le service Chargify. | Adresse de messagerie | Pour être en mesure de communiquer des événements de cycle de vie d’abonnement à l’utilisateur |
 
 
@@ -106,7 +106,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35746' frameborder='no' style='width: 100%;'></iframe>
 
@@ -120,7 +120,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par OnePlace Solutions sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par OnePlace Solutions sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -128,7 +128,7 @@ Ces informations ont été fournies par OnePlace Solutions sur la façon dont ce
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour CI-Out-of-Office Lite, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 87a4d77deaac6281018befe1fc2de44f0fe20c35
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.openlocfilehash: de7d350bf6eda53a782872b3c4965235cfeca799
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275372"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521957"
 ---
-# <a name="ci-out-of-office-lite"></a>Lite ci-out-of-Office
+# <a name="ci-out-of-office-lite"></a>CI-Out-of-Office Lite
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Informations fournies par la solution Ci Contrôleh à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Lite ci-out-of-Office |
+| Nom de l'application | CI-Out-of-Office Lite |
 | ID | WA200002748 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | ci solution |
+| Nom de la société partenaire | ci solution GmbH |
 | URL du site web partenaire | [https://www.ci-solution.com](https://www.ci-solution.com) |
 | URL de la Teams d’informations sur l’application | [https://www.ci-solution.com/support/en/ci-oof-lite/](https://www.ci-solution.com/support/en/ci-oof-lite/) |
 | URL de la politique de confidentialité | [https://www.ci-solution.com/kontakt/datenschutz.html](https://www.ci-solution.com/kontakt/datenschutz.html) |
@@ -56,8 +56,8 @@ Ces informations ont été fournies par l’application Ci Sur la façon dont ce
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | délégué | Afficher l’adresse de messagerie des utilisateurs | Es werden keine Daten gespeichert. | fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | délégué | Afficher l’adresse de messagerie des utilisateurs | Es werden keine Daten gespeichert. | [fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -97,7 +97,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39113' frameborder='no' style='width: 100%;'></iframe>
 
@@ -111,11 +111,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par la solution ci Contrôleh sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par la solution ci ContrôleH sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

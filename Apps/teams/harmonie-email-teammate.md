@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Email TeamMate, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 21c17ca6e6ac518063e9ba097b17422907e7189e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a5d84cc70ee039a4b2973fb5ec9bfd9f20a9a179
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553105"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521657"
 ---
 # <a name="email-teammate"></a>Email TeamMate
 
@@ -34,7 +34,7 @@ Informations fournies par harmon.ie à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Email TeamMate |
 | ID | WA200002338 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | harmon.ie |
 | URL du site web partenaire | [https://harmon.ie](https://harmon.ie) |
 | URL de la Teams d’informations sur l’application | [https://emailteammate.com](https://emailteammate.com) |
@@ -56,13 +56,13 @@ Ces informations ont été fournies par harmon.ie sur la façon dont cette appli
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Chat.Read | délégué | Requis par TeamMate pour obtenir les membres de conversation d’une conversation spécifique afin de partager des fichiers à enregistrer dans SharePoint/Un lecteur avec les membres de conversation | aucune | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
->| Files.ReadWrite.All | délégué | Requis par TeamMate pour enregistrer les pièces jointes des &amp; e-mails dans SharePoint/Teams/OneDrive | aucune | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
->| Mail.ReadWrite | délégué | Obligatoire par TeamMate pour afficher les courriers électroniques de l’utilisateur et répondre aux e-mails enregistrés dans Teams | aucune | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
->| People.Read | délégué | Requis par TeamMate pour rechercher des e-mails par des personnes et suggérer des personnes que vous contactez fréquemment. | aucune | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
->| User.Read | délégué | permet aux utilisateurs de se connecter à TeamMate avec leur compte et permet à TeamMate de voir les informations de profil utilisateur de base | aucune | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
->| User.ReadBasic.All | délégué | Requis par TeamMate pour résoudre les adresses e-mail des membres de conversation afin que les fichiers de partage enregistrés OneDrive les contiennent  | aucune | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Chat.Read | délégué | Requis par TeamMate pour obtenir les membres de conversation d’une conversation spécifique afin de partager des fichiers à enregistrer dans SharePoint/Un lecteur avec les membres de conversation | aucune | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Files.ReadWrite.All | délégué | Requis par TeamMate pour enregistrer les pièces jointes des &amp; e-mails dans SharePoint/Teams/OneDrive | aucune | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Mail.ReadWrite | délégué | Obligatoire par TeamMate pour afficher les courriers électroniques de l’utilisateur et répondre aux e-mails enregistrés dans Teams | aucune | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| People.Read | délégué | Obligatoire par TeamMate pour rechercher des e-mails par des personnes et suggérer des personnes que vous contactez fréquemment. | aucune | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| User.Read | délégué | permet aux utilisateurs de se connecter à TeamMate avec leur compte et permet à TeamMate de voir les informations de profil utilisateur de base | aucune | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| User.ReadBasic.All | délégué | Requis par TeamMate pour résoudre les adresses e-mail des membres de conversation afin que les fichiers de partage enregistrés OneDrive les contiennent  | aucune | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -80,7 +80,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Utilisateurs et données d’utilisation upn
 
@@ -120,11 +120,11 @@ Ces informations ont été fournies par des harmon.ie sur la façon dont cette a
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |

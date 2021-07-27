@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour harmon.ie pour Office, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9c04ab6e1a50167fbf489191e5845f86cb09ee00
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: c5a4cc10fdb936e6e0a9c04cc492cd301a374cd8
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282368"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527840"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie pour Office
 
@@ -54,11 +54,11 @@ Ces informations ont été fournies par harmon.ie Corporation sur la façon dont
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | délégué | Requis par harmon.ie pour Outlook permettre aux utilisateurs de se connecter et d’obtenir le rôle de l’utilisateur | aucune | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| Files.ReadWrite.All | délégué | Requis par harmon.ie pour Outlook pour lui permettre de transférer des pièces jointes à partir de Outlook et de &amp; l’enregistrer dans SharePoint | aucune | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| Mail.ReadWrite | délégué | Requis par harmon.ie pour Outlook pour lui permettre de transférer des pièces jointes à partir de Outlook et de &amp; l’enregistrer dans SharePoint | aucune | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| User.Read | délégué | Requis par le harmon.ie pour Outlook pour résoudre l’image de profil des utilisateurs | aucune | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | délégué | Requis par harmon.ie pour Outlook permettant aux utilisateurs de se connecter et d’obtenir le rôle de l’utilisateur | aucune | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Files.ReadWrite.All | délégué | Requis par harmon.ie pour Outlook pour lui permettre de transférer des pièces jointes à partir de Outlook et de &amp; l’enregistrer dans SharePoint | aucune | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Mail.ReadWrite | délégué | Requis par harmon.ie pour Outlook pour lui permettre de transférer des pièces jointes à partir de Outlook et de &amp; l’enregistrer dans SharePoint | aucune | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| User.Read | délégué | Requis par le harmon.ie pour Outlook pour résoudre l’image de profil des utilisateurs | aucune | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -93,7 +93,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36360' frameborder='no' style='width: 100%;'></iframe>
 
@@ -111,7 +111,7 @@ Ces informations ont été fournies par harmon.ie Corporation sur la façon dont
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

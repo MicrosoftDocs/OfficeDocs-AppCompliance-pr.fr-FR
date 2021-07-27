@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour OmètreTask, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f8a266078aad721307165b64150c5a9241bf4f35
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: dafbebb8b0bed7d06a3850a26ab205db0517ae5f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552945"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521265"
 ---
 # <a name="meistertask"></a>MeisterTask
 
@@ -28,13 +28,13 @@ ms.locfileid: "52552945"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies à Microsoft par ÉvrierLabs Contrôleh :
+Informations fournies à Microsoft par InglabsSinH :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | MeisterTask |
 | ID | WA104381349 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | MeisterLabs GmbH |
 | URL du site web partenaire | [https://www.meistertask.com](https://www.meistertask.com) |
 | URL de la Teams d’informations sur l’application | [https://support.meistertask.com/](https://support.meistertask.com/) |
@@ -49,15 +49,15 @@ Informations fournies à Microsoft par ÉvrierLabs Contrôleh :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par CommanderInsyth sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par OrganiGrammeH sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | délégué | ID, displayName, adresse de messagerie. | Pour l’authentification et l’inscription. |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | délégué | ID, displayName, adresse de messagerie. | Pour l’authentification et l’inscription. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft

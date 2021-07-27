@@ -2,19 +2,19 @@
 title: Sécurité et conformité des applications SaaS - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 665872455f297a8dda77c1a039c0daa2d5d590b8
-ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
+ms.openlocfilehash: 0016e4102d0c26bc5c57e657eaa5d635425df511
+ms.sourcegitcommit: 2785ea8a6c1b1af129dea2cbe833de98659e3b2d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341140"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53547872"
 ---
-# <a name="saas-app-security-and-compliance"></a>Sécurité et conformité des applications SaaS
+# <a name="saas-apps-security-and-compliance"></a>Sécurité et conformité des applications SaaS
 
 Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant les applications SaaS et les applications qu’elles utilisent. Les informations sont complétées des informations du catalogue d’applications [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) et des informations fournies par les développeurs lors de la soumission de leurs applications. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 

@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour l’outil Campagnes de Zoho pour l’automatisation marketing, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour l’outil Campagnes zoho pour l’automatisation marketing, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e54e3313dcfa51542439775a0c3ca0cae38aca93
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: b6b0137447f5de7d7ef2394c32eb6996772852ad
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281586"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527890"
 ---
 # <a name="zoho-campaigns-tool-for-marketing-automation"></a>Outil campagnes Zoho pour l’automatisation marketing
 
@@ -54,16 +54,16 @@ Ces informations ont été fournies par Zoho Corporation Private Limited sur la 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | délégué | L’ID de calendrier est stocké pour créer des événements dans ce calendrier à partir des campagnes Zoho. | Permet à l’utilisateur d’importer un événement de calendrier Office 365 dans les campagnes Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Calendars.ReadWrite | délégué |  | Permet à l’utilisateur d’ajouter des événements Zoho Campaigns au calendrier Office365. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.Read | délégué |  Pour enregistrer les informations de contact. | Permet à l’utilisateur d’importer des contacts Office365 dans les campagnes Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.ReadWrite | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.Read | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| email | délégué | Le courrier électronique est stocké pour l’identification de l’utilisateur. |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| offline_access | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| profil | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | délégué | L’ID de calendrier est stocké pour créer des événements dans ce calendrier à partir des campagnes Zoho. | Permet à l’utilisateur d’importer un événement de calendrier Office 365 dans les campagnes Zoho. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Calendars.ReadWrite | délégué |  | Permet à l’utilisateur d’ajouter des événements Zoho Campaigns au calendrier Office365. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.Read | délégué |  Pour enregistrer les informations de contact. | Permet à l’utilisateur d’importer des contacts Office365 dans les campagnes Zoho. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.ReadWrite | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.Read | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| email | délégué | Le courrier électronique est stocké pour l’identification de l’utilisateur. |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| offline_access | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| profil | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -84,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Le client peut sélectionner les données qui doivent être chiffrées via EAR (Chiffrement au repos) avec des restrictions de sécurité. Les mots de passe sont hachés par défaut. L’accès logique aux serveurs est fourni via un réseau dédié &amp; isolé et est hautement sécurisé et
+>Le client peut sélectionner les données qui doivent être chiffrées via EAR (Chiffrement au repos) avec des restrictions de sécurité. Les mots de passe sont hachés par défaut. L’accès logique aux serveurs est fourni par le biais d’un réseau dédié &amp; isolé et est hautement sécurisé et
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -93,7 +93,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28293' frameborder='no' style='width: 100%;'></iframe>
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Qualified, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6b4f5f034fbdca44cd71c74b0530cfd15664a1c8
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: d47e6f2919fb97eb1c9a162f2ade8c1a1bf485a8
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852056"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521131"
 ---
 # <a name="qualified"></a>Qualifié
 
@@ -56,24 +56,24 @@ Ces informations ont été fournies par Qualified sur la façon dont cette appli
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.ReadBasic.All | application | Nous permet de sélectionner le canal à avertir | adresse e-mail, ID de client, jeton d’actualisation oauth | 2c951ed5-c5c6-493f-9b02-4b42e3ba536c |
->| Team.ReadBasic.All | application | Nous permet de trouver tous les canaux de toutes les équipes, pour nous permettre de sélectionner des canaux à avertir | adresse e-mail, ID de client, jeton d’actualisation oauth | 2c951ed5-c5c6-493f-9b02-4b42e3ba536c |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | application | Nous permet de sélectionner le canal à avertir | adresse e-mail, ID de client, jeton d’actualisation oauth | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
+>| Team.ReadBasic.All | application | Nous permet de trouver tous les canaux de toutes les équipes, pour nous permettre de sélectionner des canaux à avertir | adresse e-mail, ID de client, jeton d’actualisation oauth | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
 >| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| Bot Framework API | Oui | ID client, ID d’équipe, ID de canal | ID client : pour déterminer les service_url appels d’api bot framework ; ID d’équipe + ID de canal : pour déterminer les équipes/canaux auquel notre bot a été ajouté | ID client, ID d’équipe, ID de canal | ID client : pour déterminer les service_url appels d’api bot framework ; ID d’équipe + ID de canal : pour déterminer les équipes/canaux auquel notre bot a été ajouté |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| Bot Framework API | Oui | ID de locataire, ID d’équipe, ID de canal | ID client : pour déterminer les service_url appels d’api bot framework ; ID d’équipe + ID de canal : pour déterminer les équipes/canaux auquel notre bot a été ajouté | ID de locataire, ID d’équipe, ID de canal | ID client : pour déterminer les service_url appels d’api bot framework ; ID d’équipe + ID de canal : pour déterminer les équipes/canaux auquel notre bot a été ajouté |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Heroku, Sentry, Papertrail | Nom, adresse e-mail, ADRESSE IP | Ces systèmes hébergent et surveillent notre service de production |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -129,7 +129,7 @@ Ces informations ont été fournies par Qualified sur la façon dont cette appli
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

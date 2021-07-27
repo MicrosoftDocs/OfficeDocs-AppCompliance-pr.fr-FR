@@ -2,19 +2,19 @@
 title: Sécurité et conformité des applications Microsoft SharePoint - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/02/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications SharePoint Microsoft.
+description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft SharePoint.
 localization_priority: Normal
-ms.openlocfilehash: 0428457aa03f6a29ff9c6e1306d602c8bee22ba2
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 428ccb99998c5c20e3fc6507e7c5efb14d8d1600
+ms.sourcegitcommit: 2785ea8a6c1b1af129dea2cbe833de98659e3b2d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282107"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53547842"
 ---
-# <a name="microsoft-sharepoint-app-security-and-compliance"></a>Sécurité et conformité des applications Microsoft SharePoint
+# <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft SharePoint
 
 Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant les applications et les SharePoint Microsoft qu’elles utilisent. Les informations sont complétées des informations du catalogue d’applications [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) et des informations fournies par les développeurs lors de la soumission de leurs applications. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 

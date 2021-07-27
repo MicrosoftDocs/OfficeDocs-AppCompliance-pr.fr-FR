@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Adobe Sign pour Word et PowerPoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0c5ed86f2de8925a87b726db9c2a9946721e06c7
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 81a0012ebbc0e77af0fee9fa73a22f187972d13c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282378"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527850"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign pour Word et PowerPoint
 
@@ -53,12 +53,12 @@ Ces informations ont été fournies par Adobe Inc. sur la façon dont cette appl
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Mail.ReadWrite | délégué | Pour remplir le document joint, les e-mails de l’expéditeur et du destinataire, ainsi que le contenu des messages électroniques envoyés à Adobe sign to send for signature. Cela permet à l’utilisateur de gagner du temps pour retaper ces champs dans Adobe Sign. Une fois qu’un contrat est signé, nous rédigeons automatiquement un nouveau courrier électronique pour que l’utilisateur envoie un courrier électronique pour informer ses destinataires que la transaction est effectuée. | Adobe Sign enregistre les pièces jointes en tant que fichiers temporaires, dont l’expiration est de 24 heures. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| People.Read | délégué | Pour remplir automatiquement l’adresse e-mail dans l’expérience Envoyer pour signature, en tapant des lettres initiales, n’exigez pas que les utilisateurs tapent l’intégralité &quot; &quot; des e-mails. | Adobe Sign stocke uniquement les messages électroniques et displayName des destinataires dans les contrats. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| User.Read | délégué | Pour lire le profil de l’utilisateur et faire correspondre son profil (en fait, son e-mail et userId) à notre base de données afin qu’il puisse utiliser Adobe Sign. | Pour lire le profil de l’utilisateur et faire correspondre son profil (en fait, son e-mail et userId) à notre base de données afin qu’il puisse utiliser Adobe Sign. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| offline_access | délégué | Pour actualiser le jeton d’accès, lorsque le jeton actuel a expiré. Par exemple, lorsque l’utilisateur se trouve dans une fenêtre d’envoi de signature et la laisse inactive pendant trop longtemps, nous devons actualiser un nouveau jeton lorsque &quot; &quot; l’utilisateur est actif. | Pour actualiser le jeton d’accès, lorsque le jeton actuel a expiré. Par exemple, lorsque l’utilisateur se trouve dans une fenêtre d’envoi de signature et la laisse inactive pendant trop longtemps, nous devons actualiser un nouveau jeton lorsque &quot; &quot; l’utilisateur est actif. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| openid | délégué | E-mail et UserId. Pour que l’utilisateur se connecte afin de s’assurer de son consentement pour l’autorisation d’utiliser l’application Adobe Sign.  | La messagerie électronique est l’identificateur unique pour les utilisateurs dans Adobe Sign. Nous stockons l’ID de courrier électronique afin de pouvoir ma mapiller toutes les activités de cet utilisateur sur son enregistrement Adobe Sign.  | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Mail.ReadWrite | délégué | Pour remplir le document joint, les e-mails de l’expéditeur et du destinataire, ainsi que le contenu des messages électroniques envoyés à Adobe sign to send for signature. Cela permet à l’utilisateur de gagner du temps pour retaper ces champs dans Adobe Sign. Une fois qu’un contrat est signé, nous rédigeons automatiquement un nouveau courrier électronique pour que l’utilisateur envoie un courrier électronique pour informer ses destinataires que la transaction est effectuée. | Adobe Sign enregistre les pièces jointes en tant que fichiers temporaires, dont l’expiration est de 24 heures. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| People.Read | délégué | Pour remplir automatiquement l’adresse e-mail dans l’expérience Envoyer pour signature, en tapant des lettres initiales, n’exigez pas que les utilisateurs tapent l’intégralité &quot; &quot; des e-mails. | Adobe Sign stocke uniquement les messages électroniques et displayName des destinataires dans les contrats. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| User.Read | délégué | Pour lire le profil de l’utilisateur et faire correspondre son profil (en fait, son e-mail et userId) à notre base de données afin qu’il puisse utiliser Adobe Sign. | Pour lire le profil de l’utilisateur et faire correspondre son profil (en fait, son e-mail et userId) à notre base de données afin qu’il puisse utiliser Adobe Sign. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| offline_access | délégué | Pour actualiser le jeton d’accès, lorsque le jeton actuel a expiré. Par exemple, lorsque l’utilisateur se trouve dans une fenêtre d’envoi de signature et la laisse inactive pendant trop longtemps, nous devons actualiser un nouveau jeton lorsque &quot; &quot; l’utilisateur est actif. | Pour actualiser le jeton d’accès, lorsque le jeton actuel a expiré. Par exemple, lorsque l’utilisateur se trouve dans une fenêtre d’envoi de signature et la laisse inactive pendant trop longtemps, nous devons actualiser un nouveau jeton lorsque &quot; &quot; l’utilisateur est actif. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| openid | délégué | E-mail et UserId. Pour que l’utilisateur se connecte afin de s’assurer de son consentement pour l’autorisation d’utiliser l’application Adobe Sign.  | La messagerie électronique est l’identificateur unique pour les utilisateurs dans Adobe Sign. Nous stockons l’ID de courrier électronique afin de pouvoir ma mapiller toutes les activités de cet utilisateur sur son enregistrement Adobe Sign.  | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -71,7 +71,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nos journaux contiennent suffisamment d’informations pour pouvoir identifier et résoudre les problèmes des clients. Les journaux sont conservés pendant 90 jours et l’accès est restreint. Notre base de données stocke des informations d’identification hachées pour l’authentification lorsque l’utilisateur est hors connexion. La stratégie de rétention de base de données est de 30 jours à partir de la dernière utilisation
 
@@ -93,7 +93,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11641' frameborder='no' style='width: 100%;'></iframe>
 
@@ -111,7 +111,7 @@ Ces informations ont été fournies par Adobe Inc. sur la façon dont cette appl
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

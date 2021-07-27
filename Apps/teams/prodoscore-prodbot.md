@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ProdBot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8cf445d1b1f7ef72300017ce095d0dec0e038f41
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 46b5682dc3b3c5052c5b3912125d2caebcb9f662
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551824"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521127"
 ---
 # <a name="prodbot"></a>ProdBot
 
@@ -34,7 +34,7 @@ Informations fournies par Prodoscore à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | ProdBot |
 | ID | WA200002620 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Prodoscore |
 | URL du site web partenaire | [https://www.prodoscore.com](https://www.prodoscore.com) |
 | URL de la Teams d’informations sur l’application | [https://www.prodoscore.com/how-it-works/](https://www.prodoscore.com/how-it-works/) |
@@ -63,7 +63,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Google Cloud Platform | Nom de domaine | L’inscription à l’application utilise le nom de domaine d’une organisation, pour identifier l’organisation de manière unique. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -97,7 +97,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36556' frameborder='no' style='width: 100%;'></iframe>
 

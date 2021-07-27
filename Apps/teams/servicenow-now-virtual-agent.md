@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’agent virtuel maintenant, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bbd2b42fe7ad81e2ba0ba8157a34da67878e09c8
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1ac2988c550894341d5933afbc59de6f63c51b68
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551664"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53520997"
 ---
 # <a name="now-virtual-agent"></a>Agent désormais virtuel
 
@@ -34,7 +34,7 @@ Informations fournies par ServiceNow à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Agent désormais virtuel |
 | ID | WA104381816 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | ServiceNow |
 | URL du site web partenaire | [https://www.servicenow.com/](https://www.servicenow.com/) |
 | URL de la Teams d’informations sur l’application | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |
@@ -56,8 +56,8 @@ Ces informations ont été fournies par ServiceNow sur la façon dont cette appl
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | délégué | Le domaine est stocké dans notre centre de données à des fins de routage des messages futures. | Lorsque l’administrateur ServiceNow installe l’intégration avec MS Teams, l’administrateur doit se connecter à son compte Teams MS. Nous lisons le domaine à partir de l’adresse e-mail (pas l’adresse de messagerie complète). |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | délégué | Le domaine est stocké dans notre centre de données à des fins de routage des messages futures. | Lorsque l’administrateur ServiceNow installe l’intégration avec MS Teams, l’administrateur doit se connecter à son compte Teams MS. Nous lisons le domaine à partir de l’adresse e-mail (pas l’adresse de messagerie complète). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Non out of box by ServiceNow. Les clients peuvent tirer parti de l’infrastructure de l’agent virtuel pour créer des fonctionnalités supplémentaires pouvant potentiellement accéder aux informations de l’organisation ou de l’utilisateur final. Les utilisateurs peuvent taper des informations d’identification personnelle pendant l’interaction avec le bot et les envoyer à ServiceNow.
 

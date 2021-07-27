@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour C.AI Adoption Bot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d5e1ad704a7b72a8d3717b7aa1b3d60b23099998
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 5bb11c96f750701128470f3e1c61ea0f5d476233
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52851594"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521837"
 ---
 # <a name="cai-adoption-bot"></a>Bot C.AI d’adoption
 
@@ -56,14 +56,14 @@ Ces informations ont été fournies par contexxt.ai sur la façon dont cette app
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | application | Disponibilité de l’utilisateur en mesure d’envoyer des conseils au bon moment et non pendant les heures de travail au travail, par exemple | Disponibilité de l’utilisateur anonymisé en mesure d’envoyer des conseils au bon moment et non pendant les heures de travail, par exemple | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| ChannelMessage.Read.All | application | Microsoft Teams métadonnées de canal, telles que privées ou non, ou la quantité de conversations par canal pour analyser l’utilisation des Teams | Les métadonnées Microsoft Teams canal de données anonymes, telles que privés ou non, ou la quantité de conversations par canal pour analyser l’utilisation des Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Chat.Read.All | application | Microsoft Teams métadonnées de conversation, comme si un message a été aimé ou combien de groupes et de conversations 1:1 existent pour analyser l’utilisation des Teams | Les métadonnées Microsoft Teams conversation anonymes, comme si un message a été aimé ou combien de groupes et de conversations 1:1 existent pour analyser l’utilisation des Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Directory.Read.All | application | ID d’objet utilisateur pour pouvoir envoyer des conseils à l’utilisateur ultérieurement. | Hashed (anonymized) Object-ID of the user for being able sending tips to specifi user later. | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Group.Read.All | application | Microsoft Teams métadonnées, telles que la quantité de Teams et de canaux pour analyser l’utilisation des Teams | Microsoft Teams métadonnées, telles que la quantité de Teams et de canaux pour analyser l’utilisation des Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Mail.Read | application | Microsoft Exchange métadonnées, telles que la quantité d’e-mails et de groupes par rapport aux e-mails 1:1 pour analyser l’utilisation des Exchange (par rapport à Teams) | Métadonnées microsoft Exchange anonymes, telles que la quantité d’e-mails et de groupes par rapport aux e-mails 1:1 pour analyser l’utilisation des Exchange (par rapport à Teams) | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| User.Read.All | application | Microsoft Teams de conversation et de conversation, comme si un utilisateur était mentionné pour analyser l’utilisation des Teams | Les métadonnées Microsoft Teams conversation et conversation anonymes, comme si un utilisateur était mentionné pour analyser l’utilisation des Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | application | Disponibilité de l’utilisateur en mesure d’envoyer des conseils au bon moment et non pendant les heures de travail au travail, par exemple | Disponibilité de l’utilisateur anonymisé en mesure d’envoyer des conseils au bon moment et non pendant les heures de travail, par exemple | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| ChannelMessage.Read.All | application | Microsoft Teams métadonnées de canal, telles que privées ou non, ou la quantité de conversations par canal pour analyser l’utilisation des Teams | Les métadonnées Microsoft Teams canal de données anonymes, telles que privés ou non, ou la quantité de conversations par canal pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Chat.Read.All | application | Microsoft Teams métadonnées de conversation, comme si un message a été aimé ou combien de groupes et de conversations 1:1 existent pour analyser l’utilisation des Teams | Les métadonnées Microsoft Teams conversation anonymes, comme si un message a été aimé ou combien de groupes et de conversations 1:1 existent pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Directory.Read.All | application | ID d’objet utilisateur pour pouvoir envoyer des conseils à l’utilisateur ultérieurement. | Hashed (anonymized) Object-ID of the user for being able sending tips to specifi user later. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Group.Read.All | application | Microsoft Teams métadonnées, telles que la quantité de Teams et de canaux pour analyser l’utilisation des Teams | Microsoft Teams métadonnées, telles que la quantité de Teams et de canaux pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Mail.Read | application | Microsoft Exchange métadonnées, telles que la quantité d’e-mails et de groupes par rapport aux e-mails 1:1 pour analyser l’utilisation des Exchange (par rapport à Teams) | Métadonnées microsoft Exchange anonymes, telles que la quantité d’e-mails et de groupes par rapport aux e-mails 1:1 pour analyser l’utilisation des Exchange (par rapport à Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| User.Read.All | application | Microsoft Teams de conversation et de conversation, comme si un utilisateur était mentionné pour analyser l’utilisation des Teams | Les métadonnées Microsoft Teams conversation et conversation anonymes, comme si un utilisateur était mentionné pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -77,7 +77,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Dans Bot Framework, l’ID d’utilisateur est transmis automatiquement pour pouvoir communiquer avec l’utilisateur. Les données d’utilisation supplémentaires de C.AI Adoption Analytics sont utilisées pour individualiser l’expérience d’apprentissage pour l’utilisateur, et donc envoyer uniquement des conseils appropriés et utiles aux utilisateurs, qui ne connaissent peut-être pas ces conseils. | Non |  |
 
 
@@ -105,7 +105,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37589' frameborder='no' style='width: 100%;'></iframe>
 
@@ -119,15 +119,15 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par des contexxt.ai sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par contexxt.ai sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
