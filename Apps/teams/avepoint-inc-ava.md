@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour AVA, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c55d372c0249302da425ea5b2483aba88f1a2e42
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 462181d4ba98d11e5aeae15a4827c6138bc80924
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281406"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522068"
 ---
 # <a name="ava"></a>AVA
 
@@ -56,17 +56,17 @@ Ces informations ont été fournies par AvePoint, Inc. sur la façon dont cette 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Mail.ReadWrite.Shared | délégué | Aucun | Rechercher les e-mails de l’utilisateur et déplacer le courrier vers le dossier spécifié | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
->| User.Read | délégué |  Jeton d’accès de l’utilisateur : utilisé pour la recherche et la restauration des données de l’utilisateur | Permet à l’utilisateur de se connecter et d’accorder le jeton d’accès à l’application | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
->| User.ReadWrite | délégué | DisplayName, UserPrincipalName, JobTitle, Organization, Country, MySiteUrl : enregistrer les informations de base de l’utilisateur qui a utilisé l’application | Obtenir les informations de profil de base de l’utilisateur | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Mail.ReadWrite.Shared | délégué | Aucun | Rechercher les e-mails de l’utilisateur et déplacer le courrier vers le dossier spécifié | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
+>| User.Read | délégué |  Jeton d’accès de l’utilisateur : utilisé pour la recherche et la restauration des données de l’utilisateur | Permet à l’utilisateur de se connecter et d’accorder le jeton d’accès à l’application | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
+>| User.ReadWrite | délégué | DisplayName, UserPrincipalName, JobTitle, Organization, Country, MySiteUrl : enregistrer les informations de base de l’utilisateur qui a utilisé l’application | Obtenir les informations de profil de base de l’utilisateur | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| API REST SharePoint | Oui | Recherchez le fichier dans le recyclage du site personnel de l’utilisateur et restituer ces fichiers. Nécessite l’autorisation AllSites.Manage. |  | Aucun |  |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -107,7 +107,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35842' frameborder='no' style='width: 100%;'></iframe>
 

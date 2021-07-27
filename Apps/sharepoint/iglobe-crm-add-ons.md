@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour les modules complémentaires iGlobe CRM par iGlobe
+title: Informations sur les applications pour les modules complémentaires iGlobe CRM par iGlobe
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/17/2020
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour les modules complémentaires iGlobe CRM, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 251f417ae2aee8dce2e908d7b75a3ab462442422
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 67cfb36f4720e72e6cbd284aa86d5d7da4c785cb
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282127"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522197"
 ---
 # <a name="iglobe-crm-add-ons"></a>Modules add-ons iGlobe CRM
 
@@ -53,27 +53,27 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Avoir accès aux calendriers des utilisateurs lors de la convivialation d’un rapport de réunion à partir du canlendar dans iGlobe | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Contacts.ReadWrite | délégué |  Directory.AccessAsUser.All | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Directory.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Recherchez les autorisations et obtenez les sites et les listes. Créez des dossiers, obtenez des fichiers et enregistrez des fichiers. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers et des données dans SharePoint listes. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. Intégration à iGlobe CRM Office 365 | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Svae the eamil to iGlobe CRM and get informatiopn from iGlobe to a new e-amil | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Sites.Manage.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Créer, modifier et supprimer des éléments et des listes dans iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Sites.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire des éléments dans iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Sites.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. |  Modifier et supprimer des éléments et des listes dans iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Créer une tâche de planificateur à partir d’iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir des informations sur iGlobe CRM pour l’utilisateur speficic | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Avoir accès aux calendriers des utilisateurs lors de la convivialation d’un rapport de réunion à partir du canlendar dans iGlobe | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Contacts.ReadWrite | délégué |  Directory.AccessAsUser.All | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Recherchez les autorisations et obtenez les sites et les listes. Créez des dossiers, obtenez des fichiers et enregistrez des fichiers. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers et des données dans SharePoint listes. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. Intégration à iGlobe CRM Office 365 | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Svae the eamil to iGlobe CRM and get informatiopn from iGlobe to a new e-amil | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Manage.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Créer, modifier et supprimer des éléments et des listes dans iGlobe CRM | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire des éléments dans iGlobe CRM | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. |  Modifier et supprimer des éléments et des listes dans iGlobe CRM | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Créer une tâche de planificateur à partir d’iGlobe CRM | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir des informations sur iGlobe CRM pour l’utilisateur speficic | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Exchange - Calendars.ReadWrite.All | Non |  |  |  |  |
 >| Exchange - Mail.Read.All | Non |  |  |  |  |
 >| Exchange - Contacts.Read | Non |  |  |  |  |
@@ -124,7 +124,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36163' frameborder='no' style='width: 100%;'></iframe>
 
@@ -147,7 +147,7 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Paramètres de sécurité par défaut et autres stratégies courantes telles que Bloquer l’authentification héritée* Exiger l’authentification multifacteur pour les administrateurs* Exiger l’authentification multifacteur pour la gestion Azure* Exiger l’authentification multifacteur pour tous les utilisateurs* |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
