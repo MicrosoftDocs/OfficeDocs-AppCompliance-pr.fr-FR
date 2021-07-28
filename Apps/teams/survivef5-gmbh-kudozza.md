@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Kudozza, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 85221e2c57cbe5954e3343d8a44cec704c71eda9
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3e457fef49ce1ad352080d5a7f1a74ac7907038e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280776"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528190"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -63,7 +63,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS | userId, teamId, tenantId, username | Le service et la base de données sont hébergés dans AWS.  |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -71,13 +71,13 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Kudos sont envoyés à d’autres personnes et le message doit être renvoyé fréquemment. Un classement est également fourni, ce qui rend nécessaire le magasinage des noms et des ID des utilisateurs à l’aide de l’application Kudozza. | userid, username | Kudos sont envoyés à d’autres personnes et le message doit être renvoyé fréquemment. Un classement est également fourni, ce qui rend nécessaire le magasinage des noms et des ID des utilisateurs à l’aide de l’application Kudozza. |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >tenantId, teamId, userId. La stratégie de rétention est de 14 jours.
 
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36547' frameborder='no' style='width: 100%;'></iframe>
 
@@ -117,7 +117,7 @@ Ces informations ont été fournies par surviveF5 Contrôleh sur la façon dont 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour EngageWith, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bc9d21c1c39cb3a5919024bccd077a1e31469bf2
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 9cd618fb9ee580936f33beed27dfc2a39934d1f0
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279116"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528250"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -63,7 +63,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, Mailchimp, Stripe. Nom du client, e-mail, adresse IP, informations de paiement. Nous utilisons ces tiers pour offrir la meilleure expérience client à nos clients | Nom, e-mail | ce complément n’utilise pas d’API supplémentaires |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -71,13 +71,13 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Ces données sont utilisées pour afficher et stocker l’historique d’échange des points de &amp; récompense. Également utilisé dans la fonctionnalité principale de l’application pour donner Kudos et Lesout aux homologues | Nom, e-mail, anniversaire et anniversaire de travail. | Ces données sont utilisées pour afficher et stocker leur historique d’échange de points &amp; de récompense |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >OII : nom de l’organisation, ID de client apparaissent dans les journaux ; EUII : ID d’objet aad, nom complet, courrier électronique s’affichent dans les journaux. Période de rétention de 30 jours, suppression automatique
 
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36381' frameborder='no' style='width: 100%;'></iframe>
 
@@ -113,11 +113,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par SpringRole sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par SpringRole sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

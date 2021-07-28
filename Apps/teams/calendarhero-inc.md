@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour CalendarHero, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f3609c1e5884a49e4b52077295108622e10e7ff5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 41a7dd8a2cb7d900ac26b228c4cc2522d76da59c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281997"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527590"
 ---
 # <a name="calendarhero"></a>CalendarHero
 
@@ -56,14 +56,14 @@ Ces informations ont été fournies par CalendarHero Inc sur la façon dont cett
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | les deux | Les réunions sont mises en cache dans notre mongoDB sur Azure, mais les descriptions sont chiffrées. | Accès aux événements de calendrier de l’utilisateur. |  |
->| Contacts.ReadWrite | les deux | Nom et adresse e-mail des contacts. | Lisez les contacts de l’utilisateur (afin de pouvoir les inviter à une réunion). |  |
->| Group.Read.All | les deux | Nom et membres du groupe. | (Facultatif) lire les groupes d’utilisateurs d’entreprise (pour la planification avec des groupes). |  |
->| Mail.Read | les deux | Adresse de messagerie/nom du contact, fréquence/recency des interactions. | (Facultatif) est utilisé pour lire les métadon données de courrier électronique en dessous de qui sont les contacts les plus importants de l’utilisateur (via Machine Learning). |  |
->| MailboxSettings.ReadWrite | les deux | Fuseau horaire de l’utilisateur. | Fuseau horaire de l’utilisateur. |  |
->| User.Read.All | les deux | E-mail de nom &amp; d’utilisateur (stocké en tant que contact). | (Facultatif) lire les utilisateurs d’entreprise (pour la planification avec des collègues) |  |
->| offline_access | application | Non | Nous devons lire et écrire dans notre back-end à tout moment, sans que l’utilisateur soit présent. |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | les deux | Les réunions sont mises en cache dans notre mongoDB sur Azure, mais les descriptions sont chiffrées. | Accès aux événements de calendrier de l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Contacts.ReadWrite | les deux | Nom et adresse e-mail des contacts. | Lisez les contacts de l’utilisateur (afin de pouvoir les inviter à une réunion). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Group.Read.All | les deux | Nom et membres du groupe. | (Facultatif) lire les groupes d’utilisateurs d’entreprise (pour la planification avec des groupes). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.Read | les deux | Adresse de messagerie/nom du contact, fréquence/recency des interactions. | (Facultatif) est utilisé pour lire les métadon données de courrier électronique en dessous de qui sont les contacts les plus importants de l’utilisateur (via Machine Learning). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| MailboxSettings.ReadWrite | les deux | Fuseau horaire de l’utilisateur. | Fuseau horaire de l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read.All | les deux | E-mail de nom &amp; d’utilisateur (stocké en tant que contact). | (Facultatif) lire les utilisateurs d’entreprise (pour la planification avec des collègues) | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | application | Non | Nous devons lire et écrire dans notre back-end à tout moment, sans que l’utilisateur soit présent. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -77,7 +77,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| importer les noms/e-mails de collègues afin que notre bot assistant de réunion puisse planifier des réunions avec eux | &amp;e-mail de nom. les deux sont stockées dans notre base de données pour la recherche rapide et pour la recherche partielle de noms (par exemple, rencontrer Joe P) |  |
 
 
@@ -105,7 +105,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35668' frameborder='no' style='width: 100%;'></iframe>
 

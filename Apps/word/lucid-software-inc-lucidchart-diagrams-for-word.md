@@ -1,5 +1,5 @@
 ---
-title: Informations d’application pour diagrammes de diagrammes de Diagrammes de Diagrammes pour Word parFact Software Inc
+title: Informations sur l’application pour diagrammes de Diagrammes de Diagrammes pour Word parFact Software Inc
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les diagrammes Dechart pour Word, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 460fc988ffcbd1da237838616910f6c5b6383ee5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 36eb26fa83f894db60f1b615ce58f5c17ba3f19c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283468"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527480"
 ---
-# <a name="lucidchart-diagrams-for-word"></a>Diagrammes de graphiques pour Word
+# <a name="lucidchart-diagrams-for-word"></a>Diagrammes graphiques pour Word
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,7 +31,7 @@ Informations fournies par Software Inc. à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Diagrammes de graphiques pour Word |
+| Nom de l'application | Diagrammes graphiques pour Word |
 | ID | WA104380118 |
 | Office 365 clients pris en charge | Word 2016 ou une ultérieure sur Mac, Word 2013 ou une Windows, Word sur le web |
 | Nom de la société partenaire | Lucid Software Inc |
@@ -47,24 +47,24 @@ Informations fournies par Software Inc. à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Lass Software Inc. sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Las Software Inc. sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Cechart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte Dechart pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. |  |
->| openid | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Cechart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte Dechart pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. |  |
->| profil | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Cechart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte Dechart pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Cechart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte Dechart pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| openid | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Cechart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte Dechart pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| profil | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Cechart de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte Dechart pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Interface API JavaScript pour Office | Oui | Nous utilisons le SDK javascript Office OneDrive pour ouvrir le SDK OneDrive à l’aide de OneDrive.open(). Nous ne générons aucun jeton d’accès et nous ne faisons pas de demandes aux API OneDrive nous-mêmes ; Le SDK OneDrive s’il s’agit d’un s’il s’agit d’un fichier de recherche le fait pour nous. Nous ne pouvons voir que les noms de fichiers que l’utilisateur choisit. |  | Si l’utilisateur sélectionne un fichier à l’aide OneDrive sélecateur de fichiers, nous stockons le nom du fichier. |  |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -72,14 +72,14 @@ Les applications et les compléments créés sur Microsoft 365 peuvent utiliser 
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Les données d’unchart sont stockées dans AWS. |  | Nous n’utilisons aucune API Microsoft. Nous utilisons openID pour obtenir des données utilisateur de base afin d’effectuer l’ouvrez-vous. Nous utilisons leur API de s’il s’agit de fichiers, mais cela ne nous donne pas accès aux fichiers de l’utilisateur autres que ceux qu’il nous envoie par le biais du s sélectionneur. |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| Les données de l’chart sont stockées dans AWS. |  | Nous n’utilisons aucune API Microsoft. Nous utilisons openID pour obtenir des données utilisateur de base pour effectuer l’ouvrez-vous. Nous utilisons leur API de s’il s’agit de fichiers, mais cela ne nous donne pas accès aux fichiers de l’utilisateur autres que ceux qu’il nous envoie par le biais du s picker. |
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nous logons les e-mails et les adresses IP pour des raisons de sécurité et de support. Tous les accès aux journaux sont enregistrés et ne peuvent pas être changés &amp; dans un système tiers. L’accès aux journaux nécessite l' mba.
 
@@ -87,7 +87,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données d’unchart sont stockées dans AWS. Il est chiffré au repos et en transit. Cechart utilise les règles de privilège minimum et l’ation MFA.
+>Les données de l’chart sont stockées dans AWS. Il est chiffré au repos et en transit. Cechart utilise les règles de privilège minimum et l’ation MFA.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -101,7 +101,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12761' frameborder='no' style='width: 100%;'></iframe>
 

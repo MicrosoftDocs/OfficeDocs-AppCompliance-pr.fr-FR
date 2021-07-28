@@ -2,24 +2,24 @@
 title: Informations d’application pour TeamsChamp par TeamsChamp
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/10/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TeamsChamp, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 44d3d36d48e6af741cb25154e5a954b8366af9a3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 8ba17c02a5478213d3666651efdbb5e4ed342147
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283438"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527570"
 ---
 # <a name="teamschamp"></a>TeamsChamp
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 10, 2021</p>
+<p>Last updated by the developer on: July 1, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/4fea4594-3f83-4e33-9929-9af6b78a7340" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001487" target="_blank">Afficher dans AppSource</a>
@@ -56,10 +56,10 @@ Ces informations ont été fournies par TeamsChamp sur la façon dont cette appl
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | délégué | Se connectez et lisez le profil des utilisateurs | Aucune donnée stockée dans notre bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
->| User.ReadBasic.All | délégué | Lire le profil de base de tous les utilisateurs | Aucune donnée stockée dans notre bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
->| profil | délégué | Afficher le profil de base des utilisateurs | Aucune donnée stockée dans notre bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | délégué | Se connectez et lisez le profil des utilisateurs | Aucune donnée stockée dans notre bbdd | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
+>| User.ReadBasic.All | délégué | Lire le profil de base de tous les utilisateurs | Aucune donnée stockée dans notre bbdd | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
+>| profil | délégué | Afficher le profil de base des utilisateurs | Aucune donnée stockée dans notre bbdd | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -67,7 +67,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Paiements par bande | Nom de la comnpany, ID CIF/TVA, Adresse fiscale | Paiements |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -79,7 +79,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Informations personnelles en tant que nom complet, courrier électronique
 
@@ -87,7 +87,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->suppression, rétention, audit, archivage, toutes les gestions dans le centre d’administration stripe
+>suppression, rétention, audit, archivage, toutes les gestions dans le centre d’administration de bande
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -101,7 +101,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36549' frameborder='no' style='width: 100%;'></iframe>
 
@@ -119,7 +119,7 @@ Ces informations ont été fournies par TeamsChamp sur la façon dont cette appl
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

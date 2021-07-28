@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour PlayQuiz - Aprende Juega, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre &amp; CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 76593cbcaa9d4284fab7b90e887090254d4ca414
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 2d538edf2b96311ea7f2611a33d2362786453ee3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852061"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528140"
 ---
-# <a name="playquiz---aprende-amp-juega"></a>PlayQuiz - Aprende &amp; Juega
+# <a name="playquiz---aprende-amp-juega"></a>Questionnaire de jeu – Aprende &amp; Juega
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Informations fournies par TeamsChamp à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | PlayQuiz - Aprende &amp; Juega |
+| Nom de l'application | Questionnaire de jeu – Aprende &amp; Juega |
 | ID | WA200002820 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | TeamsChamp |
@@ -56,11 +56,11 @@ Ces informations ont été fournies par TeamsChamp sur la façon dont cette appl
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | délégué | Nom, e-mail et photo de profil de l’utilisateur | e-mail, pour s’afficher dans l’application et le nom pour l’afficher dans l’application | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| User.ReadBasic.All | délégué | Nom, e-mail et image de profil | ne stockez pas ces données, lisez-les uniquement pour les afficher dans le leaderboad (application) | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| openid | délégué | afficher le profil de base de l’utilisateur | e-mail, pour la sing dans l’application et le nom pour l’afficher dans l’application | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| profil | délégué | Lire le profil de base de l’utilisateur | e-mail, pour la sing dans l’application et le nom pour l’afficher dans l’application | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | délégué | Nom, e-mail et photo de profil de l’utilisateur | e-mail, pour l’ing dans l’application et le nom pour l’afficher dans l’application | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| User.ReadBasic.All | délégué | Nom, e-mail et image de profil | ne stockez pas ces données, lisez-les uniquement pour les afficher dans le leaderboad (application) | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| openid | délégué | afficher le profil de base de l’utilisateur | e-mail, pour la sing dans l’application et le nom pour l’afficher dans l’application | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| profil | délégué | Lire le profil de base de l’utilisateur | e-mail, pour la sing dans l’application et le nom pour l’afficher dans l’application | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -78,7 +78,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -100,7 +100,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39114' frameborder='no' style='width: 100%;'></iframe>
 
@@ -118,11 +118,11 @@ Ces informations ont été fournies par TeamsChamp sur la façon dont cette appl
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

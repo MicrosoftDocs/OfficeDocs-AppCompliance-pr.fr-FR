@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Toutes les informations de sécurité et de conformité disponibles pour l’outil de rapports iPlanner pour le planificateur Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour l’outil de rapports iPlanner pour le Planificateur Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2b9797eb2b4ec271804711473a77f26a9cce4e13
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3591c67721188d8dc70bf4f2cf0e34bdb9ffc506
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281146"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526050"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>Outil de rapports iPlanner pour Office 365 planner
 
@@ -53,18 +53,18 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour créer une entrée de calendrier dans l’utilisateur&#8217;calendrier à la date d’échéance de la tâche. |  |
->| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour vérifier que l’utilisateur a le consentement et a accès pour utiliser l’API. |  |
->| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la tâche du planificateur, Outlook To Do courriers électroniques marqués et les mettre à jour. Pour créer une tâche du planificateur. |  |
->| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder au fichier en tant que pièce jointe et télécharger des fichiers vers une tâche. |  |
->| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la liste des plans et mettre à jour la tâche. |  |
->| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la tâche du planificateur et ajouter de nouvelles tâches, mettez à jour le compartiment et la ligne de compartiment. |  |
->| Mail.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | User.Read, pour obtenir la tâche du planificateur Outlook To Do, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur |  |
->| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour afficher les messages électroniques et envoyer des messages électroniques. |  |
->| Mail.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Obtenir l’objet du courrier à partir du courrier sélectionné. Permet à l’application d’obtenir des informations à partir de l’e-mail sélectionné, ce qui permet de copier le champ de description dans la description de la tâche et d’enregistrer des pièces jointes à partir du courrier électronique ou du courrier lui-même dans la tâche. Envoyer une notification. |  |
->| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir les utilisateurs Outlook To Do et mettre à jour User.Read, pour obtenir la Outlook To Do tâches du planificateur, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur. |  |
->| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Activer la connexion et lire le profil utilisateur |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour créer une entrée de calendrier dans l’utilisateur&#8217;calendrier à la date d’échéance de la tâche. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour vérifier que l’utilisateur a le consentement et a accès pour utiliser l’API. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la tâche du planificateur, Outlook To Do courriers électroniques marqués et les mettre à jour. Pour créer une tâche du planificateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder au fichier en tant que pièce jointe et télécharger des fichiers vers une tâche. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la liste des plans et mettre à jour la tâche. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la tâche du planificateur et ajouter de nouvelles tâches, mettez à jour le compartiment et la ligne de compartiment. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | User.Read, pour obtenir la tâche du planificateur Outlook To Do, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour afficher les messages électroniques et envoyer des messages électroniques. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Obtenir l’objet du courrier à partir du courrier sélectionné. Permet à l’application d’obtenir des informations à partir de l’e-mail sélectionné, ce qui permet de copier le champ de description dans la description de la tâche et d’enregistrer des pièces jointes à partir du courrier électronique ou du courrier lui-même dans la tâche. Envoyer une notification. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir les utilisateurs Outlook To Do et mettre à jour User.Read, pour obtenir la Outlook To Do tâches du planificateur, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Activer la connexion et lire le profil utilisateur | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -101,7 +101,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no' style='width: 100%;'></iframe>
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Contrôle, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 49b17e202fb358284b9a36ed33646926d649afe3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2ccca5bd5160eb1772245841df037d2033f58881
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553455"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527620"
 ---
 # <a name="retro"></a>Retro
 
@@ -34,7 +34,7 @@ Informations fournies par La balte Amadeus à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Retro |
 | ID | WA200001892 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Baltic Amadeus |
 | URL du site web partenaire | [https://www.ba.lt/en/](https://www.ba.lt/en/) |
 | URL de la politique de confidentialité | [https://retro.ba.lt/privacypolicy](https://retro.ba.lt/privacypolicy) |
@@ -62,21 +62,21 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
->| L’application Dispose de sa propre API Web qui n’est pas considérée comme un service Microsoft. Comme mentionné précédemment, il stocke la messagerie électronique et le nom complet à des fins d’identification et d’affichage de contenu appropriée. Ces données ne sont pas envoyées ailleurs. En outre, Il dispose d’une fonctionnalité facultative pour exporter les données de sprint vers l’espace de l’Atlassian. Pour ce faire, l’utilisateur doit entrer son nom d’utilisateur et son mot de passe. Ces données sont utilisées uniquement pour effectuer des demandes authentifiées à l’api d’api au nom de l’utilisateur et ne sont pas stockées ni enregistrées n’importe où. |  | Il possède sa propre API Web qui est également enregistrée dans azure. Pour pouvoir l’utiliser, l’utilisateur doit être authentifié via la plateforme d’identités Microsoft. L’utilisateur doit être authentifié pour que l’application Puisse serveurr du contenu spécifique à l’utilisateur |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| L’application Dispose de sa propre API Web qui n’est pas considérée comme un service Microsoft. Comme mentionné précédemment, il stocke la messagerie électronique et le nom complet à des fins d’identification et d’affichage de contenu appropriée. Ces données ne sont pas envoyées ailleurs. En outre, Il dispose d’une fonctionnalité facultative pour exporter les données de sprint vers l’espace de l’Atlassian. Pour ce faire, l’utilisateur doit entrer son nom d’utilisateur et son mot de passe. Ces données sont utilisées uniquement pour effectuer des demandes authentifiées à l’api d’api au nom de l’utilisateur et ne sont pas stockées ni enregistrées n’importe où. |  | Il possède sa propre API Web qui est également enregistrée dans azure. Pour pouvoir l’utiliser, l’utilisateur doit être authentifié via la plateforme d’identités Microsoft. L’utilisateur doit être authentifié pour que l’application Puisse serveurr le contenu spécifique de l’utilisateur |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Le bot accède à la liste afin de vérifier quel membre a rejoint ou quitté l’équipe. Sur cette base, il ajoute ou désactive cet utilisateur du projet afin qu’il ne soit plus affiché dans la liste des participants au sprint. | Email et FullName sont liés et stockés dans la base de données. Le courrier électronique est utilisé pour l’identification de l’utilisateur afin d’afficher le contenu approprié pour l’utilisateur connecté. FullName est utilisé pour afficher des informations, afin que les autres utilisateurs sachent pour qui ils évaluent ou écrivent des commentaires.  |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Non. La journalisation des erreurs est le seul processus qui génère des données de télémétrie/journaux dans l’application Journalisation des erreurs. Les journaux d’erreurs n’incluent pas d’EUII ou OII
 

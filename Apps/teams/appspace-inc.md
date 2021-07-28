@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Appspace, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7171a8574efe7757d024f4d9dd93056e7c206519
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: 592194c022b276a07d7fb91d9c0253724d8f28e7
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53459545"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527640"
 ---
-# <a name="appspace"></a>Espace d’application
+# <a name="appspace"></a>Appspace
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Informations fournies par Appspace, Inc. à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Espace d’application |
+| Nom de l'application | Appspace |
 | ID | WA200001738 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Appspace, Inc. |
@@ -56,9 +56,9 @@ Ces informations ont été fournies par Appspace, Inc. sur la façon dont cette 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Team.ReadBasic.All | délégué | Obtenez les équipes à qui appartient l’utilisateur. | Le cache d’application peut contenir les équipes et les ID à qui le compte d’utilisateur/service a accès. Ces données restent chiffrées tout au long de leur cycle de vie. | a9a866c4-e5cf-47f2-932c-db14cb89008f |
->| User.ReadBasic.All | délégué | Lire les propriétés de profil de base d’autres utilisateurs de votre organisation au nom de l’utilisateur inscrit. Cela inclut le nom d’affichage, le nom et prénom, l’adresse e-mail, les extensions ouvertes et la photo. Permet également à l’application de lire le profil complet de l’utilisateur connecté. | Le nom d’utilisateur de l’utilisateur connecté est persistant pour permettre aux utilisateurs d’identifier l’utilisateur ou le compte de service qu’ils ont lié à la plateforme d’espace d’application. | a9a866c4-e5cf-47f2-932c-db14cb89008f |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Team.ReadBasic.All | délégué | Obtenez les équipes à qui appartient l’utilisateur. | Le cache d’application peut contenir les équipes et les ID à qui le compte d’utilisateur/service a accès. Ces données restent chiffrées tout au long de leur cycle de vie. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
+>| User.ReadBasic.All | délégué | Lire les propriétés de profil de base d’autres utilisateurs de votre organisation au nom de l’utilisateur inscrit. Cela inclut le nom d’affichage, le nom et prénom, l’adresse e-mail, les extensions ouvertes et la photo. Permet également à l’application de lire le profil complet de l’utilisateur connecté. | Le nom d’utilisateur de l’utilisateur connecté est persistant pour permettre aux utilisateurs d’identifier l’utilisateur ou le compte de service qu’ils ont lié à la plateforme d’espace d’application. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -76,7 +76,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -112,11 +112,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Appspace, Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Appspace, Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

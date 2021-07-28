@@ -1,5 +1,5 @@
 ---
-title: Informations d’application pour stack overflow pour les Teams par Stack Overflow
+title: Informations d’application pour stack overflow pour Teams par Stack Overflow
 ms.author: elmalova
 author: elenamalova
 ms.date: 08/06/2020
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Stack Overflow pour Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: da3e4b0f9a5219bcf0d652938f24397c12b7bdb4
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7ea59acc5a3a85fd8ad827947c117266e95901fd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280856"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528240"
 ---
 # <a name="stack-overflow-for-teams"></a>Stack Overflow pour Teams
 
@@ -68,7 +68,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Le bot utilise l’API de conversation pour publier des messages directement dans la conversation teams. Le bot utilise également la liste de travail pour envoyer un message aux utilisateurs directement | Nous ne stockons pas les données de la liste |  |
 
 
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/23308' frameborder='no' style='width: 100%;'></iframe>
 

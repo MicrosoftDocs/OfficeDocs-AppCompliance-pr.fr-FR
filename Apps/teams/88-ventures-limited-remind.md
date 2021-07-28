@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Remind, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 56999a3dc9723eab8b56fcdbc434283a7c864534
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f39e0c35b88e3212743e30c7ab5ac40c74c708c3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282097"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525928"
 ---
 # <a name="remind"></a>Rappeler
 
@@ -28,7 +28,7 @@ ms.locfileid: "53282097"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par 88 Personnes limitées à Microsoft :
+Informations fournies par 88 personnes limitées à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -55,8 +55,8 @@ Ces informations ont été fournies par 88 Contrôles Limited sur la façon dont
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | délégué | aucune information stockée dans la base de données | permet à l’administrateur de parcourir l’annuaire d’utilisateurs de l’organisation pour les utilisateurs qui ont fixé des rappels publics | 88546d4f-9973-4716-98e4-cd181c04bc2d |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | délégué | aucune information stockée dans la base de données | permet à l’administrateur de parcourir l’annuaire d’utilisateurs de l’organisation pour les utilisateurs qui ont fixé des rappels publics | [88546d4f-9973-4716-98e4-cd181c04bc2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/88546d4f-9973-4716-98e4-cd181c04bc2d) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -70,7 +70,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| (1) Lorsqu’un utilisateur définit un rappel sur un message, le bot tente d’obtenir le nom de la personne qui a envoyé le message à l’origine pour afficher ces informations dans la liste des rappels de l’utilisateur (2) Lorsqu’un utilisateur définit un rappel pour un autre canal ou membre de conversation, le bot tente d’obtenir l’identité (utilisateur ou bot) et le nom de l’utilisateur mentionné pour l’afficher dans la liste de rappels de l’utilisateur | (1) Lorsqu’un utilisateur définit un rappel sur un message, le bot tente d’obtenir le nom de la personne qui a envoyé le message à l’origine pour afficher ces informations dans la liste des rappels de l’utilisateur (2) Lorsqu’un utilisateur définit un rappel pour un autre canal ou membre de conversation, le bot tente d’obtenir l’identité (utilisateur ou bot) et le nom de l’utilisateur mentionné pour l’afficher dans la liste de rappels de l’utilisateur |  |
 
 
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36058' frameborder='no' style='width: 100%;'></iframe>
 

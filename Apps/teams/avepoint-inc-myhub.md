@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour MyHub, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a45478d976bc03d682c1236d8f266bc7443973a0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: ffca0a4df366662e86001bb3d685986d877e8cca
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282017"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527630"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -55,15 +55,15 @@ Ces informations ont été fournies par AvePoint, inc. sur la façon dont cette 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Lire les données de l’annuaire | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Group.ReadWrite.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Lire et écrire tous les groupes | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Mail.Send | délégué | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Envoyer un courrier électronique en tant qu’utilisateur | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Reports.Read.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Accéder en lecture à tous les rapports d’utilisation | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Sites.FullControl.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Contrôler pleinement toutes les collections de sites | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Sites.Read.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Lire des éléments dans toutes les collections de sites  | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Sites.ReadWrite.All | délégué | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Modifier ou supprimer des éléments dans toutes les collections de sites | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| User.Read.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Lire tous les utilisateurs&#8217; profils complets | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Lire les données de l’annuaire | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.ReadWrite.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Lire et écrire tous les groupes | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Mail.Send | délégué | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Envoyer un courrier électronique en tant qu’utilisateur | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Reports.Read.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Accéder en lecture à tous les rapports d’utilisation | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.FullControl.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Contrôler pleinement toutes les collections de sites | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.Read.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Lire des éléments dans toutes les collections de sites  | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.ReadWrite.All | délégué | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Modifier ou supprimer des éléments dans toutes les collections de sites | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.Read.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | Lire tous les utilisateurs&#8217; profils complets | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -104,7 +104,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35843' frameborder='no' style='width: 100%;'></iframe>
 
@@ -122,7 +122,7 @@ Ces informations ont été fournies par AvePoint, inc. sur la façon dont cette 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

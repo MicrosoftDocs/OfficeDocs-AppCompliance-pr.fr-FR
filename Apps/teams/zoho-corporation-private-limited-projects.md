@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les projets Zoho, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6e447efd8259b94dbc41eed731912a2288600a5f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: cb0d9ec4caabe3307474e0927adc4a793046a449
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552685"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528340"
 ---
 # <a name="zoho-projects"></a>Zoho Projects
 
@@ -34,7 +34,7 @@ Informations fournies par Zoho Corporation Private Limited à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Zoho Projects |
 | ID | WA104381668 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Zoho Corporation Private Limited |
 | URL du site web partenaire | [https://www.zoho.com/projects/](https://www.zoho.com/projects/) |
 | URL de la Teams d’informations sur l’application | [https://www.zoho.com/projects/help/microsoft-teams-integrat...](https://www.zoho.com/projects/help/microsoft-teams-integration.html) |
@@ -56,17 +56,17 @@ Ces informations ont été fournies par Zoho Corporation Private Limited sur la 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | délégué |  | Avoir un accès total aux calendriers des utilisateurs. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Files.Read | délégué |  | Lire tous les fichiers. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Files.Read.All | délégué |  | Lisez tous les fichiers accessibles par l’utilisateur. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Files.Read.Selected | délégué |  | Lire les fichiers sélectionnés par l’utilisateur. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Tasks.Read | délégué |  | Lire les tâches utilisateur. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Tasks.ReadWrite | délégué |  | Créer, lire, mettre à jour et supprimer des tâches et des projets utilisateur. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Tasks.ReadWrite.Shared | délégué |  | Lire et écrire des tâches utilisateur et partagées. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| User.Read | délégué |  | Connectez-vous et lisez le profil utilisateur. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| User.ReadBasic.All | délégué |  | Lire les profils de base de tous les utilisateurs. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| offline_access | délégué |  | Conservez l’accès aux données à qui vous avez accordé l’accès. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué |  | Avoir un accès total aux calendriers des utilisateurs. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Files.Read | délégué |  | Lire tous les fichiers. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Files.Read.All | délégué |  | Lisez tous les fichiers accessibles par l’utilisateur. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Files.Read.Selected | délégué |  | Lire les fichiers sélectionnés par l’utilisateur. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Tasks.Read | délégué |  | Lire les tâches utilisateur. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Tasks.ReadWrite | délégué |  | Créer, lire, mettre à jour et supprimer des tâches et des projets utilisateur. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Tasks.ReadWrite.Shared | délégué |  | Lire et écrire des tâches utilisateur et partagées. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| User.Read | délégué |  | Connectez-vous et lisez le profil utilisateur. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| User.ReadBasic.All | délégué |  | Lire les profils de base de tous les utilisateurs. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| offline_access | délégué |  | Conservez l’accès aux données à qui vous lui avez accordé l’accès. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -101,7 +101,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/22961' frameborder='no' style='width: 100%;'></iframe>
 

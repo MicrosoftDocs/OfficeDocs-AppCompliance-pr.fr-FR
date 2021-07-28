@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour RememberThis par Tom Albums
+title: Informations sur l’application pour RememberThis par Tom Tom
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour RememberThis, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cebe00c603a83f524ef9307cd9753fc3442ea69c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a1804f11eaf52e9715b3b50ba558561794fc8b26
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551284"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527560"
 ---
 # <a name="rememberthis"></a>RememberThis
 
@@ -34,7 +34,7 @@ Informations fournies par Tom Tom à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | RememberThis |
 | ID | WA104381607 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Tom Morgan |
 | URL du site web partenaire | [https://www.thoughtstuff.co.uk/free-products/rememberthis](https://www.thoughtstuff.co.uk/free-products/rememberthis) |
 | URL de la Teams d’informations sur l’application | [https://www.thoughtstuff.co.uk/free-products/rememberthis](https://www.thoughtstuff.co.uk/free-products/rememberthis) |
@@ -69,7 +69,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Pour rappeler les utilisateurs à l’heure spécifiée | Oui - ConversationID, ActivityID, ServiceURL, DateTime à rappeler. Aucune de ces données n’est piI ou OII. |  |
 
 

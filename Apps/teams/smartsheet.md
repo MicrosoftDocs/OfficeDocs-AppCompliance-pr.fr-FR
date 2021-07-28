@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Smartsheet, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c97f12b0e1f423318c98419f11e7569c5285830d
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3b6f823a27352d3623826cf09f97c9a2f560307a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280936"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528300"
 ---
 # <a name="smartsheet"></a>Smartsheet
 
@@ -56,42 +56,42 @@ Ces informations ont été fournies par Smartsheet sur la façon dont cette appl
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.ReadWrite.All | délégué | Aucun. | Permet à notre application d’installer des applications pour le compte de l’utilisateur. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| Directory.Read.All | délégué | tenantId pour la récupération des informations à afficher dans l’interface utilisateur. | Nous permet de lire les applications que ce client utilise afin de vérifier si nous devons installer l’application pour eux. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| Group.Read.All | délégué | teamId/groupId pour la remise des messages. | Permet à notre application de lire les informations de base sur un groupe (ou Teams équipe) ainsi que sur les conversations. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| Group.ReadWrite.All | délégué | teamId/groupId pour la remise des messages. | Permet à notre application de démarrer de nouvelles conversations dans Teams. Cette autorisation inclut également l’étendue Read.All ci-dessus, mais nous avons également besoin de cette autorisation pour des raisons techniques. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| User.Read.All | délégué | userId. | Nous permet de lire les informations de base sur un utilisateur pendant le processus d’th. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| offline_access | délégué | refreshToken. | Permet à notre application de recevoir des jetons d’actualisation et d’actualiser le jeton d’th pour le compte de l’utilisateur lorsqu’il utilise l’application. | c68947ae-a07f-44ce-9a13-7b559251731d |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| AppCatalog.ReadWrite.All | délégué | Aucun. | Permet à notre application d’installer des applications pour le compte de l’utilisateur. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| Directory.Read.All | délégué | tenantId pour la récupération des informations à afficher dans l’interface utilisateur. | Nous permet de lire les applications que ce client utilise pour vérifier si nous devons installer l’application pour ces applications. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| Group.Read.All | délégué | teamId/groupId pour la remise des messages. | Permet à notre application de lire les informations de base sur un groupe (ou Teams équipe) ainsi que sur les conversations. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| Group.ReadWrite.All | délégué | teamId/groupId pour la remise des messages. | Permet à notre application de démarrer de nouvelles conversations dans Teams. Cette autorisation inclut également l’étendue Read.All ci-dessus, mais nous avons également besoin de cette autorisation pour des raisons techniques. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| User.Read.All | délégué | userId. | Nous permet de lire les informations de base sur un utilisateur pendant le processus d’th. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| offline_access | délégué | refreshToken. | Permet à notre application de recevoir des jetons d’actualisation et d’actualiser le jeton d’th pour le compte de l’utilisateur lorsqu’il utilise l’application. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| API Bot Framework | Oui | Nous utilisons l’API Bot Framework pour remettre des messages en tant qu’application pour l’application Teams. Smartsheet stocke les informations userId pour suivre les personnes avec qui le bot Smartsheet parle. |  | Aucun |  |
+>| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| API Bot Framework | Oui | Nous utilisons l’API Bot Framework pour remettre des messages en tant qu’application pour l’application Teams. Smartsheet stocke les informations userId pour savoir à qui le bot Smartsheet parle. |  | Aucun |  |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Smartsheet stocke les informations dans un état de mise au repos chiffré dans notre environnement de centre de données de production hébergé avec Equinix et dans AWS S3 où nous stockons les pièces jointes client dans des compartiments chiffrés privés. |  | Nous utilisons l’API bot Framework pour remettre des messages en tant qu’application pour l’application Teams. Smartsheet stocke les informations userId pour suivre les personnes avec qui le bot Smartsheet parle. |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| Smartsheet stocke les informations dans un état de mise au repos chiffré dans notre environnement de centre de données de production hébergé avec Equinix et dans AWS S3 où nous stockons les pièces jointes client dans des compartiments chiffrés privés. |  | Nous utilisons l’API bot Framework pour remettre des messages en tant qu’application pour l’application Teams. Smartsheet stocke les informations userId pour savoir à qui le bot Smartsheet parle. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Smartsheet l’utilise pour assurer le suivi des personnes que le bot parle également. Pendant le flux d’thème initial, nous créons un enregistrement de bot pour l’utilisateur dans le système de notification Smartsheet. | Pour smartsheet pour Teams bot, nous stockons les e-mails utilisateur et userId de Teams pour vous aider à suivre les personnes avec qui le bot parle.  Smartsheet stocke les tenantId pour aider à lister les groupes dont l’utilisateur fait partie dans l’annuaire et groupIds pour la remise des messages. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Non
 
@@ -113,7 +113,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11934' frameborder='no' style='width: 100%;'></iframe>
 

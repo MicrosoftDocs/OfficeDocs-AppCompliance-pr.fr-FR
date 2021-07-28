@@ -6,14 +6,14 @@ ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour clipTraining, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour ClipTraining, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9eb5383b9bd372e1f46af30b838160bca88e308b
-ms.sourcegitcommit: 5cd33d38cc7376b28458ee47ebc2c2710ce7f113
+ms.openlocfilehash: 5d59d4cbd2d28f1c906e541e7ffc78311c12ffb6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339816"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525768"
 ---
 # <a name="cliptraining"></a>ClipTraining
 
@@ -56,11 +56,11 @@ Ces informations ont été fournies par ClipTraining sur la façon dont cette ap
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | délégué | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| offline_access | délégué | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| openid | délégué | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| profil | délégué | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | af089bb5-48be-413d-ad34-53c32799da7d |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | délégué | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| offline_access | délégué | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| openid | délégué | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| profil | délégué | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | Adresse de messagerie, prénom, nom de famille pour la connexion et la correspondance de l’utilisateur.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -68,7 +68,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| service d’hébergement non-Microsoft, non Microsoft CRM | Prénom, nom, adresse e-mail | Obligatoire pour une utilisation professionnelle |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -80,7 +80,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Prénom, nom, adresse e-mail. Rétention et suppression par stratégie ClipTraining, disponible sur demande
 
@@ -120,7 +120,7 @@ Ces informations ont été fournies par ClipTraining sur la façon dont cette ap
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

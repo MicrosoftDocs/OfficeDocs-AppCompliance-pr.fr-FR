@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour officeatwork | S’il s’Office, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b43171b21c8f9406922c60741efa3e2f6c44c2c5
-ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
+ms.openlocfilehash: 1771077916652e6323145a12833277e538f14e02
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341229"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527790"
 ---
 # <a name="officeatwork--image-chooser-for-office"></a>officeatwork | S’il s’Office
 
@@ -54,24 +54,24 @@ Ces informations ont été fournies par officeatwork sur la façon dont cette ap
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée. | Favoris : pour pouvoir lire et écrire des données aux utilisateurs OneDrive. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
->| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée. | OneDrive : pour pouvoir lire et écrire des données aux utilisateurs OneDrive. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
->| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée. | Teams : pour pouvoir lire et écrire des données dans un groupe. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
->| GroupMember.Read.All | délégué | Aucune donnée n’est stockée. | SharePoint En ligne - Prise en charge des groupes de sécurité : pour permettre à l’application de ré lister des groupes, lire les propriétés de groupe de base et lire les appartenances de tous les groupes à partir des utilisateurs inscrits | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
->| Sites.Read.All | délégué | Aucune donnée n’est stockée. | SharePoint En ligne : pour activer la lecture de données à SharePoint Online. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
->| User.Read | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre à l’application Officeatwork de lire les propriétés de base de l’utilisateur. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
->| User.Read.All | délégué | Aucune donnée n’est stockée. | Teams : pour savoir à quels groupes appartient un utilisateur. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
->| offline_access | délégué | Aucune donnée n’est stockée. | Sing-In : pour activer la sign-in automatique via des jetons d’actualisation, comme sans, les utilisateurs doivent se connecter manuellement chaque fois qu’ils lancent l’application officeatwork. Cette étendue est uniquement requise pour les applications hôtes non-SSO. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
->| openid | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre aux utilisateurs de se connectent à l’application officeatwork avec leur compte d’organisation et/ou Microsoft. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
->| profil | délégué | Aucune donnée n’est stockée. | Sing-In : pour afficher l’utilisateur inscrit dans l’application officeatwork. Cela permet d’assurer/de confirmer à l’utilisateur quel compte a été utilisé pour se connecter à l’application officeatwork. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée. | Favoris : pour pouvoir lire et écrire des données aux utilisateurs OneDrive. | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée. | OneDrive : pour pouvoir lire et écrire des données aux utilisateurs OneDrive. | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée. | Teams : pour pouvoir lire et écrire des données dans un groupe. | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| GroupMember.Read.All | délégué | Aucune donnée n’est stockée. | SharePoint En ligne - Prise en charge des groupes de sécurité : pour permettre à l’application de ré lister des groupes, lire les propriétés de groupe de base et lire les appartenances de tous les groupes à partir des utilisateurs inscrits | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| Sites.Read.All | délégué | Aucune donnée n’est stockée. | SharePoint En ligne : pour activer la lecture de données à SharePoint Online. | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| User.Read | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre à l’application Officeatwork de lire les propriétés de base de l’utilisateur. | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| User.Read.All | délégué | Aucune donnée n’est stockée. | Teams : pour savoir à quels groupes appartient un utilisateur. | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| offline_access | délégué | Aucune donnée n’est stockée. | Sing-In : pour activer la sign-in automatique via des jetons d’actualisation, comme sans, les utilisateurs doivent se connecter manuellement chaque fois qu’ils lancent l’application officeatwork. Cette étendue est uniquement requise pour les applications hôtes non-SSO. | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| openid | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre aux utilisateurs de se connectent à l’application officeatwork avec leur compte d’organisation et/ou Microsoft. | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| profil | délégué | Aucune donnée n’est stockée. | Sing-In : pour afficher l’utilisateur inscrit dans l’application officeatwork. Cela permet d’assurer/de confirmer à l’utilisateur quel compte a été utilisé pour se connecter à l’application officeatwork. | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| API REST SharePoint | Non |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -124,7 +124,7 @@ Ces informations ont été fournies par officeatwork sur la façon dont cette ap
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |

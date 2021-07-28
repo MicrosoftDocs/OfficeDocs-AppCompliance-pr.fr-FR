@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Tryane Analytics, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d5b5119f0c9897b6d59163ad03580744a7f822f0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 2bfff7785dbad9398697aef468115cb8f7275acd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283570"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527550"
 ---
 # <a name="tryane-analytics"></a>Tryane Analytics
 
@@ -55,15 +55,15 @@ Ces informations ont été fournies par Tryane sur la façon dont cette applicat
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ActivityFeed.Read | application |  | Lire toutes les activités des utilisateurs dans teams | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| Channel.ReadBasic.All | application |  | Lister tous les canaux avec des noms, des descriptions | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| ChannelMessage.Read.All | application |  | Liste de tous les messages de canaux&#8217; métadonnées | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| Directory.Read.All | application |  | Identifier les utilisateurs avec une licence d’équipe dans le client | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| Member.Read.Hidden | application |  | Obtenir la liste de toutes les équipes,&#8217;membres de l’équipe et les appartenances masquées | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| Reports.Read.All | application |  | Lire toutes les activités des utilisateurs dans teams | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| Team.ReadBasic.All | application |  | Liste de toutes les propriétés de canaux et d’équipes | 9b03f15d-1219-4b2f-9699-640be54e1319 |
->| User.Read | délégué | ID d’utilisateur, nom, adresse e-mail, date de création. Nous stockons ces données afin de fournir une analyse de l’utilisation sur Teams | Identifier l’utilisateur actuel pendant l’abonnement | 9b03f15d-1219-4b2f-9699-640be54e1319 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ActivityFeed.Read | application |  | Lire toutes les activités des utilisateurs dans teams | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Channel.ReadBasic.All | application |  | Lister tous les canaux avec des noms, des descriptions | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| ChannelMessage.Read.All | application |  | Liste de tous les messages de canaux&#8217; métadonnées | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Directory.Read.All | application |  | Identifier les utilisateurs avec une licence d’équipe dans le client | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Member.Read.Hidden | application |  | Obtenir la liste de toutes les équipes,&#8217;membres de l’équipe et les appartenances masquées | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Reports.Read.All | application |  | Lire toutes les activités des utilisateurs dans teams | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Team.ReadBasic.All | application |  | Liste de toutes les propriétés de canaux et d’équipes | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| User.Read | délégué | ID d’utilisateur, nom, adresse e-mail, date de création. Nous stockons ces données afin de fournir une analyse de l’utilisation sur Teams | Identifier l’utilisateur actuel pendant l’abonnement | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -81,9 +81,9 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->La règle organisationnelle décrite dans notre stratégie de sécurité informatique et nos normes de codage nous empêchent d’avoir eu l’EUII et L’OII apparaissent dans les journaux
+>La règle organisationnelle décrite dans notre stratégie de sécurité informatique et nos normes de codage nous empêchent d’avoir des euii et des OII dans les journaux
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -105,7 +105,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36057' frameborder='no' style='width: 100%;'></iframe>
 

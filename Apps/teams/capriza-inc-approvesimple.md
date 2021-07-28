@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ApproveSimple, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 99c004ca24967cff420bedb98cadbf227a88d3da
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a4e133d6f86ea92bc210af8399186701f6a4744f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553275"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525838"
 ---
 # <a name="approvesimple"></a>ApproveSimple
 
@@ -34,7 +34,7 @@ Informations fournies par Contrôleza, Inc à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | ApproveSimple |
 | ID | WA104381812 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Capriza, Inc |
 | URL du site web partenaire | [https://www.capriza.com/msteams-landing-page](https://www.capriza.com/msteams-landing-page) |
 | URL de la Teams d’informations sur l’application | [https://support.capriza.com/](https://support.capriza.com/) |
@@ -69,8 +69,8 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
->| Informer l’utilisateur d’une nouvelle demande d’approbation en attente | adresse électronique |  |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Avertir l’utilisateur d’une nouvelle demande d’approbation en attente | adresse électronique |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour StarLeaf, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9dc0761fa00e94d97f3d29b4ac85e1d607498288
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8f9878d4de6e09c283c6d13ee7351de9fb5f0eb8
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553835"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528230"
 ---
 # <a name="starleaf"></a>StarLeaf
 
@@ -34,7 +34,7 @@ Informations fournies par StarLeaf à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | StarLeaf |
 | ID | WA200000185 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | StarLeaf |
 | URL du site web partenaire | [https://www.starleaf.com](https://www.starleaf.com) |
 | URL de la politique de confidentialité | [https://support.starleaf.com/legal-information/starleaf-pri...](https://support.starleaf.com/legal-information/starleaf-privacy-notice/) |
@@ -55,9 +55,9 @@ Ces informations ont été fournies par StarLeaf sur la façon dont cette applic
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | application | nous stockons l’iCalUId des réunions, l’heure/la date de la réunion, les adresses e-mail des participants et une propriété à valeur unique étendue que nous lisons et écrivons sur la réunion à l’aide de l’interface des propriétés personnalisées Office.js. L’iCalUId est utilisé pour mettre en corrélation la réunion dans un&#8217;calendrier Outlook avec la réunion vidéo sur notre service. L’heure/la date et les participants sont utilisés pour fournir une réunion vidéo au bon moment aux bonnes personnes sur notre service. SvEP est utilisé avec notre addin O365 pour fournir une interface aux utilisateurs pour définir des détails sur la réunion vidéo sur notre service, comme l’enregistrement. | permet de s’abonner aux notifications webhook pour suivre les modifications apportées par les utilisateurs aux événements dans leurs calendriers et de mettre à jour notre service pour le maintenir cohérent. Il est également utilisé pour créer des événements dans son calendrier lorsqu’un utilisateur interagit avec notre application Teams et planifier une réunion sur notre service. | 6e86b349-768f-4953-ac2e-fb03f92db4be |
->| User.Read | application | nous stockons le jeton d’actualisation oauth pour pouvoir se connecter. Nous stockons l’ID de profil des utilisateurs pour pouvoir les comparer aux futures tentatives OAuth de cet utilisateur et nous nous assurons que nous ne&#8217;pas stocker leurs détails deux fois.  | autoriser les utilisateurs à se connecter à l’application et permet à notre application d’obtenir l’adresse de messagerie de l'&#8217;pour corréler leur connexion avec un compte sur notre service.  | 6e86b349-768f-4953-ac2e-fb03f92db4be |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | application | nous stockons l’iCalUId des réunions, l’heure/la date de la réunion, les adresses e-mail des participants et une propriété à valeur unique étendue que nous lisons et écrivons sur la réunion à l’aide de l’interface des propriétés personnalisées Office.js. L’iCalUId est utilisé pour mettre en corrélation la réunion dans un&#8217;calendrier Outlook avec la réunion vidéo sur notre service. L’heure/la date et les participants sont utilisés pour fournir une réunion vidéo au bon moment aux bonnes personnes sur notre service. SvEP est utilisé avec notre addin O365 pour fournir une interface aux utilisateurs pour définir des détails sur la réunion vidéo sur notre service, comme l’enregistrement. | permet de s’abonner aux notifications webhook pour suivre les modifications apportées par les utilisateurs aux événements dans leurs calendriers et de mettre à jour notre service pour le maintenir cohérent. Il est également utilisé pour créer des événements dans son calendrier lorsqu’un utilisateur interagit avec notre application Teams et planifier une réunion sur notre service. | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
+>| User.Read | application | nous stockons le jeton d’actualisation oauth pour pouvoir nous connecter. Nous stockons l’ID de profil des utilisateurs pour pouvoir comparer les futures tentatives OAuth de cet utilisateur et nous nous assurons que nous ne&#8217;pas stocker leurs détails deux fois.  | autoriser les utilisateurs à se connecter à l’application et permet à notre application d’obtenir l’adresse de messagerie de l'&#8217;pour corréler leur connexion avec un compte sur notre service.  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -65,21 +65,21 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Si des problèmes de support technique surviennent, les données organisationnelles peuvent être transférées vers SalesForce pour la gestion des cas. Si l’utilisateur utilise la fonctionnalité de numérotation PSTN, l’appel passe par Twilio, Plivo ou Voxivo. |  | S/O |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| Si des problèmes de support technique surviennent, les données organisationnelles peuvent être transférées vers SalesForce pour la gestion des cas. Si l’utilisateur utilise la fonctionnalité de numérotation PSTN, l’appel passe par Twilio, Plivo ou Voxcourir |  | N/A |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Le bot accède à la liste de l’équipe afin de réserver une réunion pour le compte de l’utilisateur/de l’hôte qui la réserve via le bot. Cela permet à StarLeaf de fournir une expérience de jointage transparente avec un bouton pour participer à des réunions. | Prénom, nom, adresse e-mail. Cela permet au bot StarLeaf de réserver une réunion pour le compte de l’utilisateur/de l’hôte qui a interagi avec le bot et d’inviter les autres membres de l’équipe à la réunion. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui. Les journaux incluent les noms d’utilisateur, les adresses IP, les enregistrements des détails des appels, les informations sur la qualité de connexion (perte de paquets, vitesse de bit), le type d’appareil, la progression des appels. Les informations sont disponibles pour l’équipe de support technique et les développeurs senior pour diagnostiquer les problèmes de service. Les données sont rendues anonymes après 90 jours. Les contrôles de protection de ces données sont audités dans le cadre de notre certification ISO/IEC 27001.
 

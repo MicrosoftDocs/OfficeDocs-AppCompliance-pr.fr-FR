@@ -6,12 +6,12 @@ description: Plus d’informations sur le programme Publisher attestation d’at
 keywords: questionnaire appSource de certification d’attestation d’application 365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1d3652bb2f0eab3f1f533ce4acf3d13104843eea
-ms.sourcegitcommit: 98b9f17063c7ada0890b37af405990ad5eedd0b9
+ms.openlocfilehash: 285fb4c74f2f5bdda3defee92dafa22f07d94314
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53466024"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526110"
 ---
 # <a name="complete-publisher-attestation"></a>Attestation d’Publisher complète
 
@@ -20,7 +20,7 @@ Publisher L’attestation est un programme volontaire qui vous permet d’effect
 > [!IMPORTANT]
 > Microsoft ne valide pas les informations fournies. Le développeur est le seul responsable des informations qu’il fournit dans l’auto-évaluation. 
 
-**Publisher L’attestation s’applique aux applications Web (applications SaaS publiées via commercial marketplace dans l’Espace partenaires) et à toutes les applications qui s’intègrent aux produits Microsoft suivants :**
+Publisher L’attestation s’applique aux applications web (applications SaaS publiées via commercial marketplace dans l’Espace partenaires). Les applications SaaS sont actuellement en prévisualisation privée, si vous souhaitez participer, remplissez ce [formulaire.](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu) L’attestation inclut également toutes les applications qui s’intègrent aux produits Microsoft suivants :
 - Teams
 - Word
 - Excel
@@ -47,7 +47,7 @@ Publisher L’attestation est un programme volontaire qui vous permet d’effect
 2. **Attendez les commentaires et** les résultats de l’examen . Pendant la vérification de la cohérence, si les analystes trouvent des problèmes bloquants tels que des données de réponse insuffisantes, vous serez contacté pour obtenir plus d’informations. Les analystes conserveront un journal d’activité d’application détaillant les résultats de l’examen et vos soumissions de suivi tout au long du processus. Une fois que vous avez déterminé que votre rapport d’attestation est terminé et que vos réponses sont acceptables, votre envoi est approuvé. Votre statut d’approbation sera valide pendant un an à partir de l’heure de la soumission.
 
 > [!NOTE]
-> Si, au cours de la période d’état de l’approbation intermédiaire, vous mettez à jour ou modifiez votre application ou que vous recevez une notification de notification d’erreur de soumission d’attestation signalée, vous devez réviser et soumettre à nouveau votre documentation.
+> Si, au cours de la période d’état d’approbation intermédiaire, vous mettez à jour ou modifiez votre application, ou si vous recevez une notification de mauvaise information de soumission d’attestation signalée, vous devez réviser et soumettre à nouveau votre documentation.
 
 3. **Afficher le portail en ligne** — Une fois votre attestation approuvée, votre application est répertoriée dans le référentiel en ligne et inclut les informations suivantes :
 
@@ -62,9 +62,9 @@ Par exemple, *consultez la Microsoft Teams* [conformité des applications](../te
    Si votre attestation Publisher n’est pas renouvelé avant la date d’expiration, l’état de l’attestation de vos applications est révoqué et votre attestation Publisher est supprimée des pages de documents Microsoft. 
 
 >[!IMPORTANT]
->En participant au programme d’attestation d’Publisher, vous acceptez ces conditions supplémentaires et vous respectez toute documentation qui s’applique à votre participation au programme d’attestation Publisher avec Microsoft Corporation ( « Microsoft », « nous », « nous » ou « notre »). Vous nous faites part de l’autorisation d’accepter ces conditions supplémentaires d’attestation Publisher au nom de vous-même, d’une société et/ou d’une autre entité, le cas échéant. Nous pouvons modifier, modifier ou mettre fin à ces termes supplémentaires à tout moment. Votre participation continue au programme d’attestation Publisher après toute modification ou modification signifie que vous acceptez les nouvelles conditions supplémentaires. Si vous n’acceptez pas les nouvelles conditions supplémentaires ou si nous résilions ces termes, vous devez arrêter de participer au programme d’attestation Publisher’attestation d’accès.
+>En participant au programme d’attestation d’Publisher, vous acceptez ces conditions supplémentaires et vous respectez toute documentation qui s’applique à votre participation au programme d’attestation Publisher avec Microsoft Corporation ( « Microsoft », « nous », « nous » ou « notre »). Vous nous faites part de l’autorisation d’accepter ces conditions supplémentaires d’attestation Publisher au nom de vous-même, d’une société et/ou d’une autre entité, le cas échéant. Nous pouvons modifier, modifier ou mettre fin à ces termes supplémentaires à tout moment. Votre participation continue au programme d’attestation Publisher après toute modification ou modification signifie que vous acceptez les nouvelles conditions supplémentaires. Si vous n’acceptez pas les nouvelles conditions supplémentaires ou si nous résilions ces conditions, vous devez arrêter de participer au programme d’attestation Publisher'
 
-## <a name="learn-more"></a>En savoir plus
+## <a name="learn-more"></a>Si vous souhaitez en savoir plus
 
 * [Microsoft 365 Vue d’ensemble du programme de conformité des applications](~/overview.md)  
 * [Vérification Publisher complète](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  

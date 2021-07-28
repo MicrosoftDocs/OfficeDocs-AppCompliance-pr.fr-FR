@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Beekast, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 01d29afbca709690d19f27a5a0c51e7b13a9672d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3fe1f857d283cf3b582744351590d0d2a0959190
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553365"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527610"
 ---
 # <a name="beekast"></a>Beekast
 
@@ -34,7 +34,7 @@ Informations fournies par Beekast à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Beekast |
 | ID | WA200001447 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Beekast |
 | URL du site web partenaire | [https://www.beekast.com](https://www.beekast.com) |
 | URL de la Teams d’informations sur l’application | [https://www.beekast.com](https://www.beekast.com) |
@@ -56,8 +56,8 @@ Ces informations ont été fournies par Beekast sur la façon dont cette applica
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | délégué | Courrier électronique, prénom et nom : ces données sont utilisées pour collaborer au sein d’une application beekast. | Courrier électronique, prénom et nom : ces données sont utilisées pour collaborer au sein d’une application beekast et doivent être stockées pour être utilisées à la fois à l’intérieur et à l’extérieur du contexte Teams MS. | 4d0997dc-df53-4b18-9df1-bb283f8a0377 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | délégué | Courrier électronique, prénom et nom : ces données sont utilisées pour collaborer au sein d’une application beekast. | Courrier électronique, prénom et nom : ces données sont utilisées pour collaborer au sein d’une application beekast et doivent être stockées pour être utilisées à la fois à l’intérieur et à l’extérieur du contexte Teams MS. | [4d0997dc-df53-4b18-9df1-bb283f8a0377](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d0997dc-df53-4b18-9df1-bb283f8a0377) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -65,7 +65,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Aucun OII n’est transféré, uniquement EUII | Aucun OII n’est transféré, uniquement EUII | Non applicable (aucun OII n’est transféré, uniquement EUII) |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Text, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f87ac4854d4301ea194d7b906f9b417e268a9df3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: fec1cbe4c30ef87592503e6e00ad1063cf953e05
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281426"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525888"
 ---
 # <a name="text"></a>Texte
 
@@ -55,12 +55,12 @@ Ces informations ont été fournies par le contact approuvé sur la façon dont 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | délégué | Pour le bot de texte, nous captureons l’identificateur d’équipe pour la création de futurs canaux pour les messages texte entrants. | Nous permet de créer des canaux Teams pour les utilisateurs. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| email | délégué | adresses de messagerie | Obtention des informations de contact de l’utilisateur. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| offline_access | délégué | Les jetons d’actualisation sont stockés dans notre base de données. | Utilisé pour rendre persistants les jetons d’actualisation dans notre base de données | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| openid | délégué | Informations d’identification de connexion | Permet à l’utilisateur de se connecter. afin que les textes soient remis dans Teams canaux | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| profil | délégué | adresses de messagerie | Obtention des informations de contact de l’utilisateur. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | délégué | Pour le bot de texte, nous captureons l’identificateur d’équipe pour la création de futurs canaux pour les messages texte entrants. | Nous permet de créer des canaux Teams pour les utilisateurs. | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
+>| email | délégué | adresses de messagerie | Obtention des informations de contact de l’utilisateur. | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
+>| offline_access | délégué | Les jetons d’actualisation sont stockés dans notre base de données. | Utilisé pour rendre persistants les jetons d’actualisation dans notre base de données | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
+>| openid | délégué | Informations d’identification de connexion | Permet à l’utilisateur de se connecter. afin que les textes soient remis dans Teams canaux | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
+>| profil | délégué | adresses de messagerie | Obtention des informations de contact de l’utilisateur. | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -74,7 +74,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Utilisé pour rendre persistants les jetons d’actualisation dans notre base de données | Nous stockons les adresses de messagerie. | Utilisé pour rendre persistants les jetons d’actualisation dans notre base de données |
 
 
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35752' frameborder='no' style='width: 100%;'></iframe>
 
@@ -124,7 +124,7 @@ Ces informations ont été fournies par le contact approuvé sur la façon dont 
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |

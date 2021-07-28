@@ -6,23 +6,24 @@ description: Microsoft 365 Détails de certification
 keywords: attestation d’application microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 4322695ea694e30d42925e8316c848b867394f3b
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: 64e4d36f58c36447c3af48cfde22de6ecc722998
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315074"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526090"
 ---
 # <a name="what-is-microsoft-365-certification"></a>Qu’est-ce Microsoft 365 certification ?
 
 Microsoft 365 La certification garantit que les données et la confidentialité sont correctement sécurisées et protégées lorsque vous utilisez une application tierce. La certification confirme qu’une application est conforme aux critères décrits dans le [guide Microsoft 365 soumission de certification.](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide) Les applications qui passent la validation sont désignées Microsoft 365 certifié.
 La certification des applications est obtenue par le biais de la révision et de l’approbation d’un analyste qualifié d’une évaluation complète qui se centre sur les cadres, processus et procédures de sécurité et de conformité d’une application. Bien que la participation soit facultative, la réception d’une certification est un moyen inessible de signaler que votre application et vos procédures opérationnelles ont fait l’objet d’un examen de sécurité intensif.
 
-Microsoft 365 La certification s’applique à WebApps et à toutes les applications qui s’intègrent aux produits Microsoft suivants :
+Microsoft 365 La certification s’applique aux applications web (applications SaaS publiées via commercial marketplace dans l’Espace partenaires). Les applications SaaS sont actuellement en prévisualisation privée, si vous souhaitez participer, remplissez ce [formulaire.](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu) La certification inclut également toutes les applications qui s’intègrent aux produits Microsoft suivants :
+
 - Teams
 - Word
 - Excel
-- PowerPoint
+- PowerPoint 
 - Outlook
 - SharePoint
 - Project

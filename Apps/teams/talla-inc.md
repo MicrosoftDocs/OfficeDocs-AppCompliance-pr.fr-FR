@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Talla, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 18fe09766a0ab7becef2d4630fc458e97576d7d1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 38945ddbcda225652973de5a292c1f56575c3f6e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553805"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528170"
 ---
 # <a name="talla"></a>Talla
 
@@ -34,7 +34,7 @@ Informations fournies par Talla Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Talla |
 | ID | WA104381253 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Talla Inc. |
 | URL du site web partenaire | [https://www.talla.com](https://www.talla.com) |
 | URL de la Teams d’informations sur l’application | [https://help.talla.com/](https://help.talla.com/) |
@@ -69,7 +69,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Talla stocke l’ID d’utilisateur Microsoft, l’adresse e-mail des utilisateurs, le prénom, le nom et le nom d’affichage. Ceux-ci sont utilisés pour indentifier l’utilisateur et communiquer avec lui.  | Talla stocke un profil utilisateur qui inclut : ID utilisateur Microsoft, prénom et nom, nom d’affichage et adresse e-mail dans sa base de données. |  |
 
 
@@ -92,7 +92,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35677' frameborder='no' style='width: 100%;'></iframe>
 

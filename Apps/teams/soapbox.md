@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Soapbox, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6e2b43df38aac6307c36c4a2cc8d00fe1c3fb629
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 89151d495479f3390aa179f810325ab56f77337a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552775"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528280"
 ---
 # <a name="soapbox"></a>Soapbox
 
@@ -34,7 +34,7 @@ Informations fournies par Soapbox à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Soapbox |
 | ID | WA104381501 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Soapbox |
 | URL du site web partenaire | [https://soapboxhq.com](https://soapboxhq.com) |
 | URL de la Teams d’informations sur l’application | [https://msteams.services.soapboxhq.com/faqs](https://msteams.services.soapboxhq.com/faqs) |
@@ -56,10 +56,10 @@ Ces informations ont été fournies par Soapbox sur la façon dont cette applica
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | délégué | Jeton de synchronisation. | L’accès au calendrier est nécessaire pour synchroniser les réunions SoapBox avec les événements de calendrier |  |
->| User.Read | délégué | Nom, e-mail, ID d’utilisateur Microsoft. | Le nom et le courrier électronique sont utilisés pour créer des utilisateurs SoapBox. |  |
->| offline_access | délégué |  | L’accès hors connexion aux calendriers est nécessaire pour rendre les notifications SoapBox pertinentes pour les événements de calendrier synchronisés. |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué | Jeton de synchronisation. | L’accès au calendrier est nécessaire pour synchroniser les réunions SoapBox avec les événements de calendrier | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | délégué | Nom, e-mail, ID d’utilisateur Microsoft. | Le nom et le courrier électronique sont utilisés pour créer des utilisateurs SoapBox. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | délégué |  | L’accès hors connexion aux calendriers est nécessaire pour rendre les notifications SoapBox pertinentes pour les événements de calendrier synchronisés. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -73,13 +73,13 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| L’application accède à la liste d’équipe et à la liste de conversation que nous utilisons pour créer des canaux d’équipe dans SoapBox avec les membres de l’équipe/de la conversation | Nom, e-mail, ID d’utilisateur Microsoft des utilisateurs pour améliorer l’apparence de l’application pour les utilisateurs de Microsoft Teams et s’assurer que chaque utilisateur peut s’impliquer pleinement dans le logiciel de réunion. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui. Le nom, la messagerie électronique et l’ID d’utilisateur Microsoft apparaissent dans notre plateforme de journalisation unifiée pendant 30 jours au maximum pour vous aider à identifier les problèmes et à aider les utilisateurs à utiliser la plateforme. Après 30 jours, les données sont supprimées des serveurs de journalisation.
 
