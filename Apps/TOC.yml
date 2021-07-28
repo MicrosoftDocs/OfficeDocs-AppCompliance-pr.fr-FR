@@ -33,9 +33,9 @@
           href: excel/harmonie-corporation-for-office.md
         - name: Outil de rapports iPlanner pour Office 365 planner
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
-        - name: Jira Cloud for Excel
+        - name: Jira Cloud pour Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Diagrammes d’image graphique pour Excel
+        - name: Diagrammes de diagrammes d’Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
         - name: MeaningCloud Text Analytics pour Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
@@ -64,7 +64,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 pour Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Applications microsoft Outlook
+    - name: Applications Microsoft Outlook
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign Add-In for Outlook
@@ -95,7 +95,7 @@
           href: outlook/iglobe-office2sharepoint-for-outlook.md
         - name: officeatwork | S’il s’Outlook
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
-        - name: OnePlaceMail pour Outlook
+        - name: OnePlaceMail for Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
         - name: 'Matrice de priorité : transformer les e-mails en tâches'
           href: outlook/appfluence-inc-priority-matrix-turn-emails-into-tasks.md
@@ -111,7 +111,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM pour la messagerie
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Applications microsoft PowerPoint
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign pour Word et PowerPoint
@@ -175,7 +175,7 @@
           href: teams/alvao-sro-service-desk.md
         - name: ApproveSimple
           href: teams/capriza-inc-approvesimple.md
-        - name: Espace d’application
+        - name: Appspace
           href: teams/appspace-inc.md
         - name: Asana
           href: teams/asana.md
@@ -391,6 +391,8 @@
           href: teams/regroove-solutions-navo.md
         - name: netDocShare
           href: teams/kl-software-technologies-netdocshare.md
+        - name: ngDesk
+          href: teams/all-blue-solutions-ngdesk.md
         - name: Agent désormais virtuel
           href: teams/servicenow-now-virtual-agent.md
         - name: Nugget
@@ -616,7 +618,7 @@
           href: word/lucid-software-inc-lucidchart-diagrams-for-word.md
         - name: Office2SharePoint pour Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: officeatwork | S’il s’il s’Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Concepteur pour Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
@@ -657,7 +659,7 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
-        - name: S’il s’il s’est choisi
+        - name: S chooser des diapositives
           href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser
           href: saas/officeatwork-template-chooser.md
@@ -820,6 +822,8 @@
           href: azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50.md
         - name: a938ae1e-a791-4751-9e6a-178c991fa0fa
           href: azure/a938ae1e-a791-4751-9e6a-178c991fa0fa.md
+        - name: a9a866c4-e5cf-47f2-932c-db14cb89008f
+          href: azure/a9a866c4-e5cf-47f2-932c-db14cb89008f.md
         - name: aa1c54a1-f482-424d-9389-dbd131233483
           href: azure/aa1c54a1-f482-424d-9389-dbd131233483.md
         - name: abe28a0d-6acc-47d8-9169-cfcc2553bc13

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Medxnote MT, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ee4a304ac2844bff1fcec309fe0c96edba04208f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 5eff51e5045f299ad8fe9e8335b3c5dac41af919
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282978"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525488"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -55,9 +55,9 @@ Ces informations ont été fournies par Medxnote sur la façon dont cette applic
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read.All | application | nous mettre en cache le nom et le courrier électronique, utilisés côté hôpital pour vérifier les privilèges des utilisateurs | lors de l’envoi de messages à certaines reprises Le nom et l’adresse e-mail sont ajoutés, nous mettre en cache ces données côté serveur, il est également utilisé pour la vérification facultative des privilèges côté hôpital | fc70bbbe-91c4-4d8f-a9c9-a022068d5752 |
->| openid | délégué | nous mettre en cache l’ID de session, l’ID utilisateur, le jeton du porteur et le courrier électronique, utilisés pour la signature des utilisateurs dans le module de tâche | l’utiliser pour se connecter aux utilisateurs dans le module de tâche, nous stockons l’ID de session, userid, e-mail, jetons du porteur | fc70bbbe-91c4-4d8f-a9c9-a022068d5752 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read.All | application | nous mettre en cache le nom et le courrier électronique, utilisés côté hôpital pour vérifier les privilèges des utilisateurs | lors de l’envoi de messages à certaines reprises Le nom et l’adresse e-mail sont ajoutés, nous mettre en cache ces données côté serveur, il est également utilisé pour la vérification facultative des privilèges côté hôpital | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
+>| openid | délégué | nous mettre en cache l’ID de session, l’ID utilisateur, le jeton du porteur et le courrier électronique, utilisés pour la signature des utilisateurs dans le module de tâche | l’utiliser pour se connecter aux utilisateurs dans le module de tâche, nous stockons l’ID de session, userid, e-mail, jetons du porteur | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36056' frameborder='no' style='width: 100%;'></iframe>
 

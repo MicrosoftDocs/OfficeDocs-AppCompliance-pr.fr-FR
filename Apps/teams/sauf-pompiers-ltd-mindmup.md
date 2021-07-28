@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MindMup, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0bf09c9e6a144fb4415879577af4debcc5fc6713
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 070845caad3e4cb5ccc63b028f248e9c1724ce0b
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283058"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53524777"
 ---
 # <a name="mindmup"></a>MindMup
 
@@ -62,8 +62,8 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Systèmes de stockage AWS utilisés pour rendre persistantes les informations de profil utilisateur de base, pour prendre en charge le partage de documents et l’accès sécurisé aux documents utilisateur sur MindMup |  | S/O |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| Systèmes de stockage AWS utilisés pour rendre persistantes les informations de profil utilisateur de base, pour prendre en charge le partage de documents et l’accès sécurisé aux documents utilisateur sur MindMup |  | N/A |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -74,7 +74,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Les journaux d’accès de sécurité enregistrent l’ID utilisateur, l’ID client Office 365 et les timestamps d’accès. Ils sont persistants pour éviter les fraudes et les abus.
 
@@ -82,7 +82,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les documents utilisateur sont stockés dans AWS (us-east-1), chiffrés lors du transit et chiffrés au repos. les données sont accessibles aux utilisateurs qui ont créé les documents et à tous les utilisateurs avec qui le propriétaire a explicitement partagé le document.
+>Les documents utilisateur sont stockés dans AWS (us-east-1), chiffrés lors du transit et chiffrés au repos. les données sont accessibles aux utilisateurs qui ont créé les documents et aux utilisateurs avec qui le propriétaire a explicitement partagé le document.
 
 Tous les accès opérateur/administrateur sont protégés par 2FA.
 
@@ -100,7 +100,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35953' frameborder='no' style='width: 100%;'></iframe>
 

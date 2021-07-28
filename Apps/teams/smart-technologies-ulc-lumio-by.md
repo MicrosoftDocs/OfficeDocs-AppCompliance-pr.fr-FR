@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Lumio par SMART, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 50cde4ecae9abf39b199b381bcf8e5da33b345e6
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7f97e53eb5b4c27aa8bf2be4c97760f8a536cd06
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283301"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53520987"
 ---
 # <a name="lumio-by-smart"></a>Lumio par SMART
 
@@ -56,9 +56,9 @@ Ces informations ont été fournies par smart Technologies ULC sur la façon don
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | délégué | Les données sont utilisées pour vérifier les autorisations de groupe, aucune donnée n’est collectée.  | Aucune donnée d’annuaire n’est stockée dans la base de données | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
->| Group.Read.All | délégué | Le groupe dont ils sont appart permet de vérifier qu’ils font partie du groupe d’étudiants ou d’enseignants pour déterminer les fonctionnalités. Aucune donnée collectée.  | Seules les données stockées sont l’ID unique des clients | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | délégué | Les données sont utilisées pour vérifier les autorisations de groupe, aucune donnée n’est collectée.  | Aucune donnée d’annuaire n’est stockée dans la base de données | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
+>| Group.Read.All | délégué | Le groupe dont ils sont appart permet de vérifier qu’ils font partie du groupe d’étudiants ou d’enseignants pour déterminer les fonctionnalités. Aucune donnée collectée.  | Seules les données stockées sont l’ID unique des clients | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -76,7 +76,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37582' frameborder='no' style='width: 100%;'></iframe>
 
@@ -116,7 +116,7 @@ Ces informations ont été fournies par smart Technologies ULC sur la façon don
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -1,45 +1,45 @@
 ---
-title: Informations sur l’application pour les I/S de conférences par conférences
+title: Informations d’application pour ngDesk par toutes les solutions bleues
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/04/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour les conférences, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour ngDesk, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0ea37c6a8e60d959bee08858f1f5b2fc48edfac2
+ms.openlocfilehash: b361541352b4fb5c21431403aaea8d7b13a0e104
 ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525748"
+ms.locfileid: "53526453"
 ---
-# <a name="conferences-io"></a>Conférences E/S
+# <a name="ngdesk"></a>ngDesk
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 4, 2021</p>
+<p>Last updated by the developer on: June 30, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/8d4f0254-9b00-4a74-a351-b6d6cd7fccef" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001867" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/64d24486-30aa-4fae-8bdc-2680a85dcbb5" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002968" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par les I/S conférences à Microsoft :
+Informations fournies par toutes les solutions bleues à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Conférences E/S |
-| ID | WA200001867 |
+| Nom de l'application | ngDesk |
+| ID | WA200002968 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Conférences E/S |
-| URL du site web partenaire | [https://conferences.io](https://conferences.io) |
-| URL de la Teams d’informations sur l’application | [https://www.conferences.io/our-platform/features/](https://www.conferences.io/our-platform/features/) |
-| URL de la politique de confidentialité | [https://teamsapp.conferences.io/privacy/](https://teamsapp.conferences.io/privacy/) |
-| URL des conditions d’utilisation | [https://teamsapp.conferences.io/eula/](https://teamsapp.conferences.io/eula/) |
+| Nom de la société partenaire | Toutes les solutions bleues |
+| URL du site web partenaire | [https://ngdesk.com](https://ngdesk.com) |
+| URL de la Teams d’informations sur l’application | [https://ngdesk.com](https://ngdesk.com) |
+| URL de la politique de confidentialité | [https://ngdesk.com/privacy-policy](https://ngdesk.com/privacy-policy) |
+| URL des conditions d’utilisation | [https://ngdesk.com/terms-of-service/](https://ngdesk.com/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Informations fournies par les I/S conférences à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par les I/S conférences sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par toutes les solutions bleues sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -62,9 +62,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
->| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Amazon Web Services (AWS) | Nom, adresse e-mail | La base de données principale de l’application se trouve sur Amazon Web Services. |
+>Les éléments services Microsoft ne sont pas utilisés.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -83,7 +81,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Chiffrement et contrôles logiques forts dans l’ensemble de notre code d’application
+>Nous n’envoyons pas de données à d’autres systèmes partenaires
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -99,9 +97,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36361' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36361" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,11 +109,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par les I/S de conférence sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par Toutes les solutions bleues sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

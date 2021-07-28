@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour officeatwork | Assistant pour Office données, ses stratégies de gestion des données, ses informations Microsoft Cloud App Security catalogue d’applications et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5f60147ff25c431c6aab050894a5dbea46347a50
-ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
+ms.openlocfilehash: fca062057628da497d05f66eb33afb4f53831551
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2021
-ms.locfileid: "53366193"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53524691"
 ---
 # <a name="officeatwork--wizard-for-office"></a>officeatwork | Assistant pour Office
 
@@ -53,25 +53,25 @@ Ces informations ont été fournies par officeatwork sur la façon dont cette ap
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Contacts.Read | délégué | Aucune donnée n’est stockée. | Contacts : pour activer la lecture de tous les contacts de l’utilisateur inscrit. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| Files.Read | délégué | Aucune donnée n’est stockée. | OneDrive - Fichiers (contenu) : pour activer la lecture des fichiers de l’utilisateur. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| Files.Read.All | délégué | Aucune donnée n’est stockée. | Teams - Fichiers (contenu) : pour activer la lecture de tous les fichiers de l’utilisateur inscrit. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| Group.Read.All | délégué | Aucune donnée n’est stockée. | Office 365 Utilisateurs - Limite au groupe : pour activer la lecture de tous les groupes de l’utilisateur inscrit. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| Sites.Read.All | délégué | Aucune donnée n’est stockée. | SharePoint En ligne : pour activer la lecture de données à SharePoint Online. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| User.Read | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre à l’application Officeatwork de lire les propriétés de base de l’utilisateur. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| User.Read.All | délégué | Aucune donnée n’est stockée. | Office 365 Utilisateurs - Toutes les propriétés : pour activer la lecture de toutes les propriétés de tous les utilisateurs. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| User.ReadBasic.All | délégué | Aucune donnée n’est stockée. | Office 365 Utilisateurs - Propriétés de base : pour activer la lecture des propriétés de base de tous les utilisateurs | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| offline_access | délégué | Aucune donnée n’est stockée. | Sing-In : pour activer la sign-in automatique via des jetons d’actualisation, comme sans, les utilisateurs doivent se connecter manuellement chaque fois qu’ils lancent l’application officeatwork. Cette étendue est uniquement requise pour les applications hôtes non-SSO. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| openid | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre aux utilisateurs de se connecter à l’application Officeatwork avec leur compte d’organisation et/ou Microsoft | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| profil | délégué | Aucune donnée n’est stockée. | Sing-In : pour afficher l’utilisateur inscrit dans l’application officeatwork. Cela permet d’assurer/de confirmer à l’utilisateur quel compte a été utilisé pour se connecter à l’application officeatwork. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Contacts.Read | délégué | Aucune donnée n’est stockée. | Contacts : pour activer la lecture de tous les contacts de l’utilisateur inscrit. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Files.Read | délégué | Aucune donnée n’est stockée. | OneDrive - Fichiers (contenu) : pour activer la lecture des fichiers de l’utilisateur. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Files.Read.All | délégué | Aucune donnée n’est stockée. | Teams - Fichiers (contenu) : pour activer la lecture de tous les fichiers de l’utilisateur inscrit. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Group.Read.All | délégué | Aucune donnée n’est stockée. | Office 365 Utilisateurs - Limite au groupe : pour activer la lecture de tous les groupes de l’utilisateur inscrit. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Sites.Read.All | délégué | Aucune donnée n’est stockée. | SharePoint En ligne : pour activer la lecture de données à SharePoint Online. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.Read | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre à l’application Officeatwork de lire les propriétés de base de l’utilisateur. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.Read.All | délégué | Aucune donnée n’est stockée. | Office 365 Utilisateurs - Toutes les propriétés : pour activer la lecture de toutes les propriétés de tous les utilisateurs. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.ReadBasic.All | délégué | Aucune donnée n’est stockée. | Office 365 Utilisateurs - Propriétés de base : pour activer la lecture des propriétés de base de tous les utilisateurs | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| offline_access | délégué | Aucune donnée n’est stockée. | Sing-In : pour activer la sign-in automatique via des jetons d’actualisation, comme sans, les utilisateurs doivent se connecter manuellement chaque fois qu’ils lancent l’application officeatwork. Cette étendue est uniquement requise pour les applications hôtes non-SSO. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| openid | délégué | Aucune donnée n’est stockée. | Sing-In : pour permettre aux utilisateurs de se connecter à l’application Officeatwork avec leur compte d’organisation et/ou Microsoft | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| profil | délégué | Aucune donnée n’est stockée. | Sing-In : pour afficher l’utilisateur inscrit dans l’application officeatwork. Cela permet d’assurer/de confirmer à l’utilisateur quel compte a été utilisé pour se connecter à l’application officeatwork. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| API REST SharePoint | Non |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft

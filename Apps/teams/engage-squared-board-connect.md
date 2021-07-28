@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les Connecter du comité, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7c67ece1e55b265152c8a7664b8f714926d9caff
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: c04b8be94b4d9a6367c8baa2b3370d82c2bdff5c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53456598"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525668"
 ---
 # <a name="board-connect"></a>Connexion de tableau
 
@@ -56,13 +56,13 @@ Ces informations ont été fournies par Engage Squared sur la façon dont cette 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | délégué | Pour permettre à l’application de mettre à jour les calendriers des utilisateurs afin qu’ils reflètent les réponses de participation aux réunions du conseil envoyées via l’application. | Aucune donnée n’est stockée dans notre stockage de table Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| Group.ReadWrite.All | délégué | Pour permettre à l’application de créer, mettre à jour et supprimer des événements de calendrier de groupe. | Nous stockons l’ID du groupe, ainsi que l’ID de client : il est stocké et utilisé du point de vue de la gestion des licences afin de pouvoir vérifier que l’organisation est titulaire d’une licence pour le Connecter. Nous l’utilisons également pour suivre le nombre d’installations des applications au sein du client, car cela est en ligne avec notre modèle de gestion des licences. | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| Sites.Manage.All | délégué | Pour permettre à l’application de créer des listes et des bibliothèques, gérez les éléments de liste et gérez les documents sur une collection de sites d’équipe. | Aucun | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| User.Read | délégué | Pour autoriser les utilisateurs à se connecter à l’application et permettre à l’application de lire le profil de l’utilisateur actuellement connecté. | Aucune donnée de ce point de terminaison n’est stockée dans notre stockage de table Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs pour le compte de l’utilisateur inscrit, afin de l’afficher dans l’application. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. | Aucun, les données ne sont pas stockées dans notre stockage de table Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| offline_access | délégué | Pour permettre à l’application d’obtenir un jeton d’actualisation, qu’elle peut utiliser pour obtenir un nouveau jeton d’accès à l’expiration de l’actuel. | Aucun, les données ne sont pas stockées dans notre stockage de table Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué | Pour permettre à l’application de mettre à jour les calendriers des utilisateurs afin qu’ils reflètent les réponses de participation aux réunions du conseil envoyées via l’application. | Aucune donnée n’est stockée dans notre stockage de table Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| Group.ReadWrite.All | délégué | Pour permettre à l’application de créer, mettre à jour et supprimer des événements de calendrier de groupe. | Nous stockons l’ID du groupe, ainsi que l’ID de client : il est stocké et utilisé du point de vue de la gestion des licences afin de pouvoir vérifier que l’organisation est titulaire d’une licence pour le Connecter. Nous l’utilisons également pour suivre le nombre d’installations des applications au sein du client, car cela est en ligne avec notre modèle de gestion des licences. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| Sites.Manage.All | délégué | Pour permettre à l’application de créer des listes et des bibliothèques, gérez les éléments de liste et gérez les documents sur une collection de sites d’équipe. | Aucun | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| User.Read | délégué | Pour autoriser les utilisateurs à se connecter à l’application et permettre à l’application de lire le profil de l’utilisateur actuellement connecté. | Aucune donnée de ce point de terminaison n’est stockée dans notre stockage de table Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs pour le compte de l’utilisateur inscrit, afin de l’afficher dans l’application. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. | Aucun, les données ne sont pas stockées dans notre stockage de table Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| offline_access | délégué | Pour permettre à l’application d’obtenir un jeton d’actualisation, qu’elle peut utiliser pour obtenir un nouveau jeton d’accès à l’expiration de l’actuel. | Aucun, les données ne sont pas stockées dans notre stockage de table Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -80,7 +80,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -124,7 +124,7 @@ Ces informations ont été fournies par Engage Squared sur la façon dont cette 
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |

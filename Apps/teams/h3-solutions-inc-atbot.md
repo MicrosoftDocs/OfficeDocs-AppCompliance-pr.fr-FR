@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour AtBot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3f56d0b3eb19f5bed8f7092507c8605af936b911
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 94cc732dc5f6cf6416fd1b386271b3694d6f3698
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552135"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525618"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -34,7 +34,7 @@ Informations fournies par H3 Solutions, Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | AtBot |
 | ID | WA104381219 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | H3 Solutions, Inc. |
 | URL du site web partenaire | [https://atbot.io](https://atbot.io) |
 | URL de la Teams d’informations sur l’application | [https://admin.atbot.io/Docs/GettingStarted](https://admin.atbot.io/Docs/GettingStarted) |
@@ -56,15 +56,15 @@ Ces informations ont été fournies par H3 Solutions, Inc. sur la façon dont ce
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | application | Nom du groupe AAD, GUID du groupe AAD, UPN | Éumer les groupes AAD pour permettre le ingérer la sécurité des compétences du bot. Éumérez les utilisateurs pour être en mesure d’appliquer des licences. Éumer les utilisateurs à ajouter en tant qu’administrateurs/collaborateurs | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| Directory.Read.All | délégué | Nom du groupe AAD, GUID du groupe AAD, UPN | Éumer les groupes AAD pour permettre le ingérer la sécurité des compétences du bot. Éumérez les utilisateurs pour être en mesure d’appliquer des licences. Éumer les utilisateurs à ajouter en tant qu’administrateurs/collaborateurs | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| People.Read | délégué | Non | Éumer les personnes dans une action Obtenir une personne à partir de Flow.  Permet au bot de récupérer des personnes à partir du point de terminaison /People dans Microsoft Graph. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| User.Read | délégué | ID de client, UPN | Nous donne accès à l’ID&#8217;client et à l’UPN de l’utilisateur pour nous permettre de lier les flux/applications logiques créés aux utilisateurs qui les ont créés. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| email | délégué | Non | Nous donne accès à l’adresse e-mail de l’utilisateur. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| offline_access | délégué | Jetons d’accès/actualisation. | Nous permet d’utiliser un jeton d’actualisation pour maintenir la session des utilisateurs. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| openid | délégué | Non | Permet aux utilisateurs de se connecter. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| profil | délégué | UPN | Accès à l’UPN de l’utilisateur. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | application | Nom du groupe AAD, GUID du groupe AAD, UPN | Éumer les groupes AAD pour permettre le ingérer la sécurité des compétences du bot. Éumérez les utilisateurs pour être en mesure d’appliquer des licences. Éumer les utilisateurs à ajouter en tant qu’administrateurs/collaborateurs | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | délégué | Nom du groupe AAD, GUID du groupe AAD, UPN | Éumer les groupes AAD pour permettre le ingérer la sécurité des compétences du bot. Éumérez les utilisateurs pour être en mesure d’appliquer des licences. Éumer les utilisateurs à ajouter en tant qu’administrateurs/collaborateurs | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| People.Read | délégué | Non | Éumer les personnes dans une action Obtenir une personne à partir de Flow.  Permet au bot de récupérer des personnes à partir du point de terminaison /People dans Microsoft Graph. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| User.Read | délégué | ID de client, UPN | Nous donne accès à l’ID de&#8217;utilisateur et à l’UPN pour nous permettre de lier les flux/applications logiques créés aux utilisateurs qui les ont créés. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| email | délégué | Non | Nous donne accès à l’adresse e-mail de l’utilisateur. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| offline_access | délégué | Jetons d’accès/actualisation. | Nous permet d’utiliser un jeton d’actualisation pour maintenir la session des utilisateurs. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| openid | délégué | Non | Permet aux utilisateurs de se connecter. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| profil | délégué | UPN | Accès à l’UPN de l’utilisateur. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -78,15 +78,15 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Création de mentions dans les messages de conversation générés par un bot | Non |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->ID de client, UPN Nous utilisons Application Insights et nos journaux dureront 90 jours avant d’être automatiquement archivés. (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
+>ID de client, UPN Nous utilisons application Informations et nos journaux dureront 90 jours avant d’être automatiquement archivés. (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -94,7 +94,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 >Les administrateurs ont la possibilité de supprimer des configurations de bot qui peuvent contenir des noms de groupes AAD/DES GUID.
 Lors de l’annulation du service, tous les UPN sont supprimés de la base de données de licences.
-Voir « Azure Services » sous Data Residency.  La plupart des données spécifiques au client produites via l’utilisation d’AtBot sont stockées dans le client du client et les administrateurs de ce client ont donc un contrôle total sur les données qui y sont stockées.
+Voir « Azure Services » sous Data Residency.  La plupart des données spécifiques au client produites par l’utilisation d’AtBot sont stockées dans le client du client et les administrateurs de ce client ont donc un contrôle total sur les données qui y sont stockées.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -103,7 +103,7 @@ Voir « Azure Services » sous Data Residency.  La plupart des données spécifi
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35672' frameborder='no' style='width: 100%;'></iframe>
 

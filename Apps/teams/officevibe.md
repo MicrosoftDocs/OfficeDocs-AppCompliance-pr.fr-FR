@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Officevibe, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f007500f61edad32eb5f58a2ec57dabfa4c08de6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 968e5ba9e3144e4dd987e63af0480311ab7f4cab
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552875"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525418"
 ---
 # <a name="officevibe"></a>Officevibe
 
@@ -34,7 +34,7 @@ Informations fournies par Officevibe à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Officevibe |
 | ID | WA200002508 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Officevibe |
 | URL du site web partenaire | [https://officevibe.com](https://officevibe.com) |
 | URL de la Teams d’informations sur l’application | [https://officevibe-portal.zendesk.com/hc/en-us/articles/360...](https://officevibe-portal.zendesk.com/hc/en-us/articles/360048865311-Officevibe-Communications-via-Microsoft-Teams-Coming-soon-) |
@@ -56,12 +56,12 @@ Ces informations ont été fournies par Officevibe sur la façon dont cette appl
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | délégué | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d  |
->| Group.Read.All | délégué | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d  |
->| TeamsAppInstallation.ReadWriteForUser | délégué | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d  |
->| User.Read | délégué | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d  |
->| User.Read.All | délégué | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | délégué | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
+>| Group.Read.All | délégué | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
+>| TeamsAppInstallation.ReadWriteForUser | délégué | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
+>| User.Read | délégué | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
+>| User.Read.All | délégué | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | Courrier électronique, nom, image : pour créer l’utilisateur dans Officevibe. Groupe lié à tous les utilisateurs : pour avoir une vue d’ensemble de l’organisation. Nom du client de l’ID de client &amp; : pour configurer l’organisation dans Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -69,7 +69,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Hubspot, Recurly, Xero, MongoDB Atlas | Nom de l’entreprise et secteur | Gestion des clients, gestion des paiements et des abonnements et stockage des données d’application |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -103,7 +103,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35160' frameborder='no' style='width: 100%;'></iframe>
 

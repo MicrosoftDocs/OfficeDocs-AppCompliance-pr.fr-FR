@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour IndustryIntel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a213e68c58f2f3aea6f9bc1e6c8568fcbdefc141
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 71102c3a8720b8aa7c6d8cf3b9e329328e532d7d
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281246"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525578"
 ---
 # <a name="industryintel"></a>IndustryIntel
 
@@ -68,15 +68,15 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
->| Pour valider l’utilisateur si l’utilisateur a accès au réseau Industry Intelligence. Si l’utilisateur a réussi la validation, il peut utiliser la fonctionnalité complète bot et extension de messagerie. | Nous avons stocké uniquement l’ID du membre de l’équipe qui est pour le mappage de l’ID w/ Industry Intelligence/ID d’utilisateur interne. |  |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Pour valider l’utilisateur si l’utilisateur a accès au réseau Industry Intelligence. Si l’utilisateur a réussi à valider, il peut utiliser la fonctionnalité complète bot et extension de messagerie. | Nous avons stocké uniquement l’ID du membre de l’équipe qui est pour le mappage de l’ID w/ Industry Intelligence/ID d’utilisateur interne. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Non. Le mappage de l’utilisateur Teams MS et de l’utilisateur so Teams se produit dans le produit SO Teams. MS Teams nous envoie leurs ID identifiables et nous les enregistreons en interne pour ma cartographier l’utilisateur. En outre, MS Teams nous envoie un JWT pour les demandes de bot (empêche la contrefaçon de demande) et les demandes Tab valides à l’aide du cookie SO.
+>Non. Le mappage de l’utilisateur Teams MS et de l’utilisateur so Teams se produit dans le produit SO Teams. MS Teams nous envoie leurs ID identifiables et nous les enregistreons en interne pour ma propres cartes à l’utilisateur. En outre, MS Teams nous envoie un JWT pour les demandes de bot (empêche la contrefaçon de demande) et les demandes Tab valides à l’aide du cookie SO.
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
@@ -97,7 +97,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36080' frameborder='no' style='width: 100%;'></iframe>
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour SalesTim, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ada23e0899e67432b0718ec34f32c236e8768a18
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: b15cf2f87b6707b6fa82dfc3968444d7cad85e8a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283068"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53524757"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -54,14 +54,14 @@ Ces informations ont été fournies par SalesTim sur la façon dont cette applic
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.ReadWrite.All | délégué | NON | Autorisez l’application à installer et à mettre à jour ses propres packages dans le catalogue d’applications d’entreprise. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Directory.AccessAsUser.All | délégué | Nous&#8217;stocker uniquement certains ID d’utilisateurs, pas les données de profil. | Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Group.ReadWrite.All | délégué | Nous&#8217;stocker uniquement les groupes/ID d’équipes,&#8217;ne stockons pas le contenu des groupes/équipes. | Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe pour le compte de l’utilisateur. En outre, elle permet aux propriétaires de groupes de gérer leurs groupes et aux membres de groupes de mettre à jour le contenu des groupes. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Mail.Send | délégué | Nous&#8217;stocker les métadonnées de cette action, telles que la date de notification, le destinataire (ID uniquement), l’ID de demande. | Permet à l’application d’envoyer des courriers électroniques de notification par exemple au cours d’un flux de travail d’approbation. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Sites.ReadWrite.All | délégué | Nous utilisons certains services Azure pour stocker des données, notamment Redis sur Azure et Cosmos DB | Permet à l’application de gérer les lecteurs (fichiers et dossiers) associés à une équipe, au cours d’un processus de mise en service d’équipe. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| User.Read.All | délégué | Nous&#8217;stocker uniquement certains ID d’utilisateurs, pas les données de profil. | Permet à l’application de lire l’ensemble complet des propriétés de profil, des rapports et des responsables de n’importe quel utilisateur. Il est utilisé en particulier pendant le processus de ciblage d’audience, pour filtrer certains contenus en fonction du profil utilisateur actuel. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| offlineaccess | délégué | Non | Permet à l’application d’effectuer certaines opérations et actions en arrière-plan en tant qu’utilisateur. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| AppCatalog.ReadWrite.All | délégué | NON | Autorisez l’application à installer et à mettre à jour ses propres packages dans le catalogue d’applications d’entreprise. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Directory.AccessAsUser.All | délégué | Nous&#8217;stocker uniquement certains ID d’utilisateurs, pas les données de profil. | Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Group.ReadWrite.All | délégué | Nous&#8217;stocker uniquement les groupes/ID d’équipes, nous&#8217;stocker aucun contenu de groupes/équipes. | Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe pour le compte de l’utilisateur. En outre, elle permet aux propriétaires de groupes de gérer leurs groupes et aux membres de groupes de mettre à jour le contenu des groupes. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Mail.Send | délégué | Nous&#8217;stocker les métadonnées de cette action, telles que la date de notification, le destinataire (ID uniquement), l’ID de demande. | Permet à l’application d’envoyer des courriers électroniques de notification par exemple au cours d’un flux de travail d’approbation. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Sites.ReadWrite.All | délégué | Nous utilisons certains services Azure pour stocker des données, en particulier Redis sur Azure et Cosmos DB | Permet à l’application de gérer les lecteurs (fichiers et dossiers) associés à une équipe, au cours d’un processus de mise en service d’équipe. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| User.Read.All | délégué | Nous&#8217;stocker uniquement certains ID d’utilisateurs, pas les données de profil. | Permet à l’application de lire l’ensemble complet des propriétés de profil, des rapports et des responsables de n’importe quel utilisateur. Il est utilisé en particulier pendant le processus de ciblage d’audience, pour filtrer certains contenus en fonction du profil utilisateur actuel. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| offlineaccess | délégué | Non | Permet à l’application d’effectuer certaines opérations et actions en arrière-plan en tant qu’utilisateur. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -69,7 +69,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Nous utilisons Intercom comme principale application de support. Intercom peut contenir des informations de profil utilisateur de base, comme décrit ici : https://developers.salestim.com/platform/datamanagement.html#support-data |  | Nous utilisons des API GitHub pour générer des problèmes automatiquement à partir de notre environnement de production. Nous stockons également des journaux techniques dans GitHub (comme décrit ici https://developers.salestim.com/platform/datamanagement.html#error-reporting-data) : Ces problèmes et journaux peuvent contenir des informations de profil utilisateur de base. Ces problèmes et journaux sont automatiquement supprimés tous les 15 jours. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -81,7 +81,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Toutes les données collectées sont décrites ici : Comme décrit, les journaux sont temporairement stockés pendant 15 jours, puis https://developers.salestim.com/platform/datamanagement.html#application-data supprimés automatiquement.
 
@@ -107,7 +107,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853' frameborder='no' style='width: 100%;'></iframe>
 

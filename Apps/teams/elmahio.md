@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour elmah.io, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1a4d52ae44362914c3e2094d39f7b109948986a2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2761f22f1b41c208d7dce1589ac3d62ab41efc54
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553195"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525678"
 ---
 # <a name="elmahio"></a>elmah.io
 
@@ -28,13 +28,13 @@ ms.locfileid: "52553195"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par elmah.io à Microsoft :
+Informations fournies par les elmah.io à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | elmah.io |
 | ID | WA104381965 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | elmah.io |
 | URL du site web partenaire | [https://elmah.io](https://elmah.io) |
 | URL de la Teams d’informations sur l’application | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
@@ -63,7 +63,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Intercom, Stripe, Mailchimp, Amazon Web Services | Nom de la société, nom, courrier électronique | Nous partageons le nom et le courrier des utilisateurs avec Intercom, Mailchimp et AWS pour personnaliser les e-mails. Nous partageons le nom de la société avec Stripe pour les factures, etc. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -83,7 +83,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les utilisateurs peuvent toujours mettre à jour leurs données personnelles. Les utilisateurs d’essai qui n’achètent pas de plan payant sont automatiquement supprimés après 12 mois d’inscription. Tous les utilisateurs peuvent demander par le biais de l’assistance d’être supprimés. Les utilisateurs peuvent définir un indicateur de restriction de traitement sur leur profil, ce qui masquera les informations personnelles de notre équipe de support technique.
+>Les utilisateurs peuvent toujours mettre à jour leurs données personnelles. Les utilisateurs d’essai qui n’achètent pas de plan payant sont automatiquement supprimés après 12 mois de l’inscription. Tous les utilisateurs peuvent demander par le biais de l’assistance d’être supprimés. Les utilisateurs peuvent définir un indicateur de restriction de traitement sur leur profil, ce qui masquera les informations personnelles de notre équipe de support technique.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -97,7 +97,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36553' frameborder='no' style='width: 100%;'></iframe>
 
@@ -115,7 +115,7 @@ Ces informations ont été fournies par elmah.io sur la façon dont cette applic
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

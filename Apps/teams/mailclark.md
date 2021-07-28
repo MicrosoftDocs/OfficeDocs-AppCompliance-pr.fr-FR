@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MailClark, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9d21ca3fe09b49a66725b0e7195fe08836d3d125
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3e9c01b76c513fd0786b27a0447a70c1f9c9d7e0
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552955"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525498"
 ---
 # <a name="mailclark"></a>MailClark
 
@@ -34,7 +34,7 @@ Informations fournies par MailClark à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | MailClark |
 | ID | WA104381679 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | MailClark |
 | URL du site web partenaire | [https://mailclark.ai/microsoft-teams-integration](https://mailclark.ai/microsoft-teams-integration) |
 | URL de la Teams d’informations sur l’application | [https://mailclark.ai/support](https://mailclark.ai/support) |
@@ -56,13 +56,13 @@ Ces informations ont été fournies par MailClark sur la façon dont cette appli
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Mail.ReadWrite | application |  | Lecture : pour abonner des notifications Push pour les e-mails entrants. Écriture : pour créer des brouillons. |  |
->| Mail.Send | application |  | Pour envoyer des brouillons. |  |
->| User.Read | application | Détails du compte, par exemple, adresse de messagerie. | Pour identifier le compte. |  |
->| offline_access | application | Jeton d’actualisation | Pour renouveler l’authentification jusqu’à ce que le compte soit déconnecté. |  |
->| openid | application |  | Obligatoire pour l’authentification. |  |
->| profil | application |  | Pour authentifier l’utilisateur. |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Mail.ReadWrite | application |  | Lecture : pour abonner des notifications Push pour les e-mails entrants. Écriture : pour créer des brouillons. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.Send | application |  | Pour envoyer des brouillons. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | application | Détails du compte, par exemple, adresse de messagerie. | Pour identifier le compte. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | application | Jeton d’actualisation | Renouveler l’authentification jusqu’à ce que le compte soit déconnecté. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| openid | application |  | Obligatoire pour l’authentification. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| profil | application |  | Pour authentifier l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -76,7 +76,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Pour affecter des personnes à des conversations | Prénom, nom, nom d’affichage, adresse e-mail |  |
 
 
@@ -99,7 +99,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35675' frameborder='no' style='width: 100%;'></iframe>
 

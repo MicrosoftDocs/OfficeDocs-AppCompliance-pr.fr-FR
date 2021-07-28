@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour les données gratuites par InVisionApp Inc.
+title: Informations sur les applications gratuites par InVisionApp Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 05/06/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour freehand, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 286a9fd4ed49e6b4929b68ab663fff6683013f8f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: a3c92ee618693b4fed77026a47009b490845db60
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282621"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525558"
 ---
 # <a name="freehand"></a>Freehand
 
@@ -63,7 +63,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Les journaux des systèmes et des applications sont collectés à la fois dans un système de gestion des journaux centralisé et dans siEM avec un accès hautement restreint pour modifier ou supprimer des données. Le SIEM surveille également l’intrusion, l’intégrité, la réputation du réseau et met en corrélation ces informations avec les événements cloudtrail. Le système est surveillé par une équipe de sécurité dédiée et les alertes sont configurées pour faire la page de l’ingénieur 24h/24 et 7 j/7. Les journaux des deux systèmes sont conservés pendant une période d’un an.
 
@@ -83,7 +83,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les évaluations des risques tierces sont effectuées sur les fournisseurs qui traitéent des informations personnelles. Des clauses ont été ajoutées contractuellement pour inclure le droit d’audit &#8220;&#8221; et la diligence raisonnable se produit une fois par an en fonction de facteurs critiques/de risque. Le service juridique a implémenté des addendums de protection des données à ajouter contractuellement le cas échéant, ainsi que des normes acceptables qui répondent aux exigences d’InVision. (Notez que les sous-traitants n’auraient pas accès aux données de projet client dans un format non chiffré.)
+>Les évaluations des risques tierces sont effectuées sur les fournisseurs qui traitéent des informations personnelles. Des clauses ont été ajoutées contractuellement pour inclure le droit &#8220;auditer&#8221; et la diligence raisonnable se produit à une fois par an en fonction de facteurs critiques/de risque. Le service juridique a implémenté des addendums de protection des données à ajouter contractuellement le cas échéant, ainsi que des normes acceptables qui répondent aux exigences d’InVision. (Notez que les sous-traitants n’auraient pas accès aux données de projet client dans un format non chiffré.)
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -97,7 +97,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20788' frameborder='no' style='width: 100%;'></iframe>
 
@@ -111,11 +111,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par InVisionApp Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par InVisionApp Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Non |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

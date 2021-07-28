@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour RingCentral, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2035f615146f8809d6113192d796d2760d87f50e
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: bb0787720195363368e3d822e45f173acee67870
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987802"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525398"
 ---
 # <a name="ringcentral"></a>RingCentral
 
@@ -56,11 +56,11 @@ Ces informations ont été fournies par RingCentral, Inc. sur la façon dont cet
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | délégué |  Permet à l’application d’envoyer un événement d’invitation à une réunion via son calendrier | Aucun |  0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
->| offline_access | délégué |  Permet à l’application d’obtenir et de mettre à jour le jeton oauth |  Jeton d’accès, jeton d’actualisation pour accéder à l’API Graph MS |  0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
->| User.Read | délégué |  Permet à l’application de lire un&#8217;profil de base (e-mail, nom) afin d’obtenir des correspondances de contact à notre fin. Permet également aux utilisateurs de se connecter et de lier leur compte O365 au compte RingCentral |  E-mail, prénom, nom | 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
->| User.Read.All | délégué | Permet à l’application de lire le profil complet d’un utilisateur avec des numéros de téléphone afin d’effectuer des appels téléphoniques avec nos services. | Aucun | 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué |  Permet à l’application d’envoyer un événement d’invitation à une réunion via son calendrier | Aucun | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| offline_access | délégué |  Permet à l’application d’obtenir et de mettre à jour le jeton oauth |  Jeton d’accès, jeton d’actualisation pour accéder à l’API Graph MS | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| User.Read | délégué |  Permet à l’application de lire un&#8217;profil de base (e-mail, nom) afin d’obtenir des correspondances de contact à notre fin. Permet également aux utilisateurs de se connecter et de lier leur compte O365 au compte RingCentral |  Email, first name, last name | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| User.Read.All | délégué | Permet à l’application de lire le profil complet d’un utilisateur avec des numéros de téléphone afin d’effectuer des appels téléphoniques avec nos services. | Aucun | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -100,7 +100,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11833' frameborder='no' style='width: 100%;'></iframe>
 
@@ -114,11 +114,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par RingCentral, Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par RingCentral, Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

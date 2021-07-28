@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les calendriers de contacts approuvés, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9bb96c6c6ba40df3e3d4d64c1f0e4033d7425e88
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 49aac5c5b6544d9324243d704cfaad6dc7bd8732
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281646"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526490"
 ---
 # <a name="approved-contact-calendars"></a>Calendriers de contacts approuvés
 
@@ -33,7 +33,7 @@ Informations fournies par le contact approuvé à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Calendriers de contacts approuvés |
 | ID | WA104380294 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Contact approuvé |
 | URL du site web partenaire | [https://www.approvedcontact.com](https://www.approvedcontact.com) |
 | URL de la politique de confidentialité | [https://approvedcontact.com/Privacy%20Policy.pdf](https://approvedcontact.com/Privacy%20Policy.pdf) |
@@ -54,13 +54,13 @@ Ces informations ont été fournies par le contact approuvé sur la façon dont 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | délégué | Pour le bot de calendrier, nous stockons les heures de libre/occupé des utilisateurs pour la recherche de périodes gratuites pour plusieurs personnes.  | Nous lisons et comparons les heures de libre/occupé et les réunions de planification. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| Contacts.Read | délégué | Oui, nous stockons les informations de contact. | Importation et synchronisation des contacts. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| User.Read | délégué | Oui | Informations de profil de base. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| User.ReadBasic.All | délégué | Non | Utilisé pour afficher les profils des collègues, comparer les temps libres et planifier des salles de conférence. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| offline_access | délégué | Oui, les heures de libre/occupé pour les utilisateurs hors connexion. | Appelez Graph lorsque l’utilisateur n’utilise pas activement notre site. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| openid | délégué | Non | Office 365 SSO. | adef9811-448f-4dd5-88d9-68734050fe58 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué | Pour le bot de calendrier, nous stockons les heures de libre/occupé des utilisateurs pour la recherche de périodes gratuites pour plusieurs personnes.  | Nous lisons et comparons les heures de libre/occupé et les réunions de planification. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| Contacts.Read | délégué | Oui, nous stockons les informations de contact. | Importation et synchronisation des contacts. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| User.Read | délégué | Oui | Informations de profil de base. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| User.ReadBasic.All | délégué | Non | Utilisé pour afficher les profils des collègues, comparer les temps libres et planifier des salles de conférence. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| offline_access | délégué | Oui, les heures de libre/occupé pour les utilisateurs hors connexion. | Appelez Graph lorsque l’utilisateur n’utilise pas activement notre site. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| openid | délégué | Non | Office 365 SSO. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -73,7 +73,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui, nous logons les adresses de messagerie pour connecter les achats de licences à Commercial Appsource. Nous vous offrons la possibilité de supprimer ces informations de nos journaux.
 
@@ -95,7 +95,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20445' frameborder='no' style='width: 100%;'></iframe>
 
@@ -113,7 +113,7 @@ Ces informations ont été fournies par le contact approuvé sur la façon dont 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |

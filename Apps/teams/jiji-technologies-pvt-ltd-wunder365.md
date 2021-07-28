@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Wunder365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9ef4f9f97964d1d099676654ff2cfaaa11532167
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 71d163c9dc86fbd21fc9032abcc732168b8210eb
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281817"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525548"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -56,19 +56,19 @@ Ces informations ont été fournies par JiJi Technologies Pvt Ltd sur la façon 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | délégué | Aucune donnée stockée. | Pour obtenir/mettre à jour les tâches du Planificateur, publiez les mises à jour de tâches dans le canal d’équipe | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| Mail.Send | délégué | Aucune donnée stockée. | Autoriser l’application à envoyer des notifications par courrier électronique aux utilisateurs | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| offline_access | délégué | Aucune donnée stockée. | Pour maintenir la session de l’utilisateur. | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| openid | délégué | Aucune donnée stockée. | Permet aux utilisateurs de se connecter avec un compte d’organisation | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| profil | délégué | UPN, ID utilisateur, ID de messagerie, ID de locataire pour la vérification de licence, licence gratuite. | Permet aux utilisateurs de se connecter avec un compte d’organisation | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | délégué | Aucune donnée stockée. | Pour obtenir/mettre à jour les tâches du Planificateur, publiez les mises à jour de tâches dans le canal d’équipe | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| Mail.Send | délégué | Aucune donnée stockée. | Autoriser l’application à envoyer des notifications par courrier électronique aux utilisateurs | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| offline_access | délégué | Aucune donnée stockée. | Pour maintenir la session de l’utilisateur. | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| openid | délégué | Aucune donnée stockée. | Permet aux utilisateurs de se connecter avec un compte d’organisation | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| profil | délégué | UPN, ID utilisateur, ID de messagerie, ID de locataire pour la vérification de licence, licence gratuite. | Permet aux utilisateurs de se connecter avec un compte d’organisation | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| API REST SharePoint | Non |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -110,7 +110,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250' frameborder='no' style='width: 100%;'></iframe>
 
@@ -124,16 +124,16 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par JiJi Technologies Pvt Ltd sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par JiJi Technologies Pvt Ltd sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Exiger une authentification multifacteur pour les utilisateurs ayant des rôles d’administration, exiger une authentification multifacteur pour les tâches de gestion Azure, bloquer les ouvertures de signature pour les utilisateurs qui tentent d’utiliser des protocoles d’authentification hérités, exiger des emplacements fiables pour l’inscription à l’authentification multifacteur Azure AD, bloquer ou accorder l’accès à partir d’emplacements spécifiques, Blocage du comportement de la signature à risque |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
