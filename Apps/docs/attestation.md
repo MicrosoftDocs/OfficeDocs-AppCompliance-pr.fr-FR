@@ -6,12 +6,12 @@ description: Plus d’informations sur le programme Publisher attestation d’at
 keywords: questionnaire appSource de certification d’attestation d’application 365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 285fb4c74f2f5bdda3defee92dafa22f07d94314
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 1566ae1d56f6313d7055f122a8444de43ef60d9a73dc9e02e9cb2b1b86ae5a7c
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526110"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54801270"
 ---
 # <a name="complete-publisher-attestation"></a>Attestation d’Publisher complète
 
@@ -42,7 +42,7 @@ Publisher L’attestation s’applique aux applications web (applications SaaS p
 
 ## <a name="publisher-attestation-process"></a>Publisher Processus d’attestation
 
-1. **Participer :** l’attestation Publisher est désormais intégrée dans [l’Espace partenaires.](https://partner.microsoft.com) Vous pouvez remplir l’attestation dans un questionnaire convivial dans l’Espace partenaires. Reportez-vous à nos guides [utilisateur Office Store](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide) et Commercial [Marketplace](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide) pour le processus pas à pas.
+1. **Participer :** l’attestation Publisher est désormais intégrée dans [l’Espace partenaires.](https://partner.microsoft.com) Vous pouvez remplir l’attestation dans un questionnaire convivial dans l’Espace partenaires. Reportez-vous à nos guides [Office store](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide) et commercial [marketplace](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide) pour le processus pas à pas.
 
 2. **Attendez les commentaires et** les résultats de l’examen . Pendant la vérification de la cohérence, si les analystes trouvent des problèmes bloquants tels que des données de réponse insuffisantes, vous serez contacté pour obtenir plus d’informations. Les analystes conserveront un journal d’activité d’application détaillant les résultats de l’examen et vos soumissions de suivi tout au long du processus. Une fois que vous avez déterminé que votre rapport d’attestation est terminé et que vos réponses sont acceptables, votre envoi est approuvé. Votre statut d’approbation sera valide pendant un an à partir de l’heure de la soumission.
 
@@ -55,9 +55,9 @@ Publisher L’attestation s’applique aux applications web (applications SaaS p
    - Liens vers une copie détaillée de vos informations envoyées.
    - Déclaration que les informations fournies sont basées sur votre rapport d’attestation envoyé.
 
-Par exemple, *consultez la Microsoft Teams* [conformité des applications](../teams/teams-apps.md)
+Par exemple, *consultez la* [Microsoft Teams conformité des applications](../teams/teams-apps.md)
 
-4. **Examiner et soumettre à nouveau** : votre attestation Publisher doit être resoumise sur une base annuelle. Lorsque votre attestation approche de la marque d’un an, vous recevez une notification par le biais de l’Partner Center qui vous encourage à la resoumission de votre attestation. 
+4. **Révision et réabonnement** : votre attestation Publisher doit être resoumise sur une base annuelle. Lorsque votre attestation approche de la marque d’un an, vous recevez une notification par le biais de l’Partner Center qui vous encourage à la resoumission de votre attestation. 
 
    Si votre attestation Publisher n’est pas renouvelé avant la date d’expiration, l’état de l’attestation de vos applications est révoqué et votre attestation Publisher est supprimée des pages de documents Microsoft. 
 

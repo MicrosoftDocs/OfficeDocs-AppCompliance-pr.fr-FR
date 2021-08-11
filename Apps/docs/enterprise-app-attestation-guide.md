@@ -3,15 +3,15 @@ title: Qu’est-ce Publisher attestation d’attestation ?
 author: LGerrard
 ms.author: legerrar
 description: Plus d’informations sur le programme Publisher attestation d’attestation
-keywords: Certification d’attestation d’application 365 - Éditeur appSource
+keywords: Éditeur appSource de certification d’attestation d’application 365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 10b4bb59d26190535b9aa365c830db774f4865c063678fad02a10c73c6d1ef64
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526100"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54750454"
 ---
 # <a name="what-is-publisher-attestation"></a>Qu’est-ce Publisher attestation d’attestation ?
 
@@ -37,14 +37,14 @@ Les avantages de la réalisation de l’attestation Publisher pour les administr
 -   Temps réduit pour passer en revue la sécurité et la conformité d’une application
 
 ### <a name="benefits-for-app-developers"></a>Avantages pour les développeurs d’applications 
-Les avantages de l’exécution de l’attestation Publisher pour les développeurs incluent : 
+Les avantages de la réalisation de l’attestation Publisher pour les développeurs incluent : 
 -   Économies de temps. Afficher la page Documents Microsoft de l’application pour obtenir des informations sur les questions fréquemment posées
 -   Accélération de la chronologie de révision interne de la sécurité et de la conformité d’une organisation
 -   Transparence accrue
 - Microsoft fournit ce service sans frais supplémentaires
 -   Différenciation des autres applications du Windows Store
 -   Lien vers votre page de documents à partir de votre entrée dans AppSource, Teams Admin Center et Microsoft Admin Center
--   Qualification pour démarrer la certification Microsoft 365 certification
+-   Qualification pour démarrer la certification Microsoft 365 de sécurité
 
 
 ## <a name="publisher-attestation-scope"></a>Publisher Étendue de l’attestation

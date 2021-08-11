@@ -1,0 +1,164 @@
+---
+title: Informations sur l’application pourDocSyrdoc parDoc
+ms.author: elmalova
+author: elenamalova
+ms.date: 07/19/2021
+ms.topic: article
+ms.service: attestation
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour LeDoc, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 0ad06df6fb1b41955c2cb69e45f2ea84660b3e06
+ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53774887"
+---
+# <a name="pandadoc"></a>Doc
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: July 19, 2021</p>
+
+* <a href="https://teams.microsoft.com/l/app/769d6db6-6890-4f70-8088-5943fdeac3c5" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002927" target="_blank">Afficher dans AppSource</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>Informations générales
+
+Informations fournies par ContrôleDoc à Microsoft :
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Nom de l'application | Doc |
+| ID | WA200002927 |
+| Office 365 clients pris en charge | Microsoft Teams |
+| Nom de la société partenaire | Doc |
+| URL du site web partenaire | [https://www.pandadoc.com](https://www.pandadoc.com) |
+| URL de la Teams d’informations sur l’application | [https://www.pandadoc.com](https://www.pandadoc.com) |
+| URL de la politique de confidentialité | [https://www.pandadoc.com/privacy-notice/?utm_source=microso...](https://www.pandadoc.com/privacy-notice/?utm_source=microsoft-teams&amp;utm_medium=partner&amp;utm_campaign=2021-2-inbd-marketplace-websitevisit-pandadoc-privacy) |
+| URL des conditions d’utilisation | [https://www.pandadoc.com/terms-of-use/](https://www.pandadoc.com/terms-of-use/) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
+
+Ces informations ont été fournies par ContrôleDoc sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
+
+List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. | Les données ne sont pas stockées | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| ChannelSettings.Read.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal.  | Les données ne sont pas stockées | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| ChannelSettings.ReadWrite.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. | Les données ne sont pas stockées | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Directory.Read.All | les deux | Pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Directory.ReadWrite.All | les deux | Pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Files.Read | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Files.Read.All | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Files.Read.Selected | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Group.Read.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. Documentation - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp ;tabs=http | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Group.ReadWrite.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. Documentation - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp ;tabs=http | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Team.ReadBasic.All | les deux | pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| TeamSettings.Read.All | les deux | Pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| TeamSettings.ReadWrite.All | les deux | ou obtenez les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| TeamsAppInstallation.ReadWriteSelfForTeam.All | les deux | nécessaire pour installer l’application sur un utilisateur dans Team et installer le bot dans la conversation. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | les deux | nécessaire pour installer l’application sur un utilisateur dans Team et installer le bot dans la conversation. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| User.Read | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| User.Read.All | les deux |  pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| User.ReadWrite.All | les deux |  pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| email | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| offline_access | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| openid | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| profil | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | Les données ne sont pas stockées. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+
+#### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
+
+Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
+
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| APIDoc | Non |  |  |  |  |
+>| MS Graph | Non |  |  |  |  |
+>| Elementor | Non |  |  |  |  |
+
+#### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
+
+Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
+
+>Les éléments services Microsoft ne sont pas utilisés.
+
+#### <a name="data-access-via-bots"></a>Accès aux données via des bots
+
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+
+>Aucun EUII n’est accessible.
+
+
+#### <a name="telemetry-data"></a>Données de télémétrie
+
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+
+>Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
+
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
+
+>Nos contrats de fournisseur respectent les obligations respectives de nos fournisseurs en matière de confidentialité et de sécurité des données, et nous sommes soumis à des révisions de sécurité/confidentialité de nos fournisseurs clés chaque année.
+
+#### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
+
+Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
+
+>Non
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/21283' frameborder='no' style='width: 100%;'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/21283" target="_blank">Afficher dans un nouvel onglet</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informations d’identité
+
+Ces informations ont été fournies par ContrôleDoc sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Non |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
+| Votre application prend-elle en charge l’location multiple ? | Non |
+| Votre application a-t-elle un client confidentiel ? | Non |
+| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
+| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | - URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/> |
+| Votre application expose-t-elle des API web ? | Non |
+| Votre application utilise-t-elle les API d’aperçu ? | Oui |
+| Votre application utilise-t-elle des API dépréciées ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
