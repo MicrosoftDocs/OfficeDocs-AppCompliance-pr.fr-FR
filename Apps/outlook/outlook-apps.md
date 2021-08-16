@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Outlook - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/05/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 4d3b5dcf8a1cc2a14b58b97534cf87095a5283895fb7f3cf0cd58a6693571a23
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 8857774c62fabe43c3f62ea420351f07756d8644
+ms.sourcegitcommit: 89e0443433dfa6a727a657ca5962af8d4f8d3d58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54750674"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58344052"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Outlook
 
@@ -25,6 +25,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Calendriers de contacts approuvés](./approved-contact-calendars.md) | Contact approuvé | **✓** |  |
 | [Asana pour Outlook](./asana-for-outlook.md) | Asana | **✓** |  |
 | [CI-Signature](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
+| [CodeTwo pour Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [harmon.ie pour Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  |
 | [Facture et suivi du temps : facture Zoho](./zoho-corporation-private-limited-invoice-and-time-tracking.md) | Zoho Corporation Private Limited | **✓** |  |
 | [IPlanner Office 365 planner pour Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
