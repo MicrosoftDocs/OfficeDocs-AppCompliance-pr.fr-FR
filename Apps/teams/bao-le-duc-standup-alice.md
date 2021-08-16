@@ -2,24 +2,24 @@
 title: Informations sur l’application pour la standup Alice par Bao Le Contrôle
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Alice de support, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 150d837b130b6ad2e75ddc0f8da82a1b90c2621f
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 5d1d075f16fed6e0a0029e3c90050068ca5bf9b5
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525868"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243528"
 ---
 # <a name="standup-alice"></a>Standup Alice
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: August 10, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/724b774e-aa53-4d2d-885b-6008c114cb37" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000758" target="_blank">Afficher dans AppSource</a>
@@ -30,13 +30,14 @@ ms.locfileid: "53525868"
 
 Informations fournies par Bao Le Contrôle à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Standup Alice |
 | ID | WA200000758 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Bao Le Duc |
 | URL du site web partenaire | [https://www.standupalice.com](https://www.standupalice.com) |
+| URL de la Teams d’informations sur l’application | [https://www.standupalice.com](https://www.standupalice.com) |
 | URL de la politique de confidentialité | [https://www.standupalice.com/privacy](https://www.standupalice.com/privacy) |
 | URL des conditions d’utilisation | [https://www.standupalice.com/terms](https://www.standupalice.com/terms) |
 
@@ -63,7 +64,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Google Cloud : nous hébergeons le bot sur Google Cloud |  | N/A |
+>| Google Cloud : nous hébergeons le bot sur Google Cloud | Microsoft Teams’teamId de l’Microsoft Teams | Nous avons besoin d’TeamId pour identifier Microsoft Teams &quot; équipe &quot; |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -71,14 +72,14 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Nous utilisons le nom complet pour afficher sur l’application web et les rapports de standup pour le rendre significatif. Nous pouvons communiquer avec Teams administrateur sur les paiements gratuits. | Nom complet et adresse e-mail. |  |
+>| Nous utilisons le nom complet pour afficher sur l’application web et les rapports de standup pour le rendre significatif. Nous pouvons communiquer avec Teams administrateur sur les paiements gratuits. | Nom complet et adresse e-mail. | Nous utilisons le nom complet et l’adresse e-mail pour créer des rapports de standup quotidiens.  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Non, nous ne logons pas ce type de données
+>Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -108,3 +109,16 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informations d’identité
+
+Ces informations ont été fournies par Bao Le Contrôle sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

@@ -2,17 +2,17 @@
 title: 'Microsoft Excel Sécurité et conformité des applications : toutes les applications'
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les Microsoft Excel applications.
 localization_priority: Normal
-ms.openlocfilehash: 708661d07e98e4eaa99ca9b28aafaa65006b944ef712e6222d0e4424ea5b9ce4
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: d8030712f76cdff731c7ff17c94e2e89c5def494
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54801850"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243464"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel Sécurité et conformité des applications
 
@@ -35,3 +35,4 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Solveurs QuickCells](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |
 | [Sheetgo](./sheetgo-europe-sl.md) | SHEETGO EUROPE SL | **✓** |  |
 | [Wunder365 pour Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |
+| [Données XBRL classées](./xbrl-us-filed-data.md) | XBRL US | **✓** |  |

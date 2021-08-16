@@ -1,45 +1,45 @@
 ---
-title: Informations d’application pour live chat par intention sociale
+title: Informations d’application pour Egnyte par Egnyte
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/09/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Live Chat, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Egnyte, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 52b8aa65ce11acbe157d61bd46a6f0fee67f9bc6
+ms.openlocfilehash: 9c9ff10261730b8b1cc56cbb7aa23d55d5da8383
 ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243542"
+ms.locfileid: "58241268"
 ---
-# <a name="live-chat"></a>Conversation en direct
+# <a name="egnyte"></a>Egnyte
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 9, 2021</p>
+<p>Last updated by the developer on: July 21, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/a55635a5-8def-48e7-bcff-230cd43d3405" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000440" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/28b871ff-85bf-48a5-9bee-364f2b74d104" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381174" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par les réseaux sociaux à Microsoft :
+Informations fournies par Egnyte à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | Conversation en direct |
-| ID | WA200000440 |
+| Nom de l'application | Egnyte |
+| ID | WA104381174 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Intentions sociales |
-| URL du site web partenaire | [https://www.socialintents.com](https://www.socialintents.com) |
-| URL de la Teams d’informations sur l’application | [https://www.socialintents.com/teams-live-chat.jsp](https://www.socialintents.com/teams-live-chat.jsp) |
-| URL de la politique de confidentialité | [https://www.socialintents.com/privacy.html](https://www.socialintents.com/privacy.html) |
-| URL des conditions d’utilisation | [https://www.socialintents.com/tos.html](https://www.socialintents.com/tos.html) |
+| Nom de la société partenaire | Egnyte |
+| URL du site web partenaire | [https://www.egnyte.com](https://www.egnyte.com) |
+| URL de la Teams d’informations sur l’application | [https://helpdesk.egnyte.com/hc/en-us/articles/115000999611-...](https://helpdesk.egnyte.com/hc/en-us/articles/115000999611-Egnyte-for-Microsoft-Teams) |
+| URL de la politique de confidentialité | [https://www.egnyte.com/corp/privacy_policy.html](https://www.egnyte.com/corp/privacy_policy.html) |
+| URL des conditions d’utilisation | [https://www.egnyte.com/terms-and-conditions/01-2020](https://www.egnyte.com/terms-and-conditions/01-2020) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Informations fournies par les réseaux sociaux à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par les réseaux sociaux sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Egnyte sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -70,20 +70,20 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Lorsqu’un membre de l’équipe clique sur Rejoindre la conversation, nous utilisons le courrier électronique des membres pour identifier le profil d’agent qui a accepté la conversation. | Le courrier électronique et le nom du membre de l’équipe qui a accepté une conversation en direct sont stockés dans une base de données d’historique de conversation. | Les informations sont éventuellement collectées pour l’utilisation du client et peuvent être complètement désactivées par le client dans ses paramètres de question préalable aux ventes. |
+>| Expérience transparente avec l’application Egnyte pour Microsoft Teams native | Non |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Le courrier électronique et le nom peuvent s’afficher dans les journaux quotidiens qui sont supprimés/supprimés toutes les heures.
+>Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données sont stockées dans une instance de RDS sécurisée restreinte par ip et 2FA.
+>suppression, rétention, audit, archivage, stratégie de l’utilisateur final
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -99,9 +99,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35754' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/15585' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35754" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/15585" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,7 +111,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par social Intents sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par Egnyte sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
