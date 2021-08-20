@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/11/2021
+ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 58c02130452a392b93669144ccdde9aa04733111
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.openlocfilehash: 779a454e7217cb6c528c9ea9e1b7b1d1ea5e6ddb
+ms.sourcegitcommit: 823d3d853f6063f34785cab2f3316ac4ac99cdcf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58241247"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58392880"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -32,6 +32,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Appspace](./appspace-inc.md) | Appspace, Inc. | **✓** |  |
 | [Cartes ArcGIS](./esri-arcgis-maps.md) | Esri | **✓** |  |
 | [Asana](./asana.md) | Asana | **✓** |  |
+| [ASC Recording Insights](./asc-technologies-ag-recording-insights.md) | ASC Technologies AG | **✓** |  |
 | [askR.ai](./askrai.md) | askR.ai | **✓** |  |
 | [Assembly](./carrothr-inc-assembly.md) | CarrotHR Inc. | **✓** |  |
 | [AtBot](./h3-solutions-inc-atbot.md) | H3 Solutions, Inc. | **✓** |  |
@@ -77,7 +78,9 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Entraînement du coucou](./cuckoo-networks-oy-workout.md) | Cuckoo Networks Oy | **✓** |  |
 | [Espace de travail Datto](./datto-inc-workplace.md) | Datto, Inc. | **✓** |  |
 | [DBit](./diamondsoft-solutions-llc-dbit.md) | Diamondsoft Solutions, LLC | **✓** |  |
+| [Décisions](./decisions.md) | Décisions | **✓** |  |
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  |
+| [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [eSignature DocuSign](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
 | [Droplr](./droplr.md) | Droplr | **✓** |  |
 | [Signal dynamique](./dynamic-signal.md) | Signal dynamique | **✓** |  |
@@ -87,6 +90,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Egnyte](./egnyte.md) | Egnyte | **✓** |  |
 | [elmah.io](./elmahio.md) | elmah.io | **✓** |  |
 | [Email TeamMate](./harmonie-email-teammate.md) | harmon.ie | **✓** |  |
+| [Références d'employés](./recruitday-inc-employee-referrals.md) | Recruitday Inc. | **✓** |  |
 | [Gestion de la formation des employés](./sharepointsapiens-employee-training-management.md) | SharePoint|Sapiens | **✓** |  |
 | [Empuls](./empuls.md) | Empuls | **✓** |  |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  |
@@ -126,6 +130,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [KAKEAI](./kakeai.md) | KAKEAI | **✓** |  |
 | [Karma](./sliday-ltd-karma.md) | Sliday LTD | **✓** |  |
 | [Klaxoon](./klaxoon.md) | Klaxoon | **✓** |  |
+| [Koan](./koan-inc.md) | Koan, Inc. | **✓** |  |
 | [Kronos](./kronos-inc.md) | Kronos, Inc. | **✓** |  |
 | [Kudozza](./survivef5-gmbh-kudozza.md) | surviveF5 GmbH | **✓** |  |
 | [LawToolBox](./lawtoolboxcom-inc-lawtoolbox.md) | LawToolBox.com Inc. | **✓** |  |
