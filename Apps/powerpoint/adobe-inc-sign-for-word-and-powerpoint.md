@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Adobe Sign pour Word et PowerPoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 81a0012ebbc0e77af0fee9fa73a22f187972d13c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: ca8f1f0aba2f18c81c76cb50d8d76cb2e86efa84
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527850"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672211"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign pour Word et PowerPoint
 
@@ -28,11 +28,11 @@ ms.locfileid: "53527850"
 
 Informations fournies par Adobe Inc. à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Adobe Sign pour Word et PowerPoint |
 | ID | WA104381155 |
-| Office 365 clients pris en charge | Word 2016 ou une ultérieure sur Mac, PowerPoint 2013 Service Pack 1 ou une ultérieure sur Windows, Word 2013 Service Pack 1 ou ultérieur sur Windows, Word sur le web, PowerPoint sur le web, PowerPoint 2016 ou ultérieur sur Mac |
+| Office 365 clients pris en charge | Word 2016 ou une ultérieure sur Mac, Word sur le web, Word 2013 Service Pack 1 ou ultérieur sur Windows, PowerPoint 2016 ou ultérieur sur Mac, PowerPoint sur le web, PowerPoint 2013 Service Pack 1 ou une Windows |
 | Nom de la société partenaire | Adobe Inc. |
 | URL du site web partenaire | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | URL de la politique de confidentialité | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
@@ -71,7 +71,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nos journaux contiennent suffisamment d’informations pour pouvoir identifier et résoudre les problèmes des clients. Les journaux sont conservés pendant 90 jours et l’accès est restreint. Notre base de données stocke des informations d’identification hachées pour l’authentification lorsque l’utilisateur est hors connexion. La stratégie de rétention de base de données est de 30 jours à partir de la dernière utilisation
 
@@ -109,9 +109,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 Ces informations ont été fournies par Adobe Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
