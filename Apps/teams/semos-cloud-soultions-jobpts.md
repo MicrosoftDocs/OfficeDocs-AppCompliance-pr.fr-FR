@@ -1,44 +1,45 @@
 ---
-title: Informations d’application pour SmartWork par SmartWork d’Intumit
+title: Informations d’application pour jobPts par Semos Cloud Cloud
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/23/2021
+ms.date: 07/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour SmartWork, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9df1a52e4634956a1a48984faeea9e4b453c03a4
+description: Toutes les informations de sécurité et de conformité disponibles pour JobPts, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 22c80e919a07b30f6b65dc055a514e9ce2a1eefc
 ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404039"
+ms.locfileid: "58404436"
 ---
-# <a name="smartwork"></a>SmartWork
+# <a name="jobpts"></a>JobPts
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: July 23, 2021</p>
+<p>Last updated by the developer on: July 7, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/a938ae1e-a791-4751-9e6a-178c991fa0fa" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001149" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/601a47bc-f201-4398-a0cb-593ea081f265" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001849" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par SmartWork d’Intumit à Microsoft :
+Informations fournies par Semos Cloud Cloud Cloud à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | SmartWork |
-| ID | WA200001149 |
+| Nom de l'application | JobPts |
+| ID | WA200001849 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | SmartWork de Intumit |
-| URL du site web partenaire | [https://www.intumit.com/english/](https://www.intumit.com/english/) |
-| URL de la politique de confidentialité | [https://www.intumit.com/privacy.html](https://www.intumit.com/privacy.html) |
-| URL des conditions d’utilisation | [https://www.intumit.com/english/TermsOfUse.html](https://www.intumit.com/english/TermsOfUse.html) |
+| Nom de la société partenaire | Semos Cloud Cloud CloudTions |
+| URL du site web partenaire | [https://semoscloud.com](https://semoscloud.com) |
+| URL de la Teams d’informations sur l’application | [https://semoscloud.com/product/jobpts](https://semoscloud.com/product/jobpts) |
+| URL de la politique de confidentialité | [https://semoscloud.com/privacy-policy/](https://semoscloud.com/privacy-policy/) |
+| URL des conditions d’utilisation | [https://semoscloud.com/terms-of-use/](https://semoscloud.com/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,7 +49,7 @@ Informations fournies par SmartWork d’Intumit à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par SmartWork d’Intumit sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par semos Cloud Cloud Cloud Sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -56,7 +57,11 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | délégué | Utilisation de userPrincipalName pour identifier si le courrier de l’utilisateur est issu d’un AAD valide ou non | Activer la connexion et lire le profil utilisateur | [a938ae1e-a791-4751-9e6a-178c991fa0fa](https://docs.microsoft.com/microsoft-365-app-certification/azure/a938ae1e-a791-4751-9e6a-178c991fa0fa) |
+>| User.Read | délégué | Lire les informations de base de l’entreprise | Aucune donnée n’est stockée | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
+>| email | délégué | Utilisé pour le mappage des utilisateurs AzureAD avec des utilisateurs dans l’outil JobPts | Aucune donnée n’est stockée | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
+>| offline_access | délégué | Maintenir l’accès aux données | Aucune donnée n’est stockée | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
+>| openid | délégué | Pour que les utilisateurs puissent se connecter avec leur compte de travail | Aucune donnée n’est stockée | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
+>| profil | délégué | Pour pouvoir voir les informations de base de l’utilisateur (nom d’utilisateur) | Aucune donnée n’est stockée | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -71,26 +76,26 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Utilisation pour identifier le courrier de l’utilisateur, qu’il provienne d’AAD valide ou non | Courrier électronique de l’utilisateur | Liste de courriers de l’utilisateur stocké pour identifier si l’utilisateur est issu d’un AAD valide ou non |
+>| Obtention d’informations sur l’utilisateur qui communique avec le bot | Non |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Non. Pendant la conversation, nous allons utiliser le mode session pour contrôler. En utilisant l’ID pour correspondre à l’élément dans la base de données, accédez aux données. Nous n’enregistrerons pas spécifiquement les informations de l’utilisateur
+>Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Seul votre compte AAD valide peut accéder à l’application.
+>Nous ne transférons aucune donnée vers les systèmes des partenaires
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
 Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
->Oui
+>Non
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -98,11 +103,11 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35852' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35852" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,20 +117,21 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par SmartWork d’Intumit sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par Semos Cloud Cloud Sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
-| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
-| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
+| Liste des types de stratégies pris en charge | Authentification multifacteur, restriction des emplacements utilisateur et des plages IP |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
-| Votre application a-t-elle un client confidentiel ? | Oui |
+| Votre application a-t-elle un client confidentiel ? | Non |
 | Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
-| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | ,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/> |
+| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | - URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/>- Flux ROPC (Resource Owner Password Credential) |
 | Votre application expose-t-elle des API web ? | Oui |
 | Votre modèle d’autorisation autorise-t-il uniquement les appels à réussir si l’application cliente reçoit le consentement approprié ? | Oui |
 | Votre application utilise-t-elle les API d’aperçu ? | Non |

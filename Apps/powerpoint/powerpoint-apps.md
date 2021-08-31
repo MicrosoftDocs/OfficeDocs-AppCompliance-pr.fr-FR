@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft PowerPoint - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/22/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft PowerPoint.
 localization_priority: Normal
-ms.openlocfilehash: f2ffe2dc0dac164e4e55008da37509d1ec7adaf155beae41fe686d8e28c7b1fd
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 865492d53a958a3bd434c42388b55c6b92d75058
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54802430"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58669040"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft PowerPoint
 
@@ -26,7 +26,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Diagrammes de diagrammes de graphiques PowerPoint](./lucid-software-inc-lucidchart-diagrams-for-powerpoint.md) | Lucid Software Inc | **✓** |  |
 | [Office2SharePoint pour Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | S’il s’Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | S chooser d’image Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | S’il s’Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | S’il s’Office](./officeatwork-officeatworkslide-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | S’il s’Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SlideHub](./nomorehours-slidehub.md) | nomorehours | **✓** |  |
