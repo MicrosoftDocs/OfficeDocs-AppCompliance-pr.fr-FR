@@ -6,16 +6,16 @@ description: Microsoft 365 Détails de certification
 keywords: attestation d’application microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 51f85b71a04cb64159b228cdb881345fecaad36c
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.openlocfilehash: 49bb08fa252a3907df67766dce39ef810381be27
+ms.sourcegitcommit: 44c92cbf86ee358e4fcdf2a51dae5be001345029
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58241820"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862037"
 ---
 # <a name="what-is-microsoft-365-certification"></a>Qu’est-ce Microsoft 365 certification ?
 
-La certification Microsoft 365 est une certification conçue pour montrer aux clients qu’une application a été examinée par rapport aux cadres standard du secteur et que des pratiques de sécurité et de conformité fortes sont en place pour protéger les données client. 
+La certification Microsoft 365 est une certification conçue pour montrer aux clients qu’une application a été examinée par rapport aux contrôles dérivés des principales frameworks standard du secteur, et que des pratiques de sécurité et de conformité fortes sont en place pour protéger les données client. 
 
 >[!VIDEO https://www.youtube.com/embed/Aff_35f10B8]
 
@@ -35,7 +35,7 @@ Microsoft 365 La certification s’applique à toutes les applications qui s’i
 
 
 ## <a name="program-benefits"></a>Avantages du programme
-La participation et l’achèvement de Microsoft 365 certification peuvent offrir d’importants avantages aux administrateurs informatiques et aux développeurs :
+La participation et la réalisation de Microsoft 365 certification peuvent offrir d’importants avantages aux administrateurs informatiques et aux développeurs :
 
 **Avantages pour les développeurs d’applications** Les avantages pour les développeurs d’applications sont les suivants : 
 -   Évaluation et vérification gratuites de votre sécurité et de votre posture de conformité
@@ -60,9 +60,9 @@ Bien que la participation soit facultative, lorsqu’une application est certifi
 
 
 ### <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>Utilisation du badge Microsoft 365 et des supports marketing associés
-Le logo Microsoft 365 certification des données montre qu’une application a été examinée pour assurer la conformité aux contrôles mis en place par Microsoft qui évaluent de manière adv e les pratiques de sécurité et de confidentialité des données. Vous pouvez utiliser le logo Microsoft 365 certification à l’aide du consentement écrit express de Microsoft à la fin de la certification Microsoft 365 certification. Si votre certification est révoquée ou si le processus de certification n’est pas démarré dans un délai d’un an à partir du jour où la certification a été accordée, vous devez cesser d’utiliser tous les documents marketing liés à la certification Microsoft 365. 
+Le logo Microsoft 365 certification des données montre qu’une application a été examinée pour assurer sa conformité aux contrôles mis en place par Microsoft qui évaluent de manière adv e les pratiques de sécurité et de confidentialité des données. Vous pouvez utiliser le logo Microsoft 365 certification à l’aide du consentement écrit express de Microsoft à la fin de la certification Microsoft 365 certification. Si votre certification est révoquée ou si le processus de certification n’est pas démarré dans un délai d’un an à partir du jour où la certification a été accordée, vous devez cesser d’utiliser tous les documents marketing liés à la certification Microsoft 365. 
 
-Ce logo peut être utilisé sur des sites web, des communiqués de presse et d’autres forums où il se rapporte spécifiquement à l’application qui a terminé le processus Microsoft 365 certification. Le logo doit être présenté dans une taille et un emplacement raisonnables au sein du contenu numérique. 
+Ce logo peut être utilisé sur des sites web, des communiqués de presse et d’autres forums où il se rapporte spécifiquement à l’application qui a terminé le processus Microsoft 365 certification. Le logo doit être présenté dans une taille et un emplacement raisonnables dans le contenu numérique. 
 
 L’instruction suivante doit accompagner le logo : « Les applications avec le logo Microsoft 365 certification indiquent que cette application a obtenu Microsoft 365 certification. Outre la sécurité des applications, ce programme passe en revue les pratiques et procédures employées par l’éditeur d’application. Bien que les données client sont sous le contrôle de l’éditeur de l’application, vous pouvez être certain que Microsoft a validé que l’application les gérera de manière sécurisée. »
 
