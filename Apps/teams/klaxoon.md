@@ -2,24 +2,24 @@
 title: Informations sur l’application pour LeInsonson par Harpxoon
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/15/2020
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Ceinson, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e55059ec1274476e4234a5347b3f56065eb6e0c3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 146f6faa9874719bdf42397f8419ced0415a8add
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525528"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58873449"
 ---
 # <a name="klaxoon"></a>Klaxoon
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 15, 2020</p>
+<p>Last updated by the developer on: August 31, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/6adc8d55-eb37-4537-a66d-743b3cd4511b" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104382058" target="_blank">Afficher dans AppSource</a>
@@ -37,8 +37,9 @@ Informations fournies par Leinson à Microsoft :
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Klaxoon |
 | URL du site web partenaire | [https://klaxoon.com](https://klaxoon.com) |
-| URL de la politique de confidentialité | [https://klaxoon.com/privacy-policy](https://klaxoon.com/privacy-policy) |
-| URL des conditions d’utilisation | [https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06...](https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06814d1c3354495b2.pdf) |
+| URL de la Teams d’informations sur l’application | [https://klaxoon.com](https://klaxoon.com) |
+| URL de la politique de confidentialité | [https://klaxoon.com/legal](https://klaxoon.com/legal) |
+| URL des conditions d’utilisation | [https://static.klaxoon.com/website/pdf/eula.pdf](https://static.klaxoon.com/website/pdf/eula.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -63,7 +64,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| none |  | none |
+>| zendesk | nom de domaine | gestion de la relation client, centre d’aide |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -71,20 +72,20 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Nous utilisons la liste de travail pour personnaliser la réponse de l’utilisateur. par exemple : Bonjour {{givenName}}, merci pour votre question ! | Non |  |
+>| Nous utilisons la liste de travail pour personnaliser la réponse de l’utilisateur. par exemple : Bonjour {{givenName}}, merci pour votre question ! | prénom, nom, avatar, e-mail et mot de passe (selon que l' ssO est déléguée ou non). | gestion des comptes d’utilisateurs |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->oui
+>les journaux d’accès et d’erreurs à des fins de débogage, notamment : adresse ip, e-mail des journaux hors connexion sont chiffrés et archivés pendant un an. Les journaux en ligne sont conservés un mois
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Stocké dans les systèmes cloud de Computxoon. Chiffrement au repos. L’accès aux serveurs Wallon est limité à une plage d’adresses IP spécifique en mode HTTPS/SSH (touche SSH + phrase passphrase). Cet accès n’est possible que par le biais d’un unique groupe.
+>Les données sont conservées pendant toute la durée de l’activation du compte. La suppression et/ou la récupération des données au format plat (pdf, xlsx, csv, images) ou au format Hexaban (.xlsx) sont disponibles à tout moment via l’application elle-même. Il est manuel et sous la responsabilité de son propriétaire, seul titulaire des informations d’identification, d’y accéder. Une fois le compte désactivé, l’accès utilisateur est fermé.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -108,3 +109,28 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informations d’identité
+
+Ces informations ont été fournies par Guidon sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Non |
+| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
+| Votre application prend-elle en charge l’location multiple ? | Oui |
+| Votre application a-t-elle un client confidentiel ? | Oui |
+| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
+| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | - URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/>- Flux ROPC (Resource Owner Password Credential) |
+| Votre application expose-t-elle des API web ? | Non |
+| Votre application utilise-t-elle les API d’aperçu ? | Non |
+| Votre application utilise-t-elle des API dépréciées ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

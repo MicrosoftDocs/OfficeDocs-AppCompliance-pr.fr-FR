@@ -2,17 +2,17 @@
 title: 'Microsoft Word Sécurité et conformité des applications : toutes les applications'
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les Microsoft Word applications.
 localization_priority: Normal
-ms.openlocfilehash: d87b12f87692d7cc77304bb52f1b0acdef246632
-ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
+ms.openlocfilehash: 678fff6a13edb78eebd2dc28dbefe26b34731e31
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58672901"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58873029"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Sécurité et conformité des applications
 
@@ -21,9 +21,10 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign pour Word et PowerPoint](./adobe-inc-sign-for-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [CocoFax : envoi de télécopies faciles à &amp; sécuriser](./missing-cocofax-sending-fax-made-easy-and-secure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
+| [CocoFax : envoi de télécopies faciles à &amp; sécuriser](./cocofax-sending-fax-made-easy-and-secure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
+| [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
 | [Excel-to-Word Document Automation](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
-| [Fabasoft Cloud Office Add-in](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria(#A0) | **✓** |  |
+| [Fabasoft Cloud Office Add-in](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
 | [harmon.ie pour Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
 | [Assistant Contrat Loio](./loio-inc-contract-assistant.md) | Loio Inc. | **✓** |  |
