@@ -6,12 +6,12 @@ description: Microsoft 365 Vue d’ensemble des détails de certification
 keywords: attestation de certification des Microsoft 365 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 7d6c72f39a07fa11bfe87a9da6d94178fd7992b3
-ms.sourcegitcommit: a2851b8a32c181843617568ab5f8b5de741547cf
+ms.openlocfilehash: 9f93edb4bead62eb626f6b65544fbf1a35ad48dd
+ms.sourcegitcommit: 854938b0495a6a30c2d03a6645e32ca52b4ce295
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58885982"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58922981"
 ---
 # <a name="complete-microsoft-365-certification"></a>Certification Microsoft 365 complète
 
@@ -25,8 +25,7 @@ La recherche d’une certification est un moyen efficace de montrer aux entrepri
 
 > [!IMPORTANT]
 > En participant au programme de certification Microsoft 365, vous acceptez ces conditions supplémentaires et vous respectez toute documentation qui s’applique à votre participation au programme de certification Microsoft 365 avec Microsoft Corporation ( « Microsoft », « nous », « nous » ou « notre »). Vous nous faites part de l’autorisation d’accepter ces conditions supplémentaires de certification Microsoft 365 au nom de vous-même, d’une société et/ou d’une autre entité, le cas échéant. Nous pouvons modifier, modifier ou mettre fin à ces termes supplémentaires à tout moment. Votre participation continue au programme Microsoft 365 certification après toute modification ou modification signifie que vous acceptez les nouvelles conditions supplémentaires. Si vous n’acceptez pas les nouvelles conditions supplémentaires ou si nous résilions ces termes supplémentaires, vous devez arrêter de participer au programme Microsoft 365 certification.
-
->Toutes les preuves, y compris, mais sans s’y limiter, les documents, les captures d’écran et les images seront conservées dans un référentiel sécurisé pendant 18 mois à partir du moment de l’envoi en tant que preuve d’audit. Après 18 mois, toutes les preuves seront effacées
+Toutes les preuves, y compris, mais sans s’y limiter, les documents, les captures d’écran et les images seront conservées dans un référentiel sécurisé pendant 18 mois à partir du moment de l’envoi en tant que preuve d’audit. Après 18 mois, toutes les preuves seront effacées
 
 ## <a name="certification-process"></a>Processus de certification
 
