@@ -9,13 +9,13 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Le savoir-faire, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 73e0fe6ac097da2212173a467f38cdea21657dff
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275262"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280648"
 ---
-# <a name="skilledhuman"></a>Skilled Qu’est-ce que c
+# <a name="skilledhuman"></a>SkilledHuman
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Informations fournies par SaltFlat Limited à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Skilled Qu’est-ce que c |
+| Nom de l'application | SkilledHuman |
 | ID | WA200002603 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | SaltFlat Limited |
+| Nom de la société partenaire | SaltFlat limité |
 | URL du site web partenaire | [https://skilledhuman.org](https://skilledhuman.org) |
 | URL de la Teams d’informations sur l’application | [https://skilledhuman.org/teamsapp](https://skilledhuman.org/teamsapp) |
 | URL de la politique de confidentialité | [https://skilledhuman.org/privacy-policy.aspx](https://skilledhuman.org/privacy-policy.aspx) |
@@ -114,7 +114,7 @@ Ces informations ont été fournies par SaltFlat Limited sur la façon dont cett
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |

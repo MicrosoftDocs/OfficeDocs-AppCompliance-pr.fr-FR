@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Rezolve.ai, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 22c71b78374956fb69f0f3f5fd5fc860d2184363
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53774916"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280678"
 ---
 # <a name="rezolveai"></a>Rezolve.ai
 
@@ -35,7 +35,7 @@ Informations fournies par La Science actionnable à Microsoft :
 | Nom de l'application | Rezolve.ai |
 | ID | WA200002724 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Science actionnable |
+| Nom de la société partenaire | Science exploitable |
 | URL du site web partenaire | [https://www.rezolve.ai](https://www.rezolve.ai) |
 | URL de la politique de confidentialité | [https://www.rezolve.ai/privacyPolicy](https://www.rezolve.ai/privacyPolicy) |
 | URL des conditions d’utilisation | [https://www.rezolve.ai/generalTerms](https://www.rezolve.ai/generalTerms) |
@@ -117,7 +117,7 @@ Ces informations ont été fournies par la science actionnable sur la façon don
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |

@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Trivia, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: e22205d2584abd257a6fdff585f129fb915ff6b2
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528360"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280617"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -61,7 +61,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Team.ReadBasic.All | délégué | Oui, stockage de la liste des équipes dans lesquelles le bot a été ajouté | Pour collecter des informations de base sur toutes les équipes présentes dans un espace de travail | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 >| User.Read.All | délégué | Oui, pour stocker l’aadObjectId unique d’un utilisateur. Divers détails de l’utilisateur tels que le nom d’utilisateur, le courrier électronique, etc., et l’afficher dans le tableau de bord Trivia | Pour obtenir les détails de tous les utilisateurs présents dans un espace de travail | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 >| openid | délégué | Oui, pour stocker les utilisateurs qui se connectent à l’application. |  Pour permettre à l’utilisateur d’utiliser l’application avec son compte et l’application d’utiliser les données de l’utilisateur | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
->| profil | délégué | Oui, pour stocker les ID d’utilisateur et les noms des hôtes de questionnaires et d’autres fonctionnalités, et les identifier de manière unique | Pour lire les informations de profil de base de l’utilisateur telles que le nom d’utilisateur, le courrier électronique | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| profil | délégué | Oui, pour stocker les ID d’utilisateur et les noms des hôtes de questionnaires et d’autres fonctionnalités, et les identifier de manière unique | Pour lire les informations de profil de base de l’utilisateur telles que le nom d’utilisateur, courrier électronique | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -106,7 +106,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36138' frameborder='no' style='width: 100%;'></iframe>
 
@@ -124,7 +124,7 @@ Ces informations ont été fournies par Springworks HR Tech sur la façon dont c
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

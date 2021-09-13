@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour 365-QA, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 161cae04f765549c7cc0f0397fbeb6ae27de4096
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609966"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280672"
 ---
 # <a name="365-qa"></a>365-QA
 
@@ -35,7 +35,7 @@ Informations fournies par Advantive à Microsoft :
 | Nom de l'application | 365-QA |
 | ID | WA200001394 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Advantive |
+| Nom de la société partenaire | Advantif |
 | URL du site web partenaire | [https://www.advantive.be](https://www.advantive.be) |
 | URL de la Teams d’informations sur l’application | [https://www.advantive.be/365-qa-how-to/](https://www.advantive.be/365-qa-how-to/) |
 | URL de la politique de confidentialité | [https://www.advantive.be/privacy-policy-en/](https://www.advantive.be/privacy-policy-en/) |
@@ -80,7 +80,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -88,7 +88,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Nous ne conservons aucune donnée à l’exception des journaux d’informations sur l’application qui sont automatiquement supprimés après 30 jours
+>Nous ne conservons aucune donnée à l’exception des journaux d’informations sur les applications qui sont automatiquement supprimés après 30 jours
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Prezi Video, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 8e7e9c70ee848fd284e3297a915ec9847d3ef1ee
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521245"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280665"
 ---
 # <a name="prezi-video"></a>Vidéo Prezi
 
@@ -63,7 +63,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Pour plus d’informations, visitez https://prezi.com/privacy-policy/ |  | Les API/SDK suivantes sont utilisées pour l’intégration avec le 1. Botbuilder-SDK (python) : à l’aide de ce SDK, nous stockons l’ID d’objet Azure Active Directory (appelé aad_object_id). Nous avons besoin de ces informations pour ma Microsoft Teams utilisateur à tout contenu lié à Prezi Video créé sur prezi.com.  2. Botbuilder-js (javascript) : aucune Microsoft Teams données spécifiques n’est collectée à l’aide de ce SDK. |
+>| Pour plus d’informations, visitez https://prezi.com/privacy-policy/ |  | Les API/SDK suivantes sont utilisées pour l’intégration avec la 1. Botbuilder-SDK (python) : à l’aide de ce SDK, nous stockons l’ID d’objet Azure Active Directory (appelé aad_object_id). Nous avons besoin de ces informations pour ma Microsoft Teams utilisateur à tout contenu lié à Prezi Video créé sur prezi.com.  2. Botbuilder-js (javascript) : aucune Microsoft Teams données spécifiques n’est collectée à l’aide de ce SDK. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -109,7 +109,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/17887' frameborder='no' style='width: 100%;'></iframe>
 

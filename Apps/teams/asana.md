@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Asana, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 14ec3eee9b8ae673565ef91a017019d23d524619
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525878"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279951"
 ---
 # <a name="asana"></a>Asana
 
@@ -76,7 +76,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Notre application enregistre uniquement les informations relatives aux données Asana. La seule fois que nous journalisons des informations sur l’utilisateur Outlook, c’est lorsque l’utilisateur joint explicitement un e-mail ou télécharge une pièce jointe vers Asana, et même alors, nous ne logons pas le contenu. Les journaux à court terme existent sur des serveurs qui peuvent inclure des données utilisateur, mais ils sont éphémères et limités à des périodes inférieures à 72 heures.
+>Notre application enregistre uniquement les informations relatives aux données Asana. La seule fois que nous journalisons des informations sur l’utilisateur Outlook, c’est lorsque l’utilisateur joint explicitement un e-mail ou télécharge une pièce jointe dans Asana, et même alors, nous ne logons pas le contenu. Les journaux à court terme existent sur des serveurs qui peuvent inclure des données utilisateur, mais ils sont éphémères et limités à des périodes inférieures à 72 heures.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -97,7 +97,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/10417' frameborder='no' style='width: 100%;'></iframe>
 

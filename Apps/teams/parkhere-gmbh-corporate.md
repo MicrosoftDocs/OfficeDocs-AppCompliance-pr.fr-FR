@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ParkHere Corporate, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: babf29fab04ebc7dddb3ae7d44099bb2fe96bfaf
-ms.sourcegitcommit: 3621f286e5bbd52acf5e0d9c8e4287fcc8c15e38
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567235"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279892"
 ---
 # <a name="parkhere-corporate"></a>ParkHere Corporate
 
@@ -30,12 +30,12 @@ ms.locfileid: "58567235"
 
 Informations fournies par ParkHere ContrôleH à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | ParkHere Corporate |
 | ID | WA200003124 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | ParkHere CashH |
+| Nom de la société partenaire | ParkHere GmbH |
 | URL du site web partenaire | [https://park-here.eu](https://park-here.eu) |
 | URL de la Teams d’informations sur l’application | [https://park-here.eu/komplettloesung/](https://park-here.eu/komplettloesung/) |
 | URL de la politique de confidentialité | [https://park-here.eu/datenschutz-corporate-parking/](https://park-here.eu/datenschutz-corporate-parking/) |
@@ -113,7 +113,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 Ces informations ont été fournies par ParkHere ContrôleH sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 

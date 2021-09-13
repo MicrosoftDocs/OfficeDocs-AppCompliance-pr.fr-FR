@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour BlackBerry AtHoc, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 38d1d54293b3f406a0a5c8028850dae27a9c9294
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58241832"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279945"
 ---
 # <a name="blackberry-athoc"></a>BlackBerry AtHoc
 
@@ -30,7 +30,7 @@ ms.locfileid: "58241832"
 
 Informations fournies par BlackBerry à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | BlackBerry AtHoc |
 | ID | WA200003065 |
@@ -57,12 +57,12 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| ChannelMessage.Send | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom du principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| Group.Read.All | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom du principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| User.Read | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom du principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| email | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom du principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| openid | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom du principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| profil | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom du principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| ChannelMessage.Send | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| Group.Read.All | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| User.Read | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| email | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| openid | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| profil | délégué | Nous accédons aux informations de base de l’utilisateur&#8217;telles que le nom principal et le lien vers le canal général des équipes (pour lequel l’utilisateur est autorisé) à envoyer une carte d’alerte aux équipes. | Nous ne&#8217;pas stocker les données utilisateur dans la base de données, mais dans la mémoire du bot. Nous stockons le nom principal de l’utilisateur, jeton AAD, jeton BlackBerry AtHoc, préférence/configuration blackBerry AtHoc Server dans la mémoire du bot. Vous avez besoin des informations nécessaires pour envoyer une demande d’API à l’API Microsoft Graph et à notre serveur BlackBerry AtHoc. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -80,7 +80,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12225' frameborder='no' style='width: 100%;'></iframe>
 
@@ -116,11 +116,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par BlackBerry sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par BlackBerry sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

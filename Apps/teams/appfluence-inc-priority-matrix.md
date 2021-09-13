@@ -9,11 +9,11 @@ certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour la matrice de priorité, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: e88ba3c98c9ab444f2500ed09013071a6b5ab2c3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525898"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279969"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
@@ -86,7 +86,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Oui, nous utilisons le courrier électronique de l’utilisateur comme ID unique dans notre système, qui sert à suivre les erreurs de l’application et à suivre les événements clés dans le système (téléchargements, connectes, versions d’application, etc.) afin que notre équipe de service clientèle puisse fournir une réponse rapide aux requêtes des clients. Dans le cadre de notre conformité R GDPR, nous supprimons toutes les données client dans les 2 semaines suivant une demande de suppression, bien que dans la pratique nous le faisons le même jour, car nous avons des scripts internes pour le faire de manière semi-automatique.
+>Oui, nous utilisons le courrier électronique de l’utilisateur comme ID unique dans notre système, qui sert à suivre les erreurs d’application et à suivre les événements clés dans le système (téléchargements, connectes, versions d’application, etc.) afin que notre équipe de service clientèle puisse fournir une réponse rapide aux requêtes des clients. Dans le cadre de notre conformité R GDPR, nous supprimons toutes les données client dans les 2 semaines suivant une demande de suppression, bien que dans la pratique nous le faisons le même jour, car nous avons des scripts internes pour le faire de manière semi-automatique.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -106,7 +106,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no' style='width: 100%;'></iframe>
 
@@ -120,15 +120,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Appfluence Inc sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Appfluence Inc sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

@@ -9,13 +9,13 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Big puis ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 1d156c5b08b9c8e9a22c9a0c40c4a6492610cd8f
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404625"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279904"
 ---
-# <a name="bigfish"></a>Big qu’il s’est
+# <a name="bigfish"></a>Bigfish
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -30,12 +30,12 @@ ms.locfileid: "58404625"
 
 Informations fournies par L’India Advisors Pvt. Ltd. à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Big qu’il s’est |
+| Nom de l'application | Bigfish |
 | ID | WA200002985 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | 2.000 India Advisors Pvt. Ltd. |
+| Nom de la société partenaire | Breathe India Advisors Pvt. Ltd. |
 | URL du site web partenaire | [https://www.bigfishbenefits.com](https://www.bigfishbenefits.com) |
 | URL de la politique de confidentialité | [https://bigfishbenefits.com/policy.html](https://bigfishbenefits.com/policy.html) |
 | URL des conditions d’utilisation | [https://www.bigfishbenefits.com/termsOfUse.html](https://www.bigfishbenefits.com/termsOfUse.html) |
@@ -110,7 +110,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 Ces informations ont été fournies par L’India Advisors Pvt. Ltd. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
