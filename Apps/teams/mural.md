@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application POUR LA MISE EN PLACE DNL par LA DEMANDE
+title: Informations sur l’application POUR LA MISE EN PLACE DE LA MISE EN PLACE DE LA DEMANDE D'
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/23/2020
@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LA DEMANDE, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3b940d83a9095e92424c4f18480507469526e9c1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551894"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282429"
 ---
 # <a name="mural"></a>MURAL
 
@@ -34,7 +34,7 @@ Informations fournies par LA TECHNOLOGIE DNS à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | MURAL |
 | ID | WA104381626 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | MURAL |
 | URL du site web partenaire | [https://mural.co/](https://mural.co/) |
 | URL de la Teams d’informations sur l’application | [https://support.mural.co/](https://support.mural.co/) |
@@ -49,7 +49,7 @@ Informations fournies par LA TECHNOLOGIE DNS à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par LA STRATÉGIE DE PROTECTION DES APPLICATIONS sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par LA BASE DE DONNÉES SUR LA FAÇON DONT cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -81,7 +81,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les administrateurs peuvent gérer les utilisateurs, les supprimer, supprimer des suppressions, etc. La stratégie utilisateur se trouve ici : https://mural.co/terms
+>Les administrateurs peuvent gérer les utilisateurs, les supprimer, supprimer des murs, etc. La stratégie utilisateur se trouve ici : https://mural.co/terms
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

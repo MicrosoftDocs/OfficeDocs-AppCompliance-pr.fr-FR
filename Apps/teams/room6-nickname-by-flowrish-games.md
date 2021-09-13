@@ -9,13 +9,13 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les surnoms par jeux de flux, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 3e4c0164d4aee94b2019af76aa3b134304f3a471
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873799"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282400"
 ---
-# <a name="nickname-by-flowrish-games"></a>nickname par jeux flow games
+# <a name="nickname-by-flowrish-games"></a>surnom par les jeux flow
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Informations fournies par room6 à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | nickname par jeux flow games |
+| Nom de l'application | surnom par les jeux flow |
 | ID | WA200003202 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | room6 |

@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour Lebuzz De QuézychBuzz
+title: Informations sur l’application pour LeBuzzChCh parQuechBuzz
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ContrôlechBuzz, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: da50e7ef872263bd4d4d159733d631e4ba08f24d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552105"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281229"
 ---
 # <a name="hunchbuzz"></a>HunchBuzz
 
@@ -34,7 +34,7 @@ Informations fournies par ContrôleChBuzz à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | HunchBuzz |
 | ID | WA200000160 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | HunchBuzz |
 | URL du site web partenaire | [https://hunchbuzz.com](https://hunchbuzz.com) |
 | URL de la Teams d’informations sur l’application | [https://hunchbuzz.com/contact](https://hunchbuzz.com/contact) |
@@ -73,15 +73,15 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Seules les informations EUII capturées sont le prénom, le nom et l’adresse e-mail. Les administrateurs peuvent afficher ces informations dans le journal d’audit DeBuzz. Il ne peut pas être supprimé ou archivé.
+>Seules les informations EUII capturées sont le prénom, le nom et l’adresse e-mail. Les administrateurs peuvent afficher ces informations dans le journal d’audit DeBuzz. Elle ne peut pas être supprimée ou archivée.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les administrateurs peuvent afficher ces informations dans le journal d’audit DeBuzz. Il ne peut pas être supprimé ou archivé.
+>Les administrateurs peuvent afficher ces informations dans le journal d’audit DeBuzz. Elle ne peut pas être supprimée ou archivée.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -90,7 +90,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35739' frameborder='no' style='width: 100%;'></iframe>
 

@@ -9,13 +9,13 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Leoo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 2da998bb93966de9e3f800989c579d4fe75a2831
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404503"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283558"
 ---
-# <a name="kazoo"></a>Tzoo
+# <a name="kazoo"></a>Kazoo
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -30,12 +30,12 @@ ms.locfileid: "58404503"
 
 Informations fournies par Contrôleoo à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Tzoo |
+| Nom de l'application | Kazoo |
 | ID | WA200002751 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Tzoo |
+| Nom de la société partenaire | Kazoo |
 | URL du site web partenaire | [https://www.kazoohr.com](https://www.kazoohr.com) |
 | URL de la politique de confidentialité | [https://www.kazoohr.com/privacy](https://www.kazoohr.com/privacy) |
 | URL des conditions d’utilisation | [https://www.kazoohr.com/terms-of-use](https://www.kazoohr.com/terms-of-use) |
@@ -63,7 +63,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Le GRS (GrS), vous réalisez l’enrichissement de nos bénéfices. Ils doivent savoir ce que l’utilisateur souhaite en tant que récompense et où l’expédier. | Nom et adresse d’expédition. | Le service permet aux employés de sélectionner une récompense dans le catalogue en ligne. Notre expédieur doit savoir où expédier les éléments. |
+>| Le GrS (GrS) vous permet d’accomplir nos bénéfices. Ils doivent savoir ce que l’utilisateur souhaite en tant que récompense et où l’expédier. | Nom et adresse d’expédition. | Le service permet aux employés de sélectionner une récompense dans le catalogue en ligne. Notre expédieur doit savoir où expédier les éléments. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -112,7 +112,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 Ces informations ont été fournies par Contrôleoo sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 

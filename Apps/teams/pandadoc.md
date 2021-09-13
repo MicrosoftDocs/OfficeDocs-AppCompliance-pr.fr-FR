@@ -9,13 +9,13 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LeDoc, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 0ad06df6fb1b41955c2cb69e45f2ea84660b3e06
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53774887"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283198"
 ---
-# <a name="pandadoc"></a>Doc
+# <a name="pandadoc"></a>PandaDoc
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Informations fournies par ContrôleDoc à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Doc |
+| Nom de l'application | PandaDoc |
 | ID | WA200002927 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Doc |
+| Nom de la société partenaire | PandaDoc |
 | URL du site web partenaire | [https://www.pandadoc.com](https://www.pandadoc.com) |
 | URL de la Teams d’informations sur l’application | [https://www.pandadoc.com](https://www.pandadoc.com) |
 | URL de la politique de confidentialité | [https://www.pandadoc.com/privacy-notice/?utm_source=microso...](https://www.pandadoc.com/privacy-notice/?utm_source=microsoft-teams&amp;utm_medium=partner&amp;utm_campaign=2021-2-inbd-marketplace-websitevisit-pandadoc-privacy) |
@@ -146,7 +146,7 @@ Ces informations ont été fournies par ContrôleDoc sur la façon dont cette ap
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Non |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Non |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |

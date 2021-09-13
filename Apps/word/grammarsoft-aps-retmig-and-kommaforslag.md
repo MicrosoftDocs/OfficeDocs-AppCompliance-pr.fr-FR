@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour RetMig Kommaforslag, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre &amp; CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 719d06109904e4cc6a06efe4c1cdcdd2281005b8
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404572"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282693"
 ---
 # <a name="retmig-amp-kommaforslag"></a>RetMig &amp; Kommaforslag
 
@@ -29,7 +29,7 @@ ms.locfileid: "58404572"
 
 Informations fournies par GrammarSoft ApS à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | RetMig &amp; Kommaforslag |
 | ID | WA104382003 |
@@ -104,7 +104,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 Ces informations ont été fournies par GrammarSoft ApS sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 

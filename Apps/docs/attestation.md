@@ -7,11 +7,11 @@ keywords: questionnaire appSource de certification d’attestation d’applicati
 ms.topic: conceptual
 ms.service: attestation
 ms.openlocfilehash: 286d14e580bdb9f24ccf1754685ebeeaef6d0c11
-ms.sourcegitcommit: eae0e45c87fa8f1a87257e1e38122228e6970ba9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58390458"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282237"
 ---
 # <a name="complete-publisher-attestation"></a>Attestation d’Publisher complète
 
@@ -55,7 +55,7 @@ Publisher L’attestation s’applique aux applications web (applications SaaS p
    - Liens vers une copie détaillée de vos informations envoyées.
    - Déclaration que les informations fournies sont basées sur votre rapport d’attestation envoyé.
 
-Par exemple, *consultez la* [Microsoft Teams conformité des applications](../teams/teams-apps.md)
+Par exemple, *consultez la Microsoft Teams* [conformité des applications](../teams/teams-apps.md)
 
 4. **Examiner et soumettre à nouveau** : votre attestation Publisher doit être resoumise sur une base annuelle. Lorsque votre attestation approche de la marque d’un an, vous recevez une notification par le biais de l’Partner Center qui vous encourage à la resoumission de votre attestation. 
 

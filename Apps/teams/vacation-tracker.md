@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le suivi des vacances, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 55d54fbb94141dec562a829fdc647279a3cc006e
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527540"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281032"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -58,7 +58,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | délégué | Nous lisons les ID et les noms des canaux publics lorsque les utilisateurs définissent leurs notifications hebdomadaires ou quotidiennes. | Les utilisateurs peuvent sélectionner un canal dans lequel ils souhaitent recevoir des notifications quotidiennes ou hebdomadaires à partir du suivi des vacances. Lorsqu’un utilisateur choisit son canal préféré, nous stockons l’ID de canal. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| Team.ReadBasic.All | délégué | Nous listons les utilisateurs Microsoft Teams teams joints lors de l’inscription pour permettre aux utilisateurs de sélectionner une équipe qu’ils souhaitent inscrire au suivi des vacances. Ils peuvent également s’inscrire à l’ensemble de leur organisation. | Nous stockons l’ID Microsoft Teams d’équipe d’une équipe sélectionnée uniquement si l’utilisateur s’ade faut s’au suivi des vacances en tant qu’équipe unique (et non en tant qu’organisation entière). Nous utilisons les ID d’équipe pour connecter un utilisateur connecté à un compte existant dans le suivi des vacances. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| Team.ReadBasic.All | délégué | Nous listons les utilisateurs Microsoft Teams teams joints lors de l’inscription pour permettre aux utilisateurs de sélectionner une équipe qu’ils souhaitent inscrire au suivi des vacances. Ils peuvent également s’inscrire à l’ensemble de leur organisation. | Nous stockons l’ID Microsoft Teams d’équipe d’une équipe sélectionnée uniquement si l’utilisateur s’adeinsse au suivi des vacances en tant qu’équipe unique (et non en tant qu’organisation entière). Nous utilisons les ID d’équipe pour connecter un utilisateur connecté à un compte existant dans le suivi des vacances. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| User.Read | délégué | Nous collectons les informations de base de l’utilisateur, notamment son nom, son ID et son ID de client. Nous utilisons ces données pour connecter les utilisateurs connectés à leur organisation dans le suivi des vacances. | Nous stockons le nom, l’ID et l’ID client de l’utilisateur. Nous utilisons ces données pour connecter les utilisateurs connectés à leur organisation dans le suivi des vacances. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| User.Read.All | délégué | Nos utilisateurs peuvent importer tous les utilisateurs de leur Microsoft 365 organisation ou Microsoft Teams équipe. Nous utilisons cette autorisation pour importer uniquement les utilisateurs sous licence pour une équipe Microsoft Teams ou une organisation. | Nous stockons des informations de base sur les utilisateurs importés, notamment leur nom, leur adresse e-mail et leur ID d’utilisateur. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| User.ReadBasic.All | délégué | Nous permettons aux utilisateurs d’importer les autres utilisateurs de leur organisation ou de leur Microsoft Teams équipe. Nous utilisons cette autorisation pour lister les utilisateurs disponibles et leurs adresses de messagerie dans la fenêtre d’importation. | Lorsque les utilisateurs sélectionnent leurs collègues à importer dans le suivi des vacances, nous stockons des informations de base sur ces utilisateurs importés, notamment leur nom, leur adresse e-mail et leur ID d’utilisateur. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
@@ -109,7 +109,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417' frameborder='no' style='width: 100%;'></iframe>
 
@@ -127,11 +127,11 @@ Ces informations ont été fournies par le suivi des vacances sur la façon dont
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |

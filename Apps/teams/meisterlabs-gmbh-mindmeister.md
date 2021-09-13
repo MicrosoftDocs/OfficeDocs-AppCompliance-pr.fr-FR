@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour Mind Qu’est-ce que Inglabs
+title: Informations sur l’application pour Mind Qu’en-tête par IngLabs
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Mind Contrôle, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 75177ef60be80889a14c75fbb76bc1d4aaa9aa49
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525478"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281211"
 ---
 # <a name="mindmeister"></a>MindMeister
 
@@ -28,7 +28,7 @@ ms.locfileid: "53525478"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies à Microsoft par InglabsSinH :
+Informations fournies à Microsoft par ÉvrierLabs Contrôleh :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -49,7 +49,7 @@ Informations fournies à Microsoft par InglabsSinH :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par OrganiGrammeH sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par CommanderInsyth sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20874' frameborder='no' style='width: 100%;'></iframe>
 

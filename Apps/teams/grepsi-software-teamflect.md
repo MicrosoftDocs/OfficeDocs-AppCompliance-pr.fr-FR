@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Teamflect, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 5ef5eed446743b2c281b8d8f7c3132de75b31b64
-ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58673128"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281511"
 ---
 # <a name="teamflect"></a>Teamflect
 
@@ -30,12 +30,12 @@ ms.locfileid: "58673128"
 
 Informations fournies par le logiciel Grepsi à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | Teamflect |
 | ID | WA200001860 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Logiciels grepsi |
+| Nom de la société partenaire | Grepsi Software |
 | URL du site web partenaire | [https://teamflect.com](https://teamflect.com) |
 | URL de la politique de confidentialité | [https://www.teamflect.com/privacy](https://www.teamflect.com/privacy) |
 | URL des conditions d’utilisation | [https://teamflect.com/terms](https://teamflect.com/terms) |
@@ -117,10 +117,10 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 Ces informations ont été fournies par le logiciel Grepsi sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | BlockAccess, RequireMFA |

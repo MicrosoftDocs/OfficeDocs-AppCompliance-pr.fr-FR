@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Kronos, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3a20e3a40ce61d6610b6f36e4c2943da1e9293d2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552995"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282976"
 ---
 # <a name="kronos"></a>Kronos
 
@@ -34,7 +34,7 @@ Informations fournies par Kronos, Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Kronos |
 | ID | WA104381629 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Kronos, Inc. |
 | URL du site web partenaire | [https://www.kronos.com/](https://www.kronos.com/) |
 | URL de la Teams d’informations sur l’application | [https://www.kronos.com/contact/en-us/form](https://www.kronos.com/contact/en-us/form) |
@@ -81,7 +81,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les clients peuvent modifier les données uniquement à l’aide de l’application Kronos
+>Les clients peuvent modifier des données uniquement à l’aide de l’application Kronos
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application spinify par Spinify
+title: Informations sur l’application pour spinify par Spinify
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/23/2020
@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Spinify, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 112ef7658f0aeae62046da0c1297be5025fa86ec
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551434"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281787"
 ---
 # <a name="spinify"></a>Spinify
 
@@ -34,7 +34,7 @@ Informations fournies par Spinify à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Spinify |
 | ID | WA200002238 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Spinify |
 | URL du site web partenaire | [https://spinify.com](https://spinify.com) |
 | URL de la Teams d’informations sur l’application | [https://spinify.com/integrations/microsoft-teams/](https://spinify.com/integrations/microsoft-teams/) |
@@ -109,11 +109,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Spinify sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Spinify sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SurveyMonkey, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: f4898e476e0848ba728d07d0d851fc09f239aecf
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528200"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282363"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -74,14 +74,14 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Nous appelons v3/conversations/{id}/pagedmembers pour vérifier que l’application est ajoutée à une équipe et obtenir le nombre de membres. C’est pour le suivi interne de l’utilisation, nous regardons uniquement la taille de la liste de conversation, les autres informations sont ignorées. | Oui, la taille de la conversation est stockée (un seul nombre) |  |
+>| Nous appelons v3/conversations/{id}/pagedmembers pour vérifier que l’application est ajoutée à une équipe et obtenir le nombre de membres. Il s’agit d’un suivi interne de l’utilisation, nous regardons uniquement la taille de la liste de conversation, les autres informations sont ignorées. | Oui, la taille de la conversation est stockée (un seul nombre) |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->EUII : un journal de réussite/échec est créé chaque fois qu’une enquête reçoit une réponse et que nous essayons d’envoyer cette réponse à Teams via le connecteur, ce journal inclut user_id, survey_id, integration_id (qui dans la base de données peut être utilisé pour rechercher l’ID d’équipe MS, L’ID utilisateur MS)
+>EUII : un journal de réussite/échec est créé chaque fois qu’une enquête reçoit une réponse et que nous essayons d’envoyer cette réponse à Teams via le connecteur, ce journal inclut user_id, survey_id, integration_id (qui dans la base de données peut être utilisé pour rechercher l’ID d’équipe MS, l’ID utilisateur MS)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -93,7 +93,7 @@ SurveyMonkey utilise l’authentification utilisateur centrale pour maintenir la
 
 Seuls les appareils émis par l’entreprise sont autorisés à accéder à notre réseau de production. Toutes les valeurs par défaut du fournisseur sans fil sont modifiées avant l’installation, y compris, mais sans s’y limiter, les clés de chiffrement sans fil par défaut, les mots de passe et les chaînes communautaires SNMP. 2FA et VPN sont requis pour le faire à distance. Nous avons un réseau Wifi distinct pour l’accès invité dans nos bureaux d’entreprise.
 
-Tous les services, protocoles et ports autorisés doivent avoir une justification et une approbation professionnelles documentées, y compris l’utilisation des fonctionnalités de sécurité implémentées pour les protocoles considérés comme non sécurisés. Les routeurs et pare-feu sont configurés pour limiter la divulgation d’adresses IP aux personnes non autorisées ou involontaires et limiter l’accès Internet entrant aux adresses IP dans le pare-feu DMZ et les règles de routeur sont examinés au moins tous les six mois.
+Tous les services, protocoles et ports autorisés doivent avoir une justification et une approbation professionnelles documentées, y compris l’utilisation des fonctionnalités de sécurité implémentées pour les protocoles considérés comme non sécurisés. Les routeurs et les pare-feu sont configurés pour limiter la divulgation d’adresses IP aux personnes non autorisées ou involontaires et limiter l’accès Internet entrant aux adresses IP dans le pare-feu DMZ et les jeux de règles de routeur sont examinés au moins tous les six mois.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -107,7 +107,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12024' frameborder='no' style='width: 100%;'></iframe>
 

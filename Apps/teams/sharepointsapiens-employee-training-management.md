@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la gestion de la formation des employés, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: a4d2ce3475ce082060bc632d439d0c79770486c2
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609977"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281151"
 ---
 # <a name="employee-training-management"></a>Gestion de la formation des employés
 
@@ -35,7 +35,7 @@ Informations fournies par SharePoint| Aide-ms à Microsoft :
 | Nom de l'application | Gestion de la formation des employés |
 | ID | WA200001512 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | SharePoint|Les |
+| Nom de la société partenaire | SharePoint|Sapiens |
 | URL du site web partenaire | [https://www.sharepointsapiens.com](https://www.sharepointsapiens.com) |
 | URL de la Teams d’informations sur l’application | [https://www.sharepointsapiens.com/employee-training-managem...](https://www.sharepointsapiens.com/employee-training-management-office365/documentation/teams/) |
 | URL de la politique de confidentialité | [https://www.sharepointsapiens.com/privacy/](https://www.sharepointsapiens.com/privacy/) |
@@ -49,7 +49,7 @@ Informations fournies par SharePoint| Aide-ms à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par SharePoint| Indique comment cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par SharePoint| Indique comment cette application collecte et stocke les données organisationnelles, ainsi que le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -84,7 +84,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun EUII ne sera stocké. TenantID et SharePoint domaine seront stockés dans la télémétrie de l’application. Les journaux et les données de télémétrie seront stockés pendant 90 jours.
 
@@ -125,7 +125,7 @@ Ces informations ont été fournies par SharePoint| Informations sur la façon d
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |

@@ -2,16 +2,16 @@
 title: Qu’est-ce Publisher attestation d’attestation ?
 author: LGerrard
 ms.author: legerrar
-description: Plus d’informations sur le programme Publisher attestation d’attestation
-keywords: Éditeur appSource de certification d’attestation d’application 365
+description: Plus d’informations sur le programme Publisher attestation d’attestation d’attestation d’information
+keywords: Certification d’attestation d’application 365 - Éditeur appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 10b4bb59d26190535b9aa365c830db774f4865c063678fad02a10c73c6d1ef64
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54750454"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282621"
 ---
 # <a name="what-is-publisher-attestation"></a>Qu’est-ce Publisher attestation d’attestation ?
 
@@ -37,14 +37,14 @@ Les avantages de la réalisation de l’attestation Publisher pour les administr
 -   Temps réduit pour passer en revue la sécurité et la conformité d’une application
 
 ### <a name="benefits-for-app-developers"></a>Avantages pour les développeurs d’applications 
-Les avantages de la réalisation de l’attestation Publisher pour les développeurs incluent : 
+Les avantages de l’exécution de l’attestation Publisher pour les développeurs incluent : 
 -   Économies de temps. Afficher la page Documents Microsoft de l’application pour obtenir des informations sur les questions fréquemment posées
 -   Accélération de la chronologie de révision interne de la sécurité et de la conformité d’une organisation
 -   Transparence accrue
 - Microsoft fournit ce service sans frais supplémentaires
--   Différenciation des autres applications du Windows Store
+-   Différenciation des autres applications du Store
 -   Lien vers votre page de documents à partir de votre entrée dans AppSource, Teams Admin Center et Microsoft Admin Center
--   Qualification pour démarrer la certification Microsoft 365 de sécurité
+-   Qualification pour démarrer la certification Microsoft 365 certification
 
 
 ## <a name="publisher-attestation-scope"></a>Publisher Étendue de l’attestation
@@ -66,11 +66,11 @@ L’attestation est valide pendant un an à partir de l’heure de soumission. T
 
 ## <a name="reviewing-an-apps-publisher-attestation"></a>Examen de l’attestation d’Publisher d’une application
 
-Le développeur peut consulter des informations détaillées sur les résultats de l’attestation d’Publisher d’une application sur la page de documents Microsoft créée pour son application. Toutes les applications qui ont obtenu une attestation Publisher ou une certification Microsoft 365 sont répertoriées, et chaque liste indique clairement le niveau obtenu dans le programme de conformité.
+Le développeur peut consulter des informations détaillées sur les résultats de l’attestation d’Publisher d’une application sur la page de documents Microsoft créée pour son application. Toutes les applications qui ont obtenu une attestation Publisher ou une certification Microsoft 365 sont répertoriées, et chaque liste indique clairement le niveau d’obtention du programme de conformité.
 
 **Consultez la [liste MIPA](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas) pour obtenir un exemple d’application qui a terminé l’attestation Publisher.** 
 
-## <a name="learn-more"></a>Si vous souhaitez en savoir plus
+## <a name="learn-more"></a>En savoir plus
 
 * [Microsoft 365 Vue d’ensemble du programme de conformité des applications](~/overview.md)
 * [Qu’est-ce Publisher vérification](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)

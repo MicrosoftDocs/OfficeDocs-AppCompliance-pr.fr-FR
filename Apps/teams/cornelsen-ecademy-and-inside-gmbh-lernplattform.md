@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour eCademy Lernplattform, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: f5926d481fbfc766d80b61356656f6b44ea0c1bd
-ms.sourcegitcommit: 64333f4e583bacd85f1b47af6e1eaee266658924
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58422630"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282826"
 ---
 # <a name="ecademy-lernplattform"></a>eCademy Lernplattform
 
@@ -30,12 +30,12 @@ ms.locfileid: "58422630"
 
 Informations fournies par l’eCademy à &amp; l’intérieur de ContrôleH à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | eCademy Lernplattform |
 | ID | WA200002717 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | ECademy à &amp; l’intérieur de |
+| Nom de la société partenaire | Cornelsen eCademy &amp; inside GmbH |
 | URL du site web partenaire | [https://www.ecademy-learning.com](https://www.ecademy-learning.com) |
 | URL de la Teams d’informations sur l’application | [https://www.ecademy-learning.com](https://www.ecademy-learning.com) |
 | URL de la politique de confidentialité | [https://www.ecademy-learning.com/datenschutz/](https://www.ecademy-learning.com/datenschutz/) |
@@ -113,7 +113,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 Ces informations ont été fournies par l’ECademy de L’Authentifier à l’intérieur de LaSyststing Sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres &amp; critères d’identité.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 

@@ -9,13 +9,13 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour X0PA ROOM, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: a20b81928065203536f914a6b15d76745b2bc01a
-ms.sourcegitcommit: 90e6c1e10d55dc337c0884b63782cc14cf71b3c8
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58835856"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283431"
 ---
-# <a name="x0pa-room"></a>SALLE X0PA
+# <a name="x0pa-room"></a>X0PA ROOM
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Informations fournies par X0PA AI Singapour à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | SALLE X0PA |
+| Nom de l'application | X0PA ROOM |
 | ID | WA200003028 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | X0PA AI Singapour |
+| Nom de la société partenaire | X0PA AI Singapore |
 | URL du site web partenaire | [https://x0paroom.com](https://x0paroom.com) |
 | URL de la Teams d’informations sur l’application | [https://x0paroom.com](https://x0paroom.com) |
 | URL de la politique de confidentialité | [https://x0pa.com/privacy-policy/](https://x0pa.com/privacy-policy/) |
@@ -95,7 +95,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

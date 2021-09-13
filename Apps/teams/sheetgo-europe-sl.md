@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Sheetgo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a91a3ac8e1d7ead5a469a88787b4b5809d48615a
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53524727"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281494"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -82,7 +82,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->MongoDB : enregistrer les données système et utilisateur afin de fonctionner Google BigQuery : le système d’enregistrement enregistre l’utilisation google Firestore : un système qui maintient et orchestre l’état de nos microservices. Les seules données critiques transitant par ce service sont les informations d’identification de l’utilisateur, qui sont chiffrées à l’aide d’AES256 Stripe : Système de paiement.
+>MongoDB : enregistrer les données système et utilisateur afin de fonctionner Google BigQuery : enregistrer le système enregistre l’utilisation google Firestore : un système qui maintient et orchestre l’état de nos microservices. Les seules données critiques transitant par ce service sont les informations d’identification de l’utilisateur, qui sont chiffrées à l’aide d’AES256 Stripe : Système de paiement.
  
 Toutes les données en transit utilisent HTTPS pour les connexions sécurisées et toutes les données sensibles sont chiffrées à l’aide d’AES256
 
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36141' frameborder='no' style='width: 100%;'></iframe>
 

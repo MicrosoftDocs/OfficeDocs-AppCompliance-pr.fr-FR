@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Salesforce, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 152885012f81c077fc0bb018fda7080867c54986
-ms.sourcegitcommit: cd30c7ec09b1a06fb0b5696d10739a27c8434c53
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58884612"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283377"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -59,7 +59,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Interface API JavaScript pour Office | Oui | Le add-in utilise les fonctions de Office.js et EWS pour copier le contenu et les pièces jointes d’un e-mail qu’un utilisateur Outlook a décidé de se connecter à Salesforce. Des fonctionnalités similaires sont utilisées côté calendrier pour enregistrer des rendez-vous dans Salesforce. | Le add-in utilise les fonctions de Office.js et EWS pour copier le contenu et les pièces jointes d’un e-mail qu’un utilisateur Outlook a décidé de se connecter à Salesforce. Des fonctionnalités similaires sont utilisées côté calendrier pour enregistrer des rendez-vous dans Salesforce. | Le complément utilise des fonctions telles que getUserIdentityTokenAsync pour obtenir l’identité utilisateur Outlook actuelle, GetItem (.js et EWS) pour obtenir et définir AdditionalProperties et le contenu du message électronique actuel lors de l’enregistrement dans les enregistrements Salesforce, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. | Le complément utilise des fonctions telles que getUserIdentityTokenAsync pour obtenir l’identité utilisateur Outlook actuelle, GetItem (.js et EWS) pour obtenir et définir AdditionalProperties et le contenu du message électronique actuel lors de l’enregistrement dans les enregistrements Salesforce, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. |
 >| Services Web Exchange (EWS) | Oui | Le add-in utilise les fonctions de Office.js et EWS pour copier le contenu et les pièces jointes d’un e-mail qu’un utilisateur Outlook a décidé de se connecter à Salesforce. Des fonctionnalités similaires sont utilisées côté calendrier pour enregistrer des rendez-vous dans Salesforce. | Le add-in utilise les fonctions de Office.js et EWS pour copier le contenu et les pièces jointes d’un e-mail qu’un utilisateur Outlook a décidé de se connecter à Salesforce. Des fonctionnalités similaires sont utilisées côté calendrier pour enregistrer des rendez-vous dans Salesforce. | Le complément utilise des fonctions telles que getUserIdentityTokenAsync pour obtenir l’identité utilisateur Outlook actuelle, GetItem (.js et EWS) pour obtenir et définir AdditionalProperties et le contenu du message électronique actuel lors de l’enregistrement dans les enregistrements Salesforce, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. | Le complément utilise des fonctions telles que getUserIdentityTokenAsync pour obtenir l’identité utilisateur Outlook actuelle, GetItem (.js et EWS) pour obtenir et définir AdditionalProperties et le contenu du message électronique actuel lors de l’enregistrement dans les enregistrements Salesforce, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. |
@@ -96,7 +96,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

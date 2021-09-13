@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Karma, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a7603ed4676653b26d93027e5c3e3d47065e83db
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53524690"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281145"
 ---
 # <a name="karma"></a>Karma
 
@@ -57,7 +57,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | application | Prénom, nom et adresse de messagerie de la société. Prénom, nom de famille pour les rapports orientés administrateur. Adresse de messagerie pour la communication en ce qui concerne Karma, les objectifs de facturation et l’herarchy. | Nom complet du consentement de l’administrateur. Connectez-vous et lisez le profil utilisateur. Description du consentement de l’administrateur. Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs qui sont inscrits. Elle permet également à l’application de lire les informations de base de l’entreprise des utilisateurs inscrits. Nom complet du consentement de l’utilisateurSignez-vous et lisez votre profil. Description du consentement de l’utilisateur. Vous permet de vous inscrire à l’application avec votre compte d’organisation et de permettre à l’application de lire votre profil. Elle permet également à l’application de lire les informations de base de l’entreprise. | [9ff28b02-ccc5-4cac-9d17-4cf6987c371f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9ff28b02-ccc5-4cac-9d17-4cf6987c371f) |
+>| User.Read | application | Prénom, nom et adresse de messagerie de la société. Prénom, nom de famille pour les rapports orientés administrateur. Adresse de messagerie pour la communication en ce qui concerne Karma, les objectifs de facturation et l’herarchy. | Nom complet du consentement de l’administrateur. Connectez-vous et lisez le profil utilisateur. Description du consentement de l’administrateur. Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs qui sont inscrits. Il permet également à l’application de lire les informations de base de l’entreprise des utilisateurs inscrits. Nom complet du consentement de l’utilisateurSignez-vous et lisez votre profil. Description du consentement de l’utilisateur. Vous permet de vous inscrire à l’application avec votre compte d’organisation et de permettre à l’application de lire votre profil. Elle permet également à l’application de lire les informations de base de l’entreprise. | [9ff28b02-ccc5-4cac-9d17-4cf6987c371f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9ff28b02-ccc5-4cac-9d17-4cf6987c371f) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -72,12 +72,12 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Prénom, nom et adresse e-mail de la société Prénom, nom de famille de l’adresse e-mail de rapport de l’administrateur pour la communication en ce qui concerne Karma. La liste de présence est requise à des fins de facturation et pour fractionner les utilisateurs de façon massive en différents départs. | Prénom, nom et adresse e-mail de la société Prénom, nom de famille des rapports auxquels l’administrateur est confronté. Adresse de messagerie pour la communication en ce qui concerne le karma, les objectifs de facturation et la hiérarchie des utilisateurs Karma. |  |
+>| Prénom, nom et adresse e-mail de la société Prénom, nom de famille de l’adresse e-mail de rapport de l’administrateur pour la communication en ce qui concerne Karma. La liste de présence est requise à des fins de facturation et pour fractionner les utilisateurs de façon massive en différents départs. | Prénom, nom et adresse de messagerie de l’entreprise Prénom, nom de famille des rapports auxquels l’administrateur est confronté. Adresse de messagerie pour la communication en ce qui concerne le karma, les objectifs de facturation et la hiérarchie des utilisateurs Karma. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nous stockons les ID de locataire et d’utilisateur dans les journaux. Les deux ne sont pas identifiables.
 
@@ -110,11 +110,11 @@ Les données sont stockées dans le centre cloud de l’océan numérique dans l
 
 Géré par l’océan numérique.
 
-6. **Décrivez le processus de gestion d’Accès en place à la fin du fournisseur, en pointant sur la façon dont vous assurez la suppression en temps voulu des accès qui ne sont plus nécessaires et comment vous contrôlez l’adéquation des privilèges au rôle de travail. Décrire également les processus de revalidation et la fréquence de son exécution**
+6. **Décrivez le processus de gestion d’accès en place à la fin du fournisseur, en vous attumant sur la façon dont vous assurez la suppression en temps voulu des accès qui ne sont plus nécessaires et sur la façon dont vous contrôlez l’adéquation des privilèges au rôle de travail. Décrire également les processus de revalidation et la fréquence de son exécution**
 
 Nous utilisons l’authentification à deux facteurs pour accéder au panneau de contrôle. Seules 3 personnes y ont accès, nous changeons de mot de passe tous les mois, nous vérifions les journaux d’accès et nous vérifions que les comptes des personnes qui ne travaillent plus avec nous sont supprimés de la plateforme.
 
-7. **Fournissez la procédure implémentée à votre fin pour gérer vos ID partagés (par exemple, racine, Sys, système, etc.), les ID de groupe (comptes génériques utilisés par plusieurs personnes appartenant à la même équipe, par exemple) et les comptes locaux. Décrire comment restreindre, enregistrer et surveiller l’utilisation des comptes privilégiés et l’accès aux appareils de sécurité (par exemple, les hyperviseurs, les pare-feu, les scanneurs de vulnérabilités, les renifleurs de réseau, les API, etc.), comment vous vous assurer que les utilisateurs qui changent d’équipe ou quittent l’équipe ne peuvent plus accéder à l’ID de groupe et quel est le niveau de traçabilité de ces ID**
+7. **Fournissez la procédure implémentée à votre fin pour gérer vos ID partagés (par exemple, racine, Sys, système, etc.), les ID de groupe (comptes génériques utilisés par plusieurs personnes appartenant à la même équipe, par exemple) et les comptes locaux. Décrire comment restreindre, enregistrer et surveiller l’utilisation des comptes privilégiés et l’accès aux appareils de sécurité (par exemple, les hyperviseurs, les pare-feu, les scanneurs de vulnérabilités, les renifleurs de réseau, les API, etc.), comment vous assurez que les utilisateurs qui changent d’équipe ou quittent l’équipe ne peuvent plus accéder à l’ID de groupe et quel est le niveau de traçabilité de ces ID**
 
 Nous utilisons 1Password pour partager des&#8217;d’ID partageables, nous avons un flux d’activités distinct chaque fois que la ressource partagée a été accédée à partir d’un dépôt de mot de passe partagé. Sauf absolue nécessité, nous n’utilisons pas de comptes partagés et n’utilisons pas de comptes individuels à la place. Aucune information sur la base de données Karma n’a été accessible via une connexion partagée. 2FA permet d’accéder à 1Password pour récupérer une connexion individuelle.
 
@@ -122,7 +122,7 @@ Nous utilisons 1Password pour partager des&#8217;d’ID partageables, nous avons
 
 Nous avons mené des réunions mensuelles qui couvrent la répartition des droits, l’importance de l’utilisation dédiée de la connexion et chaque connexion 2FA possible.
 
-Notre SIEM contient : les journaux de pare-feu, les journaux du serveur web et les journaux des applications. SIEM est analysé quotidiennement et lors de la réception. Les journaux sont conservés pendant 1 mois et supprimés en toute sécurité après cela.
+Notre SIEM contient : les journaux de pare-feu, les journaux de serveur web et les journaux d’applications. SIEM est analysé quotidiennement et lors de la réception. Les journaux sont conservés pendant 1 mois et supprimés en toute sécurité après cela.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -136,7 +136,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35674' frameborder='no' style='width: 100%;'></iframe>
 

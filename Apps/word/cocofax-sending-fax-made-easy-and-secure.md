@@ -9,11 +9,11 @@ certification_type: attested
 description: 'Toutes les informations de sécurité et de conformité disponibles pour CocoFax : envoi de télécopies sécurisées, stratégies de gestion des données, informations de catalogue d’applications Microsoft Cloud App Security et informations de sécurité/conformité dans le Registre &amp; CSA STAR.'
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 8b44af37fc4fcfcb9452b3af6fdd666b0565d9d4
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873795"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281440"
 ---
 # <a name="cocofax---sending-fax-made-easy-amp-secure"></a>CocoFax : envoi de télécopies faciles à &amp; sécuriser
 
@@ -88,7 +88,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MindManager, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 7a431ae7736e2efa22a2d75ff3a1cfc2e1e2234f
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525738"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282832"
 ---
 # <a name="mindmanager"></a>MindManager
 
@@ -58,10 +58,10 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMessage.Send | délégué | Informations sur les modifications apportées dans un fichier MindManager qui peuvent ensuite être publiées en tant que message | métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 >| Chat.Send | délégué | Informations sur les modifications apportées dans un fichier MindManager qui peuvent ensuite être publiées en tant que message | métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| Files.ReadWrite | délégué | liste des sites, liste de dossiers, métadonnées de fichiers, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | - données de profil : pour identifier l’utilisateur et afficher son profil - contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| Sites.ReadWrite.All | délégué | liste des sites, liste de dossiers, métadonnées de fichiers, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Files.ReadWrite | délégué | liste des sites, liste de dossiers, métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | - données de profil : pour identifier l’utilisateur et afficher son profil - contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Sites.ReadWrite.All | délégué | liste des sites, liste de dossiers, métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 >| User.Read | délégué | données de profil : pour identifier l’utilisateur et afficher son profil | données de profil : pour identifier l’utilisateur et afficher son profil | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| offline_access | délégué | Cela nous permet d’enregistrer un fichier à son emplacement d’origine ultérieurement pour le compte de l’utilisateur, si nécessaire. | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| offline_access | délégué | Cela nous permet d’enregistrer ultérieurement un fichier à son emplacement d’origine pour le compte de l’utilisateur, si nécessaire. | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -81,7 +81,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -103,7 +103,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38778' frameborder='no' style='width: 100%;'></iframe>
 
@@ -121,8 +121,8 @@ Ces informations ont été fournies par Corel sur la façon dont cette applicati
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d’identités Microsoft’intégration ?  | Oui |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |

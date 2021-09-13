@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Simple In/Out, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 1dc9a66d7d49cb776fa82f7847ba9e06f74c6176
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552795"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281464"
 ---
 # <a name="simple-inout"></a>Simple In/Out
 
@@ -34,7 +34,7 @@ Informations fournies par Simply Made Apps, Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Simple In/Out |
 | ID | WA104382084 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Simply Made Apps, Inc. |
 | URL du site web partenaire | [https://www.simpleinout.com](https://www.simpleinout.com) |
 | URL de la Teams d’informations sur l’application | [https://simpleinout.helpscoutdocs.com/article/262-microsoft...](https://simpleinout.helpscoutdocs.com/article/262-microsoft-teams) |
@@ -113,7 +113,7 @@ Ces informations ont été fournies par Simply Made Apps, Inc. sur la façon don
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

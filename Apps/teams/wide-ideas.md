@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour les idées larges par idées larges
+title: Informations sur les applications pour les idées larges par idées larges
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/03/2020
@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les idées larges, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 1e73a7aebbaaffa12572717f7a4a9968fd5667f7
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528060"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282022"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -58,7 +58,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | application | Nous allons enregistrer l’ID de groupe et les utilisateurs appartenant à quels groupes | Permet à l’application de lire les données dans l’annuaire de notre organisation Clients, telles que les utilisateurs et les groupes.  | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
 >| Group.ReadWrite.All | application | Nous allons enregistrer l’ID de canal associé au groupe. | Permet aux utilisateurs de créer des équipes, des canaux et des onglets à l’Microsoft Teams à partir du portail client. Cela permet également aux utilisateurs de synchroniser des équipes existantes dans Microsoft Teams dans le portail client. | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
->| User.Read | délégué | Nous enregistreons le message &amp; électronique de nom | Permet aux utilisateurs de se connecter et d’accorder l’accès à Microsoft Graph en leur nom | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
+>| User.Read | délégué | Nous enregistreons le message &amp; électronique de nom | Permet aux utilisateurs de se connecter et de donner accès à Microsoft Graph en leur nom | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -107,7 +107,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35870' frameborder='no' style='width: 100%;'></iframe>
 

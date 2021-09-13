@@ -9,11 +9,11 @@ certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la demande d’autorisation par LTAPPs, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2db2812a4ba1c2cd191e181ba16b13563752f90a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551985"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282471"
 ---
 # <a name="leave-request-by-ltapps"></a>Demande de congé par LTAPPs
 
@@ -34,7 +34,7 @@ Informations fournies par LTAPPs SOFTWARE CO.,LTD à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Demande de congé par LTAPPs |
 | ID | WA200001928 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | LTAPPs SOFTWARE CO.,LTD |
 | URL du site web partenaire | [https://ltaddins.com](https://ltaddins.com) |
 | URL de la politique de confidentialité | [https://ltaddins.com/TermsCondition/privacypolicy.html](https://ltaddins.com/TermsCondition/privacypolicy.html) |
@@ -84,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
 >L’application ne stocke pas les données du client. Toutes les données des magasins clients dans le site client (site Sharepoint).
-Il n’obtienne/définisse les données sur le site client que via SharePoint API Rest a utilisé l’inscription de l’application &amp; Azure pour l’th.
+Il n’obtienne/définisse les données sur le site client que via SharePoint API Rest a utilisé l’inscription d’application &amp; Azure pour l’th.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -98,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36147' frameborder='no' style='width: 100%;'></iframe>
 
