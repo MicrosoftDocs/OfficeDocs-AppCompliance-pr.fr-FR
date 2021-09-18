@@ -25,7 +25,7 @@
     - name: Microsoft Excel Applications
       href: excel/excel-apps.md
       items:
-        - name: Calculateur de coûts de service EMEA Canon pour les partenaires B2B
+        - name: Calculateur de coût du service EMEA Canon pour les partenaires B2B
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics pour NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
@@ -35,15 +35,15 @@
           href: excel/harmonie-corporation-for-office.md
         - name: Outil de rapports iPlanner pour Office 365 planner
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
-        - name: Jira Cloud for Excel
+        - name: Jira Cloud pour Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Diagrammes d’image graphique pour Excel
+        - name: Diagrammes de diagrammes d’Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
         - name: MeaningCloud Text Analytics pour Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint pour Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworkimage-chooser-for-office.md
@@ -62,7 +62,7 @@
     - name: Microsoft OneNote Applications
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
@@ -123,7 +123,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM pour la messagerie
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Applications microsoft PowerPoint
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign pour Word et PowerPoint
@@ -136,7 +136,7 @@
           href: powerpoint/lucid-software-inc-lucidchart-diagrams-for-powerpoint.md
         - name: Office2SharePoint pour Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
@@ -151,7 +151,7 @@
       items:
         - name: officeatwork | S’il s’Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Applications microsoft SharePoint
+    - name: Microsoft SharePoint Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Tableau des tâches agile pour SharePoint Online
@@ -813,6 +813,8 @@
           href: teams/officeatwork-template-chooser.md
         - name: Texte
           href: teams/approved-contact-text.md
+        - name: ThoughtWire EWS
+          href: teams/thoughtwire-corp-ews.md
         - name: Tikit
           href: teams/cireson-tikit.md
         - name: TimeClock 365
@@ -837,6 +839,8 @@
           href: teams/uservoice.md
         - name: Vacation Tracker
           href: teams/vacation-tracker.md
+        - name: Verto 365
+          href: teams/tmi-systems-verto-365.md
         - name: Viima
           href: teams/viima-solutions-oy.md
         - name: VisualSP
@@ -875,6 +879,8 @@
           href: teams/workjam-home.md
         - name: WorkJam Schedule
           href: teams/workjam-schedule.md
+        - name: Tâches WorkJam
+          href: teams/workjam-tasks.md
         - name: WorkplaceBuddy
           href: teams/workplacebuddy.md
         - name: Wunder365
@@ -918,13 +924,13 @@
           href: word/legalmind-word-addin.md
         - name: Assistant Contrat Loio
           href: word/loio-inc-contract-assistant.md
-        - name: Diagrammes de graphiques pour Word
+        - name: Diagrammes graphiques pour Word
           href: word/lucid-software-inc-lucidchart-diagrams-for-word.md
         - name: Mendeley Cit
           href: word/elsevier-limited-mendeley-cite.md
         - name: Office2SharePoint pour Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Concepteur pour Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
@@ -932,7 +938,7 @@
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: officeatwork | Téléchargeur pour Office
+        - name: officeatwork | Uploader for Office
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork | Verifier for Office
           href: word/officeatwork-officeatworkverifier-for-office.md
@@ -1136,6 +1142,8 @@
           href: azure/5f1f4eb7-479e-42f3-b86f-4c1f53e1c222.md
         - name: 621d9ae7-c14e-4fab-9604-63e1ffc9e721
           href: azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721.md
+        - name: 626ce0a3-4620-483d-953d-53b106b9ffad
+          href: azure/626ce0a3-4620-483d-953d-53b106b9ffad.md
         - name: 6919164d-b678-4c3d-a268-e6fbecc1e68d
           href: azure/6919164d-b678-4c3d-a268-e6fbecc1e68d.md
         - name: 6996cad6-a969-487a-9182-f4dc4c6c8803
