@@ -2,24 +2,24 @@
 title: Informations sur l’application pour Tryane Analytics par Tryane
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2020
+ms.date: 08/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Tryane Analytics, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2bfff7785dbad9398697aef468115cb8f7275acd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 48383622a5bb2907f74136f2003a51e17af20e5c
+ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281050"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59785114"
 ---
 # <a name="tryane-analytics"></a>Tryane Analytics
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 28, 2020</p>
+<p>Last updated by the developer on: August 27, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/87631b95-fcd9-46e9-8d86-3d5205c04fec" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001827" target="_blank">Afficher dans AppSource</a>
@@ -37,7 +37,8 @@ Informations fournies par Tryane à Microsoft :
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Tryane |
 | URL du site web partenaire | [https://www.tryane.com](https://www.tryane.com) |
-| URL de la politique de confidentialité | [https://analytics.tryane.com/docs/en/privacy_policy.html](https://analytics.tryane.com/docs/en/privacy_policy.html) |
+| URL de la Teams d’informations sur l’application | [https://tryane.com/en/produit/tat/](https://tryane.com/en/produit/tat/) |
+| URL de la politique de confidentialité | [https://tryane.com/tryane-analytics/privacy_policy.html](https://tryane.com/tryane-analytics/privacy_policy.html) |
 | URL des conditions d’utilisation | [https://analytics.tryane.com/docs/en/terms_of_use.html](https://analytics.tryane.com/docs/en/terms_of_use.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -56,13 +57,12 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| ActivityFeed.Read | application |  | Lire toutes les activités des utilisateurs dans teams | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
->| Channel.ReadBasic.All | application |  | Lister tous les canaux avec des noms, des descriptions | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
->| ChannelMessage.Read.All | application |  | Liste de tous les messages de canaux&#8217; métadonnées | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
->| Directory.Read.All | application |  | Identifier les utilisateurs avec une licence d’équipe dans le client | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
->| Member.Read.Hidden | application |  | Obtenir la liste de toutes les équipes,&#8217;membres de l’équipe et les appartenances masquées | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
->| Reports.Read.All | application |  | Lire toutes les activités des utilisateurs dans teams | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
->| Team.ReadBasic.All | application |  | Liste de toutes les propriétés de canaux et d’équipes | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Channel.ReadBasic.All | application | noms de canaux et propriétés supplémentaires | Lister tous les canaux avec des noms, des descriptions | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| ChannelMessage.Read.All | application | nombre de messages publiés par l’utilisateur | Liste de tous les messages de canaux&#8217; métadonnées | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Directory.Read.All | application | liste des utilisateurs accédant à Ms Teams | Identifier les utilisateurs avec une licence d’équipe dans le client | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Member.Read.Hidden | application | liste des membres | Obtenir la liste de toutes les équipes,&#8217;membres de l’équipe et les appartenances masquées | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Reports.Read.All | application | activité quotidienne des utilisateurs dans Teams | Lire toutes les activités des utilisateurs dans teams | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| Team.ReadBasic.All | application | ID d’équipe, nom de l’équipe, ID de canal, nom du canal | Liste de toutes les propriétés de canaux et d’équipes | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 >| User.Read | délégué | ID d’utilisateur, nom, adresse e-mail, date de création. Nous stockons ces données afin de fournir une analyse de l’utilisation sur Teams | Identifier l’utilisateur actuel pendant l’abonnement | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 
 
@@ -115,3 +115,28 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informations d’identité
+
+Ces informations ont été fournies par Tryane sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
+| Votre application prend-elle en charge l’location multiple ? | Oui |
+| Votre application a-t-elle un client confidentiel ? | Non |
+| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
+| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | - URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/>- Flux ROPC (Resource Owner Password Credential) |
+| Votre application expose-t-elle des API web ? | Non |
+| Votre application utilise-t-elle les API d’aperçu ? | Non |
+| Votre application utilise-t-elle des API dépréciées ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

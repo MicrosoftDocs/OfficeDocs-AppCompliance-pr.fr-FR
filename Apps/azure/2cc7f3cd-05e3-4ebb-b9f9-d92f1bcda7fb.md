@@ -2,23 +2,23 @@
 title: Informations d’ID d’application Azure pour 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/16/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb.
-ms.openlocfilehash: c15a67e06fd90ed47933680ba52cd41591711336
-ms.sourcegitcommit: 9010c9bace5d935309eae5098f5a126a55270eb6
+ms.openlocfilehash: b96a216bcaee0080d91a10df5a4b5c5a255b652b
+ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59436145"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59781602"
 ---
 # <a name="azure-app-id-2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb"></a>ID d’application Azure : 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
 
 
 ### <a name="apps-associated-with-this-id"></a>Applications associées à cet ID :
-| **Nom de l’application** | **Certifié** | **Afficher dans AppSource** |
+| **Nom de l'application** | **Certifié** | **Afficher dans AppSource** |
 |--------------|---------------|-----------------------|
 | [Weekly10](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200001441) |  | [https://appsource.microsoft.com/product/office/WA200001441](https://appsource.microsoft.com/product/office/WA200001441) |
 

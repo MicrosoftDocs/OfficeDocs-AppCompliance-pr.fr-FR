@@ -2,24 +2,24 @@
 title: Informations sur les applications pour les idées larges par idées larges
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/03/2020
+ms.date: 08/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les idées larges, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1e73a7aebbaaffa12572717f7a4a9968fd5667f7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 7c19fc9906f46fcd3e7561c38d68ed202dd0c87d
+ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282022"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59783334"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 3, 2020</p>
+<p>Last updated by the developer on: August 27, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/2a64f929-bed9-44d9-aa65-d7b921889959" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000819" target="_blank">Afficher dans AppSource</a>
@@ -56,9 +56,12 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | application | Nous allons enregistrer l’ID de groupe et les utilisateurs appartenant à quels groupes | Permet à l’application de lire les données dans l’annuaire de notre organisation Clients, telles que les utilisateurs et les groupes.  | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
->| Group.ReadWrite.All | application | Nous allons enregistrer l’ID de canal associé au groupe. | Permet aux utilisateurs de créer des équipes, des canaux et des onglets à l’Microsoft Teams à partir du portail client. Cela permet également aux utilisateurs de synchroniser des équipes existantes dans Microsoft Teams dans le portail client. | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
->| User.Read | délégué | Nous enregistreons le message &amp; électronique de nom | Permet aux utilisateurs de se connecter et de donner accès à Microsoft Graph en leur nom | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
+>| Channel.Create | délégué | Pour créer un canal dans une équipe.  | Nous stockons l’ID de canal pour le défi créé.  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
+>| Directory.Read.All | délégué | Nous l’utilisons pour lister les utilisateurs à partir de l’annuaire client  | N/A | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
+>| Group.Read.All | délégué | Nous l’utilisons pour lire et synchroniser des équipes à partir Microsoft Teams. | Nous stockons l’ID de groupe de l’équipe et les membres de l’équipe.  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
+>| TeamsAppInstallation.ReadWriteForTeam | délégué | Permet d’installer l’application dans Teams automatiquement  | Nous stockons des informations concernant l’équipe dans laquelle l’application est installée | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
+>| TeamsTab.Create | délégué | Nous l’utilisons pour créer automatiquement des onglets d’application (idées de défi/recherche) dans les canaux créés par Wide Ideas. | N/A | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
+>| User.Read | délégué | Utilisé pour authentifier les utilisateurs via l’authentification sso et synchroniser les données utilisateur | Nous stockons le nom, le courrier électronique et l’ID de l’utilisateur.  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -67,7 +70,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Mailjet Email utilisé pour les notifications par courrier électronique. |  | N/A |
+>| Mailjet Email utilisé pour les notifications par courrier électronique. | adresse électronique | Pour être en mesure d’envoyer des notifications par courrier électronique sur des activités  |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -75,16 +78,14 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Pour créer des utilisateurs dans notre système back-end et accorder des autorisations pour accéder au contenu lié à l’équipe. | We store: Name - To shown the name of the user, Email address - To identify the user |  |
+>| Pour créer des utilisateurs dans notre système back-end et accorder des autorisations pour accéder au contenu lié à l’équipe. | We store: Name - To shown the name of the user, Email address - To identify the user | Pour gérer l’autorisation d’accès au contenu dans notre système back-end |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous stockons uniquement le numéro IP dans nos journaux. 
-
-L’organisation peut nous envoyer une demande en tant que fournisseur s’il souhaite que des données soient supprimées.
+>Nous stockons le nom, le courrier électronique et le numéro IP dans nos journaux. L’organisation peut nous envoyer une demande en tant que fournisseur s’il souhaite que des données soient supprimées.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -117,3 +118,29 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informations d’identité
+
+Ces informations ont été fournies par Wide Ideas sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
+| Liste des types de stratégies pris en charge | Authentification multifacteur |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
+| Votre application prend-elle en charge l’location multiple ? | Oui |
+| Votre application a-t-elle un client confidentiel ? | Oui |
+| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
+| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | - URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/>- Flux ROPC (Resource Owner Password Credential) |
+| Votre application expose-t-elle des API web ? | Non |
+| Votre application utilise-t-elle les API d’aperçu ? | Non |
+| Votre application utilise-t-elle des API dépréciées ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
