@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/24/2021
+ms.date: 09/28/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 97b804bfa38f75b5cb615fa9d410f90d3809c635
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: eface3779c8df01a720d7b7528361f504a01e0db
+ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59783364"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59992084"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -30,6 +30,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Tableau de tâches Agile](./agile-is-task-board.md) | Agile-IS | **✓** |  |
 | [Bureau de service Alvao](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  |
 | [Ambition](./ambition.md) | Ambition | **✓** |  |
+| [AMEX GBT](./30secondstofly-thailand-co-ltd-amex-gbt.md) | 30SecondsToFly (Thaïlande) Co Ltd | **✓** |  |
 | [Amplify par Hootsuite](./hootsuite-inc-amplify-by.md) | Hootsuite Inc. | **✓** |  |
 | [AmTrav Business Travel](./amtrav-business-travel.md) | AmTrav | **✓** |  |
 | [Appraisd](./appraisd-ltd.md) | Appraisd ltd. | **✓** |  |
@@ -74,6 +75,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Calendrier Pro](./witivio-calendar-pro.md) | Witivio | **✓** |  |
 | [CalendarHero](./calendarhero-inc.md) | CalendarHero Inc | **✓** |  |
 | [Contrôle de validité](./yattee-inc-canary.md) | YATTEE Inc. | **✓** |  |
+| [Casedoc Virtual Hearing](./casedoc-virtual-hearing.md) | Casedoc | **✓** |  |
 | [CatchEm](./chimu-software-catchem.md) | Logiciel Chimu | **✓** |  |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  |
 | [Chronoscope Time Tracking](./chrono-innovation-chronoscope-time-tracking.md) | Chrono Innovation | **✓** |  |
@@ -97,6 +99,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Connecteur Confluence](./move-work-forward-confluence-connector.md) | Faire avancer le travail | **✓** |  |
 | [Connecter+](./reward-gateway-connectplus.md) | Passerelle de récompense | **✓** |  |
 | [Centre de contacts](./landis-technologies-llc-contact-center.md) | Landis Technologies LLC | **✓** |  |
+| [Gestionnaire de contacts](./colligo-inc-content-manager.md) | Colligo Inc | **✓** |  |
 | [Contextere AVA](./contextere-ava.md) | Contextere | **✓** |  |
 | [CSOD Learn](./cornerstone-ondemand-csod-learn.md) | Cornerstone OnDemand | **✓** |  |
 | [Entraînement du coucou](./cuckoo-networks-oy-workout.md) | Cuckoo Networks Oy | **✓** |  |
@@ -169,6 +172,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  |
 | [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  |
+| [iManage](./imanage.md) | iManage | **✓** |  |
 | [En cas de crise](./rockdove-solutions-inc-in-case-of-crisis.md) | Solutions RockDove, Inc. | **✓** |  |
 | [InCaseIT](./pilotech-as-incaseit.md) | Pilotech AS | **✓** |  |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Équipe Industry Intelligence | **✓** |  |
@@ -255,6 +259,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [PostBeyond](./postbeyond.md) | PostBeyond | **✓** |  |
 | [Powell Teams](./powell-software-teams.md) | Powell Software | **✓** |  |
 | [Power BI Collaboration](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
+| [Présentations IA](./infographfx-technologies-presentations-ai.md) | Technologies Infographfx | **✓** |  |
 | [Vidéo Prezi](./prezi-video.md) | Prezi | **✓** |  |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ProdBot](./prodoscore-prodbot.md) | Prodoscore | **✓** |  |
@@ -275,6 +280,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Rappeler](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
 | [Reminderz](./chitchattr-reminderz.md) | ChitChattr | **✓** |  |
 | [researcHR](./researchr.md) | KBE&#26666;&#24335;&#20250;&#31038; | **✓** |  |
+| [ReTeam](./beremote-llc-reteam.md) | BeRemote LLC | **✓** |  |
 | [Retro](./baltic-amadeus-retro.md) | Baltic Amadeus | **✓** |  |
 | [Rezolve.ai](./actionable-science-rezolveai.md) | Science exploitable | **✓** |  |
 | [Bot RFPIO](./rfpio-bot.md) | RFPIO | **✓** |  |
@@ -322,6 +328,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [StaffCircle](./staffcircle.md) | StaffCircle | **✓** |  |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  |
 | [Autonome](./standuply-inc.md) | Standuply Inc. | **✓** |  |
+| [Staple](./crowd-cast-ltd-staple.md) | Crowd Cast, Ltd. | **✓** |  |
 | [StarLeaf](./starleaf.md) | StarLeaf | **✓** |  |
 | [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  |
 | [Streem](./streem.md) | Streem | **✓** |  |
