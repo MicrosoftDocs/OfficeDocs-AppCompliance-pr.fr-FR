@@ -1,45 +1,44 @@
 ---
-title: Informations d’application pour qbo par Unscrambl
+title: Informations sur l’application pour ReTeam par BeRemote LLC
 ms.author: elmalova
 author: elenamalova
 ms.date: 09/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour qbo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57d228504c0432aea96d8fc915606b1c71d36cf1
+description: Toutes les informations de sécurité et de conformité disponibles pour ReTeam, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: db4d194eb5452bcec65fef5479509b533fed6c52
 ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992074"
+ms.locfileid: "59992149"
 ---
-# <a name="qbo"></a>qbo
+# <a name="reteam"></a>ReTeam
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 28, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/834c6939-152c-450b-a305-c65b4dd5d1c7" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001708" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/92c90c0c-9a22-42ae-be52-c078eae02dea" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003293" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Unscrambl à Microsoft :
+Informations fournies par BeRemote LLC à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | qbo |
-| ID | WA200001708 |
+| Nom de l'application | ReTeam |
+| ID | WA200003293 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Unscrambl |
-| URL du site web partenaire | [https://unscrambl.com](https://unscrambl.com) |
-| URL de la Teams d’informations sur l’application | [https://qbo.ai](https://qbo.ai) |
-| URL de la politique de confidentialité | [https://qbo.ai/legal/](https://qbo.ai/legal/) |
-| URL des conditions d’utilisation | [https://qbo.ai/legal/#service](https://qbo.ai/legal/#service) |
+| Nom de la société partenaire | BeRemote LLC |
+| URL du site web partenaire | [https://www.beremote.com](https://www.beremote.com) |
+| URL de la politique de confidentialité | [https://www.beremote.com/privacy-policy](https://www.beremote.com/privacy-policy) |
+| URL des conditions d’utilisation | [https://www.beremote.com/terms-of-use](https://www.beremote.com/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +48,7 @@ Informations fournies par Unscrambl à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Unscrambl sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par BeRemote LLC sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -57,13 +56,6 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >Cette application n’utilise pas Microsoft Graph.
 
-#### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
-
-Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
-
->| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| API Bot Framework | Oui | Nom de domaine identifié à partir de l’e-mail d’un utilisateur | Nous collectons des messages électroniques pour l’envoi d’un rapport, si l’utilisateur le souhaite. | Courrier électronique uniquement | Stocké dans le cadre du profil utilisateur |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
@@ -75,9 +67,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Nous avons une fonctionnalité d’application qui permet à un utilisateur d’envoyer par courrier électronique un PDF de rapports à lui-même. | adresse électronique | Nous avons une fonctionnalité d’application qui permet à un utilisateur d’envoyer par courrier électronique un PDF de rapports à lui-même, qui est stocké dans le cadre du profil utilisateur. |
+>Aucun EUII n’est accessible.
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -90,13 +80,13 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Ces données sont stockées dans une base de données DeDb, hébergée dans une VM sur Azure (Asie du Sud-Est). L’accès à la VM est restreint à l’adresse IP, protégé par mot de passe et l’accès à la DB est également protégé par mot de passe.
+>L’administrateur de l’équipe ReTeam peut supprimer toutes les données 
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
 Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
->Non
+>Oui
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,9 +96,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36419' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36419" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -118,7 +108,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Unscrambl sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par BeRemote LLC sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
