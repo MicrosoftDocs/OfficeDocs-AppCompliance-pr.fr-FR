@@ -2,24 +2,24 @@
 title: Informations d’application pour OnePlaceMail pour Outlook solutions OnePlace
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/31/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour OnePlaceMail pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 18dc1ab4ba71102564c1c85f7ed3846d9f4f1700
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 196720a00525971f29618d48436cf11b37a3aaac
+ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282219"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60080645"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail for Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 31, 2021</p>
+<p>Last updated by the developer on: September 30, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380723" target="_blank">Afficher dans AppSource</a>
 
@@ -55,14 +55,14 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Group.ReadWrite.All | délégué | Obligatoire pour déterminer Teams dont l’utilisateur actuel est membre. | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| Mail.ReadWrite.Shared | délégué | Obligatoire pour accéder aux propriétés de messagerie pour définir SharePoint colonnes et ajouter la catégorie Transféré SharePoint sur l’élément de courrier | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| MailboxSettings.ReadWrite | délégué | Aucune donnée collectée ou utilisée, utilisée pour ajouter une catégorie à la liste principale des catégories dans une boîte aux lettres d’utilisateurs | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| Sites.ReadWrite.All | délégué | Obligatoire pour définir des propriétés sur les éléments que l’application a téléchargés vers SharePoint. | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Group.ReadWrite.All | délégué | Obligatoire pour déterminer Teams dont l’utilisateur actuel est membre. | Aucune | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Mail.ReadWrite.Shared | délégué | Obligatoire pour accéder aux propriétés de messagerie pour définir SharePoint colonnes et ajouter la catégorie Transféré SharePoint sur l’élément de courrier | Aucune | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| MailboxSettings.ReadWrite | délégué | Aucune donnée collectée ou utilisée, utilisée pour ajouter une catégorie à la liste principale des catégories dans une boîte aux lettres d’utilisateurs | Néant | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Sites.ReadWrite.All | délégué | Obligatoire pour définir des propriétés sur les éléments que l’application a téléchargés vers SharePoint. | Aucune | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| User.Read | délégué | Requis pour l’authentification à l’Graph Microsoft. | Les données suivantes sont stockées par l’application dans une base de données et sont utilisées pour le suivi des abonnements et des licences utilisateur : ID utilisateur, e-mail, prénom, nom. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| User.ReadBasic.All | délégué | Obligatoire pour afficher l’image de profil utilisateur dans le champ S sélectionneur de personnes. | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.ReadBasic.All | délégué | Obligatoire pour afficher l’image de profil utilisateur dans le champ S sélectionneur de personnes. | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.ReadWrite.All | délégué | Obligatoire pour déterminer si le service Teams est activé au sein de la location Office 365 utilisateurs. | Aucun | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | délégué | Obligatoire pour afficher l’image de profil utilisateur dans le champ S sélectionneur de personnes. | Néant | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadWrite.All | délégué | Obligatoire pour déterminer si le service Teams est activé au sein de la location Office 365 utilisateurs. | Néant | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
@@ -126,7 +126,7 @@ Ces informations ont été fournies par OnePlace Solutions sur la façon dont ce
 |:----------------|:-------------|
 | Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
-| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |

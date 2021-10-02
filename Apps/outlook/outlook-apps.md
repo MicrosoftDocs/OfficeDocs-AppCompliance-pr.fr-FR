@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Outlook - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/24/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 15e11ed9334d1db23d1cf2403db95f62354b039a
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 430c4c9b40caeb717899d7d6d0983ca6e531701d
+ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785334"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60080865"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Outlook
 
@@ -38,6 +38,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [officeatwork | S’il s’Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [OnePlaceMail for Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | OnePlace Solutions | **✓** |  |
 | [Engagement commercial de sensibilisation pour Outlook](./outreach-sales-engagement-for-outlook.md) | Diffusion | **✓** |  |
+| [Pexip One pour Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
 | [Matrice de priorité : transformer les e-mails en tâches](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
