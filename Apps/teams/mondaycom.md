@@ -2,24 +2,24 @@
 title: Informations sur l’application monday.com par monday.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2020
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour monday.com, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7d929b4d9c66aea657d2beb64fa77f31921f59ac
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 3779d91614f3413034e8bd86d28ec329cf341b67
+ms.sourcegitcommit: e339fa9776aae99797dbc1f0a28932e71b4eb823
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283275"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60131692"
 ---
 # <a name="mondaycom"></a>monday.com
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 28, 2020</p>
+<p>Last updated by the developer on: August 3, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/eab2d3ce-6d6a-4415-abc4-5f40a8317b1f" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001798" target="_blank">Afficher dans AppSource</a>
@@ -36,9 +36,9 @@ Informations fournies par monday.com à Microsoft :
 | ID | WA200001798 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | monday.com |
-| URL du site web partenaire | [https://monday.com/](https://monday.com/) |
+| URL du site web partenaire | [https://monday.com](https://monday.com) |
 | URL de la politique de confidentialité | [https://monday.com/terms/privacy](https://monday.com/terms/privacy) |
-| URL des conditions d’utilisation | [https://monday.com/terms/tos](https://monday.com/terms/tos) |
+| URL des conditions d’utilisation | [https://monday.com/l/legal/tos/](https://monday.com/l/legal/tos/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -63,7 +63,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| monday.com utilise les sous-processeurs suivants pour les performances de son service :&#160;https://monday.com/terms/subprocessors |  | monday.com n’utilise pas d’API. Nous utilisons les infrastructure Microsoft suivantes pour les performances de notre service (comme détaillé dans notre réponse ci-dessus) : &#8216;botbuilder&#8217; &#8216;botframework-connector&#8217; &#8216;@micorosft/teams-js&#8217; |
+>| monday.com utilise les sous-processeurs suivants pour les performances de son service :&#160;https://monday.com/terms/subprocessors | Dépend du service fourni par les sous-processeurs. | monday.com n’utilise pas d’API. Nous utilisons les infrastructure Microsoft suivantes pour les performances de notre service (comme détaillé dans notre réponse ci-dessus) : &#8216;botbuilder&#8217; &#8216;botframework-connector&#8217; &#8216;@micorosft/teams-js&#8217; |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -82,17 +82,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->monday.com service est hébergé sur l’infrastructure AWS du Nord dans plusieurs zones de disponibilité, avec un site de dr établi dans une autre région. Certaines données de sauvegarde sont stockées sur GCP (États-Unis, multi-région). L’accès au service monday.com est contrôlé par les administrateurs de l’organisation utilisateur et est obtenu à l’aide des fonctionnalités suivantes :
-- Types d'utilisateur
-- Autorisations au niveau du compte
-- Espaces de travail
-- Types de tableaux
-- Autorisations au niveau du tableau
-- Les autorisations au niveau des colonnes monday.com les méthodes d’authentification suivantes :
-- Identifiants
-- SSO Google (pour Pro plan)
-- Okta, OneLogin et SAML 2.0 personnalisé (pour le plan Enterprise) 2FA via SMS ou via une application d’authentifier peuvent être activés par les administrateurs de compte via le panneau d’administration de la plateforme.
-Toutes les données au repos sont chiffrées à l’aide d’AES-256. Toutes les données en transit sur des réseaux ouverts sont chiffrées à l’aide de TLS 1.3 (TLS 1.2 au minimum).
+>----
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -116,3 +106,28 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informations d’identité
+
+Ces informations ont été fournies par monday.com sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
+| Votre application prend-elle en charge l’location multiple ? | Non |
+| Votre application a-t-elle un client confidentiel ? | Oui |
+| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
+| Votre application expose-t-elle des API web ? | Oui |
+| Votre modèle d’autorisation autorise-t-il uniquement les appels à réussir si l’application cliente reçoit le consentement approprié ? | Oui |
+| Votre application utilise-t-elle les API d’aperçu ? | Oui |
+| Votre application utilise-t-elle des API dépréciées ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
