@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: df7def3cc619891d86526dd1d47291720503c744
-ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
+ms.openlocfilehash: 89025e4009067698b0355f7e5ef9a61542dd5392
+ms.sourcegitcommit: 11288ac2cbae57aaa7820be0d9fb87c631805b7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60080855"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60112229"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -111,6 +111,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Décisions](./decisions.md) | Décisions | **✓** |  |
 | [Diplômé](./degreed.md) | Diplômé | **✓** |  |
 | [DELTAoverC](./deltaoverc.md) | DELTAoverC | **✓** |  |
+| [Digiplein](./educatieve-uitgeversgroep-bv-digiplein.md) | Educatieve Uitgeversgroep B.V. | **✓** |  |
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  |
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
@@ -143,6 +144,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Fellow](./fellow-insights-inc.md) | Fellow Insights Inc | **✓** |  |
 | [Fifty](./fifty.md) | Fifty | **✓** |  |
 | [File Fabric](./storage-made-easy-file-fabric.md) | Storage Made Easy | **✓** |  |
+| [FireWatch](./infographics-uk-ltd-firewatch.md) | Infographies UK Ltd. | **✓** |  |
 | [FaqQast](./floqast.md) | FaqQast | **✓** |  |
 | [ForceManager CRM](./tritium-software-sl-forcemanager-crm.md) | Tritium Software SL | **✓** |  |
 | [FormMachines](./enterprise-digital-machines-formmachines.md) | Entreprise d’ordinateurs numériques | **✓** |  |
@@ -171,6 +173,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Highspot](./highspot.md) | Highspot | **✓** |  |
 | [Hive](./hive.md) | Ruche | **✓** |  |
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  |
+| [Humu](./humu-inc.md) | Humu Inc. | **✓** |  |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  |
 | [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  |
 | [iManage](./imanage.md) | iManage | **✓** |  |
@@ -256,6 +259,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Calendrier de l'équipe Planyway](./rubius-planyway-team-calendar.md) | Rubius | **✓** |  |
 | [Questionnaire de jeu – Aprende &amp; Juega](./teamschamp-playquiz-aprende-and-juega.md) | TeamsChamp | **✓** |  |
 | [Polly](./polly.md) | Polly | **✓** |  |
+| [CONNECTEUR VOIP cloud POPP](./popp-communications-cloud-voip-connector.md) | Communications POPP | **✓** |  |
 | [PostBeyond](./postbeyond.md) | PostBeyond | **✓** |  |
 | [Powell Teams](./powell-software-teams.md) | Powell Software | **✓** |  |
 | [Power BI Collaboration](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
