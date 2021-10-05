@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Outlook - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/01/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 430c4c9b40caeb717899d7d6d0983ca6e531701d
-ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
+ms.openlocfilehash: 6357d5364c1cc66b57d2c401073c88fd6fd7d00c
+ms.sourcegitcommit: 2781622670a06d5221dcba8838cc262f93d228d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60080865"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60123744"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Outlook
 
@@ -28,6 +28,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [CodeTwo pour Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [harmon.ie pour Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  |
+| [Signatures d’impression pour Outlook](./impression-signatures-for-outlook.md) | Signatures d’impression | **✓** |  |
 | [Facture et suivi du temps : facture Zoho](./zoho-corporation-private-limited-invoice-and-time-tracking.md) | Zoho Corporation Private Limited | **✓** |  |
 | [IPlanner Office 365 Planner pour Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

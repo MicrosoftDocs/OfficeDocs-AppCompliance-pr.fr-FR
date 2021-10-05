@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft SharePoint - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/01/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft SharePoint.
 localization_priority: Normal
-ms.openlocfilehash: 1d85d0d3733db1696dd9d6d90b33f22b16cc8dff
-ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
+ms.openlocfilehash: e440f85e4bd0957a95c3eb8681c1108b50b7fba8
+ms.sourcegitcommit: 2781622670a06d5221dcba8838cc262f93d228d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60080875"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60123764"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft SharePoint
 
@@ -20,6 +20,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeurs pour fourni
 
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
+| [Adobe Sign for SharePoint](./adobe-inc-sign-for-sharepoint.md) | Adobe Inc. | **✓** |  |
 | [Tableau des tâches agile pour SharePoint Online](./agile-is-task-board-for-sharepoint-online.md) | Agile-IS | **✓** |  |
 | [Cartes ArcGIS](./esri-inc-arcgis-maps.md) | Esri, Inc. | **✓** |  |
 | [Connecteur FormMachines pour SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | ENTERPRISE DIGITAL MACHINES PTY LTD | **✓** |  |
