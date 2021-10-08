@@ -85,6 +85,8 @@
           href: outlook/ci-solution-gmbh-signature.md
         - name: CodeTwo pour Outlook
           href: outlook/codetwo-for-outlook.md
+        - name: Commuty
+          href: outlook/commuty.md
         - name: Evernote
           href: outlook/evernote.md
         - name: harmon.ie pour Outlook
@@ -93,7 +95,7 @@
           href: outlook/impression-signatures-for-outlook.md
         - name: 'Facture et suivi du temps : facture Zoho'
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: IPlanner Office 365 Planner pour Outlook
+        - name: IPlanner Office 365 planner pour Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
@@ -131,7 +133,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM pour la messagerie
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Applications microsoft PowerPoint
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign pour Word et PowerPoint
@@ -1059,6 +1061,8 @@
           href: saas/elearningforce-international-aps-lms365.md
         - name: MIPA - Mon Assistant personnel intelligent
           href: saas/iglobe-mipa-my-intelligent-personal-assistant.md
+        - name: MyHub pour Teams
+          href: saas/avepoint-inc-myhub-for-teams.md
         - name: Office2SharePoint
           href: saas/iglobe-office2sharepoint.md
         - name: Priority Matrix
