@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/07/2021
+ms.date: 10/08/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: f80ec5836e9a7f24d595a03522e223ad8da0db94
-ms.sourcegitcommit: 4817af6bd92bcc7624a43ea79ba6b9362da38035
+ms.openlocfilehash: 260dbfcc660315f8d74e14e57dc025097e8e2ffe
+ms.sourcegitcommit: 085c227ffcf8f88e6e55d3c40752a3df25642592
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60233658"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60255497"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -180,6 +180,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [En cas de crise](./rockdove-solutions-inc-in-case-of-crisis.md) | Solutions RockDove, Inc. | **✓** |  |
 | [InCaseIT](./pilotech-as-incaseit.md) | Pilotech AS | **✓** |  |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Équipe Industry Intelligence | **✓** |  |
+| [Informer Coleman](./infor-us-inc-coleman.md) | INFOR (États-Unis), INC. | **✓** |  |
 | [InStation](./developers-invillia-instation.md) | Développeurs Invillia | **✓** |  |
 | [isLucid](./uab-lucid-agreements-islucid.md) | Contrats UAB | **✓** |  |
 | [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  |
@@ -202,6 +203,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Conversation en direct](./social-intents-live-chat.md) | Intentions sociales | **✓** |  |
 | [LMS365](./elearningforce-international-lms365.md) | ELEARNINGFORCE International | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Loops – Creative Learning](./skooler-loops-creative-learning.md) | Skooler | **✓** |  |
+| [Client LTI](./flipick-pvt-ltd-lti-client.md) | Flipick Pvt Ltd | **✓** |  |
 | [Lucca](./lucca.md) | Lucques | **✓** |  |
 | [Lucidchart](./lucid-software-lucidchart.md) | Logiciel Lucid | **✓** |  |
 | [Lucidspark](./lucid-software-lucidspark.md) | Logiciel Lucid | **✓** |  |

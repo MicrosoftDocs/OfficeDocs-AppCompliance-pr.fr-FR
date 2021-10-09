@@ -25,7 +25,7 @@
     - name: Microsoft Excel Applications
       href: excel/excel-apps.md
       items:
-        - name: Calculateur de coûts de service EMEA Canon pour les partenaires B2B
+        - name: Calculateur de coût du service EMEA Canon pour les partenaires B2B
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics pour NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
@@ -37,15 +37,15 @@
           href: excel/impression-signatures.md
         - name: Outil de rapports iPlanner pour Office 365 planner
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
-        - name: Jira Cloud for Excel
+        - name: Jira Cloud pour Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Diagrammes d’image graphique pour Excel
+        - name: Diagrammes de diagrammes d’Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
         - name: MeaningCloud Text Analytics pour Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint pour Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworkimage-chooser-for-office.md
@@ -64,7 +64,7 @@
     - name: Microsoft OneNote Applications
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
@@ -133,7 +133,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM pour la messagerie
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft PowerPoint Apps
+    - name: Applications microsoft PowerPoint
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign pour Word et PowerPoint
@@ -146,7 +146,7 @@
           href: powerpoint/lucid-software-inc-lucidchart-diagrams-for-powerpoint.md
         - name: Office2SharePoint pour Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
@@ -509,6 +509,8 @@
           href: teams/pilotech-as-incaseit.md
         - name: IndustryIntel
           href: teams/industry-intelligence-team-industryintel.md
+        - name: Infor Coleman
+          href: teams/infor-us-inc-coleman.md
         - name: InStation
           href: teams/developers-invillia-instation.md
         - name: isLucid
@@ -553,6 +555,8 @@
           href: teams/elearningforce-international-lms365.md
         - name: Loops – Creative Learning
           href: teams/skooler-loops-creative-learning.md
+        - name: LTI Client
+          href: teams/flipick-pvt-ltd-lti-client.md
         - name: Lucques
           href: teams/lucca.md
         - name: Lucidchart
@@ -877,7 +881,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker par Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Travail d'équipe
+        - name: Travail d’équipe
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -1010,13 +1014,13 @@
           href: word/legalmind-word-addin.md
         - name: Assistant Contrat Loio
           href: word/loio-inc-contract-assistant.md
-        - name: Diagrammes de graphiques pour Word
+        - name: Diagrammes graphiques pour Word
           href: word/lucid-software-inc-lucidchart-diagrams-for-word.md
         - name: Mendeley Cit
           href: word/elsevier-limited-mendeley-cite.md
         - name: Office2SharePoint pour Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Concepteur pour Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
@@ -1024,7 +1028,7 @@
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: officeatwork | Téléchargeur pour Office
+        - name: officeatwork | Uploader for Office
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork | Verifier for Office
           href: word/officeatwork-officeatworkverifier-for-office.md
@@ -1069,7 +1073,7 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
-        - name: S chooser des diapositives
+        - name: S’il s’il s’est choisi
           href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser
           href: saas/officeatwork-template-chooser.md
@@ -1244,6 +1248,8 @@
           href: azure/5edad654-f2d5-41d8-bfc0-92c2735252e1.md
         - name: 5f1f4eb7-479e-42f3-b86f-4c1f53e1c222
           href: azure/5f1f4eb7-479e-42f3-b86f-4c1f53e1c222.md
+        - name: 5f5ab403-96ae-46a9-b78e-a06d60cc9e4e
+          href: azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md
         - name: 621d9ae7-c14e-4fab-9604-63e1ffc9e721
           href: azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721.md
         - name: 626ce0a3-4620-483d-953d-53b106b9ffad
