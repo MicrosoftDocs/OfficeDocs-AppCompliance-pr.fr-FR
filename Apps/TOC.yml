@@ -25,7 +25,7 @@
     - name: Microsoft Excel Applications
       href: excel/excel-apps.md
       items:
-        - name: Calculateur de coût du service EMEA Canon pour les partenaires B2B
+        - name: Calculateur de coûts de service EMEA Canon pour les partenaires B2B
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics pour NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
@@ -37,9 +37,9 @@
           href: excel/impression-signatures.md
         - name: Outil de rapports iPlanner pour Office 365 planner
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
-        - name: Jira Cloud pour Excel
+        - name: Jira Cloud for Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Diagrammes de diagrammes d’Excel
+        - name: Diagrammes d’image graphique pour Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
         - name: MeaningCloud Text Analytics pour Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
@@ -101,6 +101,10 @@
           href: outlook/iglobe-iplanner-pro-office-365.md
         - name: Jira Cloud for Outlook (Official)
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
+        - name: Échéances de LawToolBox et gestion des Outlook
+          href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
+        - name: 'LawToolBox est important pour Outlook, Teams et SharePoint'
+          href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
         - name: MIPA - Votre propre Assistant personnel
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
         - name: ngDesk
@@ -371,6 +375,8 @@
           href: teams/degreed.md
         - name: DELTAoverC
           href: teams/deltaoverc.md
+        - name: Desk365
+          href: teams/kani-technologies-inc-desk365.md
         - name: Digiplein
           href: teams/educatieve-uitgeversgroep-bv-digiplein.md
         - name: DisasterTech DICE
@@ -509,7 +515,7 @@
           href: teams/pilotech-as-incaseit.md
         - name: IndustryIntel
           href: teams/industry-intelligence-team-industryintel.md
-        - name: Infor Coleman
+        - name: Informer Coleman
           href: teams/infor-us-inc-coleman.md
         - name: InStation
           href: teams/developers-invillia-instation.md
@@ -529,12 +535,16 @@
           href: teams/sliday-ltd-karma.md
         - name: Kazoo
           href: teams/kazoo.md
+        - name: Keepass Pro
+          href: teams/witivio-keepass-pro.md
         - name: Klaxoon
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
+        - name: Kun qu’il s’y soit
+          href: teams/faceboard-pty-ltd-kunjani.md
         - name: LawToolBox
           href: teams/lawtoolboxcom-inc-lawtoolbox.md
         - name: Apprendre
@@ -555,7 +565,7 @@
           href: teams/elearningforce-international-lms365.md
         - name: Loops – Creative Learning
           href: teams/skooler-loops-creative-learning.md
-        - name: LTI Client
+        - name: Client LTI
           href: teams/flipick-pvt-ltd-lti-client.md
         - name: Lucques
           href: teams/lucca.md
@@ -585,6 +595,8 @@
           href: teams/mentimeter.md
         - name: Rappel de message
           href: teams/message-reminder.md
+        - name: MGR360
+          href: teams/mgr360.md
         - name: Micromate
           href: teams/paixon-gmbh-micromate.md
         - name: MindManager
@@ -645,6 +657,8 @@
           href: teams/officespace-software.md
         - name: Officevibe
           href: teams/officevibe.md
+        - name: OLIVE VLE
+          href: teams/olivegroup-olive-vle.md
         - name: Onluyen
           href: teams/edmicro-onluyen.md
         - name: Onsight Connect
@@ -763,8 +777,6 @@
           href: teams/sentry.md
         - name: ServiceDesk Plus Cloud
           href: teams/zoho-corporation-private-limited-servicedesk-plus-cloud.md
-        - name: Sheetgo
-          href: teams/sheetgo-europe-sl.md
         - name: SHL
           href: teams/shl.md
         - name: Shortlinks
@@ -881,7 +893,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker par Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Travail d’équipe
+        - name: Travail d'équipe
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -1014,13 +1026,13 @@
           href: word/legalmind-word-addin.md
         - name: Assistant Contrat Loio
           href: word/loio-inc-contract-assistant.md
-        - name: Diagrammes graphiques pour Word
+        - name: Diagrammes de graphiques pour Word
           href: word/lucid-software-inc-lucidchart-diagrams-for-word.md
         - name: Mendeley Cit
           href: word/elsevier-limited-mendeley-cite.md
         - name: Office2SharePoint pour Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: officeatwork | S’il s’il s’Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Concepteur pour Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
@@ -1028,7 +1040,7 @@
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: officeatwork | Uploader for Office
+        - name: officeatwork | Téléchargeur pour Office
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork | Verifier for Office
           href: word/officeatwork-officeatworkverifier-for-office.md
@@ -1063,6 +1075,8 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
+        - name: Luware Nimbus pour Microsoft Teams
+          href: saas/luware-ag-nimbus-for-microsoft-teams.md
         - name: MIPA - Mon Assistant personnel intelligent
           href: saas/iglobe-mipa-my-intelligent-personal-assistant.md
         - name: MyHub pour Teams
@@ -1073,7 +1087,7 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
-        - name: S’il s’il s’est choisi
+        - name: S chooser des diapositives
           href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser
           href: saas/officeatwork-template-chooser.md
