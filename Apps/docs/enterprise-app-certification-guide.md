@@ -6,18 +6,18 @@ description: Microsoft 365 Détails de certification
 keywords: attestation d’application microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 49bb08fa252a3907df67766dce39ef810381be27
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 1088e80ba5d67d8565cf4499a91a84df277b4f80
+ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282603"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60378762"
 ---
 # <a name="what-is-microsoft-365-certification"></a>Qu’est-ce Microsoft 365 certification ?
 
 La certification Microsoft 365 est une certification conçue pour montrer aux clients qu’une application a été examinée par rapport aux contrôles dérivés des principales frameworks standard du secteur, et que des pratiques de sécurité et de conformité fortes sont en place pour protéger les données client. 
 
->[!VIDEO https://www.youtube.com/embed/Aff_35f10B8]
+>[!VIDEO https://www.youtube.com/embed/Wv1lcNAycuE]
 
 
 ## <a name="microsoft-365-certification-scope"></a>Microsoft 365 Étendue de certification
@@ -60,9 +60,9 @@ Bien que la participation soit facultative, lorsqu’une application est certifi
 
 
 ### <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>Utilisation du badge Microsoft 365 et des supports marketing associés
-Le logo Microsoft 365 certification des données montre qu’une application a été examinée pour assurer sa conformité aux contrôles mis en place par Microsoft qui évaluent de manière adv e les pratiques de sécurité et de confidentialité des données. Vous pouvez utiliser le logo Microsoft 365 certification à l’aide du consentement écrit express de Microsoft à la fin de la certification Microsoft 365 certification. Si votre certification est révoquée ou si le processus de certification n’est pas démarré dans un délai d’un an à partir du jour où la certification a été accordée, vous devez cesser d’utiliser tous les documents marketing liés à la certification Microsoft 365. 
+Le logo Microsoft 365 certification des données montre qu’une application a été examinée pour assurer la conformité aux contrôles mis en place par Microsoft qui évaluent de manière adv e les pratiques de sécurité et de confidentialité des données. Vous pouvez utiliser le logo Microsoft 365 certification à l’aide du consentement écrit express de Microsoft à la fin de la certification Microsoft 365 certification. Si votre certification est révoquée ou si le processus de certification n’est pas démarré dans un délai d’un an à partir du jour où la certification a été accordée, vous devez cesser d’utiliser tous les documents marketing liés à la certification Microsoft 365. 
 
-Ce logo peut être utilisé sur des sites web, des communiqués de presse et d’autres forums où il se rapporte spécifiquement à l’application qui a terminé le processus Microsoft 365 certification. Le logo doit être présenté dans une taille et un emplacement raisonnables dans le contenu numérique. 
+Ce logo peut être utilisé sur des sites web, des communiqués de presse et d’autres forums où il se rapporte spécifiquement à l’application qui a terminé le processus Microsoft 365 certification. Le logo doit être présenté dans une taille et un emplacement raisonnables au sein du contenu numérique. 
 
 L’instruction suivante doit accompagner le logo : « Les applications avec le logo Microsoft 365 certification indiquent que cette application a obtenu Microsoft 365 certification. Outre la sécurité des applications, ce programme passe en revue les pratiques et procédures employées par l’éditeur d’application. Bien que les données client sont sous le contrôle de l’éditeur de l’application, vous pouvez être certain que Microsoft a validé que l’application les gérera de manière sécurisée. »
 

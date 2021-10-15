@@ -6,12 +6,12 @@ description: Microsoft 365 Vue granulaire du Guide de soumission de certificatio
 keywords: Équipes de certification des Microsoft 365 conformité de la sécurité m365 envoi initial de documents
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: f8b45c5130d4c4a231f2d7ce7b1bc6992757bf46
-ms.sourcegitcommit: 1e461d44be2da90b41fdcb60b35a6a180d52c9d6
+ms.openlocfilehash: 0352b64649d87b40d185a2bc06ce23da6cf341ef
+ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59497107"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60378812"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Critification - Guide de soumission de document initial
 
@@ -24,27 +24,11 @@ Veuillez inclure le rapport de test de pénétration complète avec les dates qu
 -   Ce rapport doit inclure l’environnement qui prend en charge le déploiement de l’application/de l’ajout, ainsi que tout environnement supplémentaire qui prend en charge le fonctionnement de l’application/des compléments.
 
 
-## <a name="software-inventory"></a>Inventaire logiciel
+## <a name="system-component-inventory"></a>Inventaire des composants système
 
-Inventaire logiciel à jour qui inclut tous les logiciels utilisés dans l’environnement dans l’étendue, ainsi que les versions.
+Un inventroy à jour de tous les composants système utilisés par l’infrastructure de prise en charge. Cela sera utilisé pour faciliter l’échantillonnage lors de la phase d’évaluation. Si votre environnement inclut PaaS, il serait utile si vous pouvez fournir des détails sur tous les services PaaS consommés.
 
-**Exemple :**
-
-|Logiciels|  Éditeur|  Version|     Objectif|
-|-|-|-|-|
-|Windows Server|    Microsoft 2016 | Build 14393| Système d’exploitation serveur pour l’environnement de production|.
-|Linux Ubuntu|  N/A|    16.04 (Xenial)| Système d’exploitation serveur utilisé dans la DMZ.|
-|ESXi|  VMWare| 6.5.0 (Build 13004031)| Utilisé pour prendre en charge les serveurs virtuels.|
-|Mysql (Windows)|   N/A|    8.0.2.1|    Serveur de base de données pour stocker l’historique des conversation.|
-|Tomcat|        Apache| 7.0.92| Portail client.|
-|Services Internet (IIS)|   Microsoft|  10.0|   Prend en charge les API.|
-
-
-## <a name="hardware-inventory"></a>Inventaire matériel
-
-Inventaire matériel à jour utilisé par l’infrastructure de prise en charge. Cela sera utilisé pour faciliter l’échantillonnage lors de la phase d’évaluation. Si votre environnement inclut PaaS, il serait utile si vous pouvez fournir des détails sur tous les services PaaS consommés.
-
-**Remarque :** IaaS/PaaS n’aurait pas de matériel qui serait sous le contrôle des isvs.  
+**Remarque :** IaaS/PaaS n’aurait aucun matériel qui serait sous le contrôle des fabricants de logiciels isv.  Dans ce cas, fournissez une liste ou une capture d’écran de toutes les ressources viruelles.
 
 **Exemple :**
 
@@ -56,7 +40,23 @@ Inventaire matériel à jour utilisé par l’infrastructure de prise en charge.
 |LXM2|  Linux Machine|  Ordinateur de test|N/A|N/A|       
 
 
-## <a name="web-dependencies"></a>Dépendances web
+## <a name="software-inventory"></a>Inventaire logiciel
+
+Un inventaire à jour de toutes les ressources logicielles, y compris tous les logiciels utilisés dans l’environnement dans l’étendue, ainsi que les versions.
+
+**Exemple :**
+
+|Logiciels|  Éditeur|  Version|     Objectif|
+|-|-|-|-|
+|Windows Server|    Microsoft 2016 | Build 14393| Système d’exploitation serveur pour l’environnement de production|.
+|Linux Ubuntu|  S/O|    16.04 (Xenial)| Système d’exploitation serveur utilisé dans la DMZ.|
+|ESXi|  VMWare| 6.5.0 (Build 13004031)| Utilisé pour prendre en charge les serveurs virtuels.|
+|Mysql (Windows)|   S/O|    8.0.2.1|    Serveur de base de données pour stocker l’historique des conversation.|
+|Tomcat|        Apache| 7.0.92| Portail client.|
+|Services Internet (IIS)|   Microsoft|  10.0|   Prend en charge les API.|
+
+
+## <a name="third-party-dependencies"></a>Dépendances tierces
 
 Documentation répertoriant toutes les dépendances utilisées par l’application/le add-in avec les versions en cours d’exécution.
 
@@ -100,7 +100,7 @@ Liste complète de tous les points de terminaison d’API utilisés par votre ap
 |API client Contoso|  https://customerapi.contoso.com|
 |Contoso Bot Service|   https://bot.contoso.com|
 |API de fichiers Contoso| https://filesapi.contoso.com|
-|Microsoft Graph| https://graph.microsoft.com/v1.0/|
+|Microsoft Graph| https://graph.microsoft.com/v1.0/|
 
 
 ## <a name="architectural-diagram"></a>Diagramme d’architecture
