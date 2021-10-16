@@ -2,17 +2,17 @@
 title: 'Microsoft Word Sécurité et conformité des applications : toutes les applications'
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/05/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les Microsoft Word applications.
 localization_priority: Normal
-ms.openlocfilehash: 3c40ee92ac084d0e61e33cd14e4642f6dd434b30
-ms.sourcegitcommit: 2781622670a06d5221dcba8838cc262f93d228d0
+ms.openlocfilehash: abf08afa4f92f6457db82a2e467a9d60a40370f0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60123424"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60404641"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Sécurité et conformité des applications
 
@@ -29,7 +29,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Signatures d’impression](./impression-signatures.md) | Signatures d’impression | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
 | [Assistant Contrat Loio](./loio-inc-contract-assistant.md) | Loio Inc. | **✓** |  |
-| [Diagrammes de graphiques pour Word](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  |
+| [Diagrammes graphiques pour Word](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  |
 | [Mendeley Cit](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [Office2SharePoint pour Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | S’il s’Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

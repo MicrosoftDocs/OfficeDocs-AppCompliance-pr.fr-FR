@@ -2,18 +2,18 @@
 title: Informations sur l’application Excel d’automatisation des documents de word à word par AnalysisPlace
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/15/2021
+ms.date: 02/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Excel-à-Word Document Automation, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8dc1ac8d012545326f0d3c4f96764d5a2ed391b7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d8dee2b12160b94cc55d1be0b355b9e5212b595a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279820"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60405763"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel-to-Word Document Automation
 
@@ -33,7 +33,7 @@ Informations fournies par AnalysisPlace à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Excel-to-Word Document Automation |
 | ID | WA104380955 |
-| Office 365 clients pris en charge | Excel 2016 ou ultérieur sur Mac, Excel 2016 ou ultérieur sur Windows, Word 2016 ou ultérieur sur Mac, Word 2016 ou ultérieur sur Windows, PowerPoint 2016 ou ultérieur sur Mac, PowerPoint 2016 ou ultérieur sur Windows, Excel sur le Web, Word sur le web, PowerPoint sur le web |
+| Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2016 ou une ultérieure sur Windows, Word 2016 ou une ultérieure sur Mac, Word 2016 ou une ultérieure sur Windows, PowerPoint 2016 ou ultérieur sur Mac, PowerPoint 2016 ou ultérieur Windows, Excel sur le Web, Word sur le web, PowerPoint sur le web |
 | Nom de la société partenaire | AnalysisPlace |
 | URL du site web partenaire | [https://analysisplace.com](https://analysisplace.com) |
 | URL de la politique de confidentialité | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
@@ -74,7 +74,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->N/A
+>S/O
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -106,7 +106,7 @@ Ces informations ont été fournies par AnalysisPlace sur la façon dont cette a
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -123,3 +123,4 @@ Ces informations ont été fournies par AnalysisPlace sur la façon dont cette a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

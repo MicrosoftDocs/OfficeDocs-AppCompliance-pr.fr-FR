@@ -2,18 +2,18 @@
 title: Informations sur l’application pour le bloc-notes Zoho par Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2020
+ms.date: 05/29/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le bloc-notes Zoho, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 005104b15ca86b5cdf2e265ebbf2a8ce84bd1202
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b90dc187ecb4f0890b19e07a00f817e06e7e807a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280599"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60405783"
 ---
 # <a name="zoho-notebook"></a>Zoho Notebook
 
@@ -103,4 +103,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 
