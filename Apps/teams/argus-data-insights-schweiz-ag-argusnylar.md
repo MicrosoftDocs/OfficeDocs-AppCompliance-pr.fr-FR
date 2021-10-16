@@ -2,18 +2,18 @@
 title: Informations d’application pour LA BIBLIOTHÈQUE D’INFORMATIONS SUR l’application DE LA BIBLIOTHÈQUE D’INFORMATIONS SUR LES DONNÉES DE LA SOCIÉTÉ D’INFORMATION SUR LES INFORMATIONS PERSONNELLES
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/25/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LASnylar, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9e1101a92834b4f5424b9cd86f396ab71b01b4f8
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: b6e8954ddd27c1383c5af8a9f1a175cca290644f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785521"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411923"
 ---
 # <a name="argusnylar"></a>CASSnylar
 
@@ -35,7 +35,7 @@ Informations fournies par LA SOCIÉTÉ DNS DATA INSIGHTS À Microsoft :
 | Nom de l'application | CASSnylar |
 | ID | WA200003186 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | RENSEIGNEMENTS SUR LES DONNÉES DE LA SOCIÉTÉ D’ANALYSE DES DONNÉES DE L’ANALYSE DES DONNÉES DE L’ANALYSE DES DONNÉES |
+| Nom de la société partenaire | ARGUS DATA INSIGHTS Schweiz AG |
 | URL du site web partenaire | [https://www.argusdatainsights.ch/en/](https://www.argusdatainsights.ch/en/) |
 | URL de la Teams d’informations sur l’application | [https://portal.nylar.org/help](https://portal.nylar.org/help) |
 | URL de la politique de confidentialité | [https://www.argusdatainsights.ch/en/privacy-policy-teams](https://www.argusdatainsights.ch/en/privacy-policy-teams) |
@@ -49,13 +49,13 @@ Informations fournies par LA SOCIÉTÉ DNS DATA INSIGHTS À Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par LA SOCIÉTÉ DNS DATA INSIGHTS Android AG sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par LA SOCIÉTÉ DNS DATA INSIGHTS Android AG sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| openid | application | / | / | [5c1f85d2-d744-4159-8c01-16e9a7b1207b](https://docs.microsoft.com/microsoft-365-app-certification/azure/5c1f85d2-d744-4159-8c01-16e9a7b1207b) |
 
@@ -95,17 +95,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -115,7 +104,7 @@ Ces informations ont été fournies par LA FONCTION DNS DATA INSIGHTS Contrôlei
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -132,3 +121,4 @@ Ces informations ont été fournies par LA FONCTION DNS DATA INSIGHTS Contrôlei
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

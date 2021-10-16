@@ -2,18 +2,18 @@
 title: Informations d’application pour researcHR par KBE&#26666;&#24335;&#20250;&#31038;
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/05/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour researcHR, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b57d492945766c8d65417cf2f1d642ea4ecb8aae
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: bc174eb69b69cdf2d04c27bc4649f18111d87811
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279891"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412804"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -55,14 +55,14 @@ Ces informations ont été fournies par KBE&#26666;&#24335;&#20250;&#31038; sur 
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.Create | application | Nous utilisons cette étendue pour permettre à notre bot de créer un canal sur le client Teams client. Voir : https://docs.microsoft.com/en-us/graph/api/channel-post | Nous ne stockons pas ces données dans notre base de données. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| Directory.Read.All | application | Nous utilisons cette étendue pour obtenir les ID de canal et les noms pour afficher ces données sur notre site web. Voir : https://docs.microsoft.com/en-us/graph/api/channel-list | Nous ne stockons pas ces données dans notre base de données. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| Group.Read.All | application | Nous utilisons cette étendue pour obtenir les ID de canal et les noms pour afficher ces données sur notre site web. Voir : https://docs.microsoft.com/en-us/graph/api/channel-list | Nous ne stockons pas ces données dans notre base de données. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| Team.ReadBasic.All | application | Nous utilisons cette étendue pour obtenir les membres de l’équipe afin que les utilisateurs peuvent voir leurs membres sur notre site web. Voir : https://docs.microsoft.com/en-us/graph/api/group-list-members | Nous ne stockons pas ces données dans la base de données. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| User.Read.All | application | Nous utilisons cette étendue pour obtenir les canaux joints de l’utilisateur afin que les utilisateurs peuvent voir leurs équipes jointes sur notre site web. Voir : https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | Nous ne stockons pas ces données dans notre base de données. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| User.ReadBasic.All | délégué | Nous utilisons cette étendue pour activer la connexion OAuth et collecter l’ID AAD, le jeton d’accès et le jeton d’actualisation de l’utilisateur. Voir : https://docs.microsoft.com/en-us/graph/auth-v2-user | Nous stockons l’ID AAD, le jeton d’accès et le jeton d’actualisation de l’utilisateur dans notre base de données afin que l’utilisateur puisse se connecter à notre site web avec OAuth. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
+>| User.ReadBasic.All | délégué | Nous utilisons cette étendue pour activer la connexion OAuth et collecter l’ID AAD de l’utilisateur, le jeton d’accès et le jeton d’actualisation. Voir : https://docs.microsoft.com/en-us/graph/auth-v2-user | Nous stockons l’ID AAD, le jeton d’accès et le jeton d’actualisation de l’utilisateur dans notre base de données afin que l’utilisateur puisse se connecter à notre site web avec OAuth. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| offline_access | délégué | Nous utilisons cette étendue pour obtenir le jeton d’actualisation afin que nous pouvons actualiser le jeton d’accès des utilisateurs authentés sans aucune interaction utilisateur. Voir : https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | Nous stockons le jeton d’actualisation dans notre base de données afin de pouvoir actualiser le jeton d’accès sans aucune interaction utilisateur. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 
 
@@ -81,7 +81,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -101,28 +101,18 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par KBE&#26666;&#24335;&#20250;&#31038; sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par KBE&#26666;&#24335;&#20250;&#31038; sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

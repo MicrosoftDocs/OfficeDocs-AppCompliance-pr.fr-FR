@@ -2,18 +2,18 @@
 title: Informations sur l’application pour Tikit par Luison
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/04/2021
+ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Tikit, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c17273ad8e2cdc9bd2f60ce5a3157f1f8473bb88
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b427ac7258c9849f6d003a6e9afe51f3db9fe784
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281355"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414740"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -55,15 +55,15 @@ Ces informations ont été fournies par Cette application sur la façon dont cet
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Device.Read | application | Informations de graphique utilisateur utilisées pour l' sign-on unique, via la communication du bot teams  | Nous stockons les rôles d’utilisateur, le nom de famille, le nom donné, le courrier électronique, l’ID AAD, Teams’utilisateur. Cette information est utilisée pour l’authentification d’application, la sécurité, RBAC, l’intégration des équipes, les notifications d’équipes et le mappage des relations utilisateur   | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Device.Read | application | Informations de graphique utilisateur utilisées pour l' sign-on unique, via la communication du bot teams  | Nous stockons les rôles d’utilisateur, le nom de famille, le nom donné, le courrier électronique, AAD’ID de Teams’utilisateur. Cette information est utilisée pour l’authentification d’application, la sécurité, RBAC, l’intégration des équipes, les notifications des équipes et le mappage des relations utilisateur   | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Directory.AccessAsUser.All | délégué | Noms de groupes et rôles pour RBAC | Nom de &amp; rôle de nom de groupe, doit fournir un contrôle d’accès mappé sécurisé. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Directory.Read.All | délégué | Noms de groupes et rôles pour RBAC | Nom de &amp; rôle de nom de groupe, doit fournir un contrôle d’accès mappé sécurisé. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Group.Read.All | les deux | Noms de groupes et rôles pour RBAC | Noms de groupes et rôles pour RBAC | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read | délégué | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, Teams’utilisateur, utilisé pour l’authentification  | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read.All | application | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, Teams’utilisateur, utilisé pour l’authentification  | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.ReadBasic.All | délégué | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, Teams’utilisateur, utilisé pour l’authentification  | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read | délégué | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read.All | application | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.ReadBasic.All | délégué | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| email | délégué | Courrier électronique de l’utilisateur utilisé pour la connexion et l’identification associée des entités associées. &quot;Utilisateur affecté&quot; | Courrier électronique de l’utilisateur utilisé pour la connexion et l’identification associée des entités associées. &quot;Utilisateur affecté&quot; | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| openid | délégué | utilisé pour l’authentification via MSAL selon les besoins  | utilisé pour l’authentification via MSAL selon les besoins  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| profil | délégué | utilisé pour l’authentification via MSAL selon les besoins  | utilisé pour l’authentification via MSAL selon les besoins  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
@@ -95,7 +95,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous stockons le nom de la société, l’ID de locataire, le courrier électronique, l’ID client du bot dans les informations d’application, avec une stratégie de rétention de 30 dat.
+>Nous stockons le nom de la société, l’ID de locataire, le courrier électronique, l’ID client du bot dans les informations d’application, avec une stratégie de rétention 30 dat.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -133,7 +133,7 @@ Ces informations ont été fournies parFactson sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
@@ -152,3 +152,4 @@ Ces informations ont été fournies parFactson sur la façon dont cette applicat
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

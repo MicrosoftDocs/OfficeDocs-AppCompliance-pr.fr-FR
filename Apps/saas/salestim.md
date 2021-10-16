@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SalesTim, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 90e9a29a28b5496e4f5f63837c28d94546c76979
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 98b5d538e9fe73f6c1bf63fe5c53c780adb39548
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281853"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413125"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -52,11 +52,11 @@ Ces informations ont été fournies par SalesTim sur la façon dont cette applic
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| AppCatalog.ReadWrite.All | délégué | NON | Autorisez l’application à installer et à mettre à jour ses propres packages dans le catalogue d’applications d’entreprise. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 >| Directory.AccessAsUser.All | délégué | Nous&#8217;stocker uniquement certains ID d’utilisateurs, pas les données de profil. | Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Group.ReadWrite.All | délégué | Nous&#8217;stocker uniquement les groupes/ID d’équipes,&#8217;ne stockons pas le contenu des groupes/équipes. | Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe pour le compte de l’utilisateur. En outre, elle permet aux propriétaires de groupes de gérer leurs groupes et aux membres de groupes de mettre à jour le contenu des groupes. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Group.ReadWrite.All | délégué | Nous&#8217;stocker uniquement les groupes/ID d’équipes, nous&#8217;stocker aucun contenu de groupes/équipes. | Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe pour le compte de l’utilisateur. En outre, elle permet aux propriétaires de groupes de gérer leurs groupes et aux membres de groupes de mettre à jour le contenu des groupes. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 >| Mail.Send | délégué | Nous&#8217;stocker les métadonnées de cette action, telles que la date de notification, le destinataire (ID uniquement), l’ID de demande. | Permet à l’application d’envoyer des courriers électroniques de notification par exemple au cours d’un flux de travail d’approbation. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 >| Sites.ReadWrite.All | délégué | Nous utilisons certains services Azure pour stocker des données, notamment Redis sur Azure et Cosmos DB | Permet à l’application de gérer les lecteurs (fichiers et dossiers) associés à une équipe, au cours d’un processus de mise en service d’équipe. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 >| User.Read.All | délégué | Nous&#8217;stocker uniquement certains ID d’utilisateurs, pas les données de profil. | Permet à l’application de lire l’ensemble complet des propriétés de profil, des rapports et des responsables de n’importe quel utilisateur. Il est utilisé en particulier pendant le processus de ciblage d’audience, pour filtrer certains contenus en fonction du profil utilisateur actuel. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
@@ -84,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
 >La plupart des données sont stockées dans Azure Cosmos DB.
-L’accès à l’environnement de production est limité à deux personnes, et ces comptes d’administrateur sont appliqués à l’mf.
+L’accès à l’environnement de production est limité à deux personnes, et ces comptes d’administrateur sont appliqués par l’mf.
 Ces comptes sont dédiés et différents de nos comptes d’entreprise.
 Les données sont chiffrées au repos dans tous les services Azure que nous utilisons.
 Les déploiements vers des environnements de production sont automatisés via une branche protégée dédiée dans notre environnement GitHub, où deux personnes seulement peuvent approuver les modifications.
@@ -119,7 +119,7 @@ Ces informations ont été fournies par SalesTim sur la façon dont cette applic
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
@@ -138,3 +138,4 @@ Ces informations ont été fournies par SalesTim sur la façon dont cette applic
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

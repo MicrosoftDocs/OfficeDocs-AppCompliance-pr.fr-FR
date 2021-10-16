@@ -2,18 +2,18 @@
 title: Informations d’application pour TeamMate par ChitChattr par ChitChattr
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/11/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TeamMate par ChitChattr, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4278150de6faf97f3ce4ceb7361cc2d7bca651ee
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 27e109753908f36d122ccd355102770725d9ef0a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282147"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413866"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate par ChitChattr
 
@@ -55,9 +55,9 @@ Ces informations ont été fournies par ChitChattr sur la façon dont cette appl
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| People.Read | délégué | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom de l’utilisateur, le courrier électronique et l’ID d’objet Azure AD | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom de l’utilisateur, le courrier électronique et l’ID d’objet Azure AD | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50) |
+>| People.Read | délégué | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom, le courrier électronique et l’ID d’objet Azure AD utilisateur. | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom, le courrier électronique et l’ID d’objet Azure AD utilisateur. | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -113,15 +113,15 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par ChitChattr sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par ChitChattr sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | Exiger l’authentification multifacteur pour les utilisateurs ayant des rôles d’administration, exiger l’appartenance d’un utilisateur ou d’un groupe pour les utilisateurs avec des rôles d’administration |
+| Liste des types de stratégies pris en charge | Exiger l’authentification multifacteur pour les utilisateurs ayant des rôles d’administration, exiger l’appartenance d’un utilisateur ou d’un groupe pour les utilisateurs ayant des rôles d’administration |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
@@ -136,3 +136,4 @@ Ces informations ont été fournies par ChitChattr sur la façon dont cette appl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

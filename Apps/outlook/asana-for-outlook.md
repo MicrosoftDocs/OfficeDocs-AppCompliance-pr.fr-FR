@@ -1,19 +1,19 @@
 ---
-title: Informations d’application pour Asana pour Outlook par Asana
+title: Informations d’application pour Asana Outlook par Asana
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/02/2020
+ms.date: 10/29/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Asana pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 412b9d00d98f955dae3624d7d015970901afcba7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f335ce57adf88ac5159839811abe05c1fc5d6b03
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281397"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413978"
 ---
 # <a name="asana-for-outlook"></a>Asana pour Outlook
 
@@ -70,14 +70,14 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Notre application enregistre uniquement les informations relatives aux données Asana. La seule fois que nous journalisons des informations sur l’utilisateur Outlook, c’est lorsque l’utilisateur joint explicitement un e-mail ou télécharge une pièce jointe dans Asana, et même alors, nous ne logons pas le contenu. Les journaux à court terme existent sur des serveurs qui peuvent inclure des données utilisateur, mais ils sont éphémères et limités à des périodes inférieures à 72 heures.
+>Notre application enregistre uniquement les informations relatives aux données Asana. La seule fois que nous journalisons des informations sur l’utilisateur Outlook, c’est lorsque l’utilisateur joint explicitement un e-mail ou télécharge une pièce jointe vers Asana, et même alors, nous ne logons pas le contenu. Les journaux à court terme existent sur des serveurs qui peuvent inclure des données utilisateur, mais ils sont éphémères et limités à des périodes inférieures à 72 heures.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
 >Enterprise clients ont garanti le chiffrement au repos à l’aide d’AES-256. Les données sont stockées sur Amazon Web Services et AWS gère les clés de chiffrement à l’aide de leur système de gestion des clés. Nous avons 2FA pour tous les administrateurs. L’accès est accordé sur le principe du moindre privilège.
-Vos administrateurs d’organisation Asana ont la possibilité de configurer des comptes SAML, SCIM, Service et d’avoir une vue d’ensemble des données qui sont placés dans l’outil. Les administrateurs peuvent demander une exportation complète de l’organisation à partir de la console Admin et auditer si nécessaire.
+Vos administrateurs d’organisation Asana ont la possibilité de configurer des comptes SAML, SCIM, Service et ont une vue d’ensemble des données qui sont placés dans l’outil. Les administrateurs peuvent demander une exportation complète de l’organisation à partir de la console Admin et auditer si nécessaire.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -100,4 +100,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

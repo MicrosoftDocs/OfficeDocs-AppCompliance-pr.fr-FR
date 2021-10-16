@@ -2,18 +2,18 @@
 title: Informations d’application pour OpenAgora par Open Agora
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 05/19/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour OpenAgora, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c1538e5ad361469b5c8b3c07a085ed91d45a70dd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f0c6965c43118f6318c6c35a979d46223274b0f5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282717"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413626"
 ---
 # <a name="openagora"></a>OpenAgora
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Open Agora sur la façon dont cette appl
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | ID&#8217;'Azure Active Directory utilisateur. | Identification de l’utilisateur, pour s’assurer que les utilisateurs peuvent voir et gérer uniquement les données visibles pour eux. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
@@ -77,7 +77,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Tous les EUII et OII peuvent être récupérés via les journaux des applications, avec le même niveau de sécurité que toutes les données d’application (serveurs privés, isolation de conteneur, accès restreint).
 Les données du journal sont supprimées au bout de 2 ans.
@@ -104,4 +104,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

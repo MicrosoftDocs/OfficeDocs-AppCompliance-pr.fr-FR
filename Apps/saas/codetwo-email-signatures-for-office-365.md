@@ -1,19 +1,19 @@
 ---
-title: Informations sur l’application pour les signatures de courrier codeTwo Office 365 par CodeTwo
+title: Informations sur l’application pour les signatures de courrier CodeTwo Office 365 par CodeTwo
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les signatures électroniques CodeTwo pour Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 79db12fe65495df15e21b46e810abd8bbd017359
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 13a8b7200513d09c77416ea93be55178c9b2a762
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280024"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413155"
 ---
 # <a name="codetwo-email-signatures-for-office-365"></a>CodeTwo Email Signatures for Office 365
 
@@ -52,14 +52,14 @@ Ces informations ont été fournies par CodeTwo sur la façon dont cette applica
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs qui sont inscrits. Elle permet également à l’application de lire les informations de base de l’organisation des utilisateurs qui sont inscrits. | Aucune donnée n’est stockée. | [2a93620e-4345-4e3b-9bae-0195f08aab69](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a93620e-4345-4e3b-9bae-0195f08aab69) |
 >| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. Elle permet également à l’application de lire les informations de base sur la société des utilisateurs connectés. | Aucune donnée n’est stockée. | [7afd058a-f568-4496-96b1-28d06ab3500f](https://docs.microsoft.com/microsoft-365-app-certification/azure/7afd058a-f568-4496-96b1-28d06ab3500f) |
 >| Directory.AccessAsUser.All | délégué | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté. | Aucune donnée n’est stockée. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
 >| Directory.Read.All | les deux | Permet à l’application de lire les données de votre&#8217;annuaire, tels que les utilisateurs, les groupes et les applications. | Aucune donnée n’est stockée. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
 >| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs de votre organisation au nom de l’utilisateur connecté. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. Les informations sont utilisées pour personnaliser automatiquement les signatures électroniques des utilisateurs. | Aucune donnée n’est stockée. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. Il permet également à l’application de lire les informations de base de l’entreprise des utilisateurs inscrits. Utilisé pour inscrire l’utilisateur au service CodeTwo. | Aucune donnée n’est stockée. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
+>| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. Elle permet également à l’application de lire les informations de base de l’entreprise des utilisateurs inscrits. Utilisé pour inscrire l’utilisateur au service CodeTwo. | Aucune donnée n’est stockée. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 >| email | délégué | Permet à l’application de lire l’adresse de messagerie principale de vos utilisateurs. Utilisé pour inscrire l’utilisateur au service CodeTwo. | Aucune donnée n’est stockée. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 >| offline_access | délégué | Permet à l’application de voir et de mettre à jour les données à qui vous lui avez donné accès, même lorsque les utilisateurs n’utilisent pas l’application. Cela ne donne pas d’autorisations supplémentaires à l’application. | Aucune donnée n’est stockée. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 >| openid | délégué | Permet aux utilisateurs de se connecter à l’application avec leurs comptes professionnels ou scolaires et permet à l’application d’afficher les informations de profil utilisateur de base. Utilisé pour inscrire l’utilisateur au service CodeTwo. | Aucune donnée n’est stockée. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
@@ -84,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les clients peuvent accéder aux données et paramètres de service de leur organisation de contact et les rectifier via &amp; le Panneau d’administration CodeTwo. Ils peuvent également contacter l’équipe de sécurité des informations CodeTwo via un formulaire dédié ( pour exercer l’un des droits décrits dans les Conditions d’utilisation de CodeTwo et confidentialité ( c’est-à-dire l’accès aux données, la rectification des données, l’effacement et la restriction du traitement, l’assurance du consentement et le droit à l’objet du https://www.codetwo.com/form/security-officer/) https://www.codetwo.com/regulations/privacy) traitement.
+>Les clients peuvent accéder aux données et paramètres de service de leur organisation de contact et les rectifier via le &amp; Panneau d’administration CodeTwo. Ils peuvent également contacter l’équipe de sécurité des informations CodeTwo via un formulaire dédié ( pour exercer l’un des droits décrits dans les Conditions d’utilisation de CodeTwo et confidentialité ( c’est-à-dire l’accès aux données, la rectification des données, l’effacement et la restriction du traitement, l’assurance du consentement et le droit à l’objet du https://www.codetwo.com/form/security-officer/) https://www.codetwo.com/regulations/privacy) traitement.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -116,7 +116,7 @@ Ces informations ont été fournies par CodeTwo sur la façon dont cette applica
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -134,3 +134,4 @@ Ces informations ont été fournies par CodeTwo sur la façon dont cette applica
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

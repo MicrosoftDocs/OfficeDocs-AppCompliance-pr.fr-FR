@@ -2,18 +2,18 @@
 title: Informations sur l’application pour LeSouyer parOooo
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Leoo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 2da998bb93966de9e3f800989c579d4fe75a2831
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4e12a15bcbf86c36829c45d6d7b9c528a798848f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283558"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412904"
 ---
 # <a name="kazoo"></a>Kazoo
 
@@ -63,7 +63,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Le GrS (GrS) vous permet d’accomplir nos bénéfices. Ils doivent savoir ce que l’utilisateur souhaite en tant que récompense et où l’expédier. | Nom et adresse d’expédition. | Le service permet aux employés de sélectionner une récompense dans le catalogue en ligne. Notre expédieur doit savoir où expédier les éléments. |
+>| Le GRS (GrS), vous réalisez l’enrichissement de nos bénéfices. Ils doivent savoir ce que l’utilisateur souhaite en tant que récompense et où l’expédier. | Nom et adresse d’expédition. | Le service permet aux employés de sélectionner une récompense dans le catalogue en ligne. Notre expédieur doit savoir où expédier les éléments. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -94,17 +94,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -114,8 +103,9 @@ Ces informations ont été fournies par Contrôleoo sur la façon dont cette app
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

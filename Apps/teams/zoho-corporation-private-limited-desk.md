@@ -1,19 +1,19 @@
 ---
-title: Informations d’application pour Zoho Desk par Zoho Corporation Private Limited
+title: Informations sur l’application Zoho Desk par Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Zoho Desk, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8e76f0cce92e7aa5bac28df505613ec461a3fc06
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2882f70ce6c44de4b797ae15bee2bec446212a82
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282904"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414339"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Zoho Corporation Private Limited sur la 
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.Read | délégué |  | Lire les fichiers utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Files.Read.All | délégué |  | Lisez tous les fichiers accessibles par l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -89,7 +89,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->1) Il existe une option dans l’interface utilisateur pour supprimer les entités, les administrateurs et les agents à l’intérieur de Zoho desk ayant des options de suppression peuvent effectuer cette suppression. 2) Nous avons également des options d’exportation à l’aide des lesquelles l’administrateur peut exporter et atteindre à ses fins.  3) Nous tenez l’audit au niveau du back-end, à la demande du client, ces informations peuvent être fournies.
+>1) Il existe une option dans l’interface utilisateur pour supprimer les entités, les administrateurs et les agents à l’intérieur de Zoho desk ayant des options de suppression peuvent effectuer cette suppression. 2) Nous avons également des options d’exportation à l’aide des lesquelles l’administrateur peut exporter et atteindre à sa fin.  3) Nous tenez l’audit au niveau du back-end, à la demande du client, ces informations peuvent être fournies.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -107,4 +107,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Informations d’application pour Viima par Viima Solutions Oy
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/17/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Viima, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7c9db86a4ffce9107b7345f178fe850a66e26560
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5b9233ff1a9a5cb8613ac7a9c6c2e1e00e71e860
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282034"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414881"
 ---
 # <a name="viima"></a>Viima
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Viima Solutions Oy sur la façon dont ce
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué |  Prénom et nom, UPN/adresse e-mail, emplacement, paramètres régionaux, service, emplacement du bureau. Ceux-ci sont utilisés pour connecter l’utilisateur et fournir des informations de profil de base pour lui dans l’application. | permet à l’utilisateur de se connecter et donne à l’application l’accès à son UPN et aux informations de profil de base pour activer la connexion silencieuse | [b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b) |
 
@@ -83,7 +83,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données sont stockées dans AWS (Irlande). L’accès aux données est limité à la maintenance autorisée et au personnel de support technique qui ont reçu la formation appropriée et est protégé par un certain nombre de mesures de sécurité, telles que 2FA, une plage d’adresses IP protégées (accès uniquement à partir du réseau d’entreprise), etc. Les mesures sont compatibles avec ISO27001 et auditées par un tiers.
+>Les données sont stockées dans AWS (Irlande). L’accès aux données est limité à la maintenance autorisée et au personnel de support technique qui ont reçu la formation appropriée et est protégé par un certain nombre de mesures de sécurité, telles que 2FA, une plage d’adresses IP protégées (accès uniquement à partir du réseau d’entreprise), etc. Les mesures sont compatibles AVEC ISO27001 et auditées par un tiers.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -115,7 +115,7 @@ Ces informations ont été fournies par Viima Solutions Oy sur la façon dont ce
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -133,3 +133,4 @@ Ces informations ont été fournies par Viima Solutions Oy sur la façon dont ce
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

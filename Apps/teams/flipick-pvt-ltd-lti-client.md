@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour le client LTI par Flipick Pvt Ltd
+title: Informations d’application pour le client LTI par Flipick Pvt Ltd
 ms.author: elmalova
 author: elenamalova
 ms.date: 10/05/2021
@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le client LTI, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d462f0225e4b5fb012d2e34156ae13fe48c0223c
-ms.sourcegitcommit: 085c227ffcf8f88e6e55d3c40752a3df25642592
+ms.openlocfilehash: 9957757752e6ac34310e11f3a6801b68639b94aa
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60255683"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414620"
 ---
-# <a name="lti-client"></a>LTI Client
+# <a name="lti-client"></a>Client LTI
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Informations fournies par Flipick Pvt Ltd à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | LTI Client |
+| Nom de l'application | Client LTI |
 | ID | WA200003313 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Flipick Pvt Ltd |
@@ -92,17 +92,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,3 +106,4 @@ Ces informations ont été fournies par Flipick Pvt Ltd sur la façon dont cette
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

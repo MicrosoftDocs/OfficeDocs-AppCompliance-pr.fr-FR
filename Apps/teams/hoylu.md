@@ -2,18 +2,18 @@
 title: Informations d’application pour Hoylu par Hoylu
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/20/2020
+ms.date: 06/09/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Hoylu, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b48adaf3c3816bea363b0fd8e6581f061a5eaed1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a091c480731e69a51ec002f24f6d62924a814b7b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282795"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412333"
 ---
 # <a name="hoylu"></a>Hoylu
 
@@ -74,13 +74,13 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Oui. La journalisation est effectuée pour la sécurité des applications, et les euii et OII sont collectés sous la forme du prénom et du nom, du courrier électronique, de l’adresse IP, de l’ID d’organisation. Le fournisseur de journalisation de Hoylu est Datadog. Datadog a certifié sa conformité avec l’infrastructure de bouclier de protection des données UE-U.S. et est un registre STAR pour la Cloud Security Alliance (CSA). Datadog poursuit également des validations tierces indépendantes clés de sa sécurité, de ses processus et de ses services, y compris la réalisation de l’audit SOC 2 Type II. Un utilisateur peut demander la suppression de ces informations par le biais d’un processus conforme au R GDPR à tout moment.
+>Oui. La journalisation est effectuée pour la sécurité des applications, et les euii et OII sont collectés sous la forme du prénom et du nom, du courrier électronique, de l’adresse IP, de l’ID d’organisation. Le fournisseur de journalisation de Hoylu est Datadog. Datadog a certifié sa conformité avec l’infrastructure de bouclier de protection des données UE-États-Unis et est un registre STAR pour la Cloud Security Alliance (CSA). Datadog poursuit également des validations tierces indépendantes clés de sa sécurité, de ses processus et de ses services, y compris la réalisation de l’audit SOC 2 Type II. Un utilisateur peut demander la suppression de ces informations par le biais d’un processus conforme au R GDPR à tout moment.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données d’application sont stockées dans Microsoft Azure Cloud Services, et tous les protocoles de chiffrement utilisés sont conformes à la norme FIPS 140-2. ces données de production sont uniquement accessibles par les administrateurs d’infrastructure (PMA). L’administration des comptes pour l’organisation s’effectue via Azure AD avec 2FA.
+>Les données d’application sont stockées dans Microsoft Azure Cloud Services, et tous les protocoles de chiffrement utilisés sont conformes à la norme FIPS 140-2. ces données de production sont uniquement accessibles par les administrateurs d’infrastructure (PMA). L’administration des comptes pour l’organisation s’effectue Azure AD avec 2FA.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -103,4 +103,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

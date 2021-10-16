@@ -1,19 +1,19 @@
 ---
-title: Informations sur l’application pour les outils d’éclairage de flash à l’aide des outils De flash
+title: Informations sur l’application pour les outils d’éclairage de flash à l’aide des outils d’éclairage
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/12/2021
+ms.date: 09/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les outils d’éclairage - Flash - Vitesse, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7a9da7f85a7667e4d40911e506123ab8fd86ccdd
-ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
+ms.openlocfilehash: 9541cab6ba5fcd7da59cfe43c89e2e3bf3fceab9
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60079181"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412043"
 ---
 # <a name="lightning-tools-lightning-conductor"></a>Flash d’outils - Flash
 
@@ -53,16 +53,16 @@ Ces informations ont été fournies par les outils De flash sur la façon dont c
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | application | Pour interroger et signaler des informations de calendrier | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Contacts.Read | application | Aucune donnée n’est collectée ou stockée. Les données sont utilisées pour afficher le nom d’affichage des contacts des utilisateurs actuels | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Directory.Read.All | application | Afficher les utilisateurs dans l’éclairage | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
+>| Directory.Read.All | application | Afficher les utilisateurs dans la lumière | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Files.Read.All | application | Afficher OneDrive fichiers de l’éclairage | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Mail.Read | application | Si la requête de l’assistant De flash affiche les messages de la boîte aux lettres des utilisateurs actuels | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| People.Read.All | application | Pour afficher l’affichage des personnes dans l’éclairage en cas d’interrogation d’utilisateurs en tant que membres d’un site. | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
+>| Mail.Read | application | Si la requête de l’assistant De flash affiche des messages à partir de la boîte aux lettres des utilisateurs actuels | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
+>| People.Read.All | application | Pour afficher l’affichage des personnes dans l’Assistant Lumière si vous interrogez des utilisateurs en tant que membres d’un site. | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Presence.Read.All | application | Pour afficher la présence des utilisateurs dans la carte de personnes | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Sites.Read.All | application | Pour éumer les sites dans la vue d’arborescence de l’arborescence de l’Arbre de l’Arbre de la lumière | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
+>| Sites.Read.All | application | Pour éumer les sites dans la vue d’arborescence de l’arborescence De l’Arbre de la lumière | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -95,28 +95,18 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par les outils De flash sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par les outils De flash sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

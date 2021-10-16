@@ -2,18 +2,18 @@
 title: Informations d’application pour Sheetgo par SHEETGO EUROPE SL
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Sheetgo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 77da98d015480716b848a47f4d6d04d35035f5fb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 491049af0b675c477fce225476afb1e05919ae2a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280708"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414810"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -62,7 +62,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| MongoDB : enregistrer les données système et utilisateur afin de fonctionner, Google BigQuery : enregistrer l’utilisation du système d’enregistrement, Google Firestore : un système qui maintient et orchestre l’état de nos microservices, Stripe : système de paiement |  | Ces applications n’utilisent pas d’API Microsoft supplémentaires |
+>| MongoDB : enregistrer le système et les données utilisateur pour fonctionner, Google BigQuery : enregistrer l’utilisation du système d’enregistrement, Google Firestore : un système qui maintient et orchestre l’état de nos microservices, Stripe : système de paiement |  | Ces applications n’utilisent pas d’API Microsoft supplémentaires |
 
 
 
@@ -76,7 +76,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->MongoDB : enregistrer les données système et utilisateur afin de fonctionner Google BigQuery : enregistrer le système enregistre l’utilisation google Firestore : un système qui maintient et orchestre l’état de nos microservices. Les seules données critiques transitant par ce service sont les informations d’identification de l’utilisateur, qui sont chiffrées à l’aide d’AES256 Stripe : Système de paiement.
+>MongoDB : enregistrer les données système et utilisateur afin de fonctionner Google BigQuery : le système d’enregistrement enregistre l’utilisation google Firestore : un système qui maintient et orchestre l’état de nos microservices. Les seules données critiques transitant par ce service sont les informations d’identification de l’utilisateur, qui sont chiffrées à l’aide d’AES256 Stripe : Système de paiement.
  
 Toutes les données en transit utilisent HTTPS pour les connexions sécurisées et toutes les données sensibles sont chiffrées à l’aide d’AES256
 
@@ -101,4 +101,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

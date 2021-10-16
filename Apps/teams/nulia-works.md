@@ -2,18 +2,18 @@
 title: Informations d’application pour Nulia Works par Nulia
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/11/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Nulia Works, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4d176b18a8089d9107f30b7581bcca69daf0871e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2d59f585e7d07ecdab694853d92d4442bfb0d069
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282945"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413457"
 ---
 # <a name="nulia-works"></a>Nulia Works
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Nulia sur la façon dont cette applicati
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | application | Nous utilisons les données collectées pour scorer l’avancement des utilisateurs sur les compétences et les résultats. Nous collectons le nombre d’utilisations sur plusieurs charges de travail O365. | Nous stockons toutes les données que nous collectons dans le stockage d’objets blob. Nous utilisons ces données pour scorer les utilisateurs sur l’avancement des compétences et des résultats. Par exemple, nous compterons le nombre d’événements de calendrier qu’un utilisateur possède. Cette valeur a une incidence sur l’avancement de leurs compétences. | [Nous créons un ID d’application pour chaque client. Par exemple, notre client Nulia utilise l’ID d’application : 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Contacts.Read | application | Nous utilisons les données collectées pour scorer l’avancement des utilisateurs sur les compétences et les résultats. Nous collectons le nombre d’utilisations sur plusieurs charges de travail O365. | Nous stockons toutes les données que nous collectons dans le stockage d’objets blob. Nous utilisons ces données pour scorer les utilisateurs sur l’avancement des compétences et des résultats. Par exemple, nous compterons le nombre de contacts créés par un utilisateur. Cette valeur a une incidence sur l’avancement de leurs compétences. | [Nous créons un ID d’application pour chaque client. Par exemple, notre client Nulia utilise l’ID d’application : 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
@@ -67,7 +67,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Reports.Read.All | application | Nous utilisons les données collectées pour scorer l’avancement des utilisateurs sur les compétences et les résultats. Nous collectons le nombre d’utilisations sur plusieurs charges de travail O365. | Nous stockons toutes les données que nous collectons dans le stockage d’objets blob. Nous utilisons ces données pour scorer les utilisateurs sur l’avancement des compétences et des résultats. Par exemple, nous récupérons à partir de l’utilisateur le nombre de messages Teams envoyés par jour. Cette valeur a une incidence sur l’avancement de leurs compétences. | [Nous créons un ID d’application pour chaque client. Par exemple, notre client Nulia utilise l’ID d’application : 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Sites.Read.All | application | Nous utilisons les données collectées pour scorer l’avancement des utilisateurs sur les compétences et les résultats. Nous collectons le nombre d’utilisations sur plusieurs charges de travail O365. | Nous stockons toutes les données que nous collectons dans le stockage d’objets blob. Nous utilisons ces données pour scorer les utilisateurs sur l’avancement des compétences et des résultats. Par exemple, nous compterons le nombre de collections de sites créées par l’utilisateur. Cette valeur a une incidence sur l’avancement de leurs compétences. | [Nous créons un ID d’application pour chaque client. Par exemple, notre client Nulia utilise l’ID d’application : 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| User.Read | application | Nous affichons le nom d’affichage, le service et l’image de profil de l’utilisateur. | Nous enregistreons le nom d’affichage et le service dans notre base de données afin de ne pas avoir à atteindre le Graph chaque fois. Nous ne stockons pas l’image de profil. | [Nous créons un ID d’application pour chaque client. Par exemple, notre client Nulia utilise l’ID d’application : 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
->| Organization.Read.All | application | Nous collectons le nom du client et l’URL Yammer de base. Nous l’utilisons pour lancer Yammer lorsque l’utilisateur clique sur un bouton Essayer dans notre application en relation Yammer &quot; &quot; activités. | Nous stockons toutes les données que nous collectons dans le stockage d’objets blob. Par exemple, nous l’utilisons pour lancer Yammer lorsque l’utilisateur clique sur un bouton Essayer dans notre application en relation avec &quot; &quot; Yammer activités. | [Nous utilisons les données collectées pour scorer l’avancement des utilisateurs sur les compétences et les résultats. Nous collectons le nombre d’utilisations sur plusieurs charges de travail O365.](https://docs.microsoft.com/microsoft-365-app-certification/azure/We use the data collected to score user progress on skills and Outcomes. We collect usage counts across multiple O365 workloads.) |
+>| Organization.Read.All | application | Nous collectons le nom du client et l’URL Yammer de base. Nous l’utilisons pour lancer Yammer lorsque l’utilisateur clique sur un bouton Essayer dans notre application en relation Yammer &quot; &quot; activités. | Nous stockons toutes les données que nous collectons dans le stockage d’objets blob. Par exemple, nous l’utilisons pour lancer Yammer lorsque l’utilisateur clique sur un bouton Essayer dans notre application en relation Yammer &quot; &quot; activités. | [Nous utilisons les données collectées pour scorer l’avancement des utilisateurs sur les compétences et les résultats. Nous collectons le nombre d’utilisations sur plusieurs charges de travail O365.](https://docs.microsoft.com/microsoft-365-app-certification/azure/We use the data collected to score user progress on skills and Outcomes. We collect usage counts across multiple O365 workloads.) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -121,11 +121,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Nulia sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par Nulia sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -143,3 +143,4 @@ Ces informations ont été fournies par Nulia sur la façon dont cette applicati
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Informations sur l’application pour le Centre de contacts par Landis Technologies LLC
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/20/2020
+ms.date: 03/13/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le Centre de contacts, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 57fd0d98d6c7139c6356b4c23a6ac8a21c48e6b6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3a252658a02bb5e9d834bf18fe4696cbdda33e4b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281812"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415071"
 ---
 # <a name="contact-center"></a>Centre de contacts
 
@@ -54,7 +54,7 @@ Ces informations ont été fournies par Landis Technologies LLC sur la façon do
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calls.AccessMedia.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
 >| Calls.Initiate.All | application | Rapport des détails des appels, enregistrement des &amp; sentiments des appels | Autorise la file d’appels en file d’appels, rapports d’ivrs &amp; | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
@@ -101,7 +101,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->A- Stored: in Azure SQL B- Encrypted? Oui C- Qui pouvez accéder ? Administrateurs de la DB - Accès autorisé ? Le responsable de la sécurité approuve les comptes d’administrateur, 2FA pour les administrateurs, plage protégée IP.
+>A- Stored: in Azure SQL B- Encrypted? Oui C- Qui pouvez-vous accéder ? Administrateurs de la DB - Accès autorisé ? Le responsable de la sécurité approuve les comptes d’administrateur, 2FA pour les administrateurs, plage d’adresses IP protégées.
 
 
 
@@ -126,4 +126,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

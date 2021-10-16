@@ -2,18 +2,18 @@
 title: Informations sur l’application pour Prezi Video by Prezi
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Prezi Video, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8e7e9c70ee848fd284e3297a915ec9847d3ef1ee
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a6e3cf632919160819471385eff35cdf82f005e3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280665"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414961"
 ---
 # <a name="prezi-video"></a>Vidéo Prezi
 
@@ -63,7 +63,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Pour plus d’informations, visitez https://prezi.com/privacy-policy/ |  | Les API/SDK suivantes sont utilisées pour l’intégration avec la 1. Botbuilder-SDK (python) : à l’aide de ce SDK, nous stockons l’ID d’objet Azure Active Directory (appelé aad_object_id). Nous avons besoin de ces informations pour ma Microsoft Teams utilisateur à tout contenu lié à Prezi Video créé sur prezi.com.  2. Botbuilder-js (javascript) : aucune Microsoft Teams données spécifiques n’est collectée à l’aide de ce SDK. |
+>| Pour plus d’informations, visitez https://prezi.com/privacy-policy/ |  | Les API/SDK suivantes sont utilisées pour l’intégration avec le 1. Botbuilder-SDK (python) : à l’aide de ce SDK, nous stockons l’ID d’objet Azure Active Directory (appelé aad_object_id). Nous avons besoin de ces informations pour ma Microsoft Teams utilisateur à tout contenu lié à Prezi Video créé sur prezi.com.  2. Botbuilder-js (javascript) : aucune Microsoft Teams données spécifiques n’est collectée à l’aide de ce SDK. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -76,7 +76,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun EUII ou OII n’apparaît dans les journaux de l’application.
 
@@ -118,4 +118,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

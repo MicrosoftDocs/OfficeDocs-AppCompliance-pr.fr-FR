@@ -2,18 +2,18 @@
 title: Informations d’application pour ChurnZero par ChurnZero
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/10/2021
+ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ChurnZero, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 18ebf804bfc99fe0d31043aee77fa856f42dda7a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2c776cf025303df55749c8a3898b2e90797d8eb8
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283323"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413065"
 ---
 # <a name="churnzero"></a>ChurnZero
 
@@ -54,7 +54,7 @@ Ces informations ont été fournies par ChurnZero sur la façon dont cette appli
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | ID d’objet Azure de l’utilisateur de délégation à mettre en corrélation avec un utilisateur ChurnZero, afin d’identifier et d’autoriser cet utilisateur au cours d’une prochaine session de bot. | ID d’objet Azure de l’utilisateur de délégation à mettre en corrélation avec un utilisateur ChurnZero, afin d’identifier et d’autoriser cet utilisateur au cours d’une prochaine session de bot. | [c2e66b59-725d-4c56-8a0e-ee2587031d9f](https://docs.microsoft.com/microsoft-365-app-certification/azure/c2e66b59-725d-4c56-8a0e-ee2587031d9f) |
 
@@ -71,7 +71,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Permet à notre client d’identifier ses contacts par leur nom et de leur envoyer des courriers électroniques dans le cadre d’opérations commerciales normales. ChurnZero est un processeur de ces données, et non un collecteur. | Prénom, nom, adresse e-mail des contacts fournis par notre client. | Permet à notre client d’identifier ses contacts par leur nom et de leur envoyer des courriers électroniques dans le cadre d’opérations commerciales normales. ChurnZero est un processeur de ces données, et non un collecteur. |
+>| Permet à notre client d’identifier ses contacts par son nom et de leur envoyer un courrier électronique dans le cadre d’opérations normales. ChurnZero est un processeur de ces données, et non un collecteur. | Prénom, nom, adresse e-mail des contacts fournis par notre client. | Permet à notre client d’identifier ses contacts par son nom et de leur envoyer un courrier électronique dans le cadre d’opérations normales. ChurnZero est un processeur de ces données, et non un collecteur. |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -84,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->N/A
+>S/O
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -112,12 +112,13 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par ChurnZero sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par ChurnZero sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

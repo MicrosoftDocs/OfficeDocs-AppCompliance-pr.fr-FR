@@ -2,18 +2,18 @@
 title: Informations d’application pour qualification par qualifié
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/05/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Qualified, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d47e6f2919fb97eb1c9a162f2ade8c1a1bf485a8
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4ec36a9c4dbe5a815011b516394171594151ba2c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281661"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412814"
 ---
 # <a name="qualified"></a>Qualifié
 
@@ -55,10 +55,10 @@ Ces informations ont été fournies par Qualified sur la façon dont cette appli
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | application | Nous permet de sélectionner le canal à avertir | adresse e-mail, ID de client, jeton d’actualisation oauth | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
->| Team.ReadBasic.All | application | Nous permet de trouver tous les canaux de toutes les équipes, pour nous permettre de sélectionner des canaux à avertir | adresse e-mail, ID de client, jeton d’actualisation oauth | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
+>| Team.ReadBasic.All | application | Nous permet de trouver tous les canaux de toutes les équipes, pour nous permettre de sélectionner des canaux à notifier | adresse e-mail, ID de client, jeton d’actualisation oauth | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
@@ -66,7 +66,7 @@ Les applications et les compléments créés sur Microsoft 365 peuvent utiliser 
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Bot Framework API | Oui | ID de locataire, ID d’équipe, ID de canal | ID client : pour déterminer les service_url appels d’api bot framework ; ID d’équipe + ID de canal : pour déterminer les équipes/canaux auquel notre bot a été ajouté | ID de locataire, ID d’équipe, ID de canal | ID client : pour déterminer les service_url appels d’api bot framework ; ID d’équipe + ID de canal : pour déterminer les équipes/canaux auquel notre bot a été ajouté |
+>| Bot Framework API | Oui | ID client, ID d’équipe, ID de canal | ID client : pour déterminer les service_url appels d’api bot framework ; ID d’équipe + ID de canal : pour déterminer les équipes/canaux auquel notre bot a été ajouté | ID client, ID d’équipe, ID de canal | ID client : pour déterminer les service_url appels d’api bot framework ; ID d’équipe + ID de canal : pour déterminer les équipes/canaux auquel notre bot a été ajouté |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
@@ -125,11 +125,11 @@ Ces informations ont été fournies par Qualified sur la façon dont cette appli
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -142,3 +142,4 @@ Ces informations ont été fournies par Qualified sur la façon dont cette appli
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

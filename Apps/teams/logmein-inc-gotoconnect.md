@@ -2,18 +2,18 @@
 title: Informations d’application pour GoToConnect par LogMeIn Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/19/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour GoToConnect, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2e3b563c4799049e9447ba7c0dbe56aa84e24a44
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4525d41f301f1d9c0b131a7af6b605f0c93c1798
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282477"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412243"
 ---
 # <a name="gotoconnect"></a>GoToConnect
 
@@ -113,8 +113,9 @@ Ces informations ont été fournies par LogMeIn Inc. sur la façon dont cette ap
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

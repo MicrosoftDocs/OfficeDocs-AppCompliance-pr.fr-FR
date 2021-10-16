@@ -1,43 +1,45 @@
 ---
-title: Informations d’application pour TerMef par Mondeca
+title: Informations sur l’application pour GuideSpark Communicate Cloud par GuideSpark
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/09/2021
+ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour TerMef, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour GuideSpark Communicate Cloud, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6444814d2eddd24d070b52dcb5ce330dfd3fbbcd
+ms.openlocfilehash: becc848dde742ac9f9b66d634f687219e3600353
 ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414289"
+ms.locfileid: "60412257"
 ---
-# <a name="termef"></a>TerMef
+# <a name="guidespark-communicate-cloud"></a>GuideSpark Communicate Cloud
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 3, 2021</p>
+<p>Last updated by the developer on: October 13, 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200003128" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/34b870ca-2417-4660-b835-ebb18ee7ccf9" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003348" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Mondeca à Microsoft :
+Informations fournies par GuideSpark à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | TerMef |
-| ID | WA200003128 |
-| Office 365 clients pris en charge | Word 2016 ou une ultérieure sur Mac, Word sur le web, Word 2013 ou une Windows |
-| Nom de la société partenaire | Mondeca |
-| URL du site web partenaire | [https://mondeca.com](https://mondeca.com) |
-| URL de la politique de confidentialité | [https://mondeca.com/wp-content/uploads/2020/09/Privacy-and-...](https://mondeca.com/wp-content/uploads/2020/09/Privacy-and-data-protection-policy.pdf) |
-| URL des conditions d’utilisation | [https://download.microsoft.com/download/F/D/8/FD8BA8F2-72AF...](https://download.microsoft.com/download/F/D/8/FD8BA8F2-72AF-45D9-B39E-230B26CBD39D/StandardContractMarch2019.pdf) |
+| Nom de l'application | GuideSpark Communicate Cloud |
+| ID | WA200003348 |
+| Office 365 clients pris en charge | Microsoft Teams |
+| Nom de la société partenaire | GuideSpark |
+| URL du site web partenaire | [https://guidespark.com](https://guidespark.com) |
+| URL de la Teams d’informations sur l’application | [https://www.guidespark.com/change-communications-software/](https://www.guidespark.com/change-communications-software/) |
+| URL de la politique de confidentialité | [https://www.guidespark.com/privacy-policy/](https://www.guidespark.com/privacy-policy/) |
+| URL des conditions d’utilisation | [https://www.guidespark.com/terms/](https://www.guidespark.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,7 +49,7 @@ Informations fournies par Mondeca à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Mondeca sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par GuideSpark sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -62,6 +64,11 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >Les éléments services Microsoft ne sont pas utilisés.
 
+#### <a name="data-access-via-bots"></a>Accès aux données via des bots
+
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+
+>Aucun EUII n’est accessible.
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -74,7 +81,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->L’application ne stocke pas de donn&#233;es relatives &#224; l’usage par ses utilisateurs, hormis les journaux du serveur HTTP contenant des adresses IP horodat&#233;es. Il est possible de r&#233;cup&#233;rer le listing des acc&#232;s associ&#233; &#224; une adresse IP, et d’en demander la suppresion.
+>GuideSpark n’accède pas aux données du partenaire.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -91,7 +98,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Mondeca sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par GuideSpark sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Go1, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 265d4cf5cef2f7fb685159ebf2cb6d516d32cb0f
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: e632c6611df3bc0ad86381a75683520f0f3a6333
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60287356"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413796"
 ---
 # <a name="go1"></a>Go1
 
@@ -67,7 +67,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Le prénom et le nom des utilisateurs peuvent être partagés avec les fournisseurs de contenu de GO1 lors de la lecture de contenu de cours. Ce partage est uniquement partagé lorsque le fournisseur de contenu requiert une expérience d’apprentissage agréable. | Prénom, Nom, Adresse e-mail | N/A |
+>| Le prénom et le nom des utilisateurs peuvent être partagés avec les fournisseurs de contenu de GO1 lors de la lecture de contenu de cours. Ce partage est uniquement partagé lorsque le fournisseur de contenu requiert cette expérience pour proposer une expérience d’apprentissage agréable. | Prénom, Nom, Adresse e-mail | S/O |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -78,9 +78,9 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->GO1 minimise le stockage de toute information d’identification personnelle ou organisationnelle. Les journaux d’application détaillés qui stockent ces données sont supprimés dans les 90 jours après la création.
+>GO1 minimise le stockage des informations d’identification personnelles ou organisationnelles. Les journaux d’application détaillés qui stockent ces données sont supprimés dans les 90 jours après la création.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -114,7 +114,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Go1 sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par Go1 sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -135,3 +135,4 @@ Ces informations ont été fournies par Go1 sur la façon dont cette application
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Informations d’application pour les références d’employés par Recruitday Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/03/2021
+ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les références d’employés, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 2aa10a6034260c3774a134eeace4e677f29c83ba
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d83797a31c7ec68009ebf17773c3b8d2fe587fce
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282082"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413462"
 ---
 # <a name="employee-referrals"></a>Références d'employés
 
@@ -55,9 +55,9 @@ Ces informations ont été fournies par Recruitday Inc. sur la façon dont cette
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | les deux | Le prénom et le nom (de l’utilisateur de l’application, c’est-à-dire l’employé) seront principalement utilisés par l’utilisateur RH pour identifier facilement l’employé qui a référenté un candidat pour le suivi d’application de référence et le paiement de la rémunération. Il sera également utilisé pour traiter correctement l’employé lorsque des notifications par courrier électronique générées par le système sont envoyées. | Le prénom et le nom (de l’utilisateur de l’application, c’est-à-dire l’employé) seront principalement utilisés par l’utilisateur RH pour identifier facilement l’employé qui a référenté un candidat pour le suivi d’application de référence et le paiement de la rémunération. Il sera également utilisé pour traiter correctement l’employé lorsque des notifications par courrier électronique générées par le système sont envoyées. | [7414b436-87d1-4904-9d52-ff47885b89f1](https://docs.microsoft.com/microsoft-365-app-certification/azure/7414b436-87d1-4904-9d52-ff47885b89f1) |
+>| User.Read | les deux | Le prénom et le nom (de l’utilisateur de l’application, c’est-à-dire l’employé) seront principalement utilisés par l’utilisateur RH pour identifier facilement l’employé qui a désigné un candidat pour le suivi d’application de référence et le paiement de la rémunération. Il sera également utilisé pour traiter correctement l’employé lorsque des notifications par courrier électronique générées par le système sont envoyées. | Le prénom et le nom (de l’utilisateur de l’application, c’est-à-dire l’employé) seront principalement utilisés par l’utilisateur RH pour identifier facilement l’employé qui a désigné un candidat pour le suivi d’application de référence et le paiement de la rémunération. Il sera également utilisé pour traiter correctement l’employé lorsque des notifications par courrier électronique générées par le système sont envoyées. | [7414b436-87d1-4904-9d52-ff47885b89f1](https://docs.microsoft.com/microsoft-365-app-certification/azure/7414b436-87d1-4904-9d52-ff47885b89f1) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -85,7 +85,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->L’administrateur peut archiver les données de l’utilisateur via le portail. D’autres fonctions telles que la suppression, la mise à jour, etc. sont réalisées par demande à l’utilisateur.
+>L’administrateur peut archiver les données de l’utilisateur via le portail. D’autres fonctions telles que la suppression, la mise à jour, etc. sont réalisées via une demande à l’utilisateur.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -97,17 +97,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,7 +106,7 @@ Ces informations ont été fournies par Recruitday Inc. sur la façon dont cette
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -133,3 +122,4 @@ Ces informations ont été fournies par Recruitday Inc. sur la façon dont cette
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

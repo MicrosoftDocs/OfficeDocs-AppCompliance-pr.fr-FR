@@ -1,19 +1,19 @@
 ---
-title: Informations sur l’application pour Workbench Intelligence par Temporall
+title: Informations sur l’application pour Workbench Intelligence par Temporel
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/22/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Workbench Intelligence, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: bf2a249e9eb0cf8e572158d9b393b49fc81153ff
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 7adf907a083a4fcf5c7c57fe0cf048ba771d0d6e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785473"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414430"
 ---
 # <a name="workbench-intelligence"></a>Workbench Intelligence
 
@@ -28,7 +28,7 @@ ms.locfileid: "59785473"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Temporall à Microsoft :
+Informations fournies par Le Temps à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -49,21 +49,21 @@ Informations fournies par Temporall à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Temporall sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Le Temps sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| AppCatalog.Read.All | délégué | Obtient la liste des applications Teams installées pour pouvoir obtenir l’ID de l’application locale pour l’ID externe connu. | ID de l’application locale. Nécessaire pour pouvoir identifier l’application lorsqu’elle est installée sur un autre client. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 >| Channel.ReadBasic.All | application | Nom de l’ID &amp; de canal. Justification : autoriser la jointation/la sortie du canal pour synchroniser l’activité des messages.  | Objet de données brutes renvoyé par l’obtention du canal. Justification : Workbench temporel permet aux utilisateurs de filtrer et de catégoriser les données en fonction des canaux. Ces données brutes sont enregistrées pour avoir une référence à l’objet d’origine | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| ChannelMessage.Read.All | application | Type &amp; d’activité de message, ainsi que la cible de &amp; l’expéditeur. Données reçues à partir de ces itinéraires : /teams/${teamId}/channels/${channelId}/messages /teams/${teamId}/channels/${channelId}/messages/${messageId}. Justification : pour pouvoir calculer un rapport de mesures sur &amp; l’activité des messages. Cela constitue le cœur de notre module d’analyse réseau d’organisation pour pouvoir dessiner un diagramme d’activité entre les équipes des &amp; utilisateurs. | Nous détectons la quantité de nouveaux messages/réponses/réactions/mentions stockant ces mesures avec l’objet &amp; de message brut renvoyé. Les données sont requises car elles font partie de nos fonctionnalités principales. L’exécution de l’analyse sur les données de message nécessite qu’elles soient enregistrées dans la base de données pour des performances optimales , ce qui réduit également la nécessité d’appels de suivi pour les mêmes données. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
+>| ChannelMessage.Read.All | application | Type &amp; d’activité de message, ainsi que la cible de &amp; l’expéditeur. Données reçues à partir de ces itinéraires : /teams/${teamId}/channels/${channelId}/messages /teams/${teamId}/channels/${channelId}/messages/${messageId}. Justification : pour pouvoir calculer un rapport de mesures sur &amp; l’activité des messages. Cela constitue le cœur de notre module d’analyse réseau d’organisation pour pouvoir dessiner un diagramme d’activité entre les équipes des &amp; utilisateurs. | Nous détectons la quantité de nouveaux messages/réponses/réactions/mentions stockant ces mesures avec l’objet &amp; de message brut renvoyé. Les données sont requises car elles font partie de nos fonctionnalités principales. L’exécution d’une analyse sur les données de message nécessite qu’elle soit enregistrée dans la base de données pour des performances optimales , ce qui réduit également la nécessité d’appels de suivi pour les mêmes données. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 >| Directory.Read.All | application | ClientId, liste des utilisateurs, liste des organisations et sous-canaux. Justification : Nécessaire pour lire les &amp; utilisateurs de synchronisation dans Temporall Workbench | Nom d’utilisateur, e-mail, icône, référence de conversation. Justification :&#160;Workbench temporel permet aux utilisateurs de filtrer et de catégoriser les données en fonction des canaux. Les données d’organisation sont stockées pour se reconnecter aux équipes après l’installation | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| Group.ReadWrite.All | application | Nom de l’ID &amp; de groupe. Justification : pour installer l’application sur chaque groupe/canal | Nom de l’ID &amp; de groupe avec l’objet de données brutes à référencer. Justification : Le workbench temporel permet aux utilisateurs de filtrer et de catégoriser les données en fonction des groupes/équipes. Ces données brutes sont enregistrées pour avoir une référence à l’objet d’origine | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamMember.Read.All | application | Appartenance de l’utilisateur à l’équipe. Justification : autorise la synchronisation de tous les utilisateurs de Teams avec à Temporall Workbench | Adresse e-mail, nom et nom de famille. Justification : autoriser la mise en correspondance d’utilisateurs dans teams avec des utilisateurs dans Temporall Workbench afin d’autoriser la synchronisation des utilisateurs par courrier électronique. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamsAppInstallation.ReadWriteForTeam.All | application | Lire la liste des applications installées pour Team. Justification : vérifiez si notre application est déjà installée, sinon l’installe pour être en mesure d’obtenir l’activité des messages via l’api graphe | N/A | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
+>| Group.ReadWrite.All | application | Nom de l’ID &amp; de groupe. Justification : pour installer l’application sur chaque groupe/canal | Nom de l’ID &amp; de groupe avec l’objet de données brutes à référencer. Justification : Workbench temporel permet aux utilisateurs de filtrer et de catégoriser les données en fonction des groupes/équipes. Ces données brutes sont enregistrées pour avoir une référence à l’objet d’origine | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
+>| TeamMember.Read.All | application | Appartenance de l’utilisateur à l’équipe. Justification : autorise la synchronisation de tous les utilisateurs de Teams avec à Temporall Workbench | Adresse e-mail, nom et nom de famille. Justification : autoriser la mise en correspondance d’utilisateurs dans teams avec des utilisateurs dans Le Workbench temporel afin d’autoriser la synchronisation des utilisateurs par courrier électronique. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
+>| TeamsAppInstallation.ReadWriteForTeam.All | application | Lire la liste des applications installées pour Team. Justification : vérifiez si notre application est déjà installée, sinon, elle est installée pour être en mesure d’obtenir l’activité des messages via l’api de graphique | S/O | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 >| TeamsAppInstallation.ReadWriteForUser.All | application | Lire la liste des applications installées. Vérifiez si notre application est déjà installée, sinon l’installe pour interagir avec l’utilisateur via un questionnaire | N/A | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 >| User.Read | délégué | Informations de base sur &amp; la société des utilisateurs. Justification : utilisée pour catégoriser l’activité des messages par utilisateur, permet au bot de participer à une messagerie proactive. | Nom d’utilisateur, e-mail, icône, référence de conversation. Justification : permet à notre bot d’envoyer de manière proactive des messages aux utilisateurs avec des informations pertinentes. Grouper des utilisateurs pour l’affichage des données | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 
@@ -105,27 +105,16 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Le Temps sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par Temporall sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -142,3 +131,4 @@ Ces informations ont été fournies par Le Temps sur la façon dont cette applic
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -1,19 +1,19 @@
 ---
-title: Informations d’application pour LES ENTREPRISES CONNECTER entreprise par RingCentral, Inc.
+title: Informations sur l’application POUR LES ENTREPRISES CONNECTER entreprise par RingCentral, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/04/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour LA GESTION DES CONNECTER professionnelles, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour LA CONNECTER BUSINESS, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 4dcb3d75594ed7c09736be8e6291bbbead9393ef
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 465b92171bb82a617d2369298037c06fce1fa84a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279886"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413446"
 ---
 # <a name="telus-business-connect"></a>TELUS Business Connect
 
@@ -55,11 +55,11 @@ Ces informations ont été fournies par RingCentral, Inc. sur la façon dont cet
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué |  Permet à l’application d’envoyer un événement d’invitation à une réunion via son calendrier | Aucun | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
->| User.Read | délégué |  Permet à l’application de lire un&#8217;profil de base (e-mail, nom) afin d’obtenir des correspondances de contact à notre fin. Permet également aux utilisateurs de se connecter et de lier leur compte O365 au compte RingCentral |  E-mail, prénom, nom | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
->| User.Read.All | délégué | Permet à l’application de lire le profil complet d’un utilisateur avec des numéros de téléphone afin d’effectuer des appels téléphoniques avec nos services. | Aucun | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| Calendars.ReadWrite | délégué |  Permet à l’application d’envoyer un événement d’invitation à une réunion via son calendrier | Aucune | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| User.Read | délégué |  Permet à l’application de lire un&#8217;profil de base (e-mail, nom) afin d’obtenir des correspondances de contact à notre fin. Permet également aux utilisateurs de se connecter et de lier leur compte O365 au compte RingCentral |  Email, first name, last name | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| User.Read.All | délégué | Permet à l’application de lire le profil complet d’un utilisateur avec des numéros de téléphone afin d’effectuer des appels téléphoniques avec nos services. | Aucune | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| offline_access | délégué |  Permet à l’application d’obtenir et de mettre à jour le jeton oauth |  Jeton d’accès, jeton d’actualisation pour accéder à l’API Graph MS | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 
 
@@ -86,7 +86,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Lorsque nous utilisons une autre organisation, nous contrôlons toujours vos informations personnelles. Nous avons également des contrôles stricts en place pour s’assurer qu&#8217;est correctement protégé. Enfin, la section ci-dessus décrit les situations dans lesquelles vos informations personnelles sont partagées avec d’autres organisations, organismes publics et organismes chargés de l’application de la loi.  Lorsque nous partageons vos informations avec d’autres organisations, nous&#8217;nous assurerons qu’elles&#8217;sont protégées, aussi loin que possible.
+>Lorsque nous utilisons une autre organisation, nous contrôlons toujours vos informations personnelles. Nous avons également des contrôles stricts en place pour nous assurer qu&#8217;est correctement protégé. Enfin, la section ci-dessus décrit les situations dans lesquelles vos informations personnelles sont partagées avec d’autres organisations, organismes publics et organismes chargés de l’application de la loi.  Lorsque nous partageons vos informations avec d’autres organisations, nous&#8217;nous assurerons qu’elles&#8217;protégées, aussi loin que possible.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -98,28 +98,18 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par RingCentral, Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par RingCentral, Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Move Work Forward avec Jira, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7120519c2ecb0643465760677b2bef895b1e2f4d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c2bd8d856eca48f9afc79a42aeff36b887faaf8d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283204"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413666"
 ---
 # <a name="move-work-forward-with-jira"></a>Faire avancer le travail avec Jira
 
@@ -55,14 +55,14 @@ Ces informations ont été fournies par Move Work Forward sur la façon dont cet
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.Create | délégué | Utilisé pour créer un canal de discussion sur les problèmes. | L’URL web du canal nouvellement créé est stockée pour s’afficher dans Jira pour un accès rapide au canal Microsoft Teams discussion. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| Channel.Create | délégué | Utilisé pour créer un canal de discussion sur les problèmes. | L’URL web du canal nouvellement créé est stockée pour s’afficher dans Jira pour un accès rapide au canal de discussion Microsoft Teams de discussion. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 >| Channel.ReadBasic.All | délégué | Le nom et l’ID du canal sont utilisés pour envoyer des notifications de Jira Microsoft Teams. | L’ID de canal et le nom sont stockés pour configurer les notifications de Jira vers Microsoft Teams. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
->| Team.ReadBasic.All | délégué | L’autorisation permet à l’utilisateur de sélectionner l’une de ces équipes jointes dans Jira. | ID d’équipe et nom à afficher dans l’écran configuration dans Jira. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| Team.ReadBasic.All | délégué | L’autorisation permet à l’utilisateur de sélectionner l’une de ces équipes jointes dans Jira. | ID d’équipe et nom à afficher dans l’écran Configuration de Jira. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 >| TeamsAppInstallation.ReadForTeam | délégué | Lire les applications Teams installées dans Teams. Lors de la configuration de la remise Microsoft Teams l’application peut envoyer à Teams avec le bot installé. | Aucun | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 >| User.Read | délégué | Permet à l’utilisateur de créer un canal de discussion avec des collègues et de @mentionner dans un message de canal | Aucun | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
->| email | délégué | Le courrier électronique est utilisé pour faire correspondre atlassian et utilisateurs Microsoft | Le courrier électronique n’est pas stocké. Utilisé uniquement pendant le processus de correspondance. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| email | délégué | Le courrier électronique est utilisé pour faire correspondre les utilisateurs Atlassian et Microsoft | Le courrier électronique n’est pas stocké. Utilisé uniquement pendant le processus de correspondance. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -77,7 +77,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Accueillir les utilisateurs par leur nom lors de l’installation de l’application. Correspond aux utilisateurs Microsoft Teams et atlassien. | Non |  |
+>| Accueillir les utilisateurs par leur nom lors de l’installation de l’application. Faire correspondre Microsoft Teams utilisateurs de l’Atlas et de l’Atlas. | Non |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -118,15 +118,15 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Move Work Forward sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par Move Work Forward sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -139,3 +139,4 @@ Ces informations ont été fournies par Move Work Forward sur la façon dont cet
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Report Builder, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3cdce812cc93cb5a42abf0180f99cf4858a2fc09
-ms.sourcegitcommit: d49943662d5e28a9c1289ee23318818f1f68ff96
+ms.openlocfilehash: eaba58a8a2a63b51dad4489c1104dc5d38ae51b1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60340837"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412153"
 ---
 # <a name="report-builder"></a>Report Builder
 
@@ -62,7 +62,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Adobe Analytics  | Nom d’utilisateur de connexion, Organisation de connexion | Prise en charge des utilisateurs : nous voulons nous assurer que toutes les fonctionnalités implémentées dans l’application fonctionnent correctement. En surveillant la fréquence d’utilisation d’une fonctionnalité dans l’application, nous pouvons détecter une baisse d’utilisation qui peut être le résultat d’un défaut de régression introduit dans la base de code. Ce suivi est uniquement pour le bien de l’utilisateur final. Nous suivions le nom d’utilisateur afin que s’il se crashe, nous pouvons le joindre pour obtenir une prise en charge personnalisée. |
+>| Adobe Analytics  | Nom d’utilisateur de connexion, Organisation de connexion | Prise en charge des utilisateurs : nous voulons nous assurer que toutes les fonctionnalités implémentées dans l’application fonctionnent correctement. En surveillant la fréquence d’utilisation d’une fonctionnalité dans l’application, nous pouvons détecter une baisse d’utilisation qui peut être le résultat d’un défaut de régression introduit dans la base de code. Ce suivi est uniquement pour le bien de l’utilisateur final. Nous suivions le nom d’utilisateur afin que s’il se crashe, nous pouvons le joindre pour obtenir une prise en charge personnalisée |
 
 
 
@@ -88,17 +88,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -113,3 +102,4 @@ Ces informations ont été fournies par Adobe Inc. sur la façon dont cette appl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

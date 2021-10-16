@@ -2,18 +2,18 @@
 title: Informations d’application pour le signal dynamique par signal dynamique
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le signal dynamique, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5b5906e8eee51821481de11c3cbd720600d4c36e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 1380163dee988fd928596cd3024c0ddc2d6e8be5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283060"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412433"
 ---
 # <a name="dynamic-signal"></a>Signal dynamique
 
@@ -55,12 +55,12 @@ Ces informations ont été fournies par Dynamic Signal sur la façon dont cette 
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | délégué | Le signal dynamique synchronise les utilisateurs d’Azure AD avec sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Lire les autorisations d’un utilisateur spécifique pour synchroniser les utilisateurs de la plateforme Signal dynamique avec Azure AD. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
->| User.Read.All | délégué | Le signal dynamique synchronise les utilisateurs d’Azure AD avec sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Lire les autorisations d’un utilisateur spécifique pour synchroniser les utilisateurs de la plateforme Signal dynamique avec Azure AD. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
->| offline_access | délégué | Le signal dynamique synchronise les utilisateurs d’Azure AD avec sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Conserver l’accès aux groupes et aux équipes du client. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
->| openid | délégué | Le signal dynamique synchronise les utilisateurs d’Azure AD avec sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Authentifier les utilisateurs avec l’application Signal dynamique. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| User.Read | délégué | Le signal dynamique synchronise les utilisateurs de Azure AD à sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Lire les autorisations d’un utilisateur spécifique pour synchroniser les utilisateurs de la plateforme de signal dynamique avec Azure AD. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| User.Read.All | délégué | Le signal dynamique synchronise les utilisateurs de Azure AD à sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Lire les autorisations d’un utilisateur spécifique pour synchroniser les utilisateurs de la plateforme de signal dynamique avec Azure AD. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| offline_access | délégué | Le signal dynamique synchronise les utilisateurs de Azure AD à sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Conserver l’accès aux groupes et aux équipes du client. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| openid | délégué | Le signal dynamique synchronise les utilisateurs de Azure AD à sa plateforme pour permettre une activation et une désactivation simplifiées des utilisateurs en temps réel. Les données sont stockées dans le signal dynamique pour permettre aux utilisateurs d’utiliser cette application pendant la synchronisation. | Authentifier les utilisateurs avec l’application de signal dynamique. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -75,14 +75,14 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| openid sign in using openid directory.readwrite.all access to the tenant’s domain and groups, add an app to a team offline_access retain access to the tenant’s groups and teams | openid Autoriser l’authentification indépendante. Accès directory.readwrite.all au domaine et aux groupes du client, ajoutez une application à une offline_access conservez l’accès aux groupes et équipes du client Remarque : l’application du signal dynamique utilise le bot d’équipes pour appliquer des groupes et des autorisations créés au sein du signal dynamique à Teams afin qu’un utilisateur actif dans le signal dynamique accède aux mêmes groupes et utilisateurs que dans Teams. |  |
+>| openid sign in using openid directory.readwrite.all access to the tenant’s domain and groups, add an app to a team offline_access retain access to the tenant’s groups and teams | openid Autoriser l’authentification indépendante. accès directory.readwrite.all au domaine et aux groupes du client, ajoutez une application à une offline_access conservez l’accès aux groupes et équipes du client Remarque : l’application du signal dynamique utilise le bot d’équipes pour appliquer des groupes et des autorisations créés au sein du signal dynamique à Teams afin qu’un utilisateur actif dans le signal dynamique accède aux mêmes groupes et utilisateurs qu’au sein de Teams. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->L’application et la plateforme Dynamic Signal utilisent les informations utilisateur pour faciliter l’intégration avec Microsoft Teams. Ces informations sont accessibles aux utilisateurs ayant les autorisations appropriées au sein de la plateforme De signal dynamique. Les informations pertinentes sont Nom, Nom complet et Courrier électronique. Ces informations sont stockées dans les journaux de la plateforme De signal dynamique conformément à la stratégie de l’organisation respective avec la licence Signal dynamique.
+>L’application et la plateforme Dynamic Signal utilisent les informations utilisateur pour faciliter l’intégration avec Microsoft Teams. Ces informations sont accessibles aux utilisateurs ayant les autorisations appropriées au sein de la plateforme De signal dynamique. Les informations pertinentes sont Nom, Nom complet et Courrier électronique. Ces informations sont stockées dans les journaux de la plateforme Signal dynamique conformément à la stratégie de l’organisation respective avec la licence Signal dynamique.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -111,4 +111,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

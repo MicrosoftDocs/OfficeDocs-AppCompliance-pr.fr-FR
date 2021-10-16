@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour lawToolBox Deadlines Matter Management - Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre &amp; CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a68d1a5f726e097e8a22639ac15420fc801da3b4
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: f62485ceda390d09597a55c25f8f0e36948b5bd2
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60285980"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415241"
 ---
 # <a name="lawtoolbox-deadlines-amp-matter-management---outlook"></a>LawToolBox Deadlines &amp; Matter Management - Outlook
 
@@ -33,7 +33,7 @@ Informations fournies par LawToolBox.com Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | LawToolBox Deadlines &amp; Matter Management - Outlook |
 | ID | WA104120953 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | LawToolBox.com Inc. |
 | URL du site web partenaire | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
 | URL de la politique de confidentialité | [https://www.lawtoolbox.com/privacy-policy/](https://www.lawtoolbox.com/privacy-policy/) |
@@ -64,12 +64,12 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Directory.ReadWrite.All | délégué | nous utilisons le portail d’administration pour récupérer la liste des utilisateurs à partir du client O365 à ajouter à votre compte | [Facultatif] Lire les informations de groupes et d’utilisateurs en tant qu’utilisateur. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Files.Read | délégué | Cela permet au addin de lire et de ré lister les fichiers utilisateur à qui l’utilisateur a déjà accès | [Facultatif] Lire les informations de l’OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Files.Read.All | délégué | nous utilisons cette autorisation pour lire et ré lister les fichiers utilisateur à qui l’utilisateur a déjà accès | [Facultatif]-Lire les informations de l’OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Files.ReadWrite | délégué | nous lisons des fichiers Teams, groupes et OneDrive pour les réunions (si vous le révoquer, notre addin ne répertorie pas les fichiers importants dans nos applications) | [Facultatif]-Lire et modifier des fichiers dans l’OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite | délégué | nous lisons des fichiers Teams, groupes et OneDrive pour les réunions (si vous le révoquer, notre addin ne répertorie pas les fichiers importants dans nos applications) | [Facultatif]-Lire et modifier des fichiers dans le compte d’un OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Files.ReadWrite.All | délégué | nous lisons des fichiers Teams, groupes et OneDrive pour les réunions (si vous le révoquer, LTB ne répertorie pas les fichiers importants dans nos applications).  L’utilisateur peut uniquement utiliser le addin pour lire et ré lister les fichiers utilisateur à qui l’utilisateur a déjà accès | [Facultatif] Lire/écrire le fichier d’OneDrive associé à la matière. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Group.ReadWrite.All | délégué | GroupID, GroupName, GroupEmail | Nous créons un groupe pour chaque sujet créé dans notre système. Cette aide permet aux utilisateurs de stocker les informations relatives à la matière dans le groupe, qui enregistre à son tour leurs données dans leur propre client. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Mail.Read | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement et de lire les contacts à partir de votre courrier électronique à ajouter à notre système de contact. | [Facultatif] [InProgress] Lire le courrier électronique de l’utilisateur pour les questions. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Mail.ReadWrite | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement et de lire les contacts à partir de votre courrier électronique à ajouter à notre système de contact. | [Facultatif] [InProgress] Lire/écrire des e-mails pour les utilisateurs. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Mail.ReadWrite.Shared | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement et de lire les contacts à partir de votre courrier électronique à ajouter à notre système de contact. | [Facultatif] [InProgress] Lire/écrire des e-mails pour les utilisateurs. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Read | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement, ainsi que pour lire les contacts de votre courrier électronique à ajouter à notre système de contact. | [Facultatif] [InProgress] Lire le courrier électronique de l’utilisateur pour les questions. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement, ainsi que pour lire les contacts de votre courrier électronique à ajouter à notre système de contact. | [Facultatif] [InProgress] Lire/écrire des e-mails pour les utilisateurs. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite.Shared | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement, ainsi que pour lire les contacts de votre courrier électronique à ajouter à notre système de contact. | [Facultatif] [InProgress] Lire/écrire des e-mails pour les utilisateurs. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Mail.Send | délégué | Nous utilisons cet envoi de courriers électroniques en tant qu’utilisateur pour permettre à un utilisateur de s’envoyer des rapports uniquement sur les données à qui il a déjà accès sur notre système. | [Facultatif] [InProgress] Envoyer des échéances sur le courrier électronique en tant qu’utilisateur. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Tasks.ReadWrite.Shared | délégué | Cette autorisation est restreinte pour accéder aux tâches de l’utilisateur&#8217;qu’il a déjà accès aux &#8211; nous l’utilisons pour permettre aux utilisateurs de récupérer et de mettre à jour leurs propres informations TASK. | [Facultatif]-[InProgress] Read Write Deadlines as Task for users. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| User.Read | délégué | permet de suggérer des contacts récents à ajouter à des réunions ou des contacts | Lire les informations de l’utilisateur. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
@@ -109,17 +109,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -147,3 +136,4 @@ Ces informations ont été fournies par LawToolBox.com Inc. sur la façon dont c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

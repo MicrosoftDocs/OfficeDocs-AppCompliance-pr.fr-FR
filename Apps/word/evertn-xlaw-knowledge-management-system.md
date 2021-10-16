@@ -2,18 +2,18 @@
 title: 'Informations sur l’application pour xLaw : système de gestion des connaissances par evertn'
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/26/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Toutes les informations de sécurité et de conformité disponibles pour xLaw : système de gestion des connaissances, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57f63c4bc93739fa2a251d797ea4475ef786a09d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b07ad480387dac712f6b9195fd74a82706d2629b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280534"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413235"
 ---
 # <a name="xlaw---knowledge-management-system"></a>xLaw : système de gestion des connaissances
 
@@ -106,8 +106,9 @@ Ces informations ont été fournies par evertn sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

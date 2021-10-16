@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour les données gratuites par InVisionApp Inc.
+title: Informations sur les applications gratuites par InVisionApp Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 05/06/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour freehand, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a3c92ee618693b4fed77026a47009b490845db60
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a5dea256df452df987f97baa7251efb836b8cb90
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283826"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412323"
 ---
 # <a name="freehand"></a>Freehand
 
@@ -83,7 +83,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les évaluations des risques tierces sont effectuées sur les fournisseurs qui traitéent des informations personnelles. Des clauses ont été ajoutées contractuellement pour inclure le droit d’audit &#8220;&#8221; et la diligence raisonnable se produit une fois par an en fonction de facteurs critiques/de risque. Le service juridique a implémenté des addendums de protection des données à ajouter contractuellement le cas échéant, ainsi que des normes acceptables qui répondent aux exigences d’InVision. (Notez que les sous-traitants n’auraient pas accès aux données de projet client dans un format non chiffré.)
+>Les évaluations des risques tierces sont effectuées sur les fournisseurs qui traitéent des informations personnelles. Des clauses ont été ajoutées contractuellement pour inclure le droit &#8220;auditer&#8221; et la diligence raisonnable se produit à une fois par an en fonction de facteurs critiques/de risque. Le service juridique a implémenté des addendums de protection des données à ajouter contractuellement le cas échéant, ainsi que des normes acceptables qui répondent aux exigences d’InVision. (Notez que les sous-traitants n’auraient pas accès aux données de projet client dans un format non chiffré.)
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -111,11 +111,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par InVisionApp Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par InVisionApp Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Non |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -133,3 +133,4 @@ Ces informations ont été fournies par InVisionApp Inc. sur la façon dont cett
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

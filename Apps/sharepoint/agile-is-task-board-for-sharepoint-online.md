@@ -2,18 +2,18 @@
 title: Informations sur l’application du tableau des tâches agile pour SharePoint Online par Agile-IS
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le tableau des tâches Agile pour SharePoint Online, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 649c3ee34514214e91eaa1fe5ed43b43f6d9a43b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 34526c1037ee220cabfecf6dd06fac93bb0e4952
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281847"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412103"
 ---
 # <a name="agile-task-board-for-sharepoint-online"></a>Tableau des tâches agile pour SharePoint Online
 
@@ -76,7 +76,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 >L’application stocke toutes les données dans SharePoint listes et bibliothèques de documents en ligne sur le même site que l’instance respective de l’application. Le contrôle d’accès à ces données dépend de la configuration du client client. 
 
-Pour le contrôle de licence, le domaine et l’UPN sont transférés vers un service hébergé dans Azure. Ces informations sont sécurisées par l’authentification Azure AD.
+Pour le contrôle de licence, le domaine et l’UPN sont transférés vers un service hébergé dans Azure. Ces informations sont sécurisées par l’authentification Azure AD données.
 
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
@@ -100,4 +100,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

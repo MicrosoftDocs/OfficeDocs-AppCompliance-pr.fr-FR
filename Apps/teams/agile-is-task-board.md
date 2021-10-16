@@ -2,18 +2,18 @@
 title: Informations sur l’application pour le tableau des tâches agile par Agile-IS
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le tableau des tâches Agile, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a5062da73958a88a7b788a74771e76ae506b314d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ed25a77c5f07371bad9d2754b53c0b42deab11d6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280011"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411943"
 ---
 # <a name="agile-task-board"></a>Tableau de tâches Agile
 
@@ -74,7 +74,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous collectons le nom de domaine et l’ID d’utilisateur hachage dans les données de télémétrie d’informations sur l’application. Dans chaque instance d’application, la transmission des données de télémétrie peut être contrôlée et désactivée. Une suppression ultérieure des données doit être demandée de notre part.
+>Nous collectons le nom de domaine et un ID d’utilisateur hachage dans nos données de télémétrie d’informations sur l’application. Dans chaque instance d’application, la transmission des données de télémétrie peut être contrôlée et désactivée. Une suppression ultérieure des données doit être demandée de notre part.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -82,7 +82,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 >L’application stocke toutes les données dans SharePoint listes et bibliothèques de documents en ligne sur le même site que l’instance respective de l’application. Le contrôle d’accès à ces données dépend de la configuration du client client. 
 
-Pour le contrôle de licence, le domaine et l’UPN sont transférés vers un service hébergé dans Azure. Ces informations sont sécurisées par l’authentification Azure AD.
+Pour le contrôle de licence, le domaine et l’UPN sont transférés vers un service hébergé dans Azure. Ces informations sont sécurisées par l’authentification Azure AD’utilisateur.
 
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
@@ -106,4 +106,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

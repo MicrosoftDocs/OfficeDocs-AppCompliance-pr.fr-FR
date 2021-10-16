@@ -2,18 +2,18 @@
 title: Informations d’application pour Timeneye par DM Digital SRL
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/31/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Timeneye, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: ab8d61b542baaacd406df7596ecdcd4d8c87e327
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 30c0543469970b94d1020a3c1c64f668ab833075
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281265"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412444"
 ---
 # <a name="timeneye"></a>Timeneye
 
@@ -54,11 +54,11 @@ Ces informations ont été fournies par DM Digital SRL sur la façon dont cette 
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | délégué | Date/fin de l’événement DateTime, objet de l’événement, ID d’événement, URI web de l’événement. Générer des suggestions basées sur des événements de calendrier. | Date/fin de l’événement DateTime, objet de l’événement, ID d’événement, URI web de l’événement. Possibilité de lier une suggestion générée à l’événement de calendrier approprié. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Calendars.Read.Shared | délégué | Date/fin de l’événement DateTime, objet de l’événement, ID d’événement, URI web de l’événement. Nous utilisons ces informations pour générer des suggestions basées sur des événements de calendrier. | Date/fin de l’événement DateTime, objet de l’événement, ID d’événement, URI web de l’événement. Nous utilisons ces informations pour lier une suggestion générée à l’événement de calendrier approprié. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Directory.Read.All | délégué | ID de groupes d’utilisateurs. Nous utilisons ces informations pour vérifier les groupes dont l’utilisateur est membre afin de synchroniser les planificateurs de ses groupes. | ID de groupes d’utilisateurs. Nous utilisons ces informations pour vérifier les groupes dont l’utilisateur est membre afin de synchroniser les planificateurs de ses groupes. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
+>| Calendars.Read | délégué | Date/heure de début/fin de l’événement, objet de l’événement, ID d’événement, URI web de l’événement. Générer des suggestions basées sur des événements de calendrier. | Date/heure de début/fin de l’événement, objet de l’événement, ID d’événement, URI web de l’événement. Possibilité de lier une suggestion générée à l’événement de calendrier approprié. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
+>| Calendars.Read.Shared | délégué | Date/heure de début/fin de l’événement, objet de l’événement, ID d’événement, URI web de l’événement. Nous utilisons ces informations pour générer des suggestions basées sur des événements de calendrier. | Date/heure de début/fin de l’événement, objet de l’événement, ID d’événement, URI web de l’événement. Nous utilisons ces informations pour lier une suggestion générée à l’événement de calendrier approprié. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
+>| Directory.Read.All | délégué | ID des groupes d’utilisateurs. Nous utilisons ces informations pour vérifier les groupes dont l’utilisateur est membre afin de synchroniser les planificateurs de ses groupes. | ID des groupes d’utilisateurs. Nous utilisons ces informations pour vérifier les groupes dont l’utilisateur est membre afin de synchroniser les planificateurs de ses groupes. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
 >| Group.Read.All | délégué | Nom du groupe, ID de groupe. Nous utilisons ces informations lors de la synchronisation des projets du planificateur. | Nom du groupe, ID de groupe.  | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
 >| Tasks.Read | délégué | nom de liste de tâches, ID de liste de tâches. Nous utilisons ces informations lors de la synchronisation des projets du planificateur. | nom de liste de tâches, ID de liste de tâches. Nous utilisons ces informations lors de la synchronisation des projets du planificateur. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
 >| User.Read | délégué | e-mail, nom. Nous utilisons ces informations pour nous connecter à l’utilisateur/créer le compte d’utilisateur | e-mail, nom. Nous utilisons ces informations pour nous connecter à l’utilisateur/créer le compte d’utilisateur | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
@@ -91,7 +91,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nom d’utilisateur et courrier électronique, détails de facturation de l’entreprise. Lorsque le compte/l’utilisateur est supprimé, les informations sont supprimées.
 
@@ -111,17 +111,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -131,11 +120,11 @@ Ces informations ont été fournies par DM Digital SRL sur la façon dont cette 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -149,3 +138,4 @@ Ces informations ont été fournies par DM Digital SRL sur la façon dont cette 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

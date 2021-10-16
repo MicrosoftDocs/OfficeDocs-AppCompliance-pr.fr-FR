@@ -2,18 +2,18 @@
 title: Informations sur les applications pour SuitePro-G par IQar
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/19/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SuitePro-G, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 369a3b2d5527806b111371ec959389c39b43205c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c256ccf34681500a09dc403b4441378e46aed526
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283672"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412924"
 ---
 # <a name="suitepro-g"></a>SuitePro-G
 
@@ -113,8 +113,9 @@ Ces informations ont été fournies par IQar sur la façon dont cette applicatio
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

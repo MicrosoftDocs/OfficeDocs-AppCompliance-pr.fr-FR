@@ -2,18 +2,18 @@
 title: Informations d’application pour LeQast par FaqQast
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/23/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LeQast, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: f564b90c2fc545a13c19e6584886a22e7a75d936
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 100e594e6fc080d08e6194318d835c419df9bed8
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283841"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412393"
 ---
 # <a name="floqast"></a>FaqQast
 
@@ -64,7 +64,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Une liste complète des sous-processeurs ayant accès à OII est disponible sur demande | Nom de la société, identificateurs de société, structure des dossiers de l’entreprise, URL de la société, informations de compte GL de l’entreprise | ContrôleQast est une solution de gestion étroite qui traite les informations de l’entreprise et les informations de comptabilité dans la fourniture de services. |
+>| Une liste complète des sous-processeurs ayant accès à OII est disponible sur demande | Nom de la société, identificateurs d’entreprise, structure des dossiers de la société, URL de la société, informations de compte GL de l’entreprise | ContrôleQast est une solution de gestion étroite qui traite les informations de l’entreprise et les informations de comptabilité dans la fourniture de services. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -85,7 +85,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->En grande partie, le système ContrôleQast fournit sa valeur principale en intégrant d’autres systèmes, tels que des systèmes ERP tels que Netuite ou Oracle. Nos clients ont alors le contrôle total de leurs données et peuvent choisir ce qu’ils font ou ne veulent pas partager avec LeQast.
+>Le système ContrôleQast, en grande partie, fournit sa valeur principale en intégrant d’autres systèmes tels que des systèmes ERP tels que Netuite ou Oracle. Nos clients ont alors le contrôle total de leurs données et peuvent choisir ce qu’ils font ou ne veulent pas partager avec LeQast.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -97,17 +97,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,7 +106,7 @@ Ces informations ont été fournies par LeQast sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -134,3 +123,4 @@ Ces informations ont été fournies par LeQast sur la façon dont cette applicat
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

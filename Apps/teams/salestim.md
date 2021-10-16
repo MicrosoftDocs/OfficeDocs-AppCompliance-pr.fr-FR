@@ -2,23 +2,23 @@
 title: Informations d’application pour SalesTim par SalesTim
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/27/2020
+ms.date: 10/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour SalesTim, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b15cf2f87b6707b6fa82dfc3968444d7cad85e8a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 9d0d5a3653bdbb15f1c2d5946db3325881c57e67
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282076"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412764"
 ---
 # <a name="salestim"></a>SalesTim
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: October 27, 2020</p>
+<p>Last updated by the developer on: October 9, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/589748de-ec98-4616-9063-e91c629bd1a4" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001393" target="_blank">Afficher dans AppSource</a>
@@ -35,9 +35,10 @@ Informations fournies par SalesTim à Microsoft :
 | ID | WA200001393 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | SalesTim |
-| URL du site web partenaire | [https://www.salestim.com/](https://www.salestim.com/) |
+| URL du site web partenaire | [https://www.salestim.com](https://www.salestim.com) |
+| URL de la Teams d’informations sur l’application | [https://www.salestim.com](https://www.salestim.com) |
 | URL de la politique de confidentialité | [https://www.salestim.com/legal/privacy/](https://www.salestim.com/legal/privacy/) |
-| URL des conditions d’utilisation | [https://www.salestim.com/legal/tos/](https://www.salestim.com/legal/tos/) |
+| URL des conditions d’utilisation | [https://www.salestim.com/legal/tos](https://www.salestim.com/legal/tos) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,16 +54,22 @@ Ces informations ont été fournies par SalesTim sur la façon dont cette applic
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| AppCatalog.ReadWrite.All | délégué | NON | Autorisez l’application à installer et à mettre à jour ses propres packages dans le catalogue d’applications d’entreprise. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Directory.AccessAsUser.All | délégué | Nous&#8217;stocker uniquement certains ID d’utilisateurs, pas les données de profil. | Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Group.ReadWrite.All | délégué | Nous&#8217;stocker uniquement les groupes/ID d’équipes,&#8217;ne stockons pas le contenu des groupes/équipes. | Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe pour le compte de l’utilisateur. En outre, elle permet aux propriétaires de groupes de gérer leurs groupes et aux membres de groupes de mettre à jour le contenu des groupes. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Mail.Send | délégué | Nous&#8217;stocker les métadonnées de cette action, telles que la date de notification, le destinataire (ID uniquement), l’ID de demande. | Permet à l’application d’envoyer des courriers électroniques de notification par exemple au cours d’un flux de travail d’approbation. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Sites.ReadWrite.All | délégué | Nous utilisons certains services Azure pour stocker des données, notamment Redis sur Azure et Cosmos DB | Permet à l’application de gérer les lecteurs (fichiers et dossiers) associés à une équipe, au cours d’un processus de mise en service d’équipe. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| User.Read.All | délégué | Nous&#8217;stocker uniquement certains ID d’utilisateurs, pas les données de profil. | Permet à l’application de lire l’ensemble complet des propriétés de profil, des rapports et des responsables de n’importe quel utilisateur. Il est utilisé en particulier pendant le processus de ciblage d’audience, pour filtrer certains contenus en fonction du profil utilisateur actuel. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| offlineaccess | délégué | Non | Permet à l’application d’effectuer certaines opérations et actions en arrière-plan en tant qu’utilisateur. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| ChannelMember.ReadWrite.All | délégué | ID des utilisateurs invités à un canal par notre stratégie d’appartenance | L’ID des utilisateurs invités à un canal par notre stratégie d’appartenance est stocké dans nos pistes d’audit | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Directory.AccessAsUser.All | délégué | ID utilisateur. Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | ID utilisateur. Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Group.ReadWrite.All | les deux | Nous&#8217;stocker uniquement les groupes/ID d’équipes, nous&#8217;stocker aucun contenu de groupes/équipes. Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe pour le compte de l’utilisateur. En outre, elle permet aux propriétaires de groupes de gérer leurs groupes et aux membres de groupes de mettre à jour le contenu des groupes. | Nous&#8217;stocker uniquement les groupes/ID d’équipes, nous&#8217;stocker aucun contenu de groupes/équipes. Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe pour le compte de l’utilisateur. En outre, elle permet aux propriétaires de groupes de gérer leurs groupes et aux membres de groupes de mettre à jour le contenu des groupes. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Mail.Send | délégué | ID utilisateur. Nous&#8217;stocker les métadonnées de cette action, telles que la date de notification, les destinataires et l’ID de la demande. | ID utilisateur. Nous&#8217;stocker les métadonnées de cette action, telles que la date de notification, les destinataires et l’ID de la demande. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| User.Read.All | les deux | ID utilisateur et données de profil. Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | ID utilisateur. Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| offline_access | délégué | Jeton d’actualisation. Permet à l’application d’effectuer certaines opérations et actions en arrière-plan en tant qu’utilisateur. | Jeton d’actualisation. Permet à l’application d’effectuer certaines opérations et actions en arrière-plan en tant qu’utilisateur. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 
+#### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
+
+Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
+
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| Microsoft Marketplace | Oui | ID client | Utilisé pour gérer les abonnements de nos clients | ID client | Utilisé pour gérer les abonnements de nos clients |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
@@ -70,7 +77,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Nous utilisons Intercom comme principale application de support. Intercom peut contenir des informations de profil utilisateur de base, comme décrit ici : https://developers.salestim.com/platform/datamanagement.html#support-data |  | Nous utilisons des API GitHub pour générer des problèmes automatiquement à partir de notre environnement de production. Nous stockons également des journaux techniques dans GitHub (comme décrit ici https://developers.salestim.com/platform/datamanagement.html#error-reporting-data) : Ces problèmes et journaux peuvent contenir des informations de profil utilisateur de base. Ces problèmes et journaux sont automatiquement supprimés tous les 15 jours. |
+>| Nous utilisons Intercom comme principale application de support client.  | ID client | Nous utilisons l’ID de locataire de l’organisation pour mettre en corrélation les demandes de support des clients avec un environnement Microsoft 365 spécifique. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -89,11 +96,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->La plupart des données sont stockées dans Azure Cosmos DB.
-L’accès à l’environnement de production est limité à deux personnes, et ces comptes d’administrateur sont appliqués à l’mf.
-Ces comptes sont dédiés et différents de nos comptes d’entreprise.
-Les données sont chiffrées au repos dans tous les services Azure que nous utilisons.
-Les déploiements vers des environnements de production sont automatisés via une branche protégée dédiée dans notre environnement GitHub, où deux personnes seulement peuvent approuver les modifications.
+>Nous appliquons une stratégie de rétention dans le cadre de notre révision mensuelle de la destruction des enregistrements &quot; &quot; client.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -112,6 +115,34 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853" target="_blank">Afficher dans un nouvel onglet</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informations d’identité
+
+Ces informations ont été fournies par SalesTim sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
+| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
+| Liste des types de stratégies pris en charge | Authentification multifacteur. Autoriser uniquement les appareils inscrits à Intune à accéder à des services spécifiques. Restriction des emplacements utilisateur et des plages IP |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
+| Votre application prend-elle en charge l’location multiple ? | Oui |
+| Votre application a-t-elle un client confidentiel ? | Oui |
+| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
+| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | - URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/>- Flux ROPC (Resource Owner Password Credential) |
+| Votre application expose-t-elle des API web ? | Oui |
+| Votre modèle d’autorisation autorise-t-il uniquement les appels à réussir si l’application cliente reçoit le consentement approprié ? | Oui |
+| Votre application utilise-t-elle les API d’aperçu ? | Non |
+| Votre application utilise-t-elle des API dépréciées ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

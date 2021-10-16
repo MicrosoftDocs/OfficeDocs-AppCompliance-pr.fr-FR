@@ -2,18 +2,18 @@
 title: Informations d’application pour Jetdocs par Jetdocs
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 10/13/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Jetdocs, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 649617f3e61dbcc75cd4d5206982c4cee03563be
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 598832239c67b4c470695f7a3f07ef3488dd6e74
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281817"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413756"
 ---
 # <a name="jetdocs"></a>Jetdocs
 
@@ -80,7 +80,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données sont actuellement stockées sur une base de données AWS. L’accès est contrôlé par le biais d’un groupe de sécurité qui permet uniquement à l’application backend déployée d’y accéder, ainsi que les adresses IP sur liste blanche pour les développeurs administrateurs au sein de l’entreprise (actuellement uniquement alex@jetdocs.io IP personnelle). Les données stockées sont chiffrées.
+>Les données sont actuellement stockées dans une base de données AWS. L’accès est contrôlé par le biais d’un groupe de sécurité qui permet uniquement à l’application backend déployée d’y accéder, ainsi que les adresses IP sur liste blanche pour les développeurs administrateurs au sein de l’entreprise (actuellement uniquement alex@jetdocs.io IP personnelle). Les données stockées sont chiffrées.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -103,4 +103,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

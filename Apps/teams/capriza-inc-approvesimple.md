@@ -2,18 +2,18 @@
 title: Informations sur l’application pour ApproveSimple par Dossierza, Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/23/2020
+ms.date: 04/25/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ApproveSimple, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a4e133d6f86ea92bc210af8399186701f6a4744f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e4f9a44196c2cc42474485f9787ecb09bba72ec6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280666"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411843"
 ---
 # <a name="approvesimple"></a>ApproveSimple
 
@@ -70,7 +70,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Avertir l’utilisateur d’une nouvelle demande d’approbation en attente | adresse électronique |  |
+>| Informer l’utilisateur d’une nouvelle demande d’approbation en attente | adresse électronique |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -101,4 +101,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

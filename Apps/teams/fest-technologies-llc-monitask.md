@@ -2,18 +2,18 @@
 title: Informations sur l’application pour Monitask par LES TECHNOLOGIES PREMIERRE, LLC
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Monitask, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 959d904123910480e62a1d8b11539a317f481ac6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d0168be872f1b5c237dff650e58403c69602d141
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283846"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413816"
 ---
 # <a name="monitask"></a>Monitask
 
@@ -69,7 +69,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| EuII est requis pour trouver une correspondance entre l’utilisateur Monitask et l’utilisateur Teams MS | MS Teams User ID, MS Teams Bot Conversation ID, MS Teams AadObjectId | MS Teams’ID d’utilisateur requis pour trouver une correspondance entre l’utilisateur Monitask et l’utilisateur Teams MS dans le contexte d’une conversation avec le bot ; L’ID de conversation du bot est requis pour envoyer à un utilisateur « Daily report » à partir de Monitask ; MS Teams AadObjectId est nécessaire pour trouver une correspondance entre l’utilisateur Monitask et l’utilisateur MS Teams dans le contexte de « Tab » dans MS Teams  |
+>| L’EUII est nécessaire pour trouver une correspondance entre l’utilisateur Monitask et l’utilisateur Teams MS | MS Teams User ID, MS Teams Bot Conversation ID, MS Teams AadObjectId | MS Teams’ID d’utilisateur requis pour trouver une correspondance entre l’utilisateur Monitask et l’utilisateur Teams MS dans le contexte d’une conversation avec le bot ; L’ID de conversation du bot est requis pour envoyer à un utilisateur « Daily report » à partir de Monitask ; MS Teams AadObjectId est nécessaire pour trouver une correspondance entre l’utilisateur Monitask et l’utilisateur MS Teams dans le contexte de « Tab » dans MS Teams  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -94,17 +94,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -114,8 +103,9 @@ Ces informations ont été fournies par LA SOCIÉTÉ TECHNOLOGIES, LLC sur la fa
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

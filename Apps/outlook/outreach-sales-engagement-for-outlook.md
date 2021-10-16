@@ -2,18 +2,18 @@
 title: Informations sur l’application pour l’engagement commercial de sensibilisation Outlook par sensibilisation
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/14/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’engagement commercial de sensibilisation pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6a009dbc5c075f99bb71105834f3f5208ed91dea
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 483fb4fd6741e479403e4cd05ad284b50a87f9c4
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283090"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413556"
 ---
 # <a name="outreach-sales-engagement-for-outlook"></a>Engagement commercial de sensibilisation pour Outlook
 
@@ -47,7 +47,7 @@ Informations fournies par la sensibilisation à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par la communauté sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par la sensibilisation sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -69,7 +69,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Salesforce CRM | L’intégration de la promotion avec Salesforce permet une synchronisation bi-directionnelle sécurisée d’un jeu de données limité entre les deux services: Nom de l’organisation, adresse e-mail et nom d’utilisateur. | La synchronisation bi-directionnelle intelligente de la sensibilisation garantit une fidélité totale entre les données des deux systèmes. Toutes les activités exécutées dans le &#8212; de &#8212; appels, e-mails, etc. &#8212; sont automatiquement enregistrées dans Salesforce et la résolution des conflits détecte et résout les conflits pour maintenir la proximité des données. Il fonctionne dans les éditions Salesforce Aloha et Flash. |
+>| Salesforce CRM | L’intégration de la promotion avec Salesforce permet une synchronisation bi-directionnelle sécurisée d’un jeu de données limité entre les deux services : Nom de l’organisation, adresse e-mail et nom d’utilisateur. | La synchronisation bi-directionnelle intelligente de la diffusion garantit une fidélité totale entre les données des deux systèmes. Toutes les activités exécutées dans le &#8212; de &#8212; appels, e-mails, etc. &#8212; sont automatiquement enregistrées dans Salesforce et la résolution des conflits détecte et résout les conflits pour maintenir la proximité des données. Il fonctionne dans les éditions Salesforce Aloha et Flash. |
 
 
 
@@ -77,13 +77,13 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->La sensibilisation n’applique pas de périodes de rétention aux données&#8217;client. La sensibilisation fonctionne en tant que processeur de données et, en tant que telle, ne modifie jamais les données de nos clients&#8217;sans leur autorisation expresse. Toutes les données client sont supprimées 60 jours après la fin de la relation professionnelle, selon notre MSA et DPA.
+>La sensibilisation n’applique pas de périodes de rétention&#8217;données de nos clients. La sensibilisation fonctionne en tant que processeur de données et, en tant que telle, ne modifie jamais les données de nos clients&#8217;sans leur autorisation expresse. Toutes les données client sont supprimées 60 jours après la fin de la relation professionnelle, selon notre MSA et DPA.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Pour des raisons contractuelles et réglementaires, il est également nécessaire de fournir à tous les clients une notification en temps opportun de l’utilisation d’un nouveau sous-traitant ou d’un changement de sous-traitant. Pour la plupart des clients de proximité, il s’agit d’une période de 30 jours. Toutefois, nous avons quelques clients ayant des exigences de préavis de 60 et 90 jours. Aucune donnée client ne peut être transférée tant que la notification juridiquement requise d’un nouveau sous-processus n’a pas été envoyée à tous les clients et que la période applicable requise n’a pas été écoulée.
+>La sensibilisation, pour des raisons contractuelles et réglementaires, est également nécessaire pour fournir à tous les clients une notification en temps opportun de l’utilisation d’un nouveau sous-traitant ou d’une modification à un sous-traitant. Pour la plupart des clients de proximité, il s’agit d’une période de 30 jours. Toutefois, nous avons quelques clients ayant des exigences de préavis de 60 et 90 jours. Aucune donnée client ne peut être transférée tant que la notification juridiquement requise d’un nouveau sous-processus n’a pas été envoyée à tous les clients et que la période applicable requise n’a pas été écoulée.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -95,17 +95,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -115,8 +104,9 @@ Ces informations ont été fournies par la sensibilisation sur la façon dont ce
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

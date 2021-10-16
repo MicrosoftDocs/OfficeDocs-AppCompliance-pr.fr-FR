@@ -2,18 +2,18 @@
 title: Informations sur l’application pour l’outil Kanban par labs Labs
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/15/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’outil Kanban, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b73351d77f68cf00b904d95336f83d8089095791
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7422dcff9386dbb64599660eea58941d2a862b13
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281481"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413396"
 ---
 # <a name="kanban-tool"></a>Kanban Tool
 
@@ -55,12 +55,12 @@ Ces informations ont été fournies par labs Labs sur la façon dont cette appli
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | délégué | Adresse de messagerie de l’utilisateur pour la communication, la correspondance d’identité et la remise des notifications. | Adresse de messagerie. | [4e820d60-9e62-403c-accd-857b987cc13c](https://docs.microsoft.com/microsoft-365-app-certification/azure/4e820d60-9e62-403c-accd-857b987cc13c) |
 >| Team.ReadBasic.All | délégué | Identificateurs et noms des équipes dont l’utilisateur est un membre direct. Ils sont utilisés pour affecter automatiquement des utilisateurs à des groupes corrects dans l’outil Kanban. | Les identificateurs d’équipe et les noms dont l’utilisateur est un membre direct sont mappés à des groupes dans l’outil Kanban. Cela permet de gérer l’accès basé sur les groupes et de partager des Boards Kanban entre différentes équipes dans la même organisation. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| User.Read | délégué | Informations de base sur l’entreprise des utilisateurs inscrits. Il est utilisé pour remplir les détails du compte des nouveaux comptes et pour reconnaître les utilisateurs qui appartiennent à votre organisation afin de fournir la fonctionnalité Sign-On unique. | Nom et identificateur Microsoft unique de votre organisation. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| offline_access | délégué | Autorise la fonctionnalité « Se connecter avec Microsoft » et la synchronisation des données à qui vous avez donné accès à l’application, lors de la connexion de l’utilisateur. | Conservez l’accès aux données à qui vous avez accordé l’accès. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| offline_access | délégué | Autorise la fonctionnalité « Se connecter avec Microsoft » et la synchronisation des données à qui vous avez accordé l’accès à l’application, lors de la connexion de l’utilisateur. | Conservez l’accès aux données à qui vous avez accordé l’accès. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| openid | délégué | Ouvrez les jetons d’ID qui permettent aux utilisateurs de se connectent à l’application avec leurs comptes professionnels ou scolaires via le bouton « Se connectez avec Microsoft ». | Identificateur immuable pour le compte d’utilisateur dans le système d’identité Microsoft. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| profil | délégué | Nom d’utilisateur à utiliser pour le repas automatique dans l’outil Kanban et rester synchronisé avec les modifications apportées aux Microsoft Teams. | Nom complet de l’utilisateur. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 
@@ -82,7 +82,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nous collectons automatiquement des informations techniques sur votre compte et votre activité dans le service. Ces informations sont stockées dans des fichiers journaux internes et peuvent inclure des données OII et EUII, si elles font partie de l’activité que vous avez réalisée. Nous ne partageons pas de fichiers journaux avec des tiers. L’objectif de la collecte des données du journal est d’obtenir des raisons juridiques et réglementaires, de déterminer la source de toute violation potentielle de la sécurité ou utilisation abusive du service, de limiter le taux de demandes et de profilage des performances.
 
@@ -102,17 +102,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -122,7 +111,7 @@ Ces informations ont été fournies par labs Labs sur la façon dont cette appli
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -140,3 +129,4 @@ Ces informations ont été fournies par labs Labs sur la façon dont cette appli
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

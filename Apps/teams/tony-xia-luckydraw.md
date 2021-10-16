@@ -2,18 +2,18 @@
 title: Informations sur l’application PourDraw par Tony Tale
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/21/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LeDraw, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9a9f6b919b9e803b2a9cb81a2caa504126e4a697
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 32568a24ba4bf4dc00a9076e3f95676c7ba86c29
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283545"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413316"
 ---
 # <a name="luckydraw"></a>LuckyDraw
 
@@ -77,7 +77,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->L’EUII est consigné dans certaines situations. Par exemple, l’utilisateur démarre une activité de dessin de dessin. L’application utilise Azure Application Informations dont la rétention des données est de 90 jours par défaut.
+>L’EUII est consigné dans certaines situations. Par exemple, l’utilisateur démarre une activité de dessin. L’application utilise Azure Application Informations dont la rétention des données est de 90 jours par défaut.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -106,4 +106,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

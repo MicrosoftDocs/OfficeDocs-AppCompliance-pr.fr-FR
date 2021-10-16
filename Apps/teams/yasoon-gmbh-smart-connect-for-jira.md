@@ -1,19 +1,19 @@
 ---
-title: Informations sur l’application pour Smart Connecter Jira par yasoon
+title: Informations sur les applications pour Smart Connecter Jira par yasoon
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/21/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Smart Connecter pour Jira, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a4a5a1ad980bba5214811bea5d981a1705ec4f1f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4342897ef390842396e62798debc54e146a979e3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283515"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413255"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect pour Jira
 
@@ -28,7 +28,7 @@ ms.locfileid: "59283515"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par yasoon ContrôleH à Microsoft :
+Informations fournies par yasoon HarpH à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -55,17 +55,17 @@ Ces informations ont été fournies par yasoon Contrôleh sur la façon dont cet
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | délégué | L’autorisation permet à l’utilisateur de sélectionner l’un de ces canaux joints dans Jira. | ID de canal, à des fins de mise en cache | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
 >| ChannelMessage.Read.Group | application | Permet à l’application d’afficher des messages de canal lié dans Jira. | ID de message pour lier des messages à des problèmes de Jira | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelMessage.Send | délégué | Aucune donnée n’est utilisée, cette API est utilisée pour permettre à l’utilisateur de répondre aux messages de canal à partir de Jira. | Aucun | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelSettings.Read.Group | application | Utilisé pour rechercher des informations détaillées sur un canal. | Aucun | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Chat.ReadWrite | délégué | Permet à l’utilisateur d’ajouter de nouvelles réponses aux conversations et d’afficher les messages de conversation à partir de Jira. | Aucun | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Member.Read.Group | application | Utilisé pour les vérifications d’autorisation, permet à l’application de valider l’appartenance des utilisateurs à l’équipe. | Aucun | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| ChannelMessage.Send | délégué | Aucune donnée n’est utilisée, cette API est utilisée pour permettre à l’utilisateur de répondre aux messages de canal à partir de Jira. | Aucune | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| ChannelSettings.Read.Group | application | Utilisé pour rechercher des informations détaillées sur un canal. | Aucune | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| Chat.ReadWrite | délégué | Permet à l’utilisateur d’ajouter de nouvelles réponses aux conversations et d’afficher les messages de conversation à partir de Jira. | Aucune | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| Member.Read.Group | application | Utilisé pour les vérifications d’autorisation, permet à l’application de valider l’appartenance des utilisateurs à l’équipe. | Aucune | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
 >| Team.ReadBasic.All | délégué | L’autorisation permet à l’utilisateur de sélectionner l’une de ces équipes jointes dans Jira. | ID d’équipe à des fins de mise en cache | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| TeamSettings.Read.Group | application | Permet à l’application de lire les paramètres d’équipe pour respecter certaines valeurs par défaut. | Aucun | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| User.ReadBasic.All | délégué | Permet à l’utilisateur de sélectionner des collègues à @mentionner dans un message de canal | Aucun | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| TeamSettings.Read.Group | application | Permet à l’application de lire les paramètres d’équipe pour respecter certaines valeurs par défaut. | Aucune | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| User.ReadBasic.All | délégué | Permet à l’utilisateur de sélectionner des collègues à @mentionner dans un message de canal | Aucune | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -127,7 +127,7 @@ Ces informations ont été fournies par yasoon ContrôleH sur la façon dont cet
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -144,3 +144,4 @@ Ces informations ont été fournies par yasoon ContrôleH sur la façon dont cet
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

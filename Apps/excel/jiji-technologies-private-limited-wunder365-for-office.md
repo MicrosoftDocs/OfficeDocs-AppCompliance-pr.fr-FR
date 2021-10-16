@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Wunder365 pour Office, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ab9ea33824f66afecc8af8df74754fc7f2dd6d43
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 22da4d3ff5dbfc02a1d9609b1d618a9d1b4d939c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282543"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414218"
 ---
 # <a name="wunder365-for-office"></a>Wunder365 pour Office
 
@@ -33,7 +33,7 @@ Informations fournies par JiJi Technologies Private Limited à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Wunder365 pour Office |
 | ID | WA200001529 |
-| Office 365 clients pris en charge | Excel 2016 ou ultérieur sur Mac, Excel 2013 ou une ultérieure sur Windows, Excel sur le Web, Word 2016 ou ultérieur sur Mac, Word sur le web, Word 2013 ou une Windows, OneNote sur le web |
+| Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2013 ou une ultérieure sur Windows, Excel sur le Web, Word 2016 ou ultérieur sur Mac, Word sur le web, Word 2013 ou une Windows, OneNote sur le web |
 | Nom de la société partenaire | JiJi Technologies Private Limited |
 | URL du site web partenaire | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | URL de la politique de confidentialité | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
@@ -53,7 +53,7 @@ Ces informations ont été fournies par JiJi Technologies Private Limited sur la
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.ReadWrite.All | délégué | Aucune donnée stockée. | Pour obtenir/mettre à jour les tâches du Planificateur, publiez les mises à jour de tâches dans le canal d’équipe | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
 >| Mail.Send | délégué | Aucune donnée stockée. | Autoriser l’application à envoyer des notifications par courrier électronique aux utilisateurs | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
@@ -81,7 +81,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Toutes les applications Web et Stockage ressources sont situées dans un abonnement qui n’est pas connecté à notre entreprise AAD avec uniquement des administrateurs qui ont accès aux ressources. 2FA est requis pour ces administrateurs. 
+>Toutes les applications Web et les ressources Stockage sont situées dans un abonnement qui n’est pas connecté à notre entreprise AAD avec uniquement les administrateurs qui ont accès aux ressources. 2FA est requis pour ces administrateurs. 
 
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
@@ -114,11 +114,11 @@ Ces informations ont été fournies par JiJi Technologies Private Limited sur la
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | Exiger une authentification multifacteur pour les utilisateurs ayant des rôles d’administration, exiger une authentification multifacteur pour les tâches de gestion Azure, bloquer les ouvertures de signature pour les utilisateurs qui tentent d’utiliser des protocoles d’authentification hérités, exiger des emplacements fiables pour l’inscription à l’authentification multifacteur Azure AD, bloquer ou accorder l’accès à partir d’emplacements spécifiques, Blocage du comportement de la signature à risque |
+| Liste des types de stratégies pris en charge | Exiger une authentification multifacteur pour les utilisateurs ayant des rôles d’administration, exiger une authentification multifacteur pour les tâches de gestion Azure, bloquer les ouvertures de signature pour les utilisateurs qui tentent d’utiliser des protocoles d’authentification hérités, Exiger des emplacements fiables pour l’inscription à Azure AD Multi-Factor Authentication, Bloquer ou accorder l’accès à partir d’emplacements spécifiques, Blocage du comportement de la signature à risque |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
@@ -132,3 +132,4 @@ Ces informations ont été fournies par JiJi Technologies Private Limited sur la
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

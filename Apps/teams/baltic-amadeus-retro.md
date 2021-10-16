@@ -2,18 +2,18 @@
 title: Informations sur l’application pour l’Amadeus balte
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Contrôle, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2ccca5bd5160eb1772245841df037d2033f58881
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f9f42dedcf61d229dd925aa095520535e933d7f1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282525"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411883"
 ---
 # <a name="retro"></a>Retro
 
@@ -63,7 +63,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| L’application Dispose de sa propre API Web qui n’est pas considérée comme un service Microsoft. Comme mentionné précédemment, il stocke la messagerie électronique et le nom complet à des fins d’identification et d’affichage de contenu appropriée. Ces données ne sont pas envoyées ailleurs. En outre, Il dispose d’une fonctionnalité facultative pour exporter les données de sprint vers l’espace de l’Atlassian. Pour ce faire, l’utilisateur doit entrer son nom d’utilisateur et son mot de passe. Ces données sont utilisées uniquement pour effectuer des demandes authentifiées à l’api d’api au nom de l’utilisateur et ne sont pas stockées ni enregistrées n’importe où. |  | Il possède sa propre API Web qui est également enregistrée dans azure. Pour pouvoir l’utiliser, l’utilisateur doit être authentifié via la plateforme d’identités Microsoft. L’utilisateur doit être authentifié pour que l’application Puisse serveurr le contenu spécifique de l’utilisateur |
+>| L’application Dispose de sa propre API Web qui n’est pas considérée comme un service Microsoft. Comme mentionné précédemment, il stocke la messagerie électronique et le nom complet à des fins d’identification et d’affichage de contenu appropriée. Ces données ne sont pas envoyées ailleurs. En outre, Il dispose d’une fonctionnalité facultative pour exporter les données de sprint vers l’espace de l’Atlassian. Pour ce faire, l’utilisateur doit entrer son nom d’utilisateur et son mot de passe. Ces données sont utilisées uniquement pour effectuer des demandes authentifiées à l’api d’api au nom de l’utilisateur et ne sont pas stockées ni enregistrées n’importe où. |  | Il possède sa propre API Web qui est également enregistrée dans azure. Pour pouvoir l’utiliser, l’utilisateur doit être authentifié via la plateforme d’identités Microsoft. L’utilisateur doit être authentifié pour que l’application Puisse serveurr du contenu spécifique à l’utilisateur |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -84,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données sont stockées dans la base de données azure sql server. Il est stocké via l’application Dente et le bot DeNto.
+>Les données sont stockées dans la base de données sql server azure. Il est stocké via l’application Denta et le bot Denta.
 Par défaut, le chiffrement transparent des données est activé dans la base de données sql Azure.
 La base de données est verrouillée derrière l’authentification de base.
 
@@ -109,4 +109,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

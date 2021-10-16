@@ -2,18 +2,18 @@
 title: Informations d’application pour HelloSign SharePoint par Dropbox Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/03/2021
+ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour HelloSign pour SharePoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: e50ca05aa40133e0aa57f3b1de23c4c93e10ab45
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: 5ff681f19369a1020cd67e6c161fb1a1dcca135e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378992"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412093"
 ---
 # <a name="hellosign-for-sharepoint"></a>HelloSign for SharePoint
 
@@ -73,13 +73,13 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| https://www.hellosign.com/subprocessors | E-mail, ID de client, ID de site | Projets JN, Inc. dba HelloSign (&#8220;HelloSign&#8221;) utilise certains sous-processus pour vous aider à fournir nos services. Nous utilisons des fournisseurs de services qui peuvent stocker et traiter des données personnelles sur vous et vos utilisateurs finaux (chacun d’eux, un &#8220;Sub-Processor&#8221;). Cette page fournit des informations importantes sur l’identité, l’emplacement et le rôle de ces sous-processeurs matériels. Les termes utilisés sur cette page, mais non définis, ont la signification définie dans notre contrat de conditions d’utilisation (contrat &#8220;contrat&#8221;). |
+>| https://www.hellosign.com/subprocessors | E-mail, ID de client, ID de site | Projets JN, Inc. dba HelloSign (&#8220;HelloSign&#8221;) utilise certains sous-processus pour fournir nos services. Nous utilisons des fournisseurs de services qui peuvent stocker et traiter des données personnelles sur vous et vos utilisateurs finaux (chacun d’eux, une &#8220;Sub-Processor&#8221;). Cette page fournit des informations importantes sur l’identité, l’emplacement et le rôle de ces sous-processeurs matériels. Les termes utilisés sur cette page, mais non définis, ont la signification définie dans notre contrat de conditions d’utilisation (contrat &#8220;contrat&#8221;). |
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -99,17 +99,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -123,7 +112,7 @@ Ces informations ont été fournies par Dropbox Inc. sur la façon dont cette ap
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -135,3 +124,4 @@ Ces informations ont été fournies par Dropbox Inc. sur la façon dont cette ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

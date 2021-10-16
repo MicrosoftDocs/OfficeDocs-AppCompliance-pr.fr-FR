@@ -2,18 +2,18 @@
 title: Informations sur l’application pour le suivi des vacances par le suivi des vacances
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/15/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le suivi des vacances, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 0bd430bb14f85f563d490148f00988fa7634176e
-ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 1acd1c49f70e9571c1ec71dbf110fd898b18d5ca
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59971696"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413265"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par le suivi des vacances sur la façon dont
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | délégué | Nous lisons les ID et les noms des canaux publics lorsque les utilisateurs définissent leurs notifications hebdomadaires ou quotidiennes. | Les utilisateurs peuvent sélectionner un canal dans lequel ils souhaitent recevoir des notifications quotidiennes ou hebdomadaires à partir du suivi des vacances. Lorsqu’un utilisateur choisit son canal préféré, nous stockons l’ID de canal. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| Team.ReadBasic.All | délégué | Nous listons les utilisateurs Microsoft Teams teams joints lors de l’inscription pour permettre aux utilisateurs de sélectionner une équipe qu’ils souhaitent inscrire au suivi des vacances. Ils peuvent également s’inscrire à l’ensemble de leur organisation. | Nous stockons l’ID Microsoft Teams d’équipe d’une équipe sélectionnée uniquement si l’utilisateur s’adeinsse au suivi des vacances en tant qu’équipe unique (et non en tant qu’organisation entière). Nous utilisons les ID d’équipe pour connecter un utilisateur connecté à un compte existant dans le suivi des vacances. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
@@ -82,7 +82,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Le bot peut voir les informations de base sur l’utilisateur qui communique avec le bot. Toutefois, nous ne stockons pas et n’utilisons pas ces informations. Nous utilisons uniquement l’ID de l’utilisateur, l’ID de conversation et un message envoyé à notre bot. | Nous stockons l’adresse e-mail de l’utilisateur, son nom (tel que défini dans Microsoft AAD) et la photo de profil de l’utilisateur (à partir de Microsoft AAD) | Nous utilisons une adresse de messagerie comme identificateur unique pour nos utilisateurs, ainsi que le nom et la photo de profil de l’utilisateur pour permettre aux administrateurs et aux approuveurs de la même société de reconnaître leurs employés dans notre tableau de bord.  |
+>| Le bot peut voir les informations de base sur l’utilisateur qui communique avec le bot. Toutefois, nous ne stockons pas et n’utilisons pas ces informations. Nous utilisons uniquement l’ID de l’utilisateur, l’ID de conversation et un message envoyé à notre bot. | Nous stockons l’adresse e-mail de l’utilisateur, son nom (tel que défini dans microsoft AAD) et la photo de profil de l’utilisateur (à partir de Microsoft AAD) | Nous utilisons une adresse de messagerie comme identificateur unique pour nos utilisateurs, ainsi que le nom et la photo de profil de l’utilisateur pour permettre aux administrateurs et aux approuveurs de la même société de reconnaître leurs employés dans notre tableau de bord.  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -111,9 +111,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -127,8 +127,9 @@ Ces informations ont été fournies par le suivi des vacances sur la façon dont
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

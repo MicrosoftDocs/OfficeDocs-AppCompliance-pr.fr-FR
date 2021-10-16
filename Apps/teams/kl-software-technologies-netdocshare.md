@@ -2,18 +2,18 @@
 title: Informations sur l’application pour netDocShare par technologies logicielles DE LAO
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour netDocShare, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c8e050b7ecf4f4b4b3156e571d6afdcd75a6ceb2
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 853e192cc9e76faf2b8634723cf81e256fcd7140
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282777"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412894"
 ---
 # <a name="netdocshare"></a>netDocShare
 
@@ -74,13 +74,13 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Oui. Nous stockons LES EUII et OII dans une base de données NoSQL Mongo personnalisée hébergée sur Microsoft Azure. Une fois que le client a abandonné son abonnement, nous supprimons ces informations de la base de données ci-dessus.
+>Oui. Nous stockons euii et OII dans une base de données NoSQL Mongo personnalisée hébergée sur Microsoft Azure. Une fois que le client a abandonné son abonnement, nous supprimons ces informations de la base de données ci-dessus.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données d’application sont stockées dans la base de données Mongo NoSQL hébergée sur Microsoft Azure. Les données sont chiffrées et seuls deux administrateurs de notre client Azure y ont accès. 2FA est activé pour tous les comptes d’administrateur et les deux comptes d’administrateur sont des comptes d’utilisateur Azure AD d’entreprise
+>Les données d’application sont stockées dans la base de données Mongo NoSQL hébergée sur Microsoft Azure. Les données sont chiffrées et seuls deux administrateurs de notre client Azure y ont accès. 2FA est activé pour tous les comptes d’administrateur et les deux comptes d’administrateur sont des comptes d’Azure AD d’utilisateurs
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -103,4 +103,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

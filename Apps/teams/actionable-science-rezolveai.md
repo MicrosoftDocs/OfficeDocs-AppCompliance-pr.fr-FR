@@ -2,18 +2,18 @@
 title: Informations sur les applications pour Rezolve.ai par la science actionnable
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Rezolve.ai, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 22c71b78374956fb69f0f3f5fd5fc860d2184363
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b5703e0113d88394c9c0c7a0d6f877a23df68282
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280678"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411983"
 ---
 # <a name="rezolveai"></a>Rezolve.ai
 
@@ -54,7 +54,7 @@ Ces informations ont été fournies par la science actionnable sur la façon don
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | Activer la connexion et lire le profil utilisateur | données de ticket, transcriptions de conversation, utilisation de l’apprentissage | [eb628055-f790-4ef0-9fce-ac95b4c61466](https://docs.microsoft.com/microsoft-365-app-certification/azure/eb628055-f790-4ef0-9fce-ac95b4c61466) |
 
@@ -71,7 +71,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Le nom et le courrier électronique de l’entreprise capturée doivent créer des tickets et générer d’autres problèmes de l’aide | name, email | Pour envoyer des messages électroniques aux utilisateurs et autres utilisateurs de rôles sur les changements d’état et les mises à jour de leurs tickets et flux. |
+>| Le nom et le courrier électronique de l’entreprise capturée doivent créer des tickets et générer d’autres problèmes de l’aide | name, email | Pour envoyer des messages électroniques aux utilisateurs et autres utilisateurs de rôles sur les modifications d’état et les mises à jour de leurs tickets et flux. |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -112,11 +112,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par la science actionnable sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Actionable Science sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -133,3 +133,4 @@ Ces informations ont été fournies par la science actionnable sur la façon don
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

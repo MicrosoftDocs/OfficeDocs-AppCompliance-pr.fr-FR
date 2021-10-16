@@ -2,18 +2,18 @@
 title: Informations sur l’application pour lapope- par-t-elle
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 08/04/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour L’pop, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour L’Pop, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3865c07aca73134fd9029ee0550559d9a4f93fd2
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 28d424f384d8b16ff70e7d00f366c3a0f89f64b5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281325"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412514"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -48,13 +48,13 @@ Informations fournies par Lapop à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par LesisteurPop sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par L’AppPop sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | stocker des données utilisateur telles que. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Lorsque les utilisateurs créent et interagissent avec les décisions, nous les associeons à l’utilisateur, à l’équipe et à l’organisation qui les ont créées. Nous devons également afficher cette propriété dans une expérience utilisateur conviviale. Par conséquent, nous stockons des informations d’affichage, par exemple, l'&#8217;avatar. | permet à l’utilisateur de se connecter et donne à l’application l’accès à son UPN pour activer l'&#8221; de connexion silencieuse : e-mail, nom, oid, tid, givenName, nom de famille, nom de famille, avatar de l’utilisateur(photo), nom complet de l’organisation | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 >| openid | délégué | Stockez des données utilisateur telles que. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Lorsque les utilisateurs créent et interagissent avec les décisions, nous les associeons à l’utilisateur, à l’équipe et à l’organisation qui les ont créées. Nous devons également afficher cette propriété dans une expérience utilisateur conviviale. Par conséquent, nous stockons des informations d’affichage, par exemple, l'&#8217;avatar. | Pour implémenter &#8220;se Teams&#8221; sur notre application web. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
@@ -73,7 +73,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Nous accédons aux données de prénom/nom d’affichage afin d’afficher avec précision les actions entreprises par des utilisateurs spécifiques en relation avec une décision. Nous utilisons l’adresse de messagerie comme identificateur unique pour chaque utilisateur dans notre base de données, car nous permettons à chaque utilisateur d’appartenir à plusieurs organisations. Nous accédons uniquement à ces données lorsqu’ils interagissent avec notre application, par exemple s’ils répondent à un sondage. | Nous stockons les données de prénom/nom d’affichage afin d’afficher avec précision les actions entreprises par des utilisateurs spécifiques en relation avec une décision.  Nous stockons l’adresse de messagerie, car nous l’utilisons comme identificateur unique pour chaque utilisateur dans notre base de données, car nous permettons à chaque utilisateur d’appartenir à plusieurs organisations. Nous stockons ces données uniquement lorsqu’ils interagissent avec notre application, par exemple s’ils répondent à un sondage. Nos données de décision sont supposées être un système d’enregistrement pour les décisions. Il est donc important que nous stockions les données pour identifier la façon dont chaque utilisateur impliqué dans une décision a contribué à cette décision. |  |
+>| Nous accédons aux données de prénom/nom d’affichage afin d’afficher avec précision les actions entreprises par des utilisateurs spécifiques en relation avec une décision. Nous utilisons l’adresse de messagerie comme identificateur unique pour chaque utilisateur dans notre base de données, car nous permettons à chaque utilisateur d’appartenir à plusieurs organisations. Nous accédons uniquement à ces données lorsqu’ils interagissent avec notre application, par exemple s’ils répondent à un sondage. | Nous stockons les données de prénom/nom d’affichage afin d’afficher avec précision les actions entreprises par des utilisateurs spécifiques en relation avec une décision.  Nous stockons l’adresse de messagerie, car nous l’utilisons comme identificateur unique pour chaque utilisateur dans notre base de données, car nous permettons à chaque utilisateur d’appartenir à plusieurs organisations. Nous stockons ces données uniquement lorsqu’ils interagissent avec notre application, par exemple s’ils répondent à un sondage. Nos données de décision sont supposées être un système d’enregistrement des décisions. Il est donc important que nous stockions les données pour identifier la façon dont chaque utilisateur impliqué dans une décision a contribué à cette décision. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -115,4 +115,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

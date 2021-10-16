@@ -1,19 +1,19 @@
 ---
-title: Informations d’application pour CatchEm par chimu Software
+title: Informations sur l’application catchem par chimu software
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/27/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour CatchEm, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bdac27ddbc3148644562af20f8f6d415a56903d9
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e31f99d6714482327267658bac0e61499572491e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282165"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413876"
 ---
 # <a name="catchem"></a>CatchEm
 
@@ -55,14 +55,14 @@ Ces informations ont été fournies par Chimu Software sur la façon dont cette 
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Chat.ReadBasic | délégué | Cette autorisation est nécessaire pour déterminer les contacts d’un utilisateur de l’application. AadObjectId : pour identifier un utilisateur de manière unique. TenantId : pour déterminer si un contact est interne ou externe à l’utilisateur. DisplayName, GivenName, Surname : pour identifier les contacts des utilisateurs de l’application. Adresse de messagerie, UserPrincipalName : pour faire la distinction entre les contacts du même nom et autoriser la fonctionnalité de clic &quot; sur &quot; la conversation. ID de conversation le plus récent : pour activer &quot; la fonctionnalité Cliquer pour &quot; discuter | Cette autorisation est nécessaire pour déterminer les contacts d’un utilisateur de l’application. AadObjectId : pour identifier un utilisateur de manière unique. TenantId : pour déterminer si un contact est interne ou externe à l’utilisateur. DisplayName, GivenName, Surname : pour identifier les contacts des utilisateurs de l’application. Adresse de messagerie, UserPrincipalName : pour faire la distinction entre les contacts du même nom et autoriser la fonctionnalité de clic &quot; sur &quot; la conversation. ID de conversation le plus récent : pour activer &quot; la fonctionnalité Cliquer pour &quot; discuter | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 >| People.Read | délégué | Pour améliorer la précision des données pour les contacts externes. DisplayName : pour identifier les contacts des utilisateurs de l’application. | Pour améliorer la précision des données pour les contacts externes. DisplayName : pour identifier les contacts des utilisateurs de l’application. | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
->| Presence.Read.All | délégué | État de présence actuel des contacts | N/A | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
->| TeamsActivity.Send | les deux | Pour envoyer des notifications aux utilisateurs lorsqu’un statut de présence des contacts change | N/A | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
->| TeamsAppInstallation.ReadWriteSelfForUser | délégué | Pour activer les mises à jour automatiques pour l’application | N/A | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
->| User.Read | délégué | AadObjectId : pour identifier un utilisateur de manière unique. TenantId : pour déterminer si un contact est interne ou externe à l’utilisateur. DisplayName, GivenName, Surname : pour identifier les contacts des utilisateurs de l’application. E-mail, adresses de messagerie instantanée, UserPrincipalName : pour faire la distinction entre les contacts du même nom et autoriser la fonctionnalité de clic &quot; &quot; pour la conversation. CompanyName, Country: Analytics. AccountEnabled, DeletedDateTime : suppression automatique des données utilisateur pour les utilisateurs désactivés | AadObjectId : pour identifier un utilisateur de manière unique. TenantId : pour déterminer si un contact est interne ou externe à l’utilisateur. DisplayName, GivenName, Surname : pour identifier les contacts des utilisateurs de l’application. E-mail, adresses de messagerie instantanée, UserPrincipalName : pour faire la distinction entre les contacts du même nom et autoriser la fonctionnalité de clic &quot; &quot; pour la conversation. CompanyName, Country: Analytics. AccountEnabled, DeletedDateTime : suppression automatique des données utilisateur pour les utilisateurs désactivés | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
+>| Presence.Read.All | délégué | État de présence actuel des contacts | S/O | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
+>| TeamsActivity.Send | les deux | Pour envoyer des notifications aux utilisateurs lorsqu’un statut de présence des contacts change | S/O | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
+>| TeamsAppInstallation.ReadWriteSelfForUser | délégué | Pour activer les mises à jour automatiques pour l’application | S/O | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
+>| User.Read | délégué | AadObjectId : pour identifier un utilisateur de manière unique. TenantId : pour déterminer si un contact est interne ou externe à l’utilisateur. DisplayName, GivenName, Surname : pour identifier les contacts des utilisateurs de l’application. Messagerie électronique, adresses de messagerie instantanée, UserPrincipalName : pour faire la distinction entre les contacts du même nom et autoriser la fonctionnalité de clic &quot; &quot; pour la conversation. CompanyName, Country: Analytics. AccountEnabled, DeletedDateTime : suppression automatique des données utilisateur pour les utilisateurs désactivés | AadObjectId : pour identifier un utilisateur de manière unique. TenantId : pour déterminer si un contact est interne ou externe à l’utilisateur. DisplayName, GivenName, Surname : pour identifier les contacts des utilisateurs de l’application. Messagerie électronique, adresses de messagerie instantanée, UserPrincipalName : pour faire la distinction entre les contacts du même nom et autoriser la fonctionnalité de clic &quot; &quot; pour la conversation. CompanyName, Country: Analytics. AccountEnabled, DeletedDateTime : suppression automatique des données utilisateur pour les utilisateurs désactivés | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 >| User.ReadBasic.All | délégué | Pour améliorer la précision des données pour les contacts internes. AadObjectId : pour identifier un utilisateur de manière unique. TenantId : pour déterminer si un contact est interne ou externe à l’utilisateur. DisplayName, GivenName, Surname : pour identifier les contacts des utilisateurs de l’application. Adresse de messagerie, UserPrincipalName : pour faire la distinction entre les contacts du même nom et autoriser la fonctionnalité de clic &quot; sur &quot; la conversation. | Pour améliorer la précision des données pour les contacts internes. AadObjectId : pour identifier un utilisateur de manière unique. TenantId : pour déterminer si un contact est interne ou externe à l’utilisateur. DisplayName, GivenName, Surname : pour identifier les contacts des utilisateurs de l’application. Adresse de messagerie, UserPrincipalName : pour faire la distinction entre les contacts du même nom et autoriser la fonctionnalité de clic &quot; sur &quot; la conversation. | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 >| offline_access | délégué | Graph de sécurité, pour permettre à l’application de notifier les modifications de présence des contacts et de mettre à jour les listes de contacts lorsque l’utilisateur n’utilise pas activement l’application | Graph de sécurité | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 
@@ -79,7 +79,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| La balise de la fonctionnalité de message doit utiliser le nom complet du &quot; &quot; contact pour s’afficher à l’utilisateur de l’application. | Nom complet du contact | Pour être en mesure de présenter le nom du contact à l’utilisateur de l’application |
+>| La balise de la fonctionnalité de message doit utiliser le nom complet du &quot; contact &quot; pour l’afficher à l’utilisateur de l’application. | Nom complet du contact | Pour être en mesure de présenter le nom du contact à l’utilisateur de l’application |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -92,7 +92,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->N/A
+>S/O
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -124,7 +124,7 @@ Ces informations ont été fournies par Chimu Software sur la façon dont cette 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -141,3 +141,4 @@ Ces informations ont été fournies par Chimu Software sur la façon dont cette 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

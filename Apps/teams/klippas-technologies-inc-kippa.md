@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pourPépa par KLIPPAS Technologies inc.
+title: Informations sur l’application pour Lepapa par KLIPPAS Technologies inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 10/13/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Catalogpa, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7ead43ebca3ff707255791bc6286db40565890a3
-ms.sourcegitcommit: d49943662d5e28a9c1289ee23318818f1f68ff96
+ms.openlocfilehash: ac1bcae2a1f1145620e225add7cb827160fddc4d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60340855"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412884"
 ---
 # <a name="kippa"></a>Pérpa
 
@@ -70,7 +70,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Pour résoudre les @mentions dans les rappels | Le nom et le GUID de l’utilisateur sont stockés dans leurs rappels | Pour permettre à Ellepa d’envoyer ses rappels à l’échéance |
+>| Pour résoudre les @mentions dans les rappels | Le nom et le GUID de l’utilisateur sont stockés dans leurs rappels | Pour permettre à Cespa de leur envoyer leurs rappels à l’échéance |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -95,17 +95,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -119,7 +108,7 @@ Ces informations ont été fournies par KLIPPAS Technologies inc. sur la façon 
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | Tout comme Microsoft Teams, les utilisateurs doivent se Teams pour accéder à LasPa. |
+| Liste des types de stratégies pris en charge | Tout comme Microsoft Teams, les utilisateurs doivent se Teams pour accéder à Lapa. |
 | Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
@@ -133,3 +122,4 @@ Ces informations ont été fournies par KLIPPAS Technologies inc. sur la façon 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

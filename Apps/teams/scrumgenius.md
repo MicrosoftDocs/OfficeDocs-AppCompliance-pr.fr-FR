@@ -2,18 +2,18 @@
 title: Informations d’application pour ScrumGenius par ScrumGenius
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/25/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ScrumGenius, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: be8873fecd5dc50ab4db6def68c7c25f73e677fd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f6e7f801c1a09f6624fe181fd9242bcbc9007844
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281158"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414078"
 ---
 # <a name="scrumgenius"></a>ScrumGenius
 
@@ -54,7 +54,7 @@ Ces informations ont été fournies par ScrumGenius sur la façon dont cette app
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | délégué | Dates de vacances définies dans le calendrier de l’utilisateur. | Pour que les utilisateurs synchronisent leurs vacances avec ScrumGenius. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | délégué | Nom et adresse e-mail de l’utilisateur. | Pour permettre à l’utilisateur de se connecter à l’aide de la connexion Microsoft. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -72,7 +72,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Nous accédons à la liste de l’équipe. Ainsi, lorsqu’un administrateur d’équipe installe scrumgenius, nous pouvons synchroniser le reste de la liste de l’équipe avec scrumgenius afin de pouvoir les intégrer à notre plateforme pour être en mesure de configurer un rapport de support et d’affecter les membres de l’équipe qui doivent obtenir le rapport. | prénom, nom, nom d’affichage, adresse e-mail |  |
+>| Nous accédons à la liste de l’équipe. Ainsi, lorsqu’un administrateur d’équipe installe scrumgenius, nous pouvons synchroniser le reste de la liste de l’équipe avec scrumgenius afin de pouvoir les intégrer à notre plateforme pour être en mesure de configurer un rapport de standup et d’affecter les membres de l’équipe qui doivent obtenir le rapport. | prénom, nom, nom d’affichage, adresse e-mail |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -103,4 +103,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Informations d’application pour MailClark par MailClark
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/29/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MailClark, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3e9c01b76c513fd0786b27a0447a70c1f9c9d7e0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e6ca42781075001c4f78fdf52c09dd6ab51039d6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281668"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412213"
 ---
 # <a name="mailclark"></a>MailClark
 
@@ -55,12 +55,12 @@ Ces informations ont été fournies par MailClark sur la façon dont cette appli
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Mail.ReadWrite | application |  | Lecture : Pour abonner des notifications Push pour les e-mails entrants. Écriture : pour créer des brouillons. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.ReadWrite | application |  | Lecture : pour abonner des notifications Push pour les e-mails entrants. Écriture : pour créer des brouillons. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.Send | application |  | Pour envoyer des brouillons. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | application | Détails du compte, par exemple, adresse de messagerie. | Pour identifier le compte. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| offline_access | application | Jeton d’actualisation | Pour renouveler l’authentification jusqu’à ce que le compte soit déconnecté. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | application | Jeton d’actualisation | Renouveler l’authentification jusqu’à ce que le compte soit déconnecté. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| openid | application |  | Obligatoire pour l’authentification. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| profil | application |  | Pour authentifier l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
@@ -108,4 +108,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

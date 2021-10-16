@@ -2,18 +2,18 @@
 title: Informations sur l’application pour HeyTaco! par HeyTaco!
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/09/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour HeyTaco!, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7b4641b33166043dd311bdd89568c9eaea4b87a1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e52056b40599ab98a69a6a93e7b2187ddf5f3765
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282999"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412373"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
@@ -54,7 +54,7 @@ Ces informations ont été fournies par HeyTaco ! sur la façon dont cette appli
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | délégué | utilisé pour faire correspondre l’utilisateur pour les transferts de données de Slack vers MS Teams | utilisé pour faire correspondre l’utilisateur pour les transferts de données de Slack vers MS Team | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 >| openid | délégué | utilisé pour se connecter à HeyTaco ! | utilisé pour se connecter à HeyTaco ! | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
@@ -73,7 +73,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Pour indiquer à l’utilisateur qu’il a reçu un reçu et de qui il s’agit. | Adresse de messagerie (pour les migrations d’une plateforme à une autre) Nom (pour le message d’accueil de l’utilisateur) Image de profil (pour l’affichage dans le classement) Fuseau horaire (pour afficher correctement les informations données sur la page d’activité) ID de locataire (Pour l’agrégation des données par client) ID d’équipe (Pour l’agrégation des données par équipe)  |  |
+>| Pour indiquer à l’utilisateur qu’il a reçu un reçu et de qui il s’agit. | Adresse de messagerie (pour les activités de migration d’une plateforme à une autre) Image de profil nom (pour le message d’accueil de l’utilisateur) Fuseau horaire (pour afficher correctement les messages donnés sur la page d’activité) ID de locataire (pour l’agrégation des données par client) ID d’équipe (Pour l’agrégation des données par équipe)  |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -88,7 +88,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 >HeyTaco! les bases de données et les sauvegardes de données sont hébergées sur Amazon Web Services (AWS). 
 
-Les opérations du centre de données Amazon ont été agréées sous ISO 27001 , SOC 1 et SOC 2/SSAE 16/ISAE 3402 (précédemment SAS 70 Type II ), PCI Niveau 1 , FISMA Modéré et Sarbanes-Oxley (SOX).
+Les opérations du centre de données Amazon ont été agréées sous ISO 27001 , SOC 1 et SOC 2/SSAE 16/ISAE 3402 (précédemment SAS 70 Type II ), PCI Niveau 1 , MODÉRÉ FISMA et Sarbanes-Oxley (SOX).
 
 Lorsque vous envoyez des informations via notre service, vos informations sont protégées et chiffrées au repos et en transit via des connexions sécurisées. Nous implémentons diverses mesures de sécurité pour maintenir la sécurité de vos informations personnelles.
 
@@ -115,4 +115,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

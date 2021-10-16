@@ -2,18 +2,18 @@
 title: Informations sur l’application pour les décisions prises par décision
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/02/2021
+ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les décisions, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 19a710fc8edbcb5243b81755ce3d61e8bcaa5b25
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 99e01d0ad5874c62f51a3f78b5b612766f397ea1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282136"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415141"
 ---
 # <a name="decisions"></a>Décisions
 
@@ -28,7 +28,7 @@ ms.locfileid: "59282136"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par les décisions prises à l’aide de Microsoft :
+Informations fournies par les décisions à l’aide de Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -55,7 +55,7 @@ Ces informations ont été fournies par des décisions sur la façon dont cette 
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | délégué | Permet de lire les informations du calendrier de l&#8217;pour activer des fonctionnalités telles que la liste de réunions et la recherche. Elle permet également à l’utilisateur de supprimer des réunions spécifiques du calendrier lorsque l’élément est supprimé des décisions. | Les données client sont stockées dans le client&#8217;client Office 365 client et que toutes les données client sont traitées sur les appareils du client uniquement. La base de données Decisions conserve uniquement les références aux objets dans le client Office 365 clients, et non aux données réelles. Pour plus https://www.meetingdecisions.com/security-and-privacy d’informations, voir. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
 >| Chat.ReadWrite | délégué | Utilisé pour envoyer des décisions de vote et créer des listes de haut-parleurs pour des éléments d’ordre du jour individuels directement à la Microsoft Teams conversation de réunion. | Les données client sont stockées dans le client&#8217;client Office 365 client et que toutes les données client sont traitées sur les appareils du client uniquement. La base de données Decisions conserve uniquement les références aux objets dans le client Office 365 clients, et non aux données réelles. Pour plus https://www.meetingdecisions.com/security-and-privacy d’informations, voir. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
@@ -67,7 +67,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| MailboxSettings.Read | délégué | Permet d’identifier un utilisateur&#8217;préférences de langue. | Les données client sont stockées dans le client&#8217;client Office 365 client et que toutes les données client sont traitées sur les appareils du client uniquement. La base de données Decisions conserve uniquement les références aux objets dans le client Office 365 clients, et non aux données réelles. Pour plus https://www.meetingdecisions.com/security-and-privacy d’informations, voir. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
 >| Notes.ReadWrite | délégué | Permet de configurer des blocs-notes privés pour les réunions afin de prendre des notes et de préparer des remarques et des questions. Il permet également de stocker les minutes de réunion de groupe dans leur bloc-notes partagé OneNote, si le groupe choisit d’utiliser OneNote. | Les données client sont stockées dans le client&#8217;client Office 365 client et que toutes les données client sont traitées sur les appareils du client uniquement. La base de données Decisions conserve uniquement les références aux objets dans le client Office 365 clients, et non aux données réelles. Pour plus https://www.meetingdecisions.com/security-and-privacy d’informations, voir. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
 >| Sites.ReadWrite.All | délégué | Utilisez cette propriété pour créer des structures de dossiers dans des canaux privés pour les informations de réunion. | Les données client sont stockées dans le client&#8217;client Office 365 client et que toutes les données client sont traitées sur les appareils du client uniquement. La base de données Decisions conserve uniquement les références aux objets dans le client Office 365 clients, et non aux données réelles. Pour plus https://www.meetingdecisions.com/security-and-privacy d’informations, voir. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Tasks.ReadWrite | délégué | Utilisé pour synchroniser les tâches et les décisions avec le Planificateur Microsoft. Il permet également aux utilisateurs d’exporter des tâches et des décisions vers Excel. | Les données client sont stockées dans le client&#8217;client Office 365 client et que toutes les données client sont traitées sur les appareils du client uniquement. La base de données Decisions conserve uniquement les références aux objets dans le client Office 365 clients, et non aux données réelles. Pour plus https://www.meetingdecisions.com/security-and-privacy d’informations, voir. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Tasks.ReadWrite | délégué | Utilisé pour synchroniser les tâches et les décisions avec le Planificateur Microsoft. Il permet également aux utilisateurs d’exporter des tâches et des décisions à Excel. | Les données client sont stockées dans le client&#8217;client Office 365 client et que toutes les données client sont traitées sur les appareils du client uniquement. La base de données Decisions conserve uniquement les références aux objets dans le client Office 365 clients, et non aux données réelles. Pour plus https://www.meetingdecisions.com/security-and-privacy d’informations, voir. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
 >| TeamsAppInstallation.ReadWriteForUser | délégué | Requis pour installer par programme l’application Décisions dans la conversation. Cela est obligatoire avant d’ajouter l’onglet Décisions pour l’expérience de réunion. | Les données client sont stockées dans le client&#8217;client Office 365 client et que toutes les données client sont traitées sur les appareils du client uniquement. La base de données Decisions conserve uniquement les références aux objets dans le client Office 365 clients, et non aux données réelles. Pour plus https://www.meetingdecisions.com/security-and-privacy d’informations, voir. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
 >| TeamsAppInstallation.ReadWriteForUser.All | délégué | Requis pour installer par programme l’application Décisions dans la conversation. Cela est obligatoire avant d’ajouter l’onglet Décisions pour l’expérience de réunion. | Les données client sont stockées dans le client&#8217;client Office 365 client et que toutes les données client sont traitées sur les appareils du client uniquement. La base de données Decisions conserve uniquement les références aux objets dans le client Office 365 clients, et non aux données réelles. Pour plus https://www.meetingdecisions.com/security-and-privacy d’informations, voir. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
 >| TeamsTab.Create | délégué | Ajout de l’onglet Réunion/Canal dans Teams. | Les données client sont stockées dans le client&#8217;client Office 365 client et que toutes les données client sont traitées sur les appareils du client uniquement. La base de données Decisions conserve uniquement les références aux objets dans le client Office 365 clients, et non aux données réelles. Pour plus https://www.meetingdecisions.com/security-and-privacy d’informations, voir. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
@@ -99,7 +99,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données fournies par le client lors de l’utilisation du logiciel sont uniquement disponibles pour le client.  Le service est livré sur les services Microsoft Office 365 cloud et les Microsoft Azure. Toutes les données client sont stockées dans le client Microsoft Office 365 client. Toutes les données stockées ou traitées sur le service sont anonymes et ne sont pas accessibles à des personnes individuelles. De ce fait, les décisions ne stockent, ne collectent pas ou ne traitéent pas de données personnelles pour le compte du client.
+>Les données fournies par le client lors de l’utilisation du logiciel sont uniquement disponibles pour le client.  Le service est livré sur les services Microsoft Office 365 cloud et les Microsoft Azure. Toutes les données client sont stockées dans le client Microsoft Office 365 client. Toutes les données stockées ou traitées sur le service sont anonymes et ne sont pas accessibles à des personnes individuelles. De ce fait, les décisions ne stockent, ne collectent pas ou ne traitéent pas de données personnelles au nom du client.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -111,17 +111,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -131,7 +120,7 @@ Ces informations ont été fournies par des décisions sur la façon dont cette 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
@@ -150,3 +139,4 @@ Ces informations ont été fournies par des décisions sur la façon dont cette 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

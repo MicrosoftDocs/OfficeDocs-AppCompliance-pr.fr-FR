@@ -2,18 +2,18 @@
 title: Informations d’application pour InCaseIT par Pilotech AS
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/03/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour InCaseIT, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: dbc393582f4146c8cf9b44da122b35629df59a83
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 22e675ac91be216175d16271e1f0d2f7339fc36b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785578"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414981"
 ---
 # <a name="incaseit"></a>InCaseIT
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Pilotech AS sur la façon dont cette app
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | délégué | Les seules données utilisées sont la confirmation explicite par les utilisateurs d’autoriser l’application à utiliser un jeton d’accès pour appeler Graph API. | Notre application stocke uniquement un lien vers la réunion prévue pour faciliter l’accessibilité des réunions pour les utilisateurs.  Exemple. 1. Créez une réunion Teams prévue. 2. Enregistrez le lien de réunion dans la base de données 3. Utilisez le lien de réunion d’un bouton dans l’application pour accéder facilement à la réunion. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](https://docs.microsoft.com/microsoft-365-app-certification/azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71) |
 >| OnlineMeetings.ReadWrite | délégué | Les seules données utilisées sont la confirmation explicite par les utilisateurs d’autoriser l’application à utiliser un jeton d’accès pour appeler Graph API. | Notre application stocke uniquement un lien vers la réunion en ligne pour faciliter l’accessibilité des réunions pour les utilisateurs.  Exemple. 1. Créez une Teams en ligne. 2. Enregistrez le lien de réunion dans la base de données 3. Utilisez le lien de réunion d’un bouton dans l’application pour accéder facilement à la réunion. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](https://docs.microsoft.com/microsoft-365-app-certification/azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71) |
@@ -79,7 +79,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->L’EUII peut apparaître dans les journaux des applications lors de l’envoi de communications aux équipes de gestion de crise interne en cas de crise. Les stratégies de suppression des journaux sont que nous allons enregistrer un maximum de 3 mois de journaux. Ceux-ci peuvent toutefois être supprimés sur demande si nécessaire. 
+>L’EUII peut apparaître dans les journaux des applications lors de l’envoi de communications aux équipes de gestion de crise interne en cas de crise. Les stratégies de suppression des journaux sont que nous allons enregistrer un maximum de 3 mois de journaux. Ces éléments peuvent toutefois être supprimés sur demande si nécessaire. 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -97,17 +97,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,7 +106,7 @@ Ces informations ont été fournies par Pilotech AS sur la façon dont cette app
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -135,3 +124,4 @@ Ces informations ont été fournies par Pilotech AS sur la façon dont cette app
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
