@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Live Chat, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 52b8aa65ce11acbe157d61bd46a6f0fee67f9bc6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b0fff6d4f5f7fce95b06d5a54bc0e9d178e2ce63
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282933"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410868"
 ---
 # <a name="live-chat"></a>Conversation en direct
 
@@ -49,7 +49,7 @@ Informations fournies par les réseaux sociaux à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par social intents about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.
+Ces informations ont été fournies par les réseaux sociaux sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Le courrier électronique et le nom peuvent s’afficher dans les journaux quotidiens qui sont supprimés/supprimés toutes les heures.
 
@@ -115,8 +115,9 @@ Ces informations ont été fournies par social Intents sur la façon dont cette 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

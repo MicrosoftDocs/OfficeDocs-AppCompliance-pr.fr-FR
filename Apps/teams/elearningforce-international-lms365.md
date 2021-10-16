@@ -2,18 +2,18 @@
 title: Informations sur l’application pour LMS365 par ELEARNINGFORCE International
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/28/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour LMS365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5a88349d6fa62769d528c66baeb428b791a007b0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 37053d460cd8619379f7a2e5b3f581f789d00986
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283762"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410267"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -54,17 +54,17 @@ CES informations ont été fournies par ELEARNINGFORCE International sur la faç
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| GroupMember.Read.All | application | Aucun | Permet à l’application de développer les membres du groupe AD, ce qui est nécessaire pour inscrire un groupe d’utilisateurs aux cours. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| Mail.Send | délégué | Aucun | L’autorisation est demandée dynamiquement lors de la configuration du compte de messagerie pour la notification. Permet à l’application d’envoyer des courriers électroniques de notification | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| GroupMember.Read.All | application | Aucune | Permet à l’application de développer les membres du groupe AD, ce qui est nécessaire pour inscrire un groupe d’utilisateurs aux cours. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| Mail.Send | délégué | Aucune | L’autorisation est demandée dynamiquement lors de la configuration du compte de messagerie pour la notification. Permet à l’application d’envoyer des courriers électroniques de notification | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| OnlineMeetings.ReadWrite | délégué | L’autorisation est demandée dynamiquement lors de la configuration du compte de messagerie pour la notification. Permet à une application de créer et de lire des réunions en ligne | L’URL de réunion en ligne est stockée en tant que référence dans l’entité de session de cours | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| RoleManagement.Read.Directory | application | Aucun | Permet à l’application d’obtenir SharePoint domaine pendant la mise en service du client. Le domaine est utilisé pour la construction d’URL. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| User.Invite.All | délégué | Aucun | Permet à l’application d’inviter des utilisateurs externes au nom de l’utilisateur actuellement connecté | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| User.Read | délégué | Aucun | Connectez-vous et lisez le profil utilisateur. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| User.Read.All | délégué | Aucun | Permet à l’application de lire le profil complet de l’utilisateur actuellement connecté. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| User.Read.All | application | Permet à l’application de lire le profil utilisateur complet. Il est&#8217;lire les utilisateurs et les responsables&#8217; pour créer des rapports de hiérarchie. | Les données personnelles suivantes sont stockées dans une base de données dédiée pour le client respectif utilisé pour les fonctionnalités du tableau de bord du Gestionnaire de gestion &amp; de l’apprentissage au sein de l’application. Nom du compte, nom complet de l’utilisateur, adresse e-mail, service, fonction, Office, pays, ville, ID de gestionnaire/e-mail | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| profil | délégué | Aucun | Afficher le profil de base de l’utilisateur. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| RoleManagement.Read.Directory | application | Aucune | Permet à l’application d’obtenir SharePoint domaine pendant la mise en service du client. Le domaine est utilisé pour la construction d’URL. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Invite.All | délégué | Aucune | Permet à l’application d’inviter des utilisateurs externes au nom de l’utilisateur actuellement connecté | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read | délégué | Aucune | Connectez-vous et lisez le profil utilisateur. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | délégué | Aucune | Permet à l’application de lire le profil complet de l’utilisateur actuellement connecté. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | application | Permet à l’application de lire le profil utilisateur complet. Il est&#8217;lire les utilisateurs et les responsables&#8217; pour créer des rapports de hiérarchie. | Les données personnelles suivantes sont stockées dans une base de données dédiée pour le client respectif utilisé pour les fonctionnalités du tableau de bord Du gestionnaire de gestion &amp; de l’apprentissage au sein de l’application. Nom du compte, nom complet de l’utilisateur, adresse e-mail, service, fonction, Office, pays, ville, ID de gestionnaire/e-mail | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| profil | délégué | Aucune | Afficher le profil de base de l’utilisateur. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
@@ -91,7 +91,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui, nous utilisons la télémétrie/les journaux Informations Log Analytics qui sont utilisés uniquement pour la prise de vue des problèmes et qui ont une stratégie de rétention de 90 jours après laquelle toutes les données sont supprimées.
 
@@ -131,12 +131,12 @@ Ces informations ont été fournies par ELEARNINGFORCE International sur la faç
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Plateformes d’appareil, état de l’appareil, applications clientes |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -149,3 +149,4 @@ Ces informations ont été fournies par ELEARNINGFORCE International sur la faç
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

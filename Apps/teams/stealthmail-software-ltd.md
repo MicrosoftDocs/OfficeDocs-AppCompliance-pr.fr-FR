@@ -1,19 +1,19 @@
 ---
-title: Informations sur l’application pour La messagerie indélisée par Ltn Software Ltd
+title: Informations sur l’application pour Lemailassagermail par Ltn Software Ltd
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/31/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour La messagerie inttérable, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 322cdc906ab0cd2ae8980d1412bb4dd9c897a5f6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 117f7c791048373b4e1d985c991b001f5aa595dd
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282045"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60407363"
 ---
 # <a name="stealthmail"></a>StealthMail
 
@@ -55,15 +55,15 @@ Ces informations ont été fournies par La Société d’accès à l’informati
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMessage.Read.All | délégué | L’application envoie le message au canal avec la référence sur le courrier électronique sécurisé créé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 >| ChannelMessage.Send | délégué | L’application envoie le message au canal avec la référence sur le courrier électronique sécurisé créé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 >| Chat.ReadWrite | délégué | L’application envoie le message pour discuter avec la référence sur le courrier électronique sécurisé créé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
->| GroupMember.Read.All | délégué | L’application obtient les membres du canal pour sécuriser les e-mails pour eux | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
+>| GroupMember.Read.All | délégué | L’application obtient les membres du canal pour rendre la messagerie sécurisée pour eux | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 >| User.Read.All | délégué | L’application obtient les membres de conversation pour sécuriser les e-mails pour eux | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 >| User.ReadBasic.All | délégué | L’application obtient les membres de conversation pour sécuriser les e-mails pour eux | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
->| email | délégué | Utilisateur authentifié | rien stocker dans la base de données | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
+>| email | délégué | Authentifier l’utilisateur | rien stocker dans la base de données | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -121,7 +121,7 @@ Ces informations ont été fournies par Authenticationmail Software Ltd sur la f
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -139,3 +139,4 @@ Ces informations ont été fournies par Authenticationmail Software Ltd sur la f
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

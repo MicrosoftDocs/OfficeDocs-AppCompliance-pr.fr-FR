@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le bien-être scolaire, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9b953bd648ecc795e57e22dd505676d755b1ee32
-ms.sourcegitcommit: d49943662d5e28a9c1289ee23318818f1f68ff96
+ms.openlocfilehash: babc51460ddb23fd19007f2ebfc8ebab00300a69
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60337907"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408423"
 ---
 # <a name="school-day-wellbeing"></a>Bien-être de la journée scolaire
 
@@ -109,17 +109,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -133,7 +122,7 @@ Ces informations ont été fournies par School Day Oy sur la façon dont cette a
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -146,3 +135,4 @@ Ces informations ont été fournies par School Day Oy sur la façon dont cette a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Informations d’application pour Good4work par Good4work
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/15/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Good4work, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3d6854fcf2b53d1eb7baefb2f64d258365d5bdaf
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 88316601077073b99109491c06b949dd27a0c944
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281523"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410240"
 ---
 # <a name="good4work"></a>Good4work
 
@@ -113,8 +113,9 @@ Ces informations ont été fournies par Good4work sur la façon dont cette appli
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

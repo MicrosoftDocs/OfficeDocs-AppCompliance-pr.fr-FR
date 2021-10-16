@@ -2,18 +2,18 @@
 title: Informations d’application pour myOKR par SOE Technologies
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/18/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour myOKR, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 94d5b0056961f509423819a04160e87bb4b5e3e0
-ms.sourcegitcommit: e339fa9776aae99797dbc1f0a28932e71b4eb823
+ms.openlocfilehash: c4a3e8872b8042f0114925c0e89de12b98ef5440
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60131753"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411469"
 ---
 # <a name="myokr"></a>myOKR
 
@@ -55,11 +55,11 @@ Ces informations ont été fournies par SOE Technologies sur la façon dont cett
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Obtenir les détails du calendrier utilisateur pour créer une réunion 1:1 dans le calendrier de l’utilisateur, mettre à jour ou supprimer une réunion créée par ma plateformeOKR et afficher les créneaux horaires libres | Nous stockons l’ID de calendrier créé et l’URL de jointage dans la base de données pour les réunions créées dans ma plateformeOKR | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
+>| Calendars.ReadWrite | délégué | Obtenir les détails du calendrier utilisateur pour créer une réunion 1:1 dans le calendrier de l’utilisateur, mettre à jour ou supprimer une réunion créée par ma plateformeOKR et afficher les créneaux horaires libres | Nous stockons l’ID de calendrier créé et l’URL de jointage dans la base de données pour les réunions créées dans la plateforme myOKR | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
 >| User.Read | délégué | Nous utilisons l’ID d’objet azure de l’utilisateur pour faire en sorte que l’utilisateur se connecte à mon applicationOKR à l’aide de l’authentification Microsoft par rapport au courrier électronique | messagerie utilisateur et ID d’objet azure active | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| User.Read.All | application | Synchronisez les informations utilisateur avec la plateforme myOKR et affiche l’analyse de l’application myOKR à l’administrateur en fonction de différentes coupures d’utilisateurs telles que l’emplacement, le responsable du &amp; service | Nous stockons les informations d’ID d’utilisateur, de nom, de courrier électronique, de service, de titre et de responsable dans le système myOKR | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
+>| User.Read.All | application | Synchroniser les informations utilisateur avec la plateforme myOKR et affiche l’analyse de l’application myOKR à l’administrateur en fonction de différentes coupures d’utilisateurs telles que l’emplacement, le responsable du &amp; service | Nous stockons les informations d’ID d’utilisateur, de nom, de courrier électronique, de service, de titre et de responsable dans le système myOKR | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
 >| offline_access | délégué | ID Azure Active Directory de l’utilisateur | Nous utilisons l’accès hors connexion pour créer des réunions périodiques dans le calendrier de l’utilisateur | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
 >| openid | délégué | Nous utilisons l’ID d’objet Azure de l’utilisateur pour effectuer une connexion utilisateur à mon applicationOKR à l’aide de l’authentification Microsoft | L’ID Azure actif de l’utilisateur est stocké par rapport à l’e-mail | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
 
@@ -81,7 +81,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -101,17 +101,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -121,7 +110,7 @@ Ces informations ont été fournies par SOE Technologies sur la façon dont cett
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -138,3 +127,4 @@ Ces informations ont été fournies par SOE Technologies sur la façon dont cett
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

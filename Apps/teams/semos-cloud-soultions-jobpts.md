@@ -2,18 +2,18 @@
 title: Informations d’application pour jobPts par Semos Cloud Cloud
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/07/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour JobPts, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 22c80e919a07b30f6b65dc055a514e9ce2a1eefc
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ca449f0fcc33f8b85feae5be0e022ba79fe965f0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280629"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408403"
 ---
 # <a name="jobpts"></a>JobPts
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par semos Cloud Cloud Cloud Sur la façon do
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | Lire les informations de base de l’entreprise | Aucune donnée n’est stockée | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
 >| email | délégué | Utilisé pour le mappage des utilisateurs AzureAD avec des utilisateurs dans l’outil JobPts | Aucune donnée n’est stockée | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
@@ -101,17 +101,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -121,7 +110,7 @@ Ces informations ont été fournies par Semos Cloud Cloud Sur la façon dont cet
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
@@ -140,3 +129,4 @@ Ces informations ont été fournies par Semos Cloud Cloud Sur la façon dont cet
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

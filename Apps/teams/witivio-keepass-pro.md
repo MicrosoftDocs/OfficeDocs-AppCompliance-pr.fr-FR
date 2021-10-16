@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Keepass Pro, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 11eafe0e282e58623a303e961731e51983034343
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: 00c353d404015ae702ea6257bc6d6377a08fc5d5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60290364"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410788"
 ---
 # <a name="keepass-pro"></a>Keepass Pro
 
@@ -58,10 +58,10 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.ReadWrite.All | délégué | Lire et écrire le fichier kbdx dans l’utilisateur sharepoint /onedrive | Connexion et mots de passe dans le fichier KDBX. Leivio ne stocke pas de données sur des serveurs | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
->| User.Read | délégué | Récupérer les propriétés et les relations de l’objet utilisateur | N/A | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
->| email | délégué | Afficher l’adresse e-mail des utilisateurs.    | N/A | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
->| openid | délégué | Connectez les utilisateurs. | N/A | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
->| profil | délégué | Afficher le profil de base des utilisateurs.  | N/A | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
+>| User.Read | délégué | Récupérer les propriétés et les relations de l’objet utilisateur | S/O | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
+>| email | délégué | Afficher l’adresse e-mail des utilisateurs.    | S/O | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
+>| openid | délégué | Connectez les utilisateurs. | S/O | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
+>| profil | délégué | Afficher le profil de base des utilisateurs.  | S/O | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -99,23 +99,12 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par LeIviivio sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Leivio sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -137,3 +126,4 @@ Ces informations ont été fournies par LeIviivio sur la façon dont cette appli
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

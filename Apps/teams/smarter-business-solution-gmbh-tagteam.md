@@ -2,18 +2,18 @@
 title: Informations d’application pour TagTeam par une solution d’entreprise plus intelligente
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/21/2021
+ms.date: 05/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TagTeam, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cd1411cff3f80788bc9a5677f595caad620484e1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 025d0040bdd58a01cd3993445c025b9a61f90822
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281139"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408323"
 ---
 # <a name="tagteam"></a>TagTeam
 
@@ -55,12 +55,12 @@ Ces informations ont été fournies par la solution d’entreprise Plus intellig
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| ChannelMessage.Read.All | délégué | Nous ne collectons pas ces données uniquement pour afficher les conversations marquées. Nous aimerions le changer en API de recherche, mais Graph API n’est actuellement pas prise en charge.  | Aucun | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
->| User.Read | délégué | Afficher User-Information (par exemple, nom) dans notre onglet | Aucun | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
->| User.ReadBasic.All | délégué | Afficher User-Avatars dans notre onglet | Aucun | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
->| openid | délégué | Uniquement pour SignIn : aucune donnée n’est stockée | Aucun | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| ChannelMessage.Read.All | délégué | Nous ne collectons pas ces données uniquement pour afficher les conversations marquées. Nous aimerions le changer en API de recherche, mais Graph API n’est actuellement pas prise en charge.  | Aucune | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| User.Read | délégué | Afficher User-Information (par exemple, nom) dans notre onglet | Aucune | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| User.ReadBasic.All | délégué | Afficher User-Avatars dans notre onglet | Aucune | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| openid | délégué | Uniquement pour SignIn : aucune donnée n’est stockée | Aucune | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -78,7 +78,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -118,11 +118,11 @@ Ces informations ont été fournies par la solution d’entreprise Plus intellig
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -136,3 +136,4 @@ Ces informations ont été fournies par la solution d’entreprise Plus intellig
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

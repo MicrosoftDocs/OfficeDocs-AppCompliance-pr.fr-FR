@@ -2,18 +2,18 @@
 title: Informations sur l’application POUR LA MISE EN PLACE DE LA MISE EN PLACE DE LA DEMANDE D'
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LA DEMANDE, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 58349e188a709d1f74a3a3b6426ca4b4a34c34d4
-ms.sourcegitcommit: 4817af6bd92bcc7624a43ea79ba6b9362da38035
+ms.openlocfilehash: 547125dfa636a60f8a95153c5b75b060ee2f65f1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60233618"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60409447"
 ---
 # <a name="mural"></a>MURAL
 
@@ -77,7 +77,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui, nous logons des informations personnelles (nom d’utilisateur, e-mail, etc.) pour créer notre journal d’audit. Les informations sont stockées dans notre base de données chiffrée et sont accessibles uniquement lorsque vous consultez l’api d’audit.
 
@@ -113,12 +113,13 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par LA FONCTIONL SUR la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par LA FONCTION DNS sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

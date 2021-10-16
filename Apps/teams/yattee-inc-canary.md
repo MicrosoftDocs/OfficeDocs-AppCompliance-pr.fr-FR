@@ -2,18 +2,18 @@
 title: Informations d’application pour Canary par YATTEE Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/19/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Canary, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c86ef20b176b021b055b79e07c9c196dd83785ab
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 39b722aa99547d4ab223c8105aa7a55db6a089b7
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281746"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411349"
 ---
 # <a name="canary"></a>Canary
 
@@ -54,7 +54,7 @@ Ces informations ont été fournies par YATTEE Inc. sur la façon dont cette app
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calls.JoinGroupCall.All | les deux | E&#12513;&#12540;&#12523;&#12450;&#12489;&#12524;&#12473;&#12290;&#12518;&#12540;&#12470;&#12540;&#12398;&#35672;&#21029;&#12398;&#12383;&#12417;&#12392;&#12289;&#32068;&#32340;&#12372;&#12392;&#12391;&#12464;&#12523;&#12540;&#12503;&#21270;&#12377;&#12427;&#12383;&#12417;&#12290; | &#21033;&#29992;&#12518;&#12540;&#12470;&#12540;&#12398;&#12473;&#12465;&#12472;&#12517;&#12540;&#12523;&#24773;&#22577;&#12394;&#12393;&#12290;&#12473;&#12465;&#12472;&#12517;&#12540;&#12523;&#31649;&#29702;&#12450;&#12503;&#12522;&#12394;&#12398;&#12391;&#12290; | [626ce0a3-4620-483d-953d-53b106b9ffad](https://docs.microsoft.com/microsoft-365-app-certification/azure/626ce0a3-4620-483d-953d-53b106b9ffad) |
 
@@ -94,17 +94,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -114,7 +103,7 @@ Ces informations ont été fournies par YATTEE Inc. sur la façon dont cette app
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -132,3 +121,4 @@ Ces informations ont été fournies par YATTEE Inc. sur la façon dont cette app
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

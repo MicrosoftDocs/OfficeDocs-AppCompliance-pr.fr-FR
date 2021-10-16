@@ -2,18 +2,18 @@
 title: Informations sur l’application pour Slido par Slido
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/05/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Slido, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 864c54c1e4e9033232e4357fb620fb372c3a0e75
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5f6a2b32d4639a9bc942451567da1a2e4dd16406
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280618"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410898"
 ---
 # <a name="slido"></a>Slido
 
@@ -90,7 +90,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Nous exigeons de nos partenaires stratégiques qu’ils respectent les pratiques de sécurité standard du secteur, notamment ISO27001, IS9001 et/ ou SOC2 Type &amp; 1 2
+>Nous exigeons de nos partenaires stratégiques qu’ils respectent les pratiques standard de sécurité du secteur, notamment ISO27001, IS9001 et/ ou SOC2 Type &amp; 1 2
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -122,8 +122,9 @@ Ces informations ont été fournies par Slido sur la façon dont cette applicati
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

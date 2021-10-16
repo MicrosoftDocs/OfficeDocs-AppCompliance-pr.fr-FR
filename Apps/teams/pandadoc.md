@@ -2,18 +2,18 @@
 title: Informations sur l’application pourDocSyrdoc parDoc
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/19/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LeDoc, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0ad06df6fb1b41955c2cb69e45f2ea84660b3e06
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 8d3a04daba9ebcbcf435f46beb6313c22310fe22
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283198"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408979"
 ---
 # <a name="pandadoc"></a>PandaDoc
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par ContrôleDoc sur la façon dont cette ap
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. | Les données ne sont pas stockées | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
 >| ChannelSettings.Read.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal.  | Les données ne sont pas stockées | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
@@ -145,11 +145,11 @@ Ces informations ont été fournies par ContrôleDoc sur la façon dont cette ap
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Non |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Non |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -162,3 +162,4 @@ Ces informations ont été fournies par ContrôleDoc sur la façon dont cette ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

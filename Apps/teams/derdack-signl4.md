@@ -2,18 +2,18 @@
 title: Informations d’application pour SIGNL4 par Derdack SIGNL4
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SIGNL4, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4cf1eae6ef533a1e744ca3c2968764fed0227d00
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7042695f0bfb257552e4e040a1b8d254016b612a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282117"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411078"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Les informations d’adresse de messagerie sont contenues dans les journaux. Des données de contenu d’alerte supplémentaires, envoyées par l’organisation, peuvent également être incluses dans les journaux. Pour éviter cela, l’organisation peut mettre fin au compte dans l’application.
 Les données dans les journaux sont requises pour la prise en charge et la résolution des problèmes que ma client a avec l’application.
@@ -84,7 +84,7 @@ Les données dans les journaux sont requises pour la prise en charge et la réso
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données sont stockées dans le centre de données Azure en Europe. L’accès est possible pour les administrateurs. 2FA utilisant l’authentification AAD. Les touches d’accès rapide aux comptes de stockage sont également utilisées pour gérer l’accès.
+>Les données sont stockées dans le centre de données Azure en Europe. L’accès est possible pour les administrateurs. 2FA utilisant l’authentification AAD’authentification. Les touches d’accès rapide aux comptes de stockage sont également utilisées pour gérer l’accès.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -112,15 +112,15 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Derdack SIGNL4 sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Derdack SIGNL4 sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -134,3 +134,4 @@ Ces informations ont été fournies par Derdack SIGNL4 sur la façon dont cette 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

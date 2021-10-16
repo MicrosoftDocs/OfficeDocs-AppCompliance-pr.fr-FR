@@ -2,18 +2,18 @@
 title: Informations d’application pour Karma par Sliday LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/14/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Karma, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a7603ed4676653b26d93027e5c3e3d47065e83db
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 69163a7c191e9a7e8d460a7f20623466d208042e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281145"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410908"
 ---
 # <a name="karma"></a>Karma
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Sliday LTD sur la façon dont cette appl
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | application | Prénom, nom et adresse de messagerie de la société. Prénom, nom de famille pour les rapports orientés administrateur. Adresse de messagerie pour la communication en ce qui concerne Karma, les objectifs de facturation et l’herarchy. | Nom complet du consentement de l’administrateur. Connectez-vous et lisez le profil utilisateur. Description du consentement de l’administrateur. Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs qui sont inscrits. Il permet également à l’application de lire les informations de base de l’entreprise des utilisateurs inscrits. Nom complet du consentement de l’utilisateurSignez-vous et lisez votre profil. Description du consentement de l’utilisateur. Vous permet de vous inscrire à l’application avec votre compte d’organisation et de permettre à l’application de lire votre profil. Elle permet également à l’application de lire les informations de base de l’entreprise. | [9ff28b02-ccc5-4cac-9d17-4cf6987c371f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9ff28b02-ccc5-4cac-9d17-4cf6987c371f) |
 
@@ -112,7 +112,7 @@ Géré par l’océan numérique.
 
 6. **Décrivez le processus de gestion d’accès en place à la fin du fournisseur, en vous attumant sur la façon dont vous assurez la suppression en temps voulu des accès qui ne sont plus nécessaires et sur la façon dont vous contrôlez l’adéquation des privilèges au rôle de travail. Décrire également les processus de revalidation et la fréquence de son exécution**
 
-Nous utilisons l’authentification à deux facteurs pour accéder au panneau de contrôle. Seules 3 personnes y ont accès, nous changeons de mot de passe tous les mois, nous vérifions les journaux d’accès et nous vérifions que les comptes des personnes qui ne travaillent plus avec nous sont supprimés de la plateforme.
+Nous utilisons l’authentification à deux facteurs pour accéder au panneau de contrôle. Seules 3 personnes y ont accès, nous changeons de mot de passe tous les mois, nous auditons les journaux d’accès et nous vérifions que les comptes des personnes qui ne travaillent plus avec nous sont supprimés de la plateforme.
 
 7. **Fournissez la procédure implémentée à votre fin pour gérer vos ID partagés (par exemple, racine, Sys, système, etc.), les ID de groupe (comptes génériques utilisés par plusieurs personnes appartenant à la même équipe, par exemple) et les comptes locaux. Décrire comment restreindre, enregistrer et surveiller l’utilisation des comptes privilégiés et l’accès aux appareils de sécurité (par exemple, les hyperviseurs, les pare-feu, les scanneurs de vulnérabilités, les renifleurs de réseau, les API, etc.), comment vous assurez que les utilisateurs qui changent d’équipe ou quittent l’équipe ne peuvent plus accéder à l’ID de groupe et quel est le niveau de traçabilité de ces ID**
 
@@ -145,4 +145,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -1,19 +1,19 @@
 ---
-title: Informations d’application pour Cloud Cloud cloud cloud par Atlassian
+title: Informations d’application pour Cloud Cloud cloud par Atlassian
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/18/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Cloud, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 83a34d3ae66bd3cb82fcc9d18ad88ba7ee7c4983
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f73952983dd6b9788bcd61d71e55e5815de5f937
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281830"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411148"
 ---
 # <a name="confluence-cloud"></a>Confluence Cloud
 
@@ -54,7 +54,7 @@ Ces informations ont été fournies par Atlassian sur la façon dont cette appli
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | délégué | - Nous lisons la liste des membres de conversation dans une réunion, afin de connaître la liste des invités à la réunion.   - Nous lisons les noms d&#8217; utilisateurs et les adresses de messagerie que nous affichons de manière conditionnable dans notre application de réunion. Par exemple, affichez le nom de l’utilisateur actuel prenant des notes de réunion.   - Notre application lit l’événement de calendrier de l&#8217;utilisateur dans lequel notre application a été ajoutée à une réunion afin que nous lisez des informations de base sur la réunion, telles que le titre de la réunion. | Les exemples de contenu que nous collectons et stockons sont les suivants : le résumé et la description ajoutés à un problème JIRA, les pages que vous créez dans Contrôle, vos référentiels et requêtes pull dans Bitbucket, les commentaires que vous entrez dans le cadre d’un incident dans la page d’état et les commentaires que vous nous fournissez. Le contenu inclut également les fichiers et les liens que vous téléchargez vers les services. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
 >| Chat.ReadBasic | délégué |  - Nous lisons la liste des membres de conversation dans une réunion, afin de connaître la liste des invités à la réunion.   - Nous lisons les noms d&#8217; utilisateurs et les adresses de messagerie que nous affichons de manière conditionnable dans notre application de réunion. Par exemple, affichez le nom de l’utilisateur actuel prenant des notes de réunion.   - Notre application lit l’événement de calendrier de l&#8217;utilisateur dans lequel notre application a été ajoutée à une réunion afin que nous lisez des informations de base sur la réunion, telles que le titre de la réunion. | Les exemples de contenu que nous collectons et stockons sont les suivants : le résumé et la description ajoutés à un problème JIRA, les pages que vous créez dans Contrôle, vos référentiels et requêtes pull dans Bitbucket, les commentaires que vous entrez dans le cadre d’un incident dans la page d’état et les commentaires que vous nous fournissez. Le contenu inclut également les fichiers et les liens que vous téléchargez vers les services. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
@@ -80,7 +80,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -120,11 +120,11 @@ Ces informations ont été fournies par Atlassian sur la façon dont cette appli
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Non |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -137,3 +137,4 @@ Ces informations ont été fournies par Atlassian sur la façon dont cette appli
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

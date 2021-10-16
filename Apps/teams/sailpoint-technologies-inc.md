@@ -2,18 +2,18 @@
 title: Informations sur l’application pour Cepoint par Les Technologies DePoint, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/03/2021
+ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LePoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a7ffb3278f93ccc2096c75901f1bd05c2ca27da9
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b99338b0bcc64e9a3e48c6365028441814195351
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283659"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410938"
 ---
 # <a name="sailpoint"></a>Sailpoint
 
@@ -28,7 +28,7 @@ ms.locfileid: "59283659"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies à Microsoft par LePoint Technologies, Inc. à Microsoft :
+Informations fournies par Les Technologies DePoint, Inc. à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -82,7 +82,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->N/A
+>S/O
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -114,8 +114,9 @@ Ces informations ont été fournies par Les Technologies ContrôlePoint, Inc. su
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

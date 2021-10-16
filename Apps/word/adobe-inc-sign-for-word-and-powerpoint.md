@@ -2,18 +2,18 @@
 title: Informations d’application pour Adobe Sign pour Word et PowerPoint par Adobe Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/12/2021
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Adobe Sign pour Word et PowerPoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ca8f1f0aba2f18c81c76cb50d8d76cb2e86efa84
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5ed7e962014ea7cf2c63c2ff2bbcb97da3939233
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279826"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411308"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign pour Word et PowerPoint
 
@@ -52,7 +52,7 @@ Ces informations ont été fournies par Adobe Inc. sur la façon dont cette appl
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Mail.ReadWrite | délégué | Pour remplir le document joint, les e-mails de l’expéditeur et du destinataire, ainsi que le contenu des messages électroniques envoyés à Adobe sign to send for signature. Cela permet à l’utilisateur de gagner du temps pour retaper ces champs dans Adobe Sign. Une fois qu’un contrat est signé, nous rédigeons automatiquement un nouveau courrier électronique pour que l’utilisateur envoie un courrier électronique pour informer ses destinataires que la transaction est effectuée. | Adobe Sign enregistre les pièces jointes en tant que fichiers temporaires, dont l’expiration est de 24 heures. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
 >| People.Read | délégué | Pour remplir automatiquement l’adresse e-mail dans l’expérience Envoyer pour signature, en tapant des lettres initiales, n’exigez pas que les utilisateurs tapent l’intégralité &quot; &quot; des e-mails. | Adobe Sign stocke uniquement les messages électroniques et displayName des destinataires dans les contrats. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
@@ -111,7 +111,7 @@ Ces informations ont été fournies par Adobe Inc. sur la façon dont cette appl
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -129,3 +129,4 @@ Ces informations ont été fournies par Adobe Inc. sur la façon dont cette appl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

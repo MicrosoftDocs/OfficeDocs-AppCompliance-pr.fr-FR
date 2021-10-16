@@ -2,18 +2,18 @@
 title: Informations sur l’application pour Tryane Analytics par Tryane
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Tryane Analytics, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: e806f46e2ff2046defcc7967f6d7bec420629329
-ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 474c7824163b9b457ca3df2e705dc2cb1ccb8845
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59975109"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410818"
 ---
 # <a name="tryane-analytics"></a>Tryane Analytics
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Tryane sur la façon dont cette applicat
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | application | noms de canaux et propriétés supplémentaires | Lister tous les canaux avec des noms, des descriptions | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 >| ChannelMessage.Read.All | application | nombre de messages publiés par l’utilisateur | Liste de tous les messages de canaux&#8217; métadonnées | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
@@ -83,7 +83,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->La règle organisationnelle décrite dans notre stratégie de sécurité informatique et nos normes de codage nous empêchent d’avoir eu l’EUII et L’OII apparaissent dans les journaux
+>La règle organisationnelle décrite dans notre stratégie de sécurité informatique et nos normes de codage nous empêchent d’avoir des euii et des OII dans les journaux
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -107,9 +107,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36057' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36057" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -123,7 +123,7 @@ Ces informations ont été fournies par Tryane sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -140,3 +140,4 @@ Ces informations ont été fournies par Tryane sur la façon dont cette applicat
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Informations sur les applications pour les projets LTAPP de processus d’approbation multiples par LTAPPs SOFTWARE CO.,LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/12/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les LTAPP de processus d’approbation multiple, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c001622957b8f1a56b776cbe2db034cc9225ef5d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e605fa6dd849def2c87e611182a47c80c895ff99
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282466"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410157"
 ---
 # <a name="multi-approval-process-ltapps"></a>Processus d’approbation multiple LTAPPs
 
@@ -54,9 +54,9 @@ Ces informations ont été fournies par LTAPPs SOFTWARE CO.,LTD sur la façon do
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | délégué | ID du &amp; client d’informations utilisateur | L’application stocke uniquement l’ID de client.  Étant donné que l’ajout stocke toutes les données sur l’Pro SharePoint d’application Pro de congé, l’application a donc utilisé l’ID de client pour trouver l’URL SharePoint’application | [d2682b2a-2037-4545-94b6-3e7216ecca5f](https://docs.microsoft.com/microsoft-365-app-certification/azure/d2682b2a-2037-4545-94b6-3e7216ecca5f) |
+>| User.Read | délégué | ID du &amp; client d’informations utilisateur | L’application stocke uniquement l’ID client.  Étant donné que l’ajout stocke toutes les données sur l’Pro SharePoint d’application Pro de congé, l’application a donc utilisé l’ID de client pour trouver l’URL SharePoint’application | [d2682b2a-2037-4545-94b6-3e7216ecca5f](https://docs.microsoft.com/microsoft-365-app-certification/azure/d2682b2a-2037-4545-94b6-3e7216ecca5f) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
 
@@ -89,7 +89,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->L’application ne stocke pas les données du client. Toutes les données des magasins clients dans le site client (site Sharepoint). Il n’obtienne/définisse les données sur le site client que via SharePoint API Rest a utilisé l’inscription d’application &amp; Azure pour l’th.
+>L’application ne stocke pas les données du client. Toutes les données des magasins clients dans le site client (site Sharepoint). Il n’obtienne/définisse les données sur le site client que via SharePoint API Rest a utilisé l’inscription de l’application &amp; Azure pour l’th.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -101,17 +101,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -121,7 +110,7 @@ Ces informations ont été fournies par LTAPPs SOFTWARE CO.,LTD sur la façon do
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -138,3 +127,4 @@ Ces informations ont été fournies par LTAPPs SOFTWARE CO.,LTD sur la façon do
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

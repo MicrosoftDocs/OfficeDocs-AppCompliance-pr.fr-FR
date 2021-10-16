@@ -2,18 +2,18 @@
 title: Informations sur les applications pour l’ecBooking par les systèmes experts IVR (Asie) Co.Ltd.
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/28/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ecBooking, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f36edd400f35d7e4ccbfef5edd0225855f73ab69
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 418f653876e6a93d6772317016e460fc0da70954
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283035"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411702"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par expert Systems IVR(Asia) Co.Ltd. sur la 
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | application | Les données telles que la messagerie de l’utilisateur, les événements utilisateur sont stockées. Les événements utilisateur sont collectés pour vérifier la disponibilité des salles et créer des événements. | L’ID de l’événement Users, le nom de l’emplacement et les détails des autres événements sont stockés. Les données sont collectées pour vérifier la disponibilité des salles et créer des événements. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
 >| Mail.Send | application | Données telles que la messagerie de l’utilisateur. Les messages électroniques de l’utilisateur sont collectés pour l’envoi d’un e-mail de rappel de réservation de salle. | Données telles que la messagerie de l’utilisateur. Les messages électroniques de l’utilisateur sont collectés pour l’envoi d’un e-mail de rappel de réservation de salle. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
@@ -80,7 +80,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Les données telles que la messagerie de l’utilisateur, les événements utilisateur sont stockées. 
 
@@ -120,11 +120,11 @@ Ces informations ont été fournies par expert Systems IVR(Asia) Co.Ltd. sur la 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -138,3 +138,4 @@ Ces informations ont été fournies par expert Systems IVR(Asia) Co.Ltd. sur la 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

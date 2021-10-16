@@ -2,18 +2,18 @@
 title: Informations d’application pour Navo par Regroove Solutions
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 01/20/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Navo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e17eac9ef2db9418a38900d0de84ce62fad71097
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 554d59fbb03382ab517bb2f928823a33b2ec4ee0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279897"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411529"
 ---
 # <a name="navo"></a>Navo
 
@@ -54,7 +54,7 @@ Ces informations ont été fournies par Regroove Solutions sur la façon dont ce
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | application | Nous stockons le nombre d’utilisateurs et l’interrogeons une fois par cycle de facturation. Nous utilisons également l’ID de location comme ID pour l’organisation. | Nous permet de compter le nombre d’utilisateurs dans la location, que nous utilisons à des fins de facturation. Il nous permet également de faire une requête pour voir dans quels groupes se trouve un utilisateur, afin de pouvoir utiliser le contrôle de sécurité pour protéger certaines données. Nous interrogeons également l’ID de location de l’organisation. | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 >| User.Read | délégué | Aucune donnée stockée | Activer la connexion et lire le profil utilisateur | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
@@ -66,7 +66,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Nous stockons l’ID de location et le nombre d’utilisateurs dans Stripe. |  | User.Read | Déléguée | Se connectez et lisez le profil utilisateur - Aucune donnée stockée |
+>| Nous stockons l’ID de location et le nombre d’utilisateurs dans Stripe. |  | User.Read | Delegated | Se connectez et lisez le profil utilisateur - Aucune donnée stockée |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -85,7 +85,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Toutes les données que nous stockons nous-mêmes (et non via un service tel que Stripe ou Application Informations) sont stockées dans une base de données Azure Cosmos. Tous les administrateurs utilisent 2FA et l’accès est limité à un sous-ensemble de nos employés.
+>Toutes les données que nous stockons nous-mêmes (et non via un service tel que Stripe ou Application Informations) sont stockées dans une base de données azure Cosmos données. Tous les administrateurs utilisent 2FA et l’accès est limité à un sous-ensemble de nos employés.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -108,4 +108,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

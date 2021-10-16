@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour agrafage, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: fa258f568d799ceb8891cd374aa33277dbc6c2c4
-ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
+ms.openlocfilehash: 9eb6274274c3970b20ebb53d03a163fa79e206df
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59975234"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410307"
 ---
-# <a name="staple"></a>Agrafer
+# <a name="staple"></a>Staple
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Informations fournies par Cast de masse, Ltd. à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Agrafer |
+| Nom de l'application | Staple |
 | ID | WA200003281 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Cast de la salle d’assistance, Ltd. |
+| Nom de la société partenaire | Crowd Cast, Ltd. |
 | URL du site web partenaire | [https://crowdcast.jp/ja/](https://crowdcast.jp/ja/) |
 | URL de la Teams d’informations sur l’application | [https://intercom.help/staple/ja](https://intercom.help/staple/ja) |
 | URL de la politique de confidentialité | [https://crowdcast.jp/ja/privacy/](https://crowdcast.jp/ja/privacy/) |
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Cast de masse, Ltd. sur la façon dont c
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Organization.Read.All | application | Utilisé pour collecter l’ID de client. Permet de s’assurer que les utilisateurs qui s’authentifier auprès de notre plateforme sont membres d’un client spécifique. | ID de client. Permet de s’assurer que les utilisateurs qui s’authentifier auprès de notre plateforme sont membres d’un client spécifique. | [ac9ca94a-e666-4f61-959a-12c063e13e69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac9ca94a-e666-4f61-959a-12c063e13e69) |
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Teams’application s’installe elle-même pour l’équipe de l’utilisateur | S/O | [ac9ca94a-e666-4f61-959a-12c063e13e69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac9ca94a-e666-4f61-959a-12c063e13e69) |
@@ -99,17 +99,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -119,7 +108,7 @@ Ces informations ont été fournies par Cast de masse, Ltd. sur la façon dont c
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -137,3 +126,4 @@ Ces informations ont été fournies par Cast de masse, Ltd. sur la façon dont c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

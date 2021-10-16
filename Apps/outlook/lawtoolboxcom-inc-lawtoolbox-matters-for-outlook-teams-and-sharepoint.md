@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LawToolBox Sont importantes pour Outlook, Teams SharePoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre &amp; CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 039b83277d1e3a6823b16079ec6a0fa8fbec68d2
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: b8264ca65796af344d5cba11a55afca6c2e42cc9
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60285987"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411298"
 ---
 # <a name="lawtoolbox-matters-for-outlook-teams-amp-sharepoint"></a>Affaires LawToolBox pour Outlook, Teams &amp; SharePoint
 
@@ -56,7 +56,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | délégué | Cette autorisation est restreinte pour accéder aux contacts de l'&#8217;qu’ils ont déjà accès aux &#8211; nous utilisons cette autorisation pour permettre aux utilisateurs de récupérer leurs propres informations de calendrier | [Facultatif] Lire le calendrier de l’utilisateur. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Calendars.ReadWrite | délégué | Cette autorisation est restreinte pour accéder aux contacts de l’utilisateur&#8217;qu’il a déjà accès aux &#8211; nous utilisons cette autorisation pour permettre aux utilisateurs de récupérer leurs propres informations de calendrier et d’écrire dans des calendriers | Pour créer une invitation de calendrier dans le calendrier de l’utilisateur. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite | délégué | Cette autorisation est restreinte pour accéder aux contacts de l’utilisateur&#8217;qu’il a déjà accès à &#8211; nous l’utilisons pour permettre aux utilisateurs de récupérer leurs propres informations de calendrier et d’écrire dans des calendriers | Pour créer une invitation de calendrier dans le calendrier de l’utilisateur. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Calendars.ReadWrite.Shared | délégué | Cette autorisation est restreinte pour accéder aux contacts de l'&#8217;qu’ils ont déjà accès aux &#8211; nous utilisons cette autorisation pour permettre aux utilisateurs de récupérer leurs propres informations de calendrier | Pour créer une invitation de calendrier dans un calendrier partagé. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Contacts.ReadWrite | délégué | Cette autorisation est restreinte pour accéder aux contacts&#8217;utilisateur à qui ils ont déjà accès.  Nous utilisons cette autorisation pour permettre aux utilisateurs de rechercher leurs contacts O365 et de les ajouter à LawToolBox &#8211; nous n’ajoutons pas automatiquement de contact (cette option peut être révoquée si vous ne souhaitez pas que cette fonctionnalité et les contacts soient ajoutés manuellement) | [Facultatif]- pour lire les contacts des utilisateurs et connecter les utilisateurs d’une liste de contacts à une autre. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Contacts.ReadWrite.Shared | délégué | nous utilisons cette autorisation pour permettre aux utilisateurs de rechercher des contacts O365 partagés et de les ajouter à LawToolBox &#8211; nous n’ajoutons aucun contact automatiquement | [Facultatif]- pour lire les contacts partagés des utilisateurs afin de servir la liste des contacts pertinents pour le cas. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
@@ -65,11 +65,11 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Files.Read | délégué | Cela permet au addin de lire et de ré lister les fichiers utilisateur à qui l’utilisateur a déjà accès | [Facultatif] Lire les informations de l’OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Files.Read.All | délégué | nous utilisons cette autorisation pour lire et ré lister les fichiers utilisateur à qui l’utilisateur a déjà accès | [Facultatif]-Lire les informations de l’OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Files.ReadWrite | délégué | nous lisons des fichiers Teams, groupes et OneDrive pour les réunions (si vous le révoquer, notre addin ne répertorie pas les fichiers importants dans nos applications) | [Facultatif]-Lire et modifier des fichiers dans l’OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Files.ReadWrite.All | délégué | nous lisons des fichiers Teams, groupes et OneDrive pour les réunions (si vous le révoquer, LTB ne répertorie pas les fichiers importants dans nos applications).  L’utilisateur peut uniquement utiliser le addin pour lire et ré lister les fichiers utilisateur à qui l’utilisateur a déjà accès | [Facultatif] Lire/écrire le fichier d’OneDrive associé à la matière. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite.All | délégué | nous lisons des fichiers à partir Teams, groupes et OneDrive pour les réunions (si vous révoquer, LTB ne répertorie pas les fichiers importants dans nos applications).  L’utilisateur peut uniquement utiliser le addin pour lire et ré lister les fichiers utilisateur à qui l’utilisateur a déjà accès | [Facultatif] Lire/écrire le fichier d’OneDrive associé à la matière. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Group.ReadWrite.All | délégué | GroupID, GroupName, GroupEmail | Nous créons un groupe pour chaque sujet créé dans notre système. Cette aide permet aux utilisateurs de stocker les informations relatives à la matière dans le groupe, qui enregistre à son tour leurs données dans leur propre client. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Mail.Read | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement et de lire les contacts à partir de votre courrier électronique à ajouter à notre système de contact.  | [Facultatif] [InProgress] Lire le courrier électronique de l’utilisateur pour les questions. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Mail.ReadWrite | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement et de lire les contacts à partir de votre courrier électronique à ajouter à notre système de contact.  | [Facultatif] [InProgress] Lire/écrire des e-mails pour les utilisateurs. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Mail.ReadWrite.Shared | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement et de lire les contacts à partir de votre courrier électronique à ajouter à notre système de contact.  | [Facultatif] [InProgress] Lire/écrire des e-mails pour les utilisateurs. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite.Shared | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement, ainsi que pour lire les contacts de votre courrier électronique à ajouter à notre système de contact.  | [Facultatif] [InProgress] Lire/écrire des e-mails pour les utilisateurs. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Mail.Send | délégué | Nous utilisons cet envoi de courriers électroniques en tant qu’utilisateur pour permettre à un utilisateur de s’envoyer des rapports uniquement sur les données à qui il a déjà accès sur notre système. | [Facultatif] [InProgress] Envoyer des échéances sur le courrier électronique en tant qu’utilisateur. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| Tasks.ReadWrite.Shared | délégué | Cette autorisation est restreinte pour accéder aux tâches de l’utilisateur&#8217;qu’il a déjà accès aux &#8211; nous l’utilisons pour permettre aux utilisateurs de récupérer et de mettre à jour leurs propres informations TASK.  | [Facultatif]-[InProgress] Read Write Deadlines as Task for users. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 >| User.Read | délégué | permet de suggérer des contacts récents à ajouter à des réunions ou des contacts | Lire les informations de l’utilisateur. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
@@ -89,7 +89,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >User Email,UserID, AccessToken, Groups information in our debug log
 
@@ -109,17 +109,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -134,7 +123,7 @@ Ces informations ont été fournies par LawToolBox.com Inc. sur la façon dont c
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Pour un meilleur contrôle, l’administrateur peut implémenter des autorisations d’application |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -147,3 +136,4 @@ Ces informations ont été fournies par LawToolBox.com Inc. sur la façon dont c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

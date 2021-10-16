@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour qbo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57d228504c0432aea96d8fc915606b1c71d36cf1
-ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
+ms.openlocfilehash: 74734019fc35da357552739b3ddabbd223cf541d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992074"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410808"
 ---
 # <a name="qbo"></a>qbo
 
@@ -63,7 +63,7 @@ Les applications et les compléments créés sur Microsoft 365 peuvent utiliser 
 
 >| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| API Bot Framework | Oui | Nom de domaine identifié à partir de l’e-mail d’un utilisateur | Nous collectons des messages électroniques pour l’envoi d’un rapport, si l’utilisateur le souhaite. | Courrier électronique uniquement | Stocké dans le cadre du profil utilisateur |
+>| API Bot Framework | Oui | Nom de domaine, comme identifié à partir du courrier électronique d’un utilisateur | Nous collectons des messages électroniques pour l’envoi d’un rapport, si l’utilisateur le souhaite. | Courrier électronique uniquement | Stocké dans le cadre du profil utilisateur |
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
 
@@ -122,8 +122,9 @@ Ces informations ont été fournies par Unscrambl sur la façon dont cette appli
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Informations sur les applications pour 10xGoals par xto10x Technologies
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour 10xGoals, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 52b806ec307e396e67d9d91624e8be80c94142bb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 82730906a833ef43df8a3eafaee1111cf6889472
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280605"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411359"
 ---
 # <a name="10xgoals"></a>10xGoals
 
@@ -55,9 +55,9 @@ Ces informations ont été fournies par xto10x Technologies sur la façon dont c
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | application | Le courrier électronique et l’ID Azure des utilisateurs sont récupérés afin que l’application puisse installer l’application de manière proactive pour tous les utilisateurs de l’organisation.  | Comme cette application nécessite d’abord un abonnement au service 10xGoals, la messagerie électronique de l’utilisateur et l’ID Azure de l’utilisateur sont envoyés au service 10xGoals afin que, lorsqu’une activité se produit concernant cet utilisateur, elle puisse envoyer une notification proactive à l’application Teams de l’utilisateur. | [950aa4fb-0583-4b13-9b5f-bbc92b9cc376](https://docs.microsoft.com/microsoft-365-app-certification/azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376) |
+>| Directory.Read.All | application | Le courrier électronique et l’ID Azure des utilisateurs sont récupérés afin que l’application puisse installer l’application de manière proactive pour tous les utilisateurs de l’organisation.  | Comme cette application nécessite d’abord un abonnement au service 10xGoals, la messagerie électronique de l’utilisateur et l’ID Azure de l’utilisateur sont envoyés au service 10xGoals afin que, lorsqu’une activité se produit sur cet utilisateur, elle puisse envoyer une notification proactive à l’application Teams de l’utilisateur. | [950aa4fb-0583-4b13-9b5f-bbc92b9cc376](https://docs.microsoft.com/microsoft-365-app-certification/azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376) |
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Elle est requise pour que l’application puisse récupérer teamsAppDefinition pour l’administrateur, puis s’installer de manière proactive pour tous les utilisateurs de l’organisation.  | Rien n’est stocké dans la base de données qui est récupérée à partir de cette api. | [950aa4fb-0583-4b13-9b5f-bbc92b9cc376](https://docs.microsoft.com/microsoft-365-app-certification/azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376) |
 
 
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Comme cette application nécessite d’abord un abonnement au service 10xGoals, la messagerie électronique de l’utilisateur et l’ID Azure de l’utilisateur sont envoyés au service 10xGoals afin que, lorsqu’une activité se produit concernant cet utilisateur, elle puisse envoyer une notification proactive à l’application Teams de l’utilisateur. | Non |  |
+>| Comme cette application nécessite d’abord un abonnement au service 10xGoals, la messagerie électronique de l’utilisateur et l’ID Azure de l’utilisateur sont envoyés au service 10xGoals afin que, lorsqu’une activité se produit sur cet utilisateur, elle puisse envoyer une notification proactive à l’application Teams de l’utilisateur. | Non |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -100,17 +100,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -120,7 +109,7 @@ Ces informations ont été fournies par xto10x Technologies sur la façon dont c
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -137,3 +126,4 @@ Ces informations ont été fournies par xto10x Technologies sur la façon dont c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

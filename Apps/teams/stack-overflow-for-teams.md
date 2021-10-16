@@ -2,18 +2,18 @@
 title: Informations d’application pour stack overflow pour les Teams par Stack Overflow
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2020
+ms.date: 12/17/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Stack Overflow pour Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7ea59acc5a3a85fd8ad827947c117266e95901fd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3c6493326d8b58ad4c8e7e4fc5486a7f03cd2b8b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283642"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410838"
 ---
 # <a name="stack-overflow-for-teams"></a>Stack Overflow pour Teams
 
@@ -107,4 +107,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

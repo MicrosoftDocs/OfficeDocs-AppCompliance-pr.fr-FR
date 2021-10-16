@@ -2,18 +2,18 @@
 title: Informations sur les applications harmon.ie pour Office par harmon.ie Corporation
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/07/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour harmon.ie pour Office, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c5a4cc10fdb936e6e0a9c04cc492cd301a374cd8
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c9e803a02b2db799b0aeb2230955746fa905ccbe
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282574"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410718"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie pour Office
 
@@ -33,7 +33,7 @@ Informations fournies par harmon.ie Corporation à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | harmon.ie pour Office |
 | ID | WA104381050 |
-| Office 365 clients pris en charge | PowerPoint 2016 ou ultérieur sur Windows, Word 2016 ou ultérieur sur Windows, Excel sur le Web, Word sur le web, PowerPoint sur le web, Word 2016 ou une ultérieure sur Mac, PowerPoint 2016 ou une PowerPoint 2016 ultérieure sur Mac |
+| Office 365 clients pris en charge | PowerPoint 2016 ou ultérieure sur Windows, Word 2016 ou ultérieur sur Windows, Excel sur le Web, Word sur le web, PowerPoint sur le web, Word 2016 ou ultérieurement sur Mac, PowerPoint 2016 ou une ultérieure sur Mac |
 | Nom de la société partenaire | harmon.ie Corporation |
 | URL du site web partenaire | [https://harmon.ie](https://harmon.ie) |
 | URL de la politique de confidentialité | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
@@ -53,9 +53,9 @@ Ces informations ont été fournies par harmon.ie Corporation sur la façon dont
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | délégué | Requis par harmon.ie pour Outlook permettre aux utilisateurs de se connecter et d’obtenir le rôle de l’utilisateur | none | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Directory.AccessAsUser.All | délégué | Requis par harmon.ie pour Outlook permettant aux utilisateurs de se connecter et d’obtenir le rôle de l’utilisateur | none | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 >| Files.ReadWrite.All | délégué | Requis par harmon.ie pour Outlook pour lui permettre de transférer des pièces jointes à partir de Outlook et de &amp; l’enregistrer dans SharePoint | none | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 >| Mail.ReadWrite | délégué | Requis par harmon.ie pour Outlook pour lui permettre de transférer des pièces jointes à partir de Outlook et de &amp; l’enregistrer dans SharePoint | none | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 >| User.Read | délégué | Requis par le harmon.ie pour Outlook pour résoudre l’image de profil des utilisateurs | none | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
@@ -107,11 +107,11 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par harmon.ie Corporation sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par harmon.ie Corporation sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -129,3 +129,4 @@ Ces informations ont été fournies par harmon.ie Corporation sur la façon dont
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

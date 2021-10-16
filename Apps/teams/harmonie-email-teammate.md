@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Email TeamMate, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1aecf8fedde78acae86eb654f066bb443ff387ed
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c36dba77d67a638c035b34cea1d88113fb082466
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283017"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411639"
 ---
 # <a name="email-teammate"></a>Email TeamMate
 
@@ -55,10 +55,10 @@ Ces informations ont été fournies par harmon.ie sur la façon dont cette appli
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Chat.Read | délégué | Requis par TeamMate pour obtenir les membres de conversation d’une conversation spécifique afin de partager des fichiers à enregistrer dans SharePoint/Un lecteur avec les membres de conversation | none | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Files.ReadWrite.All | délégué | Requis par TeamMate pour enregistrer les pièces jointes des &amp; e-mails SharePoint/Teams/OneDrive | none | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Files.ReadWrite.All | délégué | Requis par TeamMate pour enregistrer les pièces jointes des &amp; e-mails dans SharePoint/Teams/OneDrive | none | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
 >| Mail.ReadWrite | délégué | Obligatoire par TeamMate pour afficher les e-mails de l’utilisateur et répondre aux e-mails enregistrés dans Teams | none | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
 >| People.Read | délégué | Obligatoire par TeamMate pour rechercher des e-mails par des personnes et suggérer des personnes que vous contactez fréquemment. | none | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
 >| User.Read | délégué | permet aux utilisateurs de se connecter à TeamMate avec leur compte et permet à TeamMate de voir les informations de profil utilisateur de base | none | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
@@ -120,7 +120,7 @@ Ces informations ont été fournies par des harmon.ie sur la façon dont cette a
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -138,3 +138,4 @@ Ces informations ont été fournies par des harmon.ie sur la façon dont cette a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

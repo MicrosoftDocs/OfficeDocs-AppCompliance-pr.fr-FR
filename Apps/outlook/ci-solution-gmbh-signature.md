@@ -2,18 +2,18 @@
 title: Informations sur l’application CI-Signature par la solution ci
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour CI-Signature, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3e32777fcce04ad0769fa6b5699925bfc0fd6718
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: bad7efd16d1f3e8993892265bee3ada983b59455
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283101"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411238"
 ---
 # <a name="ci-signature"></a>CI-Signature
 
@@ -106,8 +106,9 @@ Ces informations ont été fournies par la solution ci Contrôleh sur la façon 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

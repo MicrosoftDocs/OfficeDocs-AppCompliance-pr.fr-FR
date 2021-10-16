@@ -2,18 +2,18 @@
 title: Informations sur l’application du connecteur FormMachines pour SharePoint entreprise DIGITAL MACHINES PTY LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/25/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour formMachines Connector pour SharePoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 56c08c242cb3822ebaea854026fb3f758768b7bf
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3d5cab668924d0edfed32a807096be68519a775f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282844"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410478"
 ---
 # <a name="formmachines-connector-for-sharepoint"></a>Connecteur FormMachines pour SharePoint
 
@@ -53,7 +53,7 @@ Ces informations ont été fournies par ENTERPRISE DIGITAL MACHINES PTY LTD sur 
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | (connexion, courrier électronique, Azure Guid, displayName, first_login_date_time) | permet à l’utilisateur de se connecter et donne à l’application l’accès à son UPN pour activer la connexion silencieuse, nous permet d’identifier chaque utilisateur de manière unique | [8c87660f-d36f-41f6-b0ae-025253f380aa](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c87660f-d36f-41f6-b0ae-025253f380aa) |
 
@@ -70,13 +70,13 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->. Nous ne logons que les erreurs. Dans notre journal des erreurs, nous n’allons enregistrer que les informations relatives aux erreurs. Le client ou le client qui a déclenché une erreur particulière n’est pas collecté. Seuls les ingénieurs du support technique ont accès aux journaux d’erreurs. Les journaux d’erreur sont consultables en ligne, et non téléchargés et consultables. Les journaux d’erreurs sont supprimés automatiquement après 30 jours
+>. Nous ne logons que les erreurs. Dans notre journal des erreurs, nous n’allons enregistrer que les informations relatives aux erreurs. Le client ou le client qui a déclenché une erreur particulière n’est pas collecté. Seuls les ingénieurs du support technique ont accès aux journaux d’erreurs. Les journaux d’erreurs sont consultables en ligne, et non téléchargés et consultables. Les journaux d’erreur sont supprimés automatiquement après 30 jours
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->. Les données sont stockées dans des centres de données Azure aux États-Unis. Les données fournies par le client, telles que les modèles et les soumissions, sont chiffrées dans la base de données. Les pièces jointes sont stockées dans des conteneurs PRIVÉs Azure BLOB, les utilisateurs doivent s’authentifier avant d’y accéder. Nous avons au maximum deux administrateurs qui peuvent accéder à nos ressources de production, pour le dépannage et le déploiement. Ces deux comptes d’administrateur sont partitionn s différemment pour tous les autres comptes. Le nombre d’accès administrateur ne dépassera jamais deux
+>. Les données sont stockées dans des centres de données Azure aux États-Unis. Les données fournies par le client, telles que les modèles et les soumissions, sont chiffrées dans la base de données. Les pièces jointes sont stockées dans des conteneurs privés Azure BLOB, les utilisateurs doivent s’authentifier avant d’y accéder. Nous avons au maximum deux administrateurs qui peuvent accéder à nos ressources de production, pour le dépannage et le déploiement. Ces deux comptes d’administrateur sont partitionn s différemment pour tous les autres comptes. Le nombre d’accès administrateur ne dépassera jamais deux
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -99,4 +99,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Informations sur les applications pour les FormMachines par Enterprise numériques
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/05/2021
+ms.date: 07/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les FormMachines, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 36ee73c86e0ccb1d8943cbe04da24319789b31c7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: be8e514f248b177d0b09e856d5537e770d50220c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283726"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411048"
 ---
 # <a name="formmachines"></a>FormMachines
 
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Dans notre journal d’erreurs, en règle générale, nous ne logons que les informations liées à l’erreur elle-même. Toutefois, pour aider un client particulier, nous pouvons identifier le domaine associé, mais pas le client lui-même. Les journaux d’erreur sont consultables en ligne, et non téléchargés et consultables. Les journaux d’erreur sont supprimés automatiquement après 90 jours.
+>Dans notre journal d’erreurs, en règle générale, nous ne logons que les informations liées à l’erreur elle-même. Toutefois, pour aider un client particulier, nous pouvons identifier le domaine associé, mais pas le client lui-même. Les journaux d’erreurs sont consultables en ligne, et non téléchargés et consultables. Les journaux d’erreur sont supprimés automatiquement après 90 jours.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -113,7 +113,7 @@ Ces informations ont été fournies par Enterprise Digital Machines sur la faço
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -131,3 +131,4 @@ Ces informations ont été fournies par Enterprise Digital Machines sur la faço
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

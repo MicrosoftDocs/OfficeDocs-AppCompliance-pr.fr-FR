@@ -2,18 +2,18 @@
 title: Informations sur l’application pour Medxnote MT par Medxnote
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2020
+ms.date: 08/19/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Medxnote MT, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5eff51e5045f299ad8fe9e8335b3c5dac41af919
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 35f038dcfc9a7ee49153c585741465f444a4e1a4
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281217"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411589"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -54,7 +54,7 @@ Ces informations ont été fournies par Medxnote sur la façon dont cette applic
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read.All | application | nous mettre en cache le nom et le courrier électronique, utilisés côté hôpital pour vérifier les privilèges des utilisateurs | lors de l’envoi de messages à certaines reprises Le nom et l’adresse e-mail sont ajoutés, nous mettre en cache ces données côté serveur, il est également utilisé pour la vérification facultative des privilèges côté hôpital | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
 >| openid | délégué | nous mettre en cache l’ID de session, l’ID utilisateur, le jeton du porteur et le courrier électronique, utilisés pour la signature des utilisateurs dans le module de tâche | l’utiliser pour se connecter aux utilisateurs dans le module de tâche, nous stockons l’ID de session, userid, e-mail, jetons du porteur | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
@@ -75,9 +75,9 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->l’adresse e-mail, le nom, l’ID de locataire et l’ID de canal peuvent apparaître dans les journaux Toutes les données du journal sont automatiquement supprimées au bout d’un mois au plus tard.
+>l’adresse e-mail, le nom, l’ID de client et l’ID de canal peuvent apparaître dans les journaux Toutes les données du journal sont automatiquement supprimées au bout d’un mois au plus tard.
 L’accès à ceux-ci est limité à quelques administrateurs d’organisation qui ont un accès 2FA appliqué.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
@@ -108,4 +108,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Informations sur l’application pour les lieux ti8m par ti &amp; m AG
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/16/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les lieux ti8m, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 0da49dc42dfb173165ad01f55d5d10c656c0e4e0
-ms.sourcegitcommit: 2781622670a06d5221dcba8838cc262f93d228d0
+ms.openlocfilehash: 92b67a17394d796e0d743c6b3c570698e54e2fec
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60123987"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411429"
 ---
 # <a name="ti8m-places"></a>ti8m places
 
@@ -55,12 +55,12 @@ Ces informations ont été fournies par ti m AG sur la façon dont cette applica
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite.Shared | délégué | Annuler des événements sur les calendriers des utilisateurs et des espaces de travail  | ID d’événement si une entrée de calendrier réservée doit être annulée | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
->| Directory.ReadWrite.All | délégué | Installation et création de groupes AAD d’administration : groupes de sécurité  | GroupNames et GroupIDs | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
+>| Directory.ReadWrite.All | délégué | Installation et création de groupes d’administration AAD - Groupes de sécurité  | GroupNames et GroupIDs | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
 >| Place.ReadWrite.All | délégué | Liste des espaces de travail et des noms de carte  | ID de l’espace de travail, adresse de messagerie de l’espace de travail et nom d’affichage. Utilisé pour la réservation d’un lieu de travail | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
->| User.Read | délégué | Nom d’utilisateur, e-mail et nom d’affichage, nécessaire pour afficher Userdata dans l’application | Nom d’utilisateur, e-mail et nom d’affichage, nécessaire pour afficher Userdata dans l’application | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
+>| User.Read | délégué | Nom d’utilisateur, e-mail et nom d’affichage, nécessaire pour afficher userdata dans l’application | Nom d’utilisateur, e-mail et nom d’affichage, nécessaire pour afficher userdata dans l’application | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -98,17 +98,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -118,7 +107,7 @@ Ces informations ont été fournies par ti m AG sur la façon dont cette applica
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -134,3 +123,4 @@ Ces informations ont été fournies par ti m AG sur la façon dont cette applica
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

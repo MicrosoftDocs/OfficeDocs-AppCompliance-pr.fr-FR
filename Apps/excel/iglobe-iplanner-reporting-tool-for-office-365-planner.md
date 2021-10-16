@@ -2,18 +2,18 @@
 title: Informations sur l’application pour l’outil de rapports iPlanner Office 365 Planner par iGlobe
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/24/2019
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour l’outil de rapports iPlanner pour le planificateur Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3591c67721188d8dc70bf4f2cf0e34bdb9ffc506
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ac38f244a862b89ee17ded8ce1432fdb00fb451a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282573"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411268"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>Outil de rapports iPlanner pour Office 365 planner
 
@@ -52,18 +52,18 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour créer une entrée de calendrier dans l’utilisateur&#8217;calendrier à la date d’échéance de la tâche. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour vérifier que l’utilisateur a le consentement et a accès pour utiliser l’API. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la tâche du planificateur, Outlook To Do courriers électroniques marqués et les mettre à jour. Pour créer une tâche du planificateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour vérifier que l’utilisateur a le consentement et a accès à l’utilisation de l’API. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la tâche du planificateur Outlook Tâches à faire, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder au fichier en tant que pièce jointe et télécharger des fichiers vers une tâche. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la liste des plans et mettre à jour la tâche. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la tâche du planificateur et ajouter de nouvelles tâches, mettez à jour le compartiment et la ligne de compartiment. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Mail.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | User.Read, pour obtenir la tâche du planificateur Outlook To Do, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | User.Read, pour obtenir la tâche du planificateur Outlook Tâches à faire, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour afficher les messages électroniques et envoyer des messages électroniques. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Obtenir l’objet du courrier à partir du courrier sélectionné. Permet à l’application d’obtenir des informations à partir de l’e-mail sélectionné, ce qui permet de copier le champ de description dans la description de la tâche et d’enregistrer des pièces jointes à partir du courrier électronique ou du courrier lui-même dans la tâche. Envoyer une notification. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir les utilisateurs Outlook To Do et mettre à jour User.Read, pour obtenir la Outlook To Do tâches du planificateur, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir les utilisateurs Outlook Tâches à faire et mettre à jour User.Read, pour obtenir la Outlook Tâches à faire tâches du planificateur, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Activer la connexion et lire le profil utilisateur | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
@@ -77,7 +77,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >iGlobe collecte des données pour fonctionner efficacement et vous offrir les meilleures expériences avec nos produits et services. Pour la gestion des licences : données collectées pour administrer le compte de licence de votre organisation&#8217;, par exemple lorsque vous déployez un module de licence gratuit, créez un abonnement d’essai ou achetez un abonnement. Les informations suivantes sont collectées. 
 - À des fins financières : nom et adresse de la société
@@ -110,4 +110,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

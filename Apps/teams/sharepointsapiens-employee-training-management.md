@@ -1,19 +1,19 @@
 ---
-title: Informations sur les applications pour la gestion de la formation des employés par SharePoint| Les
+title: Informations sur les applications pour la gestion de la formation des employés par SharePoint| Tzéz
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/31/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la gestion de la formation des employés, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a4d2ce3475ce082060bc632d439d0c79770486c2
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 37505e2f1ba531b3aa1a03a3fb8c93e6da8f121a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281151"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410918"
 ---
 # <a name="employee-training-management"></a>Gestion de la formation des employés
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par SharePoint| Indique comment cette applic
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.ReadBasic.All | délégué | Adresse e-mail et nom des salles Exchange ressources pour activer la réservation de salles et de ressources | Aucune donnée ne sera stockée | [9e8e113c-8a08-4606-b08a-de4decc7252f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9e8e113c-8a08-4606-b08a-de4decc7252f) |
 
@@ -124,7 +124,7 @@ Ces informations ont été fournies par SharePoint| Informations sur la façon d
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -141,3 +141,4 @@ Ces informations ont été fournies par SharePoint| Informations sur la façon d
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -1,19 +1,19 @@
 ---
-title: Informations d’application pour Luware Nimbus pour Microsoft Teams par Luware AG
+title: Informations d’application pour Luware Nimbus Microsoft Teams par Luware AG
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Luware Nimbus pour Microsoft Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: ee4101bb8116bec2db6a095ef170368eb9dfff6b
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: d7139f3ca934da20e58bb9f838217796ca5644da
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60290376"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410488"
 ---
 # <a name="luware-nimbus-for-microsoft-teams"></a>Luware Nimbus pour Microsoft Teams
 
@@ -54,19 +54,19 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | délégué | Console Attendant : lire le calendrier de l’utilisateur connecté affiche le calendrier avec les rendez-vous | Aucun | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Calendars.Read.Shared | délégué | Console Attendant : lire les calendriers partagés pour afficher le calendrier avec les rendez-vous | Aucun | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Contacts.Read | délégué | Console Attendant : rechercher dans le Exchange contacts de l’utilisateur connecté | Aucun | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Contacts.Read.Shared | délégué | Console Attendant : rechercher dans les contacts Exchange partagés | Aucun | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| GroupMember.Read.All | application | Obtenir les membres de l’équipe, lire les groupes de sécurité | Nous stockons ces informations lorsque les agents du centre d’appels sont gérés par le biais d’appartenances à un groupe | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Presence.Read.All | délégué | Afficher la présence dans la recherche de contact sur la console Attendant | Aucun | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.Read | délégué | Obtenir UserInformation (de l’utilisateur connecté) | Aucun | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.Read.All | les deux | Nimbus App - Obtenir CallerInformation. Lors d’un appel interne au centre de contacts, nous faisons une recherche inversée sur qui il pourrait être afin de pouvoir afficher ces informations à l’agent. Dans la console Attendant (avec autorisation déléguée), nous allons rechercher des cibles de transfert dans l’ensemble du répertoire interne. | Pour les REasons de rapports sur les personnes qui ont appelé le plus de données, nous stockons ces données. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.ReadBasic.All | délégué | Recherche utilisateur limitée | Aucun | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Calendars.Read | délégué | Console Attendant : lire le calendrier de l’utilisateur connecté affiche le calendrier avec les rendez-vous | Aucune | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Calendars.Read.Shared | délégué | Console Attendant : lire les calendriers partagés pour afficher le calendrier avec les rendez-vous | Aucune | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Contacts.Read | délégué | Console Attendant : rechercher dans le Exchange contacts de l’utilisateur connecté | Aucune | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Contacts.Read.Shared | délégué | Console Attendant : rechercher dans les contacts Exchange partagés | Aucune | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| GroupMember.Read.All | application | Obtenir les membres de l’équipe, Lire les groupes de sécurité | Nous stockons ces informations lorsque les agents du centre d’appels sont gérés par le biais d’appartenances à un groupe | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Presence.Read.All | délégué | Afficher la présence dans la recherche de contact sur la console Attendant | Aucune | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| User.Read | délégué | Obtenir UserInformation (de l’utilisateur connecté) | Aucune | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| User.Read.All | les deux | Application Nimbus - Obtenir CallerInformation. Lors d’un appel interne au centre de contacts, nous faisons une recherche inversée sur qui il pourrait être afin de pouvoir afficher ces informations à l’agent. Dans la console Attendant (avec autorisation déléguée), nous allons rechercher des cibles de transfert dans l’ensemble du répertoire interne. | Pour les REasons de rapports sur qui a appelé le plus, nous stockons ces données. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| User.ReadBasic.All | délégué | Recherche utilisateur limitée | Aucune | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| Calls.AccessMedia.All | application | La plupart de ces applications/bots (une par file d’attente du centre de contacts) : s’abonner aux tonalités DTMF où le client peut réellement sélectionner sa position dans le système de réponse vocale (IVR) | Toutes les informations DTMF pour les méthodes sélectionnées via le système de réponse vocale vocale pour la raison de rapport | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.Initiate.All | application | Bon nombre de ces applications/bots (une par file d’attente du centre de contacts) : appeler l’agent  | Toutes les informations d’cdr pour la raison de rapport | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.InitiateGroupCall.All | application | Bon nombre de ces applications/bots (une par file d’attente du centre de contacts) : appeler l’agent  | Toutes les informations d’cdr pour la raison de rapport | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.JoinGroupCall.All | application | Bon nombre de ces applications/bots (un par file d’attente du centre de contacts) : participer à un appel recalcalé pour lire des annonces | Toutes les informations d’cdr pour la raison de rapport | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
+>| Calls.Initiate.All | application | Bon nombre de ces applications/bots (une par file d’attente du centre de contacts) : appeler l’agent  | Toutes les informations d’cdR pour la raison du rapport | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
+>| Calls.InitiateGroupCall.All | application | Bon nombre de ces applications/bots (une par file d’attente du centre de contacts) : appeler l’agent  | Toutes les informations d’cdR pour la raison du rapport | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
+>| Calls.JoinGroupCall.All | application | Bon nombre de ces applications/bots (un par file d’attente du centre de contacts) : participer à un appel recalcalé pour lire des annonces | Toutes les informations d’cdR pour la raison du rapport | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -79,7 +79,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Données de rapport agrégées (enregistrements des détails des appels, informations sur l’appelant, traitement des appels et détails du parcours des appels, etc.) : données de configuration de 24 mois : durée du contrat client +30 jours Journaux des applications : stockage temporaire des journaux des applications internes (pour aider nos ingénieurs du support technique à résoudre les problèmes de performances et de fonctionnement des composants d’application) 30 jours.
 
@@ -99,17 +99,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -138,3 +127,4 @@ Ces informations ont été fournies par Luware AG sur la façon dont cette appli
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

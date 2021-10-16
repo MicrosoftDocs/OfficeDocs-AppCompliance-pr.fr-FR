@@ -2,18 +2,18 @@
 title: Informations d’application pour CalendarHero par CalendarHero Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/17/2020
+ms.date: 01/22/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour CalendarHero, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 41a7dd8a2cb7d900ac26b228c4cc2522d76da59c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 380aa287ed8c0a11743b56fbb6a2e3e8fbea5081
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282195"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411118"
 ---
 # <a name="calendarhero"></a>CalendarHero
 
@@ -55,12 +55,12 @@ Ces informations ont été fournies par CalendarHero Inc sur la façon dont cett
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | les deux | Les réunions sont mises en cache dans notre mongoDB sur Azure, mais les descriptions sont chiffrées. | Accès aux événements de calendrier de l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Contacts.ReadWrite | les deux | Nom et adresse e-mail des contacts. | Lisez les contacts de l’utilisateur (afin de pouvoir les inviter à une réunion). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Group.Read.All | les deux | Nom et membres du groupe. | (Facultatif) lire les groupes d’utilisateurs d’entreprise (pour la planification avec des groupes). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Mail.Read | les deux | Adresse de messagerie/nom du contact, fréquence/recency des interactions. | (Facultatif) est utilisé pour lire les métadon données de courrier électronique en dessous de qui sont les contacts les plus importants de l’utilisateur (via Machine Learning). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.Read | les deux | Adresse de messagerie/nom du contact, fréquence/recency des interactions. | (Facultatif) est utilisé pour lire les métadon données de courrier électronique pour savoir qui sont les contacts les plus importants de l’utilisateur (via Machine Learning). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| MailboxSettings.ReadWrite | les deux | Fuseau horaire de l’utilisateur. | Fuseau horaire de l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read.All | les deux | E-mail de nom &amp; d’utilisateur (stocké en tant que contact). | (Facultatif) lire les utilisateurs d’entreprise (pour la planification avec des collègues) | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| offline_access | application | Non | Nous devons lire et écrire dans notre back-end à tout moment, sans que l’utilisateur soit présent. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -83,7 +83,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >L’adresse e-mail d’un utilisateur et/ou d’un contact est utilisée pour consigner des événements dans LogDNA, notre fournisseur de journalisation.
 
@@ -114,4 +114,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

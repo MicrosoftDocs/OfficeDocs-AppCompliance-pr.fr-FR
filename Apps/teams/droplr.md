@@ -2,18 +2,18 @@
 title: Informations d’application pour Droplr par Droplr
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/25/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Droplr, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a15e235b7f604ba4b5c73c74eef50d4bc1a49e65
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f045a83e9e341e9143d82bfbe20138782fe40d5d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283774"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410277"
 ---
 # <a name="droplr"></a>Droplr
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Droplr sur la façon dont cette applicat
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | Nous stockons la `user_id` valeur dans notre base de données | Nous utilisons cette autorisation pour identifier l’utilisateur authentifié et l’associer à son compte Droplr. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
@@ -83,7 +83,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les utilisateurs peuvent supprimer leurs données à tout moment en se connectant à leur compte Droplr. Les administrateurs d’équipe peuvent également supprimer et archiver des données à tout moment (nécessite un abonnement Enterprise d’équipe).
+>Les utilisateurs peuvent supprimer leurs données à tout moment en se connectant à leur compte Droplr. Les administrateurs d’équipe peuvent également supprimer et archiver des données à tout moment (nécessite un abonnement Enterprise’équipe).
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -101,4 +101,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

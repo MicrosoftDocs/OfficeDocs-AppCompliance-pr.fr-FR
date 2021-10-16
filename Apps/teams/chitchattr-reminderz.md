@@ -2,18 +2,18 @@
 title: Informations d’application pour Reminderz par ChitChattr
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/09/2020
+ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Reminderz, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 037cd3bcfc55f58e24582d78e86c12acc3ad3f2f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 778e6b803c786e9559095445bcb700cae6b3256d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282153"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410368"
 ---
 # <a name="reminderz"></a>Reminderz
 
@@ -90,7 +90,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Nous utilisons uniquement les services hébergés par Azure (y compris Mongo Atlas) et nous avons un contrôle total sur les données de ces services.
+>Nous utilisons uniquement les services hébergés par Azure (y compris Mongo Atlas) et avons un contrôle total sur les données de ces services.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -122,8 +122,9 @@ Ces informations ont été fournies par ChitChattr sur la façon dont cette appl
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

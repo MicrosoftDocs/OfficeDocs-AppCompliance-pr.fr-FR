@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour AtBot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d71404e66489ba3f1e81ca5f1a1a92c17b36f9e6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b5f7db2aba878720e33c5c1df2236fd034819dfb
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283030"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411662"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -55,10 +55,10 @@ Ces informations ont été fournies par H3 Solutions, Inc. sur la façon dont ce
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | application | Nom du groupe AAD, GUID du groupe AAD, UPN | Éumez les groupes AAD pour permettre le ingérer la sécurité des compétences du bot. Éumérez les utilisateurs pour être en mesure d’appliquer des licences. Éumer les utilisateurs à ajouter en tant qu’administrateurs/collaborateurs | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| Directory.Read.All | délégué | Nom du groupe AAD, GUID du groupe AAD, UPN | Éumez les groupes AAD pour permettre le ingérer la sécurité des compétences du bot. Éumérez les utilisateurs pour être en mesure d’appliquer des licences. Éumer les utilisateurs à ajouter en tant qu’administrateurs/collaborateurs | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | application | AAD Nom du groupe, AAD de groupe, UPN | Éumez les groupes AAD pour permettre le ingérer la sécurité des compétences du bot. Éumérez les utilisateurs pour être en mesure d’appliquer des licences. Éumer les utilisateurs à ajouter en tant qu’administrateurs/collaborateurs | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | délégué | AAD Nom du groupe, AAD de groupe, UPN | Éumez les groupes AAD pour permettre le ingérer la sécurité des compétences du bot. Éumérez les utilisateurs pour être en mesure d’appliquer des licences. Éumer les utilisateurs à ajouter en tant qu’administrateurs/collaborateurs | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| People.Read | délégué | Non | Éumer les personnes dans une action Obtenir une personne à partir de Flow.  Permet au bot de récupérer des personnes à partir du point de terminaison /People dans Microsoft Graph. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| User.Read | délégué | ID de client, UPN | Nous donne accès à l’ID&#8217;client et à l’UPN de l’utilisateur pour nous permettre de lier les flux/applications logiques créés aux utilisateurs qui les ont créés. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| email | délégué | Les adresses de messagerie sont utilisées pour contacter le support technique via notre système de support. | Nous donne accès à l’adresse e-mail de l’utilisateur. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
@@ -79,7 +79,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Le bot peut accéder à l’UPN de l’utilisateur pour @mention utilisateurs ou leur envoyer des messages. | UPN | Nous devons stocker l’UPN afin de permettre aux utilisateurs d’accéder au système |
+>| Le bot peut accéder à l’UPN de l’utilisateur pour @mention utilisateurs ou leur envoyer des messages. | UPN | Nous devons stocker l’UPN pour permettre aux utilisateurs d’accéder au système |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -92,9 +92,9 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les administrateurs ont la possibilité de supprimer des configurations de bot qui peuvent contenir des noms de groupes AAD/DES GUID.
+>Les administrateurs ont la possibilité de supprimer des configurations de bot qui peuvent contenir des AAD des noms de groupes/DES GUI.
 Lors de l’annulation du service, tous les UPN sont supprimés de la base de données de licences.
-Voir « Azure Services » sous Data Residency.  La plupart des données spécifiques au client produites par l’utilisation d’AtBot sont stockées dans le client du client et les administrateurs de ce client ont donc un contrôle total sur les données qui y sont stockées.
+Voir « Azure Services » sous Data Residency.  La plupart des données spécifiques au client produites via l’utilisation d’AtBot sont stockées dans le client du client et les administrateurs de ce client ont donc un contrôle total sur les données qui y sont stockées.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -126,11 +126,11 @@ Ces informations ont été fournies par H3 Solutions, Inc. sur la façon dont ce
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -142,3 +142,4 @@ Ces informations ont été fournies par H3 Solutions, Inc. sur la façon dont ce
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

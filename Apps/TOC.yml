@@ -45,7 +45,7 @@
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint pour Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworkimage-chooser-for-office.md
@@ -66,7 +66,7 @@
     - name: Microsoft OneNote Applications
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
@@ -152,7 +152,7 @@
           href: powerpoint/lucid-software-inc-lucidchart-diagrams-for-powerpoint.md
         - name: Office2SharePoint pour Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
@@ -174,8 +174,8 @@
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
         - name: Tableau des tâches agile pour SharePoint Online
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
-        - name: Cartes ArcGIS
-          href: sharepoint/esri-inc-arcgis-maps.md
+        - name: ArcGIS pour SharePoint
+          href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: Connecteur FormMachines pour SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: SharePoint
@@ -487,6 +487,8 @@
           href: teams/controlex-gmbh-grouplotse.md
         - name: Gtmhub
           href: teams/gtmhub.md
+        - name: GuideSpark Communicate Cloud
+          href: teams/guidespark-communicate-cloud.md
         - name: Guru
           href: teams/guru-technologies.md
         - name: Health Hero

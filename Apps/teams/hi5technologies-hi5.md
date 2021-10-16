@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Hi5, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1356b3e31e309379e1943dc5ca59e10c72c23410
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 898df3b321b140473aa408cdba2447d70356859d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281259"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410207"
 ---
 # <a name="hi5"></a>Hi5
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Hi5Technologies sur la façon dont cette
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | Nous stockons uniquement les informations de session des utilisateurs à partir de Teams et l’utilisateur doit les approuver par ajout de notifications (ils peuvent les supprimer à tout moment). Aucune autre information n’est stockée. | Requis pour la connexion et l’authentification SSO sur notre serveur | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
 >| email | délégué | Nous stockons uniquement les informations de session des utilisateurs à partir de Teams et l’utilisateur doit les approuver par ajout de notifications (ils peuvent les supprimer à tout moment). Aucune autre information n’est stockée. | Requis pour la connexion et l’authentification SSO sur notre serveur | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
@@ -125,7 +125,7 @@ Ces informations ont été fournies par Hi5Technologies sur la façon dont cette
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -142,3 +142,4 @@ Ces informations ont été fournies par Hi5Technologies sur la façon dont cette
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

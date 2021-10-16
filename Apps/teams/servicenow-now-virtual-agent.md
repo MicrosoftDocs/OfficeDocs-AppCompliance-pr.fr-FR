@@ -2,18 +2,18 @@
 title: Informations sur l’application pour l’agent virtuel désormais par ServiceNow
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/23/2020
+ms.date: 05/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’agent virtuel maintenant, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1ac2988c550894341d5933afbc59de6f63c51b68
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 20ae315016fa0d5cbc960616f09bfd350ceb5c43
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282399"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408343"
 ---
 # <a name="now-virtual-agent"></a>Agent désormais virtuel
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par ServiceNow sur la façon dont cette appl
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | Le domaine est stocké dans notre centre de données à des fins de routage des messages futures. | Lorsque l’administrateur ServiceNow installe l’intégration avec MS Teams, l’administrateur doit se connecter à son compte Teams MS. Nous lisons le domaine à partir de l’adresse e-mail (pas l’adresse de messagerie complète). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Non out of box by ServiceNow. Les clients peuvent tirer parti de l’infrastructure de l’agent virtuel pour créer des fonctionnalités supplémentaires pouvant potentiellement accéder aux informations de l’organisation ou de l’utilisateur final. Les utilisateurs peuvent taper des informations d’identification personnelle pendant l’interaction avec le bot et les envoyer à ServiceNow.
 
@@ -101,4 +101,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

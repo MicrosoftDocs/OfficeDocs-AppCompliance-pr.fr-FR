@@ -2,18 +2,18 @@
 title: Informations d’application pour DisasterTech DICE par DisasterTech
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour DisasterTech DICE, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d8eec2ad9c7047a33dae446943c3ab2d934cc78c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: fd0c7aeda8b245db0b222ffcfd4d59deb3d0374d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283066"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411068"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -54,13 +54,13 @@ Ces informations ont été fournies par DisasterTech sur la façon dont cette ap
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | délégué | Adresse de messagerie de l’utilisateur stockée pour l’établissement des droits d’accès et nom d’utilisateur pour identifier les utilisateurs par leur nom | Permet à l’utilisateur de se connecter et donne à l’application accès à son UPN pour activer la connexion silencieuse, ainsi que Teams connexion, également pour établir des noms d’utilisateurs et des adresses e-mail. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
->| email | délégué | Aucun | Requis pour les Teams'Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
->| offline_access | délégué | Aucun | Requis pour les Teams'Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
->| openid | délégué | Aucun | Requis pour les Teams'Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
->| profil | délégué | Aucun | Requis pour Teams l' sign-on unique. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| User.Read | délégué | Adresse de messagerie de l’utilisateur stockée pour établir des droits d’accès ainsi que le nom d’utilisateur pour identifier les utilisateurs par leur nom | Permet à l’utilisateur de se connecter et donne à l’application accès à son UPN pour activer la connexion silencieuse, ainsi que Teams connexion, également pour établir des noms d’utilisateurs et des adresses e-mail. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| email | délégué | Aucune | Requis pour les Teams'Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| offline_access | délégué | Aucune | Requis pour les Teams'Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| openid | délégué | Aucune | Requis pour les Teams'Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| profil | délégué | Aucune | Requis pour Teams l' sign-on unique. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -78,7 +78,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nous stockons le nom d’utilisateur, le prénom et le nom dans une base de données PostgreSQL hébergée par Azure pour permettre aux utilisateurs de collaborer dans l’application. Les contrôles sont que seuls les employés de la technologie d’urgence ont un accès direct à la base de données. Lorsqu’un utilisateur est supprimé de l’application, nous archiveons les informations. Les utilisateurs conservent le droit de supprimer leurs données personnelles du système à tout moment. Toutefois, la suppression de ces informations interdira également leur utilisation de l’application.
 
@@ -109,4 +109,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

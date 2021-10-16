@@ -2,18 +2,18 @@
 title: Informations d’application pour LifeWorks par LifeWorks
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/16/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LifeWorks, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a66fa3d6aff69735f811210bdac6bf985443fd8e
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: a64e54278ea4e8cde380ac56a6ed298765ea10a1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785527"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410968"
 ---
 # <a name="lifeworks"></a>LifeWorks
 
@@ -76,7 +76,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->L’EUII n’est pas collecté. OII est collecté dans la télémétrie Google Analytics et est conservé pendant 14 mois. OII peut être collecté indirectement par le biais de l’application ou la surveillance de la sécurité est conservée pendant 24 mois au maximum. Dans les cas exceptionnelles où L’OII est nécessaire dans le cadre d’une enquête de sécurité, il est conservé pendant 5 ans ou la période de rétention légale minimale, selon la valeur la plus élevée.
+>L’EUII n’est pas collecté. OII est collecté dans la télémétrie Google Analytics et est conservé pendant 14 mois. OII peut être collecté indirectement par le biais de l’application ou la surveillance de la sécurité est conservée pendant 24 mois au maximum. Dans les cas exceptionnelles où OII est nécessaire dans le cadre d’une enquête de sécurité, il est conservé pendant 5 ans ou la période de rétention légale minimale, selon la valeur la plus élevée.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -94,28 +94,18 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par LifeWorks sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par LifeWorks sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Informations sur l’application pour Trivia par Springworks HR Tech
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/13/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Trivia, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e22205d2584abd257a6fdff585f129fb915ff6b2
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f2e79a1843977a1c8c1ea0f62259cfa4bde8f076
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280617"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410848"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par Springworks HR Tech sur la façon dont c
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | délégué | Non | Pour obtenir la liste des Teams dont l’utilisateur fait partie | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 >| Team.ReadBasic.All | délégué | Oui, stockage de la liste des équipes dans lesquelles le bot a été ajouté | Pour collecter des informations de base sur toutes les équipes présentes dans un espace de travail | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
@@ -124,8 +124,9 @@ Ces informations ont été fournies par Springworks HR Tech sur la façon dont c
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

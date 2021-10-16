@@ -2,18 +2,18 @@
 title: Informations sur l’application pour Weekly10 par Binary Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/19/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Weekly10, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3a1456ccf706a9588f82e38ea35e5e37f8098b9b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9bdd5e42398270719c9f0ecd9814155974dbee6f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281823"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411128"
 ---
 # <a name="weekly10"></a>Weekly10
 
@@ -55,11 +55,11 @@ Ces informations ont été fournies par Binary Limited sur la façon dont cette 
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | application | Synchronisation des utilisateurs d’Azure AD vers Weekly10 (facultatif) | Données d’identité d’utilisateur : nom d’utilisateur principal, e-mail, prénom, nom et responsable. | [2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb](https://docs.microsoft.com/microsoft-365-app-certification/azure/2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb) |
+>| Directory.Read.All | application | Synchronisation des utilisateurs de Azure AD vers Weekly10 (facultatif) | Données d’identité d’utilisateur : nom d’utilisateur principal, e-mail, prénom, nom et responsable. | [2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb](https://docs.microsoft.com/microsoft-365-app-certification/azure/2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb) |
 >| Calendars.ReadWrite | application | Vérification de la disponibilité des employés et de la réservation automatisée des réunions (facultatif). | Les heures de disponibilité des employés (pas les détails) et lorsqu’une réunion est réservée, la référence à cette réunion. Ces données sont utilisées pour comprendre si un employé est en dehors du bureau pour une expérience transparente et pour réserver des réunions en 1:1 ou des révisions de performances. | [494610b2-b490-4f54-8384-312d6f9b4869](https://docs.microsoft.com/microsoft-365-app-certification/azure/494610b2-b490-4f54-8384-312d6f9b4869) |
->| User.Read | délégué | Vérification de l’utilisateur à des fins DSO sur Azure AD. | Aucune donnée supplémentaire n’est conservée en dehors des informations de jeton. | [6fd1421e-89e8-4a8b-bd01-9397656a50d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fd1421e-89e8-4a8b-bd01-9397656a50d5) |
+>| User.Read | délégué | Vérification de l’utilisateur à des fins DSO sur le Azure AD. | Aucune donnée supplémentaire n’est conservée en dehors des informations de jeton. | [6fd1421e-89e8-4a8b-bd01-9397656a50d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fd1421e-89e8-4a8b-bd01-9397656a50d5) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -99,17 +99,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -119,7 +108,7 @@ Ces informations ont été fournies par Binary Limited sur la façon dont cette 
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -137,3 +126,4 @@ Ces informations ont été fournies par Binary Limited sur la façon dont cette 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

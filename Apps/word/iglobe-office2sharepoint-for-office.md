@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Office2SharePoint pour Office, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 404e38a0132fad49e96171319a0d273b84dca020
-ms.sourcegitcommit: 9010c9bace5d935309eae5098f5a126a55270eb6
+zone_pivot_groups: app-info-data-mcas-identity-certification
+ms.openlocfilehash: 5a1525902562750d0d0bd4567e7962d7efc1e04b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59438365"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411288"
 ---
 # <a name="office2sharepoint-for-office"></a>Office2SharePoint pour Office
 
@@ -52,14 +52,14 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 >| Directory.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Recherchez les autorisations et obtenez les sites et les listes. Créez des dossiers, obtenez des fichiers et enregistrez des fichiers. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 >| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Recherchez les autorisations et obtenez les sites et les listes. Créez des dossiers, obtenez des fichiers et enregistrez des fichiers. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 >| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir les sites de groupe utilisateurs. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder aux messages sélectionnés et obtenir les pièces jointes. À partir du courrier électronique ou de l’SharePoint site de groupes au courrier électronique. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder aux messages sélectionnés et obtenir les pièces jointes. À partir du courrier électronique ou de l’SharePoint site de groupes au courrier électronique. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder aux e-mails sélectionnés et obtenir les pièces jointes. À partir du courrier électronique ou de l’SharePoint site de groupes au courrier électronique. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder aux e-mails sélectionnés et obtenir les pièces jointes. À partir du courrier électronique ou de l’SharePoint site de groupes au courrier électronique. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 >| Sites.Manage.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de créer ou de supprimer des bibliothèques de documents et des listes dans toutes les collections de sites pour le compte de l’utilisateur. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 >| Sites.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir les utilisateurs SharePoint site. Obtenez des fichiers et enregistrez les pièces jointes à partir du courrier sélectionné. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 >| Sites.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
@@ -69,7 +69,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Exchange - EWS. AccessAsUser.All | Non |  |  |  |  |
 >| Exchange - Mail.ReadWrite | Non |  |  |  |  |
@@ -130,7 +130,7 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
@@ -143,6 +143,43 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 | Votre application expose-t-elle des API web ? | Non |
 | Votre application utilise-t-elle les API d’aperçu ? | Non |
 | Votre application utilise-t-elle des API dépréciées ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Informations de certification
+
+| **Contrôle** | **Microsoft 365 Résultat de certification** |
+|:------------|:---------------------------------------|
+| [**SÉCURITÉ DES APPLICATIONS**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test de pénétration | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examen de l’évaluation des vulnérabilités (test DAST/SAST/Pénétration) | S/O |
+| [**SÉCURITÉ OPÉRATIONNELLE**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants : antivirus | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants : contrôle des applications | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs : classement des risques | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs : correction | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyse des vulnérabilités | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu : pare-feu (ou technologies équivalentes) | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu : pare-feu d’application web (WAF) (facultatif) | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contrôle des changements | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sécurisation du développement/déploiement de logiciels | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des comptes | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Détection et prévention des intrusions (facultatif) | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Journalisation des événements de sécurité | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Révision (journalisation des données) | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertes d’événements de sécurité | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des risques de sécurité des informations | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Réponse aux incidents | S/O |
+| [**GESTION DES DONNÉES RELATIVES À LA CONFIDENTIALITÉ DE &amp; LA SÉCURITÉ**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données en transit | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données au repos | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rétention et élimination des données | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion de l’accès aux données | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R GDPR | S/O |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -2,18 +2,18 @@
 title: Informations sur l’application pour PlayQuiz - Aprende &amp; Juega par TeamsChamp
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/11/2021
+ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour PlayQuiz - Aprende Juega, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre &amp; CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2d538edf2b96311ea7f2611a33d2362786453ee3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 8d3cc87e089321333074ef577ba2afca0172e31c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281451"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411439"
 ---
 # <a name="playquiz---aprende-amp-juega"></a>Questionnaire de jeu – Aprende &amp; Juega
 
@@ -55,7 +55,7 @@ Ces informations ont été fournies par TeamsChamp sur la façon dont cette appl
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | délégué | Nom, e-mail et photo de profil de l’utilisateur | e-mail, pour l’ing dans l’application et le nom pour l’afficher dans l’application | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
 >| User.ReadBasic.All | délégué | Nom, e-mail et image de profil | ne stockez pas ces données, lisez-les uniquement pour les afficher dans le leaderboad (application) | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
@@ -118,7 +118,7 @@ Ces informations ont été fournies par TeamsChamp sur la façon dont cette appl
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -135,3 +135,4 @@ Ces informations ont été fournies par TeamsChamp sur la façon dont cette appl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

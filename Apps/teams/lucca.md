@@ -1,21 +1,21 @@
 ---
-title: Informations d’application pour Lucca par Lucca
+title: Informations sur l’application pour Lucca par Lucca
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/23/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Lucca, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c98f76c08e966923606d9242449f4c11719342b2
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 61f53fe653ebce1a833005082c8254392e61b2c1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785492"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411599"
 ---
-# <a name="lucca"></a>Lucca
+# <a name="lucca"></a>Lucques
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Informations fournies par Lucca à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Lucca |
+| Nom de l'application | Lucques |
 | ID | WA200001650 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Lucca |
+| Nom de la société partenaire | Lucques |
 | URL du site web partenaire | [https://www.lucca.fr](https://www.lucca.fr) |
 | URL de la politique de confidentialité | [https://www.lucca.fr/privacy-policy](https://www.lucca.fr/privacy-policy) |
 | URL des conditions d’utilisation | [https://cdn2.hubspot.net/hubfs/1582050/3-DOWNLOAD_FILES/Ter...](https://cdn2.hubspot.net/hubfs/1582050/3-DOWNLOAD_FILES/TermsAndConditions.pdf) |
@@ -54,10 +54,10 @@ Ces informations ont été fournies par Lucca sur la façon dont cette applicati
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| ChannelMember.Read.All | délégué | Aucune donnée n’est collectée. Nous les avons utilisés pour filtrer la planification de l’affichage. Seules les planifications des utilisateurs du canal sont affichées. | Aucune donnée n’est stockée | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| Chat.ReadWrite | application | Aucune donnée n’est collectée ou utilisée. L’application publie uniquement un message contenant les absents de la journée | Aucune donnée n’est stockée | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| ChannelMember.Read.All | délégué | Aucune donnée n’est collectée. Nous les avons utilisés pour filtrer la planification de l’affichage. Seuls les utilisateurs qui sont dans le canal ont leur planification affichée | Aucune donnée n’est stockée | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| Chat.ReadWrite | application | Aucune donnée n’est collectée ou utilisée. L’application publie uniquement un message contenant les absents du jour | Aucune donnée n’est stockée | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
 >| Group.Read.All | application | Nous collectons le GroupId pour savoir dans quel groupe l’application doit envoyer le message avec les absents.  | Nous stockons uniquement le GroupId pour enregistrer la configuration que l’utilisateur a réalisée. Il nous permet de savoir dans quel groupe envoyer le message | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
 >| User.Read | délégué | Utilisé pour se connecter aux utilisateurs | Aucune donnée n’est stockée | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
 >| User.Read.All | application | Utilisé pour lire les profils utilisateur | Aucune donnée n’est stockée | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
@@ -81,7 +81,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -101,17 +101,6 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -121,8 +110,9 @@ Ces informations ont été fournies par Lucca sur la façon dont cette applicati
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

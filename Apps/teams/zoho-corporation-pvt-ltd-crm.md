@@ -2,18 +2,18 @@
 title: Informations d’application pour Zoho CRM par Zoho Corporation Pvt Ltd
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/04/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Zoho CRM, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5408c7dd2ce3a7cd27c98905156bdbb45c6edede
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 79484ab42a9353b59261ed990105733e5da43240
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280540"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411318"
 ---
 # <a name="zoho-crm"></a>Zoho CRM
 
@@ -55,10 +55,10 @@ Ces informations ont été fournies par Zoho Corporation Pvt Ltd sur la façon d
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | délégué | L’ID de dossier de calendrier est stocké pour synchroniser les contacts entre Zoho CRM et &amp; Microsoft, inversement. Les informations de calendrier telles event_name, event_location, participant_details sont stockées. | Permet à l’utilisateur de synchroniser des événements Office365 avec Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Contacts.ReadWrite | délégué | L’ID du dossier contacts est stocké pour synchroniser les contacts entre Zoho CRM et &amp; Microsoft, inversement. Les informations de contact telles first_name, last_name, l’adresse e-mail sont stockées. | Permet à l’utilisateur de synchroniser les contacts Office365 avec Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.ReadWrite | délégué | L’ID du dossier contacts est stocké pour synchroniser les contacts de Zoho CRM avec &amp; Microsoft, et inversement. Les informations de contact telles first_name, last_name, l’adresse e-mail sont stockées. | Permet à l’utilisateur de synchroniser les contacts Office365 avec Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 >| Files.Read | délégué |  | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 >| Files.Read.All | délégué |  | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 >| Files.Read.Selected | délégué | UserPrincipalName est stocké pour l’identification de l’utilisateur | Permet à l’utilisateur d’importer un fichier Office365 dans Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
@@ -91,7 +91,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Le client peut sélectionner les données qui doivent être chiffrées via EAR (Chiffrement au repos) avec des restrictions de sécurité. Les mots de passe sont hachés par défaut. L’accès logique aux serveurs est fourni via un réseau dédié &amp; isolé et est hautement sécurisé et
+>Le client peut sélectionner les données qui doivent être chiffrées via EAR (Chiffrement au repos) avec des restrictions de sécurité. Les mots de passe sont hachés par défaut. L’accès logique aux serveurs est fourni par le biais d’un réseau dédié &amp; isolé et est hautement sécurisé et
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -109,4 +109,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

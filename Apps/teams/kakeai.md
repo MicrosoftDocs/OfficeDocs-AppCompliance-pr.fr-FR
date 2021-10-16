@@ -2,18 +2,18 @@
 title: Informations d’application pour KAKEAI par KAKEAI
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/17/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour KAKEAI, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a2c65a78c07d2724b73757df909c1a75262a02c6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2afbcf29e27470859356e07e1a82a749de325c94
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283444"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410988"
 ---
 # <a name="kakeai"></a>KAKEAI
 
@@ -120,8 +120,9 @@ Ces informations ont été fournies par KAKEAI sur la façon dont cette applicat
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

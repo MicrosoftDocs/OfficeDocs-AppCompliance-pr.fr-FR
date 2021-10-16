@@ -2,18 +2,18 @@
 title: Informations sur l’application pour la demande de congé par LTAPPs par LTAPPs SOFTWARE CO.,LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la demande d’autorisation par LTAPPs, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2db2812a4ba1c2cd191e181ba16b13563752f90a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4202639a726a320c311b5093ab8e6547d9b39306
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282471"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411609"
 ---
 # <a name="leave-request-by-ltapps"></a>Demande de congé par LTAPPs
 
@@ -72,7 +72,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Le module complémentaire ne stocke aucune information de l’utilisateur final. Il stocke uniquement 2 informations de configuration sous les magasins &amp; dans Cosmos db Azure
 - GUID client du client
@@ -84,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
 >L’application ne stocke pas les données du client. Toutes les données des magasins clients dans le site client (site Sharepoint).
-Il n’obtienne/définisse les données sur le site client que via SharePoint API Rest a utilisé l’inscription d’application &amp; Azure pour l’th.
+Il n’obtienne/définisse les données sur le site client que via SharePoint API Rest a utilisé l’inscription de l’application &amp; Azure pour l’th.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -107,4 +107,5 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 
