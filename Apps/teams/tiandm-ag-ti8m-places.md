@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les lieux ti8m, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 92b67a17394d796e0d743c6b3c570698e54e2fec
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f8a248b5b89f9672ea79101ea286ca5ea01d7a3b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411429"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429442"
 ---
 # <a name="ti8m-places"></a>ti8m places
 
@@ -60,7 +60,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Calendars.ReadWrite.Shared | délégué | Annuler des événements sur les calendriers des utilisateurs et des espaces de travail  | ID d’événement si une entrée de calendrier réservée doit être annulée | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
 >| Directory.ReadWrite.All | délégué | Installation et création de groupes d’administration AAD - Groupes de sécurité  | GroupNames et GroupIDs | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
 >| Place.ReadWrite.All | délégué | Liste des espaces de travail et des noms de carte  | ID de l’espace de travail, adresse de messagerie de l’espace de travail et nom d’affichage. Utilisé pour la réservation d’un lieu de travail | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
->| User.Read | délégué | Nom d’utilisateur, e-mail et nom d’affichage, nécessaire pour afficher userdata dans l’application | Nom d’utilisateur, e-mail et nom d’affichage, nécessaire pour afficher userdata dans l’application | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
+>| User.Read | délégué | Nom d’utilisateur, e-mail et nom d’affichage, nécessaire pour afficher Userdata dans l’application | Nom d’utilisateur, e-mail et nom d’affichage, nécessaire pour afficher Userdata dans l’application | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -78,7 +78,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -123,4 +123,3 @@ Ces informations ont été fournies par ti m AG sur la façon dont cette applica
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

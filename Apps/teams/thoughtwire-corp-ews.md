@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ThoughtWire EWS, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: ef425a6acb8cfe166502b4c4817229b1b33da14b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: ebff314a2e2532b6d4b1c2a8e89e600fced83512
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414911"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429512"
 ---
 # <a name="thoughtwire-ews"></a>ThoughtWire EWS
 
@@ -56,12 +56,12 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Group.Create | application | Permet à l’application de créer des groupes/équipes pour les hôpitals/unités. | Aucune | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| Group.ReadWrite.All | application | Requis pour que l’application détermine les groupes qu’elle peut avoir besoin de créer/re-créer et pour gérer l’appartenance. | Aucune | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| GroupMember.ReadWrite.All | application | Requis pour que l’application puisse gérer l’appartenance au groupe. c’est-à-dire, en ajoutant/supprimant des auxiliaires d’une équipe lorsque les équipes changent. | Aucune | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| TeamMember.ReadWrite.All | application | Requis pour que l’application puisse gérer l’appartenance au groupe. c’est-à-dire, en ajoutant/supprimant des auxiliaires d’une équipe lorsque les équipes changent. | Aucune | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| TeamsAppInstallation.ReadWriteForTeam | application | Permet à l’application d’installer automatiquement le bot ThoughtWire pour les équipes qu’elle crée/gère. | Aucune | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| User.Read | application | Autorisez l’application à récupérer le nom d’utilisateur /AADID d’un utilisateur selon les besoins lors de la gestion de l’appartenance et/ou de la récupération du nom d’utilisateur pour identifier l’utilisateur au sein de notre application. | Aucune | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| Group.Create | application | Permet à l’application de créer des groupes/équipes pour les hôpitals/unités. | Aucun | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| Group.ReadWrite.All | application | Requis pour que l’application détermine les groupes qu’elle peut avoir besoin de créer/re-créer et pour gérer l’appartenance. | Aucun | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| GroupMember.ReadWrite.All | application | Requis pour que l’application puisse gérer l’appartenance au groupe. c’est-à-dire, en ajoutant/supprimant des auxiliaires d’une équipe lorsque les équipes changent. | Aucun | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| TeamMember.ReadWrite.All | application | Requis pour que l’application puisse gérer l’appartenance au groupe. c’est-à-dire, en ajoutant/supprimant des auxiliaires d’une équipe lorsque les équipes changent. | Aucun | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| TeamsAppInstallation.ReadWriteForTeam | application | Permet à l’application d’installer automatiquement le bot ThoughtWire pour les équipes qu’elle crée/gère. | Aucun | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| User.Read | application | Autorisez l’application à récupérer le nom d’utilisateur /AADID d’un utilisateur selon les besoins lors de la gestion de l’appartenance et/ou de la récupération du nom d’utilisateur pour identifier l’utilisateur au sein de notre application. | Aucun | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -81,7 +81,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -89,7 +89,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->ThoughtWire sélectionne les partenaires qui répondent ou dépassent nos propres processus de contrôle des données. Les données ne sont pas fournies aux systèmes partenaires, sauf en cas d’absolue nécessité. Tous les services ThoughtWire et les systèmes partenaires associés sont examinés et approuvés par les clients.
+>ThoughtWire sélectionne les partenaires qui répondent ou dépassent nos propres processus de contrôle des données. Les données ne sont pas fournies aux systèmes partenaires, sauf en cas d’absolue nécessité. Tous les services ThoughtWire et les systèmes partenaires associés sont vérifiés et approuvés par les clients.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -114,7 +114,7 @@ Ces informations ont été fournies par ThoughtWire Corp. sur la façon dont cet
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Non |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -128,4 +128,3 @@ Ces informations ont été fournies par ThoughtWire Corp. sur la façon dont cet
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

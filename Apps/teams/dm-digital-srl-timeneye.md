@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Timeneye, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 30c0543469970b94d1020a3c1c64f668ab833075
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c98a1fbd0db2d02caf71e16000d8b57bb8df06da
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412444"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429942"
 ---
 # <a name="timeneye"></a>Timeneye
 
@@ -56,9 +56,9 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | délégué | Date/heure de début/fin de l’événement, objet de l’événement, ID d’événement, URI web de l’événement. Générer des suggestions basées sur des événements de calendrier. | Date/heure de début/fin de l’événement, objet de l’événement, ID d’événement, URI web de l’événement. Possibilité de lier une suggestion générée à l’événement de calendrier approprié. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Calendars.Read.Shared | délégué | Date/heure de début/fin de l’événement, objet de l’événement, ID d’événement, URI web de l’événement. Nous utilisons ces informations pour générer des suggestions basées sur des événements de calendrier. | Date/heure de début/fin de l’événement, objet de l’événement, ID d’événement, URI web de l’événement. Nous utilisons ces informations pour lier une suggestion générée à l’événement de calendrier approprié. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Directory.Read.All | délégué | ID des groupes d’utilisateurs. Nous utilisons ces informations pour vérifier les groupes dont l’utilisateur est membre afin de synchroniser les planificateurs de ses groupes. | ID des groupes d’utilisateurs. Nous utilisons ces informations pour vérifier les groupes dont l’utilisateur est membre afin de synchroniser les planificateurs de ses groupes. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
+>| Calendars.Read | délégué | Date/fin de l’événement DateTime, objet de l’événement, ID d’événement, URI web de l’événement. Générer des suggestions basées sur des événements de calendrier. | Date/fin de l’événement DateTime, objet de l’événement, ID d’événement, URI web de l’événement. Possibilité de lier une suggestion générée à l’événement de calendrier approprié. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
+>| Calendars.Read.Shared | délégué | Date/fin de l’événement DateTime, objet de l’événement, ID d’événement, URI web de l’événement. Nous utilisons ces informations pour générer des suggestions basées sur des événements de calendrier. | Date/fin de l’événement DateTime, objet de l’événement, ID d’événement, URI web de l’événement. Nous utilisons ces informations pour lier une suggestion générée à l’événement de calendrier approprié. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
+>| Directory.Read.All | délégué | ID de groupes d’utilisateurs. Nous utilisons ces informations pour vérifier les groupes dont l’utilisateur est membre afin de synchroniser les planificateurs de ses groupes. | ID de groupes d’utilisateurs. Nous utilisons ces informations pour vérifier les groupes dont l’utilisateur est membre afin de synchroniser les planificateurs de ses groupes. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
 >| Group.Read.All | délégué | Nom du groupe, ID de groupe. Nous utilisons ces informations lors de la synchronisation des projets du planificateur. | Nom du groupe, ID de groupe.  | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
 >| Tasks.Read | délégué | nom de liste de tâches, ID de liste de tâches. Nous utilisons ces informations lors de la synchronisation des projets du planificateur. | nom de liste de tâches, ID de liste de tâches. Nous utilisons ces informations lors de la synchronisation des projets du planificateur. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
 >| User.Read | délégué | e-mail, nom. Nous utilisons ces informations pour nous connecter à l’utilisateur/créer le compte d’utilisateur | e-mail, nom. Nous utilisons ces informations pour nous connecter à l’utilisateur/créer le compte d’utilisateur | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
@@ -138,4 +138,3 @@ Ces informations ont été fournies par DM Digital SRL sur la façon dont cette 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’outil Kanban, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7422dcff9386dbb64599660eea58941d2a862b13
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f8ab41264bce6b78ce099a0b295e381e7102a4ca
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413396"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430162"
 ---
 # <a name="kanban-tool"></a>Kanban Tool
 
@@ -60,7 +60,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| email | délégué | Adresse de messagerie de l’utilisateur pour la communication, la correspondance d’identité et la remise des notifications. | Adresse de messagerie. | [4e820d60-9e62-403c-accd-857b987cc13c](https://docs.microsoft.com/microsoft-365-app-certification/azure/4e820d60-9e62-403c-accd-857b987cc13c) |
 >| Team.ReadBasic.All | délégué | Identificateurs et noms des équipes dont l’utilisateur est un membre direct. Ils sont utilisés pour affecter automatiquement des utilisateurs à des groupes corrects dans l’outil Kanban. | Les identificateurs d’équipe et les noms dont l’utilisateur est un membre direct sont mappés à des groupes dans l’outil Kanban. Cela permet de gérer l’accès basé sur les groupes et de partager des Boards Kanban entre différentes équipes dans la même organisation. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| User.Read | délégué | Informations de base sur l’entreprise des utilisateurs inscrits. Il est utilisé pour remplir les détails du compte des nouveaux comptes et pour reconnaître les utilisateurs qui appartiennent à votre organisation afin de fournir la fonctionnalité Sign-On unique. | Nom et identificateur Microsoft unique de votre organisation. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| offline_access | délégué | Autorise la fonctionnalité « Se connecter avec Microsoft » et la synchronisation des données à qui vous avez accordé l’accès à l’application, lors de la connexion de l’utilisateur. | Conservez l’accès aux données à qui vous avez accordé l’accès. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| offline_access | délégué | Autorise la fonctionnalité « Se connecter avec Microsoft » et la synchronisation des données à qui vous avez donné accès à l’application, lors de la connexion de l’utilisateur. | Conservez l’accès aux données à qui vous avez accordé l’accès. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| openid | délégué | Ouvrez les jetons d’ID qui permettent aux utilisateurs de se connectent à l’application avec leurs comptes professionnels ou scolaires via le bouton « Se connectez avec Microsoft ». | Identificateur immuable pour le compte d’utilisateur dans le système d’identité Microsoft. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| profil | délégué | Nom d’utilisateur à utiliser pour le repas automatique dans l’outil Kanban et rester synchronisé avec les modifications apportées aux Microsoft Teams. | Nom complet de l’utilisateur. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 
@@ -107,7 +107,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par labs Labs sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par labs Labs sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -129,4 +129,3 @@ Ces informations ont été fournies par labs Labs sur la façon dont cette appli
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

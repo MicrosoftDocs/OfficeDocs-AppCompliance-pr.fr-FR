@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour monday.com, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9cd1bfefcd9a56e23cae31f18638cea652d1becd
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: bcac468f04682f2f574868fc574de82863dec690
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415041"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429902"
 ---
 # <a name="mondaycom"></a>monday.com
 
@@ -74,9 +74,9 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->monday.com stocke les journaux d’application qui contiennent du contenu généré par les utilisateurs pendant une période limitée afin de permettre à notre personnel de R D de résoudre les bogues et les problèmes signalés par &amp; l’utilisateur. Les journaux de sécurité qui contiennent des adresses IP sont conservés pendant une période plus longue, selon notre stratégie de rétention des données.
+>monday.com stocke les journaux des applications qui contiennent du contenu généré par les utilisateurs pendant une période limitée afin de permettre à notre personnel de R D de résoudre les bogues et les problèmes signalés par &amp; l’utilisateur. Les journaux de sécurité qui contiennent des adresses IP sont conservés pendant une période plus longue, selon notre stratégie de rétention des données.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -96,7 +96,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35338' frameborder='no' style='width: 100%;'></iframe>
 
@@ -131,4 +131,3 @@ Ces informations ont été fournies par monday.com sur la façon dont cette appl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

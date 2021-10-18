@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Karma, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 69163a7c191e9a7e8d460a7f20623466d208042e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 781e9e6fd3ece314f2175fc23c116e6cf2a2b6b6
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410908"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430152"
 ---
 # <a name="karma"></a>Karma
 
@@ -77,7 +77,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nous stockons les ID de locataire et d’utilisateur dans les journaux. Les deux ne sont pas identifiables.
 
@@ -110,7 +110,7 @@ Les données sont stockées dans le centre cloud de l’océan numérique dans l
 
 Géré par l’océan numérique.
 
-6. **Décrivez le processus de gestion d’accès en place à la fin du fournisseur, en vous attumant sur la façon dont vous assurez la suppression en temps voulu des accès qui ne sont plus nécessaires et sur la façon dont vous contrôlez l’adéquation des privilèges au rôle de travail. Décrire également les processus de revalidation et la fréquence de son exécution**
+6. **Décrivez le processus de gestion d’Accès en place à la fin du fournisseur, en pointant sur la façon dont vous assurez la suppression en temps voulu des accès qui ne sont plus nécessaires et comment vous contrôlez l’adéquation des privilèges au rôle de travail. Décrire également les processus de revalidation et la fréquence de son exécution**
 
 Nous utilisons l’authentification à deux facteurs pour accéder au panneau de contrôle. Seules 3 personnes y ont accès, nous changeons de mot de passe tous les mois, nous auditons les journaux d’accès et nous vérifions que les comptes des personnes qui ne travaillent plus avec nous sont supprimés de la plateforme.
 
@@ -122,7 +122,7 @@ Nous utilisons 1Password pour partager des&#8217;d’ID partageables, nous avons
 
 Nous avons mené des réunions mensuelles qui couvrent la répartition des droits, l’importance de l’utilisation dédiée de la connexion et chaque connexion 2FA possible.
 
-Notre SIEM contient : les journaux de pare-feu, les journaux de serveur web et les journaux d’applications. SIEM est analysé quotidiennement et lors de la réception. Les journaux sont conservés pendant 1 mois et supprimés en toute sécurité après cela.
+Notre SIEM contient : les journaux de pare-feu, les journaux du serveur web et les journaux des applications. SIEM est analysé quotidiennement et lors de la réception. Les journaux sont conservés pendant 1 mois et supprimés en toute sécurité après cela.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -136,7 +136,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35674' frameborder='no' style='width: 100%;'></iframe>
 
@@ -145,5 +145,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

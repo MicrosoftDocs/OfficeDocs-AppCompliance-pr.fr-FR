@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TagTeam, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 025d0040bdd58a01cd3993445c025b9a61f90822
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 81a65cb4b672c1f76c1334d564951a0298b9f9f0
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60408323"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428711"
 ---
 # <a name="tagteam"></a>TagTeam
 
@@ -57,10 +57,10 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| ChannelMessage.Read.All | délégué | Nous ne collectons pas ces données uniquement pour afficher les conversations marquées. Nous aimerions le changer en API de recherche, mais Graph API n’est actuellement pas prise en charge.  | Aucune | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| ChannelMessage.Read.All | délégué | Nous ne collectons pas ces données uniquement pour afficher les conversations marquées. Nous aimerions le changer en API de recherche, mais Graph API n’est actuellement pas prise en charge.  | Aucun | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
 >| User.Read | délégué | Afficher User-Information (par exemple, nom) dans notre onglet | Aucune | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
->| User.ReadBasic.All | délégué | Afficher User-Avatars dans notre onglet | Aucune | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
->| openid | délégué | Uniquement pour SignIn : aucune donnée n’est stockée | Aucune | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| User.ReadBasic.All | délégué | Afficher User-Avatars dans notre onglet | Aucun | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| openid | délégué | Uniquement pour SignIn : aucune donnée n’est stockée | Aucun | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -100,7 +100,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38164' frameborder='no' style='width: 100%;'></iframe>
 
@@ -122,7 +122,7 @@ Ces informations ont été fournies par la solution d’entreprise Plus intellig
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -136,4 +136,3 @@ Ces informations ont été fournies par la solution d’entreprise Plus intellig
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

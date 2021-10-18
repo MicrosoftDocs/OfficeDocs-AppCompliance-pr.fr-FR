@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Report Builder, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: eaba58a8a2a63b51dad4489c1104dc5d38ae51b1
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: dcaed8c47b599a581f61097e55f42a1e0f2a3b92
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412153"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429262"
 ---
 # <a name="report-builder"></a>Report Builder
 
@@ -62,13 +62,13 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Adobe Analytics  | Nom d’utilisateur de connexion, Organisation de connexion | Prise en charge des utilisateurs : nous voulons nous assurer que toutes les fonctionnalités implémentées dans l’application fonctionnent correctement. En surveillant la fréquence d’utilisation d’une fonctionnalité dans l’application, nous pouvons détecter une baisse d’utilisation qui peut être le résultat d’un défaut de régression introduit dans la base de code. Ce suivi est uniquement pour le bien de l’utilisateur final. Nous suivions le nom d’utilisateur afin que s’il se crashe, nous pouvons le joindre pour obtenir une prise en charge personnalisée |
+>| Adobe Analytics  | Nom d’utilisateur de connexion, Organisation de connexion | Prise en charge des utilisateurs : nous voulons nous assurer que toutes les fonctionnalités implémentées dans l’application fonctionnent correctement. En surveillant la fréquence d’utilisation d’une fonctionnalité dans l’application, nous pouvons détecter une baisse d’utilisation qui peut être le résultat d’un défaut de régression introduit dans la base de code. Ce suivi est uniquement pour le bien de l’utilisateur final. Nous suivions le nom d’utilisateur afin que s’il se crashe, nous pouvons le joindre pour obtenir une prise en charge personnalisée. |
 
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -102,4 +102,3 @@ Ces informations ont été fournies par Adobe Inc. sur la façon dont cette appl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

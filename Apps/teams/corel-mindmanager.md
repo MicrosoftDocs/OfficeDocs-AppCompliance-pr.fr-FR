@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MindManager, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f9cd3639b4c7abf8cb5472213e11faa879fb7917
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f2c713ac6db2f8a1bb5bcfcd5d7c2a4056d9d045
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411088"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429171"
 ---
 # <a name="mindmanager"></a>MindManager
 
@@ -58,10 +58,10 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMessage.Send | délégué | Informations sur les modifications apportées dans un fichier MindManager qui peuvent ensuite être publiées en tant que message | métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 >| Chat.Send | délégué | Informations sur les modifications apportées dans un fichier MindManager qui peuvent ensuite être publiées en tant que message | métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| Files.ReadWrite | délégué | liste des sites, liste de dossiers, métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | - données de profil : pour identifier l’utilisateur et afficher son profil - contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| Sites.ReadWrite.All | délégué | liste des sites, liste de dossiers, métadonnées de fichier, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Files.ReadWrite | délégué | liste des sites, liste de dossiers, métadonnées de fichiers, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | - données de profil : pour identifier l’utilisateur et afficher son profil - contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Sites.ReadWrite.All | délégué | liste des sites, liste de dossiers, métadonnées de fichiers, contenu de fichier : pour le navigateur de fichiers, l’utilisateur peut parcourir ses fichiers pour ouvrir un fichier MindManager (.mmap). | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 >| User.Read | délégué | données de profil : pour identifier l’utilisateur et afficher son profil | données de profil : pour identifier l’utilisateur et afficher son profil | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| offline_access | délégué | Cela nous permet d’enregistrer ultérieurement un fichier à son emplacement d’origine pour le compte de l’utilisateur, si nécessaire. | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| offline_access | délégué | Cela nous permet d’enregistrer un fichier à son emplacement d’origine ultérieurement pour le compte de l’utilisateur, si nécessaire. | contenu de fichier : pendant la session de co-édition (modification collaborative en temps réel sur les fichiers .mmap MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -103,7 +103,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38778' frameborder='no' style='width: 100%;'></iframe>
 
@@ -125,7 +125,7 @@ Ces informations ont été fournies par Corel sur la façon dont cette applicati
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -139,4 +139,3 @@ Ces informations ont été fournies par Corel sur la façon dont cette applicati
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

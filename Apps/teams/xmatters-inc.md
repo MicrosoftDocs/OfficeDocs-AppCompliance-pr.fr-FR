@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour les xMatters par xMatters Inc.
+title: Informations d’application pour xMatters par xMatters Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 09/30/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour xMatters, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 96b72e320547f968c081fa1521979b6b4da8e1c5
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 22a811e7d6bba894c59c76442c9c7e3c58d53e96
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60405803"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430313"
 ---
 # <a name="xmatters"></a>xMatters
 
@@ -84,7 +84,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -92,7 +92,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les utilisateurs peuvent supprimer leurs données et auditer leur création. Les données basées sur des événements ou des alertes sont archivées et stockées en fonction des paramètres de l’organisation.
+>Les utilisateurs peuvent supprimer leurs données et auditer leur création. Les données basées sur un événement ou une alerte sont archivées et stockées en fonction des paramètres de l’organisation.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -118,4 +118,3 @@ Ces informations ont été fournies par xMatters Inc. sur la façon dont cette a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

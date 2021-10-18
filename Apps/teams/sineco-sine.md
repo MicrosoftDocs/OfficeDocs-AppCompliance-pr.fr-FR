@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Sine, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 749b438732b24b9b742e377a665ce96da6e42fb9
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 52b0e1f31ab0c1c536c704d7afc3785854dd1ca5
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411499"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430766"
 ---
 # <a name="sine"></a>Sinus
 
@@ -77,9 +77,9 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Lorsqu’un bot est ajouté à l’équipe, nous stockons le contexte de l’événement afin d’envoyer une notification proactive aux membres de l’équipe lorsqu’un bot se signe/se trouve sur un site via un sinus. 
+>Lorsqu’un bot est ajouté à l’équipe, nous stockons le contexte à partir de l’événement pour envoyer une notification proactive aux membres de l’équipe lorsqu’un bot se signe/se trouve sur un site via un sinus. 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -111,4 +111,3 @@ Ces informations ont été fournies par Sine.co sur la façon dont cette applica
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

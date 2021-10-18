@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Excel-à-Word Document Automation, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d8dee2b12160b94cc55d1be0b355b9e5212b595a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 31781dd4044cd216624efd41d74f27ad9e61c158
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412143"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430122"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel-to-Word Document Automation
 
@@ -33,7 +33,7 @@ Informations fournies par AnalysisPlace à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Excel-to-Word Document Automation |
 | ID | WA104380955 |
-| Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2016 ou une ultérieure sur Windows, Word 2016 ou une ultérieure sur Mac, Word 2016 ou une ultérieure sur Windows, PowerPoint 2016 ou ultérieur sur Mac, PowerPoint 2016 ou ultérieur Windows, Excel sur le Web, Word sur le web, PowerPoint sur le web |
+| Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2016 ou ultérieur sur Windows, Word 2016 ou ultérieur sur Mac, Word 2016 ou ultérieur sur Windows, PowerPoint 2016 ou ultérieur sur Mac, PowerPoint 2016 ou plus tard Windows, Excel sur le Web, Word sur le web, PowerPoint sur le web |
 | Nom de la société partenaire | AnalysisPlace |
 | URL du site web partenaire | [https://analysisplace.com](https://analysisplace.com) |
 | URL de la politique de confidentialité | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
@@ -66,7 +66,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Le nom d’utilisateur, le nom de la société et le courrier électronique sont stockés. Ils sont supprimés pour les comptes inactifs depuis 2 ans.
 
@@ -88,7 +88,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/29278' frameborder='no' style='width: 100%;'></iframe>
 
@@ -123,4 +123,3 @@ Ces informations ont été fournies par AnalysisPlace sur la façon dont cette a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

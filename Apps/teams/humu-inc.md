@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Humu, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 772974445cbe3962521bd25019a1172f961590dc
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 5ba1b94e2258320bc1b11b3cff4b078507e2a73b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415091"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430604"
 ---
 # <a name="humu"></a>Humu
 
@@ -76,9 +76,9 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->OII et EUII pertinents pour la prise en charge de l’opération sécurisée, fiable et performante du service. Les journaux sont stockés pendant 60 jours ou jusqu’à ce que le contrat d’un client se termine.
+>OII et EUII pertinents pour la prise en charge du fonctionnement sécurisé, fiable et performant du service. Les journaux sont stockés pendant 60 jours ou jusqu’à ce que le contrat d’un client se termine.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -110,4 +110,3 @@ Ces informations ont été fournies par Humu Inc. sur la façon dont cette appli
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

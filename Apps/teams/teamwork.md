@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour le travail d’équipe par le travail d’équipe
+title: Informations sur les applications pour le travail d’équipe par le travail d’équipe
 ms.author: elmalova
 author: elenamalova
 ms.date: 09/24/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le travail d’équipe, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c6ff65ae2c380e741b6e6567ac05f70a39b76565
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 8efe2ffe1431dc32f25f3096801db64e2635041d
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412694"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429031"
 ---
 # <a name="teamwork"></a>Travail d'équipe
 
@@ -107,4 +107,3 @@ Ces informations ont été fournies par le travail d’équipe sur la façon don
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

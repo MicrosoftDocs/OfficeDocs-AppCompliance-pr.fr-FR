@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour 10xGoals, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 82730906a833ef43df8a3eafaee1111cf6889472
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f4f0e5c4bdd6a7e41ac7480348fad7eb3882e3d1
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411359"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430303"
 ---
 # <a name="10xgoals"></a>10xGoals
 
@@ -57,7 +57,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | application | Le courrier électronique et l’ID Azure des utilisateurs sont récupérés afin que l’application puisse installer l’application de manière proactive pour tous les utilisateurs de l’organisation.  | Comme cette application nécessite d’abord un abonnement au service 10xGoals, la messagerie électronique de l’utilisateur et l’ID Azure de l’utilisateur sont envoyés au service 10xGoals afin que, lorsqu’une activité se produit sur cet utilisateur, elle puisse envoyer une notification proactive à l’application Teams de l’utilisateur. | [950aa4fb-0583-4b13-9b5f-bbc92b9cc376](https://docs.microsoft.com/microsoft-365-app-certification/azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376) |
+>| Directory.Read.All | application | Le courrier électronique et l’ID Azure des utilisateurs sont récupérés afin que l’application puisse installer l’application de manière proactive pour tous les utilisateurs de l’organisation.  | Comme cette application nécessite d’abord un abonnement au service 10xGoals, la messagerie électronique de l’utilisateur et l’ID Azure de l’utilisateur sont envoyés au service 10xGoals afin que, lorsqu’une activité se produit concernant cet utilisateur, elle puisse envoyer une notification proactive à l’application Teams de l’utilisateur. | [950aa4fb-0583-4b13-9b5f-bbc92b9cc376](https://docs.microsoft.com/microsoft-365-app-certification/azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376) |
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Elle est requise pour que l’application puisse récupérer teamsAppDefinition pour l’administrateur, puis s’installer de manière proactive pour tous les utilisateurs de l’organisation.  | Rien n’est stocké dans la base de données qui est récupérée à partir de cette api. | [950aa4fb-0583-4b13-9b5f-bbc92b9cc376](https://docs.microsoft.com/microsoft-365-app-certification/azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376) |
 
 
@@ -75,12 +75,12 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Comme cette application nécessite d’abord un abonnement au service 10xGoals, la messagerie électronique de l’utilisateur et l’ID Azure de l’utilisateur sont envoyés au service 10xGoals afin que, lorsqu’une activité se produit sur cet utilisateur, elle puisse envoyer une notification proactive à l’application Teams de l’utilisateur. | Non |  |
+>| Comme cette application nécessite d’abord un abonnement au service 10xGoals, la messagerie électronique de l’utilisateur et l’ID Azure de l’utilisateur sont envoyés au service 10xGoals afin que, lorsqu’une activité se produit concernant cet utilisateur, elle puisse envoyer une notification proactive à l’application Teams de l’utilisateur. | Non |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >TenantId of org is stored to have difference welcome message depending on whether a tenant has granted required permissions or not. Si un client a déjà accordé des autorisations à d’autres utilisateurs de cette organisation, il n’est pas nécessaire de revoir ce flux d’octroi d’autorisations.
 
@@ -113,7 +113,7 @@ Ces informations ont été fournies par xto10x Technologies sur la façon dont c
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Non |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -126,4 +126,3 @@ Ces informations ont été fournies par xto10x Technologies sur la façon dont c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

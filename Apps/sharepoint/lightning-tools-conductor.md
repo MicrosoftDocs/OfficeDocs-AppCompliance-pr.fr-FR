@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les outils d’éclairage - Flash - Vitesse, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9541cab6ba5fcd7da59cfe43c89e2e3bf3fceab9
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 9f597f25df7b000d3d98a2dfbc4fe3c34fef7842
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412043"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430524"
 ---
 # <a name="lightning-tools-lightning-conductor"></a>Flash d’outils - Flash
 
@@ -57,10 +57,10 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | application | Pour interroger et signaler des informations de calendrier | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Contacts.Read | application | Aucune donnée n’est collectée ou stockée. Les données sont utilisées pour afficher le nom d’affichage des contacts des utilisateurs actuels | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Directory.Read.All | application | Afficher les utilisateurs dans la lumière | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
+>| Directory.Read.All | application | Afficher les utilisateurs dans l’éclairage | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Files.Read.All | application | Afficher OneDrive fichiers de l’éclairage | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Mail.Read | application | Si la requête de l’assistant De flash affiche des messages à partir de la boîte aux lettres des utilisateurs actuels | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| People.Read.All | application | Pour afficher l’affichage des personnes dans l’Assistant Lumière si vous interrogez des utilisateurs en tant que membres d’un site. | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
+>| People.Read.All | application | Pour afficher l’affichage des personnes dans l’éclairage en cas d’interrogation d’utilisateurs en tant que membres d’un site. | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Presence.Read.All | application | Pour afficher la présence des utilisateurs dans la carte de personnes | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Sites.Read.All | application | Pour éumer les sites dans la vue d’arborescence de l’arborescence De l’Arbre de la lumière | L’assistant de flash n’utilise pas de base de données ni de données de magasin. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 
@@ -75,7 +75,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -100,7 +100,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par les outils De flash sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par les outils De flash sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -109,4 +109,3 @@ Ces informations ont été fournies par les outils De flash sur la façon dont c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

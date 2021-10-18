@@ -6,14 +6,14 @@ ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Le Parcager, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Le Parc d’exposition, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 97dd4245e0bba6f82adea01c08638f6cfc20698e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 863883b8e18984bc6a52ed2829811b74e99bf34c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412223"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429702"
 ---
 # <a name="lucidspark"></a>Lucidspark
 
@@ -57,9 +57,9 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| email | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Parkspark de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte De parcier pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
->| openid | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Parkspark de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte De parcier pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
->| profil | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à Parkspark de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte De parcier pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| email | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à L’ParciersPark de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte de parcpark pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| openid | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à L’ParciersPark de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte de parcpark pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| profil | délégué | Nom et adresse de messagerie. | Les autorisations de messagerie, d’openid et de profil permettent à L’ParciersPark de générer un jeton openid pour un utilisateur et d’obtenir suffisamment d’informations de base sur l’utilisateur pour inscrire un compte de parcpark pour lui si nécessaire. Afin de vérifier les données qui proviennent de Microsoft, nous demandons d’obtenir la clé publique avec qui leur réponse est signée. Aucune autre donnée n’est reçue de Microsoft ou envoyée à Microsoft dans le cadre de notre flux d' utilisateurs sso. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -68,7 +68,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Les données de parcage et d’chart sont stockées dans AWS etFlflflches | Nom de l’organisation, coordonnées et niveau de licence | Nous n’utilisons aucune API Microsoft. Nous utilisons openID pour obtenir des données utilisateur de base pour effectuer l’ouvrez-vous. Nous utilisons leur API de s’il s’agit de fichiers, mais cela ne nous donne pas accès aux fichiers de l’utilisateur autres que ceux qu’il nous envoie par le biais du s sélectionneur. |
+>| Les données de parcage et d’chart sont stockées dans AWS etFlflches | Nom de l’organisation, coordonnées et niveau de licence | Nous n’utilisons aucune API Microsoft. Nous utilisons openID pour obtenir des données utilisateur de base afin d’effectuer l’ouvrez-vous. Nous utilisons leur API de s’il s’agit de fichiers, mais cela ne nous donne pas accès aux fichiers de l’utilisateur autres que ceux qu’il nous envoie par le biais du s picker. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -79,15 +79,15 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous logons les e-mails et les adresses IP pour des raisons de sécurité et de support. Tous les accès aux journaux sont enregistrés et ne peuvent pas être changés &amp; dans un système tiers. L’accès aux journaux nécessite l' mba.
+>Nous logons les e-mails et les adresses IP pour des raisons de sécurité et de support. Tous les accès aux journaux sont enregistrés et ne peuvent pas être changés &amp; dans un système tiers. L’accès aux journaux nécessite l’mffa.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données depark et d’chart sont stockées dans AWS. Il est chiffré au repos et en transit. Il utilise les règles de privilège minimum et l’mf.
+>Les données depark et d’chart sont stockées dans AWS. Il est chiffré au repos et en transit. Ce dernier utilise les règles de privilège minimum et d’mf.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -101,7 +101,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39482' frameborder='no' style='width: 100%;'></iframe>
 
@@ -115,7 +115,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies parFact Software sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies parFact Software sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -124,4 +124,3 @@ Ces informations ont été fournies parFact Software sur la façon dont cette ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

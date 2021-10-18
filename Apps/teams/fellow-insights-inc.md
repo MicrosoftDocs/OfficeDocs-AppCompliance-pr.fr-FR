@@ -6,14 +6,14 @@ ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour les collègues, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour le membre, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3dc9a5d3bcd6e5bbc356efab77ad15406e9fb772
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4fb839013c38dcf7b490e02810ad5726be0aabda
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414630"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428591"
 ---
 # <a name="fellow"></a>Fellow
 
@@ -65,7 +65,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Team.ReadBasic.All | délégué | La liste des équipes dont l’utilisateur fait partie est collectée. Il est utilisé au sein d’un collègue pour permettre à l’utilisateur d’envoyer des notes de collègues à une équipe. | Nous misons en cache les noms et les ID des équipes dont un utilisateur est membre, afin de permettre aux utilisateurs d’envoyer des notes de Collègues au canal d’équipe spécifié. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
 >| User.Read | délégué | Les informations utilisateur de base sont collectées. Nom d’utilisateur, e-mail, fonction. Ces informations sont utilisées au sein de Collègues pour créer des comptes d’utilisateurs et des comptes d’entreprise. | Les informations utilisateur de base sont stockées. Nom d’utilisateur, e-mail, fonction. Ces informations sont utilisées au sein de Collègues pour gérer les comptes d’utilisateurs et les comptes d’entreprise. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
 >| User.Read.All | application | Ces données sont collectées uniquement si une installation d’administrateur est effectuée pour l’ensemble de l’organisation. Nous utilisons les données d’annuaire pour synchroniser une liste d’utilisateurs et mettre automatiquement en service des comptes. | Si et uniquement si une installation à l’échelle de l’organisation est effectuée par l’administrateur à partir des paramètres de l’espace de travail à l’intérieur de Collègues, les administrateurs ont la possibilité d’activer la synchronisation automatique de tous les utilisateurs de Azure AD en Compagnon (approvisionnement automatique). Dans ce cas, nous stockons les informations utilisateur telles que l’ID, le nom, la messagerie, le responsable et les appartenances aux groupes (pour les fonctionnalités de gestion d’équipe). | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| offline_access | délégué | Jeton d’actualisation de l’utilisateur pour conserver l’accès aux données recueillies via d’autres étendues. | Le jeton d’actualisation de l’utilisateur est stocké dans la base de données. Il est utilisé au sein de Collègues pour synchroniser des événements en arrière-plan pour l’expérience de prise de notes basée sur le calendrier, ainsi que des notifications pour la prise de notes sur les événements programmés. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| offline_access | délégué | Jeton d’actualisation de l’utilisateur pour maintenir l’accès aux données recueillies via d’autres étendues. | Le jeton d’actualisation de l’utilisateur est stocké dans la base de données. Il est utilisé au sein de Collègues pour synchroniser des événements en arrière-plan pour l’expérience de prise de notes basée sur le calendrier, ainsi que des notifications pour la prise de notes sur les événements programmés. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -83,15 +83,15 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Les collègues stockent les informations fournies directement par l’utilisateur, y compris les données personnelles. Il stocke également des informations provenant de systèmes tiers, telles que des données OAuth, des données de calendrier et des données d’informations personnelles telles que le nom de &amp; messagerie. Nous conservons toutes les données indéfiniment, tant que cela est nécessaire et juridiquement autorisé aux fins pour lesquelles elles ont été collectées. Nous supprimons en toute sécurité ces informations à une date antérieure lors de la réception d’une demande par les utilisateurs. Les données du journal sont conservées pendant 30 jours.
+>Les collègues stockent les informations fournies directement par l’utilisateur, y compris les données personnelles. Il stocke également des informations provenant de systèmes tiers, telles que les données OAuth, les données de calendrier et les données personnelles telles que la messagerie &amp; de nom. Nous conservons toutes les données indéfiniment, tant que cela est nécessaire et juridiquement autorisé aux fins pour lesquelles elles ont été collectées. Nous supprimons en toute sécurité ces informations à une date antérieure lors de la réception d’une demande par les utilisateurs. Les données du journal sont conservées pendant 30 jours.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Tous les transferts de données se produisent sur des API sécurisées vers nos systèmes back-end. Un collègue utilise de nombreux contrôles pour garantir la sécurité et la confidentialité de ses systèmes, conformément à l’infrastructure SOC 2 définie par l’AICPA. Les contrôles des collègues font l’objet d’un audit annuel pour garantir une conformité continue. Un rapport SOC 2 peut être partagé sur demande et NDA.
+>Tous les transferts de données se produisent sur des API sécurisées vers nos systèmes back-end. Un collègue utilise de nombreux contrôles pour garantir la sécurité et la confidentialité de ses systèmes, conformément à l’infrastructure SOC 2 définie par l’AICPA. Les contrôles des collègues font l’objet d’un audit annuel afin de garantir une conformité continue. Un rapport SOC 2 peut être partagé sur demande et NDA.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -105,7 +105,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39739' frameborder='no' style='width: 100%;'></iframe>
 
@@ -140,4 +140,3 @@ Ces informations ont été fournies par les collègues Informations Inc. sur la 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour DELTAoverC, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 63e6f41e0d86b1df0a334c5a0f8376724ac7dfcb
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 5b640e56d5ad99ceebf7ddc4fed4c2a9b783d93d
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411782"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428611"
 ---
 # <a name="deltaoverc"></a>DELTAoverC
 
@@ -66,7 +66,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Nous allons extraire les détails du client de l’organisation lorsqu’une application est ajoutée pour la première fois pour l’identifier en tant que client. Aucune autre information n’est transférée. Nous transférons ces données vers une application web hébergée sur Azure à partir de MS Teams. | ID de client, nom du client, URL du client, adresse 1, adresse 2, pays, état, code postal, numéro Téléphone, contact principal. | Nous allons extraire les informations de l’organisation lorsqu’une APPLICATION est ajoutée pour la première fois pour l’identifier en tant que client. |
+>| Nous allons extraire les détails du client de l’organisation lorsqu’une application est ajoutée pour la première fois pour l’identifier en tant que client. Aucune autre information n’est transférée. Nous transférons ces données vers une application web hébergée sur Azure à partir de MS Teams. | ID de client, nom du client, URL du client, adresse 1, adresse 2, pays, état, code postal, Téléphone, contact principal. | Nous allons extraire les informations de l’organisation lorsqu’une APPLICATION est ajoutée pour la première fois pour l’identifier en tant que client. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -110,7 +110,7 @@ Ces informations ont été fournies par DELTAoverC sur la façon dont cette appl
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -124,4 +124,3 @@ Ces informations ont été fournies par DELTAoverC sur la façon dont cette appl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

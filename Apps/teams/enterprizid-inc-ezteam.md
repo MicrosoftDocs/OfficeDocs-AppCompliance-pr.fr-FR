@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour ezTeam par EnterprizID Inc
+title: Informations d’application pour ezTeam par EnterprizID Inc
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/18/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ezTeam, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0c7b8022a8d629af9dbce0c2f97c381b4a15ca2b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 8a058d3d4e8d96a0c915585e75b7c0e53c2f2341
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414660"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428801"
 ---
 # <a name="ezteam"></a>ezTeam
 
@@ -67,7 +67,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Files.Read.All | application | Permet à l’application de lire tous les fichiers dans toutes les collections de sites sans utilisateur connecté. | Quantité de données sous gouvernance de l’utilisateur final en Go | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Group.Create | application | Permet à l’application de créer des groupes sans utilisateur. | Détails des nouvelles propriétés de groupe. | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Group.Read.All | délégué | Permet à l’application de répertorier les groupes et de lire leurs propriétés et toutes les appartenances au groupe, au nom de l’utilisateur connecté. Utilisé pour déterminer Mon Teams  | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Group.Read.All | application | Permet à l’application de lire les propriétés et les appartenances aux groupes, ainsi que de lire le calendrier et les conversations de tous les groupes, sans utilisateur. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Group.Read.All | application | Permet à l’application de lire les propriétés de groupe et les appartenances, et de lire le calendrier et les conversations de tous les groupes, sans utilisateurs. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Group.ReadWrite.All | délégué | Permet à l’application de créer des groupes et de lire toutes les propriétés et les appartenances du groupe, au nom de l’utilisateur connecté.  | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Group.ReadWrite.All | application | Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe, de mettre à jour les propriétés et appartenances des groupes et de supprimer des groupes. Permet également à l’application de lire et d’écrire le calendrier de groupe et les conversations.  | Dernière activité de l’équipe. | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| GroupMember.Read.All | application | Permet à l’application de consulter les abonnements et les propriétés de base de chaque groupe sans connexion d’utilisateur. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
@@ -122,7 +122,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36552' frameborder='no' style='width: 100%;'></iframe>
 
@@ -136,7 +136,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par EnterprizID Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par EnterprizID Inc sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -144,7 +144,7 @@ Ces informations ont été fournies par EnterprizID Inc. sur la façon dont cett
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -158,4 +158,3 @@ Ces informations ont été fournies par EnterprizID Inc. sur la façon dont cett
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les Connecter du comité, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 576d4b4b8107d0e4807818b44faf983d99ee98d1
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 52e165955fa07fb7720edaf33156c15b179f551c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414670"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429161"
 ---
 # <a name="board-connect"></a>Connexion de tableau
 
@@ -59,9 +59,9 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | délégué | Pour permettre à l’application de mettre à jour les calendriers des utilisateurs afin qu’ils reflètent les réponses de participation aux réunions du conseil envoyées via l’application. | Aucune donnée n’est stockée dans notre stockage de table Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 >| Group.ReadWrite.All | délégué | Pour permettre à l’application de créer, mettre à jour et supprimer des événements de calendrier de groupe. | Nous stockons l’ID du groupe, ainsi que l’ID de client : il est stocké et utilisé du point de vue de la gestion des licences afin de pouvoir vérifier que l’organisation est titulaire d’une licence pour le Connecter. Nous l’utilisons également pour suivre le nombre d’installations des applications au sein du client, car cela est en ligne avec notre modèle de gestion des licences. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| Sites.Manage.All | délégué | Pour permettre à l’application de créer des listes et des bibliothèques, gérez les éléments de liste et gérez les documents sur une collection de sites d’équipe. | Aucune | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| Sites.Manage.All | délégué | Pour permettre à l’application de créer des listes et des bibliothèques, gérez les éléments de liste et gérez les documents sur une collection de sites d’équipe. | Aucun | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 >| User.Read | délégué | Pour autoriser les utilisateurs à se connecter à l’application et permettre à l’application de lire le profil de l’utilisateur actuellement connecté. | Aucune donnée de ce point de terminaison n’est stockée dans notre stockage de table Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs au nom de l’utilisateur inscrit, afin de l’afficher dans l’application. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. | Aucun, les données ne sont pas stockées dans notre stockage de table Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs pour le compte de l’utilisateur inscrit, afin de l’afficher dans l’application. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. | Aucun, les données ne sont pas stockées dans notre stockage de table Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 >| offline_access | délégué | Pour permettre à l’application d’obtenir un jeton d’actualisation, qu’elle peut utiliser pour obtenir un nouveau jeton d’accès à l’expiration de l’actuel. | Aucun, les données ne sont pas stockées dans notre stockage de table Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 
 
@@ -80,7 +80,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36435' frameborder='no' style='width: 100%;'></iframe>
 
@@ -116,7 +116,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Engage Squared sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Engage Squared sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -138,4 +138,3 @@ Ces informations ont été fournies par Engage Squared sur la façon dont cette 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

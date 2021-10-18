@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour AVA, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a23ab8dfa165d43d6f2a9afafab0bc2ac12534bb
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e5b53fbbc4c65c709324611a9ac645b045e4eaa7
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411893"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430002"
 ---
 # <a name="ava"></a>AVA
 
@@ -57,7 +57,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Mail.ReadWrite.Shared | délégué | Aucune | Rechercher les e-mails de l’utilisateur et déplacer le courrier vers le dossier spécifié | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
+>| Mail.ReadWrite.Shared | délégué | Aucun | Rechercher les e-mails de l’utilisateur et déplacer le courrier vers le dossier spécifié | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
 >| User.Read | délégué |  Jeton d’accès de l’utilisateur : utilisé pour la recherche et la restauration des données de l’utilisateur | Permet à l’utilisateur de se connecter et d’accorder le jeton d’accès à l’application | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
 >| User.ReadWrite | délégué | DisplayName, UserPrincipalName, JobTitle, Organization, Country, MySiteUrl : enregistrer les informations de base de l’utilisateur qui a utilisé l’application | Obtenir les informations de profil de base de l’utilisateur | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
 
@@ -65,7 +65,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| API REST SharePoint | Oui | Recherchez le fichier dans le recyclage du site personnel de l’utilisateur et restituer ces fichiers. Nécessite l’autorisation AllSites.Manage. |  | Aucune |  |
 
@@ -84,7 +84,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui, le courrier électronique et l’ID client de l’utilisateur apparaissent dans les journaux. Les journaux sont stockés dans un emplacement sécurisé et seul le personnel autorisé peut y accéder lors du dépannage. Les journaux seront archivés au bout de 60 jours à des fins d’audit de sécurité et supprimés au bout d’un an.
 
@@ -92,7 +92,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données de l’application sont stockées dans Azure SQL Database et stockage Azure. Le chiffrement SQL azure stockage Azure est activé.
+>Les données de l’application sont stockées dans Azure SQL Database et stockage Azure. Le chiffrement SQL et stockage Azure Azure est activé.
 Seuls les administrateurs autorisés peuvent accéder aux données. L’authentification MFA est requise pour que les administrateurs se connectent. Les opérations sont auditées. La liste d’adresses IP est également utilisée pour restreindre l’accès aux données.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
@@ -107,7 +107,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35842' frameborder='no' style='width: 100%;'></iframe>
 
@@ -116,5 +116,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

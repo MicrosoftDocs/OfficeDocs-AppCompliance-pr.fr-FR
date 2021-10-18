@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Skillate, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ec3d9b706bdf13d1c12fefeeb813d0d312edff56
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: feca9237c23590859633c12641a45c907df298c5
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411489"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428721"
 ---
 # <a name="skillate"></a>Skillate
 
@@ -28,7 +28,7 @@ ms.locfileid: "60411489"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par l’Adl. Pvt de compétences. Ltd. à Microsoft :
+Informations fournies par SkillateMéts Pvt. Ltd. à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -58,7 +58,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | délégué | Les données sont collectées pour autoriser l’utilisateur final sur Les compétences | Nous stockons l’adresse e-mail uniquement pour créer le compte de l’utilisateur sur l’application Compétences | [ed4df345-c860-4ffe-b614-0460d9106f0f](https://docs.microsoft.com/microsoft-365-app-certification/azure/ed4df345-c860-4ffe-b614-0460d9106f0f) |
->| openid | délégué | Nous utilisons l’API pour consigner l’utilisateur sur Microsoft afin de nous servir de l’oD SSO | Nous stockons uniquement le prénom et le nom de l’utilisateur final | [ed4df345-c860-4ffe-b614-0460d9106f0f](https://docs.microsoft.com/microsoft-365-app-certification/azure/ed4df345-c860-4ffe-b614-0460d9106f0f) |
+>| openid | délégué | Nous utilisons l’API pour la journalisation de l’utilisateur sur Microsoft afin de les compétences à l’aide de l' cesso | Nous stockons uniquement le prénom et le nom de l’utilisateur final | [ed4df345-c860-4ffe-b614-0460d9106f0f](https://docs.microsoft.com/microsoft-365-app-certification/azure/ed4df345-c860-4ffe-b614-0460d9106f0f) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -100,7 +100,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36380' frameborder='no' style='width: 100%;'></iframe>
 
@@ -122,7 +122,7 @@ Ces informations ont été fournies par l’équipe Des laboratoires de compéte
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -135,4 +135,3 @@ Ces informations ont été fournies par l’équipe Des laboratoires de compéte
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

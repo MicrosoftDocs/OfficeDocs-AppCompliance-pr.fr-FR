@@ -1,5 +1,5 @@
 ---
-title: Informations sur les applications pour Smartsheet par Smartsheet
+title: Informations sur l’application pour smartsheet par Smartsheet
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/11/2019
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Smartsheet, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f95e090af5a83db8053bf60582a73dd77a2905d0
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d8bbe31189a44c240bc648670a0a04e0b5fce6ec
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410888"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429061"
 ---
 # <a name="smartsheet"></a>Smartsheet
 
@@ -58,7 +58,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| AppCatalog.ReadWrite.All | délégué | Aucun. | Permet à notre application d’installer des applications pour le compte de l’utilisateur. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
->| Directory.Read.All | délégué | tenantId pour la récupération des informations à afficher dans l’interface utilisateur. | Nous permet de lire les applications que ce client utilise pour vérifier si nous devons installer l’application pour ces applications. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| Directory.Read.All | délégué | tenantId pour la récupération des informations à afficher dans l’interface utilisateur. | Nous permet de lire les applications que ce client utilise afin de vérifier si nous devons installer l’application pour eux. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
 >| Group.Read.All | délégué | teamId/groupId pour la remise des messages. | Permet à notre application de lire les informations de base sur un groupe (ou Teams équipe) ainsi que sur les conversations. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
 >| Group.ReadWrite.All | délégué | teamId/groupId pour la remise des messages. | Permet à notre application de démarrer de nouvelles conversations dans Teams. Cette autorisation inclut également l’étendue Read.All ci-dessus, mais nous avons également besoin de cette autorisation pour des raisons techniques. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
 >| User.Read.All | délégué | userId. | Nous permet de lire les informations de base sur un utilisateur pendant le processus d’th. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
@@ -78,7 +78,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Smartsheet stocke les informations dans un état chiffré au repos dans notre environnement de centre de données de production hébergé avec Equinix et dans AWS S3 où nous stockons les pièces jointes client dans des compartiments chiffrés privés. |  | Nous utilisons l’API bot Framework pour remettre des messages en tant qu’application pour l’application Teams. Smartsheet stocke les informations userId pour savoir à qui le bot Smartsheet parle. |
+>| Smartsheet stocke les informations dans un état de mise au repos chiffré dans notre environnement de centre de données de production hébergé avec Equinix et dans AWS S3 où nous stockons les pièces jointes client dans des compartiments chiffrés privés. |  | Nous utilisons l’API bot Framework pour remettre des messages en tant qu’application pour l’application Teams. Smartsheet stocke les informations userId pour savoir à qui le bot Smartsheet parle. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -86,7 +86,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Smartsheet l’utilise pour assurer le suivi des personnes que le bot parle également. Pendant le flux d’thème initial, nous créons un enregistrement de bot pour l’utilisateur dans le système de notification Smartsheet. | Pour smartsheet pour Teams bot, nous stockons les e-mails utilisateur et userId de Teams pour vous aider à suivre les personnes avec qui le bot parle.  Smartsheet stocke les tenantId pour aider à lister les groupes dont l’utilisateur fait partie dans l’annuaire et groupIds pour la remise des messages. |  |
+>| Smartsheet l’utilise pour aider à savoir qui le bot parle également. Pendant le flux d’thème initial, nous créons un enregistrement de bot pour l’utilisateur dans le système de notification Smartsheet. | Pour smartsheet pour Teams bot, nous stockons les e-mails utilisateur et userId de Teams pour vous aider à suivre les personnes avec qui le bot parle.  Smartsheet stocke les tenantId pour aider à lister les groupes dont l’utilisateur fait partie dans l’annuaire et groupIds pour la remise des messages. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -113,7 +113,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11934' frameborder='no' style='width: 100%;'></iframe>
 
@@ -122,5 +122,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

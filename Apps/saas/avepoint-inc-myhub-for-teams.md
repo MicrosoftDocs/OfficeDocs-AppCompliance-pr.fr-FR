@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MyHub pour Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a19a24cc9178bbbaa16b337cd92fc11686d8d09c
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 09e1b6500f75bde564b3f4cf40538516fb6dbae4
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412629"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429231"
 ---
 # <a name="myhub-for-teams"></a>MyHub pour Teams
 
@@ -74,7 +74,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui, le courrier électronique et l’ID client de l’utilisateur apparaissent dans les journaux. Les journaux sont stockés dans un emplacement sécurisé et seul le personnel autorisé peut y accéder lors du dépannage. Les journaux seront archivés au bout de 60 jours à des fins d’audit de sécurité et supprimés au bout d’un an.
 
@@ -82,7 +82,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données de l’application sont stockées dans Azure SQL Database et stockage Azure. Le chiffrement SQL azure stockage Azure est activé.
+>Les données de l’application sont stockées dans Azure SQL Database et stockage Azure. Le chiffrement SQL et stockage Azure Azure est activé.
 Seuls les administrateurs autorisés peuvent accéder aux données. L’authentification MFA est requise pour que les administrateurs se connectent. Les opérations sont auditées. La liste d’adresses IP est également utilisée pour restreindre l’accès aux données.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
@@ -109,7 +109,7 @@ Ces informations ont été fournies par AvePoint Inc. sur la façon dont cette a
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | L’application se fédéré avec Azure AD, afin que toutes les règles d’accès conditionnel soient utilisées. |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -122,4 +122,3 @@ Ces informations ont été fournies par AvePoint Inc. sur la façon dont cette a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

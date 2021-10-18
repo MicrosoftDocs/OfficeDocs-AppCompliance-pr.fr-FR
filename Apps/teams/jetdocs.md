@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Jetdocs, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 598832239c67b4c470695f7a3f07ef3488dd6e74
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 64a1c2620f9d3d94eef1eb93360dae3a4c227897
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413756"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429352"
 ---
 # <a name="jetdocs"></a>Jetdocs
 
@@ -72,7 +72,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Non : tous les journaux/analyses stockent uniquement les ID d’utilisateur internes, aucune information d’identification externe
 
@@ -80,7 +80,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données sont actuellement stockées dans une base de données AWS. L’accès est contrôlé par le biais d’un groupe de sécurité qui permet uniquement à l’application backend déployée d’y accéder, ainsi que les adresses IP sur liste blanche pour les développeurs administrateurs au sein de l’entreprise (actuellement uniquement alex@jetdocs.io IP personnelle). Les données stockées sont chiffrées.
+>Les données sont actuellement stockées sur une base de données AWS. L’accès est contrôlé par le biais d’un groupe de sécurité qui permet uniquement à l’application backend déployée d’y accéder, ainsi que les adresses IP sur liste blanche pour les développeurs administrateurs au sein de l’entreprise (actuellement uniquement alex@jetdocs.io IP personnelle). Les données stockées sont chiffrées.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -94,7 +94,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36142' frameborder='no' style='width: 100%;'></iframe>
 
@@ -103,5 +103,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour sensei labs , par Sensei Labs Inc.
+title: Informations sur l’application pour les ateliers Sensei Labs, par Sensei Labs Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/19/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour sensei Labs Labs, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b2ff7116020569a5a03ccd86cc30b580ded30c58
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 19adf0976c42008fd29bbdefb14831815edcd262
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60408393"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430032"
 ---
 # <a name="sensei-labs-conductor"></a>Conducteur Sensei Labs
 
@@ -60,7 +60,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| infrastructure de bot | Oui | Teams’instance | pour ma Teams instance à l’instance de notre application associée à l’organisation  | Teams’instance | pour ma Teams instance à l’instance de notre application associée à l’organisation  |
 
@@ -83,7 +83,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Teams l’équipe. Association entre l’instance de Teams client et son instance De la musique. Données conservées tant qu’il s’agit d’un client de la direction. Suppression lors de la désaffectation de l’instance de la rémanente du client, ou sur demande
+>Teams l’équipe. Association entre l’instance d’Teams client et son instance Deln. Données conservées tant qu’il s’agit d’un client de la direction. Suppression lors de la désaffectation de l’instance de la rémanente du client, ou sur demande
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -103,7 +103,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36367' frameborder='no' style='width: 100%;'></iframe>
 
@@ -125,7 +125,7 @@ Ces informations ont été fournies par Sensei Labs Inc. sur la façon dont cett
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Non |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -139,4 +139,3 @@ Ces informations ont été fournies par Sensei Labs Inc. sur la façon dont cett
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

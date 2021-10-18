@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour formMachines Connector pour SharePoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3d5cab668924d0edfed32a807096be68519a775f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d2151a965830af3fa0d1f0a754bef04fdb5b5535
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410478"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428407"
 ---
 # <a name="formmachines-connector-for-sharepoint"></a>Connecteur FormMachines pour SharePoint
 
@@ -68,15 +68,15 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->. Nous ne logons que les erreurs. Dans notre journal des erreurs, nous n’allons enregistrer que les informations relatives aux erreurs. Le client ou le client qui a déclenché une erreur particulière n’est pas collecté. Seuls les ingénieurs du support technique ont accès aux journaux d’erreurs. Les journaux d’erreurs sont consultables en ligne, et non téléchargés et consultables. Les journaux d’erreur sont supprimés automatiquement après 30 jours
+>. Nous ne logons que les erreurs. Dans notre journal des erreurs, nous n’allons enregistrer que les informations relatives aux erreurs. Le client ou le client qui a déclenché une erreur particulière n’est pas collecté. Seuls les ingénieurs du support technique ont accès aux journaux d’erreurs. Les journaux d’erreurs sont consultables en ligne, et non téléchargés et consultables. Les journaux d’erreurs sont supprimés automatiquement après 30 jours
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->. Les données sont stockées dans des centres de données Azure aux États-Unis. Les données fournies par le client, telles que les modèles et les soumissions, sont chiffrées dans la base de données. Les pièces jointes sont stockées dans des conteneurs privés Azure BLOB, les utilisateurs doivent s’authentifier avant d’y accéder. Nous avons au maximum deux administrateurs qui peuvent accéder à nos ressources de production, pour le dépannage et le déploiement. Ces deux comptes d’administrateur sont partitionn s différemment pour tous les autres comptes. Le nombre d’accès administrateur ne dépassera jamais deux
+>. Les données sont stockées dans des centres de données Azure aux États-Unis. Les données fournies par le client, telles que les modèles et les soumissions, sont chiffrées dans la base de données. Les pièces jointes sont stockées dans des conteneurs PRIVÉs Azure BLOB, les utilisateurs doivent s’authentifier avant d’y accéder. Nous avons au maximum deux administrateurs qui peuvent accéder à nos ressources de production, pour le dépannage et le déploiement. Ces deux comptes d’administrateur sont partitionn s différemment sur tous les autres comptes. Le nombre d’accès administrateur ne dépassera jamais deux
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -90,7 +90,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36144' frameborder='no' style='width: 100%;'></iframe>
 
@@ -99,5 +99,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

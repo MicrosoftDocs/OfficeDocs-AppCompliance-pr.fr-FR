@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Ceinson, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 36ffe7ca9e98d03f40cd3064b117ef83c3020db7
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e407d142c16e0de80fb8a85bb50c15662840570a
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414580"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428771"
 ---
 # <a name="klaxoon"></a>Klaxoon
 
@@ -85,7 +85,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données sont conservées pendant toute la durée de l’activation du compte. La suppression et/ou la récupération des données au format plat (pdf, xlsx, csv, images) ou au format Hexaban (.xlsx) sont disponibles à tout moment via l’application elle-même. Il est manuel et sous la responsabilité de son propriétaire, seul titulaire des informations d’identification pour y accéder. Une fois le compte désactivé, l’accès utilisateur est fermé.
+>Les données sont conservées pendant toute la durée de l’activation du compte. La suppression et/ou la récupération des données au format plat (pdf, xlsx, csv, images) ou au format Wallon (.xlsx) sont disponibles à tout moment via l’application elle-même. Il est manuel et sous la responsabilité de son propriétaire, seul titulaire des informations d’identification, d’y accéder. Une fois le compte désactivé, l’accès utilisateur est fermé.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -123,4 +123,3 @@ Ces informations ont été fournies par Guidon sur la façon dont cette applicat
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

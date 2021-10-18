@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le carnet d’adresses de groupe - NextSet, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 813966b77b9eac36696f07ba7d2647654739e8d8
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 7a9a8cc45cfaca970fa66826af0f024dcca986f6
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414994"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430796"
 ---
 # <a name="group-address-book---nextset"></a>Group Address Book – NextSet
 
@@ -65,7 +65,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Exchange Online PowerShell, 365 PowerShell | Oui | 365&#12398;&#12464;&#12523;&#12540;&#12503;&#12420;&#12518;&#12540;&#12470;&#12540;&#24773;&#22577;&#12398;&#12484;&#12522;&#12540; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; | &#32068;&#32340;&#21517;&#12420;'ID&#12289;&#12518;&#12540;&#12470;&#12540;&#21517;&#12420;'ID&#12289;&#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#12408;&#12398;&#25152;&#23646;&#27083;&#25104; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; |
 
@@ -84,7 +84,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -131,4 +131,3 @@ Ces informations ont été fournies par NextSet,Inc. sur la façon dont cette ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

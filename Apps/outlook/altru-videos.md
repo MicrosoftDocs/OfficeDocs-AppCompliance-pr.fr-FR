@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour les vidéos Altru par Altru
+title: Informations sur l’application pour les vidéos altru par Altru
 ms.author: elmalova
 author: elenamalova
 ms.date: 04/19/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les vidéos Altru, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b700fd30d724c7c708d2be61bfe778dd54446f72
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4ab9e9057c968d14c8299286b0686931a3a08e9c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60404751"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430564"
 ---
 # <a name="altru-videos"></a>Vidéos altru
 
@@ -33,7 +33,7 @@ Informations fournies par Altru à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Vidéos altru |
 | ID | WA200000026 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Altru |
 | URL du site web partenaire | [https://www.icims.com](https://www.icims.com) |
 | URL de la politique de confidentialité | [https://www.altrulabs.com/privacy](https://www.altrulabs.com/privacy) |
@@ -88,7 +88,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470' frameborder='no' style='width: 100%;'></iframe>
 
@@ -111,4 +111,3 @@ Ces informations ont été fournies par Altru sur la façon dont cette applicati
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

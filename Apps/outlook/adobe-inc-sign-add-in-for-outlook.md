@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Adobe Sign Add-In pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 821fb69c0d61e388153c9957a0026ee7a9a0a409
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d5c347a461d9b3901f880fb7e3c7ff03f4505051
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60404716"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430684"
 ---
 # <a name="adobe-sign-add-in-for-outlook"></a>Adobe Sign Add-In for Outlook
 
@@ -32,7 +32,7 @@ Informations fournies par Adobe Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Adobe Sign Add-In for Outlook |
 | ID | WA104381158 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Adobe Inc. |
 | URL du site web partenaire | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | URL de la politique de confidentialité | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
@@ -71,7 +71,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nos journaux contiennent suffisamment d’informations pour pouvoir identifier et résoudre les problèmes des clients. Les journaux sont conservés pendant 90 jours et l’accès est restreint. Notre base de données stocke des informations d’identification hachées pour l’authentification lorsque l’utilisateur est hors connexion. La stratégie de rétention de base de données est de 30 jours à partir de la dernière utilisation
 
@@ -93,7 +93,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11641' frameborder='no' style='width: 100%;'></iframe>
 
@@ -129,4 +129,3 @@ Ces informations ont été fournies par Adobe Inc. sur la façon dont cette appl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

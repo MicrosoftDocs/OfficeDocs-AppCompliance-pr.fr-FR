@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Brightcove Video Connecter, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 53b0ea912c57bb18b70a42712263aba6c4e67551
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e4496d019a73216088a4809f203745eb0a3fbcd9
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413079"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429201"
 ---
 # <a name="brightcove-video-connect"></a>Connexion vidéo Brightcove
 
@@ -75,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Type : https://files.brightcove.com/legal/en/cDPAv2.html . Stratégie de rétention : Brightcove traite les informations d’identification personnelle, y compris, mais sans s’y limiter, les adresses IP, nécessaires à la fonctionnalité du service et est conservée tant que le service est fourni. Toutes les autres données d’identification personnelle sont conservées pendant 30 jours. Stratégie de suppression : lorsqu’un client quitte le service, ses vidéos sont placées dans une file d’attente de suppression. Les clients ont accès à la suppression de leur contenu dans Brightcove.
 
@@ -109,4 +109,3 @@ Ces informations ont été fournies par Brightcove Inc. sur la façon dont cette
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

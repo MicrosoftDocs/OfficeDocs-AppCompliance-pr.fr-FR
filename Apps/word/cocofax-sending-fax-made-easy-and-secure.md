@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 'Toutes les informations de sécurité et de conformité disponibles pour CocoFax : envoi de télécopies sécurisées, stratégies de gestion des données, informations de catalogue d’applications Microsoft Cloud App Security et informations de sécurité/conformité dans le Registre &amp; CSA STAR.'
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7f370e7c8fbe5249443856134e8f442db94ec310
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3f26e940beef12202da1bbb68698b16396922bb2
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60404715"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430132"
 ---
 # <a name="cocofax---sending-fax-made-easy-amp-secure"></a>CocoFax : envoi de télécopies faciles à &amp; sécuriser
 
@@ -27,7 +27,7 @@ ms.locfileid: "60404715"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par les &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; à Microsoft :
+Informations fournies par &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -100,4 +100,3 @@ Ces informations ont été fournies par &#28145;&#22323;&#23545;&#20113;&#31185;
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

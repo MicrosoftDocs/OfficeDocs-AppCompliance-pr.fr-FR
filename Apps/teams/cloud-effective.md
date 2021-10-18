@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Cloud Effective, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: e403e480e562f3669cad0cb20294d1032fe2dadf
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b48d673ff7875a8bd48cae5ca07ad077159075fd
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414720"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428921"
 ---
 # <a name="cloud-effective"></a>Cloud Effective
 
@@ -109,4 +109,3 @@ Ces informations ont été fournies par Cloud Effective sur la façon dont cette
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

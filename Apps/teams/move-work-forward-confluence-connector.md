@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Connecteur Connecteur, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 62b34c18df1b792a9a1cb7269e7a7a0ad364fd70
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4ac76d007fa7c76e356acc748a34f781e455bb40
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414503"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428551"
 ---
 # <a name="confluence-connector"></a>Connecteur Confluence
 
@@ -57,7 +57,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.ReadBasic.All | délégué | Le nom et l’ID du canal sont utilisés pour envoyer des notifications de Jira à Microsoft Teams. | L’ID de canal et le nom sont stockés pour configurer les notifications de Jira vers Microsoft Teams. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| Channel.ReadBasic.All | délégué | Le nom et l’ID du canal sont utilisés pour envoyer des notifications de Jira Microsoft Teams. | L’ID de canal et le nom sont stockés pour configurer les notifications de Jira vers Microsoft Teams. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 >| Teams.ReadBasic.All | délégué | L’autorisation permet à l’utilisateur de sélectionner l’une de ces équipes jointes dans Jira. | ID d’équipe et nom à afficher dans l’écran Configuration de Jira. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 >| TeamsAppInstallation.ReadForTeam | délégué | Lire les applications Teams installées dans Teams. Lors de la configuration de la remise Microsoft Teams l’application peut envoyer à Teams avec le bot installé. | Aucun | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 >| User.Read | délégué | Permet à l’utilisateur de créer un canal de discussion avec des collègues et de @mentionner dans un message de canal | Aucun | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
@@ -76,12 +76,12 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Accueillir les utilisateurs par leur nom lors de l’installation de l’application. Faire correspondre Microsoft Teams utilisateurs de l’Atlas et de l’Atlas. | Non |  |
+>| Accueillir les utilisateurs par leur nom lors de l’installation de l’application. Correspond aux utilisateurs Microsoft Teams et atlassien. | Non |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nous logons l’URL du client, qui est stockée dans les journaux pendant 5 jours au plus.
 
@@ -106,7 +106,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Move Work Forward sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Move Work Forward sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -127,4 +127,3 @@ Ces informations ont été fournies par Move Work Forward sur la façon dont cet
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

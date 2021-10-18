@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le addIn Word LegalMind, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 54d5c351432a156adf4afe4c0a40d956dc279bdb
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 740b5a6b3033879619e77aba796eb38d32f45c20
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414248"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429752"
 ---
 # <a name="legalmind-word-addin"></a>LegalMind Word AddIn
 
@@ -91,7 +91,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par LegalMind sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par LegalMind sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -100,4 +100,3 @@ Ces informations ont été fournies par LegalMind sur la façon dont cette appli
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -6,14 +6,14 @@ ms.date: 08/04/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour L’Pop, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour L’pop, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 28d424f384d8b16ff70e7d00f366c3a0f89f64b5
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 93b31587f920416def80740ed2ebf3a399e0879c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412514"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429191"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -48,7 +48,7 @@ Informations fournies par Lapop à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par L’AppPop sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par LesisteurPop sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -73,12 +73,12 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Nous accédons aux données de prénom/nom d’affichage afin d’afficher avec précision les actions entreprises par des utilisateurs spécifiques en relation avec une décision. Nous utilisons l’adresse de messagerie comme identificateur unique pour chaque utilisateur dans notre base de données, car nous permettons à chaque utilisateur d’appartenir à plusieurs organisations. Nous accédons uniquement à ces données lorsqu’ils interagissent avec notre application, par exemple s’ils répondent à un sondage. | Nous stockons les données de prénom/nom d’affichage afin d’afficher avec précision les actions entreprises par des utilisateurs spécifiques en relation avec une décision.  Nous stockons l’adresse de messagerie, car nous l’utilisons comme identificateur unique pour chaque utilisateur dans notre base de données, car nous permettons à chaque utilisateur d’appartenir à plusieurs organisations. Nous stockons ces données uniquement lorsqu’ils interagissent avec notre application, par exemple s’ils répondent à un sondage. Nos données de décision sont supposées être un système d’enregistrement des décisions. Il est donc important que nous stockions les données pour identifier la façon dont chaque utilisateur impliqué dans une décision a contribué à cette décision. |  |
+>| Nous accédons aux données de prénom/nom d’affichage afin d’afficher avec précision les actions entreprises par des utilisateurs spécifiques en relation avec une décision. Nous utilisons l’adresse de messagerie comme identificateur unique pour chaque utilisateur dans notre base de données, car nous permettons à chaque utilisateur d’appartenir à plusieurs organisations. Nous accédons uniquement à ces données lorsqu’ils interagissent avec notre application, par exemple s’ils répondent à un sondage. | Nous stockons les données de prénom/nom d’affichage afin d’afficher avec précision les actions entreprises par des utilisateurs spécifiques en relation avec une décision.  Nous stockons l’adresse de messagerie, car nous l’utilisons comme identificateur unique pour chaque utilisateur dans notre base de données, car nous permettons à chaque utilisateur d’appartenir à plusieurs organisations. Nous stockons ces données uniquement lorsqu’ils interagissent avec notre application, par exemple s’ils répondent à un sondage. Nos données de décision sont supposées être un système d’enregistrement pour les décisions. Il est donc important que nous stockions les données pour identifier la façon dont chaque utilisateur impliqué dans une décision a contribué à cette décision. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Oui.
 L’ID d’équipe s’affiche dans nos journaux lorsque notre application est en interaction avec une équipe.
@@ -106,7 +106,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35992' frameborder='no' style='width: 100%;'></iframe>
 
@@ -115,5 +115,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

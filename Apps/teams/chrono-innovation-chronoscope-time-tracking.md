@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Chronoscope Time Tracking, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: bbf812cc60f8c11658fec34eea297798eded20e4
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e275e7a41794b06cb7afc65d60e99ef9037f50a5
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410357"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428831"
 ---
 # <a name="chronoscope-time-tracking"></a>Chronoscope Time Tracking
 
@@ -72,12 +72,12 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| afin de trouver l’utilisateur teams workspaWhen lier des utilisateurs Chronoscope, nous validons que le courrier électronique correspond à un compte Teams afin que nous pouvons lier le compte sans étape manuelle de user.ce dans la base de données de notre application et authentifier cet utilisateur teams | tenantId , informations de compte d’utilisateur telles que userId , addObjectId , givenName , email ,role,objectId | Lors de la liaison des utilisateurs Chronoscope, nous validons que le courrier électronique correspond à un compte Teams afin de pouvoir lier le compte sans étape manuelle de l’utilisateur. Vous pouvez également envoyer des notifications Push sur les entrées d’heure utilisateur pré-remplies afin qu’ils puissent les enregistrer/les modifier/les supprimer. |
+>| afin de trouver l’utilisateur teams workspaWhen lier des utilisateurs Chronoscope, nous validons que le courrier électronique correspond à un compte Teams afin que nous pouvons lier le compte sans étape manuelle de l’utilisateur.ce dans la base de données de notre application et authentifier cet utilisateur teams | tenantId , informations de compte d’utilisateur telles que userId , addObjectId , givenName , email ,role,objectId | Lors de la liaison des utilisateurs Chronoscope, nous validons que le courrier électronique correspond à un compte Teams afin de pouvoir lier le compte sans étape manuelle de l’utilisateur. Vous pouvez également envoyer des notifications Push sur les entrées d’heure utilisateur pré-remplies afin qu’ils puissent les enregistrer/les modifier/les supprimer. |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Informations relatives aux entrées d’heure. Chrono Innovation supprimera les données client 90 jours après la suppression du compte Chronoscope
 
@@ -123,4 +123,3 @@ Ces informations ont été fournies par Chrono Innovation sur la façon dont cet
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
