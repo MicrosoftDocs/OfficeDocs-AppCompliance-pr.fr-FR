@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour CoffeePals, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b88028bd31f6ad32b8c0007644fa407a0d968604
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 67ef18f421c6934a7f03d774e607884152da76ea
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415191"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427156"
 ---
 # <a name="coffeepals"></a>CoffeePals
 
@@ -72,12 +72,12 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Nous accédons à leur nom pour référencer l’utilisateur dans les messages qui correspondent aux utilisateurs pour un café et l’adresse e-mail du magasin pour les connecter à l’application web afin de collecter les paiements. L’utilisation de leur nom rend l’expérience plus personnalisée et nous utilisons l’adresse de messagerie comme identificateur unique et leur envoyons un lien pour se connecter. | Adresse de messagerie, prénom et nom de famille. | Les données sont stockées de sorte qu’elles n’ont pas besoin d’être récupérées chaque fois que nous en avons besoin pour la correspondance, la messagerie et la journalisation des utilisateurs. |
+>| Nous accédons à leur nom pour référencer l’utilisateur dans les messages qui correspondent aux utilisateurs pour un café et l’adresse e-mail de la boutique pour les connecter à l’application web afin de collecter les paiements. L’utilisation de leur nom rend l’expérience plus personnalisée et nous utilisons l’adresse de messagerie comme identificateur unique et leur envoyons un lien pour se connecter. | Adresse de messagerie, prénom et nom de famille. | Les données sont stockées de sorte qu’elles n’ont pas besoin d’être récupérées chaque fois que nous en avons besoin pour la correspondance, la messagerie et la journalisation des utilisateurs. |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/41839' frameborder='no' style='width: 100%;'></iframe>
 
@@ -122,4 +122,3 @@ Ces informations ont été fournies par Carnduff Co sur la façon dont cette app
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

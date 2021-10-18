@@ -6,16 +6,16 @@ ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour la calculatrice de coût du service EMEA Canon pour les partenaires B2B, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour la calculatrice de coût du service EMEA canon pour les partenaires B2B, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: dad36c97f63d3bea7ac29ce832b3c09bd6f0dd86
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c002d38253a0c6024e971c934818a6ea597a9fe5
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410738"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428196"
 ---
-# <a name="canon-emea-service-cost-calculator-for-b2b-partners"></a>Calculateur de coûts de service EMEA Canon pour les partenaires B2B
+# <a name="canon-emea-service-cost-calculator-for-b2b-partners"></a>Calculateur de coût du service EMEA Canon pour les partenaires B2B
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,7 +31,7 @@ Informations fournies par Canon EMEA à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Calculateur de coûts de service EMEA Canon pour les partenaires B2B |
+| Nom de l'application | Calculateur de coût du service EMEA Canon pour les partenaires B2B |
 | ID | WA200003098 |
 | Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2013 ou une Windows, Excel sur le Web |
 | Nom de la société partenaire | Canon EMEA |
@@ -66,7 +66,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >adresse de messagerie de l’utilisateur, nom de l’organisation. Le canon ne supprime pas les informations personnelles lorsqu’il fait référence à une relation active ou à un produit ou service demandé explicitement par l’utilisateur. Les informations sont conservées conformément aux périodes de rétention requises par les lois applicables et pendant les lois pertinentes de limitations.
 
@@ -100,4 +100,3 @@ Ces informations ont été fournies par Canon EMEA sur la façon dont cette appl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

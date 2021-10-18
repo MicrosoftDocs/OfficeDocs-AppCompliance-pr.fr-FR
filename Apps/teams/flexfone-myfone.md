@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Myfone, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 29c2dc9393d4119774ac37e37143fb57581e22cb
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 0265c084777a8273826c7562828f0a72edb75fcc
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412403"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428277"
 ---
 # <a name="myfone"></a>Myfone
 
@@ -58,7 +58,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | délégué | Les calendriers sont utilisés pour que les utilisateurs puissent afficher leur calendrier à leurs collègues et utiliser les réunions pour la configuration de leur téléphonie | Les calendriers sont utilisés pour que les utilisateurs puissent afficher leur calendrier à leurs collègues et utiliser les réunions pour la configuration de leur téléphonie | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](https://docs.microsoft.com/microsoft-365-app-certification/azure/cdd5ed6f-ceda-4d46-a522-b7526d6d9e50) |
->| Contacts.Read | délégué | Les contacts des utilisateurs peuvent être stockés s’ils souhaitent les afficher dans l’application pour faciliter la numérotation des contacts | Les contacts des utilisateurs peuvent être stockés s’ils souhaitent les afficher dans l’application pour faciliter la numérotation des contacts | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](https://docs.microsoft.com/microsoft-365-app-certification/azure/cdd5ed6f-ceda-4d46-a522-b7526d6d9e50) |
+>| Contacts.Read | délégué | Les contacts des utilisateurs peuvent être stockés s’ils souhaitent les afficher dans l’application afin de faciliter la numérotation des contacts | Les contacts des utilisateurs peuvent être stockés s’ils souhaitent les afficher dans l’application afin de faciliter la numérotation des contacts | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](https://docs.microsoft.com/microsoft-365-app-certification/azure/cdd5ed6f-ceda-4d46-a522-b7526d6d9e50) |
 >| User.Read | délégué | La lecture utilisateur dans cette application est utilisée à des fins d’identification. | La lecture utilisateur dans cette application est utilisée à des fins d’identification. | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](https://docs.microsoft.com/microsoft-365-app-certification/azure/cdd5ed6f-ceda-4d46-a522-b7526d6d9e50) |
 >| User.Read | délégué | Nous ne stockons pas les données. L’application est simplement utilisée à des fins d’authentification | Nous ne stockons pas les données. L’application est simplement utilisée à des fins d’authentification | [f0199b83-0ca3-4b41-a23b-d9b234484438](https://docs.microsoft.com/microsoft-365-app-certification/azure/f0199b83-0ca3-4b41-a23b-d9b234484438) |
 
@@ -66,7 +66,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| EWS. AccessAsUser.All | Oui | Nom de la société, noms d’employés et numéros de téléphone | Pour être en mesure d’afficher les données aux utilisateurs dans l’application et de les utiliser | Nom de la société, noms d’employés et numéros de téléphone | Pour être en mesure d’afficher les données aux utilisateurs dans l’application et de les utiliser |
 
@@ -112,7 +112,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Flexfone sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par Flexfone sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -121,7 +121,7 @@ Ces informations ont été fournies par Flexfone sur la façon dont cette applic
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Authentification multifacteur |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -134,4 +134,3 @@ Ces informations ont été fournies par Flexfone sur la façon dont cette applic
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

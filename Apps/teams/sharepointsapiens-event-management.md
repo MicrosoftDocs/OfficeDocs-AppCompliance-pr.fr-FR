@@ -1,5 +1,5 @@
 ---
-title: Informations sur les applications pour la gestion des événements par SharePoint| Les
+title: Informations sur les applications pour la gestion des événements par SharePoint| Tzéz
 ms.author: elmalova
 author: elenamalova
 ms.date: 07/27/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la gestion des événements, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 74e6e3963a03ff6cc6da44ffc33184f6b5fe1cf9
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6c01ea167bc634296e6eb9972192db14f61839a9
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412754"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60423094"
 ---
 # <a name="event-management"></a>Gestion des événements
 
@@ -49,7 +49,7 @@ Informations fournies par SharePoint| Aide-ms à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par SharePoint| Indique comment cette application collecte et stocke les données organisationnelles, ainsi que le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par SharePoint| Indique comment cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -106,7 +106,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36018' frameborder='no' style='width: 100%;'></iframe>
 
@@ -141,4 +141,3 @@ Ces informations ont été fournies par SharePoint| Informations sur la façon d
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

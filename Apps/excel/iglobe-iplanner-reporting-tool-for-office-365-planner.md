@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour l’outil de rapports iPlanner pour le planificateur Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ac38f244a862b89ee17ded8ce1432fdb00fb451a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 354eaa3d38bd05834d7083a52ee6f5b723aaab64
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411268"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428166"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>Outil de rapports iPlanner pour Office 365 planner
 
@@ -55,7 +55,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour créer une entrée de calendrier dans l’utilisateur&#8217;calendrier à la date d’échéance de la tâche. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour vérifier que l’utilisateur a le consentement et a accès à l’utilisation de l’API. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour vérifier que l’utilisateur a le consentement et a accès pour utiliser l’API. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la tâche du planificateur Outlook Tâches à faire, les e-mails marqués et les mettre à jour. Pour créer une tâche du planificateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour accéder au fichier en tant que pièce jointe et télécharger des fichiers vers une tâche. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Pour obtenir la liste des plans et mettre à jour la tâche. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -101,7 +101,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no' style='width: 100%;'></iframe>
 
@@ -110,5 +110,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

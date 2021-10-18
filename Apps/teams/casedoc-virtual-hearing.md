@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour l’audition virtuelle Casedoc par Casedoc
+title: Informations sur l’application pour l’audience virtuelle Casedoc par Casedoc
 ms.author: elmalova
 author: elenamalova
 ms.date: 09/28/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’audience virtuelle Casedoc, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 0796ed283a64cd2e146bc011d570e1b5282eb5c6
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c10a429f38ed32c5c11cdab448eb1e523301978a
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415181"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427146"
 ---
 # <a name="casedoc-virtual-hearing"></a>Casedoc Virtual Hearing
 
@@ -60,7 +60,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| AppCatalog.ReadWrite.All | délégué | Application de recherche à ajouter à l’onglet réunion | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 >| Calendars.ReadWrite | application | Recherchez une liste d’événements de calendrier utilisateur, utilisé pour afficher la liste des réunions et les données de l’événement dans l’application. | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 >| Directory.ReadWrite.All | application | Aucune donnée collectée | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Files.ReadWrite.All | application | Liste des fichiers chargés par l’application | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Files.ReadWrite.All | application | Lister les fichiers chargés par l’application | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 >| Group.ReadWrite.All | application | Aucune donnée collectée | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 >| MailboxSettings.Read | application | Paramètres de messagerie utilisateur, fuseau horaire. Utilisé pour afficher le fuseau horaire correct pour l’utilisateur | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 >| OnlineMeetings.ReadWrite | délégué | Les données de réunion sont lues et stockées, utilisées pour afficher les données de réunion dans l’application | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
@@ -68,7 +68,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| TeamsAppInstallation.ReadWriteForUser | délégué | Utilisé pour ajouter l’application à l’onglet de réunion. | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 >| TeamsTab.Create | délégué | Utilisé pour ajouter l’onglet à la réunion. | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 >| TeamsTab.ReadWrite.All | délégué | Utilisé pour ajouter l’onglet à la réunion. | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| User.Read.All | application | Utilisé pour rechercher des utilisateurs pour une réunion. | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| User.Read.All | application | Permet de rechercher des utilisateurs pour une réunion. | Aucune donnée n’est stockée | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -119,7 +119,7 @@ Ces informations ont été fournies par Casedoc sur la façon dont cette applica
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -133,4 +133,3 @@ Ces informations ont été fournies par Casedoc sur la façon dont cette applica
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

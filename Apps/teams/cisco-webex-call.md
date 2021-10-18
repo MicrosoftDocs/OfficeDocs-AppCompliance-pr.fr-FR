@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’appel Webex, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 50ff8ddaab9be9b66da02156761931de44770340
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3cfd7063461a56ee5c56ff4f4c57437583b288e2
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414730"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60426856"
 ---
 # <a name="webex-call"></a>Webex Call
 
@@ -58,8 +58,8 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Chat.Read | délégué | Obtenir des membres de conversation pour pouvoir appeler l’autre membre dans une conversation privée avec Cisco WebEx | L’application ne stockerait pas de données dans ses bases de données | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
 >| Contacts.Read | délégué | Obtenir des contacts utilisateur, afin que l’utilisateur puisse appeler des contacts avec Cisco WebEx | L’application ne stockerait pas de données dans ses bases de données | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
->| User.Read | délégué | obtenir le courrier électronique de l’utilisateur, les téléphones afin de pouvoir lancer Cisco WebEx pour appeler des e-mails ou des téléphones ; | L’application ne stockerait pas de données dans ses bases de données | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
->| User.ReadBasic.All | délégué | obtenir le courrier électronique de l’utilisateur, les téléphones afin de pouvoir lancer Cisco WebEx pour appeler des e-mails ou des téléphones ; | L’application ne stockerait pas de données dans ses bases de données | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| User.Read | délégué | obtenir le courrier électronique de l’utilisateur, les téléphones afin qu’ils peuvent lancer Cisco WebEx pour appeler des e-mails ou des téléphones ; | L’application ne stockerait pas de données dans ses bases de données | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| User.ReadBasic.All | délégué | obtenir le courrier électronique de l’utilisateur, les téléphones afin qu’ils peuvent lancer Cisco WebEx pour appeler des e-mails ou des téléphones ; | L’application ne stockerait pas de données dans ses bases de données | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
 >| User.ReadWrite | délégué | Cette autorisation consiste à stocker les informations de numérotation rapide sur l’extension utilisateur | L’application ne stockerait pas de données dans ses bases de données  | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
 
 
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/10549' frameborder='no' style='width: 100%;'></iframe>
 
@@ -125,4 +125,3 @@ Ces informations ont été fournies par Cisco sur la façon dont cette applicati
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

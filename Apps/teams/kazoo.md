@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Leoo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 4e12a15bcbf86c36829c45d6d7b9c528a798848f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d4bd65ea0c358fb8913f740e160bdc063a17c882
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412904"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60423176"
 ---
 # <a name="kazoo"></a>Kazoo
 
@@ -63,7 +63,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Le GRS (GrS), vous réalisez l’enrichissement de nos bénéfices. Ils doivent savoir ce que l’utilisateur souhaite en tant que récompense et où l’expédier. | Nom et adresse d’expédition. | Le service permet aux employés de sélectionner une récompense dans le catalogue en ligne. Notre expédieur doit savoir où expédier les éléments. |
+>| Le GrS (GrS) vous permet d’accomplir nos bénéfices. Ils doivent savoir ce que l’utilisateur souhaite en tant que récompense et où l’expédier. | Nom et adresse d’expédition. | Le service permet aux employés de sélectionner une récompense dans le catalogue en ligne. Notre expédieur doit savoir où expédier les éléments. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -74,7 +74,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -108,4 +108,3 @@ Ces informations ont été fournies par Contrôleoo sur la façon dont cette app
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

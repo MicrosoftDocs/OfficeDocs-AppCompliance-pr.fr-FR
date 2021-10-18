@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SHL, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 10d1b85a8f4d57ed956355ecc5247a5a4c3a5b43
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4a80f46a20f26bd879c1260bf091c1490c60b13c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414941"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60423092"
 ---
 # <a name="shl"></a>SHL
 
@@ -66,7 +66,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Nous transférons des données aux services de notre propre application (Talentcentral : https://talentcentral.eu.shl.com/admin) | EUII : nom d’utilisateur et ID d’utilisateur des équipes Microsoft Teams | Le nom d’utilisateur Teams’application est utilisé dans notre autre application qui déclenche des messages électroniques avec son nom d’utilisateur. et l’ID d’utilisateur que nous conserverons comme identificateur et que nous mappages avec l’ID&#8217;'utilisateur de notre application. |
+>| Nous transférons des données aux services de notre propre application (Talentcentral : https://talentcentral.eu.shl.com/admin) | EUII : nom d’utilisateur et ID d’utilisateur des équipes Microsoft Teams | Le nom d’utilisateur Teams’application est utilisé dans notre autre application qui déclenche des messages électroniques avec son nom d’utilisateur. et identificateur d’utilisateur que nous conserverons comme identificateur et mappages avec notre application&#8217;'ID utilisateur. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -74,12 +74,12 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Le nom d’utilisateur Teams’application est utilisé dans notre autre application qui déclenche des messages électroniques avec son nom d’utilisateur. et identificateur utilisateur que nous conserverons en tant qu’identificateur et que nous mappages avec l’ID&#8217;'utilisateur de notre application | Nom d’utilisateur microsoft teams et ID d’utilisateur teams | Le nom d’utilisateur Teams’application est utilisé dans notre autre application qui déclenche des messages électroniques avec son nom d’utilisateur. et identificateur utilisateur que nous conserverons en tant qu’identificateur et que nous mappages avec l’ID&#8217;'utilisateur de notre application |
+>| Le nom d’utilisateur Teams’application est utilisé dans notre autre application qui déclenche des messages électroniques avec son nom d’utilisateur. et identificateur d’utilisateur que nous conserverons en tant qu’identificateur et que nous mappages avec l’ID&#8217;'utilisateur de notre application | Nom d’utilisateur microsoft teams et ID d’utilisateur teams | Le nom d’utilisateur Teams’application est utilisé dans notre autre application qui déclenche des messages électroniques avec son nom d’utilisateur. et identificateur d’utilisateur que nous conserverons en tant qu’identificateur et que nous mappages avec l’ID&#8217;'utilisateur de notre application |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -101,7 +101,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36654' frameborder='no' style='width: 100%;'></iframe>
 
@@ -124,4 +124,3 @@ Ces informations ont été fournies par SHL sur la façon dont cette application
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Hibob, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b6eaaa5c8e9b7a707bdd88b965964089c5dce472
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b4caa166e958d71b9a0f7105874761dc330563f8
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412363"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428267"
 ---
 # <a name="hibob"></a>Hibob
 
@@ -74,7 +74,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nous logons les ID de conversation et les adresses e-mail.
 Les journaux sont purgés après 30 jours.
@@ -84,7 +84,7 @@ Il n’existe aucune option pour supprimer la demande de réponse aux journaux.
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Notre plateforme est hébergée dans les centres de données Amazon&#8217;situés à Dublin et l’accès à la plateforme est basé sur les rôles et est basé sur les besoins de savoir/besoin de faire, en fonction de la position de l’employé&#8217;.
+>Notre plateforme est hébergée dans les centres de données d’Amazon&#8217;situés à Dublin et l’accès à la plateforme est basé sur les rôles et est basé sur le besoin de savoir/besoin de faire, en fonction de la position de l’employé&#8217;.
 Chaque utilisateur a ses informations d’identification uniques et nous authentifications 2FA sur les services critiques.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
@@ -99,7 +99,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/29043' frameborder='no' style='width: 100%;'></iframe>
 
@@ -108,5 +108,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

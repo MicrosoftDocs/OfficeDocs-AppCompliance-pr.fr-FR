@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les FormMachines, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: be8e514f248b177d0b09e856d5537e770d50220c
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 33f3569fe4d5da9ddde55d40be56906210981072
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411048"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60426786"
 ---
 # <a name="formmachines"></a>FormMachines
 
@@ -73,15 +73,15 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Dans notre journal d’erreurs, en règle générale, nous ne logons que les informations liées à l’erreur elle-même. Toutefois, pour aider un client particulier, nous pouvons identifier le domaine associé, mais pas le client lui-même. Les journaux d’erreurs sont consultables en ligne, et non téléchargés et consultables. Les journaux d’erreur sont supprimés automatiquement après 90 jours.
+>Dans notre journal des erreurs, en général, nous ne logons que les informations liées à l’erreur elle-même. Toutefois, pour aider un client particulier, nous pouvons identifier le domaine associé, mais pas le client lui-même. Les journaux d’erreurs sont consultables en ligne, et non téléchargés et consultables. Les journaux d’erreur sont supprimés automatiquement après 90 jours.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données sont stockées dans des centres de données Azure aux États-Unis. Les données fournies par le client, telles que les modèles et les soumissions, sont chiffrées dans la base de données/blob. Les pièces jointes sont stockées dans des conteneurs PRIVÉs Azure BLOB, les utilisateurs doivent s’authentifier avant d’y accéder. Nous avons au maximum deux administrateurs qui peuvent accéder à nos ressources de production, pour le dépannage et le déploiement. Ces deux comptes d’administrateur sont partitionn s différemment pour tous les autres comptes. Le nombre d’accès administrateur ne dépasse pas deux. 
+>Les données sont stockées dans des centres de données Azure aux États-Unis. Les données fournies par le client, telles que les modèles et les soumissions, sont chiffrées dans la base de données/blob. Les pièces jointes sont stockées dans des conteneurs PRIVÉs Azure BLOB, les utilisateurs doivent s’authentifier avant d’y accéder. Nous avons au maximum deux administrateurs qui peuvent accéder à nos ressources de production, pour le dépannage et le déploiement. Ces deux comptes d’administrateur sont partitionn s différemment sur tous les autres comptes. Le nombre d’accès administrateur ne dépasse pas deux. 
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -95,7 +95,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36144' frameborder='no' style='width: 100%;'></iframe>
 
@@ -117,7 +117,7 @@ Ces informations ont été fournies par Enterprise Digital Machines sur la faço
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
@@ -131,4 +131,3 @@ Ces informations ont été fournies par Enterprise Digital Machines sur la faço
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
