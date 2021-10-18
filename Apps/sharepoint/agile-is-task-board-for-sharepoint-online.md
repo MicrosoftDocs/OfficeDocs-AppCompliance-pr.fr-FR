@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application du tableau des tâches agile pour SharePoint Online par Agile-IS
+title: Informations sur l’application du tableau des tâches Agile pour SharePoint Online par Agile-IS
 ms.author: elmalova
 author: elenamalova
 ms.date: 09/30/2020
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le tableau des tâches Agile pour SharePoint Online, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 34526c1037ee220cabfecf6dd06fac93bb0e4952
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f4e423cba32f1555b6db7644aca70df01075d83c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412103"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60437020"
 ---
 # <a name="agile-task-board-for-sharepoint-online"></a>Tableau des tâches agile pour SharePoint Online
 
@@ -66,9 +66,9 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous collectons le nom de domaine et l’ID d’utilisateur hachage dans les données de télémétrie d’informations sur l’application. Dans chaque instance d’application, la transmission des données de télémétrie peut être contrôlée et désactivée. Une suppression ultérieure des données doit être demandée de notre part.
+>Nous collectons le nom de domaine et un ID d’utilisateur hachage dans nos données de télémétrie d’informations sur l’application. Dans chaque instance d’application, la transmission des données de télémétrie peut être contrôlée et désactivée. Une suppression ultérieure des données doit être demandée de notre part.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -76,7 +76,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 >L’application stocke toutes les données dans SharePoint listes et bibliothèques de documents en ligne sur le même site que l’instance respective de l’application. Le contrôle d’accès à ces données dépend de la configuration du client client. 
 
-Pour le contrôle de licence, le domaine et l’UPN sont transférés vers un service hébergé dans Azure. Ces informations sont sécurisées par l’authentification Azure AD données.
+Pour le contrôle de licence, le domaine et l’UPN sont transférés vers un service hébergé dans Azure. Ces informations sont sécurisées par l’authentification Azure AD’utilisateur.
 
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
@@ -91,7 +91,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36140' frameborder='no' style='width: 100%;'></iframe>
 
@@ -100,5 +100,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

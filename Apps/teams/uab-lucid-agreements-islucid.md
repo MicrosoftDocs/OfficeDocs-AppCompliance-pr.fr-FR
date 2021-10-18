@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour isLucid, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7270fa4f4a08ca820d1fe7452dea13fb107f2294
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 5c482dbb0a7fda2f588eef80e16abb5f495be478
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414901"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445016"
 ---
 # <a name="islucid"></a>isLucid
 
@@ -72,7 +72,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| hubspot.com | Nom, nom, adresse de messagerie Téléphone nombre d’utilisateurs nouvellement inscrits | Nous utilisons Hubspot CRM pour gérer les informations liées aux ventes |
+>| hubspot.com | Nom, nom, adresse de messagerie Téléphone nombre d’utilisateurs nouvellement inscrits | Nous utilisons Hubspot CRM pour conserver les informations liées aux ventes |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -93,7 +93,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Nous ne contrôlons pas les données sur nos clients lorsque les achats de clients sont pris en compte en tant que solution hébergée. Pour la solution SaaS, nous permettons aux utilisateurs d’annuler l’utilisation de nos services, puis nous supprimons Cosmos DB associée au partenaire. Nous sommes également en train d’envoyer des informations à l’API de conformité
+>Nous ne contrôlons pas les données sur nos clients lorsque les achats de clients sont pris en compte en tant que solution hébergée. Pour la solution SaaS, nous permettons aux utilisateurs d’annuler l’utilisation de nos services, puis nous supprimons la Cosmos DB associée au partenaire. Nous sommes également en train d’envoyer des informations à l’API de conformité
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -132,4 +132,3 @@ Ces informations ont été fournies par les contrats UAB Sur la façon dont cett
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

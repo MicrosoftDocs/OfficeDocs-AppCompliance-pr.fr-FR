@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour harmon.ie pour Office, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c9e803a02b2db799b0aeb2230955746fa905ccbe
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c04e0329be337a6018db400d64450a6d20e7043b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410718"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60442266"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie pour Office
 
@@ -33,7 +33,7 @@ Informations fournies par harmon.ie Corporation à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | harmon.ie pour Office |
 | ID | WA104381050 |
-| Office 365 clients pris en charge | PowerPoint 2016 ou ultérieure sur Windows, Word 2016 ou ultérieur sur Windows, Excel sur le Web, Word sur le web, PowerPoint sur le web, Word 2016 ou ultérieurement sur Mac, PowerPoint 2016 ou une ultérieure sur Mac |
+| Office 365 clients pris en charge | PowerPoint 2016 ou une Windows, Word 2016 ou ultérieure sur Windows, Excel sur le Web, Word sur le web, PowerPoint sur le web, Word 2016 ou ultérieurement sur Mac, PowerPoint 2016 ou une ultérieure sur Mac |
 | Nom de la société partenaire | harmon.ie Corporation |
 | URL du site web partenaire | [https://harmon.ie](https://harmon.ie) |
 | URL de la politique de confidentialité | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
@@ -71,7 +71,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Utilisateurs et données d’utilisation upn
 
@@ -93,7 +93,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36360' frameborder='no' style='width: 100%;'></iframe>
 
@@ -129,4 +129,3 @@ Ces informations ont été fournies par harmon.ie Corporation sur la façon dont
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

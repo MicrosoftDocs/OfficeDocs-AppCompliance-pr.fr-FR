@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la prise en charge spatiale, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 437cddea92d1acf60dcf2f0e0d0b9642d596ac7a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 37accff4e3a806cee488148aeb5301868edc8237
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410197"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60435598"
 ---
 # <a name="spatial-standup"></a>Spatial Standup
 
@@ -108,4 +108,3 @@ Ces informations ont été fournies par High Fidelity Inc. sur la façon dont ce
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

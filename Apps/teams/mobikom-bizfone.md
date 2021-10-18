@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Bizfone, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c9e2f8ce67921b36adaa058d59e2ae3ca188e083
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: da9869a2690b16e39b80f8ff0ca53d7949f33d26
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415051"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444464"
 ---
 # <a name="bizfone"></a>Bizfone
 
@@ -57,7 +57,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | délégué | Les calendriers sont utilisés pour que les utilisateurs puissent afficher leurs calendriers à leurs collègues et utiliser les réunions pour la configuration de leur téléphonie | Les calendriers sont utilisés pour que les utilisateurs puissent afficher leurs calendriers à leurs collègues et utiliser les réunions pour la configuration de leur téléphonie | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](https://docs.microsoft.com/microsoft-365-app-certification/azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11) |
+>| Calendars.Read | délégué | Les calendriers sont utilisés pour que les utilisateurs puissent afficher leur calendrier à leurs collègues et utiliser les réunions pour la configuration de leur téléphonie | Les calendriers sont utilisés pour que les utilisateurs puissent afficher leur calendrier à leurs collègues et utiliser les réunions pour la configuration de leur téléphonie | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](https://docs.microsoft.com/microsoft-365-app-certification/azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11) |
 >| Contacts.Read | délégué | Les contacts des utilisateurs peuvent être stockés s’ils souhaitent les afficher dans l’application pour faciliter la numérotation des contacts | Les contacts des utilisateurs peuvent être stockés s’ils souhaitent les afficher dans l’application pour faciliter la numérotation des contacts | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](https://docs.microsoft.com/microsoft-365-app-certification/azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11) |
 >| User.Read | délégué | La lecture utilisateur dans cette application est utilisée à des fins d’identification. | La lecture utilisateur dans cette application est utilisée à des fins d’identification. | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](https://docs.microsoft.com/microsoft-365-app-certification/azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11) |
 >| User.Read | délégué | Nous ne stockons pas les données. L’application est simplement utilisée à des fins d’authentification | Nous ne stockons pas les données. L’application est simplement utilisée à des fins d’authentification | [fc8f7563-e8ea-4b6d-9622-82775a21a35a](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc8f7563-e8ea-4b6d-9622-82775a21a35a) |
@@ -87,7 +87,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -134,4 +134,3 @@ Ces informations ont été fournies par MobiKOM sur la façon dont cette applica
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour Tikit par Luison
+title: Informations sur l’application pour Tikit par Quémand
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/01/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Tikit, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b427ac7258c9849f6d003a6e9afe51f3db9fe784
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4d7eb0c6987d0e7ae0805740c52607b3a1de652f
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414740"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60441022"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -61,9 +61,9 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Directory.AccessAsUser.All | délégué | Noms de groupes et rôles pour RBAC | Nom de &amp; rôle de nom de groupe, doit fournir un contrôle d’accès mappé sécurisé. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Directory.Read.All | délégué | Noms de groupes et rôles pour RBAC | Nom de &amp; rôle de nom de groupe, doit fournir un contrôle d’accès mappé sécurisé. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Group.Read.All | les deux | Noms de groupes et rôles pour RBAC | Noms de groupes et rôles pour RBAC | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read | délégué | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read.All | application | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.ReadBasic.All | délégué | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | Rôles d’utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read | délégué | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read.All | application | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.ReadBasic.All | délégué | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | Rôles utilisateur, nom de famille, nom donné, e-mail, ID AAD, ID Teams’utilisateur, utilisé pour l’authentification  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| email | délégué | Courrier électronique de l’utilisateur utilisé pour la connexion et l’identification associée des entités associées. &quot;Utilisateur affecté&quot; | Courrier électronique de l’utilisateur utilisé pour la connexion et l’identification associée des entités associées. &quot;Utilisateur affecté&quot; | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| openid | délégué | utilisé pour l’authentification via MSAL selon les besoins  | utilisé pour l’authentification via MSAL selon les besoins  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| profil | délégué | utilisé pour l’authentification via MSAL selon les besoins  | utilisé pour l’authentification via MSAL selon les besoins  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
@@ -72,7 +72,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
 
->| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
+>| **API** |  **OII est-il collecté ?** |  **Quels OII sont collectés ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| QnA Maker | Non |  |  |  |  |
 
@@ -93,9 +93,9 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Nous stockons le nom de la société, l’ID de locataire, le courrier électronique, l’ID client du bot dans les informations d’application, avec une stratégie de rétention 30 dat.
+>Nous stockons le nom de la société, l’ID de locataire, le courrier électronique, l’ID client du bot dans les informations d’application, avec une stratégie de rétention de 30 dat.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -115,7 +115,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36548' frameborder='no' style='width: 100%;'></iframe>
 
@@ -152,4 +152,3 @@ Ces informations ont été fournies parFactson sur la façon dont cette applicat
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

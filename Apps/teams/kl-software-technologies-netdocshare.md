@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour netDocShare, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 853e192cc9e76faf2b8634723cf81e256fcd7140
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c31fb96fb69a331cc1f4fc3e87efba4f1ba0ab77
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412894"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60435578"
 ---
 # <a name="netdocshare"></a>netDocShare
 
@@ -72,15 +72,15 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Oui. Nous stockons euii et OII dans une base de données NoSQL Mongo personnalisée hébergée sur Microsoft Azure. Une fois que le client a abandonné son abonnement, nous supprimons ces informations de la base de données ci-dessus.
+>Oui. Nous stockons LES EUII et OII dans une base de données NoSQL Mongo personnalisée hébergée sur Microsoft Azure. Une fois que le client a abandonné son abonnement, nous supprimons ces informations de la base de données ci-dessus.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données d’application sont stockées dans la base de données Mongo NoSQL hébergée sur Microsoft Azure. Les données sont chiffrées et seuls deux administrateurs de notre client Azure y ont accès. 2FA est activé pour tous les comptes d’administrateur et les deux comptes d’administrateur sont des comptes d’Azure AD d’utilisateurs
+>Les données d’application sont stockées dans la base de données Mongo NoSQL hébergée sur Microsoft Azure. Les données sont chiffrées et seuls deux administrateurs de notre client Azure y ont accès. 2FA est activé pour tous les comptes d’administrateur et les deux comptes d’administrateur sont des comptes d Azure AD d’utilisateurs
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -94,7 +94,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35898' frameborder='no' style='width: 100%;'></iframe>
 
@@ -103,5 +103,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

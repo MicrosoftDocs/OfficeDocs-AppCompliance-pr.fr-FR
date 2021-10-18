@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430946"
+ms.locfileid: "60434383"
 ---
 # <a name="site24x7"></a>Site24x7
 

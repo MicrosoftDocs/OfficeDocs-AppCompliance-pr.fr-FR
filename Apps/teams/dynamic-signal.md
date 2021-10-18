@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le signal dynamique, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1380163dee988fd928596cd3024c0ddc2d6e8be5
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d25efd4a6dffac1dde98995505e5ca913a8e4501
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412433"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60435608"
 ---
 # <a name="dynamic-signal"></a>Signal dynamique
 
@@ -75,14 +75,14 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| openid sign in using openid directory.readwrite.all access to the tenant’s domain and groups, add an app to a team offline_access retain access to the tenant’s groups and teams | openid Autoriser l’authentification indépendante. accès directory.readwrite.all au domaine et aux groupes du client, ajoutez une application à une offline_access conservez l’accès aux groupes et équipes du client Remarque : l’application du signal dynamique utilise le bot d’équipes pour appliquer des groupes et des autorisations créés au sein du signal dynamique à Teams afin qu’un utilisateur actif dans le signal dynamique accède aux mêmes groupes et utilisateurs qu’au sein de Teams. |  |
+>| openid sign in using openid directory.readwrite.all access to the tenant’s domain and groups, add an app to a team offline_access retain access to the tenant’s groups and teams | openid Autoriser l’authentification indépendante. Accès directory.readwrite.all au domaine et aux groupes du client, ajoutez une application à une offline_access conservez l’accès aux groupes et équipes du client Remarque : l’application du signal dynamique utilise le bot d’équipes pour appliquer des groupes et des autorisations créés au sein du signal dynamique à Teams afin qu’un utilisateur actif dans le signal dynamique accède aux mêmes groupes et utilisateurs que dans Teams. |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->L’application et la plateforme Dynamic Signal utilisent les informations utilisateur pour faciliter l’intégration avec Microsoft Teams. Ces informations sont accessibles aux utilisateurs ayant les autorisations appropriées au sein de la plateforme De signal dynamique. Les informations pertinentes sont Nom, Nom complet et Courrier électronique. Ces informations sont stockées dans les journaux de la plateforme Signal dynamique conformément à la stratégie de l’organisation respective avec la licence Signal dynamique.
+>L’application et la plateforme Dynamic Signal utilisent les informations utilisateur pour faciliter l’intégration avec Microsoft Teams. Ces informations sont accessibles aux utilisateurs ayant les autorisations appropriées au sein de la plateforme De signal dynamique. Les informations pertinentes sont Nom, Nom complet et Courrier électronique. Ces informations sont stockées dans les journaux de la plateforme De signal dynamique conformément à la stratégie de l’organisation respective avec la licence Signal dynamique.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35740' frameborder='no' style='width: 100%;'></iframe>
 
@@ -111,5 +111,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

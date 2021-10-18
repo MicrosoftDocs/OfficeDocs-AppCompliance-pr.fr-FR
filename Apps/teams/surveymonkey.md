@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SurveyMonkey, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4d792807b4a8160b3e62c7c1a23b4cf8a49b2148
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a67e1c8db56a621253fe8ad0471d4db234dc7d70
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413346"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432854"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -66,7 +66,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Seul l’ID d’utilisateur MS est stocké dans SurveyMonkey afin d’associer des réponses et des enquêtes à l’utilisateur de l’équipe. |  | Pour les équipes, nous utilisons Microsoft Teams javascript SDK dans le module de tâche créer, prendre des enquêtes et des résultats de l’enquête module modal. |
+>| Seul l’ID d’utilisateur MS est stocké dans SurveyMonkey afin d’associer des réponses et des enquêtes à l’utilisateur de l’équipe. |  | Pour les équipes, nous utilisons Microsoft Teams SDK JavaScript dans le module de tâche créer, prendre des enquêtes et des résultats de l’enquête module modal. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -79,9 +79,9 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->EUII : un journal de réussite/échec est créé chaque fois qu’une enquête reçoit une réponse et que nous essayons d’envoyer cette réponse à Teams via le connecteur, ce journal inclut user_id, survey_id, integration_id (qui dans la base de données peut être utilisé pour rechercher l’ID d’équipe MS, L’ID utilisateur MS)
+>EUII : un journal de réussite/échec est créé chaque fois qu’une enquête reçoit une réponse et que nous essayons d’envoyer cette réponse à Teams via le connecteur, ce journal inclut user_id, survey_id, integration_id (qui dans la base de données peut être utilisé pour rechercher l’ID d’équipe MS, l’ID utilisateur MS)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -93,7 +93,7 @@ SurveyMonkey utilise l’authentification utilisateur centrale pour maintenir la
 
 Seuls les appareils émis par l’entreprise sont autorisés à accéder à notre réseau de production. Toutes les valeurs par défaut du fournisseur sans fil sont modifiées avant l’installation, y compris, mais sans s’y limiter, les clés de chiffrement sans fil par défaut, les mots de passe et les chaînes communautaires SNMP. 2FA et VPN sont requis pour le faire à distance. Nous avons un réseau Wifi distinct pour l’accès invité dans nos bureaux d’entreprise.
 
-Tous les services, protocoles et ports autorisés doivent avoir une justification et une approbation professionnelles documentées, y compris l’utilisation des fonctionnalités de sécurité implémentées pour les protocoles considérés comme non sécurisés. Les routeurs et pare-feu sont configurés pour limiter la divulgation d’adresses IP aux personnes non autorisées ou involontaires et limiter l’accès Internet entrant aux adresses IP dans le pare-feu DMZ et les règles de routeur sont examinés au moins tous les six mois.
+Tous les services, protocoles et ports autorisés doivent avoir une justification et une approbation professionnelles documentées, y compris l’utilisation des fonctionnalités de sécurité implémentées pour les protocoles considérés comme non sécurisés. Les routeurs et les pare-feu sont configurés pour limiter la divulgation d’adresses IP aux personnes non autorisées ou involontaires et limiter l’accès Internet entrant aux adresses IP dans le pare-feu DMZ et les jeux de règles de routeur sont examinés au moins tous les six mois.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -107,7 +107,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12024' frameborder='no' style='width: 100%;'></iframe>
 
@@ -116,5 +116,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

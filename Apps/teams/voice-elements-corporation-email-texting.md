@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le texte par courrier électronique, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: afdd7e636fc38fe5c413d0ec175a6ab3847385da
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: dd581f2d3ad38cd31e18bf0adce01fd1a6b2744a
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414390"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432829"
 ---
 # <a name="email-texting"></a>email-texting
 
@@ -57,10 +57,10 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | délégué | Nécessaire pour l' sso de Teams | Identité des utilisateurs, nécessaire pour l' utilisateur unique | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
->| email | délégué | Nécessaire pour l' sso de Teams | Identité des utilisateurs, nécessaire pour l' utilisateur unique | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
->| openid | délégué | Nécessaire pour l' sso de Teams | Identité des utilisateurs, nécessaire pour l' utilisateur unique | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
->| profil | délégué | Nécessaire pour l' sso de Teams | Identité des utilisateurs, nécessaire pour l' utilisateur unique | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
+>| User.Read | délégué | Nécessaire pour l' sso à partir de Teams | Identité des utilisateurs, nécessaire pour l' utilisateur unique | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
+>| email | délégué | Nécessaire pour l' sso à partir de Teams | Identité des utilisateurs, nécessaire pour l' utilisateur unique | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
+>| openid | délégué | Nécessaire pour l' sso à partir de Teams | Identité des utilisateurs, nécessaire pour l' utilisateur unique | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
+>| profil | délégué | Nécessaire pour l' sso à partir de Teams | Identité des utilisateurs, nécessaire pour l' utilisateur unique | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -78,7 +78,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Les journaux sont utilisés à des fins de support et sont conservés pendant 30 jours.
 
@@ -86,7 +86,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Aucune
+>Aucun
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -103,7 +103,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Voice Elements Corporation sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Voice Elements Corporation sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -111,7 +111,7 @@ Ces informations ont été fournies par Voice Elements Corporation sur la façon
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -124,4 +124,3 @@ Ces informations ont été fournies par Voice Elements Corporation sur la façon
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

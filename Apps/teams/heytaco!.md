@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour HeyTaco!, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e52056b40599ab98a69a6a93e7b2187ddf5f3765
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 72a600a577b773f1e3de08c7ef10b15b8007d52b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412373"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444873"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
@@ -78,7 +78,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >LES EUII et OII ne sont connectés à aucune journalisation. Seuls les types d’erreur et les types d’action.
 
@@ -88,7 +88,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 >HeyTaco! les bases de données et les sauvegardes de données sont hébergées sur Amazon Web Services (AWS). 
 
-Les opérations du centre de données Amazon ont été agréées sous ISO 27001 , SOC 1 et SOC 2/SSAE 16/ISAE 3402 (précédemment SAS 70 Type II ), PCI Niveau 1 , MODÉRÉ FISMA et Sarbanes-Oxley (SOX).
+Les opérations du centre de données Amazon ont été agréées sous ISO 27001 , SOC 1 et SOC 2/SSAE 16/ISAE 3402 (précédemment SAS 70 Type II ), PCI Niveau 1 , FISMA Modéré et Sarbanes-Oxley (SOX).
 
 Lorsque vous envoyez des informations via notre service, vos informations sont protégées et chiffrées au repos et en transit via des connexions sécurisées. Nous implémentons diverses mesures de sécurité pour maintenir la sécurité de vos informations personnelles.
 
@@ -106,7 +106,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36139' frameborder='no' style='width: 100%;'></iframe>
 
@@ -115,5 +115,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

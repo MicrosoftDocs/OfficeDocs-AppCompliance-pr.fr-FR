@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MailClark, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e6ca42781075001c4f78fdf52c09dd6ab51039d6
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: ece7ceb2478b0d374e1ab6241d87199b06999b4e
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412213"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444474"
 ---
 # <a name="mailclark"></a>MailClark
 
@@ -57,10 +57,10 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Mail.ReadWrite | application |  | Lecture : pour abonner des notifications Push pour les e-mails entrants. Écriture : pour créer des brouillons. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.ReadWrite | application |  | Lecture : Pour abonner des notifications Push pour les e-mails entrants. Écriture : pour créer des brouillons. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.Send | application |  | Pour envoyer des brouillons. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | application | Détails du compte, par exemple, adresse de messagerie. | Pour identifier le compte. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| offline_access | application | Jeton d’actualisation | Renouveler l’authentification jusqu’à ce que le compte soit déconnecté. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | application | Jeton d’actualisation | Pour renouveler l’authentification jusqu’à ce que le compte soit déconnecté. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| openid | application |  | Obligatoire pour l’authentification. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| profil | application |  | Pour authentifier l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
@@ -82,7 +82,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >ID de client, ID d’utilisateur (adresse e-mail)
 
@@ -99,7 +99,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35675' frameborder='no' style='width: 100%;'></iframe>
 
@@ -108,5 +108,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

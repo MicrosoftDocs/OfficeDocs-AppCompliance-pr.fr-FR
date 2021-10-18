@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430986"
+ms.locfileid: "60440992"
 ---
 # <a name="in-case-of-crisis"></a>En cas de crise
 
@@ -63,7 +63,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Files.ReadWrite.All | délégué | Nous permettons aux utilisateurs de télécharger des fichiers de gestion des problèmes vers Teams | S/O | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| Sites.ReadWrite.All | délégué | Cette information est requise pour le chargement vers un canal privé | S/O | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| Team.ReadBasic.All | délégué | La liste des équipes est requise pour obtenir la liste des canaux à qui appartient l’utilisateur. Cela nous permet d’afficher la liste des canaux de téléchargement disponibles. | S/O | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| email | délégué | Besoin d’obtenir le courrier électronique de l’utilisateur après l’authentification pour comparer les e-mails de notre base de données. Si l’utilisateur n’a pas de compte dans notre système, nous en créons un. | Nous stockons l’adresse e-mail et créons un compte d’application pour celui-ci. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
+>| email | délégué | Besoin d’obtenir le courrier électronique de l’utilisateur après l’authentification pour comparer les e-mails dans notre base de données. Si l’utilisateur n’a pas de compte dans notre système, nous en créons un. | Nous stockons l’adresse e-mail et créons un compte d’application pour celui-ci. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| offline_access | délégué | Cela nous permet d’actualiser le jeton d’accès graphique | S/O | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| openid | délégué | Autorisation requise pour s’authentifier via openid | S/O | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 

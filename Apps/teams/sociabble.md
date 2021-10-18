@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Sociabble, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: dce254fa069e7a7d5c57de6de184fe65562f9f9d
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 5ee00b29f01a73cfa98efca6589cbca82ebd35ef
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414048"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444774"
 ---
 # <a name="sociabble"></a>Sociabble
 
@@ -75,7 +75,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Sendgrid, twilio, Zoho Desk | Adresse e-mail, Téléphone numéro | SendGrid est notre service de messagerie et utilise des adresses de messagerie. Twilio est utilisé pour les communications cloud et reçoit des numéros de téléphone professionnels, Zoho Corporation est notre outil de gestion du support et reçoit les noms des utilisateurs et les adresses de messagerie. |
+>| Sendgrid, twilio, Zoho Desk | Adresse de messagerie, Téléphone numéro | SendGrid est notre service de messagerie et utilise des adresses de messagerie. Twilio est utilisé pour les communications cloud et reçoit des numéros de téléphone professionnels, Zoho Corporation est notre outil de gestion du support et reçoit les noms des utilisateurs et les adresses de messagerie. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -86,7 +86,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Les détails requis par Sociabble sont les suivants : Titre, Prénom, Nom, Professional adresse e-mail. Les informations supplémentaires qui peuvent être ajoutées par l’utilisateur lors de l’inscription peuvent inclure : Image de profil, Groupe d’utilisateurs, Filiale de l’entreprise / emplacement, Téléphone mobile, A short bio. Les données sont stockées par Sociabble pour la durée du contrat&#8217;client. À la fin du contrat, les données personnelles sont rendues anonymes et les connexions aux comptes de réseau social supprimées. La télémétrie et les journaux sont supprimés après 90 jours.
 
@@ -133,4 +133,3 @@ Ces informations ont été fournies par Sociabble sur la façon dont cette appli
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -1,5 +1,5 @@
 ---
-title: Informations d’application pour le bien-être de la journée scolaire par School Day Oy
+title: Informations sur l’application pour le bien-être de la journée scolaire par School Day Oy
 ms.author: elmalova
 author: elenamalova
 ms.date: 10/12/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le bien-être scolaire, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: babc51460ddb23fd19007f2ebfc8ebab00300a69
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: ff37e7b9bb25090f65793d99c5ff994fc6af6d65
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60408423"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60440733"
 ---
 # <a name="school-day-wellbeing"></a>Bien-être de la journée scolaire
 
@@ -61,7 +61,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Team.ReadBasic.All | délégué | Le nom de l’équipe est utilisé lorsque l’utilisateur enseignant souhaite ajouter des étudiants de ses équipes et groupes. | Le nom de l’équipe n’est pas stocké dans la journée scolaire. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
 >| User.Read | délégué | La messagerie, le nom et le jeton d’ID de l’utilisateur sont utilisés pour la gestion et l’authentification des utilisateurs. | La messagerie, le nom et le jeton de l’utilisateur sont stockés à des fins de gestion et d’authentification des utilisateurs. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
 >| User.ReadBasic.All | délégué | Images de profil utilisateur à utiliser dans les avatars des utilisateurs. | L’image de profil utilisateur n’est pas stockée. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| email | délégué | Le courrier électronique de l’utilisateur est collecté pour l’authentification du compte. | Le courrier électronique de l’utilisateur est stocké à des fins de création de compte et/ou d’authentification. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
+>| email | délégué | Le courrier électronique de l’utilisateur est collecté pour l’authentification de compte. | Le courrier électronique de l’utilisateur est stocké à des fins de création de compte et/ou d’authentification. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
 >| offline_access | délégué | Authentification : actualisation du jeton d’accès. Expérience utilisateur plus fluide. | Jetons d’accès à des fins d’authentification. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
 >| openid | délégué | Identificateur unique de l’utilisateur pour la sign-in OpenID.  | L’identificateur unique de l’utilisateur est stocké à des fins d’authentification. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
 >| profil | délégué | Nom d’utilisateur et ID d’objet préférés à des fins de gestion et d’authentification des utilisateurs. | ID d’objet à des fins de gestion et d’authentification des utilisateurs. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
@@ -89,7 +89,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Compte d’utilisateur, groupes appartenant à l’utilisateur, données de réponse aux questions de bien-être. Une fois le compte supprimé, les données sont supprimées dans les 90 jours.
 
@@ -122,7 +122,7 @@ Ces informations ont été fournies par School Day Oy sur la façon dont cette a
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -135,4 +135,3 @@ Ces informations ont été fournies par School Day Oy sur la façon dont cette a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

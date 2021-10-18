@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LesNals, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9a9e3f1cd6456e1e3c943091325caaff8b934b98
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f0c3c319b43d72bf3c825700cfe3bfe1e93e0d5f
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413115"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434693"
 ---
 # <a name="zignals"></a>Zignals
 
@@ -63,7 +63,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Team.ReadBasic.All | délégué | Nous recevons les équipes jointes de l’utilisateur et les affichons dans la zone Mon travail &quot; &quot; d’équipe. | Aucune information n’est stockée dans la base de données des applications. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| User.ReadBasic.All | délégué | Dans la &quot; zone Mes &quot; documents, nous affichons le nom de l’utilisateur qui a été en collaboration | Aucune information n’est stockée dans la base de données des applications. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| User.ReadWrite | délégué | Les documents récents de l’utilisateur sont affichés dans la zone &quot; Mes documents &quot; . Les applications favorites de l’utilisateur sont stockées en tant qu’extension de schéma dans le Graph MS. Ce niveau d’autorisation est nécessaire pour lire et écrire des données dans le graphique. | Aucune information n’est stockée dans la base de données des applications. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| email | délégué | Obtenir le courrier électronique des utilisateurs (étendue standard Teams MS) | Non stocké dans notre DB | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
+>| email | délégué | Obtenir la messagerie électronique des utilisateurs (étendue standard Teams MS) | Non stocké dans notre DB | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| offline_access | délégué | Étendue d’Teams MS standard | Non stocké dans notre DB | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| openid | délégué | Connectez-vous aux utilisateurs. | Aucune information n’est stockée dans la base de données des applications. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| profil | délégué | Connectez-vous au processus MS Teams | Non stocké dans notre DB | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
@@ -117,7 +117,7 @@ Ces informations ont été fournies par Alight sur la façon dont cette applicat
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -130,4 +130,3 @@ Ces informations ont été fournies par Alight sur la façon dont cette applicat
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

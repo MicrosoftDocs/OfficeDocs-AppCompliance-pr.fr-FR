@@ -1,5 +1,5 @@
 ---
-title: Informations d’application pour myOKR par SOE Technologies
+title: Informations sur les applications pour myOKR par SOE Technologies
 ms.author: elmalova
 author: elenamalova
 ms.date: 10/05/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour myOKR, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c4a3e8872b8042f0114925c0e89de12b98ef5440
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 71c27d24b0f93cafa4f899e845c8d056a55721eb
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411469"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434543"
 ---
 # <a name="myokr"></a>myOKR
 
@@ -76,7 +76,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| L’ID Utilisateur Active Azure Directory est stocké par rapport au courrier électronique de l’utilisateur pour envoyer des messages proactifs par le bot. | Email, Name, Manager Information, Title, User Azure Active Directory ID  | Ces informations sont utilisées dans l’application myOKR pour créer un compte d’utilisateur, permettre au responsable d’afficher les détails de son utilisateur sur platfrom, autoriser l’administrateur à afficher l’analyse globale et les rapports en fonction du service, de l’emplacement et du responsable |
+>| L’ID d’utilisateur Active Azure Directory est stocké sur le courrier électronique de l’utilisateur pour envoyer des messages proactifs par le bot. | Email, Name, Manager Information, Title, User Azure Active Directory ID  | Ces informations sont utilisées dans l’application myOKR pour créer un compte d’utilisateur, permettre au responsable d’afficher les détails de son utilisateur sur platfrom, autoriser l’administrateur à afficher l’analyse globale et les rapports en fonction du service, de l’emplacement et du responsable |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -114,7 +114,7 @@ Ces informations ont été fournies par SOE Technologies sur la façon dont cett
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -127,4 +127,3 @@ Ces informations ont été fournies par SOE Technologies sur la façon dont cett
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

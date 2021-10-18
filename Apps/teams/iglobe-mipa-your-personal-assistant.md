@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: 'Toutes les informations de sécurité et de conformité disponibles pour MIPA : votre Assistant personnel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
-zone_pivot_groups: app-info-data-mcas-identity-certification
-ms.openlocfilehash: 27ce9d2194a42fdc465aa0de695f1c263e43dd90
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: ae67c6289bc3c7603e041f30359e3dbc4d5c7dea
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412974"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444672"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA – Votre assistant personnel
 
@@ -67,7 +67,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| MailboxSettings.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour le courrier marqué, lire et mettre à jour Outlook Tâches à faire entiers | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook faire des entrées, lire, mettre à jour, créer des tâches de panneur | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| User.ReadBasic.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| User.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| email | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de lire l’adresse e-mail principale de vos utilisateurs (pour l' cesso). | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
@@ -106,7 +106,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >iGlobe collecte des données pour fonctionner efficacement et vous offrir les meilleures expériences avec nos produits et services. Pour la gestion des licences : données collectées pour administrer le compte de licence de votre organisation&#8217;, par exemple lorsque vous déployez un module de licence gratuit, créez un abonnement d’essai ou achetez un abonnement. Les informations suivantes sont collectées. 
 - À des fins financières : nom et adresse de la société
@@ -130,7 +130,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no' style='width: 100%;'></iframe>
 
@@ -153,7 +153,7 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Paramètres de sécurité par défaut et autres stratégies courantes telles que Bloquer l’authentification héritée* Exiger l’authentification multifacteur pour les administrateurs* Exiger l’authentification multifacteur pour la gestion Azure* Exiger l’authentification multifacteur pour tous les utilisateurs* |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Non |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -161,43 +161,6 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 | Votre application expose-t-elle des API web ? | Non |
 | Votre application utilise-t-elle les API d’aperçu ? | Non |
 | Votre application utilise-t-elle des API dépréciées ? | Non |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Informations de certification
-
-| **Contrôle** | **Microsoft 365 Résultat de certification** |
-|:------------|:---------------------------------------|
-| [**SÉCURITÉ DES APPLICATIONS**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test de pénétration | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examen de l’évaluation des vulnérabilités (test DAST/SAST/Pénétration) | S/O |
-| [**SÉCURITÉ OPÉRATIONNELLE**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Antivirus | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants : contrôle des applications | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs : classement des risques | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs : correction | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyse des vulnérabilités | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu : pare-feu (ou technologies équivalentes) | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu : pare-feu d’application web (WAF) (facultatif) | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contrôle des changements | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sécurisation du développement/déploiement de logiciels | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des comptes | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Détection et prévention des intrusions (facultatif) | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Journalisation des événements de sécurité | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Révision (journalisation des données) | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertes d’événements de sécurité | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des risques de sécurité des informations | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Réponse aux incidents | S/O |
-| [**GESTION DES DONNÉES RELATIVES À LA CONFIDENTIALITÉ DE &amp; LA SÉCURITÉ**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données en transit | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données au repos | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rétention et élimination des données | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion de l’accès aux données | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R GDPR | S/O |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

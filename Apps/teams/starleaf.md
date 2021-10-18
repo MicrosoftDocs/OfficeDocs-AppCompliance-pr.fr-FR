@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour StarLeaf, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0a339c98c0d76da7269df25a7dfd76f896e4f96f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 99d72c90c840f248ca0492673e324b220e03415e
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60408263"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60440660"
 ---
 # <a name="starleaf"></a>StarLeaf
 
@@ -57,7 +57,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | application | nous stockons l’iCalUId des réunions, l’heure/la date de la réunion, les adresses e-mail des participants et une propriété à valeur unique étendue que nous lisons et écrivons sur la réunion à l’aide de l’interface des propriétés personnalisées Office.js. L’iCalUId est utilisé pour mettre en corrélation la réunion dans un&#8217;calendrier Outlook avec la réunion vidéo sur notre service. L’heure/la date et les participants sont utilisés pour fournir une réunion vidéo au bon moment aux bonnes personnes sur notre service. SvEP est utilisé avec notre addin O365 pour fournir une interface aux utilisateurs pour définir des détails sur la réunion vidéo sur notre service, comme l’enregistrement. | permet de s’abonner aux notifications webhook pour suivre les modifications apportées par les utilisateurs aux événements dans leurs calendriers et de mettre à jour notre service pour le maintenir cohérent. Il est également utilisé pour créer des événements dans son calendrier lorsqu’un utilisateur interagit avec notre application Teams et planifier une réunion sur notre service. | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
->| User.Read | application | nous stockons le jeton d’actualisation oauth pour pouvoir se connecter. Nous stockons l’ID de profil des utilisateurs pour pouvoir comparer les futures tentatives OAuth de cet utilisateur et nous nous assurons que nous ne&#8217;pas stocker leurs détails deux fois.  | autoriser les utilisateurs à se connecter à l’application et permet à notre application d’obtenir l’adresse de messagerie de l'&#8217;pour corréler leur connexion avec un compte sur notre service.  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
+>| User.Read | application | nous stockons le jeton d’actualisation oauth pour pouvoir se connecter. Nous stockons l’ID de profil des utilisateurs pour pouvoir les comparer aux futures tentatives OAuth de cet utilisateur et nous nous assurons que nous ne&#8217;pas stocker leurs détails deux fois.  | autoriser les utilisateurs à se connecter à l’application et permet à notre application d’obtenir l’adresse de messagerie de l'&#8217;pour corréler leur connexion avec un compte sur notre service.  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -66,7 +66,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Si des problèmes de support technique surviennent, les données organisationnelles peuvent être transférées vers SalesForce pour la gestion des cas. Si l’utilisateur utilise la fonctionnalité de numérotation PSTN, l’appel passe par Twilio, Plivo ou Voxcourir |  | S/O |
+>| Si des problèmes de support technique surviennent, les données organisationnelles peuvent être transférées vers SalesForce pour la gestion des cas. Si l’utilisateur utilise la fonctionnalité de numérotation PSTN, l’appel passe par Twilio, Plivo ou Voxivo. |  | S/O |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -101,7 +101,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35997' frameborder='no' style='width: 100%;'></iframe>
 
@@ -110,5 +110,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

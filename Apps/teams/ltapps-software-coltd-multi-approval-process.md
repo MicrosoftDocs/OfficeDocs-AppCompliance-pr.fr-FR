@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60431016"
+ms.locfileid: "60442764"
 ---
 # <a name="multi-approval-process-ltapps"></a>Processus d’approbation multiple LTAPPs
 

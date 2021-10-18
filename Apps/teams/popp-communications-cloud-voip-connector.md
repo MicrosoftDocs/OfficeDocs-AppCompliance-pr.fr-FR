@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le connecteur VOIP cloud POP, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 42930c1020e86aeb6f55fb81929f30285e17dae3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c13790c3baa08d584343e9d504251e3920204b22
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414971"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60438723"
 ---
 # <a name="popp-cloud-voip-connector"></a>CONNECTEUR VOIP cloud POPP
 
@@ -28,7 +28,7 @@ ms.locfileid: "60414971"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par LES COMMUNICATIONS POP à Microsoft :
+Informations fournies par les communications ENTREO à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -57,8 +57,8 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMember.Read.All | délégué | ID utilisateur et noms d’affichage des membres du canal actuel. L’application l’utilise pour présenter à l’utilisateur la liste des membres du canal à appeler. | Le métaswitch ne stocke pas ces données. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
->| Chat.Read | délégué |  Quelles données sont collectées ou utilisées ? Ajoutez une justification pour la collecte ou l’utilisation des données. ID utilisateur et noms d’affichage des membres de la conversation en cours. L’application l’utilise pour présenter à l’utilisateur une liste de membres de conversation à appeler. | Le métaswitch ne stocke pas ces données. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
->| TeamMember.Read.All | délégué | ID d’utilisateur et noms d’affichage des membres de l’équipe actuelle. L’application l’utilise pour présenter à l’utilisateur la liste des membres de l’équipe à appeler. | Le métaswitch ne stocke pas ces données. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
+>| Chat.Read | délégué |  Quelles données sont collectées ou utilisées ? Ajoutez une justification pour la collecte ou l’utilisation des données. ID d’utilisateur et noms d’affichage des membres de la conversation en cours. L’application l’utilise pour présenter à l’utilisateur une liste de membres de conversation à appeler. | Le métaswitch ne stocke pas ces données. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
+>| TeamMember.Read.All | délégué | ID utilisateur et noms d’affichage des membres de l’équipe actuelle. L’application l’utilise pour présenter à l’utilisateur la liste des membres de l’équipe à appeler. | Le métaswitch ne stocke pas ces données. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
 >| User.Read.All | délégué |  Quelles données sont collectées ou utilisées ? Ajoutez une justification pour la collecte ou l’utilisation des données. Numéros de téléphone professionnels et mobiles des utilisateurs. Cette procédure est requise pour que les appels téléphoniques vers ces numéros soient lancés. |   Le métaswitch ne stocke pas ces données | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
 >| openid | délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison Graph API répertoriés en leur nom. | Le métaswitch ne stocke pas ces données. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
 
@@ -76,7 +76,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Réseaux metaswitch et communications POP | L’OII suivant est transféré vers le serveur de bot hébergé MCT : les ID d’équipe d’ID de client Azure AD Canal/ID de conversation Le contenu du message est également transféré, ce qui peut éventuellement inclure OII Les OII suivants peuvent être transférés vers l’API JSON CommPortal : Téléphone nombres d’utilisateurs dans un groupe d’entreprise Les domaines des adresses e-mail adresses IP des utilisateurs | Ajoutez une justification pour la raison pour laquelle vous devez transférer OII L'&#8217;l’objectif principal de l’application est de faciliter les appels téléphoniques. Si un utilisateur tente d’effectuer un appel téléphonique, ces informations doivent être fournies pour se connecter à son compte CommPortal et corréler l’appel à l’utilisateur correct.  L’OII transféré vers le serveur de bot hébergé MCT est intégré à l’API Bot Framework qui est utilisée pour l’intégration à Teams et ne peut pas être évitée. |
+>| Réseaux metaswitch et communications POP | L’OII suivant est transféré vers le serveur de bot hébergé MCT : les ID d’équipe d’ID de client Azure AD canal/ID de conversation Le contenu du message est également transféré, ce qui peut éventuellement inclure OII Les OII suivants peuvent être transférés vers l’API JSON CommPortal : Téléphone nombres d’utilisateurs dans un groupe d’entreprise Les domaines des adresses e-mail adresses IP des utilisateurs | Ajoutez une justification pour la raison pour laquelle vous devez transférer OII L'&#8217;l’objectif principal de l’application est de faciliter les appels téléphoniques. Si un utilisateur tente d’effectuer un appel téléphonique, ces informations doivent être fournies pour se connecter à son compte CommPortal et corréler l’appel à l’utilisateur correct.  L’OII transféré vers le serveur de bot hébergé MCT est intégré à l’API Bot Framework qui est utilisée pour l’intégration à Teams et ne peut pas être évitée. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -89,7 +89,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -136,4 +136,3 @@ Ces informations ont été fournies par LES COMMUNICATIONS POP sur la façon don
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

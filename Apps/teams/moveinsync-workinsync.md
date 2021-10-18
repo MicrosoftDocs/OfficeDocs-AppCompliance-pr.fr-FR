@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour WorkInSync, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 746a7b7c52d8905aaf65d86bc0f15202f486eb82
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 35a505013b59bdd9cc0d9b40986acea1f1c19b53
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413656"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60442716"
 ---
 # <a name="workinsync"></a>WorkInSync
 
@@ -57,16 +57,16 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | délégué | 1. Pour obtenir les détails transitifs des membres du groupe. Ils sont utilisés dans l’onglet Activité de l’équipe lorsqu’ils sont installés dans le contexte du canal. 2. Pour obtenir la liste des détails du profil utilisateur des &amp;  utilisateurs de l’organisation. Ceux-ci sont utilisés lorsque l’onglet Activité d’équipe est installé dans un contexte personnel, comme un retour pour afficher l’aperçu de collègues en cas d’échec de l’API de personnes (utilisateurs non outlook) | Aucune | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| People.Read | délégué | Pour que les personnes les plus liées à l’utilisateur connecté s’affiche dans l’onglet Activité d’équipe sont installées dans un contexte personnel. | Aucune | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| Presence.Read | délégué | Pour obtenir des informations de présence d’une liste d’utilisateurs dans l’onglet Activité d’équipe dans le contexte personnel et de canal | Aucune | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| Presence.Read.All | délégué | Pour obtenir des informations de présence d’une liste d’utilisateurs dans l’onglet Activité d’équipe dans le contexte personnel et de canal | Aucune | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| Directory.Read.All | délégué | 1. Pour obtenir les détails transitifs des membres du groupe. Ils sont utilisés dans l’onglet Activité de l’équipe lorsqu’ils sont installés dans le contexte du canal. 2. Pour obtenir la liste des détails du profil utilisateur des &amp;  utilisateurs de l’organisation. Ceux-ci sont utilisés lorsque l’onglet Activité d’équipe est installé dans un contexte personnel, comme un retour pour afficher l’aperçu de collègues en cas d’échec de l’API de personnes (utilisateurs non outlook) | Aucun | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| People.Read | délégué | Pour que les personnes les plus liées à l’utilisateur connecté s’affiche dans l’onglet Activité d’équipe sont installées dans un contexte personnel. | Aucun | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| Presence.Read | délégué | Pour obtenir des informations de présence d’une liste d’utilisateurs dans l’onglet Activité d’équipe dans le contexte personnel et de canal | Aucun | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| Presence.Read.All | délégué | Pour obtenir des informations de présence d’une liste d’utilisateurs dans l’onglet Activité d’équipe dans le contexte personnel et de canal | Aucun | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| User.Read.All | application | Permet d’obtenir les informations du gestionnaire de rapports d’un utilisateur pour envoyer des notifications de réservation et d’enregistrement/checkout au responsable | Aucune | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| User.ReadBasic.All | délégué | Utilisé pour lire la photo de profil d’un employé | Aucune | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| email | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | Aucune | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| offline_access | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | Aucune | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| openid | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | Aucune | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| profil | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | Aucune | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| User.ReadBasic.All | délégué | Utilisé pour lire la photo de profil d’un employé | Aucun | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| email | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | Aucun | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| offline_access | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | Aucun | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| openid | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | Aucun | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| profil | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | Aucun | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -86,7 +86,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
 
@@ -133,4 +133,3 @@ Ces informations ont été fournies par MoveInSync sur la façon dont cette appl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

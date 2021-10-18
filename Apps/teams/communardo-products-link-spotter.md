@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le lanceur de liens, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 1224640f839a0e7147f75cad57ea8bf701f88477
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 37a82564e1dc0a716d31eeb6bd7f7a8b2de510fb
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411098"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444692"
 ---
 # <a name="link-spotter"></a>Link Spotter
 
@@ -49,7 +49,7 @@ Informations fournies par Commun communicate products à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Commun communicate products sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Les produits Communités sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -58,7 +58,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | délégué | Vérification de l’appartenance au canal de l’utilisateur actuel | none | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
->| ChannelMessage.Read.All | application | URL à l’intérieur des messages, messageid, ID de réponse au message, ID de canal, ID d’auteur... Ces informations sont requises, Graph ne fournit pas un moyen performant de récupérer tous les liens publiés dans les messages sur un canal. Par conséquent, les messages doivent être analysés activement afin de fournir la fonctionnalité de lien dans notre Teams onglet. | URL à l’intérieur des messages, messageid, ID de réponse au message, ID de canal, ID d’auteur | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| ChannelMessage.Read.All | application | URL à l’intérieur des messages, messageid, ID de réponse au message, ID de canal, ID d’auteur... Ces informations sont requises, Graph ne fournit pas un moyen performant de récupérer tous les liens publiés dans des messages sur un canal. Par conséquent, les messages doivent être analysés activement afin de fournir la fonctionnalité de lien dans notre Teams onglet. | URL à l’intérieur des messages, messageid, ID de réponse au message, ID de canal, ID d’auteur | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 >| User.Read | délégué | Activer la connexion et lire le profil utilisateur | none | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 >| User.Read.All | application | Déterminez le nombre d’utilisateurs qui ont une licence Teams licence. Permet de mettre à jour la taille du siège de l’abonnement source de l’application payante pour le client. | none | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 >| User.ReadBasic.All | délégué | affichage de l’image de profil et du nom de l’auteur du message à l’intérieur de l’application | none | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
@@ -115,7 +115,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Les produits Communfacteurs sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Les produits Communités sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -137,4 +137,3 @@ Ces informations ont été fournies par Les produits Communfacteurs sur la faço
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
