@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Jira Cloud, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bb6857d460cb648d45cf63a5bfcac66508ec6f1d
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f7448496a0b9ec9da60ecf1264c3b92f9aaf0b40
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413095"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430906"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -72,7 +72,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Nous ne stockons ni EUII, ni OII. 
 
@@ -80,13 +80,13 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Certains choix s’offrent à vous en ce qui concerne vos informations. Vous trouverez ci-dessous un résumé de ces choix, de leur exercice et de toutes les limitations.
+>Certains choix s’offrent à vous en ce qui concerne vos informations. Vous trouverez ci-dessous un résumé de ces choix, de leur utilisation et de toutes les limitations.
 
-Vos choix : vous avez le droit de demander une copie de vos informations, de nous opposer à notre utilisation de vos informations (y compris à des fins marketing), de demander la suppression ou la restriction de vos informations ou de demander vos informations dans un format électronique structuré. Ci-dessous, nous décrivons les outils et les processus permettant d’effectuer ces demandes. Vous pouvez exercer certains choix en vous connectant aux services et en utilisant les paramètres disponibles dans les Services ou votre compte. Lorsque les services sont administrés pour vous par un administrateur (voir l’avis aux utilisateurs finaux ci-dessous), vous devrez peut-être contacter votre administrateur pour vous aider à répondre à vos demandes en &quot; &quot; &quot; &quot; premier. Pour toutes les autres demandes, vous pouvez nous contacter comme indiqué dans la section Contactez-nous ci-dessous pour demander de l’aide.
+Vos choix : vous avez le droit de demander une copie de vos informations, de nous opposer à notre utilisation de vos informations (y compris à des fins marketing), de demander la suppression ou la restriction de vos informations ou de demander vos informations dans un format électronique structuré. Ci-dessous, nous décrivons les outils et les processus permettant d’effectuer ces demandes. Vous pouvez exercer certains choix en vous connectant aux Services et en utilisant les paramètres disponibles dans les Services ou votre compte. Lorsque les services sont administrés pour vous par un administrateur (voir l’avis aux utilisateurs finaux ci-dessous), vous devrez peut-être contacter votre administrateur pour vous aider à répondre à vos demandes en &quot; &quot; &quot; &quot; premier. Pour toutes les autres demandes, vous pouvez nous contacter comme indiqué dans la section Contactez-nous ci-dessous pour demander de l’aide.
 
 Votre demande et vos choix peuvent être limités dans certains cas : par exemple, si la réalisation de votre demande révélerait des informations sur une autre personne, ou si vous demandez de supprimer des informations que nous ou votre administrateur sommes autorisés par la loi ou si nous avons des intérêts légitimes attrayants à conserver. Lorsque vous nous avez demandé de partager des données avec des tiers, par exemple, en installant des applications tierces, vous devrez contacter directement ces fournisseurs de services tiers pour que vos informations soit supprimées ou restreintes. Si vous avez des problèmes non résolus, vous avez peut-être le droit de vous plaindre auprès d’une autorité de protection des données dans le pays où vous travaillez, où vous travaillez ou où vous pensez que vos droits ont été enfreints.
 
-Accéder à vos informations et les mettre à jour : nos services et la documentation associée vous donnent la possibilité d’accéder à certaines informations sur vous et de les mettre à jour à partir du Service. Par exemple, vous pouvez accéder à vos informations de profil à partir de votre compte et rechercher du contenu contenant des informations sur vous à l’aide de recherches de mots clés dans le service. Vous pouvez mettre à jour vos informations de profil dans vos paramètres de profil et modifier le contenu qui contient des informations sur vous à l’aide des outils d’édition associés à ce contenu.
+Accéder à vos informations et les mettre à jour : nos services et la documentation associée vous donnent la possibilité d’accéder à certaines informations sur vous et de les mettre à jour à partir du Service. Par exemple, vous pouvez accéder à vos informations de profil à partir de votre compte et rechercher du contenu contenant des informations sur vous à l’aide de recherches de mots clés dans le service. Vous pouvez mettre à jour les informations de votre profil dans vos paramètres de profil et modifier le contenu qui contient des informations sur vous à l’aide des outils d’édition associés à ce contenu.
 
 Désactivez votre compte : si vous ne souhaitez plus utiliser nos services, vous ou votre administrateur pourrez peut-être désactiver votre compte Services. Si vous pouvez désactiver votre propre compte, ce paramètre est disponible dans les paramètres de votre compte. Dans le cas contraire, contactez votre administrateur. Si vous êtes un administrateur et que vous ne parvenez pas à désactiver un compte via vos paramètres d’administrateur, contactez le support Atlassian. Sachez que la désactivation de votre compte ne supprime pas vos informations. vos informations restent visibles par les autres utilisateurs du service en fonction de votre participation passée au sein des services. Pour plus d’informations sur la suppression de vos informations, voir ci-dessous.   
 
@@ -111,7 +111,7 @@ Portabilité des données : la portabilité des données est la possibilité d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596' frameborder='no' style='width: 100%;'></iframe>
 
@@ -120,5 +120,4 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

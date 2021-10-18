@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour en cas de crise, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d6cb978afddcd7b87851ac515e0594757d63fb21
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 43c9e7a3611f712d6425e60c292c359cc6d332d1
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412794"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430986"
 ---
 # <a name="in-case-of-crisis"></a>En cas de crise
 
@@ -63,7 +63,7 @@ List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissi
 >| Files.ReadWrite.All | délégué | Nous permettons aux utilisateurs de télécharger des fichiers de gestion des problèmes vers Teams | S/O | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| Sites.ReadWrite.All | délégué | Cette information est requise pour le chargement vers un canal privé | S/O | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| Team.ReadBasic.All | délégué | La liste des équipes est requise pour obtenir la liste des canaux à qui appartient l’utilisateur. Cela nous permet d’afficher la liste des canaux de téléchargement disponibles. | S/O | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| email | délégué | Besoin d’obtenir le courrier électronique de l’utilisateur après l’authentification pour comparer les e-mails dans notre base de données. Si l’utilisateur n’a pas de compte dans notre système, nous en créons un. | Nous stockons l’adresse e-mail et créons un compte d’application pour celui-ci. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
+>| email | délégué | Besoin d’obtenir le courrier électronique de l’utilisateur après l’authentification pour comparer les e-mails de notre base de données. Si l’utilisateur n’a pas de compte dans notre système, nous en créons un. | Nous stockons l’adresse e-mail et créons un compte d’application pour celui-ci. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| offline_access | délégué | Cela nous permet d’actualiser le jeton d’accès graphique | S/O | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| openid | délégué | Autorisation requise pour s’authentifier via openid | S/O | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 
@@ -118,7 +118,7 @@ Ces informations ont été fournies par RockDove Solutions, Inc. sur la façon d
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
@@ -131,4 +131,3 @@ Ces informations ont été fournies par RockDove Solutions, Inc. sur la façon d
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

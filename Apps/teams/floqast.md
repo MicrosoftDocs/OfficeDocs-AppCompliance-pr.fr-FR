@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LeQast, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 100e594e6fc080d08e6194318d835c419df9bed8
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 96189442de11e252633031d6927624dd5b9a8e13
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412393"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430836"
 ---
 # <a name="floqast"></a>FaqQast
 
@@ -64,7 +64,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Une liste complète des sous-processeurs ayant accès à OII est disponible sur demande | Nom de la société, identificateurs d’entreprise, structure des dossiers de la société, URL de la société, informations de compte GL de l’entreprise | ContrôleQast est une solution de gestion étroite qui traite les informations de l’entreprise et les informations de comptabilité dans la fourniture de services. |
+>| Une liste complète des sous-processeurs ayant accès à OII est disponible sur demande | Nom de la société, identificateurs de société, structure des dossiers de l’entreprise, URL de la société, informations de compte GL de l’entreprise | ContrôleQast est une solution de gestion étroite qui traite les informations de l’entreprise et les informations de comptabilité dans la fourniture de services. |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -77,7 +77,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >Il stocke les données comptables générales, les informations de comptabilité et d’autres informations de l’entreprise. Il est&#8217;de stocker les données indéfiniment. Pour s’aligner sur toutes les exigences de rétention des données SEC, LeQast offre aux clients la possibilité de supprimer des données une fois leur abonnement terminé. Il supprimera définitivement toutes les informations des systèmes de production en cours d’exécution dans un délai d’un mois après une demande de suppression.
 
@@ -123,4 +123,3 @@ Ces informations ont été fournies par LeQast sur la façon dont cette applicat
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
