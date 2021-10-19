@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/14/2021
+ms.date: 10/18/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 9f7fbd5d90bbc90b19bc06e147c660006083f9a4
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: 3bc583779b666568bb342425d5f1c13bfdacadcb
+ms.sourcegitcommit: ae9bbad444b4786735dbf63e50073d10b5da3852
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378832"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60476703"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -88,6 +88,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [ClipTraining](./cliptraining.md) | ClipTraining | **✓** |  |
 | [Cloud Effective](./cloud-effective.md) | Cloud Effective | **✓** |  |
 | [Cloud Hub](./atwork-gmbh-cloud-hub.md) | atwork GmbH | **✓** |  |
+| [CloudLabs](./spektra-systems-llc-cloudlabs.md) | Spektra Systems LLC | **✓** |  |
 | [Cloverpop](./cloverpop.md) | Cloverpop | **✓** |  |
 | [COCO](./hexaware-technologies-ltd-coco.md) | Hexaware Technologies Ltd. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [CodeStream](./codestream.md) | CodeStream | **✓** |  |
@@ -164,6 +165,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Group Address Book – NextSet](./nextsetinc-group-address-book-nextset.md) | NextSet, Inc. | **✓** |  |
 | [GroupLotse](./controlex-gmbh-grouplotse.md) | controlex GmbH | **✓** |  |
 | [Gtmhub](./gtmhub.md) | Gtmhub | **✓** |  |
+| [GuideSpark Communicate Cloud](./guidespark-communicate-cloud.md) | GuideSpark | **✓** |  |
 | [Guru](./guru-technologies.md) | Guru Technologies | **✓** |  |
 | [Health Hero](./health-hero.md) | Health Hero | **✓** |  |
 | [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  |

@@ -2,17 +2,17 @@
 title: Informations d’ID d’application Azure pour affadfb6-f17b-428f-97f9-9aae3b6175bc
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/15/2021
+ms.date: 10/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour affadfb6-f17b-428f-97f9-9aae3b6175bc.
-ms.openlocfilehash: f6b5acf6e7cca953d4a7be762cd1adb3d59c37b4
-ms.sourcegitcommit: d131f72197b24f864ccc85aa7ec0c5b3f8d248d7
+ms.openlocfilehash: d36893bc1dba7e48075b2111b56cea55972a4c45
+ms.sourcegitcommit: ae9bbad444b4786735dbf63e50073d10b5da3852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60399913"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60476783"
 ---
 # <a name="azure-app-id-affadfb6-f17b-428f-97f9-9aae3b6175bc"></a>ID d’application Azure : affadfb6-f17b-428f-97f9-9aae3b6175bc
 
