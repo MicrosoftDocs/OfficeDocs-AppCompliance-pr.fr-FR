@@ -25,7 +25,7 @@
     - name: Microsoft Excel Applications
       href: excel/excel-apps.md
       items:
-        - name: Calculateur de coût du service EMEA Canon pour les partenaires B2B
+        - name: Calculateur de coûts de service EMEA Canon pour les partenaires B2B
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics pour NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
@@ -39,7 +39,7 @@
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
         - name: Jira Cloud for Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Diagrammes de diagrammes d’Excel
+        - name: Diagrammes d’image graphique pour Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
         - name: MeaningCloud Text Analytics pour Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
@@ -59,6 +59,8 @@
           href: excel/adobe-inc-report-builder.md
         - name: Sheetgo
           href: excel/sheetgo-europe-sl.md
+        - name: Supermétrie
+          href: excel/supermetrics.md
         - name: Wunder365 pour Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: Données XBRL classées
@@ -97,7 +99,7 @@
           href: outlook/impression-signatures-for-outlook.md
         - name: 'Facture et suivi du temps : facture Zoho'
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: IPlanner Office 365 planner pour Outlook
+        - name: IPlanner Office 365 Planner pour Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
@@ -105,7 +107,7 @@
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: Échéances de LawToolBox et gestion des Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: 'LawToolBox a des questions Outlook, Teams et SharePoint'
+        - name: 'LawToolBox est important pour Outlook, Teams et SharePoint'
           href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
         - name: MIPA - Votre propre Assistant personnel
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
@@ -167,7 +169,7 @@
       items:
         - name: officeatwork | S’il s’Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Microsoft SharePoint Apps
+    - name: Applications microsoft SharePoint
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Adobe Sign for SharePoint
@@ -641,6 +643,8 @@
           href: teams/soe-technologies-myokr.md
         - name: MyWorkDrive
           href: teams/myworkdrive.md
+        - name: Ted
+          href: teams/nailted-app-sl.md
         - name: Navo
           href: teams/regroove-solutions-navo.md
         - name: NE
@@ -775,8 +779,8 @@
           href: teams/salestim.md
         - name: ScanBuddy.ai
           href: teams/moblizeit-llc-scanbuddyai.md
-        - name: Bien-être de la journée scolaire
-          href: teams/school-day-helsinki-oy-wellbeing.md
+        - name: School Day
+          href: teams/school-day-helsinki-oy.md
         - name: ScrumGenius
           href: teams/scrumgenius.md
         - name: SecretaryBot
@@ -868,7 +872,7 @@
         - name: SurveyMonkey
           href: teams/surveymonkey.md
         - name: SurveySparrow
-          href: teams/admin@surveysparrowcom-surveysparrow.md
+          href: teams/surveysparrow-inc.md
         - name: SwiftAssess
           href: teams/gamalearn-swiftassess.md
         - name: Sympli
@@ -955,6 +959,8 @@
           href: teams/visualsp.md
         - name: Vizito
           href: teams/vizito-bv.md
+        - name: Vocean
+          href: teams/vocean-ab.md
         - name: Vonage Business Communications
           href: teams/vonage-business-communications.md
         - name: Vtiger CRM
@@ -1046,13 +1052,13 @@
           href: word/legalmind-word-addin.md
         - name: Assistant Contrat Loio
           href: word/loio-inc-contract-assistant.md
-        - name: Diagrammes graphiques pour Word
+        - name: Diagrammes de graphiques pour Word
           href: word/lucid-software-inc-lucidchart-diagrams-for-word.md
         - name: Mendeley Cit
           href: word/elsevier-limited-mendeley-cite.md
         - name: Office2SharePoint pour Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: officeatwork | S’il s’il s’Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Concepteur pour Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
@@ -1060,7 +1066,7 @@
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: officeatwork | Uploader for Office
+        - name: officeatwork | Téléchargeur pour Office
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork | Verifier for Office
           href: word/officeatwork-officeatworkverifier-for-office.md
@@ -1107,7 +1113,7 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
-        - name: S’il s’il s’est choisi
+        - name: S chooser des diapositives
           href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser
           href: saas/officeatwork-template-chooser.md
@@ -1270,6 +1276,8 @@
           href: azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md
         - name: 53628f6a-ac66-4fde-8945-d639c8da4c0d
           href: azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md
+        - name: 539ffd4e-15ba-4d18-b136-0d73b67d05f0
+          href: azure/539ffd4e-15ba-4d18-b136-0d73b67d05f0.md
         - name: 53d19d16-137b-4365-a095-685d5044d28c
           href: azure/53d19d16-137b-4365-a095-685d5044d28c.md
         - name: 56412014-bafe-474e-95b4-ebfea106a167
@@ -1318,8 +1326,6 @@
           href: azure/6fd1421e-89e8-4a8b-bd01-9397656a50d5.md
         - name: 7040f194-bf08-400e-acb1-69df7939416a
           href: azure/7040f194-bf08-400e-acb1-69df7939416a.md
-        - name: 72d5ac5d-a427-408b-907d-72da3f33ddd1
-          href: azure/72d5ac5d-a427-408b-907d-72da3f33ddd1.md
         - name: 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4
           href: azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md
         - name: 74ef25ab-3685-446c-aa43-4e9cc251ed62

@@ -2,17 +2,17 @@
 title: 'Microsoft Excel Sécurité et conformité des applications : toutes les applications'
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/15/2021
+ms.date: 10/22/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les Microsoft Excel applications.
 localization_priority: Normal
-ms.openlocfilehash: 6a87caac8909502073c6aada4ca2f28329d99f46
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d2d704148f07ac13168fe795e8d3842c7403c983
+ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414278"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60544754"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel Sécurité et conformité des applications
 
@@ -20,7 +20,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Calculateur de coût du service EMEA Canon pour les partenaires B2B](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
+| [Calculateur de coûts de service EMEA Canon pour les partenaires B2B](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
 | [CloudExtend Analytics pour NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | Celigo CloudExtend | **✓** |  |
 | [Excel-to-Word Document Automation](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [harmon.ie pour Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
@@ -37,5 +37,6 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Solveurs QuickCells](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |
 | [Report Builder](./adobe-inc-report-builder.md) | Adobe Inc. | **✓** |  |
 | [Sheetgo](./sheetgo-europe-sl.md) | SHEETGO EUROPE SL | **✓** |  |
+| [Supermétrie](./supermetrics.md) | Supermétrie | **✓** |  |
 | [Wunder365 pour Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |
 | [Données XBRL classées](./xbrl-us-filed-data.md) | XBRL US | **✓** |  |
