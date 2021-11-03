@@ -6,12 +6,12 @@ description: Microsoft 365 Détails de certification
 keywords: attestation d’application microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: c4b7798840630e2d4813536db29956f732adf18c
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: e41a9c0d09fec10b0034e7da5e8a335cbc4473fc
+ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60544684"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60683577"
 ---
 # <a name="what-is-microsoft-365-certification"></a>Qu’est-ce Microsoft 365 certification ?
 
@@ -33,9 +33,10 @@ La phase d’attestation se concentre sur un questionnaire complet détaillant l
 
 ## <a name="certification"></a>Certification
 
-La phase de certification est centrée sur un audit de sécurité approfondi de l’application et de son infrastructure de prise en charge. L’application sera examinée par rapport à une série de contrôles de sécurité dérivés des principales infrastructure standard du secteur, telles que SOC 2, PCI DSS et ISO 27001. Si vous avez déjà reçu une certification SOC 2, PCI DSS ou ISO 27001 pour votre application, nous vous encourageons à partager ces rapports. Ils ne sont pas obligatoires, mais peuvent être utilisés pour satiser un sous-ensemble des contrôles sans preuve supplémentaire. Si vous ne les avez pas, nous vous de demander de nous fournir des preuves claires (documents, captures d’écran, etc.) qui montrent que vous répondez à tous les contrôles requis. Les applications qui ont obtenu une certification ont démontré que des pratiques de sécurité et de conformité fortes sont en place pour protéger les données client. 
+La phase de certification est centrée sur un audit de sécurité approfondi de l’application et de son infrastructure de prise en charge. L’application sera examinée par rapport à une série de contrôles de sécurité dérivés des principales infrastructure standard du secteur, telles que SOC 2, PCI DSS et ISO 27001. Si vous avez déjà reçu une certification SOC 2, PCI DSS ou ISO 27001 pour votre application, nous vous encourageons à partager ces rapports. Ils ne sont pas obligatoires, mais peuvent être utilisés pour satisfaire un sous-ensemble des contrôles sans preuve supplémentaire. Si vous n’avez pas de certifications externes, nous exigeons que vous nous fournissiez des preuves claires (documents, captures d’écran, etc.) qui montrent que vous répondez à tous les contrôles requis. Les applications qui ont obtenu une certification ont démontré que des pratiques de sécurité et de conformité fortes sont en place pour protéger les données client. 
 
-> ! [IMPORTANT] Microsoft couvre actuellement l’intégralité du coût de l’audit de certification à condition que l’isv puisse soumettre toutes les preuves requises.
+> [!IMPORTANT]
+> Microsoft couvre actuellement l’intégralité du coût de l’audit de certification à condition que l’isv puisse soumettre toutes les preuves requises.
 
 La certification des applications est obtenue par le biais de la révision et de l’approbation d’un analyste qualifié d’une évaluation complète qui se centre sur les cadres, processus et procédures de sécurité et de conformité d’une application. 
 
@@ -64,7 +65,7 @@ La participation et la réalisation de Microsoft 365 certification peuvent offri
 
 **Avantages pour les développeurs d’applications**
 -   **ÉVALUATION GRATUITE** - Il n’existe aucun coût monétaire pour les isv pour obtenir une certification Microsoft 365 de sécurité
--   **Exposition** accrue : badge de certification Microsoft 365 imprimé sur la liste de vos applications dans Marketplaces (AppSource, Teams, Office), les portails d’administration (Teams, M365) et microsoft docs
+-    Exposition accrue : badge de certification Microsoft 365 imprimé sur la liste de vos applications dans Marketplaces (AppSource, Teams, Office), les portails d’administration (Teams, M365) et Microsoft Docs
 -   **Économies de temps** : réduction du temps passé à atténuer les problèmes de sécurité des clients pendant le processus RFP 
 - **Supports marketing -** Kit marketing gratuit pour promouvoir votre statut d’application Microsoft 365 certifiée
 - **Campagnes de** promotion : l’opportunité d’être mise en évidence lors d’événements Microsft tels que Build et Ignite
@@ -76,9 +77,9 @@ La participation et la réalisation de Microsoft 365 certification peuvent offri
 
 
 ### <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>Utilisation du badge Microsoft 365 et des supports marketing associés
-Le logo Microsoft 365 certification des données montre qu’une application a été examinée pour assurer sa conformité aux contrôles mis en place par Microsoft qui évaluent de manière adv e les pratiques de sécurité et de confidentialité des données. Vous pouvez utiliser le logo Microsoft 365 certification à l’aide du consentement écrit express de Microsoft à la fin de la certification Microsoft 365 certification. Si votre certification est révoquée ou si le processus de certification n’est pas démarré dans un délai d’un an à partir du jour où la certification a été accordée, vous devez cesser d’utiliser tous les documents marketing liés à la certification Microsoft 365. 
+Le logo Microsoft 365 certification des données montre qu’une application a été examinée pour assurer la conformité aux contrôles mis en place par Microsoft qui évaluent de manière adv e les pratiques de sécurité et de confidentialité des données. Vous pouvez utiliser le logo Microsoft 365 certification à l’aide du consentement écrit express de Microsoft à la fin de la certification Microsoft 365 certification. Si votre certification est révoquée ou si le processus de certification n’est pas démarré dans un délai d’un an à partir du jour où la certification a été accordée, vous devez cesser d’utiliser tous les documents marketing liés à la certification Microsoft 365. 
 
-Ce logo peut être utilisé sur des sites web, des communiqués de presse et d’autres forums où il se rapporte spécifiquement à l’application qui a terminé le processus Microsoft 365 certification. Le logo doit être présenté dans une taille et un emplacement raisonnables dans le contenu numérique. 
+Ce logo peut être utilisé sur des sites web, des communiqués de presse et d’autres forums où il se rapporte spécifiquement à l’application qui a terminé le processus Microsoft 365 certification. Le logo doit être présenté dans une taille et un emplacement raisonnables au sein du contenu numérique. 
 
 L’instruction suivante doit accompagner le logo : « Les applications avec le logo Microsoft 365 certification indiquent que cette application a obtenu Microsoft 365 certification. Outre la sécurité des applications, ce programme passe en revue les pratiques et procédures employées par l’éditeur d’application. Bien que les données client sont sous le contrôle de l’éditeur de l’application, vous pouvez être certain que Microsoft a validé que l’application les gérera de manière sécurisée. »
 
