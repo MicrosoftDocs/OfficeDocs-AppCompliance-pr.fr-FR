@@ -12,8 +12,8 @@ ms.openlocfilehash: a986a6f8fbbf98f408dcbf3e90b6bf219951889f
 ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60683732"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60719726"
 ---
 # <a name="netskope-for-microsoft-teams"></a>Netkope pour Microsoft Teams
 
@@ -120,7 +120,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
-| Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Oui |
+| Le programme FedRAMP (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Oui |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Non |
@@ -135,7 +135,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Oui |
+| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations en matière de confidentialité ou de protection des données (telles que le CCPA) ? | Oui |
 | L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
 | URL de la politique de confidentialité | https://www.netskope.com/privacy-policy |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? | Oui |

@@ -11,8 +11,8 @@ ms.openlocfilehash: b64603bfd161dc2cb6a4cf624731c4181f7a5758
 ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60683507"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60719356"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Sécurité et conformité des ID d’application Azure
 
