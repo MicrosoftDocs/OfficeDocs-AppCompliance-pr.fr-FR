@@ -6,12 +6,12 @@ description: Microsoft 365 Vue granulaire du Guide de soumission de certificatio
 keywords: Équipes de certification des applications Microsoft 365 conformité de la sécurité m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: b0a207bd8fbe1834e03c08eecb82d3552c75a182
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0d422251404275da18e08af120a15877616e4db4
+ms.sourcegitcommit: dfd937182e08ed377a5ad80f0db929ab7d7c7a7b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282634"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60789975"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guide de soumission de certification
 
@@ -54,7 +54,7 @@ Ce document s’adresse aux éditeurs de logiciels indépendants pour fournir de
 >* Office Les add-ins (Word, Excel, PowerPoint, Outlook, Project, OneNote)
 >* WebApps
 
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Configuration requise
 
 ### <a name="publisher-attestation"></a>Attestation de l’éditeur
 
@@ -103,12 +103,12 @@ Lorsque IaaS ou PaaS est déployé, vous devez fournir des preuves de l’enviro
 
 Les demandes de preuves à la prise en charge de l’évaluation de certification doivent être basées sur un échantillon des composants système dans l’étendue en considération des différents systèmes d’exploitation, de la fonction principale de l’appareil et des différents types d’appareils. Un exemple approprié est sélectionné au début du processus de certification. Le tableau suivant doit être utilisé comme guide sur la taille de l’échantillon :
 
-|Taille de la population              | Échantillon                  |
+|Taille de la population              | Exemple                  |
 |---------------------------- |-------------------------|
 |<5|1|
 |>5 & <10|2|
 |>9 & <25|3|
-|>24|4 |
+|>24|4|
 
 > [!NOTE]
 >Si des incohérences sont identifiées entre les appareils inclus dans l’exemple initial, la taille de l’échantillon peut être augmentée au cours de l’évaluation. 
@@ -303,7 +303,7 @@ Ce domaine mesure l’alignement des processus d’infrastructure et de déploie
 
 |**Famille de contrôles**| **Controls**|
 | ------------------------|------------------------------ |
-| **Protection contre les programmes malveillants**|Fournir une documentation de stratégie qui régit les pratiques et procédures anti-virus.|
+| **Protection contre les programmes malveillants : antivirus**|Fournir une documentation de stratégie qui régit les pratiques et procédures anti-virus.|
 ||Fournissez des preuves montrant que des logiciels antivirus sont en cours d’exécution sur tous les composants système échantillonés.|
 ||Fournir des preuves montrant que les signatures antivirus sont à jour dans tous les environnements (dans un délai d’un jour).|
 ||Fournir des preuves montrant que l’antivirus est configuré pour effectuer une analyse à l’accès ou une analyse périodique sur tous les composants système échantillonné. Remarque : si l’analyse sur accès n’est pas activée, un minimum d’analyse et d’alerte quotidiennes doit être activé.|
@@ -346,6 +346,12 @@ Ce domaine mesure l’alignement des processus d’infrastructure et de déploie
 ||Fournir une preuve montrant que la création, la modification et la suppression de compte passe par un processus d’approbation établi.|
 ||Fournissez des preuves montrant qu’un processus est en place pour désactiver ou supprimer des comptes qui ne sont pas utilisés dans les 3 mois.|
 ||Fournir des preuves montrant qu’une stratégie de mot de passe forte ou d’autres atténuations appropriées pour protéger les informations d’identification de l’utilisateur sont en place.  Les recommandations suivantes doivent être utilisées comme consigne minimale : longueur minimale du mot de passe de 8 caractères, seuil de verrouillage du compte de 10 tentatives maximum, historique des mots de passe d’un minimum de 5 mots de passe, application de l’utilisation d’un mot de passe fort|
+||Fournir des preuves montrant que des comptes d’utilisateur uniques sont émis à tous les utilisateurs.|
+||Fournissez des preuves montrant que les principes des privilèges minimum sont respectés au sein de l’environnement.|
+||Fournissez des preuves montrant qu’un processus est en place pour sécuriser ou sécuriser les comptes de service et que le processus est suivi.|
+||Fournissez des preuves montrant que l’mf est configurée pour toutes les connexions d’accès à distance et toutes les interfaces d’administration non console.|
+||Fournissez des preuves montrant que le chiffrement fort est configuré pour toutes les connexions d’accès à distance et toutes les interfaces d’administration non console, y compris l’accès aux référentiels de code et aux interfaces de gestion cloud.|
+||Fournissez des preuves montrant que l’ment MFA est utilisé pour protéger le portail d’administration que vous utilisez pour gérer et gérer tous les enregistrements DNS (Public Domain Name Service).|
 |**Détection et prévention des intrusions (FACULTATIF) :** Un crédit supplémentaire sera crédité pour satisfaire les contrôles suivants|Fournissez des preuves montrant que les systèmes de détection et de prévention des intrusions (IDPS) sont déployés sur le périmètre des environnements dans l’étendue.|
 ||Fournissez des preuves montrant que les signatures IDPS sont conservées à jour (dans les 24 heures).|
 ||Fournissez des preuves montrant que IDPS est configuré pour prendre en charge l’inspection TLS de tout le trafic web entrant.|
@@ -362,7 +368,8 @@ Ce domaine mesure l’alignement des processus d’infrastructure et de déploie
 ||Fournissez des preuves crédibles que les journaux sont examinés quotidiennement par un outil humain ou automatisé pour identifier les événements de sécurité potentiels.|
 ||Fournir des preuves crédibles que des événements de sécurité potentiels et des anomalies sont examinés et corrigés.|
 |**Alerte** | Fournir une documentation de stratégie qui régit les procédures et pratiques d’alerte des événements de sécurité.|
-|| Fournir des preuves crédibles que des alertes sont déclenchées pour un tri immédiat pour les types d’événements de sécurité suivants : création ou modification de compte privilégié, événements de virus ou de programmes malveillants, falsification du journal des événements, événements IDPS ou WAF
+|| Fournir des preuves crédibles que des alertes sont déclenchées pour un tri immédiat pour les types d’événements de sécurité suivants : création ou modification de compte privilégié, événements de virus ou de programmes malveillants, falsification du journal des événements, événements IDPS ou WAF|
+||Fournissez des preuves montrant que le personnel est toujours disponible, toute la journée, tous les jours, pour répondre aux alertes de sécurité.|
 |**Gestion des risques**|Fournir des preuves montrant qu’un processus formel de gestion des risques de sécurité des informations est établi.|
 ||Fournissez des preuves crédibles qu’une évaluation formelle des risques se produit au moins une fois par an, au minimum.|
 ||Fournir des preuves crédibles que l’évaluation des risques de sécurité des informations inclut des menaces, des vulnérabilités ou l’équivalent.|
@@ -997,10 +1004,6 @@ Microsoft reconnaît que vous allez déployer des applications et stocker du cod
 
 
 ## <a name="appendix-g"></a>Annexe G
-
-### <a name="microsoft-365-certification-process-workflow"></a>Microsoft 365 Flux de travail de processus de certification
-
-![Flux de travail](ProcessFlow.jpg)
 
 ## <a name="learn-more"></a>En savoir plus
 
