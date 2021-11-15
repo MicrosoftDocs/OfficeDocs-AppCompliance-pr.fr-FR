@@ -35,13 +35,13 @@
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
         - name: Jira Cloud pour Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Diagrammes d’image graphique pour Excel
+        - name: Diagrammes de diagrammes d’Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
         - name: MeaningCloud Text Analytics pour Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint pour Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworkimage-chooser-for-office.md
@@ -64,13 +64,13 @@
     - name: Microsoft OneNote apps
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 pour Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Applications microsoft Outlook
+    - name: Applications Microsoft Outlook
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign Add-In for Outlook
@@ -103,8 +103,8 @@
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: Échéances de LawToolBox et gestion des Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: 'LawToolBox a des questions Outlook, Teams et SharePoint'
-          href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
+        - name: Échéances de LawToolBox et gestion des Outlook
+          href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
         - name: MIPA - Votre propre Assistant personnel
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
         - name: ngDesk
@@ -113,7 +113,7 @@
           href: outlook/iglobe-office2sharepoint-for-outlook.md
         - name: officeatwork | S’il s’Outlook
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
-        - name: OnePlaceMail for Outlook
+        - name: OnePlaceMail pour Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
         - name: Engagement commercial de sensibilisation pour Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
@@ -137,7 +137,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM pour la messagerie
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Applications microsoft PowerPoint
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign pour Word et PowerPoint
@@ -150,7 +150,7 @@
           href: powerpoint/lucid-software-inc-lucidchart-diagrams-for-powerpoint.md
         - name: Office2SharePoint pour Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’il s’Office
+        - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
@@ -567,6 +567,8 @@
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
+        - name: KUDO Multilingual Meetings
+          href: teams/kudo-inc-multilingual-meetings.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
         - name: Kunjani
@@ -1328,6 +1330,8 @@
           href: azure/5022e09d-d2f9-499f-8925-554c324ad23a.md
         - name: 50356ee3-b48b-424b-a7a7-35e53c2ce736
           href: azure/50356ee3-b48b-424b-a7a7-35e53c2ce736.md
+        - name: 5123b34d-663d-4ae9-a3c9-d2298be203f2
+          href: azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md
         - name: 512b84d2-5840-45d6-8d01-5f073836d039
           href: azure/512b84d2-5840-45d6-8d01-5f073836d039.md
         - name: 51e2b67d-9854-446a-8da1-cdd89ef0b987

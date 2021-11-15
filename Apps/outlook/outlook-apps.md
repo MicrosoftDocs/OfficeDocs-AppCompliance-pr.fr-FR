@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Outlook - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/26/2021
+ms.date: 11/13/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 8eef852ed64d2058bba7717c7747385213f62d99
-ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
+ms.openlocfilehash: 7cf7f2a9030afd27b4055bfe1432dedea06920fe
+ms.sourcegitcommit: e2058327f6190424ecc5d6d8b12afe60bd7dc1f3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60682324"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60966430"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Outlook
 
@@ -35,7 +35,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Jira Cloud for Outlook (Official)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
 | [LawToolBox Deadlines &amp; Matter Management - Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
-| [Affaires LawToolBox pour Outlook, Teams &amp; SharePoint](./lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md) | LawToolBox.com Inc. | **✓** |  |
+| [Échéances de LawToolBox et gestion des Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
 | [MIPA - Votre propre Assistant personnel](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | Toutes les solutions bleues | **✓** |  |
 | [Office2SharePoint pour Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
