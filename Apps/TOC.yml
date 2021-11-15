@@ -21,7 +21,7 @@
     - name: Microsoft Excel apps
       href: excel/excel-apps.md
       items:
-        - name: Calculateur de coûts de service EMEA Canon pour les partenaires B2B
+        - name: Calculateur de coût du service EMEA Canon pour les partenaires B2B
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics pour NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
@@ -33,15 +33,15 @@
           href: excel/impression-signatures.md
         - name: Outil de rapports iPlanner pour Office 365 planner
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
-        - name: Jira Cloud for Excel
+        - name: Jira Cloud pour Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
-        - name: Diagrammes de diagrammes d’Excel
+        - name: Diagrammes d’image graphique pour Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
         - name: MeaningCloud Text Analytics pour Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint pour Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: officeatwork | S’il s’il s’Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: excel/officeatwork-officeatworkimage-chooser-for-office.md
@@ -64,13 +64,13 @@
     - name: Microsoft OneNote apps
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork | S’il s’Office
+        - name: officeatwork | S’il s’il s’Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 pour Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Applications Microsoft Outlook
+    - name: Applications microsoft Outlook
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign Add-In for Outlook
@@ -95,7 +95,7 @@
           href: outlook/impression-signatures-for-outlook.md
         - name: 'Facture et suivi du temps : facture Zoho'
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: IPlanner Office 365 Planner pour Outlook
+        - name: IPlanner Office 365 planner pour Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
@@ -103,7 +103,7 @@
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: Échéances de LawToolBox et gestion des Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: 'LawToolBox est important pour Outlook, Teams et SharePoint'
+        - name: 'LawToolBox a des questions Outlook, Teams et SharePoint'
           href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
         - name: MIPA - Votre propre Assistant personnel
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
@@ -137,7 +137,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM pour la messagerie
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft PowerPoint Apps
+    - name: Applications microsoft PowerPoint
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign pour Word et PowerPoint
@@ -150,7 +150,7 @@
           href: powerpoint/lucid-software-inc-lucidchart-diagrams-for-powerpoint.md
         - name: Office2SharePoint pour Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | S’il s’Office
+        - name: officeatwork | S’il s’il s’Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
@@ -215,7 +215,7 @@
           href: teams/agile-is-task-board.md
         - name: Bureau de service Alvao
           href: teams/alvao-sro-service-desk.md
-        - name: Orange
+        - name: Ambre
           href: teams/infeedo-amber.md
         - name: Ambition
           href: teams/ambition.md
@@ -351,6 +351,8 @@
           href: teams/gifted-to-you-limited-collection-pot.md
         - name: Commander
           href: teams/nimbella-commander.md
+        - name: Navigateur d’entreprise
+          href: teams/konica-minolta-it-solutions-company-navigator.md
         - name: Complish
           href: teams/cauzey-pty-ltd-complish.md
         - name: Conférences E/S
@@ -457,6 +459,8 @@
           href: teams/fifty.md
         - name: File Fabric
           href: teams/storage-made-easy-file-fabric.md
+        - name: Fireflies AI
+          href: teams/firefliesai-fireflies-ai.md
         - name: FireWatch
           href: teams/infographics-uk-ltd-firewatch.md
         - name: FaqQast
@@ -681,6 +685,8 @@
           href: teams/nulia-works.md
         - name: OfficeAmp
           href: teams/anaek-inc-officeamp.md
+        - name: OfficeRnD Hybrid Work
+          href: teams/officernd-hybrid-work.md
         - name: OfficeSpace
           href: teams/officespace-software.md
         - name: Officevibe
@@ -835,6 +841,8 @@
           href: teams/pipe9com-skills-by-pipe9.md
         - name: Skillsoft Percipio
           href: teams/skillsoft-percipio.md
+        - name: Skoach
+          href: teams/cultify-lda-skoach.md
         - name: SkyPoint Cloud
           href: teams/skypoint-cloud-inc.md
         - name: Slido
@@ -1096,7 +1104,7 @@
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork | S’il s’Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
-        - name: officeatwork | Téléchargeur pour Office
+        - name: officeatwork | Uploader for Office
           href: word/officeatwork-officeatworkuploader-for-office.md
         - name: officeatwork | Verifier for Office
           href: word/officeatwork-officeatworkverifier-for-office.md
@@ -1119,7 +1127,7 @@
     - name: Applications SaaS
       href: saas/saas-apps.md
       items:
-        - name: Centre de contacts Pour Teams
+        - name: Centre de contacts pour les Teams
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
         - name: Classroom.cloud
           href: saas/netsupport-ltd-classroomcloud.md
@@ -1155,7 +1163,7 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
-        - name: S chooser des diapositives
+        - name: S’il s’il s’est choisi
           href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser
           href: saas/officeatwork-template-chooser.md

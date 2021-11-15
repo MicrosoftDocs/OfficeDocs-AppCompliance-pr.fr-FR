@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: aeca6ab37c806c4b9966bc1be5f4fa229120a8c1
-ms.sourcegitcommit: bbdf2ba4c6b7682eb6645aa40671738f64105876
+ms.openlocfilehash: b2cdbdd7cae052ed8fedaa10794b5352c2f2769d
+ms.sourcegitcommit: 3a1a78be9669a7b77528c1545698983c36bbec3a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60930957"
+ms.lasthandoff: 11/13/2021
+ms.locfileid: "60953946"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -97,6 +97,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [CoffeePals](./carnduff-co-coffeepals.md) | Carnduff Co | **✓** |  |
 | [Collection Pot](./gifted-to-you-limited-collection-pot.md) | Gifted to You Limited | **✓** |  |
 | [Commander](./nimbella-commander.md) | Nimbella | **✓** |  |
+| [Navigateur d’entreprise](./konica-minolta-it-solutions-company-navigator.md) | Solutions informatiques Konica Minolta | **✓** |  |
 | [Complish](./cauzey-pty-ltd-complish.md) | Cauzey Pty Ltd | **✓** |  |
 | [Conférences E/S](./conferences-io.md) | Conférences E/S | **✓** |  |
 | [Confluence Cloud](./atlassian-confluence-cloud.md) | Atlassian | **✓** |  |
@@ -150,6 +151,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Fellow](./fellow-insights-inc.md) | Fellow Insights Inc | **✓** |  |
 | [Fifty](./fifty.md) | Fifty | **✓** |  |
 | [File Fabric](./storage-made-easy-file-fabric.md) | Storage Made Easy | **✓** |  |
+| [Fireflies AI](./firefliesai-fireflies-ai.md) | Fireflies.ai | **✓** |  |
 | [FireWatch](./infographics-uk-ltd-firewatch.md) | Infographies UK Ltd. | **✓** |  |
 | [FaqQast](./floqast.md) | FaqQast | **✓** |  |
 | [ForceManager CRM](./tritium-software-sl-forcemanager-crm.md) | Tritium Software SL | **✓** |  |
@@ -262,6 +264,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Nugget](./panviva-nugget.md) | Panviva | **✓** |  |
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  |
 | [OfficeAmp](./anaek-inc-officeamp.md) | Anaek Inc | **✓** |  |
+| [OfficeRnD Hybrid Work](./officernd-hybrid-work.md) | OfficeRnd | **✓** |  |
 | [OfficeSpace](./officespace-software.md) | Logiciel OfficeSpace | **✓** |  |
 | [Officevibe](./officevibe.md) | Officevibe | **✓** |  |
 | [OLIVE VLE](./olivegroup-olive-vle.md) | OliveGroup | **✓** |  |
@@ -339,6 +342,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [SkilledHuman](./saltflat-limited-skilledhuman.md) | SaltFlat limité | **✓** |  |
 | [Skills par Pipe9](./pipe9com-skills-by-pipe9.md) | Pipe9.com | **✓** |  |
 | [Skillsoft Percipio](./skillsoft-percipio.md) | Skillsoft | **✓** |  |
+| [Skoach](./cultify-lda-skoach.md) | Cultify, Lda | **✓** |  |
 | [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  |
 | [Slido](./slido.md) | Slido | **✓** |  |
 | [Smart Connect pour Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  |
