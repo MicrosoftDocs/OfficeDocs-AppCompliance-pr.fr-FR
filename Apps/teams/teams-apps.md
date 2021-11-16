@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/12/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: b2cdbdd7cae052ed8fedaa10794b5352c2f2769d
-ms.sourcegitcommit: 3a1a78be9669a7b77528c1545698983c36bbec3a
+ms.openlocfilehash: 8abcec0c92fdadf15e3328fafb2d857e7b1e59dd
+ms.sourcegitcommit: e2058327f6190424ecc5d6d8b12afe60bd7dc1f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2021
-ms.locfileid: "60953946"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60964990"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -205,6 +205,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Pérpa](./klippas-technologies-inc-kippa.md) | KLIPPAS Technologies inc. | **✓** |  |
 | [Klaxoon](./klaxoon.md) | Klaxoon | **✓** |  |
 | [Koan](./koan-inc.md) | Koan, Inc. | **✓** |  |
+| [Réunions multilingues KUDO](./kudo-inc-multilingual-meetings.md) | KUDO, Inc. | **✓** |  |
 | [Kudozza](./survivef5-gmbh-kudozza.md) | surviveF5 GmbH | **✓** |  |
 | [Kunjani](./faceboard-pty-ltd-kunjani.md) | FACEBOARD (PTY) LTD | **✓** |  |
 | [LawToolBox](./lawtoolboxcominc-lawtoolbox.md) | LawToolBox.com,Inc. | **✓** |  |
