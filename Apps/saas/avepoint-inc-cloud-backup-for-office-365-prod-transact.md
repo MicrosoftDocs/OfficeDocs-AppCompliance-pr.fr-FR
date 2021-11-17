@@ -5,20 +5,19 @@ author: elenamalova
 ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour la sauvegarde cloud pour Office 365 - Prod (transaction), ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9c147dc754f420e0c7f1c1392cb2e75616557cfe
-ms.sourcegitcommit: cb50f8967ff1ca98c98bcadb26c05b3a5c5a6ea8
+ms.openlocfilehash: b9257448bd15bc23647a3567fb0f66a7325fe1fd
+ms.sourcegitcommit: 7989546de4aa2bbd2a751281d1aa215facae2d15
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60874911"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61039996"
 ---
 # <a name="cloud-backup-for-office-365---prod-transact"></a>Sauvegarde cloud pour Office 365 - Prod (transaction)
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Last updated by the developer on: September 29, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/avepoint.cloudbackup_o365_transact" target="_blank">Afficher dans AppSource</a>
@@ -166,7 +165,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph Autorisation**  | **Type d’autorisation** |          **Justification**          |
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
 >|:------------------------|:--------------------|:------------------------------------|
 >| User.Read | délégué | Activer la connexion et lire le profil utilisateur |
 >| Directory.Read.All | application | Lire les données de l’annuaire |
