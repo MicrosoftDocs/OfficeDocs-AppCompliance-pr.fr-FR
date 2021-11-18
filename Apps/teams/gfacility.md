@@ -1,48 +1,48 @@
 ---
-title: Informations sur l’application pour un sondage lumineux par les applications de conversation, LLC
+title: Informations d’application pour Gfacility par Gfacility
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Bright Poll, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Gfacility, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1540889dd63477971480fbef394bbb68a009f388
+ms.openlocfilehash: ca979a4917038513d43150aedfad1d3caaf6bc64
 ms.sourcegitcommit: 8695694a7da27a4114480a394616e66ae180b7e3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/18/2021
-ms.locfileid: "61070428"
+ms.locfileid: "61076177"
 ---
-# <a name="bright-poll"></a>Bright Poll
+# <a name="gfacility"></a>Gfacility
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 16, 2021</p>
+<p>Last updated by the developer on: September 29, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/3a3156c1-b214-4d42-bc25-6d36f6aabb5e" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002562" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/0f553268-ba1c-4bb0-953c-def3e00aac7d" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003474" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Chat Apps, LLC à Microsoft :
+Informations fournies par Gfacility à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Bright Poll |
-| ID | WA200002562 |
+| Nom de l'application | Gfacility |
+| ID | WA200003474 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Chat Apps, LLC |
-| Site web de l’entreprise | [https://brightbits.app](https://brightbits.app) |
-| Conditions d’utilisation de l’application | [https://brightbits.app/terms/](https://brightbits.app/terms/) |
-| Fonctionnalités principales de l’application | Recueillir les commentaires de collègues via des sondages dans la conversation. |
-| Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
+| Nom de la société partenaire | Gfacility |
+| Site web de l’entreprise | [https://gfacility.com](https://gfacility.com) |
+| Conditions d’utilisation de l’application | [https://gfacility.com/terms-of-use](https://gfacility.com/terms-of-use) |
+| Fonctionnalités principales de l’application | Assurer le suivi de vos réunions avec Gfacility dans Microsoft Teams |
+| Emplacement du siège social de l’entreprise | Belgique |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws, Heroku |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,19 +52,17 @@ Informations fournies par Chat Apps, LLC à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Chat Apps, LLC sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Gfacility sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
-| Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
-| L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
+| L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? | Données de profil utilisateur |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? | Non |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Éléments non conservés |
-| Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
+| Quelles données sont stockées dans vos bases de données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
+| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
 | Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
 | Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
 
@@ -78,25 +76,25 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Effectuez-vous des tests de pénétration annuels sur l’application ? | Non |
-| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
-| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | ApplicationControls |
-| Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Non |
-| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Non |
-| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Non |
-| Votre environnement a-t-il des systèmes d’exploitation ou des logiciels non pris en charge ? | Non |
-| Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et sur l’infastructure qui la prend en charge ? | Non |
+| Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
+| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
+| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | TraditionalAntiMalware, ApplicationControls |
+| Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Oui |
+| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Oui |
+| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Oui |
+| Votre environnement a-t-il des systèmes d’exploitation ou des logiciels non pris en charge ? | Oui |
+| Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et sur l’infastructure qui la prend en charge ? | Oui |
 | Un pare-feu est-il installé sur la limite de votre réseau externe ? | Oui |
 | Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Oui |
-| Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? | Non |
-| Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Non |
-| Authentification multifacteur (MFA) activée pour : | CodeRepositories, DNSManagement, Credential |
+| Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? | Oui |
+| Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
+| Authentification multifacteur (MFA) activée pour : | DNSManagement, CodeRepositories, Credential |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | S/O |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | Oui |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
 | Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
-| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Non |
+| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Oui |
 | Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
 | Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
 
@@ -117,7 +115,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Non |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
@@ -137,8 +135,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Non |
-| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Non |
+| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Oui |
+| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
+| URL de la politique de confidentialité | https://gfacility.com/privacy-policy |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? | Non |
 | L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
 | Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
