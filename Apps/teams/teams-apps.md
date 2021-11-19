@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/17/2021
+ms.date: 11/18/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: c08d188388489e9a5d9580b1510e81a660b0e6e6
-ms.sourcegitcommit: 16228ecbe73bc51d49d6bf71584774537b76c41c
+ms.openlocfilehash: 91e2a350d2037ec8ce22e11ecd34b1aeb854488b
+ms.sourcegitcommit: 8695694a7da27a4114480a394616e66ae180b7e3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61062284"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070348"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -161,6 +161,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Fusion à distance](./jujo-inc-fusion-remote.md) | Jujo Inc. | **✓** |  |
 | [Geekbot](./geekbot-ltd.md) | Geekbot Ltd | **✓** |  |
 | [Gensys](./gensys-solutions-bv.md) | Gensys Solutions BV | **✓** |  |
+| [Gfacility](./gfacility.md) | Gfacility | **✓** |  |
 | [GitHub](./microsoft-corporation-github.md) | Microsoft Corporation | **✓** |  |
 | [Go1](./go1.md) | Go1 | **✓** |  |
 | [Goalhub](./momentum-cloud-pty-ltd-goalhub.md) | Momentum Cloud Pty Ltd | **✓** |  |
@@ -217,6 +218,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Listy](./information-age-technologies-listy.md) | Information Age Technologies | **✓** |  |
 | [Conversation en direct](./social-intents-live-chat.md) | Intentions sociales | **✓** |  |
 | [LMS365](./elearningforce-international-lms365.md) | ELEARNINGFORCE International | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Loop](./friendly-flows-loop.md) | Flux convivial | **✓** |  |
 | [Loops – Creative Learning](./skooler-loops-creative-learning.md) | Skooler | **✓** |  |
 | [Client LTI](./flipick-pvt-ltd-lti-client.md) | Flipick Pvt Ltd | **✓** |  |
 | [Lucca](./lucca.md) | Lucques | **✓** |  |
@@ -373,6 +375,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [SuperBeings](./haptivity-technologies-pvt-ltd-superbeings.md) | JiJi Technologies Pvt Ltd | **✓** |  |
 | [SurveyMonkey](./surveymonkey.md) | SurveyMonkey | **✓** |  |
 | [SurveySparrow](./surveysparrow-inc.md) | SurveySparrow inc. | **✓** |  |
+| [Svava pour les réunions](./svava-ab-for-meetings.md) | Svava AB | **✓** |  |
 | [SwiftAssess](./gamalearn-swiftassess.md) | GamaLearn | **✓** |  |
 | [Sympli](./sympli-llc.md) | Sympli, LLC | **✓** |  |
 | [SysAid](./sysaid.md) | SysAid | **✓** |  |
