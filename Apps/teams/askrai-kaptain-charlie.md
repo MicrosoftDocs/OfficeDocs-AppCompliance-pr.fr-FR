@@ -1,44 +1,45 @@
 ---
-title: Informations sur les applications pour les échéances de LawToolBox et la gestion des Outlook par LawToolBox.com Inc.
+title: Informations sur l’application pour Kaptain AskR.ai
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/24/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Toutes les informations de sécurité et de conformité disponibles pour les échéances de LawToolBox et la gestion des données : Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
+description: Toutes les informations de sécurité et de conformité disponibles pour Kaptain Contrôle, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9baa7ea9b51626f8d887d568b428a83999b77940
+ms.openlocfilehash: 185eb80a15e92916a076a65d57a9c820bb9898a0
 ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148122"
+ms.locfileid: "61148153"
 ---
-# <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>Échéances de LawToolBox et gestion des Outlook
+# <a name="kaptain-charlie"></a>Kaptain Charlie
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 24, 2021</p>
+<p>Last updated by the developer on: July 22, 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200003103" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/1f36eaf6-30a3-4488-a73f-4754b91e865d" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001583" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par LawToolBox.com Inc. à Microsoft :
+Informations fournies par askR.ai à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Échéances de LawToolBox et gestion des Outlook |
-| ID | WA200003103 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
-| Nom de la société partenaire | LawToolBox.com Inc. |
-| Site web de l’entreprise | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
-| Conditions d’utilisation de l’application | [https://www.lawtoolbox.com/customersupport/2019/LawToolBox_...](https://www.lawtoolbox.com/customersupport/2019/LawToolBox_End_User_License_Agreement_and_SLA_LAWTOOLBOX_2019_APR.pdf) |
-| Fonctionnalités principales de l’application | Gérer les délais et rechercher des fichiers avec nos intégrations Microsoft 365 juridiques |
-| Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
+| Nom de l'application | Kaptain Charlie |
+| ID | WA200001583 |
+| Office 365 clients pris en charge | Microsoft Teams |
+| Nom de la société partenaire | askR.ai |
+| Site web de l’entreprise | [https://en.askr.ai](https://en.askr.ai) |
+| Conditions d’utilisation de l’application | [https://en.askr.ai/terms-of-use-askr-ai](https://en.askr.ai/terms-of-use-askr-ai) |
+| Fonctionnalités principales de l’application | Discutez avec vos données ! askR.ai’est-ce que votre assistant de données personnelles vous avez des données, mais que vous n’aimez pas le processus technique pour y accéder ? Utilisez un assistant de données pour répondre à vos questions et pour vous aider à explorer ! Qu’est-askR.ai, le premier assistant de données sur Microsoft Teams ? - Assistant de données personnelles optimisée pour l’IA - Fournit des KPIs instantanés et des données viz - Comprend le vocabulaire métier spécifique - Envoyer des alertes - Vous suggérer une analyse supplémentaire |
+| Emplacement du siège social de l’entreprise | France |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
 
@@ -50,7 +51,7 @@ Informations fournies par LawToolBox.com Inc. à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par LawToolBox.com Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par askR.ai sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -59,7 +60,7 @@ Ces informations ont été fournies par LawToolBox.com Inc. sur la façon dont c
 | Quelles données sont stockées dans vos bases de données ? |  |
 | Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Conservé |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
 | Avez-vous un processus de gestion de l’accès aux données établi ? |  |
 | Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
 | Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
@@ -74,8 +75,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Effectuez-vous des tests de pénétration annuels sur l’application ? | Non |
-| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
+| Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
+| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
 | Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? |  |
 | Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? |  |
 | Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? |  |
@@ -104,24 +105,24 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | Oui |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | Non |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | Non |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Oui |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Non |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Oui |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Non |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | Non |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Non |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -154,10 +155,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
-| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
+| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
-| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | Pour un meilleur contrôle, l’administrateur peut implémenter des autorisations d’application |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) |  |
 | Votre application stocke-t-elle des informations d’identification dans le code ? |  |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
