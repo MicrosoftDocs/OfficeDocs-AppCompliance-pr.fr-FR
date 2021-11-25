@@ -2,18 +2,18 @@
 title: Informations sur l’application pour l’appel Webex par Cisco
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/21/2021
+ms.date: 11/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’appel Webex, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d40e7f25f01579b228c458a6f204923868b0aa86
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: 279a78d5f756eaca6f8aba2135d8a6a168fd7d3c
+ms.sourcegitcommit: 3a357b6131b8459972e1aec73f2f795f9d674981
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61146977"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61176834"
 ---
 # <a name="webex-call"></a>Webex Call
 
@@ -108,23 +108,23 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | Oui |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? |  |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
 | Date de certification SOC2 la plus récente | |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? |  |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
-| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? |  |
+| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? |  |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -156,14 +156,19 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
-| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | S/O |
+| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Non |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
->Cette application n’utilise pas Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
+
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
+>|:------------------------|:--------------------|:------------------------------------|
+>| Chat.ReadBasic | délégué | Lire les membres du canal des équipes afin que l’utilisateur puisse en sélectionner un |
+>| Contacts.Read | délégué | Permet à l’utilisateur de créer des appels rapides à partir d’une liste de contacts |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

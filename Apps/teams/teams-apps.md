@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/22/2021
+ms.date: 11/24/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 825c33040a6b9a22c3cf998c08cbd0dc5cc8284f
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: fb2f84845ad4ed000ff0e18b30766ce3b578b910
+ms.sourcegitcommit: 3a357b6131b8459972e1aec73f2f795f9d674981
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148072"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61176854"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -28,6 +28,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Agenda Boss](./appfluence-inc-agenda-boss.md) | Appfluence Inc | **✓** |  |
 | [Tableau de tâches Agile](./agile-is-task-board.md) | Agile-IS | **✓** |  |
+| [Assistant libre-service Alloy](./alloy-software-self-service-assistant.md) | Logiciels Alloy | **✓** |  |
 | [Bureau de service Alvao](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  |
 | [Ambre](./infeedo-amber.md) | inFeedo | **✓** |  |
 | [Ambition](./ambition.md) | Ambition | **✓** |  |
@@ -111,6 +112,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Entraînement du coucou](./cuckoo-networks-oy-workout.md) | Cuckoo Networks Oy | **✓** |  |
 | [Cultr Connect](./cultr-connect.md) | Cultr | **✓** |  |
 | [Cyberday](./digiturvamalli-cyberday.md) | Digiturvamalli | **✓** |  |
+| [DataMiner](./skyline-communications-dataminer.md) | Skyline Communications | **✓** |  |
 | [Espace de travail Datto](./datto-inc-workplace.md) | Datto, Inc. | **✓** |  |
 | [DBit](./diamondsoft-solutions-llc-dbit.md) | Diamondsoft Solutions, LLC | **✓** |  |
 | [Décisions](./decisions.md) | Décisions | **✓** |  |
@@ -125,7 +127,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Droplr](./droplr.md) | Droplr | **✓** |  |
 | [Signal dynamique](./dynamic-signal.md) | Signal dynamique | **✓** |  |
 | [Projets faciles](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  |
-| [Easy2Meet](./easy2meet-bv.md) | Easy2Meet B.V. | **✓** |  |
 | [eCademy Lernplattform](./cornelsen-ecademy-and-inside-gmbh-lernplattform.md) | Cornelsen eCademy &amp; inside GmbH | **✓** |  |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  |
@@ -175,6 +176,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [GuideSpark Communicate Cloud](./guidespark-communicate-cloud.md) | GuideSpark | **✓** |  |
 | [Guru](./guru-technologies.md) | Guru Technologies | **✓** |  |
 | [Health Hero](./health-hero.md) | Health Hero | **✓** |  |
+| [Heedify](./heedify.md) | Heedify | **✓** |  |
 | [HelloTeam](./helloteam-inc.md) | HelloTeam Inc. | **✓** |  |
 | [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  |
 | [hi Digital Coach](./digital-attitude-srl-hi-coach.md) | Digital Attitude Srl | **✓** |  |
@@ -188,8 +190,10 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  |
 | [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  |
 | [iManage](./imanage.md) | iManage | **✓** |  |
+| [imDocShare](./kl-software-technologies-imdocshare.md) | KL Software Technologies | **✓** |  |
 | [En cas de crise](./rockdove-solutions-inc-in-case-of-crisis.md) | Solutions RockDove, Inc. | **✓** |  |
 | [InCaseIT](./pilotech-as-incaseit.md) | Pilotech AS | **✓** |  |
+| [Indeqa](./indeqa-bv.md) | Indeqa B.V. | **✓** |  |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Équipe Industry Intelligence | **✓** |  |
 | [Informer Coleman](./infor-us-inc-coleman.md) | INFOR (États-Unis), INC. | **✓** |  |
 | [InStation](./developers-invillia-instation.md) | Développeurs Invillia | **✓** |  |
@@ -246,6 +250,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Moneypenny](./callitech-limited-moneypenny.md) | CALLITECH LIMITED | **✓** |  |
 | [Monitask](./fest-technologies-llc-monitask.md) | FEST Technologies, LLC | **✓** |  |
 | [Faire avancer le travail avec Jira](./move-work-forward-with-jira.md) | Faire avancer le travail | **✓** |  |
+| [MSPBots](./jexet-technologies-llc-mspbots.md) | Jexet Technologies LLC | **✓** |  |
 | [Processus d’approbation multiple LTAPPs](./ltapps-software-coltd-multi-approval-process.md) | LTAPPs SOFTWARE CO.,LTD | **✓** |  |
 | [MURAL](./mural.md) | MURAL | **✓** |  |
 | [Mybys](./facilis-mybys.md) | Facilis | **✓** |  |
