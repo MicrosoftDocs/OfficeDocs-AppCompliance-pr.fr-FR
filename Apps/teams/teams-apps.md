@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/29/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 695c5e93e538e6bbe4bd07c4acf35edbb82e20ef
-ms.sourcegitcommit: 79e749c1746f3658789e7b080e413be97883abef
+ms.openlocfilehash: 0d87191af1fbe22782d358e7e70df88a65a11ca3
+ms.sourcegitcommit: 3a80f3f16b38f0a7914ca435d66d2ab0fde7f6f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61217172"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "61234928"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -65,6 +65,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [BlackBerry AtHoc](./blackberry-athoc.md) | BlackBerry | **✓** |  |
 | [Connexion de tableau](./engage-squared-board-connect.md) | Engage Squared | **✓** |  |
 | [Bonusly](./bonusly.md) | Bonusly | **✓** |  |
+| [Réservation de salle Pro](./witivio-booking-room-pro.md) | Witivio | **✓** |  |
 | [BrainBot](./biggerbrains-brainbot.md) | Biggerbrains | **✓** |  |
 | [BravoNow](./spadeworx-software-services-bravonow.md) | Services Logiciels Deworx | **✓** |  |
 | [Breakthru](./breakthru.md) | Breakthru | **✓** |  |
@@ -107,6 +108,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Connecter+](./reward-gateway-connectplus.md) | Passerelle de récompense | **✓** |  |
 | [Centre de contacts](./landis-technologies-llc-contact-center.md) | Landis Technologies LLC | **✓** |  |
 | [Centre de contacts | ROGER365.io](./ée365io-contact-centerroger365io.md) | ROGER365.io | **✓** |  |
+| [Contacts Pro](./witivio-contacts-pro.md) | Witivio | **✓** |  |
 | [Gestionnaire de contacts](./colligo-inc-content-manager.md) | Colligo Inc | **✓** |  |
 | [Contextere AVA](./contextere-ava.md) | Contextere | **✓** |  |
 | [ContractZen](./contractzen.md) | ContractZen | **✓** |  |
@@ -123,6 +125,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Desk365](./kani-technologies-inc-desk365.md) | Kani Technologies Inc | **✓** |  |
 | [Digiplein](./educatieve-uitgeversgroep-bv-digiplein.md) | Educatieve Uitgeversgroep B.V. | **✓** |  |
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  |
+| [Listes de distribution Pro](./witivio-distribution-lists-pro.md) | Witivio | **✓** |  |
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [eSignature DocuSign](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
