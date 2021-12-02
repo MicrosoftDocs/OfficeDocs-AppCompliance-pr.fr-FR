@@ -6,12 +6,12 @@ description: Vue Microsoft 365 granulaire du Guide de soumission de certificatio
 keywords: équipes de certification des Microsoft 365 conformité de la sécurité m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 56d6de02101013d10f48c308e2f7ece706b26c51
-ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
+ms.openlocfilehash: 212d6a708b59a71de3d88a58d61ced4af99432a7
+ms.sourcegitcommit: 86ba435037ea3277239530c33b5c5950cd61e66e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61261666"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61268004"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Guide Microsoft 365 soumission de certification
 
@@ -241,7 +241,7 @@ Un examen adéquat des risques associés à votre application/votre add-in et à
 
 **Étendue des tests de pénétration**
 
-Les activités  de test de pénétration DOIVENT inclure l’environnement qui prend en charge le déploiement de l’application/du complément (par exemple, l’endroit où le code de l’application/du complément est hébergé, qui sera généralement la ressource dans le fichier manifeste), ainsi que tout environnement supplémentaire qui prend en charge le fonctionnement de l’application/du complément (par exemple, si l’application/le complément discute avec d’autres applications web en dehors de Microsoft 365).  Lors de la définition de l’étendue, veillez à vous assurer que tous les systèmes ou environnements « connectés » qui peuvent avoir un impact sur la sécurité de l’environnement dans l’étendue sont également inclus dans TOUTES les activités de test de pénétration. 
+Les activités  de test de pénétration DOIVENT être effectuées sur l’environnement de production en direct qui prend en charge le déploiement de l’application/du complément (par exemple, l’endroit où le code de l’application/du complément est hébergé, qui sera généralement la ressource dans le fichier manifeste), ainsi que tout environnement supplémentaire qui prend en charge le fonctionnement de l’application/du complément (par exemple, si l’application/le complément discute avec d’autres applications web en dehors de Microsoft 365).  Lors de la définition de l’étendue, veillez à vous assurer que tous les systèmes ou environnements « connectés » qui peuvent avoir un impact sur la sécurité de l’environnement dans l’étendue sont également inclus dans TOUTES les activités de test de pénétration. 
 
 Lorsque des techniques sont utilisées pour segmenter les environnements dans l’étendue d’autres environnements, les activités de test de pénétration DOIVENT valider l’efficacité de ces techniques de segmentation. Cela doit être détaillé dans le rapport de test de pénétration. 
 
@@ -281,6 +281,7 @@ Les rapports de test de pénétration sont examinés **** pour s’assurer qu�
 
 - Pour les isv qui n’effectuent actuellement pas de test de pénétration, les tests de pénétration peuvent être effectués gratuitement par Microsoft 365 certification. Microsoft organise et couvre le coût d’un test de pénétration pendant 12 jours de test manuel. Les coûts des tests de pénétration sont calculés en fonction du nombre de jours requis pour tester l’environnement. Toute dépense dépassant 12 jours de test sera la responsabilité de l’isv. 
 - Les isv doivent soumettre des preuves et recevoir l’approbation de 50 % des contrôles dans l’étendue avant que le test de pénétration ne soit effectué. Pour commencer, il vous suffit de remplir votre envoi initial de documents et de faire en sorte que le test d’intrusion soit inclus dans le cadre de votre évaluation. Vous serez contacté pour étendue et planifier votre test de pénétration lorsque vous aurez terminé 50 % des contrôles.
+- Le rapport émis une fois la pentest terminée est fourni à l’isv une fois qu’il a obtenu la certification. Ce rapport, ainsi que votre certification Microsoft 365, peuvent être utilisés pour montrer aux clients potentiels que votre environnement est sécurisé.
 - Les isoeurs seront également chargés de démontrer que les vulnérabilités identifiées dans le test de pénétration ont été corrigés avant l’octroi d’une certification, mais n’ont pas besoin de produire un rapport propre.
 
 Une fois qu’un test de pénétration est organisé, l’isv est responsable des frais associés à la planification et aux annulations comme suit :
