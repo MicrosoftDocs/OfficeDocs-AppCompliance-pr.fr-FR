@@ -1,24 +1,24 @@
 ---
 ms.author: oromalle
-title: Microsoft 365 Guide de soumission de certification
+title: Guide Microsoft 365 soumission de certification
 author: orionomalley
-description: Microsoft 365 Vue granulaire du Guide de soumission de certification
+description: Vue Microsoft 365 granulaire du Guide de soumission de certification
 keywords: équipes de certification des Microsoft 365 conformité de la sécurité m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: f89cb9f82cec69a473d451cff33e3db9b406489d
-ms.sourcegitcommit: ddd67912ff4e8901300556ff85c2cf416f54dea1
+ms.openlocfilehash: 56d6de02101013d10f48c308e2f7ece706b26c51
+ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60885288"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61261666"
 ---
-# <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guide de soumission de certification
+# <a name="microsoft-365-certification-submission-guide"></a>Guide Microsoft 365 soumission de certification
 
 **Dans cet article**
 - [Introduction](#introduction)
 - [Conditions préalables](#prerequisites) 
-- [Microsoft 365 Mises à jour des spécifications de certification](#microsoft-365-certification-specification-updates)
+- [Microsoft 365 des spécifications de certification](#microsoft-365-certification-specification-updates)
 - [Étendue de certification](#certification-scope)
 - [Processus de certification](#certification-process)
 - [Envoi initial du document](#initial-document-submission) 
@@ -51,7 +51,7 @@ Ce document s’adresse aux éditeurs de logiciels indépendants pour fournir de
 > Actuellement, Microsoft 365 certification est applicable à tous :
 >* Microsoft Teams applications (onglets, bots, etc.) .
 >* Applications/add-ins SharePoint
->* Office Les add-ins (Word, Excel, PowerPoint, Outlook, Project, OneNote)
+>* Office(Word, Excel, PowerPoint, Outlook, Project, OneNote)
 >* WebApps
 
 ## <a name="prerequisites"></a>Configuration requise
@@ -64,7 +64,7 @@ Avant d’obtenir le processus Microsoft 365 certification, vous devez avoir obt
 
 Microsoft recommande à tous les éditeurs de logiciels indépendants (éditeurs de logiciels indépendants) de lire entièrement cette spécification de certification Microsoft 365 pour s’assurer que tous les contrôles applicables sont satisfaits par l’environnement dans l’étendue et l’application/le add-in. Cela permet de garantir un processus d’évaluation fluide.
 
-## <a name="microsoft-365-certification-specification-updates"></a>Microsoft 365 Mises à jour des spécifications de certification 
+## <a name="microsoft-365-certification-specification-updates"></a>Microsoft 365 des spécifications de certification 
 
 Les mises à jour de la spécification Microsoft 365 certification sont prévues environ tous les six à douze mois. Ces mises à jour peuvent introduire de nouveaux domaines de sécurité cibles et/ou des contrôles de sécurité. Les mises à jour seront basées sur les commentaires des développeurs, les modifications apportées au paysage des menaces et pour augmenter la ligne de base de sécurité du programme au cours de sa maturité. 
 
@@ -277,9 +277,11 @@ Les rapports de test de pénétration sont examinés **** pour s’assurer qu�
 >Les rapports doivent être en mesure de fournir suffisamment d’assurance que tout ce qui est détaillé dans la section Spécification du test de sécurité des applications peut être démontré.
 
 
-**Exigences et coût des tests de pénétration**
+**Exigences et règles de test de pénétration complémentaires**
 
-Pour les isv qui ne s’engagent actuellement pas dans le test de pénétration, le test de pénétration est inclus dans la certification Microsoft 365 de pénétration. Microsoft organise et couvre le coût d’un test de pénétration pendant 12 jours de test manuel. Les coûts des tests de pénétration sont calculés en fonction du nombre de jours requis pour tester l’environnement. Toute dépense dépassant 12 jours de test sera la responsabilité de l’isv. L’isv est également chargé de démontrer que les vulnérabilités identifiées dans le test de pénétration ont été corrigés avant l’octroi d’une certification, mais n’ont pas besoin de produire un rapport propre.
+- Pour les isv qui n’effectuent actuellement pas de test de pénétration, les tests de pénétration peuvent être effectués gratuitement par Microsoft 365 certification. Microsoft organise et couvre le coût d’un test de pénétration pendant 12 jours de test manuel. Les coûts des tests de pénétration sont calculés en fonction du nombre de jours requis pour tester l’environnement. Toute dépense dépassant 12 jours de test sera la responsabilité de l’isv. 
+- Les isv doivent soumettre des preuves et recevoir l’approbation de 50 % des contrôles dans l’étendue avant que le test de pénétration ne soit effectué. Pour commencer, il vous suffit de remplir votre envoi initial de documents et de faire en sorte que le test d’intrusion soit inclus dans le cadre de votre évaluation. Vous serez contacté pour étendue et planifier votre test de pénétration lorsque vous aurez terminé 50 % des contrôles.
+- Les isoeurs seront également chargés de démontrer que les vulnérabilités identifiées dans le test de pénétration ont été corrigés avant l’octroi d’une certification, mais n’ont pas besoin de produire un rapport propre.
 
 Une fois qu’un test de pénétration est organisé, l’isv est responsable des frais associés à la planification et aux annulations comme suit :
 
@@ -1006,9 +1008,9 @@ Microsoft reconnaît que vous allez déployer des applications et stocker du cod
 
 ## <a name="appendix-g"></a>Annexe G
 
-## <a name="learn-more"></a>En savoir plus
+## <a name="learn-more"></a>Si vous souhaitez en savoir plus
 
-[Microsoft 365 Vue d’ensemble du programme de conformité des applications](~/overview.md)  
+[Vue d Microsoft 365 du programme de conformité des applications](~/overview.md)  
 [Qu’est-ce Microsoft 365 attestation d’Publisher’application ?](~/docs/attestation.md)  
 [Qu’est-ce Microsoft 365 certification ?](~/docs/enterprise-app-certification-guide.md)
 

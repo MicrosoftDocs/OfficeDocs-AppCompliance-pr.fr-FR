@@ -1,21 +1,27 @@
 ---
 ms.author: oromalle
-title: Microsoft 365 Certification - Guide de soumission de document initial
+title: Microsoft 365 certification - Guide de soumission de document initial
 author: orionomalley
-description: Microsoft 365 Vue granulaire du Guide de soumission de certification
+description: Vue Microsoft 365 granulaire du Guide de soumission de certification
 keywords: Équipes de certification des Microsoft 365 conformité de la sécurité m365 envoi initial de documents
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 0352b64649d87b40d185a2bc06ce23da6cf341ef
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: 0f879ce6b02fb469b0210500e4706d468ccb4011
+ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378812"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61261676"
 ---
-# <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Critification - Guide de soumission de document initial
+# <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 - Guide de soumission de document initial
 
 La soumission initiale du document fait partie de la phase de pré-évaluation de la certification. Les informations fournies donnent aux analystes de certification l’arrière-plan nécessaire pour identifier les contrôles et les composants système qui seront dans l’étendue de votre évaluation. Ce document est destiné à servir uniquement d’exemple de ce qui est attendu de votre envoi initial de document. La documentation que vous fournissez varie en fonction de l’architecture, de l’implémenter et de la gestion de votre solution.
+
+## <a name="what-is-the-hosting-environment-or-service-model-used-to-run-your-app"></a>Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ?
+- L’infrastructure en tant que service (IaaS) est un modèle de service cloud dans lequel votre fournisseur de services cloud héberge vos composants d’infrastructure, mais les logiciels indépendants sont toujours chargés de déployer et de gérer les composants individuellement, tels que les machines virtuelles/systèmes d’exploitation, les magasins de données et les composants réseau. Azure Virtual Machine et Azure Disk Stockage en sont des exemples.
+- La plateforme en tant que service (PaaS) est un modèle de service cloud dans lequel les composants d’infrastructure sont gérés par le fournisseur de services cloud. Les isv sont uniquement responsables du déploiement de leurs propres applications et services. Azure App Services, azure Functions et Azure CDN en sont des exemples.
+- IsV hébergé dans ce contexte signifie qu’aucun fournisseur de services cloud n’est utilisé. L’isv gère physiquement ses propres serveurs, disques et réseau de manière indépendante sur site.
+- Dans ce contexte, l’un des modèles ci-dessus est utilisé. Par exemple, certains fournisseurs de logiciels indépendants peuvent utiliser une combinaison de services IaaS et de services PaaS pour prendre en charge leur application, ou ils peuvent avoir des composants hébergés isv locaux et externaliser d’autres à un fournisseur de services cloud. Si vous utilisez l’un des autres modèles de service, sélectionnez hybride.
 
 ## <a name="penetration-test-report"></a>Rapport de test de pénétration
 
@@ -32,9 +38,9 @@ Un inventroy à jour de tous les composants système utilisés par l’infrastru
 
 **Exemple :**
 
-|Nom de l’actif|    Type de bien| Description|    Fabricant|   Modèle|
+|Nom de l’actif|    Type d’actif| Description|    Fabricant|   Modèle|
 |-|-|-|-|-|
-|D212|  Windows  Ordinateur|   Virtual Machine|    N/A| N/A|
+|D212|  Windows Machine|   Virtual Machine|    N/A| N/A|
 |LT101| Ordinateur portable| Station de travail|    Microsoft|  Surface 3|
 |C2938| Commutateur| Commutateur|N/A|N/A|     
 |LXM2|  Linux Machine|  Ordinateur de test|N/A|N/A|       

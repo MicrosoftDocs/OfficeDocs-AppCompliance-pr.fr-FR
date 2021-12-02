@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour la sauvegarde cloud pour Office 365 - Prod (transaction), ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9257448bd15bc23647a3567fb0f66a7325fe1fd
-ms.sourcegitcommit: 7989546de4aa2bbd2a751281d1aa215facae2d15
+ms.openlocfilehash: d2017f681e2689dbf4625baf7f7d3dcef62bbfc4
+ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "61039996"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61261686"
 ---
 # <a name="cloud-backup-for-office-365---prod-transact"></a>Sauvegarde cloud pour Office 365 - Prod (transaction)
 
@@ -35,8 +35,11 @@ Informations fournies par AvePoint Inc. à Microsoft :
 | Nom de la société partenaire | AvePoint Inc. |
 | Site web de l’entreprise | [https://www.avepoint.com](https://www.avepoint.com) |
 | Conditions d’utilisation de l’application | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Fonctionnalités principales de l’application | AvePoint Cloud Backup est l'&#8217;la solution de sauvegarde cloud à cloud la plus complète pour Microsoft 365. Par
-Des sauvegardes automatisées illimitées et un stockage sécurisé dans avePoint&#8217;le stockage Azure ou votre propre cloud, vous décidez simplement de la quantité à récupérer et du moment où. Une restauration granulaire et à la demande au niveau de l’élément fournit un accès à tout moment à vos e-mails, fichiers, conversations, enregistrements, projets, tâches, groupes, Teams, planificateur et sites critiques. | | Emplacement du siège social de l'| États-Unis d’Amérique | | Page d’informations sur l| | | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas | | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
+| Fonctionnalités principales de l’application | AvePoint Cloud Backup est l'&#8217;la solution de sauvegarde cloud à cloud la plus complète pour Microsoft 365. Avec des sauvegardes automatisées illimitées et un stockage sécurisé dans le stockage Azure d’AvePoint&#8217;ou votre propre cloud, vous décidez simplement de la quantité à récupérer et du moment où. Une restauration granulaire et à la demande au niveau de l’élément fournit un accès à tout moment à vos e-mails, fichiers, conversations, enregistrements, projets, tâches, groupes, Teams, planificateur et sites critiques. |
+| Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
+| Page d’informations sur l’application | |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
