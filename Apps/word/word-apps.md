@@ -2,17 +2,17 @@
 title: 'Microsoft Word sécurité et conformité des applications : toutes les applications'
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/29/2021
+ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les Microsoft Word applications.
 localization_priority: Normal
-ms.openlocfilehash: ead76387b7cdfd52f035f81db53baa59e3bf580f
-ms.sourcegitcommit: 79e749c1746f3658789e7b080e413be97883abef
+ms.openlocfilehash: c45c9f29de245e5c60199eb85b54c0324ece68b0
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61217048"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61353669"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word sécurité et conformité des applications
 
@@ -31,7 +31,6 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Signatures d’impression](./impression-signatures.md) | Signatures d’impression | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
 | [Loio Contract Review Software](./loio-inc-contract-review-software.md) | Loio Inc. | **✓** |  |
-| [Diagrammes graphiques pour Word](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  |
 | [Mendeley Cit](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [neopolis](./neopolis-gmbh.md) | neopolis | **✓** |  |
 | [Office2SharePoint pour Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

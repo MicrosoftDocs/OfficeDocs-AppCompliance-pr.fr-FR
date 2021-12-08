@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Outlook - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/22/2021
+ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: d475bd1d8cc129b3b1ab96d204cbbc9c0e44e49c
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: e432d03df0c033f6d93a7a7b4f6ec541ff84fe84
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148062"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61351599"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Outlook
 
@@ -23,7 +23,6 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Adobe Sign Add-In for Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Vidéos altru](./altru-videos.md) | Altru | **✓** |  |
 | [Calendriers de contacts approuvés](./approved-contact-calendars.md) | Contact approuvé | **✓** |  |
-| [Asana pour Outlook](./asana-for-outlook.md) | Asana | **✓** |  |
 | [CI-Signature](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo pour Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [Commuty](./commuty.md) | Commuty | **✓** |  |
@@ -47,8 +46,6 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
 | [ServiceDesk Plus pour la messagerie](./zoho-corporation-private-limited-servicedesk-plus-for-email.md) | Zoho Corporation Private Limited | **✓** |  |
-| [Le add-in StarLeaf pour Outlook](./starleaf-add-in-for-outlook.md) | StarLeaf | **✓** |  |
 | [Wunder365](./jiji-technologies-private-limited-wunder365.md) | JiJi Technologies Private Limited | **✓** |  |
 | [Messagerie sécurisée XQ](./xq-message-secure-email.md) | XQ Message | **✓** |  |
-| [Outil campagnes Zoho pour l’automatisation marketing](./zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho CRM pour la messagerie](./zoho-corporation-private-limited-crm-for-email.md) | Zoho Corporation Private Limited | **✓** |  |

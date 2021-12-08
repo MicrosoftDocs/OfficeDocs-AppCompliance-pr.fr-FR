@@ -2,17 +2,17 @@
 title: 'Microsoft Excel conformité et sécurité des applications : toutes les applications'
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/22/2021
+ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les Microsoft Excel applications.
 localization_priority: Normal
-ms.openlocfilehash: f5e36298554672e6cb7c22cb84d32c68d902cb37
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: 94eba70bda84194b7055912f4125348dea4df0d3
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61145226"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61353409"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel sécurité et conformité des applications
 
@@ -26,9 +26,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Forz](./forbury-property.md) | For très bien, propriété | **✓** |  |
 | [harmon.ie pour Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Signatures d’impression](./impression-signatures.md) | Signatures d’impression | **✓** |  |
-| [Outil de rapports iPlanner pour Office 365 planner](./iglobe-iplanner-reporting-tool-for-office-365-planner.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Jira Cloud pour Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |
-| [Diagrammes de diagrammes d’Excel](./lucid-software-inc-lucidchart-diagrams-for-excel.md) | Lucid Software Inc | **✓** |  |
 | [MeaningCloud Text Analytics pour Excel](./meaningcloud-text-analytics-for-excel.md) | MeaningCloud | **✓** |  |
 | [Office2SharePoint pour Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | S’il s’Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |

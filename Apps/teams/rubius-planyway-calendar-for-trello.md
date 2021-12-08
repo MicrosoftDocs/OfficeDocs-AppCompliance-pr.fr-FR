@@ -1,0 +1,156 @@
+---
+title: Informations sur l’application pour le calendrier Planyway pour Trello par Rubius
+ms.author: elmalova
+author: elenamalova
+ms.date: 05/05/2021
+ms.topic: article
+ms.service: attestation
+certification_type: attested
+description: Toutes les informations de sécurité et de conformité disponibles pour le calendrier Planyway pour Trello, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 1f7f0b736cbe100b0131d4064c2702cb28e9ea35
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61354640"
+---
+# <a name="planyway-calendar-for-trello"></a>Calendrier Planyway pour Trello
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: March 19, 2021</p>
+
+* <a href="https://teams.microsoft.com/l/app/861228c3-eefd-462f-9b13-24dae6530ac3" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002712" target="_blank">Afficher dans AppSource</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>Informations générales
+
+Informations fournies par Rubius à Microsoft :
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Nom de l'application | Calendrier Planyway pour Trello |
+| ID | WA200002712 |
+| Office 365 clients pris en charge | Microsoft Teams |
+| Nom de la société partenaire | Rubius |
+| Site web de l’entreprise | [https://rubius.com](https://rubius.com) |
+| Conditions d’utilisation de l’application | [https://planyway.com/legal/terms-of-use](https://planyway.com/legal/terms-of-use) |
+| Fonctionnalités principales de l’application | Planyway est un outil de suivi de calendrier, de chronologie et de temps d’équipe que Trello peut utiliser pour gérer la planification, suivre les projets et planifier vos ressources. Avec Planyway, vous pouvez organiser et rationaliser visuellement l’ensemble du travail de votre équipe au même endroit : planifier et hiérarchiser les tâches à venir, affecter et planifier des tâches sur le calendrier ou la chronologie, suivre la charge de travail de l’équipe entre les projets, gérer la disponibilité de votre équipe, suivre le temps consacré aux tâches et projets, synchroniser votre travail et votre planification personnelle. |
+| Emplacement du siège social de l’entreprise | Fédération russe (la) |
+| Page d’informations sur l’application | |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
+
+Ces informations ont été fournies par Rubius sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
+| Quelles données sont stockées dans vos bases de données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé dans les 3 mois |
+| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
+| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
+| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="security"
+
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Effectuez-vous des tests de pénétration annuels sur l’application ? | Non |
+| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
+| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? |  |
+| Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? |  |
+| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? |  |
+| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? |  |
+| Votre environnement a-t-il des systèmes d’exploitation ou des logiciels non pris en charge ? |  |
+| Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et sur l’infastructure qui la prend en charge ? |  |
+| Un pare-feu est-il installé sur la limite de votre réseau externe ? |  |
+| Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? |  |
+| Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? |  |
+| Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? |  |
+| Authentification multifacteur (MFA) activée pour : |  |
+| Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? |  |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? |  |
+| La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? |  |
+| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | |
+| Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? |  |
+| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? |  |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
+| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | {
+  &quot;CMP08_complianceSOC_1 : &quot; &quot; Na &quot; } | | Date de certification SOC1 la plus récente |   | | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Aucun | | Quelle certification SOC 2 avez-vous atteinte ? | | | Date de certification SOC2 la plus récente | | | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Aucun | | Date de certification SOC3 la plus récente | | | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Aucun | | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Aucun | | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | { &quot; CMP16_complianceISO_27018 : Na } &quot; &quot; &quot; | | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Aucun | | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Aucun | | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Aucun | | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A | | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A | | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A | | L’application est-elle conforme au NIST 800-171 ? |  | | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Aucun |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? |  |
+| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? |  |
+| L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? |  |
+| L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? |  |
+| Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? |  |
+| L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? |  |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? |  |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? |  |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? |  |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Réponse** |
+|:----------------|:-------------|
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
+| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
+| Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) |  |
+| Votre application stocke-t-elle des informations d’identification dans le code ? |  |
+| Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
+
+>Cette application n’utilise pas Microsoft Graph.
+
+>Cette application ne comprend pas d’API supplémentaires.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
