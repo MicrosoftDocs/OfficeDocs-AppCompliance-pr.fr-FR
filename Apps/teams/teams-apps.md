@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/07/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: f0f37fee8c116f384e270679c4b660b46b0fb486
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 80d59f3bd6b3b61ca51afbbab759e198a723d28f
+ms.sourcegitcommit: 4abb4344a6593d61ef5a1a84cf32dc6610652f2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61350749"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61407147"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -94,7 +94,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Complish](./cauzey-pty-ltd-complish.md) | Cauzey Pty Ltd | **✓** |  |
 | [Conférences E/S](./conferences-io.md) | Conférences E/S | **✓** |  |
 | [Confluence Cloud](./atlassian-confluence-cloud.md) | Atlassian | **✓** |  |
-| [Connecteur Confluence](./move-work-forward-confluence-connector.md) | Faire avancer le travail | **✓** |  |
+| [Connecteur de Connecteur de Connecteur par MWF](./move-work-forward-confluence-connector-by-mwf.md) | Faire avancer le travail | **✓** |  |
 | [Connecter+](./reward-gateway-connectplus.md) | Passerelle de récompense | **✓** |  |
 | [Centre de contacts | ROGER365.io](./ée365io-contact-centerroger365io.md) | ROGER365.io | **✓** |  |
 | [Contacts Pro](./witivio-contacts-pro.md) | Witivio | **✓** |  |
@@ -117,6 +117,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [eSignature DocuSign](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
+| [Enregistrement d’appels unifiés durd](./dubber-unified-call-recording.md) | Dunk | **✓** |  |
 | [Projets faciles](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  |
 | [eCademy Lernplattform](./cornelsen-ecademy-and-inside-gmbh-lernplattform.md) | Cornelsen eCademy &amp; inside GmbH | **✓** |  |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  |
