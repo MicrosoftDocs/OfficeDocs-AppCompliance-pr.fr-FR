@@ -1,48 +1,47 @@
 ---
-title: Informations sur l’application pour Fabasoft Cloud par Fabasoft Austria
+title: Informations sur l’application pour la stratégie-IA par Le logiciel Limited DeChilla
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/15/2021
+ms.date: 12/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Fabasoft Cloud, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Strategy-AI, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 763553b5e9220bfa21b48312c40a9fc4afbcb4de
+ms.openlocfilehash: ccd5a4d249cf5a27d0f1b99040b0278f1b31fb4a
 ms.sourcegitcommit: fc537c6574ed98a1706c4cadf02150a2f3e1137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 12/16/2021
-ms.locfileid: "61537107"
+ms.locfileid: "61537894"
 ---
-# <a name="fabasoft-cloud"></a>Fabasoft Cloud
+# <a name="strategy-ai"></a>Stratégie -IA
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 14, 2021</p>
+<p>Last updated by the developer on: December 1, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/12ba525f-5370-4cd9-b1c9-fde7edecae8a" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002184" target="_blank">Afficher dans AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003576" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Fabasoft Austria Authent h à Microsoft :
+Informations fournies par Le logiciel Dechilla limité à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Fabasoft Cloud |
-| ID | WA200002184 |
-| Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Fabasoft Austria GmbH |
-| Site web de l’entreprise | [https://www.fabasoft.com](https://www.fabasoft.com) |
-| Conditions d’utilisation de l’application | [https://www.fabasoft.com/terms-of-use](https://www.fabasoft.com/terms-of-use) |
-| Fonctionnalités principales de l’application | Partager vos données métiers à partir du cloud de processus métiers Fabasoft |
-| Emplacement du siège social de l’entreprise | Autriche |
+| Nom de l'application | Stratégie -IA |
+| ID | WA200003576 |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
+| Nom de la société partenaire | Software Limited DeChilla |
+| Site web de l’entreprise | [https://www.strategy-ai.com](https://www.strategy-ai.com) |
+| Conditions d’utilisation de l’application | [https://www.strategy-ai.com/terms](https://www.strategy-ai.com/terms) |
+| Fonctionnalités principales de l’application | Fournir une attribution de données cohérente, entre les entreprises et entre les plateformes |
+| Emplacement du siège social de l’entreprise | Nouvelle-Zélande |
 | Page d’informations sur l’application | |
-| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,7 +51,7 @@ Informations fournies par Fabasoft Austria Authent h à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Fabasoft Austria SoftH sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Le Software Limited DeChilla sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -78,7 +77,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
 | L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
-| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | ApplicationControls, TraditionalAntiMalware |
+| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | ApplicationControls |
 | Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Oui |
 | Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Oui |
 | Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Oui |
@@ -88,7 +87,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Oui |
 | Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? | Oui |
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
-| Authentification multifacteur (MFA) activée pour : | DNSManagement, CodeRepositories, Credential |
+| Authentification multifacteur (MFA) activée pour : | CodeRepositories, DNSManagement, Credential |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
 | Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | Oui |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
@@ -110,20 +109,20 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
 | Date de certification SOC1 la plus récente |   |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
-| Quelle certification SOC 2 avez-vous atteinte ? |  type2 |
-| Date de certification SOC2 la plus récente |  2021-04-30 |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
+| Quelle certification SOC 2 avez-vous atteinte ? | |
+| Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Non |
-| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Oui |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Oui |
+| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Non |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
 | L’application est-elle conforme au NIST 800-171 ? | S/O |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -136,7 +135,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Oui |
-| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Non |
+| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
+| URL de la politique de confidentialité | https://www.strategy-ai.com/privacy |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? | Non |
 | L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
 | Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
