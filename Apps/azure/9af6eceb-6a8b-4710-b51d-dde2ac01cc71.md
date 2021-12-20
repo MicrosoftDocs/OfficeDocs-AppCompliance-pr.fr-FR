@@ -18,7 +18,7 @@ ms.locfileid: "61533304"
 
 
 ### <a name="apps-associated-with-this-id"></a>Applications associées à cet ID :
-| **Nom de l'application** | **Certifié** | **Afficher dans AppSource** |
+| **Nom de l’application** | **Certifié** | **Afficher dans AppSource** |
 |--------------|---------------|-----------------------|
 | [InCaseIT](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200003265) |  | [https://appsource.microsoft.com/product/office/WA200003265](https://appsource.microsoft.com/product/office/WA200003265) |
 
