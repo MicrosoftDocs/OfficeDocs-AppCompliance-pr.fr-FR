@@ -1,45 +1,45 @@
 ---
-title: Informations d’application pour MGR360 par MGR360
+title: Informations sur l’application pour Quéz par MiHCM
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour MGR360, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Contrôle, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9cd26d2fd4b9afb62bc432b4841416e564eec2f8
+ms.openlocfilehash: 47aebd8bce7bdaed64de9f634792d8375f686776
 ms.sourcegitcommit: 287c15520b2d24d1b150c144ee8001b713b0aa8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 12/22/2021
-ms.locfileid: "61590621"
+ms.locfileid: "61590654"
 ---
-# <a name="mgr360"></a>MGR360
+# <a name="mia"></a>Tzé
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2021</p>
+<p>Last updated by the developer on: September 21, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/a229e17d-d19a-403b-8ddf-fc44cf8d5462" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003329" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/0b48e71e-8f46-46d8-a545-608295f000ac" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002417" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par MGR360 à Microsoft :
+Informations fournies par MiHCM à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | MGR360 |
-| ID | WA200003329 |
+| Nom de l'application | Tzé |
+| ID | WA200002417 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | MGR360 |
-| Site web de l’entreprise | [https://mgr360.com](https://mgr360.com) |
-| Conditions d’utilisation de l’application | [https://mgr360.com/terms-and-conditions](https://mgr360.com/terms-and-conditions) |
-| Fonctionnalités principales de l’application | L’application pour les grands succès. Gérez les&#8217;de votre équipe, les tâches, les avis et les&#8230; en un seul endroit. |
-| Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
+| Nom de la société partenaire | MiHCM |
+| Site web de l’entreprise | [https://mihcm.com](https://mihcm.com) |
+| Conditions d’utilisation de l’application | [https://mia.work/terms-of-use](https://mia.work/terms-of-use) |
+| Fonctionnalités principales de l’application | L’Virtual Assistant Workplace permet à votre organisation de fournir un assistant virtuel à tous vos Microsoft Teams utilisateurs. Cet assistant de l’espace de travail sur Microsoft Teams permet à votre organisation d’augmenter la productivité, d’améliorer l’engagement des employés, l’exécution d’une multitude de demandes RH, les demandes de service liées au travail, le &amp; bien-être, etc. Il s’assure de l’implication des employés et de l’expérience transparente des employés pour les interactions/services RH. |
+| Emplacement du siège social de l’entreprise | Sri Lanka |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
@@ -52,7 +52,7 @@ Informations fournies par MGR360 à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par MGR360 sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par MiHCM sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -60,11 +60,11 @@ Ces informations ont été fournies par MGR360 sur la façon dont cette applicat
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
+| Quelles données sont stockées dans vos bases de données ? | Événements de calendrier utilisateur, fuseau horaire utilisateur |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Singapour |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
+| Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
 | Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
 
@@ -78,25 +78,25 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Effectuez-vous des tests de pénétration annuels sur l’application ? | Non |
-| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
+| Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
+| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
 | Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | ApplicationControls |
-| Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Non |
-| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Non |
-| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Non |
+| Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Oui |
+| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Oui |
+| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Oui |
 | Votre environnement a-t-il des systèmes d’exploitation ou des logiciels non pris en charge ? | Non |
 | Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et sur l’infastructure qui la prend en charge ? | Non |
 | Un pare-feu est-il installé sur la limite de votre réseau externe ? | Oui |
 | Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Oui |
 | Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? | Oui |
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
-| Authentification multifacteur (MFA) activée pour : |  |
+| Authentification multifacteur (MFA) activée pour : | CodeRepositories, DNSManagement, Credential |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
 | Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | S/O |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
-| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Non|
+| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Non |
-| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Non |
+| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Oui |
 | Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
 | Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
 
@@ -108,9 +108,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | Oui |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
@@ -119,7 +119,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Date de certification SOC3 la plus récente | |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
@@ -137,16 +137,17 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Non |
-| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Non |
+| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Oui |
+| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
+| URL de la politique de confidentialité | https://mia.work/privacy-policy |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? | Non |
 | L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
 | Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
 | L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? | Non |
-| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | Non |
-| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Non |
-| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | Non |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | Non |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | Oui |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Oui |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | Oui |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -158,10 +159,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
-| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
+| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
-| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Non |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
+| Liste des types de stratégies pris en charge | L’application se fédéré avec Azure AD, afin que toutes les règles d’accès conditionnel soient utilisées. |
+| Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Oui |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
@@ -169,7 +171,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
 >|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | les deux | Activer l’application pour créer, lire et mettre à jour des événements de calendrier et s’intégrer à Teams |
+>| User.Read | délégué | Pour identifier de manière unique un utilisateur |
+>| Group.Read.All | délégué | Pour lire les tâches du Planificateur Microsoft de l’utilisateur |
+>| MailboxSettings.Read | application | Pour lire le fuseau horaire de l’utilisateur |
+>| Calendars.Read | application | Pour lire les événements de calendrier programmés de l’utilisateur |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

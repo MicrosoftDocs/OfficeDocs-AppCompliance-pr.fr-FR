@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications SaaS - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/10/2021
+ms.date: 12/20/2021
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 2a9bab81bc6786c4e3b8c49e7119f6993ebc449e
-ms.sourcegitcommit: e3daf82725ca37fec97f5ff639b6a9c2d5365c85
+ms.openlocfilehash: cd88d3f0d6a4e4edeb82a7ebd875a440768afc83
+ms.sourcegitcommit: 287c15520b2d24d1b150c144ee8001b713b0aa8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61420772"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "61590611"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sécurité et conformité des applications SaaS
 
@@ -21,16 +21,19 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Centre de contacts pour les Teams](./geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md) | Geomant-Algotech Zrt. | **✓** |  |
+| [CC4Teams](./cc4all-cc4teams.md) | CC4ALL | **✓** |  |
 | [Classroom.cloud](./netsupport-ltd-classroomcloud.md) | NETUPPORT LTD. | **✓** |  |
 | [Sauvegarde cloud pour Microsoft Office 365](./avepoint-inc-cloud-backup-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [CodeTwo Email Signatures for Office 365](./codetwo-email-signatures-for-office-365.md) | CodeTwo | **✓** |  |
 | [Competella Communication Suite](./competella-ab-communication-suite.md) | Competella AB | **✓** |  |
 | [S’il s’est choisi de contenu](./officeatwork-content-chooser.md) | officeatwork | **✓** |  |
 | [Designer](./officeatwork-designer.md) | officeatwork | **✓** |  |
+| [EmailNotes for Outlook](./standss-south-pacific-pte-limited-emailnotes-for-outlook.md) | Stands (Pacifique sud) PTE limité | **✓** |  |
 | [IGlobe CRM Office 365 for Microsoft 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** |  |
 | [S chooser d’image](./officeatwork-image-chooser.md) | officeatwork | **✓** |  |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [LMS365](./elearningforce-international-aps-lms365.md) | ELEARNINGFORCE International Aps | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Enregistrement de conformité Luware pour Microsoft Teams](./luware-ag-compliance-recording-for-microsoft-teams.md) | Luware AG | **✓** |  |
 | [Luware Nimbus pour Microsoft Teams](./luware-ag-nimbus-for-microsoft-teams.md) | Luware AG | **✓** |  |
 | [MIPA - Mon Assistant personnel intelligent](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [MyHub pour Teams](./avepoint-inc-myhub-for-teams.md) | AvePoint Inc. | **✓** |  |
@@ -40,7 +43,6 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Stratégies &amp; Informations pour Microsoft Office 365](./avepoint-inc-policies-and-insights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
-| [SendGuard pour M365](./standss-south-pacific-pte-limited-sendguard-for-m365.md) | Stands (Pacifique sud) PTE limité | **✓** |  |
 | [S’il s’il s’est choisi](./officeatwork-slide-chooser.md) | officeatwork | **✓** |  |
 | [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** |  |
 | [Template Chooser Browser](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** |  |
