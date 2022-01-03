@@ -2,24 +2,23 @@
 title: Informations sur l’application pour iGlobe CRM Teams par iGlobe
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/06/2021
+ms.date: 12/19/2021
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour iGlobe CRM pour Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 50a591bbbf634a69b0684ee7701987bd7b8eaad8
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 6aaeddce93a513ca22b0bf5c0b4fdf8b85a7830d
+ms.sourcegitcommit: b52a796899ec9fb4a27778773c1a1d5fb0c33610
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61354566"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "61662682"
 ---
 # <a name="iglobe-crm-for-teams"></a>iGlobe CRM pour Teams
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 6, 2021</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Last updated by the developer on: December 9, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/f708066c-137d-41a1-a88b-a6f3ae8982e2" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381421" target="_blank">Afficher dans AppSource</a>
@@ -34,7 +33,7 @@ Informations fournies par iGlobe à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | iGlobe CRM pour Teams |
 | ID | WA104381421 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | iGlobe |
 | Site web de l’entreprise | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Conditions d’utilisation de l’application | [https://iglobecrm.com/content/iglobe-crm-office-365-end-use...](https://iglobecrm.com/content/iglobe-crm-office-365-end-user-license-agreement) |
