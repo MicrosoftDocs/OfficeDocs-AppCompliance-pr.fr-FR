@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft SharePoint - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/03/2022
+ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft SharePoint.
 localization_priority: Normal
-ms.openlocfilehash: 70f373ee0426bda09802a669ba67c180cd820a00
-ms.sourcegitcommit: 11ec7246fa8e1052155e98a0bff51d32e58ea2cf
+ms.openlocfilehash: 11bb7ec222b8abefd4ee0d1858d3472da17767cd
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "61711349"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61786082"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft SharePoint
 
@@ -33,3 +33,4 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [officeatwork | S’il s’SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** |  |
 | [Power BI Collaboration](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
 | [Réservation d’événements plus intelligente](./smarter-business-solutions-gmbh-event-booking.md) | Solutions métiers plus intelligentes | **✓** |  |
+| [Taxonomie](./accuracy-software-inc-taxonomy.md) | Accuracy Software Inc. | **✓** |  |
