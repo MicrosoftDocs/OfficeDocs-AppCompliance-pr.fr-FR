@@ -1,27 +1,27 @@
 ---
-title: Informations sur l’application pour officeatwork | S’il s’Outlook contenu par officeatwork
+title: Informations sur l’application pour officeatwork | Signature électronique pour Outlook par officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour officeatwork | S’il s’Outlook contenu, ses stratégies de gestion des données, ses Microsoft Cloud App Security catalogue d’applications et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour officeatwork | Signature électronique pour Outlook, ses stratégies de gestion des données, ses informations Microsoft Cloud App Security catalogue d’applications et informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 407167303a549e94f5e68e184243bd7137461823
+ms.openlocfilehash: 9c2b253c143a1efa249f0e4ea14387664bb68834
 ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/12/2022
-ms.locfileid: "61788084"
+ms.locfileid: "61788509"
 ---
-# <a name="officeatwork--content-chooser-for-outlook"></a>officeatwork | S’il s’Outlook
+# <a name="officeatwork--mail-signature-for-outlook"></a>officeatwork | Signature électronique pour Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 7, 2022</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104380690" target="_blank">Afficher dans AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003062" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
@@ -31,13 +31,13 @@ Informations fournies par officeatwork à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | officeatwork - S’il s’il s’Outlook |
-| ID | WA104380690 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
+| Nom de l'application | officeatwork - Signature de courrier pour Outlook |
+| ID | WA200003062 |
+| Office 365 clients pris en charge | Outlook 2016 ou une ultérieure sur Windows, Outlook sur le web |
 | Nom de la société partenaire | officeatwork |
 | Site web de l’entreprise | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Conditions d’utilisation de l’application | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Fonctionnalités principales de l’application | Accédez à votre contenu partagé de manière centralisée dans Word, Excel, PowerPoint, Outlook, Navigateur et autres applications. |
+| Fonctionnalités principales de l’application | Signatures de courrier, simples et sécurisées, gérées de manière centralisée, &amp; personnalisées au sein de l’organisation. |
 | Emplacement du siège social de l’entreprise | Suisse |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
@@ -164,7 +164,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Liste des types de stratégies pris en charge | Paramètres de sécurité par défaut |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Oui |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
-| Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Oui |
+| Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -173,12 +173,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 >| openid | délégué | Activer la sign-in |
 >| profil | délégué | Activer la sign-in |
 >| offline_access | délégué | Activer la sign-in automatisée pour les hôtes Office plus anciens |
->| User.Read | délégué | Activer l’affichage de l’utilisateur inscrit |
->| Files.ReadWrite.All | délégué | Activer la fonctionnalité Favoris et OneDrive de l’utilisateur |
->| Group.ReadWrite.All | délégué | Activer la fonctionnalité Teams de l’utilisateur |
->| User.Read.All | délégué | Activer l’affichage des propriétés utilisateur |
->| Sites.Read.All | délégué | Lire les fichiers de modèles d’utilisateurs stockés dans SharePoint |
->| GroupMember.Read.All | délégué | Activer la fonctionnalité Teams de l’utilisateur |
+>| User.Read | délégué | Activer l’affichage de l’utilisateur inscrit, activer les signatures de courrier dynamiques avec les propriétés de l’utilisateur |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
