@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/03/2022
+ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: b04cd8f6b5b8ef38742026e9077f53672942e6be
-ms.sourcegitcommit: 11ec7246fa8e1052155e98a0bff51d32e58ea2cf
+ms.openlocfilehash: f1eb03e02f9c26bcdad7c9d2e1194cd33cfb3c5e
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "61711348"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61787787"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -46,6 +46,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [AtBot](./h3-solutions-inc-atbot.md) | H3 Solutions, Inc. | **✓** |  |
 | [AttendanceBot](./anaek-attendancebot.md) | Anaek | **✓** |  |
 | [Attensa](./attensa-corporation.md) | Attensa Corporation | **✓** |  |
+| [AuditBoard](./auditboard.md) | AuditBoard | **✓** |  |
 | [Aula Digital](./leya-sa-aula-digital.md) | Leya, S.A. | **✓** |  |
 | [Avaamo IT Assistant](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
 | [Axelleron](./axelleron.md) | Axelleron | **✓** |  |
@@ -70,7 +71,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Broadcast](./cerkl-broadcast.md) | Cerkl | **✓** |  |
 | [Brochesia](./brochesia.md) | Brochesia | **✓** |  |
 | [Panneau d'affichage – NextSet](./nextsetinc-bulletin-board-nextset.md) | NextSet, Inc. | **✓** |  |
-| [Bot C.AI d’adoption](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** |  |
+| [Bot C.AI d’adoption](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [BOT Calendrier](./approved-contact-calendar-bot.md) | Contact approuvé | **✓** |  |
 | [Calendrier Pro](./witivio-calendar-pro.md) | Witivio | **✓** |  |
 | [Contrôle de validité](./yattee-inc-canary.md) | YATTEE Inc. | **✓** |  |
@@ -85,7 +86,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Cloud Effective](./cloud-effective.md) | Cloud Effective | **✓** |  |
 | [Cloud Hub](./atwork-gmbh-cloud-hub.md) | atwork GmbH | **✓** |  |
 | [CloudLabs](./spektra-systems-llc-cloudlabs.md) | Spektra Systems LLC | **✓** |  |
-| [COCO](./hexaware-technologies-ltd-coco.md) | Hexaware Technologies Ltd. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [COCO](./hexaware-technologies-ltd-coco.md) | Hexaware Technologies Ltd. | **✓** |  |
 | [CodeStream](./codestream.md) | CodeStream | **✓** |  |
 | [CoffeePals](./carnduff-co-coffeepals.md) | Carnduff Co | **✓** |  |
 | [Collection Pot](./gifted-to-you-limited-collection-pot.md) | Gifted to You Limited | **✓** |  |
@@ -141,12 +142,14 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [ezTeam](./enterprizid-inc-ezteam.md) | EnterprizID Inc | **✓** |  |
 | [Fabasoft Cloud](./fabasoft-austria-gmbh-cloud.md) | Fabasoft Austria GmbH | **✓** |  |
 | [FactSet](./factset-research-systems-inc.md) | FactSet Research Systems Inc. | **✓** |  |
+| [FastOrg](./fastorg.md) | &#38182;&#33909;&#26032;&#38451;&#65288;&#22825;&#27941;&#65289;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [Fellow](./fellow-insights-inc.md) | Fellow Insights Inc | **✓** |  |
 | [Fifty](./fifty.md) | Fifty | **✓** |  |
 | [File Fabric](./storage-made-easy-file-fabric.md) | Storage Made Easy | **✓** |  |
 | [Fireflies AI](./firefliesai-fireflies-ai.md) | Fireflies.ai | **✓** |  |
 | [FireWatch](./infographics-uk-ltd-firewatch.md) | Infographies UK Ltd. | **✓** |  |
 | [FaqQast](./floqast.md) | FaqQast | **✓** |  |
+| [Fond](./fond-technologies-inc.md) | Fond Technologies, Inc. | **✓** |  |
 | [ForceManager CRM](./tritium-software-sl-forcemanager-crm.md) | Tritium Software SL | **✓** |  |
 | [FormMachines](./enterprise-digital-machines-formmachines.md) | Entreprise d’ordinateurs numériques | **✓** |  |
 | [Main levée par InVision](./invisionapp-inc-freehand-by-invision.md) | InVisionApp Inc. | **✓** |  |
@@ -167,11 +170,14 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Health Hero](./health-hero.md) | Health Hero | **✓** |  |
 | [Heedify](./heedify.md) | Heedify | **✓** |  |
 | [HelloTeam](./helloteam-inc.md) | HelloTeam Inc. | **✓** |  |
+| [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  |
 | [hi Digital Coach](./digital-attitude-srl-hi-coach.md) | Digital Attitude Srl | **✓** |  |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  |
 | [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
 | [Highspot](./highspot.md) | Highspot | **✓** |  |
 | [Hive](./hive.md) | Ruche | **✓** |  |
+| [Hugo](./hugo.md) | Hugo | **✓** |  |
+| [huminos](./soe-technologies-huminos.md) | SOE Technologies | **✓** |  |
 | [Humu](./humu-inc.md) | Humu Inc. | **✓** |  |
 | [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  |
 | [iGlobe CRM pour Teams](./iglobe-crm-for-teams.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -235,7 +241,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Mybys](./facilis-mybys.md) | Facilis | **✓** |  |
 | [Myfone](./flexfone-myfone.md) | Flexfone | **✓** |  |
 | [MyHub](./avepoint-inc-myhub.md) | AvePoint, Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [myOKR](./soe-technologies-myokr.md) | SOE Technologies | **✓** |  |
 | [MyWorkDrive](./myworkdrive.md) | MyWorkDrive | **✓** |  |
 | [Cloué](./nailted-app-sl.md) | NAILTED APP S.L. | **✓** |  |
 | [Natterhub](./natterhub.md) | Natterhub | **✓** |  |
@@ -247,6 +252,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [NickNack](./nicknack-ltd.md) | NickNack Ltd. | **✓** |  |
 | [surnom par les jeux flow](./room6-nickname-by-flowrish-games.md) | room6 | **✓** |  |
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  |
+| [O2S - Office2SharePoint](./iglobe-o2s-office2sharepoint.md) | iGlobe | **✓** |  |
 | [OfficeAmp](./anaek-inc-officeamp.md) | Anaek Inc | **✓** |  |
 | [OfficeRnD Hybrid Work](./officernd-hybrid-work.md) | OfficeRnd | **✓** |  |
 | [OfficeSpace](./officespace-software.md) | Logiciel OfficeSpace | **✓** |  |
@@ -256,6 +262,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Onsight Connect](./librestream-onsight-connect.md) | Librestream | **✓** |  |
 | [Optmyzr](./optmyzr.md) | Optmyzr | **✓** |  |
 | [Org@Work](./lundano-org@work.md) | Lundano | **✓** |  |
+| [PA PEOPLE](./pa-people.md) | &#26666;&#24335;&#20250;&#31038;APPLICATION DE TÉLÉPHONE | **✓** |  |
 | [Notificateur de package](./qburst-technologies-pvt-ltd-package-notifier.md) | QBURST TECHNOLOGIES PVT LTD | **✓** |  |
 | [PagerDuty](./pagerduty-inc.md) | PagerDuty, Inc. | **✓** |  |
 | [PandaDoc](./pandadoc.md) | PandaDoc | **✓** |  |
@@ -273,6 +280,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Powow](./powow-ai.md) | Powow AI | **✓** |  |
 | [Présentations IA](./infographfx-technologies-presentations-ai.md) | Technologies Infographfx | **✓** |  |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Proconnect pour Sitecore](./subramanian-ramanathan-proconnect-for-sitecore.md) | Ramanathan subramanien | **✓** |  |
 | [ProdBot](./prodoscore-prodbot.md) | Prodoscore | **✓** |  |
 | [Project Migrator](./fluentpro-software-corporation-project-migrator.md) | FluentPro Software Corporation | **✓** |  |
 | [Projectplace](./planview-inc-projectplace.md) | Planview, Inc. | **✓** |  |
@@ -297,7 +305,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Saberr](./saberr.md) | Saberr | **✓** |  |
 | [Safe Spaces](./ecare-vault-inc-safe-spaces.md) | eCare Vault Inc. | **✓** |  |
 | [Sailpoint](./sailpoint-technologies-inc.md) | SailPoint Technologies, Inc. | **✓** |  |
-| [SalesTim](./salestim.md) | SalesTim | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [SalesTim](./salestim.md) | SalesTim | **✓** |  |
 | [Jour de classe](./school-day-helsinki-oy.md) | School Day Helsinki Oy | **✓** |  |
 | [SEFOS](./meaplus-ab-sefos.md) | Meaplus AB | **✓** |  |
 | [SelfDrvn](./selfdrvn.md) | SelfDrvn | **✓** |  |
@@ -326,9 +334,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Sociabble](./sociabble.md) | Sociabble | **✓** |  |
 | [Causes sociales](./oktopost-social-advocacy.md) | Oktopost | **✓** |  |
 | [Spatial Standup](./high-fidelity-inc-spatial-standup.md) | High Fidelity Inc | **✓** |  |
-| [Spinify](./spinify.md) | Spinify | **✓** |  |
 | [SQQ](./superquickquestion-sqq.md) | SuperQuickQuestion | **✓** |  |
-| [Stack Overflow pour Teams](./stack-overflow-for-teams.md) | Stack Overflow | **✓** |  |
 | [StaffCircle](./staffcircle.md) | StaffCircle | **✓** |  |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  |
 | [Autonome](./standuply-inc.md) | Standuply Inc. | **✓** |  |
@@ -339,6 +345,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Studi.ly](./inlogic-office-store-studily.md) | inLogic-Office Store | **✓** |  |
 | [Stylebot](./stylebot-inc.md) | Stylebot Inc | **✓** |  |
 | [SuitePro-G](./iqar-suitepro-g.md) | IQar | **✓** |  |
+| [Assistant Somme](./summize-ltd-assistant.md) | Summize (Ltd) | **✓** |  |
 | [SuperBeings](./haptivity-technologies-pvt-ltd-superbeings.md) | JiJi Technologies Pvt Ltd | **✓** |  |
 | [SuperOffice](./superoffice-infobridge-software.md) | Logiciel InfoBridge SuperOffice | **✓** |  |
 | [SurveyMonkey](./surveymonkey.md) | SurveyMonkey | **✓** |  |
@@ -390,7 +397,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [UserVoice](./uservoice.md) | UserVoice | **✓** |  |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  |
 | [Verto 365](./tmi-systems-verto-365.md) | Systèmes TMI | **✓** |  |
-| [Viima](./viima-solutions-oy.md) | Viima Solutions Oy | **✓** |  |
 | [VisualSP](./visualsp.md) | VisualSP | **✓** |  |
 | [Vizito](./vizito-bv.md) | Vizito BV | **✓** |  |
 | [Vocean](./vocean-ab.md) | Vocean AB | **✓** |  |
