@@ -2,17 +2,17 @@
 title: 'Microsoft Word sécurité et conformité des applications : toutes les applications'
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/17/2022
+ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les Microsoft Word applications.
 localization_priority: Normal
-ms.openlocfilehash: 9f1a7da8bf8caac6329d9765c051d2fdb7e75233
-ms.sourcegitcommit: 23ef75d7c108123853d76b1f80492a2f479c8aeb
+ms.openlocfilehash: 6667d3952448de13f9e12b7973825235f8bbaee0
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2022
-ms.locfileid: "62067230"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62144521"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word sécurité et conformité des applications
 
@@ -22,18 +22,28 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign pour Word et PowerPoint](./adobe-inc-sign-for-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [AuditBoard Add-in](./auditboard-inc-add-in.md) | Auditboard, Inc. | **✓** |  |
+| [Citasion](./citasion-llc.md) | Citasion LLC | **✓** |  |
 | [CocoFax : envoi de télécopies faciles à &amp; sécuriser](./cocofax-sending-fax-made-easy-and-secure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
 | [Excel-to-Word Document Automation](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
+| [Fabasoft Cloud Office Add-in](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
 | [harmon.ie pour Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Signatures d’impression](./impression-signatures.md) | Signatures d’impression | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
 | [Loio Contract Review Software](./loio-inc-contract-review-software.md) | Loio Inc. | **✓** |  |
 | [Mendeley Cit](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
+| [neopolis](./neopolis-gmbh.md) | neopolis | **✓** |  |
 | [Office2SharePoint pour Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | S’il s’Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | Concepteur pour Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | S chooser d’image Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | S’il s’Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | Uploader pour Office](./officeatwork-officeatworkuploader-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Verifier for Office](./officeatwork-officeatworkverifier-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | Assistant pour Office](./officeatwork-officeatworkwizard-for-office.md) | officeatwork | **✓** |  |
 | [RetMig &amp; Kommaforslag](./grammarsoft-aps-retmig-and-kommaforslag.md) | GrammarSoft ApS | **✓** |  |
 | [SmartCite pour les documents](./digital-science-smartcite-for-papers.md) | Digital Science | **✓** |  |
+| [Stilus pour Word](./meaningcloud-stilus-for-word.md) | MeaningCloud | **✓** |  |
 | [Documents TaxKit](./taxyio-gmbh-taxkit-docs.md) | Taxy.io GmbH | **✓** |  |
 | [TerMef](./mondeca-termef.md) | Mondeca | **✓** |  |
 | [xLaw : système de gestion des connaissances](./evertn-xlaw-knowledge-management-system.md) | evertn | **✓** |  |

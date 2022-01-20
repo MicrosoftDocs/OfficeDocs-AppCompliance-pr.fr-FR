@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Biz-Oin, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b8fed8a911a6e31b6f99b291c72b1746c57f8664
-ms.sourcegitcommit: b0bc806a1e2b0d157eea62dec843e02d302b2c16
+ms.openlocfilehash: 2c551dc467d6c4e5934daa14c50f840d3b6c697e
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62078683"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62144091"
 ---
 # <a name="biz-oin"></a>Biz-Oin
 
@@ -143,10 +143,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
 | Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
 | L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? | Non |
-| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | Non |
-| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Non |
-| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | Non |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | Non |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? |  |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? |  |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? |  |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

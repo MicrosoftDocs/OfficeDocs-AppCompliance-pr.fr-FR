@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Jira Cloud pour Excel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 19b53d36151c1397b1789060423f810a6ccc18c7
-ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
+ms.openlocfilehash: a4344835037634e7abde8b2ffc5406f0ae6b46c3
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60682334"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62146481"
 ---
-# <a name="jira-cloud-for-excel"></a>Jira Cloud for Excel
+# <a name="jira-cloud-for-excel"></a>Jira Cloud pour Excel
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -29,9 +29,9 @@ ms.locfileid: "60682334"
 
 Informations fournies par Atlassian.com à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | Jira Cloud for Excel |
+| Nom de l'application | Jira Cloud pour Excel |
 | ID | WA200000556 |
 | Office 365 clients pris en charge | Excel 2016 ou une ultérieure sur Mac, Excel 2016 ou une Windows, Excel sur le Web |
 | Nom de la société partenaire | Atlassian.com |
@@ -53,7 +53,7 @@ Informations fournies par Atlassian.com à Microsoft :
 
 Ces informations ont été fournies par Atlassian.com sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
@@ -71,13 +71,13 @@ Ces informations ont été fournies par Atlassian.com sur la façon dont cette a
 
 ::: zone pivot="security"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
 | L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
-| Votre environnement utilise-t-il une protection anti-programme malveillant classique ou des contrôles d’application ? | TraditionalAntiMalware, ApplicationControls |
+| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | TraditionalAntiMalware, ApplicationControls |
 | Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Oui |
 | Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Oui |
 | Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Oui |
@@ -89,13 +89,13 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
 | Authentification multifacteur (MFA) activée pour : | Credential, DNSManagement, CodeRepositories |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite réseau qui permet de soutenir votre application ? | S/O |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | S/O |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
 | Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
 | Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Oui |
 | Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
-| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes concernées par la violation dans les 72 heures qui s’s’y sont produits ?| |
+| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,7 +103,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ::: zone pivot="compliance"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | Non |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | Non |
@@ -132,7 +132,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ::: zone pivot="privsection"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Non |
 | L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Non |
@@ -140,10 +140,10 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 | L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
 | Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
 | L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? | Non |
-| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | Non |
-| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Non |
-| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | Non |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | Non |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? |  |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? |  |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? |  |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -151,7 +151,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |

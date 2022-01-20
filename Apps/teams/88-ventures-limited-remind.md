@@ -6,14 +6,14 @@ ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Remind, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Le rappel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 94c70633add16eaaef067f8232328ab449d8a2ff
-ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
+ms.openlocfilehash: c65bd6433972a7014c6fa8853d2f5651891db5f7
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60719126"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62144901"
 ---
 # <a name="remind"></a>Rappeler
 
@@ -30,7 +30,7 @@ ms.locfileid: "60719126"
 
 Informations fournies par 88 personnes limitées à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Rappeler |
 | ID | WA200001444 |
@@ -42,7 +42,7 @@ Informations fournies par 88 personnes limitées à Microsoft :
 | Emplacement du siège social de l’entreprise | Hong Kong |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Autre |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Autres |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -54,14 +54,14 @@ Informations fournies par 88 personnes limitées à Microsoft :
 
 Ces informations ont été fournies par 88 Contrôles Limited sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | GUID d’utilisateur et noms d’utilisateurs lors de la rappel à d’autres utilisateurs |
 | Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Allemagne |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Non conservé |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Éléments non conservés |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
 | Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
@@ -72,9 +72,9 @@ Ces informations ont été fournies par 88 Contrôles Limited sur la façon dont
 
 ::: zone pivot="security"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
 | L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
@@ -104,7 +104,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ::: zone pivot="compliance"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | Non |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | Non |
@@ -120,7 +120,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
-| Le programme FedRAMP (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
+| Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Non |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | Non |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Non |
@@ -133,7 +133,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ::: zone pivot="privsection"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Non |
 | L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Non |
@@ -141,10 +141,10 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 | L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
 | Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
 | L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? | Non |
-| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | Non |
-| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Non |
-| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | Non |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | Non |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? |  |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? |  |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? |  |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -152,9 +152,9 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès à l’API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -165,7 +165,7 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph Autorisation**  | **Type d’autorisation** |          **Justification**          |
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
 >|:------------------------|:--------------------|:------------------------------------|
 >| Directory.Read.All | délégué | Utilisé lorsqu’un administrateur recherche des utilisateurs pour les attribuer à des licences. L’utilisation de cette fonctionnalité est entièrement facultative et n’est pas requise lors de l’utilisation normale de l’application. |
 
