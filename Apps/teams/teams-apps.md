@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: d01321194682ad4c5a0e52f28f0e49f9c6ed533f
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 48713c077434a49b3af22ae87eff1399ade5bf0b
+ms.sourcegitcommit: 2aa786d5bf1f93ef63b80f04bff99434d2246d92
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/20/2022
-ms.locfileid: "62143631"
+ms.locfileid: "62157209"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -168,6 +168,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [GroupLotse](./controlex-gmbh-grouplotse.md) | controlex GmbH | **✓** |  |
 | [Gtmhub](./gtmhub.md) | Gtmhub | **✓** |  |
 | [GuideSpark Communicate Cloud](./guidespark-communicate-cloud.md) | GuideSpark | **✓** |  |
+| [GuineaPig](./guineapig-health-technologies-ab.md) | Technologies d’intégrité AB GuineaPig | **✓** |  |
 | [Guru](./guru-technologies.md) | Guru Technologies | **✓** |  |
 | [Health Hero](./health-hero.md) | Health Hero | **✓** |  |
 | [Heedify](./heedify.md) | Heedify | **✓** |  |
@@ -398,6 +399,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [UserVoice](./uservoice.md) | UserVoice | **✓** |  |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  |
 | [Verto 365](./tmi-systems-verto-365.md) | Systèmes TMI | **✓** |  |
+| [Vibe](./vibe-inc.md) | Vibe Inc | **✓** |  |
 | [VisualSP](./visualsp.md) | VisualSP | **✓** |  |
 | [Vizito](./vizito-bv.md) | Vizito BV | **✓** |  |
 | [Vocean](./vocean-ab.md) | Vocean AB | **✓** |  |
