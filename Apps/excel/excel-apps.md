@@ -2,17 +2,17 @@
 title: 'Microsoft Excel conformité et sécurité des applications : toutes les applications'
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/24/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les Microsoft Excel applications.
 localization_priority: Normal
-ms.openlocfilehash: 078b0c75b0ff931f717c640fb389ebac17bedfc8
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 9adc14a5dfd4ae8c8b08330703e02e33265f38a0
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/25/2022
-ms.locfileid: "62195751"
+ms.locfileid: "62209943"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel sécurité et conformité des applications
 
@@ -29,9 +29,9 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Jira Cloud pour Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |
 | [MeaningCloud Text Analytics pour Excel](./meaningcloud-text-analytics-for-excel.md) | MeaningCloud | **✓** |  |
 | [Office2SharePoint pour Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | S’il s’Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | S chooser d’image Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | S’il s’Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | S’il s’Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | S chooser d’image Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | S’il s’Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [QuickCells Graphs](./cc-1c-quickcells-graphs.md) | CC-1C | **✓** |  |
 | [Solveurs QuickCells](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |
 | [Report Builder](./adobe-inc-report-builder.md) | Adobe Inc. | **✓** |  |

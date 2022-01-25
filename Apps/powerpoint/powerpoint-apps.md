@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft PowerPoint - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/24/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft PowerPoint.
 localization_priority: Normal
-ms.openlocfilehash: 6d88e3741842a585af474310628b76179ceade4c
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 22aa0eb20aedc94b6407f6bf5610d76aff8cac68
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/25/2022
-ms.locfileid: "62195741"
+ms.locfileid: "62210413"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft PowerPoint
 
@@ -24,9 +24,9 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Excel-to-Word Document Automation](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [harmon.ie pour Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Office2SharePoint pour Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | S’il s’Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | S chooser d’image Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | S’il s’Office](./officeatwork-officeatworkslide-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | S’il s’Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | S’il s’Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | S chooser d’image Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | S’il s’Office](./officeatwork-officeatworkslide-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | S’il s’Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Showmaster (plug-in d’aide)](./cherryware-showmaster-helper-plugin.md) | ware | **✓** |  |
 | [SlideHub](./nomorehours-slidehub.md) | nomorehours | **✓** |  |

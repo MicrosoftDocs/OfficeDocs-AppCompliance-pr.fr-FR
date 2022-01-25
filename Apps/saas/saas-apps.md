@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications SaaS - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/24/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 55ed6d30fca77164efa213a7e6080dc8bb85c50d
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: a6e6ffdf33efc059d20c42db233b2384a1fd42e0
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/25/2022
-ms.locfileid: "62197921"
+ms.locfileid: "62209573"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sécurité et conformité des applications SaaS
 
@@ -20,20 +20,20 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Centre d’administration](./officeatwork-admin-center.md) | officeatwork | **✓** |  |
+| [Centre d’administration](./officeatwork-admin-center.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Centre de contacts pour les Teams](./geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md) | Geomant-Algotech Zrt. | **✓** |  |
 | [CC4Teams](./cc4all-cc4teams.md) | CC4ALL | **✓** |  |
 | [Classroom.cloud](./netsupport-ltd-classroomcloud.md) | NETUPPORT LTD. | **✓** |  |
 | [Sauvegarde cloud pour Microsoft Office 365](./avepoint-inc-cloud-backup-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [CodeTwo Email Signatures for Office 365](./codetwo-email-signatures-for-office-365.md) | CodeTwo | **✓** |  |
 | [Competella Communication Suite](./competella-ab-communication-suite.md) | Competella AB | **✓** |  |
-| [S’il s’est choisi de contenu](./officeatwork-content-chooser.md) | officeatwork | **✓** |  |
-| [Navigateur de s’il s’est choisi de contenu](./officeatwork-content-chooser-browser.md) | officeatwork | **✓** |  |
-| [Designer](./officeatwork-designer.md) | officeatwork | **✓** |  |
+| [S’il s’est choisi de contenu](./officeatwork-content-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Navigateur de s’il s’est choisi de contenu](./officeatwork-content-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Designer](./officeatwork-designer.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Emailgistics](./emailgistics-corp.md) | Emailgistics Corp. | **✓** |  |
 | [EmailNotes for Outlook](./standss-south-pacific-pte-limited-emailnotes-for-outlook.md) | Stands (Pacifique sud) PTE limité | **✓** |  |
 | [IGlobe CRM Office 365 for Microsoft 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [S chooser d’image](./officeatwork-image-chooser.md) | officeatwork | **✓** |  |
+| [S chooser d’image](./officeatwork-image-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [LMS365](./elearningforce-international-aps-lms365.md) | ELEARNINGFORCE International Aps | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Enregistrement de conformité Luware pour Microsoft Teams](./luware-ag-compliance-recording-for-microsoft-teams.md) | Luware AG | **✓** |  |
@@ -48,10 +48,10 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Stratégies &amp; Informations pour Microsoft Office 365](./avepoint-inc-policies-and-insights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
-| [S’il s’il s’est choisi](./officeatwork-slide-chooser.md) | officeatwork | **✓** |  |
-| [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** |  |
-| [Template Chooser Browser](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** |  |
-| [Téléchargeur](./officeatwork-uploader.md) | officeatwork | **✓** |  |
-| [Verifier](./officeatwork-verifier.md) | officeatwork | **✓** |  |
+| [S’il s’il s’est choisi](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Template Chooser Browser](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Téléchargeur](./officeatwork-uploader.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Verifier](./officeatwork-verifier.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Idées larges : logiciels d’innovation](./wide-ideasidea2innovation-ideas-innovation-software.md) | Wide Ideas/Idea2Innovation | **✓** |  |
-| [Assistant](./officeatwork-wizard.md) | officeatwork | **✓** |  |
+| [Assistant](./officeatwork-wizard.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

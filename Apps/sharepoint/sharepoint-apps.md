@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft SharePoint - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/24/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft SharePoint.
 localization_priority: Normal
-ms.openlocfilehash: d301169d292a77c6613f3a2698fe647cea899fb3
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: d80c7fa0e410e8315eeeea4ca7e2cd77b22febfd
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/25/2022
-ms.locfileid: "62195691"
+ms.locfileid: "62205775"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft SharePoint
 
@@ -24,14 +24,14 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [ArcGIS pour SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
 | [Système de gestion des offres](./beyond-technologies-bid-management-system.md) | Au-delà des technologies | **✓** |  |
 | [Bizagi Webparts](./bizagi-team-webparts.md) | Bizagi, équipe | **✓** |  |
-| [Connecteur FormMachines pour SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | ENTERPRISE DIGITAL MACHINES PTY LTD | **✓** |  |
+| [Connecteur FormMachines pour SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | ENTERPRISE DIGITAL MACHINES PTY LTD | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [HelloSign for SharePoint](./dropbox-inc-hellosign-for-sharepoint.md) | Dropbox Inc. | **✓** |  |
 | [Modules add-ons iGlobe CRM](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [IGlobe CRM Office 365 for Microsoft Office 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Konnect eMail Parser](./konnect-email-parser.md) | Konnect eMail | **✓** |  |
 | [Connexions LifeWorksWorks](./lifeworks-inc-viva-connections.md) | Lifeworks Inc | **✓** |  |
 | [Flash d’outils - Flash](./lightning-tools-conductor.md) | Outils De flash | **✓** |  |
-| [officeatwork | S’il s’SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** |  |
+| [officeatwork | S’il s’SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Power BI Collaboration](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
 | [Réservation d’événements plus intelligente](./smarter-business-solutions-gmbh-event-booking.md) | Solutions métiers plus intelligentes | **✓** |  |
 | [Taxonomie](./accuracy-software-inc-taxonomy.md) | Accuracy Software Inc. | **✓** |  |
