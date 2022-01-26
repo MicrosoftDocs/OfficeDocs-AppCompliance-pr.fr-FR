@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour LMS365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5e56e6890c38bc6896115c1e4a2c5b10a93f7c9b
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: 62a9a18b43a1740b8b83b59edac5051824c43266
+ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61787807"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62222509"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -28,7 +28,7 @@ ms.locfileid: "61787807"
 
 Informations fournies par ELEARNINGFORCE International Aps à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | LMS365 |
 | ID | elearningforce.lms365_spfx |
@@ -50,7 +50,7 @@ Informations fournies par ELEARNINGFORCE International Aps à Microsoft :
 
 Ces informations ont été fournies par ELEARNINGFORCE International Aps sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
@@ -70,7 +70,7 @@ Ces informations ont été fournies par ELEARNINGFORCE International Aps sur la 
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
 | L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
@@ -100,7 +100,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="compliance"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
@@ -112,7 +112,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Non |
-| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
+| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
@@ -129,7 +129,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="privsection"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? |  |
 | L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? |  |
@@ -148,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |

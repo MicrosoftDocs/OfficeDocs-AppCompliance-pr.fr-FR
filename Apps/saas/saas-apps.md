@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications SaaS.
 localization_priority: Normal
-ms.openlocfilehash: a6e6ffdf33efc059d20c42db233b2384a1fd42e0
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: 5fc172fc809bb64777afec6d42fbe6ca96d5cdeb
+ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62209573"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62222574"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sécurité et conformité des applications SaaS
 
@@ -43,7 +43,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [MyHub pour Teams](./avepoint-inc-myhub-for-teams.md) | AvePoint Inc. | **✓** |  |
 | [Netkope pour Microsoft Teams](./netskope-for-microsoft-teams.md) | Netkope | **✓** |  |
 | [Office2SharePoint](./iglobe-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Office2SharePoint pour Teams](./iglobe-office2sharepoint-for-teams.md) | iGlobe | **✓** |  |
+| [Office2SharePoint pour Teams](./iglobe-office2sharepoint-for-teams.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Découverte d’onna pour MS365](./onna-discovery-for-ms365.md) | Onna | **✓** |  |
 | [Stratégies &amp; Informations pour Microsoft Office 365](./avepoint-inc-policies-and-insights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
