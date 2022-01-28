@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MyHub, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ad85daad3a14dd1afa42dd0050a10c9bdeab74a5
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 7086ba2566e0b3d44b8a30edcd43e4dce7eb9963
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62193581"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260783"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -107,7 +107,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
@@ -115,16 +115,16 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Date de certification SOC2 la plus récente |  2/9/2021 |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -167,20 +167,20 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Directory.Read.All | les deux | Récupérez la liste des objets de paramètre de groupe. Par exemple, partage externe classicfication, enableCreateGroup(application) et ainsi de suite. |
->| Group.ReadWrite.All | les deux | Créer un groupe, récupérer, ajouter ou supprimer l’appartenance à un groupe |
->| Mail.Send | délégué | Si l’utilisateur actuel souhaite rejoindre un groupe privé, nous enverrons une notification aux propriétaires du groupe. |
->| Sites.ReadWrite.All | délégué | suivre/ne pas suivre les sites |
->| Sites.Read.All | application | obtenir des informations de base sur le site |
->| User.Read.All | les deux | Délégué : obtenir la photo des utilisateurs ; Application : rechercher/résoudre des utilisateurs |
->| Sites.FullControl.All | application | créer ou supprimer des sites |
->| Reports.Read.All | application | obtenir un rapport d’utilisation de site/groupe |
->| email | délégué | SSO de l’application Teams |
->| openid | délégué | SSO de l’application Teams |
->| offline_access | délégué | SSO de l’application Teams |
->| profil | délégué | SSO de l’application Teams |
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.Read.All | les deux | Récupérez la liste des objets de paramètre de groupe. Par exemple, partage externe classicfication, enableCreateGroup(application) et ainsi de suite. | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Group.ReadWrite.All | les deux | Créer un groupe, récupérer, ajouter ou supprimer l’appartenance à un groupe | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Mail.Send | délégué | Si l’utilisateur actuel souhaite rejoindre un groupe privé, nous enverrons une notification aux propriétaires du groupe. | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Reports.Read.All | application | obtenir un rapport d’utilisation de site/groupe | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Sites.FullControl.All | application | créer ou supprimer des sites | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Sites.Read.All | application | obtenir des informations de base sur le site | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Sites.ReadWrite.All | délégué | suivre/ne pas suivre les sites | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| User.Read.All | les deux | Délégué : obtenir la photo des utilisateurs ; Application : rechercher/résoudre des utilisateurs | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| email | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| offline_access | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| openid | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| profil | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

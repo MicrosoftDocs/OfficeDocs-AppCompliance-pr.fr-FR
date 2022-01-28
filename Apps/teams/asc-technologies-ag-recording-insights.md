@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la Informations d’enregistrement ASC, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 23028cb70e0d93e3f086e499cd2b6595eeec932f
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 626de477768e85b62479862b53743e2ede42598a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155220"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260784"
 ---
 # <a name="asc-recording-insights"></a>ASC Recording Insights
 
@@ -108,25 +108,25 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -168,23 +168,23 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Chat.Read | délégué | Lire les messages de conversation de l’utilisateur |
->| User.Read | délégué | Activer la connexion et lire le profil utilisateur |
->| User.ReadBasic.All | délégué | Lire les profils de base de tous les utilisateurs |
->| Group.Read.All | délégué | Accéder en lecture à tous les groupes |
->| openid | délégué | Connecter des utilisateurs |
->| profil | délégué | afficher le profil de base des utilisateurs |
->| People.Read | délégué | Lire la liste des utilisateurs pertinents |
->| Contacts.Read | délégué | Accéder en lecture aux contacts utilisateur |
->| OnlineMeetings.Read.All | application | Lire les détails des réunions en ligne |
->| Calendars.Read | application | Lire des calendriers dans toutes les boîtes aux lettres |
->| Group.Read.All | application | Accéder en lecture à tous les groupes |
->| User.Read.All | application | Lire le profil complet de tous les utilisateurs |
->| ChannelMember.Read.All | application | Lire les membres de tous les canaux |
->| Chat.Read.All | application | Lire tous les messages de conversations. |
->| ChannelMessage.Read.All | application | Lire tous les messages du canal |
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | application | Lire des calendriers dans toutes les boîtes aux lettres | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| ChannelMember.Read.All | application | Lire les membres de tous les canaux | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| ChannelMessage.Read.All | application | Lire tous les messages du canal | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Chat.Read | délégué | Lire les messages de conversation de l’utilisateur | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Chat.Read.All | application | Lire tous les messages de conversations. | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Contacts.Read | délégué | Accéder en lecture aux contacts utilisateur | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Group.Read.All | délégué | Accéder en lecture à tous les groupes | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Group.Read.All | application | Accéder en lecture à tous les groupes | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| OnlineMeetings.Read.All | application | Lire les détails des réunions en ligne | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| People.Read | délégué | Lire la liste des utilisateurs pertinents | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| User.Read | délégué | Activer la connexion et lire le profil utilisateur | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| User.Read.All | application | Lire le profil complet de tous les utilisateurs | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| User.ReadBasic.All | délégué | Lire les profils de base de tous les utilisateurs | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| openid | délégué | Connecter des utilisateurs | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| profil | délégué | afficher le profil de base des utilisateurs | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

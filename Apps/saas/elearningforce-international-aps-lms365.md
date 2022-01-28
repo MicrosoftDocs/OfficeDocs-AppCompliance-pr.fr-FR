@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour LMS365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 62a9a18b43a1740b8b83b59edac5051824c43266
-ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
+ms.openlocfilehash: 3610fa868ff1195d72a311b68dd10e1ef171c8cc
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62222509"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260911"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -103,7 +103,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -112,14 +112,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Non |
-| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
+| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -160,7 +160,18 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Votre application stocke-t-elle des informations d’identification dans le code ? |  |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Oui |
 
->Cette application n’utilise pas Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
+
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| GroupMember.Read.All | application | Aucune | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| Mail.Send | délégué | Aucune | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| RoleManagement.Read.Directory | application | Aucune | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Invite.All | délégué | Aucune | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read | délégué | Aucune | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | délégué | Aucune | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | application | Permet à l’application de lire le profil utilisateur complet. Il est&#8217;lire les utilisateurs et les responsables&#8217; pour créer des rapports de hiérarchie. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| profil | délégué | Aucune | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

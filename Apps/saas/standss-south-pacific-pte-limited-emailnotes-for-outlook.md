@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour EmailNotes pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 841b0ad019cda22d01b5990b8aabf80931ffe130
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a09c055a42f69c7174773835e8c83b99e83f0013
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147687"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62261532"
 ---
 # <a name="emailnotes-for-outlook"></a>EmailNotes for Outlook
 
@@ -90,7 +90,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
 | Authentification multifacteur (MFA) activée pour : | CodeRepositories |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | S/O |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | N/A |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
 | Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
@@ -121,10 +121,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -167,13 +167,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | délégué | Pour lire le contenu de l’objet , du corps, du contenu des pièces jointes jointes à la demande de réunion  |
->| Mail.ReadWrite | délégué | Pour lire le contenu de l’objet, du corps, du contenu des pièces jointes jointes à l’élément de courrier  |
->| openid | délégué | Conditions requises pour l’autorisation d' sign-on unique (SSO) |
->| profil | délégué | Conditions requises pour l’autorisation d' sign-on unique (SSO) |
->| User.Read | délégué | Il s’agit de lire les données utilisateur pour vérifier les informations de licence de leur domaine/compte d’utilisateur |
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué | Pour lire le contenu de l’objet , du corps, du contenu des pièces jointes jointes à la demande de réunion  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| Mail.ReadWrite | délégué | Pour lire le contenu de l’objet, du corps, du contenu des pièces jointes jointes à l’élément de courrier  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| User.Read | délégué | Il s’agit de lire les données utilisateur pour vérifier les informations de licence de leur domaine/compte d’utilisateur | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| openid | délégué | Conditions requises pour l’autorisation d' sign-on unique (SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| profil | délégué | Conditions requises pour l’autorisation d' sign-on unique (SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

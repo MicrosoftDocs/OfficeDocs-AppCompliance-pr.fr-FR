@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour C.AI Adoption Bot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f37bafaac714c26c948b4f2264c4d139f5863bf5
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: 6c7c8d1b083cab351889117aa58316332161f466
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61785601"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62261350"
 ---
 # <a name="cai-adoption-bot"></a>Bot C.AI d’adoption
 
@@ -29,11 +29,11 @@ ms.locfileid: "61785601"
 
 Informations fournies par contexxt.ai à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Bot C.AI d’adoption |
 | ID | WA200002633 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | contexxt.ai |
 | Site web de l’entreprise | [https://contexxt.ai](https://contexxt.ai) |
 | Conditions d’utilisation de l’application | [https://contexxt.ai/terms-of-use](https://contexxt.ai/terms-of-use) |
@@ -52,7 +52,7 @@ Informations fournies par contexxt.ai à Microsoft :
 
 Ces informations ont été fournies par contexxt.ai sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
@@ -72,7 +72,7 @@ Ces informations ont été fournies par contexxt.ai sur la façon dont cette app
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Effectuez-vous des tests de pénétration annuels sur l’application ? | Non |
 | L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
@@ -102,10 +102,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="compliance"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -113,15 +113,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -131,7 +131,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="privsection"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? |  |
 | L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? |  |
@@ -150,7 +150,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
@@ -161,7 +161,17 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Votre application stocke-t-elle des informations d’identification dans le code ? |  |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
->Cette application n’utilise pas Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
+
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | application | Disponibilité de l’utilisateur en mesure d’envoyer des conseils au bon moment et non pendant les heures de travail au travail, par exemple | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| ChannelMessage.Read.All | application | Microsoft Teams métadonnées de canal, telles que privés ou non, ou la quantité de conversations par canal pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Chat.Read.All | application | Microsoft Teams métadonnées de conversation, comme si un message a été aimé ou combien de groupes et de conversations 1:1 existent pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Directory.Read.All | application | ID d’objet utilisateur pour pouvoir envoyer des conseils à l’utilisateur ultérieurement. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Group.Read.All | application | Microsoft Teams métadonnées, telles que la quantité de Teams et de canaux pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Mail.Read | application | Microsoft Exchange métadonnées, telles que la quantité d’e-mails et de groupes par rapport aux e-mails 1:1 pour analyser l’utilisation des Exchange (par rapport à Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| User.Read.All | application | Microsoft Teams de conversation et de conversation, comme si un utilisateur a été mentionné pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

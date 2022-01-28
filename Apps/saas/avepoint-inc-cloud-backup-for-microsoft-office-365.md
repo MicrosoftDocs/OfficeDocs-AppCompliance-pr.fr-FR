@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour la sauvegarde cloud pour Microsoft Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84b6ec36d05f39e307c3955d8eb9112d4a4712ac
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 6fc3b2c5bc0fb54b4075f71e21ef1c2d14ace0f7
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147746"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260940"
 ---
 # <a name="cloud-backup-for-microsoft-office-365"></a>Sauvegarde cloud pour Microsoft Office 365
 
@@ -103,24 +103,24 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
 | Quelle certification SOC 2 avez-vous atteinte ? |  type2 |
 | Date de certification SOC2 la plus récente |  2/19/2021 |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Oui |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -165,17 +165,17 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | délégué | Activer la connexion et lire le profil utilisateur |
->| Directory.Read.All | application | Lire les données de l’annuaire |
->| Files.Read.All | application | Lire les fichiers dans toutes les collections de sites |
->| Group.ReadWrite.All | application | Lire et écrire tous les groupes |
->| Sites.ReadWrite.All | application | Accéder en lecture et en écriture aux éléments de toutes les collections de sites |
->| Reports.Read.All | application | Accéder en lecture à tous les rapports d’utilisation |
->| ChannelMember.ReadWrite.All | application | Ajouter et supprimer des membres de tous les canaux |
->| ChannelMessage.Read.All | application | Lire tous les messages du canal |
->| ChannelSettings.ReadWrite.All | application | Lire et écrire les noms, descriptions et paramètres de tous les canaux |
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| ChannelMember.ReadWrite.All | application | Ajouter et supprimer des membres de tous les canaux | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| ChannelMessage.Read.All | application | Lire tous les messages du canal | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| ChannelSettings.ReadWrite.All | application | Lire et écrire les noms, descriptions et paramètres de tous les canaux | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Directory.Read.All | application | Lire les données de l’annuaire | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Files.Read.All | application | Lire les fichiers dans toutes les collections de sites | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.ReadWrite.All | application | Lire et écrire tous les groupes | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Reports.Read.All | application | Accéder en lecture à tous les rapports d’utilisation | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.ReadWrite.All | application | Accéder en lecture et en écriture aux éléments de toutes les collections de sites | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.Read | délégué | Activer la connexion et lire le profil utilisateur | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

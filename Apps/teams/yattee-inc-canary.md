@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Canary, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d00d7bce745344ee7324ac4b019ee8ac3f5e0f40
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b9702c280c874437826c4fd760f22b27359e1006
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62142111"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62261200"
 ---
 # <a name="canary"></a>Canary
 
@@ -92,7 +92,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Non |
 | Authentification multifacteur (MFA) activée pour : | DNSManagement |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | S/O |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | N/A |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
 | Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
@@ -167,9 +167,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calls.JoinGroupCallasGuest.All | application | &#12518;&#12540;&#12470;&#12540;&#12408;&#12398;&#36890;&#35441;&#12434;&#34892;&#12358;&#12383;&#12417; |
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calls.JoinGroupCallasGuest.All | application | &#12518;&#12540;&#12470;&#12540;&#12408;&#12398;&#36890;&#35441;&#12434;&#34892;&#12358;&#12383;&#12417; | [626ce0a3-4620-483d-953d-53b106b9ffad](https://docs.microsoft.com/microsoft-365-app-certification/azure/626ce0a3-4620-483d-953d-53b106b9ffad) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

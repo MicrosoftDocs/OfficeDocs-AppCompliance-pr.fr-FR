@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Classroom.cloud, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d58df70912c5c9eedfca92e67f9f202960b7a23b
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 4e7fce8118f65a9fb01153baa2ccef8a1282df3c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147670"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260820"
 ---
 # <a name="classroomcloud"></a>Classroom.cloud
 
@@ -107,24 +107,24 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Oui |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | Oui |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -168,14 +168,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Team.ReadBasic.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. |
->| Channel.ReadBasic.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. |
->| ChannelMessage.Read.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. |
->| ChannelSettings.Read.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. |
->| Chat.Read.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. |
->| Directory.Read.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. |
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| ChannelMessage.Read.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| ChannelSettings.Read.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| Chat.Read.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| Directory.Read.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| Team.ReadBasic.All | application | Utilisé pour l’intégration Teams des classroom.cloud pour assurer la surveillance de la sécurité en ligne des conversations des étudiants. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
