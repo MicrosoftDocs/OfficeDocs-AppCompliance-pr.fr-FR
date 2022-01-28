@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les listes de distribution Pro, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b5b28c507c192b692ed66743c47851a847694039
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 7b9e7dfb19e16df4388dde7664cb71724df963de
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155208"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259230"
 ---
 # <a name="distribution-lists-pro"></a>Listes de distribution Pro
 
@@ -108,9 +108,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
@@ -168,15 +168,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| email | délégué | Microsoft Teams SSO |
->| openid | délégué | Microsoft Teams SSO |
->| offline_access | délégué | Microsoft Teams SSO |
->| User.Read | délégué | Microsoft Teams SSO |
->| profil | délégué | Microsoft Teams SSO |
->| Presence.Read.All | délégué | Présence CHecking des personnes dans une liste |
->| Group.Read.All | délégué | Liste de distribution de listes |
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Group.Read.All | délégué | Liste de distribution de listes | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| Presence.Read.All | délégué | Présence CHecking des personnes dans une liste | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| User.Read | délégué | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| email | délégué | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| offline_access | délégué | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| openid | délégué | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| profil | délégué | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

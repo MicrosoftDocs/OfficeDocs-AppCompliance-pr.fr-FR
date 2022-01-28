@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Jira Cloud, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6c0f6a2085f3bca86883f3ce5817cec32973e140
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 6f20ca178d988c5f89b03bd1da5b3100d5c552ef
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144171"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62256720"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -167,11 +167,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| offline_access | délégué | Fournir l’accès aux ressources pour le compte de l’utilisateur pendant une période prolongée afin de garantir une expérience utilisateur de qualité. |
->| openid | délégué | Obtenez le nom, le nom de famille, le nom d’utilisateur préféré et l’ID d’objet de l’utilisateur. |
->| profil | délégué | Obtenez le nom, le nom de famille, le nom d’utilisateur préféré et l’ID d’objet de l’utilisateur. |
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| offline_access | délégué | Fournir l’accès aux ressources pour le compte de l’utilisateur pendant une période prolongée afin de garantir une expérience utilisateur de qualité. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
+>| openid | délégué | Obtenez le nom, le nom de famille, le nom d’utilisateur préféré et l’ID d’objet de l’utilisateur. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
+>| profil | délégué | Obtenez le nom, le nom de famille, le nom d’utilisateur préféré et l’ID d’objet de l’utilisateur. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

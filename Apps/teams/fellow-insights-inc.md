@@ -6,14 +6,14 @@ ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour le membre, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4fb839013c38dcf7b490e02810ad5726be0aabda
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+description: Toutes les informations de sécurité et de conformité disponibles pour les collègues, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: c05c00736ba08bdcb663342ca6a692ead21ac83c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428591"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257830"
 ---
 # <a name="fellow"></a>Fellow
 
@@ -28,17 +28,20 @@ ms.locfileid: "60428591"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Les collègues Informations Inc. à Microsoft :
+Informations fournies par les collègues Informations Inc. à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Fellow |
 | ID | WA200002576 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Fellow Insights Inc |
-| URL du site web partenaire | [https://fellow.app](https://fellow.app) |
-| URL de la politique de confidentialité | [https://fellow.app/privacy-policy/](https://fellow.app/privacy-policy/) |
-| URL des conditions d’utilisation | [https://fellow.app/terms-of-use/](https://fellow.app/terms-of-use/) |
+| Site web de l’entreprise | [https://fellow.app](https://fellow.app) |
+| Conditions d’utilisation de l’application | [https://fellow.app/terms-of-use/](https://fellow.app/terms-of-use/) |
+| Fonctionnalités principales de l’application | Où les équipes se rassemblent pour créer des agendas de réunion collaboratifs et se garder mutuellement responsables |
+| Emplacement du siège social de l’entreprise | Canada |
+| Page d’informations sur l’application | |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,93 +53,133 @@ Informations fournies par Les collègues Informations Inc. à Microsoft :
 
 Ces informations ont été fournies par les collègues Informations Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
-
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
-
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | les deux | Un collègue se connecte aux calendriers de l’utilisateur pour lui donner la possibilité de prendre des notes sur les données. | Un collègue stocke toutes les données d’événement pour le calendrier principal de l’utilisateur. Les pièces jointes ne sont pas stockées. Il est utilisé au sein de Collègues pour fournir une expérience de prise de notes basée sur le calendrier. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| Channel.ReadBasic.All | délégué | Nous collectons les noms des canaux dont un utilisateur est membre afin de leur afficher la liste des canaux à qui ils peuvent envoyer des notes. | Nous misons en cache les noms et les ID des canaux dont un utilisateur est membre, afin de permettre aux utilisateurs d’envoyer des notes de Collègues au canal spécifié. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| Directory.Read.All | application | Ces données sont collectées uniquement si une installation d’administrateur est effectuée pour l’ensemble de l’organisation. Nous utilisons les données d’annuaire pour synchroniser une liste d’utilisateurs et mettre automatiquement en service des comptes. | Si et uniquement si une installation à l’échelle de l’organisation est effectuée par l’administrateur à partir des paramètres de l’espace de travail à l’intérieur de Collègues, les administrateurs ont la possibilité d’activer la synchronisation automatique de tous les utilisateurs de Azure AD en Compagnon (approvisionnement automatique). Dans ce cas, nous stockons les informations utilisateur telles que l’ID, le nom, la messagerie, le responsable et les appartenances aux groupes (pour les fonctionnalités de gestion d’équipe). | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| Group.Read.All | application | Ces données sont collectées uniquement si une installation d’administrateur est effectuée pour l’ensemble de l’organisation. Nous utilisons les données d’annuaire pour synchroniser une liste d’utilisateurs et mettre automatiquement en service des comptes. | Si et uniquement si une installation à l’échelle de l’organisation est effectuée par l’administrateur à partir des paramètres de l’espace de travail à l’intérieur de Collègues, les administrateurs ont la possibilité d’activer la synchronisation automatique de tous les utilisateurs de Azure AD en Compagnon (approvisionnement automatique). Dans ce cas, nous stockons les informations utilisateur telles que l’ID, le nom, la messagerie, le responsable et les appartenances aux groupes (pour les fonctionnalités de gestion d’équipe). | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| People.Read | délégué | Les contacts de l’utilisateur sont collectés, dans des noms d’affichage et des adresses e-mail de contact spécifiques. Il est utilisé dans Le compagnon pour fournir une liste d’utilisateurs à inviter à inviter à une note/ partager une note avec. | Les contacts de l’utilisateur sont collectés, dans des noms d’affichage et des adresses e-mail de contact spécifiques. Il est utilisé dans Le compagnon pour fournir une liste d’utilisateurs à inviter à inviter à une note/ partager une note avec. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| People.Read.All | application | Ces données sont collectées uniquement si une installation d’administrateur est effectuée pour l’ensemble de l’organisation. Les contacts de l’utilisateur sont collectés, dans des noms d’affichage et des adresses e-mail de contact spécifiques. Il est utilisé dans Le compagnon pour fournir une liste d’utilisateurs à inviter à inviter à une note/ partager une note avec. | Si et uniquement si une installation à l’échelle de l’organisation est effectuée par l’administrateur à partir des paramètres de l’espace de travail à l’intérieur de Collègues, les administrateurs ont la possibilité d’activer la synchronisation automatique de tous les utilisateurs de Azure AD en Compagnon (approvisionnement automatique). Dans ce cas, les contacts de l’utilisateur sont collectés, dans des noms d’affichage et des adresses e-mail de contact spécifiques. Il est utilisé dans Le compagnon pour fournir une liste d’utilisateurs à inviter à inviter à une note/ partager une note avec. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| Team.ReadBasic.All | délégué | La liste des équipes dont l’utilisateur fait partie est collectée. Il est utilisé au sein d’un collègue pour permettre à l’utilisateur d’envoyer des notes de collègues à une équipe. | Nous misons en cache les noms et les ID des équipes dont un utilisateur est membre, afin de permettre aux utilisateurs d’envoyer des notes de Collègues au canal d’équipe spécifié. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| User.Read | délégué | Les informations utilisateur de base sont collectées. Nom d’utilisateur, e-mail, fonction. Ces informations sont utilisées au sein de Collègues pour créer des comptes d’utilisateurs et des comptes d’entreprise. | Les informations utilisateur de base sont stockées. Nom d’utilisateur, e-mail, fonction. Ces informations sont utilisées au sein de Collègues pour gérer les comptes d’utilisateurs et les comptes d’entreprise. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| User.Read.All | application | Ces données sont collectées uniquement si une installation d’administrateur est effectuée pour l’ensemble de l’organisation. Nous utilisons les données d’annuaire pour synchroniser une liste d’utilisateurs et mettre automatiquement en service des comptes. | Si et uniquement si une installation à l’échelle de l’organisation est effectuée par l’administrateur à partir des paramètres de l’espace de travail à l’intérieur de Collègues, les administrateurs ont la possibilité d’activer la synchronisation automatique de tous les utilisateurs de Azure AD en Compagnon (approvisionnement automatique). Dans ce cas, nous stockons les informations utilisateur telles que l’ID, le nom, la messagerie, le responsable et les appartenances aux groupes (pour les fonctionnalités de gestion d’équipe). | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| offline_access | délégué | Jeton d’actualisation de l’utilisateur pour maintenir l’accès aux données recueillies via d’autres étendues. | Le jeton d’actualisation de l’utilisateur est stocké dans la base de données. Il est utilisé au sein de Collègues pour synchroniser des événements en arrière-plan pour l’expérience de prise de notes basée sur le calendrier, ainsi que des notifications pour la prise de notes sur les événements programmés. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
-
-
-#### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
-
-Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
-
->Les éléments services Microsoft ne sont pas utilisés.
-
-#### <a name="data-access-via-bots"></a>Accès aux données via des bots
-
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
-
->Aucun EUII n’est accessible.
-
-
-#### <a name="telemetry-data"></a>Données de télémétrie
-
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
-
->Les collègues stockent les informations fournies directement par l’utilisateur, y compris les données personnelles. Il stocke également des informations provenant de systèmes tiers, telles que les données OAuth, les données de calendrier et les données personnelles telles que la messagerie &amp; de nom. Nous conservons toutes les données indéfiniment, tant que cela est nécessaire et juridiquement autorisé aux fins pour lesquelles elles ont été collectées. Nous supprimons en toute sécurité ces informations à une date antérieure lors de la réception d’une demande par les utilisateurs. Les données du journal sont conservées pendant 30 jours.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
-
-Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
-
->Tous les transferts de données se produisent sur des API sécurisées vers nos systèmes back-end. Un collègue utilise de nombreux contrôles pour garantir la sécurité et la confidentialité de ses systèmes, conformément à l’infrastructure SOC 2 définie par l’AICPA. Les contrôles des collègues font l’objet d’un audit annuel afin de garantir une conformité continue. Un rapport SOC 2 peut être partagé sur demande et NDA.
-
-#### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
-
-Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
-
->Non
+| **Information** | **Response** |
+|:----------------|:-------------|
+| L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
+| Quelles données sont stockées dans vos bases de données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé au cours d’un mois |
+| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
+| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
+| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39739' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/39739" target="_blank">Afficher dans un nouvel onglet</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Informations d’identité
-
-Ces informations ont été fournies par les collègues Informations Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
-
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
-| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
-| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
-| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
-| Votre application prend-elle en charge l’location multiple ? | Oui |
-| Votre application a-t-elle un client confidentiel ? | Oui |
-| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
-| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | ,<br/><br/>- Flux ROPC (Resource Owner Password Credential) |
-| Votre application expose-t-elle des API web ? | Non |
-| Votre application utilise-t-elle les API d’aperçu ? | Non |
-| Votre application utilise-t-elle des API dépréciées ? | Non |
+| Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
+| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
+| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? |  |
+| Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? |  |
+| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? |  |
+| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? |  |
+| Votre environnement a-t-il des systèmes d’exploitation ou des logiciels non pris en charge ? |  |
+| Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et sur l’infastructure qui la prend en charge ? |  |
+| Un pare-feu est-il installé sur la limite de votre réseau externe ? |  |
+| Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? |  |
+| Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? |  |
+| Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? |  |
+| Authentification multifacteur (MFA) activée pour : |  |
+| Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? |  |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? |  |
+| La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? |  |
+| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | |
+| Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? |  |
+| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? |  |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
+| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | Non |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
+| Date de certification SOC1 la plus récente |   |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
+| Quelle certification SOC 2 avez-vous atteinte ? |   |
+| Date de certification SOC2 la plus récente |  2020-10-01 |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
+| Date de certification SOC3 la plus récente | |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Oui |
+| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
+| Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme au NIST 800-171 ? |  |
+| L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? |  |
+| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? |  |
+| L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? |  |
+| L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? |  |
+| Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? |  |
+| L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? |  |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? |  |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? |  |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? |  |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
+| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
+| Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) |  |
+| Votre application stocke-t-elle des informations d’identification dans le code ? |  |
+| Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
+
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
+
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | les deux | Un collègue se connecte aux calendriers de l’utilisateur pour lui donner la possibilité de prendre des notes sur les données. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| Channel.ReadBasic.All | délégué | Nous collectons les noms des canaux dont un utilisateur est membre afin de leur afficher la liste des canaux à qui ils peuvent envoyer des notes. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| Directory.Read.All | application | Ces données sont collectées uniquement si une installation d’administrateur est effectuée pour l’ensemble de l’organisation. Nous utilisons les données d’annuaire pour synchroniser une liste d’utilisateurs et mettre automatiquement en service des comptes. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| Group.Read.All | application | Ces données sont collectées uniquement si une installation d’administrateur est effectuée pour l’ensemble de l’organisation. Nous utilisons les données d’annuaire pour synchroniser une liste d’utilisateurs et mettre automatiquement en service des comptes. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| People.Read | délégué | Les contacts de l’utilisateur sont collectés, dans des noms d’affichage et des adresses e-mail de contact spécifiques. Il est utilisé dans Le compagnon pour fournir une liste d’utilisateurs à inviter à inviter à une note/ partager une note avec. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| People.Read.All | application | Ces données sont collectées uniquement si une installation d’administrateur est effectuée pour l’ensemble de l’organisation. Les contacts de l’utilisateur sont collectés, dans des noms d’affichage et des adresses e-mail de contact spécifiques. Il est utilisé dans Le compagnon pour fournir une liste d’utilisateurs à inviter à inviter à une note/ partager une note avec. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| Team.ReadBasic.All | délégué | La liste des équipes dont l’utilisateur fait partie est collectée. Il est utilisé au sein d’un collègue pour permettre à l’utilisateur d’envoyer des notes de collègues à une équipe. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| User.Read | délégué | Les informations utilisateur de base sont collectées. Nom d’utilisateur, e-mail, fonction. Ces informations sont utilisées au sein de Collègues pour créer des comptes d’utilisateurs et des comptes d’entreprise. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| User.Read.All | application | Ces données sont collectées uniquement si une installation d’administrateur est effectuée pour l’ensemble de l’organisation. Nous utilisons les données d’annuaire pour synchroniser une liste d’utilisateurs et mettre automatiquement en service des comptes. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| offline_access | délégué | Jeton d’actualisation de l’utilisateur pour conserver l’accès aux données recueillies via d’autres étendues. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+
+>Cette application ne comprend pas d’API supplémentaires.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
