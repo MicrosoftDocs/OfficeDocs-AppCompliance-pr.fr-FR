@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: 'Toutes les informations de sécurité et de conformité disponibles pour MIPA : votre Assistant personnel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ae67c6289bc3c7603e041f30359e3dbc4d5c7dea
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 981325d45feac6bcea309e74c284f960c5786d42
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60444672"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250050"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA – Votre assistant personnel
 
@@ -29,16 +29,18 @@ ms.locfileid: "60444672"
 
 Informations fournies par iGlobe à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | MIPA – Votre assistant personnel |
 | ID | WA200000148 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | iGlobe |
-| URL du site web partenaire | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
-| URL de la Teams d’informations sur l’application | [https://mipa.iglobe.dk/Support](https://mipa.iglobe.dk/Support) |
-| URL de la politique de confidentialité | [https://instassl.iglobecrm.com/legal-information](https://instassl.iglobecrm.com/legal-information) |
-| URL des conditions d’utilisation | [https://mipa.iglobe.dk/EULA](https://mipa.iglobe.dk/EULA) |
+| Site web de l’entreprise | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
+| Conditions d’utilisation de l’application | [https://mipa.iglobe.dk/EULA](https://mipa.iglobe.dk/EULA) |
+| Fonctionnalités principales de l’application | MIPA - Mon assistant personnel intelligent - MIPA offre un moyen très visuel d’organiser et de gérer l’activité quotidienne et le travail. MIPA est utilisé dans les Outlook et Teams. Pour les organisations utilisant iGlobe CRM MIPA sera également intégré à iGlobe CRM. Le niveau d’autorisation des services d’application MIPA est Teams MIPA pour Outlook et pour l’intégration iGlobe CRM.  |
+| Emplacement du siège social de l’entreprise | Danemark |
+| Page d’informations sur l’application | |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,117 +52,177 @@ Informations fournies par iGlobe à Microsoft :
 
 Ces informations ont été fournies par iGlobe sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
-
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
-
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Contacts.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs. Pour vérifier que l’utilisateur a le consentement et a accès à l’utilisation de l’API. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. Intégration à iGlobe CRM Office 365 | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour le courrier marqué | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| MailboxSettings.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour le courrier marqué, lire et mettre à jour Outlook Tâches à faire entiers | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.ReadBasic.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre à jour Outlook à faire entreies | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| email | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de lire l’adresse e-mail principale de vos utilisateurs (pour l' cesso). | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| offline_access | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet à l’application de voir et de mettre à jour les données à qui vous lui avez donné accès, même lorsque les utilisateurs n’utilisent pas l’application. Cela ne donne pas à l’application d’autorisations supplémentaires (pour l' sso). | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| openid | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Permet aux utilisateurs de se connecter à l’application avec leurs comptes professionnels ou scolaires et permet à l’application de voir les informations de profil utilisateur de base ( pour l' utilisateur sso). | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| profil | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | Lire et mettre à jour des ensembles de calendriers, lire et mettre Outlook à faire entreies, lire, mettre à jour, créer des tâches de panneur | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
-
-#### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
-
-Les applications et les compléments créés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelle (OII). List any Microsoft APIs other than Microsoft Graph this app uses.
-
->| **API** |  **OII est-il collecté ?** |  **Qu’est-ce qu’OII collecté ?** | **Justification de la collecte des OII ?** | **OII est-il stocké ?** | **Justification du stockage des OII ?** |
->|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Exchange - Calendars.ReadWrite.All | Non |  |  |  |  |
->| Exchange - EWS. AccessAsUser.All | Non |  |  |  |  |
->| Exchange - Mail.Read | Non |  |  |  |  |
->| Exchange - Mail.ReadWrite.All | Non |  |  |  |  |
->| Exchange - MailboxSettings.Read | Non |  |  |  |  |
->| Exchange - MailboxSettings.ReadWrite | Non |  |  |  |  |
->| Exchange - Tasks.ReadWrite | Non |  |  |  |  |
->| SharePoint - MyFiles.Read | Non |  |  |  |  |
->| SharePoint - MyFiles.Write | Non |  |  |  |  |
-
-#### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
-
-Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
-
->Les éléments services Microsoft ne sont pas utilisés.
-
-#### <a name="data-access-via-bots"></a>Accès aux données via des bots
-
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
-
->Aucun EUII n’est accessible.
-
-
-#### <a name="telemetry-data"></a>Données de télémétrie
-
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
-
->iGlobe collecte des données pour fonctionner efficacement et vous offrir les meilleures expériences avec nos produits et services. Pour la gestion des licences : données collectées pour administrer le compte de licence de votre organisation&#8217;, par exemple lorsque vous déployez un module de licence gratuit, créez un abonnement d’essai ou achetez un abonnement. Les informations suivantes sont collectées. 
-- À des fins financières : nom et adresse de la société
-- Utilisateurs abonnés : nom d’utilisateur et e-mail
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
-
-Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
-
->Toutes les données se trouve sur le client. Aucune donnée d’application n’est stockée. Un add-in moderne s’exécute dans un navigateur en bac à sable,&#8220;hors processus&#8221;. Il interagit avec les données des utilisateurs à l’aide services Microsoft. Le module peut uniquement accéder aux données avec lesquelles l’utilisateur travaille.
-
-#### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
-
-Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
-
->Non
+| **Information** | **Response** |
+|:----------------|:-------------|
+| L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
+| Quelles données sont stockées dans vos bases de données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
+| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
+| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
+| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699" target="_blank">Afficher dans un nouvel onglet</a>
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
+| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
+| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? |  |
+| Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? |  |
+| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? |  |
+| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? |  |
+| Votre environnement a-t-il des systèmes d’exploitation ou des logiciels non pris en charge ? |  |
+| Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et sur l’infastructure qui la prend en charge ? |  |
+| Un pare-feu est-il installé sur la limite de votre réseau externe ? |  |
+| Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? |  |
+| Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? |  |
+| Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? |  |
+| Authentification multifacteur (MFA) activée pour : |  |
+| Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? |  |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? |  |
+| La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? |  |
+| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | |
+| Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? |  |
+| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? |  |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
+| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="identity"
+::: zone pivot="compliance"
 
-### <a name="identity-information"></a>Informations d’identité
-
-Ces informations ont été fournies par iGlobe sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
-
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
-| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | Oui |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | Oui |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Oui |
+| Date de certification SOC1 la plus récente |  2020-11-01 |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
+| Quelle certification SOC 2 avez-vous atteinte ? |   |
+| Date de certification SOC2 la plus récente |  2020-11-01 |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Oui |
+| Date de certification SOC3 la plus récente |  2020-11-01 |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Oui |
+| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Oui |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Oui |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Oui |
+| Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Oui |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Oui |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
+| L’application est-elle conforme au NIST 800-171 ? |  |
+| L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? |  |
+| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? |  |
+| L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? |  |
+| L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? |  |
+| Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? |  |
+| L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? |  |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? |  |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? |  |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? |  |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
+| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
+| Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Paramètres de sécurité par défaut et autres stratégies courantes telles que Bloquer l’authentification héritée* Exiger l’authentification multifacteur pour les administrateurs* Exiger l’authentification multifacteur pour la gestion Azure* Exiger l’authentification multifacteur pour tous les utilisateurs* |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
-| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Non |
-| Votre application prend-elle en charge l’location multiple ? | Oui |
-| Votre application a-t-elle un client confidentiel ? | Oui |
-| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
-| Votre application expose-t-elle des API web ? | Non |
-| Votre application utilise-t-elle les API d’aperçu ? | Non |
-| Votre application utilise-t-elle des API dépréciées ? | Non |
+| Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) |  |
+| Votre application stocke-t-elle des informations d’identification dans le code ? |  |
+| Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Oui |
+
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
+
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Contacts.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| MailboxSettings.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.ReadBasic.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| email | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| offline_access | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| openid | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| profil | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+
+>Cette application ne comprend pas d’API supplémentaires.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Informations de certification
+
+| **Contrôle** | **résultat Microsoft 365 certification** |
+|:------------|:---------------------------------------|
+| [**SÉCURITÉ DES APPLICATIONS**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test de pénétration | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examen de l’évaluation des vulnérabilités (test DAST/SAST/Pénétration) | N/A |
+| [**SÉCURITÉ OPÉRATIONNELLE**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Antivirus | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants : contrôle des applications | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs : classement des risques | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs : correction | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyse des vulnérabilités | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu : pare-feu (ou technologies équivalentes) | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu : pare-feu d’application web (WAF) (facultatif) | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contrôle des changements | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sécurisation du développement/déploiement de logiciels | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des comptes | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Détection et prévention des intrusions (facultatif) | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Journalisation des événements de sécurité | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reviewing (Logging Data) | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertes d’événements de sécurité | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des risques de sécurité des informations | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Réponse aux incidents | N/A |
+| [**GESTION DES DONNÉES RELATIVES À LA CONFIDENTIALITÉ DE &amp; LA SÉCURITÉ**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données en transit | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données au repos | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rétention et élimination des données | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion de l’accès aux données | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R GDPR | S/O |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

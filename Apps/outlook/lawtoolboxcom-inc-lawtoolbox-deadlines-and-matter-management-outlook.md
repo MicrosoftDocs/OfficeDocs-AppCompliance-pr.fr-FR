@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 'Toutes les informations de sécurité et de conformité disponibles pour les échéances de LawToolBox et la gestion des données : Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9baa7ea9b51626f8d887d568b428a83999b77940
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: 5ed6b61fae63ec4c4608133613e78a4a5dd29e88
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148122"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251820"
 ---
 # <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>Échéances de LawToolBox et gestion des Outlook
 
@@ -29,7 +29,7 @@ ms.locfileid: "61148122"
 
 Informations fournies par LawToolBox.com Inc. à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Échéances de LawToolBox et gestion des Outlook |
 | ID | WA200003103 |
@@ -52,7 +52,7 @@ Informations fournies par LawToolBox.com Inc. à Microsoft :
 
 Ces informations ont été fournies par LawToolBox.com Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
@@ -72,7 +72,7 @@ Ces informations ont été fournies par LawToolBox.com Inc. sur la façon dont c
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Effectuez-vous des tests de pénétration annuels sur l’application ? | Non |
 | L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
@@ -102,11 +102,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="compliance"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | Oui |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
@@ -120,7 +120,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Oui |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -131,7 +131,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="privsection"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? |  |
 | L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? |  |
@@ -150,7 +150,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
@@ -162,7 +162,32 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Votre application stocke-t-elle des informations d’identification dans le code ? |  |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
->Cette application n’utilise pas Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
+
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | délégué | Cette autorisation est restreinte pour accéder aux contacts de l'&#8217;qu’ils ont déjà accès aux &#8211; nous utilisons cette autorisation pour permettre aux utilisateurs de récupérer leurs propres informations de calendrier | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite | délégué | Cette autorisation est restreinte pour accéder aux contacts de l’utilisateur&#8217;qu’il a déjà accès à &#8211; nous l’utilisons pour permettre aux utilisateurs de récupérer leurs propres informations de calendrier et d’écrire dans des calendriers | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite.Shared | délégué | Cette autorisation est restreinte pour accéder aux contacts de l'&#8217;qu’ils ont déjà accès aux &#8211; nous utilisons cette autorisation pour permettre aux utilisateurs de récupérer leurs propres informations de calendrier | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Contacts.ReadWrite | délégué | Cette autorisation est restreinte pour accéder aux contacts&#8217;utilisateur à qui ils ont déjà accès.  Nous utilisons cette autorisation pour permettre aux utilisateurs de rechercher leurs contacts O365 et de les ajouter à LawToolBox &#8211; nous n’ajoutons pas automatiquement de contact (cette option peut être révoquée si vous ne souhaitez pas que cette fonctionnalité et les contacts soient ajoutés manuellement) | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Contacts.ReadWrite.Shared | délégué | nous utilisons cette autorisation pour permettre aux utilisateurs de rechercher des contacts O365 partagés et de les ajouter à LawToolBox &#8211; nous n’ajoutons aucun contact automatiquement | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Directory.AccessAsUser.All | délégué | nous utilisons le portail d’administration pour récupérer la liste des utilisateurs à partir du client O365 à ajouter à votre compte | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Directory.ReadWrite.All | délégué | nous utilisons le portail d’administration pour récupérer la liste des utilisateurs à partir du client O365 à ajouter à votre compte | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.Read | délégué | Cela permet au addin de lire et de ré lister les fichiers utilisateur à qui l’utilisateur a déjà accès | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.Read.All | délégué | nous utilisons cette autorisation pour lire et ré lister les fichiers utilisateur à qui l’utilisateur a déjà accès | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite | délégué | nous lisons des fichiers Teams, groupes et OneDrive pour les réunions (si vous le révoquer, notre addin ne répertorie pas les fichiers importants dans nos applications) | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite.All | délégué | nous lisons des fichiers à partir Teams, groupes et OneDrive pour les réunions (si vous révoquer, LTB ne répertorie pas les fichiers importants dans nos applications).  L’utilisateur peut uniquement utiliser le addin pour lire et ré lister les fichiers utilisateur à qui l’utilisateur a déjà accès | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Group.ReadWrite.All | délégué | GroupID, GroupName, GroupEmail | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Read | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement, ainsi que pour lire les contacts de votre courrier électronique à ajouter à notre système de contact.  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement, ainsi que pour lire les contacts de votre courrier électronique à ajouter à notre système de contact.  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite.Shared | délégué | nous utilisons cette autorisation pour lire les e-mails PACER dans notre add-in Outlook afin de les ouvrir automatiquement, ainsi que pour lire les contacts de votre courrier électronique à ajouter à notre système de contact.  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Send | délégué | Nous utilisons cet envoi de courriers électroniques en tant qu’utilisateur pour permettre à un utilisateur d’envoyer lui-même des rapports uniquement sur les données à qui il a déjà accès sur notre système | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Tasks.ReadWrite.Shared | délégué | Cette autorisation est restreinte pour accéder aux tâches de l’utilisateur&#8217;qu’il a déjà accès aux &#8211; nous l’utilisons pour permettre aux utilisateurs de récupérer et de mettre à jour leurs propres informations TASK.  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.Read | délégué | permet de suggérer des contacts récents à ajouter à des réunions ou des contacts | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.ReadWrite | délégué | permet de suggérer des contacts récents à ajouter à des réunions ou des contacts | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.ReadWrite.All | délégué | cela est nécessaire pour lire l’API Teams, créer des Teams, créer un événement de calendrier, créer des canaux, Teams partage de fichiers | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| email | délégué | Email, Office365 UserID, ObjectID, TenantID. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| profil | délégué | Cela est nécessaire pour l’authentification sso - nous utilisons également cette autorisation pour récupérer des images et des noms enregistrés sur le client M365 à afficher afin que l’utilisateur sache qu’il se trouve dans la boîte à outils correcte | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

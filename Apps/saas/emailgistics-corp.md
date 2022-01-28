@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Emailgistics, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84228626adf3865be785d8c58c78374db9620a90
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: cea41a85550bd0b2a5d4effda544674d46c06b67
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62177635"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250250"
 ---
 # <a name="emailgistics"></a>Emailgistics
 
@@ -107,24 +107,24 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -142,9 +142,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
 | Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
 | L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? | Non |
-| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | S/O |
-| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | S/O |
-| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | S/O |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | N/A |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | N/A |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | N/A |
 | Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | S/O |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -166,15 +166,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Mail.ReadWrite | délégué | Accéder en lecture aux informations sur les messages dans la boîte aux lettres partagée. Les informations sur les messages sont nécessaires pour exécuter des règles définies par le client (distribuer à l’utilisateur A si le &#8220;message contient des&#8221; de facture, par exemple), pour suivre correctement les conversations (pour l’historique des conversations et l’affectation automatique) et pour les rapports (par exemple, le rapport détail Ouvrir les messages).
-Écrire le req’d’accès pour envoyer des messages à partir de règles (telles que les réponses automatiques) et mettre à jour les sujets des messages avec l’ID de conversation Emailgistics. |
->| Mail.Send | délégué | Permet à Emailgistics d’envoyer des messages électroniques à partir de la boîte aux lettres partagée. Cette autorisation est requise pour envoyer des messages à partir de règles (telles que les réponses automatiques). |
->| MailboxSettings.ReadWrite | délégué | Permet à Emailgistics d’obtenir le nom de la boîte aux lettres partagée et de créer une règle de boîte aux lettres pour router les messages entrants vers son dossier entrant masqué pour le traitement initial, l’exécution des règles et l’affectation automatique. |
->| User.Read | délégué | Permet à Emailgistics de se connecter en tant que boîte aux lettres partagée et de lire des informations de base à son sujet, telles que son ID principal de service, son adresse e-mail et son nom d’utilisateur. |
->| User.ReadBasic.All | délégué | Permet à Emailgistics de lire les informations de base sur les utilisateurs de votre client. Requis pour détecter les modifications apportées aux adresses e-mail et aux noms des membres de la boîte aux lettres et mettre à jour automatiquement ces informations, qui sont utilisées à des fins de suivi et de rapport, dans Emailgistics. Il s’agit de la seule autorisation dont l’étendue s’étend au-delà de la boîte aux lettres partagée. |
->| offline_access | délégué | Permet à Emailgistics de fonctionner comme une application back-end, au lieu d’une application interactive basée sur un navigateur nécessitant qu’un utilisateur se connecte chaque fois qu’elle fonctionne. Cette autorisation permet à Emailgistics d’obtenir un jeton d’actualisation, qu’il peut actualiser selon les besoins pour conserver un accès constant. |
+Écrire le req’d’accès pour envoyer des messages à partir de règles (telles que les réponses automatiques) et mettre à jour les sujets des messages avec l’ID de conversation Emailgistics. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| Mail.Send | délégué | Permet à Emailgistics d’envoyer des messages électroniques à partir de la boîte aux lettres partagée. Cette autorisation est requise pour envoyer des messages à partir de règles (telles que les réponses automatiques). | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| MailboxSettings.ReadWrite | délégué | Permet à Emailgistics d’obtenir le nom de la boîte aux lettres partagée et de créer une règle de boîte aux lettres pour router les messages entrants vers son dossier entrant masqué pour le traitement initial, l’exécution des règles et l’affectation automatique. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| User.Read | délégué | Permet à Emailgistics de se connecter en tant que boîte aux lettres partagée et de lire des informations de base à son sujet, telles que son ID principal de service, son adresse e-mail et son nom d’utilisateur. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| User.ReadBasic.All | délégué | Permet à Emailgistics de lire les informations de base sur les utilisateurs de votre client. Requis pour détecter les modifications apportées aux adresses e-mail et aux noms des membres de la boîte aux lettres et mettre à jour automatiquement ces informations, qui sont utilisées à des fins de suivi et de rapport, dans Emailgistics. Il s’agit de la seule autorisation dont l’étendue s’étend au-delà de la boîte aux lettres partagée. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| offline_access | délégué | Permet à Emailgistics de fonctionner comme une application back-end, au lieu d’une application interactive basée sur un navigateur nécessitant qu’un utilisateur se connecte chaque fois qu’elle fonctionne. Cette autorisation permet à Emailgistics d’obtenir un jeton d’actualisation, qu’il peut actualiser selon les besoins pour conserver un accès constant. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
