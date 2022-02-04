@@ -2,24 +2,18 @@
 title: Informations sur l’application pour Kudozza par surviveF5
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/18/2021
+ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Kudozza, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e375254e741b68a57c888c1d0a912df5f64e03d8
-ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62338014"
+description: 'Toutes les informations de sécurité et de conformité disponibles pour Kudozza, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 ---
 # <a name="kudozza"></a>Kudozza
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 10, 2021</p>
+<p>Last updated by the developer on: February 2, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/61a58a9f-3474-4d14-bda6-6547194a7381" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002599" target="_blank">Afficher dans AppSource</a>
@@ -36,10 +30,13 @@ Informations fournies par surviveF5 Contrôleh à Microsoft :
 | ID | WA200002599 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | surviveF5 GmbH |
-| URL du site web partenaire | [https://surviveF5.com](https://surviveF5.com) |
-| URL de la Teams d’informations sur l’application | [https://kudozza.com](https://kudozza.com) |
-| URL de la politique de confidentialité | [https://kudozza.com/privacy](https://kudozza.com/privacy) |
-| URL des conditions d’utilisation | [https://kudozza.com/terms](https://kudozza.com/terms) |
+| Site web de l’entreprise | [https://surviveF5.com](https://surviveF5.com) |
+| Conditions d’utilisation de l’application | [https://kudozza.com/terms](https://kudozza.com/terms) |
+| Fonctionnalités principales de l’application | Kudozza permet de donner Kudos à d’autres membres de l’équipe pour leur montrer votre satisfaction. Il propose différents outils tels que les participations emoji, les catégories ou les classements pour encourager l’utilisation de Kudos. |
+| Emplacement du siège social de l’entreprise | Allemagne |
+| Page d’informations sur l’application | |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws, Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,80 +48,130 @@ Informations fournies par surviveF5 Contrôleh à Microsoft :
 
 Ces informations ont été fournies par surviveF5 Contrôleh sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
+| **Information** | **Response** |
+|:----------------|:-------------|
+| L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
+| Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
+| Quelles données sont stockées dans vos bases de données ? | userid, teamid, teamname, username, tenantid, messageid, messagetext |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Allemagne |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 90 jours |
+| Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
+| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Oui |
+| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? | Oui |
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
-
->Cette application n’utilise pas Microsoft Graph.
-
-#### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
-
-Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
-
->| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| AWS | userId, teamId, tenantId, username | Le service et la base de données sont hébergés dans AWS.  |
-#### <a name="data-access-via-bots"></a>Accès aux données via des bots
-
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
-
->| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Kudos sont envoyés à d’autres personnes et le message doit être renvoyé fréquemment. Un classement est également fourni, ce qui rend nécessaire le magasinage des noms et des ID des utilisateurs à l’aide de l’application Kudozza. | userid, username | Kudos sont envoyés à d’autres personnes et le message doit être renvoyé fréquemment. Un classement est également fourni, ce qui rend nécessaire le magasinage des noms et des ID des utilisateurs à l’aide de l’application Kudozza. |
-
-#### <a name="telemetry-data"></a>Données de télémétrie
-
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
-
->tenantId, teamId, userId. La stratégie de rétention est de 14 jours.
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
-
-Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
-
->Par DPA. Stratégies utilisateur d’audit et d’ent.
-#### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
-
-Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
-
->Non [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36547' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36547" target="_blank">Afficher dans un nouvel onglet</a>
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Effectuez-vous des tests de pénétration annuels sur l’application ? | Non |
+| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
+| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | ApplicationControls |
+| Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Non |
+| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Non |
+| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Non |
+| Votre environnement a-t-il des systèmes d’exploitation ou des logiciels non pris en charge ? | Non |
+| Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et sur l’infastructure qui la prend en charge ? | Non |
+| Un pare-feu est-il installé sur la limite de votre réseau externe ? | Oui |
+| Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Oui |
+| Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? | Non |
+| Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
+| Authentification multifacteur (MFA) activée pour : | CodeRepositories, DNSManagement, Credential |
+| Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | Non |
+| La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
+| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
+| Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Non |
+| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Non |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
+| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Informations d’identité
-
-Ces informations ont été fournies par surviveF5 Contrôleh sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+::: zone pivot="compliance"
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
-| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
-| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
-| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
-| Votre application prend-elle en charge l’location multiple ? | Oui |
-| Votre application a-t-elle un client confidentiel ? | Oui |
-| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
-| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | -  URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/>- Flux ROPC (Resource Owner Password Credential) |
-| Votre application expose-t-elle des API web ? | Oui |
-| Votre modèle d’autorisation autorise-t-il uniquement les appels à réussir si l’application cliente reçoit le consentement approprié ? | Oui |
-| Votre application utilise-t-elle les API d’aperçu ? | Non |
-| Votre application utilise-t-elle des API dépréciées ? | Non |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| Date de certification SOC1 la plus récente |   |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
+| Quelle certification SOC 2 avez-vous atteinte ? | |
+| Date de certification SOC2 la plus récente | |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
+| Date de certification SOC3 la plus récente | |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Non |
+| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
+| Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Non |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | Non |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Oui |
+| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
+| URL de la politique de confidentialité | https://www.kudozza.com/privacy/ |
+| L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? | Non |
+| L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
+| Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
+| L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? | Non |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | Non |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Oui |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | Non |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | Non |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
+| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Non |
+| Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Non |
+| Votre application stocke-t-elle des informations d’identification dans le code ? | Oui |
+| Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
+
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
+
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | délégué | Lecture des canaux d’une équipe pour donner à l’utilisateur la possibilité de sélectionner un canal dans lequel il souhaite publier les félicitations | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
+>| Teams.ReadBasic.All | délégué | L’utilisateur peut sélectionner une équipe et un canal dans lequel il souhaite que les félicitations soient publiées. Les autorisations de lecture d’équipe sont nécessaires pour la lecture des équipes. | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
+>| User.Read | délégué | Obtenir les équipes dont un utilisateur fait partie | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
+>| User.ReadBasic.All | délégué | Lire le nom d’utilisateur | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
+
+>Cette application ne comprend pas d’API supplémentaires.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
