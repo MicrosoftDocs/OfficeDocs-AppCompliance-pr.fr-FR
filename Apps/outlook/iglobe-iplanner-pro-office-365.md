@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour iPlanner Pro Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 6ac775002a472e1f41390a9e640142b7b74b5d80
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: a373e9524ab5e16e4a04746ff4499fc215d1f2a7
+ms.sourcegitcommit: dd610febc885b7c5766014e7364ed43c4bd942ac
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251920"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "62449509"
 ---
 # <a name="iplanner-pro-office-365"></a>iPlanner Pro Office 365
 
@@ -36,7 +36,7 @@ Informations fournies par iGlobe à Microsoft :
 | Nom de la société partenaire | iGlobe |
 | Site web de l’entreprise | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Conditions d’utilisation de l’application | [https://iglobecrm.com/content/end-user-license-agreement-ig...](https://iglobecrm.com/content/end-user-license-agreement-iglobe-iplanner-add-ins) |
-| Fonctionnalités principales de l’application | Obtenez les tâches du Planificateur Office 365'Teams le conseil de votre &amp; main Outlook sur n’importe quel appareil. La gestion et la création de tâches n’ont jamais été aussi faciles. Obtenez les tâches du Planificateur à partir Office 365'Teams dans la pointe de votre main, dans Outlook pour Windows, MAC, IOS ou la messagerie &amp; Web. |
+| Fonctionnalités principales de l’application | Obtenez les tâches du Planificateur Office 365'Teams &amp; le conseil de votre main Outlook sur n’importe quel appareil. La gestion et la création de tâches n’ont jamais été aussi faciles. Obtenez les tâches du Planificateur à partir Office 365'Teams &amp; dans la pointe de votre main, dans Outlook pour Windows, MAC, IOS ou la messagerie Web. |
 | Emplacement du siège social de l’entreprise | Danemark |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
@@ -119,7 +119,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Oui |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Oui |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Oui |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -151,7 +151,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -165,54 +165,17 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
->| Contacts.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
->| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
->| Files.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
->| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
->| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
->| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
->| User.ReadBasic.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
->| profil | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Contacts.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Files.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| User.ReadBasic.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| profil | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 
 >Cette application ne comprend pas d’API supplémentaires.
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Informations de certification
-
-| **Contrôle** | **résultat Microsoft 365 certification** |
-|:------------|:---------------------------------------|
-| [**SÉCURITÉ DES APPLICATIONS**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test de pénétration | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examen de l’évaluation des vulnérabilités (test DAST/SAST/Pénétration) | N/A |
-| [**SÉCURITÉ OPÉRATIONNELLE**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Antivirus | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants : contrôle des applications | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs : classement des risques | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs : correction | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyse des vulnérabilités | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu : pare-feu (ou technologies équivalentes) | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu : pare-feu d’application web (WAF) (facultatif) | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contrôle des changements | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sécurisation du développement/déploiement de logiciels | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des comptes | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Détection et prévention des intrusions (facultatif) | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Journalisation des événements de sécurité | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reviewing (Logging Data) | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertes d’événements de sécurité | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des risques de sécurité des informations | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Réponse aux incidents | S/O |
-| [**GESTION DES DONNÉES RELATIVES À LA CONFIDENTIALITÉ DE &amp; LA SÉCURITÉ**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données en transit | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données au repos | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rétention et élimination des données | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion de l’accès aux données | N/A |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R GDPR | S/O |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
