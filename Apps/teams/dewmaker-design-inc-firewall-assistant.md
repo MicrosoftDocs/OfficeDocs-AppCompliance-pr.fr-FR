@@ -1,45 +1,45 @@
 ---
-title: Informations sur l’application pour Evocom par Evocom Informationssysteme
+title: Application Information for Firewall Assistant by DewMaker Design, Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Evocom, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour l’Assistant Pare-feu, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 26aa34b7e3c8bfc167a771a7e6f630f24dbf9487
+ms.openlocfilehash: e9cf30e4f4b283cb1da66dfb40e5a3c9745901c6
 ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/09/2022
-ms.locfileid: "62477147"
+ms.locfileid: "62477524"
 ---
-# <a name="evocom"></a>Evocom
+# <a name="firewall-assistant"></a>Assistant Pare-feu
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 2, 2022</p>
+<p>Last updated by the developer on: February 7, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/8681b4f9-a5cd-4dd7-9721-09f015dae618" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002050" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/40b745ad-16a8-4eda-bf1c-5b48b0dc947d" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003363" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Evocom Informationsysteme Baseh à Microsoft :
+Informations fournies par DewMaker Design, Inc. à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | Evocom |
-| ID | WA200002050 |
+| Nom de l'application | Assistant Pare-feu |
+| ID | WA200003363 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Evocom Informationssysteme GmbH |
-| Site web de l’entreprise | [https://evocom.de](https://evocom.de) |
-| Conditions d’utilisation de l’application | [https://evocom.de/termsofuse](https://evocom.de/termsofuse) |
-| Fonctionnalités principales de l’application | Evocom&#180;usp = simplicité. Evocom est une solution intuitive pour les flux de travail collaboratifs, la gestion des projets et des tâches. Les travailleurs de l’information conçoivent des processus et les apportent immédiatement à la vie. Les personnes dans les services utilisent Evocom pour numériser les micro processus qui coordonnent le travail interne. Les spécialistes des processus orchestrent les processus entre les services, en utilisant des micro-processus de services et en utilisant les intégrations existantes avec des systèmes métier tels que CRM, ERP et d’autres. |
-| Emplacement du siège social de l’entreprise | Allemagne |
+| Nom de la société partenaire | DewMaker Design, Inc. |
+| Site web de l’entreprise | [https://dewmaker.com](https://dewmaker.com) |
+| Conditions d’utilisation de l’application | [https://teamwell.services/terms.html](https://teamwell.services/terms.html) |
+| Fonctionnalités principales de l’application | Gestion en libre-service d’Azure SQL Server règles de pare-feu à l’aide Microsoft Teams. |
+| Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
@@ -52,7 +52,7 @@ Informations fournies par Evocom Informationsysteme Baseh à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par Evocom Informationsysteme StoresH sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par DewMaker Design, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -60,8 +60,8 @@ Ces informations ont été fournies par Evocom Informationsysteme StoresH sur la
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? | ID utilisateur, courrier électronique, nom, Profilbild |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Pays-Bas (les) |
+| Quelles données sont stockées dans vos bases de données ? | Adresse de messagerie (pour les connexions MS) et données de point de terminaison d’abonnement Azure |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Éléments non conservés |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -78,21 +78,21 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
-| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
-| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | ApplicationControls |
+| Effectuez-vous des tests de pénétration annuels sur l’application ? | Non |
+| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
+| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | ApplicationControls, TraditionalAntiMalware |
 | Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Oui |
-| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Oui |
-| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Oui |
+| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Non |
+| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Non |
 | Votre environnement a-t-il des systèmes d’exploitation ou des logiciels non pris en charge ? | Non |
 | Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et sur l’infastructure qui la prend en charge ? | Oui |
 | Un pare-feu est-il installé sur la limite de votre réseau externe ? | Oui |
 | Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Oui |
 | Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? | Oui |
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
-| Authentification multifacteur (MFA) activée pour : | DNSManagement, Informations d’identification |
+| Authentification multifacteur (MFA) activée pour : | CodeRepositories, DNSManagement, Credential |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | N/A |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | Oui |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
 | Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
@@ -125,7 +125,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -137,17 +137,16 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Oui |
-| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
-| URL de la politique de confidentialité | https://evocom.de/datenschutz |
+| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Non |
+| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Non |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? | Non |
 | L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
 | Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
 | L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? | Non |
-| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | Oui |
-| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Oui |
-| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | N/A |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | N/A |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? |  |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? |  |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? |  |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -158,21 +157,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
-| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | Multi-Factor Authentication - Kundenspeziffact |
-| Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Oui |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
+| Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Non |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
-| Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Oui |
+| Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
-#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
-
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
->|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | délégué | Profilbild anzeigen | [3e745135-a761-48a7-ab54-5c0277b2e642](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e745135-a761-48a7-ab54-5c0277b2e642) |
->| User.ReadBasic.All | délégué | PeoplePicker, Benutzerverwaltung | [3e745135-a761-48a7-ab54-5c0277b2e642](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e745135-a761-48a7-ab54-5c0277b2e642) |
+>Cette application n’utilise pas Microsoft Graph.
 
 >Cette application ne comprend pas d’API supplémentaires.
 
