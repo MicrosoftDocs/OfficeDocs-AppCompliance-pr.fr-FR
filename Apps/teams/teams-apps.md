@@ -2,11 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/03/2022
+ms.date: 02/08/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
+ms.openlocfilehash: 75fde0de6b646be10c771fcec0b3c1ba43e84ceb
+ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62473595"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -58,6 +64,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Connexion de tableau](./engage-squared-board-connect.md) | Engage Squared | **✓** |  |
 | [Réservation de salle Pro](./witivio-booking-room-pro.md) | Witivio | **✓** |  |
 | [BrainBot](./biggerbrains-brainbot.md) | Biggerbrains | **✓** |  |
+| [BRAVO Workhub](./coeus-solutions-gmbh-bravo-workhub.md) | Coeus Solutions GmbH | **✓** |  |
 | [BravoNow](./spadeworx-software-services-bravonow.md) | Services Logiciels Deworx | **✓** |  |
 | [Breakthru](./breakthru.md) | Breakthru | **✓** |  |
 | [Bright Poll](./chat-apps-llc-bright-poll.md) | Chat Apps, LLC | **✓** |  |
@@ -117,6 +124,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [eSignature DocuSign](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
 | [Enregistrement d’appels unifiés durd](./dubber-unified-call-recording.md) | Dunk | **✓** |  |
 | [Projets faciles](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  |
+| [EasyLife 365](./easylife-365-ag.md) | EasyLife 365 AG | **✓** |  |
 | [eCademy Lernplattform](./cornelsen-ecademy-and-inside-gmbh-lernplattform.md) | Cornelsen eCademy &amp; inside GmbH | **✓** |  |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  |
@@ -145,6 +153,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Fifty](./fifty.md) | Fifty | **✓** |  |
 | [File Fabric](./storage-made-easy-file-fabric.md) | Storage Made Easy | **✓** |  |
 | [Fireflies AI](./firefliesai-fireflies-ai.md) | Fireflies.ai | **✓** |  |
+| [Assistant Pare-feu](./dewmaker-design-inc-firewall-assistant.md) | DewMaker Design, Inc. | **✓** |  |
 | [FireWatch](./infographics-uk-ltd-firewatch.md) | Infographies UK Ltd. | **✓** |  |
 | [FaqQast](./floqast.md) | FaqQast | **✓** |  |
 | [Fond](./fond-technologies-inc.md) | Fond Technologies, Inc. | **✓** |  |
@@ -281,6 +290,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Power BI Collaboration](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
 | [Powow](./powow-ai.md) | Powow AI | **✓** |  |
 | [Présentations IA](./infographfx-technologies-presentations-ai.md) | Technologies Infographfx | **✓** |  |
+| [Moniteur de prix](./price-monitor.md) | &#19978;&#28023;&#20134;&#24698;&#20114;&#32852;&#32593;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Proconnect pour Sitecore](./subramanian-ramanathan-proconnect-for-sitecore.md) | Ramanathan subramanien | **✓** |  |
 | [ProdBot](./prodoscore-prodbot.md) | Prodoscore | **✓** |  |
@@ -299,8 +309,8 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
 | [Traducteur en temps réel](./fairuse-real-time-translator.md) | Utilisation équitable | **✓** |  |
 | [Rappeler](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
-| [Reminderz](./chitchattr-reminderz.md) | ChitChattr | **✓** |  |
 | [researcHR](./researchr.md) | KBE&#26666;&#24335;&#20250;&#31038; | **✓** |  |
+| [Responsum](./responsum-inc.md) | Responsum Inc. | **✓** |  |
 | [ReTeam](./beremote-llc-reteam.md) | BeRemote LLC | **✓** |  |
 | [Rezolve.ai](./actionable-science-rezolveai.md) | Science exploitable | **✓** |  |
 | [Bot RFPIO](./rfpio-bot.md) | RFPIO | **✓** |  |
@@ -316,7 +326,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [SelfDrvn](./selfdrvn.md) | SelfDrvn | **✓** |  |
 | [Conducteur Sensei Labs](./sensei-labs-inc-conductor.md) | Sensei Labs Inc. | **✓** |  |
 | [Senso](./senso.md) | Senso | **✓** |  |
-| [Sentry](./sentry.md) | Sentry | **✓** |  |
 | [SHL](./shl.md) | SHL | **✓** |  |
 | [Shortlinks](./chitchattr-shortlinks.md) | ChitChattr | **✓** |  |
 | [SIGNL4](./derdack-signl4.md) | Derdack SIGNL4 | **✓** |  |
