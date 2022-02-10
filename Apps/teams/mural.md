@@ -2,24 +2,23 @@
 title: Informations sur l’application POUR LA MISE EN PLACE DNL par LA DEMANDE
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/07/2021
+ms.date: 02/10/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour LA DEMANDE, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 67a5424289d3c9e8ce90997fd67577e7d5d06e93
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 232dfe9848753a221d4a68590fa2c73138d39d24
+ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62263758"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62515170"
 ---
 # <a name="mural"></a>MURAL
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 22, 2021</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Last updated by the developer on: February 9, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381626" target="_blank">Afficher dans AppSource</a>
@@ -153,7 +152,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

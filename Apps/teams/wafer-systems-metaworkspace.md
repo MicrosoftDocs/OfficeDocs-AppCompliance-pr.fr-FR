@@ -1,48 +1,48 @@
 ---
-title: Informations d’application pour MyWorkDrive par MyWorkDrive
+title: Informations sur les applications pour MetaWorkspace par les systèmes Wafer
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/09/2022
+ms.date: 02/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour MyWorkDrive, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour MetaWorkspace, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 21707a890d66765ea5c246d183f05580ea062a3f
+ms.openlocfilehash: 2ff321cba44fc8a215d4e34a4137f04f0df61b9b
 ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/10/2022
-ms.locfileid: "62515079"
+ms.locfileid: "62510551"
 ---
-# <a name="myworkdrive"></a>MyWorkDrive
+# <a name="metaworkspace"></a>MetaWorkspace
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 3, 2022</p>
+<p>Last updated by the developer on: November 24, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/f4170c12-ec5c-47b9-834a-a4186cf27ec1" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002325" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/431b1597-8da3-45ca-9b36-ff245ea7c442" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003747" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par MyWorkDrive à Microsoft :
+Informations fournies par les systèmes Wafer à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | MyWorkDrive |
-| ID | WA200002325 |
+| Nom de l'application | MetaWorkspace |
+| ID | WA200003747 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | MyWorkDrive |
-| Site web de l’entreprise | [https://www.myworkdrive.com](https://www.myworkdrive.com) |
-| Conditions d’utilisation de l’application | [https://www.myworkdrive.com/terms-of-service/](https://www.myworkdrive.com/terms-of-service/) |
-| Fonctionnalités principales de l’application | L’application MyWorkDrive vous permet d’accéder aux dossiers de partage de fichiers dans Microsoft Teams avec la possibilité de modifier, partager et accéder à des fichiers d’entreprise stockés sur des partages de fichiers à distance.   |
-| Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
+| Nom de la société partenaire | Systèmes Wafer |
+| Site web de l’entreprise | [https://www.wafersystems.com](https://www.wafersystems.com) |
+| Conditions d’utilisation de l’application | [https://cloud.rd.virsical.cn/service](https://cloud.rd.virsical.cn/service) |
+| Fonctionnalités principales de l’application | MetaVisitor&#33268;&#21147;&#20110;&#35775;&#23458;&#19994;&#21153;&#22330;&#26223;&#30340;&#20840;&#36807;&#31243;&#25968;&#23383;&#21270;&#12289;&#26234;&#33021;&#21270;&#65292;&#26500;&#24314;&#20113;&#26102;&#20195;&#30340;&#35775;&#23458;&#39044;&#32422;&#65292;&#21161;&#21147;&#39640;&#25928;&#21150;&#20844;&#12290; |
+| Emplacement du siège social de l’entreprise | Chine |
 | Page d’informations sur l’application | |
-| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Hybride |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure, Aws, Other |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AlibabaCloud |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,17 +52,19 @@ Informations fournies par MyWorkDrive à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par MyWorkDrive sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par les systèmes Wafer sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
+| L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
+| Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
+| Quelles données sont stockées dans vos bases de données ? | Nom d’utilisateur, e-mail |
 | Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Éléments non conservés |
+| Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
 | Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
 
@@ -88,13 +90,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Oui |
 | Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? | Oui |
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
-| Authentification multifacteur (MFA) activée pour : | CodeRepositories, DNSManagement, Credential |
+| Authentification multifacteur (MFA) activée pour : | CodeRepositories |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | N/A |
-| La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Non |
-| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | Oui |
+| La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
+| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
-| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Non |
+| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Oui |
 | Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
 | Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
 
@@ -106,7 +108,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | Oui |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -115,8 +117,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Oui |
-| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
+| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
@@ -124,7 +126,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
-| L’application est-elle conforme au NIST 800-171 ? | Oui |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -158,13 +160,16 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
-| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | Stratégies d’appareil |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Non |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
->Cette application n’utilise pas Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
+
+>|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | application | &#23637;&#31034;&#29992;&#25143;&#20449;&#24687; | [43067020-c59f-49f8-a532-e84ed3bb5f4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/43067020-c59f-49f8-a532-e84ed3bb5f4e) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
