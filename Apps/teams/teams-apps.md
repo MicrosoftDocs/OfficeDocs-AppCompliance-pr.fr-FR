@@ -2,17 +2,17 @@
 title: Sécurité et conformité des applications Microsoft Teams - Toutes les applications
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/11/2022
+ms.date: 02/14/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: aa1c046fe494ec1fcdd047eae02f823e6dc89b2d
-ms.sourcegitcommit: 49991df115de43a1e5e5579ebef4ebc71df29fae
+ms.openlocfilehash: ecf14cb0b0d02c3fa384a131609815edb2ffe3ce
+ms.sourcegitcommit: 608dc021537f8048f85f34b86c507a6461db1d5f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62792485"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "62816111"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -50,6 +50,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Attensa](./attensa-corporation.md) | Attensa Corporation | **✓** |  |
 | [AuditBoard](./auditboard.md) | AuditBoard | **✓** |  |
 | [Aula Digital](./leya-sa-aula-digital.md) | Leya, S.A. | **✓** |  |
+| [Flux de travail Autopilot](./autopilot-workflow-solutions-workflows.md) | Solutions de flux de travail Autopilot | **✓** |  |
 | [Avaamo IT Assistant](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
 | [Axelleron](./axelleron.md) | Axelleron | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | Point de décision | **✓** |  |
@@ -273,6 +274,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [OfficeRnD Hybrid Work](./officernd-hybrid-work.md) | OfficeRnd | **✓** |  |
 | [OfficeSpace](./officespace-software.md) | Logiciel OfficeSpace | **✓** |  |
 | [OfficeSuite](./windstream-officesuite.md) | WindStream | **✓** |  |
+| [OfficeTogether](./officetogether-inc.md) | OfficeTogether, Inc. | **✓** |  |
 | [Officevibe](./officevibe.md) | Officevibe | **✓** |  |
 | [OLIVE VLE](./olivegroup-olive-vle.md) | OliveGroup | **✓** |  |
 | [Onluyen](./edmicro-onluyen.md) | Edmicro | **✓** |  |
@@ -412,7 +414,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Trivia](./springworks-hr-tech-trivia.md) | Springworks HR Tech | **✓** |  |
 | [Trivia Engine](./enableuc-trivia-engine.md) | EnableUC | **✓** |  |
 | [Trivie](./trivie-inc.md) | Trivie, Inc. | **✓** |  |
-| [Tryane Analytics](./tryane-analytics.md) | Tryane | **✓** |  |
 | [UkG Pro](./ukg-inc-pro.md) | UKG, Inc. | **✓** |  |
 | [UserVoice](./uservoice.md) | UserVoice | **✓** |  |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  |
