@@ -1,48 +1,48 @@
 ---
-title: Informations d’application pour MGR360 par MGR360
+title: Informations sur l’application pour OfficeTogether par OfficeTogether, Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/14/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour MGR360, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour OfficeTogether, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c07df7dcf3d2554421b2c2d3c92dbaa73501076c
+ms.openlocfilehash: 60fecadc5f9a2fc186e997a8115cf197ee05a2c3
 ms.sourcegitcommit: 9905237eb3270d099820cbf413d64b7cc066dc7c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/15/2022
-ms.locfileid: "62808674"
+ms.locfileid: "62811738"
 ---
-# <a name="mgr360"></a>MGR360
+# <a name="officetogether"></a>OfficeTogether
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 7, 2022</p>
+<p>Last updated by the developer on: September 9, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/a229e17d-d19a-403b-8ddf-fc44cf8d5462" target="_blank">Afficher dans Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003329" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/d75e21dd-41a9-498d-8585-f96a516e8989" target="_blank">Afficher dans Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003767" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par MGR360 à Microsoft :
+Informations fournies par OfficeTogether, Inc. à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | MGR360 |
-| ID | WA200003329 |
+| Nom de l'application | OfficeTogether |
+| ID | WA200003767 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | MGR360 |
-| Site web de l’entreprise | [https://mgr360.com](https://mgr360.com) |
-| Conditions d’utilisation de l’application | [https://mgr360.com/terms-and-conditions](https://mgr360.com/terms-and-conditions) |
-| Fonctionnalités principales de l’application | L’application pour les grands succès. Gérez les&#8217;de votre équipe, les tâches, les avis et les&#8230; en un seul endroit. |
+| Nom de la société partenaire | OfficeTogether, Inc. |
+| Site web de l’entreprise | [https://www.officetogether.com](https://www.officetogether.com) |
+| Conditions d’utilisation de l’application | [https://www.officetogether.com/terms-of-use/](https://www.officetogether.com/terms-of-use/) |
+| Fonctionnalités principales de l’application | OfficeTogether est une plateforme de planification et de réservation d’office. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
 | Page d’informations sur l’application | |
-| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,7 +52,7 @@ Informations fournies par MGR360 à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par MGR360 sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par OfficeTogether, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -60,11 +60,11 @@ Ces informations ont été fournies par MGR360 sur la façon dont cette applicat
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
+| Quelles données sont stockées dans vos bases de données ? | E-mail utilisateur, ID Teams client, ID de client |
 | Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
+| Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
 | Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
 
@@ -78,25 +78,25 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Effectuez-vous des tests de pénétration annuels sur l’application ? | Non |
-| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
-| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | ApplicationControls |
-| Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Non |
-| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Non |
-| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Non |
+| Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
+| L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
+| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | ApplicationControls, TraditionalAntiMalware |
+| Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Oui |
+| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Oui |
+| Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Oui |
 | Votre environnement a-t-il des systèmes d’exploitation ou des logiciels non pris en charge ? | Non |
-| Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et sur l’infastructure qui la prend en charge ? | Non |
+| Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et sur l’infastructure qui la prend en charge ? | Oui |
 | Un pare-feu est-il installé sur la limite de votre réseau externe ? | Oui |
 | Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Oui |
 | Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? | Oui |
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
-| Authentification multifacteur (MFA) activée pour : | NoneOfTheAbove |
+| Authentification multifacteur (MFA) activée pour : | Credential, CodeRepositories, DNSManagement |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | N/A |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | Non |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
 | Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
-| Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Non |
-| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Non |
+| Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
+| Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Oui |
 | Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
 | Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
 
@@ -108,7 +108,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | Oui |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -137,16 +137,17 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Non |
-| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Non |
+| Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Oui |
+| L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
+| URL de la politique de confidentialité | https://www.officetogether.com/privacy-policy |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? | Non |
 | L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
 | Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
 | L’application collecte-t-elle ou traitera-t-elle des données à partir de mineurs (c’est-à-dire, des personnes de moins de 16 ans) ? | Non |
-| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? |  |
-| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? |  |
-| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? |  |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? |  |
+| L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | Oui |
+| L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Oui |
+| L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | Oui |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -169,19 +170,18 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | les deux | Prend en charge la possibilité d’afficher et d’écrire des événements dans le calendrier des utilisateurs  | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Directory.Read.All | les deux | Déterminer les salles de conférence disponibles  | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Files.Read | les deux | Prend en charge l’image de profil | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Group.ReadWrite.All | les deux | Il s’agit de créer et de placer des tâches dans le groupe | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Mail.Read | les deux | Prend en charge la possibilité de créer des invitations de calendrier  | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| MailboxSettings.ReadWrite | les deux | Permet à l’application de créer des catégories pour les événements de calendrier | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Presence.Read.All | les deux | Lire les informations de présence des utilisateurs | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| Tasks.ReadWrite.Shared | les deux | Accéder en lecture et en écriture aux tâches utilisateur et aux tâches partagées | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| User.Read.All | les deux | Permettre à l’application de lire un profil complet d’utilisateurs pour obtenir un nom, un e-mail, un titre | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| email | les deux | Permet à l’application de lire l’adresse e-mail des utilisateurs  | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| offline_access | les deux | Maintient l’accès aux données  | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| openid | les deux | Signe les utilisateurs | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
->| profil | les deux | Afficher l’image de profil et le profil de base des utilisateurs | [2f05d0f8-3f87-4a59-952d-33c69c24a6d9](https://docs.microsoft.com/microsoft-365-app-certification/azure/2f05d0f8-3f87-4a59-952d-33c69c24a6d9) |
+>| Calendars.ReadWrite | les deux | Nous utilisons cette autorisation pour gérer les calendriers des employés, tels que la synchronisation des jours au bureau ou la gestion des salles de conférence. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| Group.ReadWrite.All | application | Pour tous les utilisateurs qui arrivent au bureau, nous créons une équipe quotidienne pour que les utilisateurs discutent et parlent du bureau. Cette autorisation est nécessaire pour gérer  | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| Presence.Read | délégué | Pour synchroniser l’état OfficeTogether d’un employé avec Teams. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| Team.ReadBasic.All | application | Nous utilisons cette autorisation pour gérer les équipes créées quotidiennement, telles que leur archivage. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| Teams. Créer | application | Pour tous les utilisateurs qui arrivent au bureau, nous créons une équipe quotidienne pour que les utilisateurs discutent et parlent du bureau. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Notre application est une application personnelle. Une fois qu’il est installé sur un seul utilisateur au niveau d’une entreprise, nous l’installons automatiquement sur tous les utilisateurs OfficeTogether inscrits dans la même société. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| User.Read | délégué | SSO dans le courrier électronique des équipes. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| User.ReadWrite.All | application | Voir TeamsAppInstallation.ReadWriteSelfForUser.All. Pour installer OfficeTogether pour tous les utilisateurs pertinents, nous allons analyser l’annuaire et faire correspondre les utilisateurs. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| email | délégué | SSO dans le courrier électronique des équipes. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| offline_access | délégué | SSO dans le courrier électronique des équipes. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| openid | délégué | SSO dans le courrier électronique des équipes. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| profil | délégué | SSO dans le courrier électronique des équipes. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
