@@ -2,24 +2,24 @@
 title: Informations sur l’application pour OfficeTogether par OfficeTogether, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/14/2022
+ms.date: 02/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour OfficeTogether, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 60fecadc5f9a2fc186e997a8115cf197ee05a2c3
-ms.sourcegitcommit: 9905237eb3270d099820cbf413d64b7cc066dc7c
+ms.openlocfilehash: f291b6d1586c5b119fb01eafc9a18ce867f63646
+ms.sourcegitcommit: e43a258f089034069a6101a3290dc315725762fc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62811738"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62832535"
 ---
 # <a name="officetogether"></a>OfficeTogether
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 9, 2021</p>
+<p>Last updated by the developer on: February 15, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/d75e21dd-41a9-498d-8585-f96a516e8989" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003767" target="_blank">Afficher dans AppSource</a>
@@ -170,18 +170,18 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | les deux | Nous utilisons cette autorisation pour gérer les calendriers des employés, tels que la synchronisation des jours au bureau ou la gestion des salles de conférence. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| Group.ReadWrite.All | application | Pour tous les utilisateurs qui arrivent au bureau, nous créons une équipe quotidienne pour que les utilisateurs discutent et parlent du bureau. Cette autorisation est nécessaire pour gérer  | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| Presence.Read | délégué | Pour synchroniser l’état OfficeTogether d’un employé avec Teams. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| Team.ReadBasic.All | application | Nous utilisons cette autorisation pour gérer les équipes créées quotidiennement, telles que leur archivage. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| Teams. Créer | application | Pour tous les utilisateurs qui arrivent au bureau, nous créons une équipe quotidienne pour que les utilisateurs discutent et parlent du bureau. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Notre application est une application personnelle. Une fois qu’il est installé sur un seul utilisateur au niveau d’une entreprise, nous l’installons automatiquement sur tous les utilisateurs OfficeTogether inscrits dans la même société. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| User.Read | délégué | SSO dans le courrier électronique des équipes. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| User.ReadWrite.All | application | Voir TeamsAppInstallation.ReadWriteSelfForUser.All. Pour installer OfficeTogether pour tous les utilisateurs pertinents, nous allons analyser l’annuaire et faire correspondre les utilisateurs. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| email | délégué | SSO dans le courrier électronique des équipes. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| offline_access | délégué | SSO dans le courrier électronique des équipes. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| openid | délégué | SSO dans le courrier électronique des équipes. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
->| profil | délégué | SSO dans le courrier électronique des équipes. | [86f76b8b-3355-4e40-a55a-8463a407a327](https://docs.microsoft.com/microsoft-365-app-certification/azure/86f76b8b-3355-4e40-a55a-8463a407a327) |
+>| Calendars.ReadWrite | les deux | Nous utilisons cette autorisation pour gérer les calendriers des employés, tels que la synchronisation des jours au bureau ou la gestion des salles de conférence. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| Group.ReadWrite.All | application | Pour tous les utilisateurs qui arrivent au bureau, nous créons une équipe quotidienne pour que les utilisateurs discutent et parlent du bureau. Cette autorisation est nécessaire pour gérer  | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| Presence.Read | délégué | Pour synchroniser l’état OfficeTogether d’un employé avec Teams. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| Team.ReadBasic.All | application | Nous utilisons cette autorisation pour gérer les équipes créées quotidiennement, telles que leur archivage. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| Teams. Créer | application | Pour tous les utilisateurs qui arrivent au bureau, nous créons une équipe quotidienne pour que les utilisateurs discutent et parlent du bureau. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Notre application est une application personnelle. Une fois qu’il est installé sur un seul utilisateur au niveau d’une entreprise, nous l’installons automatiquement sur tous les utilisateurs OfficeTogether inscrits dans la même société. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| User.Read | délégué | SSO dans le courrier électronique des équipes. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| User.ReadWrite.All | application | Voir TeamsAppInstallation.ReadWriteSelfForUser.All. Pour installer OfficeTogether pour tous les utilisateurs pertinents, nous allons analyser l’annuaire et faire correspondre les utilisateurs. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| email | délégué | SSO dans le courrier électronique des équipes. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| offline_access | délégué | SSO dans le courrier électronique des équipes. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| openid | délégué | SSO dans le courrier électronique des équipes. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
+>| profil | délégué | SSO dans le courrier électronique des équipes. | [17bd2add-67cb-4ffe-b69b-10b130558e89](https://docs.microsoft.com/microsoft-365-app-certification/azure/17bd2add-67cb-4ffe-b69b-10b130558e89) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
