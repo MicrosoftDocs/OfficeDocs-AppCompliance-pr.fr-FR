@@ -2,24 +2,24 @@
 title: Informations sur l’application pour la taxonomie par Accuracy Software Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/04/2022
+ms.date: 02/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la taxonomie, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e6ca7066e3ceaf975f3928885ea6cb5533c5e518
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 1106b9e00a94d133c167b04bb31e4bc71c060c73
+ms.sourcegitcommit: 0465c6dd3a2c42fb1fd785548654d5b7f2601adc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146561"
+ms.lasthandoff: 02/19/2022
+ms.locfileid: "62909066"
 ---
 # <a name="taxonomy"></a>Taxonomie
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 26, 2021</p>
+<p>Last updated by the developer on: February 18, 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003006" target="_blank">Afficher dans AppSource</a>
 
@@ -40,7 +40,7 @@ Informations fournies par Accuracy Software Inc. à Microsoft :
 | Fonctionnalités principales de l’application | La taxonomie vous offre un moyen efficace de gérer votre plan de classification des fichiers, en permettant à la collaboration des professionnels de la messagerie instantanée avec les différentes parties prenantes de créer, examiner et publier le plan de gestion de fichiers à l’ensemble de l’organisation. En outre, la taxonomie vous permet de générer des étiquettes de rétention M365 à exporter que vous pouvez importer dans le Centre de conformité Microsoft et d’exporter votre plan de fichiers dans un format d’ensemble de termes que vous pouvez importer dans le magasin de termes SharePoint. |
 | Emplacement du siège social de l’entreprise | Canada |
 | Page d’informations sur l’application | |
-| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Client SharePoint client |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -58,7 +58,7 @@ Ces informations ont été fournies par Accuracy Software Inc. sur la façon don
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Données de classification de plan de gestion de fichiers |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Canada |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Non |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Éléments non conservés |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Non |
@@ -87,9 +87,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous un processus de gestion des changements établi utilisé pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Non |
 | Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code envoyées en production par le développeur d’origine ? | Non |
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Non |
-| Authentification multifacteur (MFA) activée pour : |  |
+| Authentification multifacteur (MFA) activée pour : | NoneOfTheAbove |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Non |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | S/O |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | N/A |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
 | Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Non |
@@ -105,25 +105,25 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -153,7 +153,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
