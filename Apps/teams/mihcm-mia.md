@@ -2,24 +2,24 @@
 title: Informations sur l’application pour Quéz par MiHCM
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/20/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Contrôle, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 60f642920ebe8406b6b16bcdcf940dd986962ae6
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 1e8fa45f92c45f54d50ce94397eeb5a9adba49ca
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253610"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63079718"
 ---
 # <a name="mia"></a>Mia
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 21, 2021</p>
+<p>Last updated by the developer on: February 28, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/0b48e71e-8f46-46d8-a545-608295f000ac" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002417" target="_blank">Afficher dans AppSource</a>
@@ -38,7 +38,7 @@ Informations fournies par MiHCM à Microsoft :
 | Nom de la société partenaire | MiHCM |
 | Site web de l’entreprise | [https://mihcm.com](https://mihcm.com) |
 | Conditions d’utilisation de l’application | [https://mia.work/terms-of-use](https://mia.work/terms-of-use) |
-| Fonctionnalités principales de l’application | L’Virtual Assistant Workplace permet à votre organisation de fournir un assistant virtuel à tous vos Microsoft Teams utilisateurs. Cet assistant de l’espace de travail sur Microsoft Teams permet à votre organisation d’augmenter la productivité, d’améliorer l’engagement des employés, l’exécution d’une multitude de demandes RH, les demandes de service liées au travail, le &amp; bien-être, etc. Il s’assure de l’implication des employés et de l’expérience transparente des employés pour les interactions/services RH. |
+| Fonctionnalités principales de l’application | L’Virtual Assistant Workplace permet à votre organisation de fournir un assistant virtuel à tous vos Microsoft Teams utilisateurs. Cet assistant de l’espace de travail sur Microsoft Teams permet à votre organisation d’augmenter la productivité, d’améliorer l’engagement des employés, l’exécution d’une multitude de demandes RH, les demandes de service liées au travail, &amp; le bien-être, etc. Il s’assure de l’implication des employés et de l’expérience transparente des employés pour les interactions/services RH. |
 | Emplacement du siège social de l’entreprise | Sri Lanka |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
@@ -61,7 +61,7 @@ Ces informations ont été fournies par MiHCM sur la façon dont cette applicati
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Événements de calendrier utilisateur, fuseau horaire utilisateur |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Singapour |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -118,7 +118,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
-| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
+| L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
@@ -157,12 +157,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | L’application se fédéré avec Azure AD, afin que toutes les règles d’accès conditionnel soient utilisées. |
+| Liste des types de stratégies pris en charge | L’application fédérée avec Azure AD, afin que toutes les règles d’accès conditionnel peuvent être utilisées. |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Oui |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
