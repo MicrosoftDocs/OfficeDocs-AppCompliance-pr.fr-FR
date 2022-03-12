@@ -2,24 +2,25 @@
 title: Informations sur l’application pour la superposition du calendrier par Cloudwell
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/25/2022
+manager: tonybal
+ms.date: 03/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la superposition de calendrier, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: beabfa708d3a10d6bda1ca7df248dc5cd26784ba
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: a623b5e2887f0e08cdf5939e63dabd91ca47033a
+ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081120"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63454271"
 ---
 # <a name="calendar-overlay"></a>Superposition du calendrier
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 24, 2022</p>
+<p>Last updated by the developer on: March 10, 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003806" target="_blank">Afficher dans AppSource</a>
 
@@ -39,7 +40,7 @@ Informations fournies par Cloudwell à Microsoft :
 | Conditions d’utilisation de l’application | [https://cwlicensingprod.blob.core.windows.net/termsofuse/St...](https://cwlicensingprod.blob.core.windows.net/termsofuse/StandardContractMarch2019.pdf) |
 | Fonctionnalités principales de l’application | Le volet Superposition du calendrier vous permet d’afficher tous vos événements Microsoft SharePoint, Planner et Exchange au même endroit ! |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://cloudwell.io/products/calendar-overlay](https://cloudwell.io/products/calendar-overlay) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -61,8 +62,8 @@ Ces informations ont été fournies par Cloudwell sur la façon dont cette appli
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Adresse de messagerie de l’utilisateur, ID de locataire utilisateur |
 | Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? | Non |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 90 jours |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
+| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
 | Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
