@@ -2,18 +2,19 @@
 title: Informations sur l’application Teams Manager par Solutions2ShareShare
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le Gestionnaire Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 75bea5ebb9ea83d682f56cc4c4027f23409d932c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3b4327e14c30c6a9be465574e947d5c23a07b021
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253420"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540442"
 ---
 # <a name="teams-manager"></a>Gestionnaire Teams
 
@@ -38,10 +39,11 @@ Informations fournies par Solutions2ShareSyh à Microsoft :
 | Nom de la société partenaire | Solutions2Share GmbH |
 | Site web de l’entreprise | [https://teams-manager.com](https://teams-manager.com) |
 | Conditions d’utilisation de l’application | [https://www.teams-manager.com/terms-of-use/](https://www.teams-manager.com/terms-of-use/) |
-| Fonctionnalités principales de l’application | Créez des Teams basées sur des modèles complexes et personnalisables avec un flux de travail d’approbation. Teams manager permet aux entreprises de garder le contrôle sur leurs Microsoft Teams et d’arrêter la croissance non contrôlée avec les fonctionnalités de gouvernance, tout en permettant aux utilisateurs de créer de nouveaux Teams. |
+| Fonctionnalités principales de l’application | Créez des Teams basées sur des modèles complexes et personnalisables avec un flux de travail d’approbation. Teams Manager permet aux entreprises de garder le contrôle sur leur Microsoft Teams et d’arrêter la croissance non contrôlée avec les fonctionnalités de gouvernance, tout en permettant aux utilisateurs de créer de nouveaux Teams. |
 | Emplacement du siège social de l’entreprise | Allemagne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://teams-manager.com](https://teams-manager.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Solutions2SharePartageh sur la façon do
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Conservé |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,11 +161,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | les deux | Nous stockons tenantID et TeamId pour matric les modèles.  | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| Notes.ReadWrite.All | application | Aucune | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.Read | délégué | Aucune | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.Read.All | les deux | Nous enregistreons l’ID de l’utilisateur entré dans la section d’approbation/d’administration. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.ReadBasic.All | délégué | Aucune | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| Group.ReadWrite.All | les deux | Nous stockons tenantID et TeamId pour matric les modèles.  | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| Notes.ReadWrite.All | application | Aucun | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.Read | délégué | Aucune | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.Read.All | les deux | Nous enregistreons l’ID de l’utilisateur entré dans la section d’approbation/d’administration. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.ReadBasic.All | délégué | Aucune | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

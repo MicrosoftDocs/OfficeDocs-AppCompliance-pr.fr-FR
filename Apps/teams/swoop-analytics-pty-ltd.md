@@ -2,20 +2,21 @@
 title: Informations sur l’application pour l’analyse SWOOP par SWOOP Analytics Pty Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SWOOP Analytics, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 78a730924782ad8cd2f833bf3c4ee3a8a26d9fe5
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 406eb5a15fc2fc07f2746a6a33953869c2bd0db7
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081171"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553083"
 ---
-# <a name="swoop-analytics"></a>Analyse SWOOP
+# <a name="swoop-analytics"></a>SWOOP Analytics
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +33,7 @@ Informations fournies par SWOOP Analytics Pty Ltd à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | Analyse SWOOP |
+| Nom de l'application | SWOOP Analytics |
 | ID | WA200000877 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | SWOOP Analytics Pty Ltd |
@@ -40,9 +41,8 @@ Informations fournies par SWOOP Analytics Pty Ltd à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.swoopanalytics.com/terms](https://www.swoopanalytics.com/terms) |
 | Fonctionnalités principales de l’application | SWOOP Analytics permet aux employés et aux chefs d’entreprise du monde entier d’avoir des données personnelles et d’entreprise réussies dans l’espace de travail numérique. Nous analysons le contenu et les relations dans Microsoft Teams, Yammer et Workplace à partir de Facebook pour fournir aux organisations une collaboration approfondie et des informations approfondies. Nous vous aidons à adapter les comportements afin d’atteindre de meilleurs résultats commerciaux et de prendre des décisions éclairées sur l’efficacité de la collaboration. |
 | Emplacement du siège social de l’entreprise | Australie |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.swoopanalytics.com](https://www.swoopanalytics.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,14 +57,7 @@ Ces informations ont été fournies par SWOOP Analytics Pty Ltd sur la façon do
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -168,38 +161,38 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | les deux | Pour fournir une analyse utilisateur | [39cb9f28-b9d0-4bf7-a4f4-d9e38508a0db](https://docs.microsoft.com/microsoft-365-app-certification/azure/39cb9f28-b9d0-4bf7-a4f4-d9e38508a0db) |
->| User.Read | les deux | Pour fournir des analyses utilisateur | [39cb9f28-b9d0-4bf7-a4f4-d9e38508a0db](https://docs.microsoft.com/microsoft-365-app-certification/azure/39cb9f28-b9d0-4bf7-a4f4-d9e38508a0db) |
->| ChannelMessage.Read.All | les deux | Pour fournir des analyses de canal | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](https://docs.microsoft.com/microsoft-365-app-certification/azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d) |
->| Directory.Read.All | les deux | Pour fournir des analyses utilisateur | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](https://docs.microsoft.com/microsoft-365-app-certification/azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d) |
->| Group.Read.All | les deux | Pour fournir des analyses | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](https://docs.microsoft.com/microsoft-365-app-certification/azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d) |
->| Reports.Read.All | les deux | pour fournir des analyses | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](https://docs.microsoft.com/microsoft-365-app-certification/azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d) |
->| User.Read | les deux | Pour fournir des analyses utilisateur | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](https://docs.microsoft.com/microsoft-365-app-certification/azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d) |
->| User.Read.All | les deux | Pour fournir des analyses utilisateur | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](https://docs.microsoft.com/microsoft-365-app-certification/azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d) |
->| ChannelMessage.Read.All | les deux | Pour fournir des analyses de canal | [ad38b691-43a7-4261-8ad6-f6ebbb229116](https://docs.microsoft.com/microsoft-365-app-certification/azure/ad38b691-43a7-4261-8ad6-f6ebbb229116) |
->| Files.Read.All | les deux | Pour fournir l’analyse des fichiers | [ad38b691-43a7-4261-8ad6-f6ebbb229116](https://docs.microsoft.com/microsoft-365-app-certification/azure/ad38b691-43a7-4261-8ad6-f6ebbb229116) |
->| Group.Read.All | les deux | Pour fournir des analyses utilisateur | [ad38b691-43a7-4261-8ad6-f6ebbb229116](https://docs.microsoft.com/microsoft-365-app-certification/azure/ad38b691-43a7-4261-8ad6-f6ebbb229116) |
->| Reports.Read.All | les deux | Pour fournir des analyses de rapports | [ad38b691-43a7-4261-8ad6-f6ebbb229116](https://docs.microsoft.com/microsoft-365-app-certification/azure/ad38b691-43a7-4261-8ad6-f6ebbb229116) |
->| User.Read | les deux | Pour fournir des analyses utilisateur | [ad38b691-43a7-4261-8ad6-f6ebbb229116](https://docs.microsoft.com/microsoft-365-app-certification/azure/ad38b691-43a7-4261-8ad6-f6ebbb229116) |
->| User.Read.All | les deux | Pour fournir des analyses utilisateur | [ad38b691-43a7-4261-8ad6-f6ebbb229116](https://docs.microsoft.com/microsoft-365-app-certification/azure/ad38b691-43a7-4261-8ad6-f6ebbb229116) |
->| ChannelMessage.Read.All | les deux | Pour fournir des analyses de canal | [c6257830-ff1a-4e7f-86ca-da35c0278de2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c6257830-ff1a-4e7f-86ca-da35c0278de2) |
->| Chat.Read.All | les deux | Pour fournir des analyses de conversation | [c6257830-ff1a-4e7f-86ca-da35c0278de2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c6257830-ff1a-4e7f-86ca-da35c0278de2) |
->| Directory.Read.All | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c6257830-ff1a-4e7f-86ca-da35c0278de2) |
->| Group.Read.All | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c6257830-ff1a-4e7f-86ca-da35c0278de2) |
->| Reports.Read.All | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c6257830-ff1a-4e7f-86ca-da35c0278de2) |
->| TeamsAppInstallation.ReadForUser.All | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c6257830-ff1a-4e7f-86ca-da35c0278de2) |
->| User.Read | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c6257830-ff1a-4e7f-86ca-da35c0278de2) |
->| User.Read.All | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c6257830-ff1a-4e7f-86ca-da35c0278de2) |
->| ChannelMessage.Read.All | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](https://docs.microsoft.com/microsoft-365-app-certification/azure/e208746a-2666-4d95-b925-e2ff64b3181d) |
->| Directory.Read.All | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](https://docs.microsoft.com/microsoft-365-app-certification/azure/e208746a-2666-4d95-b925-e2ff64b3181d) |
->| Directory.Read.All | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](https://docs.microsoft.com/microsoft-365-app-certification/azure/e208746a-2666-4d95-b925-e2ff64b3181d) |
->| Group.Read.All | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](https://docs.microsoft.com/microsoft-365-app-certification/azure/e208746a-2666-4d95-b925-e2ff64b3181d) |
->| User.Read | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](https://docs.microsoft.com/microsoft-365-app-certification/azure/e208746a-2666-4d95-b925-e2ff64b3181d) |
->| User.Read.All | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](https://docs.microsoft.com/microsoft-365-app-certification/azure/e208746a-2666-4d95-b925-e2ff64b3181d) |
->| Group.Read.All | les deux | Pour fournir des analyses utilisateur | [f4609298-6163-4ae3-9366-72a9d9c4c854](https://docs.microsoft.com/microsoft-365-app-certification/azure/f4609298-6163-4ae3-9366-72a9d9c4c854) |
->| People.Read | les deux | Pour fournir des analyses utilisateur | [f4609298-6163-4ae3-9366-72a9d9c4c854](https://docs.microsoft.com/microsoft-365-app-certification/azure/f4609298-6163-4ae3-9366-72a9d9c4c854) |
->| User.Read | les deux | Pour fournir des analyses utilisateur | [f4609298-6163-4ae3-9366-72a9d9c4c854](https://docs.microsoft.com/microsoft-365-app-certification/azure/f4609298-6163-4ae3-9366-72a9d9c4c854) |
->| User.ReadBasic.All | les deux | Pour fournir des analyses utilisateur | [f4609298-6163-4ae3-9366-72a9d9c4c854](https://docs.microsoft.com/microsoft-365-app-certification/azure/f4609298-6163-4ae3-9366-72a9d9c4c854) |
+>| Directory.Read.All | les deux | Pour fournir une analyse utilisateur | [39cb9f28-b9d0-4bf7-a4f4-d9e38508a0db](../azure/39cb9f28-b9d0-4bf7-a4f4-d9e38508a0db.md) |
+>| User.Read | les deux | Pour fournir des analyses utilisateur | [39cb9f28-b9d0-4bf7-a4f4-d9e38508a0db](../azure/39cb9f28-b9d0-4bf7-a4f4-d9e38508a0db.md) |
+>| ChannelMessage.Read.All | les deux | Pour fournir des analyses de canal | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](../azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d.md) |
+>| Directory.Read.All | les deux | Pour fournir des analyses utilisateur | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](../azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d.md) |
+>| Group.Read.All | les deux | Pour fournir des analyses | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](../azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d.md) |
+>| Reports.Read.All | les deux | pour fournir des analyses | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](../azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d.md) |
+>| User.Read | les deux | Pour fournir des analyses utilisateur | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](../azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d.md) |
+>| User.Read.All | les deux | Pour fournir des analyses utilisateur | [49bdbb27-4c8b-4ec9-9812-5ed59027c70d](../azure/49bdbb27-4c8b-4ec9-9812-5ed59027c70d.md) |
+>| ChannelMessage.Read.All | les deux | Pour fournir des analyses de canal | [ad38b691-43a7-4261-8ad6-f6ebbb229116](../azure/ad38b691-43a7-4261-8ad6-f6ebbb229116.md) |
+>| Files.Read.All | les deux | Pour fournir l’analyse des fichiers | [ad38b691-43a7-4261-8ad6-f6ebbb229116](../azure/ad38b691-43a7-4261-8ad6-f6ebbb229116.md) |
+>| Group.Read.All | les deux | Pour fournir des analyses utilisateur | [ad38b691-43a7-4261-8ad6-f6ebbb229116](../azure/ad38b691-43a7-4261-8ad6-f6ebbb229116.md) |
+>| Reports.Read.All | les deux | Pour fournir des analyses de rapports | [ad38b691-43a7-4261-8ad6-f6ebbb229116](../azure/ad38b691-43a7-4261-8ad6-f6ebbb229116.md) |
+>| User.Read | les deux | Pour fournir des analyses utilisateur | [ad38b691-43a7-4261-8ad6-f6ebbb229116](../azure/ad38b691-43a7-4261-8ad6-f6ebbb229116.md) |
+>| User.Read.All | les deux | Pour fournir des analyses utilisateur | [ad38b691-43a7-4261-8ad6-f6ebbb229116](../azure/ad38b691-43a7-4261-8ad6-f6ebbb229116.md) |
+>| ChannelMessage.Read.All | les deux | Pour fournir des analyses de canal | [c6257830-ff1a-4e7f-86ca-da35c0278de2](../azure/c6257830-ff1a-4e7f-86ca-da35c0278de2.md) |
+>| Chat.Read.All | les deux | Pour fournir des analyses de conversation | [c6257830-ff1a-4e7f-86ca-da35c0278de2](../azure/c6257830-ff1a-4e7f-86ca-da35c0278de2.md) |
+>| Directory.Read.All | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](../azure/c6257830-ff1a-4e7f-86ca-da35c0278de2.md) |
+>| Group.Read.All | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](../azure/c6257830-ff1a-4e7f-86ca-da35c0278de2.md) |
+>| Reports.Read.All | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](../azure/c6257830-ff1a-4e7f-86ca-da35c0278de2.md) |
+>| TeamsAppInstallation.ReadForUser.All | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](../azure/c6257830-ff1a-4e7f-86ca-da35c0278de2.md) |
+>| User.Read | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](../azure/c6257830-ff1a-4e7f-86ca-da35c0278de2.md) |
+>| User.Read.All | les deux | Pour fournir des analyses utilisateur | [c6257830-ff1a-4e7f-86ca-da35c0278de2](../azure/c6257830-ff1a-4e7f-86ca-da35c0278de2.md) |
+>| ChannelMessage.Read.All | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](../azure/e208746a-2666-4d95-b925-e2ff64b3181d.md) |
+>| Directory.Read.All | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](../azure/e208746a-2666-4d95-b925-e2ff64b3181d.md) |
+>| Directory.Read.All | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](../azure/e208746a-2666-4d95-b925-e2ff64b3181d.md) |
+>| Group.Read.All | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](../azure/e208746a-2666-4d95-b925-e2ff64b3181d.md) |
+>| User.Read | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](../azure/e208746a-2666-4d95-b925-e2ff64b3181d.md) |
+>| User.Read.All | les deux | Pour fournir des analyses utilisateur | [e208746a-2666-4d95-b925-e2ff64b3181d](../azure/e208746a-2666-4d95-b925-e2ff64b3181d.md) |
+>| Group.Read.All | les deux | Pour fournir des analyses utilisateur | [f4609298-6163-4ae3-9366-72a9d9c4c854](../azure/f4609298-6163-4ae3-9366-72a9d9c4c854.md) |
+>| People.Read | les deux | Pour fournir des analyses utilisateur | [f4609298-6163-4ae3-9366-72a9d9c4c854](../azure/f4609298-6163-4ae3-9366-72a9d9c4c854.md) |
+>| User.Read | les deux | Pour fournir des analyses utilisateur | [f4609298-6163-4ae3-9366-72a9d9c4c854](../azure/f4609298-6163-4ae3-9366-72a9d9c4c854.md) |
+>| User.ReadBasic.All | les deux | Pour fournir des analyses utilisateur | [f4609298-6163-4ae3-9366-72a9d9c4c854](../azure/f4609298-6163-4ae3-9366-72a9d9c4c854.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

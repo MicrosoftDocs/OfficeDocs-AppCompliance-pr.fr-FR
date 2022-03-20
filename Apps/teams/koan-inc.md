@@ -2,18 +2,19 @@
 title: Informations d’application pour Koan par Koan, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Koan, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e686c85da44fb09a067732a110b016e70c7a3cd2
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f86b6e35e823618d1d4af2366617d95aeb5c45fc
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260590"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536406"
 ---
 # <a name="koan"></a>Koan
 
@@ -38,10 +39,11 @@ Informations fournies par Koan, Inc. à Microsoft :
 | Nom de la société partenaire | Koan, Inc. |
 | Site web de l’entreprise | [https://www.koan.co](https://www.koan.co) |
 | Conditions d’utilisation de l’application | [https://www.koan.co/terms-of-service](https://www.koan.co/terms-of-service) |
-| Fonctionnalités principales de l’application | Tenez compte de la gestion de vos objectifs et du suivi d’état Microsoft Teams pour voir la progression et maintenir l’alignement de vos équipes. L’intégration de Koan&#8217;permet aux employés de rester concentrés sur le travail le plus important sans avoir à quitter Microsoft Teams. Créez facilement des habitudes d’équipe positives en matière de partage d’état, de reconnaissance des succès et d’identification anticipée des problèmes, en faisant monter la barre pour tous les autres utilisateurs qui les entourent. |
+| Fonctionnalités principales de l’application | Tenez compte de la gestion de vos objectifs et du suivi d’état Microsoft Teams pour voir la progression et maintenir l’alignement de vos équipes. Koan&#8217;'intégration permet aux employés de rester concentrés sur le travail le plus important sans avoir à quitter Microsoft Teams. Créez facilement des habitudes d’équipe positives en matière de partage d’état, de reconnaissance des succès et d’identification anticipée des problèmes, en faisant monter la barre pour tous les autres utilisateurs qui les entourent. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.koan.co/how-it-works](https://www.koan.co/how-it-works) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Koan, Inc. sur la façon dont cette appl
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé dans les 2 semaines |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +101,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,9 +161,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | délégué | L’ID de canal et le nom du canal sont utilisés. Nous utilisons les données pour que les utilisateurs peuvent sélectionner l’endroit où ils souhaitent que les notifications de réflexion leur soit remis. | [5b599e19-a609-432b-9074-c9d4457e8766](https://docs.microsoft.com/microsoft-365-app-certification/azure/5b599e19-a609-432b-9074-c9d4457e8766) |
->| Team.ReadBasic.All | les deux | L’ID d’équipe et le nom de l’équipe sont collectés et utilisés. Nous utilisons les données pour que les utilisateurs peuvent sélectionner l’endroit où ils souhaitent que les notifications de réflexion leur soit remis. | [5b599e19-a609-432b-9074-c9d4457e8766](https://docs.microsoft.com/microsoft-365-app-certification/azure/5b599e19-a609-432b-9074-c9d4457e8766) |
->| User.Read | délégué | Le nom d’utilisateur, l’ID d’utilisateur et l’adresse de messagerie de l’utilisateur sont utilisés. Nous utilisons les données pour lier des comptes d’utilisateurs entre Microsoft Teams et Koan. Elle s’applique uniquement aux mentions at-mentions. | [5b599e19-a609-432b-9074-c9d4457e8766](https://docs.microsoft.com/microsoft-365-app-certification/azure/5b599e19-a609-432b-9074-c9d4457e8766) |
+>| Channel.ReadBasic.All | délégué | L’ID de canal et le nom du canal sont utilisés. Nous utilisons les données pour que les utilisateurs peuvent sélectionner l’endroit où ils souhaitent que les notifications de réflexion leur soit remis. | [5b599e19-a609-432b-9074-c9d4457e8766](../azure/5b599e19-a609-432b-9074-c9d4457e8766.md) |
+>| Team.ReadBasic.All | les deux | L’ID d’équipe et le nom de l’équipe sont collectés et utilisés. Nous utilisons les données pour que les utilisateurs peuvent sélectionner l’endroit où ils souhaitent que les notifications de réflexion leur soit remis. | [5b599e19-a609-432b-9074-c9d4457e8766](../azure/5b599e19-a609-432b-9074-c9d4457e8766.md) |
+>| User.Read | délégué | Le nom d’utilisateur, l’ID d’utilisateur et l’adresse de messagerie de l’utilisateur sont utilisés. Nous utilisons les données pour lier des comptes d’utilisateurs entre Microsoft Teams et Koan. Elle s’applique uniquement aux mentions at-mentions. | [5b599e19-a609-432b-9074-c9d4457e8766](../azure/5b599e19-a609-432b-9074-c9d4457e8766.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

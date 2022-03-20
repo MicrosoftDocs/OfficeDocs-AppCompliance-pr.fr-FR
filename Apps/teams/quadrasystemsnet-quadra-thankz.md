@@ -2,18 +2,19 @@
 title: Informations sur l’application pour les Quadrasystems.net
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour quadra Merci, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8109f919461d6c475f2be34a54950ade99ee027c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 4d8713bb53ce6c9a0ef7751270838847e8b28d9e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260460"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539890"
 ---
 # <a name="quadra-thankz"></a>Quadra Thankz
 
@@ -38,11 +39,11 @@ Informations fournies par Quadrasystems.net à Microsoft :
 | Nom de la société partenaire | Quadrasystems.net |
 | Site web de l’entreprise | [https://www.quadrasystems.net](https://www.quadrasystems.net) |
 | Conditions d’utilisation de l’application | [https://www.quadrasystems.net/tou](https://www.quadrasystems.net/tou) |
-| Fonctionnalités principales de l’application | Les mercis sont la clé pour créer des sociétés de société. S’Microsoft Teams l’interface utilisateur familière, il s’agit d’une toute nouvelle façon de vous connecter aux personnes que vous travaillez avec vous tous les jours.  Merci est un outil qui permet aux utilisateurs de se reconnaître les uns les autres de manière conviviale.&#160; Il fournit des fonctionnalités d’entreprise et d’utilisateur final enrichies, qui permettent des fonctionnalités telles que les classements, la budgétrage et les contrôles. Les mercis aident vos employés à se sentir connectés, satisfaits et satisfaits. |
+| Fonctionnalités principales de l’application | Les mercis sont la clé pour créer des sociétés de société. S’Microsoft Teams interface utilisateur familière, il s’agit d’une toute nouvelle façon de vous connecter aux personnes que vous travaillez avec vous tous les jours.  Merci est un outil qui permet aux utilisateurs de se reconnaître les uns les autres de manière conviviale.&#160; Il fournit des fonctionnalités d’entreprise et d’utilisateur final enrichies, qui permettent des fonctionnalités telles que les classements, la budgétrage et les contrôles. Les mercis aident vos employés à se sentir connectés, satisfaits et satisfaits. |
 | Emplacement du siège social de l’entreprise | Inde |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.quadrasystems.net/what-we-do/intelligent-ip-sol...](https://www.quadrasystems.net/what-we-do/intelligent-ip-solution/thankz) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Autre |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Autres |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,14 +58,7 @@ Ces informations ont été fournies par Quadrasystems.net sur la façon dont cet
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -123,7 +117,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -154,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -168,7 +162,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read.All | application | Pour obtenir des informations sur le responsable d’un utilisateur  | [5d8eb1a9-2188-4292-86f6-f4964d49e8b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/5d8eb1a9-2188-4292-86f6-f4964d49e8b3) |
+>| User.Read.All | application | Pour obtenir des informations sur le responsable d’un utilisateur  | [5d8eb1a9-2188-4292-86f6-f4964d49e8b3](../azure/5d8eb1a9-2188-4292-86f6-f4964d49e8b3.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

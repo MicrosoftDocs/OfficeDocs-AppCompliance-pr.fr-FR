@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Les joueurs par compétence
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Le Monde, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 49aba56648206ad302a6b078bb28ad3b055bbc5f
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 9de720a140a3e4118815305fd03245c2b3f63644
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251660"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539860"
 ---
 # <a name="wats"></a>Wats
 
@@ -40,7 +41,7 @@ Informations fournies par Skillbase à Microsoft :
 | Conditions d’utilisation de l’application | [https://wats.ai/en/terms-of-use/](https://wats.ai/en/terms-of-use/) |
 | Fonctionnalités principales de l’application | Solution collaborative pour le partage et l’accès aux connaissances. Libérez vos amis avec Dessy! |
 | Emplacement du siège social de l’entreprise | France |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://wats.ai/solutions/](https://wats.ai/solutions/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -59,14 +60,7 @@ Ces informations ont été fournies par La Base de compétences sur la façon do
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -108,7 +102,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | Oui |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -156,7 +150,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -169,19 +163,19 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.Read | délégué | Lecture des fichiers sharepoint | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| Files.Read.All | délégué | Lecture des fichiers sharepoint | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| Group.Read.All | délégué | avoir acc&#232;s aux groupes pour le ask for it | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| Organization.Read.All | délégué | recup&#233;rer le tenant ID pour bien configurer l’applicationQUETS et g&#233;rer le cloisonnement des donn&#233;es | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| Presence.Read | délégué | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| Presence.Read.All | délégué | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| Sites.Read.All | délégué | acces aux infos des sharepoints | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| TeamsActivity.Send | les deux | envoie d’activit&#233;s aux utilisateurs quand un ask for it est cr&#233;&#233; | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| User.Read | délégué | login | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| User.Read.All | délégué | info sur les autres utilisateurs | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| offline_access | délégué | mobile | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| openid | délégué | OBO | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
->| profil | délégué | info sur l’utilisateur | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Files.Read | délégué | Lecture des fichiers sharepoint | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| Files.Read.All | délégué | Lecture des fichiers sharepoint | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| Group.Read.All | délégué | avoir acc&#232;s aux groupes pour le ask for it | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| Organization.Read.All | délégué | recup&#233;rer le tenant ID pour bien configurer l’applicationQUETS et g&#233;rer le cloisonnement des donn&#233;es | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| Presence.Read | délégué | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| Presence.Read.All | délégué | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| Sites.Read.All | délégué | acces aux infos des sharepoints | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| TeamsActivity.Send | les deux | envoie d’activit&#233;s aux utilisateurs quand un ask for it est cr&#233;&#233; | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| User.Read | délégué | login | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| User.Read.All | délégué | info sur les autres utilisateurs | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| offline_access | délégué | mobile | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| openid | délégué | OBO | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
+>| profil | délégué | info sur l’utilisateur | [f9eaef18-fbd1-4045-b417-c26598755298](../azure/f9eaef18-fbd1-4045-b417-c26598755298.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

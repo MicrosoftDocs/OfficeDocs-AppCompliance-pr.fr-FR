@@ -2,18 +2,19 @@
 title: Informations sur les applications pour MSPBots par Jexet Technologies LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les MSPBots, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8d4d4c0b27f2f2052a46b8d77107dbc4a320216e
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5c80d3ac6bfa4537095c0941adb62fa81c367360
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257750"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539969"
 ---
 # <a name="mspbots"></a>MSPBots
 
@@ -42,7 +43,6 @@ Informations fournies par Jexet Technologies LLC à Microsoft :
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -157,7 +157,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,9 +170,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMessage.Send | application | Envoyer un message au canal | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
->| ChatMessage.Send | application | Envoyer un message à la conversation | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
->| profil | application | obtenir les informations utilisateur de l’application d’utilisation | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
+>| ChannelMessage.Send | application | Envoyer un message au canal | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](../azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9.md) |
+>| ChatMessage.Send | application | Envoyer un message à la conversation | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](../azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9.md) |
+>| profil | application | obtenir les informations utilisateur de l’application d’utilisation | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](../azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

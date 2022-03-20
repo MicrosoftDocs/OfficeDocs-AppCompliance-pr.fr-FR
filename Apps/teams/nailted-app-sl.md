@@ -2,18 +2,19 @@
 title: Informations sur l’application pour les applications à l’aide de l’application S.L.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Lestérités, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6db76106efdc61b69c911ef889242f2fca72fc90
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 390a2efaa3aff44b1343645041c091b662c8e726
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254850"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553183"
 ---
 # <a name="nailted"></a>Cloué
 
@@ -38,7 +39,7 @@ Informations fournies par L.L.S.EX DE L’APPLICATION EN PLACE à Microsoft :
 | Nom de la société partenaire | NAILTED APP S.L. |
 | Site web de l’entreprise | [https://nailted.com](https://nailted.com) |
 | Conditions d’utilisation de l’application | [https://nailted.com/legal/terms](https://nailted.com/legal/terms) |
-| Fonctionnalités principales de l’application | La plateforme d’engagement des employés pour les équipes &amp; rhéo modernes. |
+| Fonctionnalités principales de l’application | La plateforme d’engagement des employés pour les équipes rhéo &amp; modernes. |
 | Emplacement du siège social de l’entreprise | Espagne |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
@@ -124,7 +125,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -157,7 +158,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,11 +171,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | application | Utilisé pour accéder aux groupes. | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
->| TeamsAppInstallation.ReadWriteForUser | application | L’utilisateur peut choisir les utilisateurs sur lesquels il souhaite installer l’application. Nous utilisons donc cette autorisation pour insérer l’application | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
->| User.Read.All | application | Utilisé pour lire les informations des utilisateurs | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
->| email | application | Accéder au courrier électronique des employés afin de les synchroniser | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
->| offline_access | application | Nous utilisons cette autorisation pour avoir accès à l’api lorsque l’utilisateur n’est pas en ligne pour pouvoir synchroniser les employés et installer l’application | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
+>| Directory.Read.All | application | Utilisé pour accéder aux groupes. | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](../azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md) |
+>| TeamsAppInstallation.ReadWriteForUser | application | L’utilisateur peut choisir les utilisateurs sur lesquels il souhaite installer l’application. Nous utilisons donc cette autorisation pour insérer l’application | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](../azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md) |
+>| User.Read.All | application | Utilisé pour lire les informations des utilisateurs | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](../azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md) |
+>| email | application | Accéder au courrier électronique des employés afin de les synchroniser | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](../azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md) |
+>| offline_access | application | Nous utilisons cette autorisation pour avoir accès à l’api lorsque l’utilisateur n’est pas en ligne pour pouvoir synchroniser les employés et installer l’application | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](../azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

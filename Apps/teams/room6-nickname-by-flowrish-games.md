@@ -2,18 +2,19 @@
 title: Informations sur l’application pour les surnoms par jeux de flux par salle6
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les surnoms par jeux de flux, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6fa9aef7efab58fcb15a1ed05b71b7a9b9b8354a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f5f320c63c17f9743081300c7a01c4f6551346a2
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257620"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553293"
 ---
 # <a name="nickname-by-flowrish-games"></a>surnom par les jeux flow
 
@@ -40,8 +41,9 @@ Informations fournies par room6 à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.room6.net/eula](https://www.room6.net/eula) |
 | Fonctionnalités principales de l’application | &#12466;&#12540;&#12511;&#12501;&#12451;&#12465;&#12540;&#12471;&#12519;&#12531;&#12434;&#27963;&#29992;&#12375;&#12383;&#12467;&#12511;&#12517;&#12491;&#12540;&#12465;&#12540;&#12471;&#12519;&#12531;&#27963;&#24615;&#21270;&#12484;&#12540;&#12523;&#12391;&#12377;&#12290; &#21021;&#23550;&#38754;&#12398;&#20154;&#12392;&#12418;&#27005;&#12375;&#12415;&#12394;&#12364;&#12425;&#30456;&#25163;&#12392;&#12398;&#36317;&#38626;&#12434;&#32302;&#12417;&#12427;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#12459;&#12540;&#12489;&#12395;&#26360;&#12363;&#12428;&#12383;&#32937;&#26360;&#12434;&#30456;&#25163;&#12398;&#21517;&#21069;&#12395;&#12388;&#12369;&#12289;&#27442;&#12375;&#12356;&#12459;&#12540;&#12489;&#12434;&#38598;&#12417;&#12390;&#12356;&#12365;&#12414;&#12377;&#12290; &#24859;&#31216;&#12391;&#21628;&#12403;&#12354;&#12358;&#12371;&#12392;&#12391;&#12289;&#20210;&#38291;&#21516;&#22763;&#12398;&#12467;&#12511;&#12517;&#12491;&#12465;&#12540;&#12471;&#12519;&#12531;&#12398;&#27963;&#24615;&#21270;&#12434;&#34892;&#12358;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#12466;&#12540;&#12511;&#12501;&#12451;&#12465;&#12540;&#12471;&#12519;&#12531;&#12434;&#27963;&#29992;&#12375;&#12383;&#12484;&#12540;&#12523;&#12392;&#12394;&#12387;&#12390;&#12362;&#12426;&#12414;&#12377;&#12398;&#12391;&#12289; Microsoft Teams&#12391;&#27005;&#12375;&#12415;&#12394;&#12364;&#12425;&#30456;&#25163;&#12392;&#12398;&#36317;&#38626;&#12434;&#32302;&#12417;&#12427;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#32887;&#22580;&#12398;&#12481;&#12540;&#12512;&#12420;&#25945;&#32946;&#29694;&#22580;&#12394;&#12393;&#27096;&#12293;&#12394;&#12471;&#12540;&#12531;&#12391;&#12372;&#21033;&#29992;&#12391;&#12365;&#12414;&#12377;&#12290; &#12504;&#12523;&#12503; https://nickname-server.azurewebsites.net/help.html |
 | Emplacement du siège social de l’entreprise | Japon |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://nickname-server.azurewebsites.net/help.html](https://nickname-server.azurewebsites.net/help.html) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par room6 sur la façon dont cette applicati
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

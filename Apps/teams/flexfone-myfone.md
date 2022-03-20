@@ -2,18 +2,19 @@
 title: Informations d’application pour Myfone par Flexfone
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Myfone, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cd520df02151efa8412410dc740efbf8f1b42979
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 36cd70bc4f8e2040fa2e0f5398b8c9ff1eb79013
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250130"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538162"
 ---
 # <a name="myfone"></a>Myfone
 
@@ -40,8 +41,9 @@ Informations fournies par Flexfone à Microsoft :
 | Conditions d’utilisation de l’application | [https://flexfone.dk/Content/pdf/Slutkundebetingelser.pdf](https://flexfone.dk/Content/pdf/Slutkundebetingelser.pdf) |
 | Fonctionnalités principales de l’application | H&#229;ndter dine telefonopkald i Teams, og f&#229; overblik over dine kolleger. |
 | Emplacement du siège social de l’entreprise | Danemark |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://faq.flexfone.dk/da](https://faq.flexfone.dk/da) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | SelfHosted, Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Flexfone sur la façon dont cette applic
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,7 +100,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -167,10 +162,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | délégué | Les calendriers sont utilisés pour que les utilisateurs puissent afficher leur calendrier à leurs collègues et utiliser les réunions pour la configuration de leur téléphonie | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](https://docs.microsoft.com/microsoft-365-app-certification/azure/cdd5ed6f-ceda-4d46-a522-b7526d6d9e50) |
->| Contacts.Read | délégué | Les contacts des utilisateurs peuvent être stockés s’ils souhaitent les afficher dans l’application pour faciliter la numérotation des contacts | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](https://docs.microsoft.com/microsoft-365-app-certification/azure/cdd5ed6f-ceda-4d46-a522-b7526d6d9e50) |
->| User.Read | délégué | La lecture utilisateur dans cette application est utilisée à des fins d’identification. | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](https://docs.microsoft.com/microsoft-365-app-certification/azure/cdd5ed6f-ceda-4d46-a522-b7526d6d9e50) |
->| User.Read | délégué | Nous ne stockons pas les données. L’application est simplement utilisée à des fins d’authentification | [f0199b83-0ca3-4b41-a23b-d9b234484438](https://docs.microsoft.com/microsoft-365-app-certification/azure/f0199b83-0ca3-4b41-a23b-d9b234484438) |
+>| Calendars.Read | délégué | Les calendriers sont utilisés pour que les utilisateurs puissent afficher leur calendrier à leurs collègues et utiliser les réunions pour la configuration de leur téléphonie | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](../azure/cdd5ed6f-ceda-4d46-a522-b7526d6d9e50.md) |
+>| Contacts.Read | délégué | Les contacts des utilisateurs peuvent être stockés s’ils souhaitent les afficher dans l’application pour faciliter la numérotation des contacts | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](../azure/cdd5ed6f-ceda-4d46-a522-b7526d6d9e50.md) |
+>| User.Read | délégué | La lecture utilisateur dans cette application est utilisée à des fins d’identification. | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](../azure/cdd5ed6f-ceda-4d46-a522-b7526d6d9e50.md) |
+>| User.Read | délégué | Nous ne stockons pas les données. L’application est simplement utilisée à des fins d’authentification | [f0199b83-0ca3-4b41-a23b-d9b234484438](../azure/f0199b83-0ca3-4b41-a23b-d9b234484438.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

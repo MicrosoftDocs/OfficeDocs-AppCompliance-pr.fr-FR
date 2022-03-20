@@ -1,19 +1,20 @@
 ---
-title: Informations sur l’application pour les lieux ti8m par ti &amp; m AG
+title: Informations sur l’application pour les lieux ti8m par tim&amp; AG
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les lieux ti8m, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2ff48ba9152bf5a01772cf4879b86241635286a7
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 51367b8624e5a79d139d20a740cea8ae69f8f788
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252069"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539734"
 ---
 # <a name="ti8m-places"></a>ti8m places
 
@@ -28,7 +29,7 @@ ms.locfileid: "62252069"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par ti &amp; m AG à Microsoft :
+Informations fournies par tim&amp; AG à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -40,8 +41,9 @@ Informations fournies par ti &amp; m AG à Microsoft :
 | Conditions d’utilisation de l’application | [https://ti8m.com/products/places/places-nutzungsbedingungen](https://ti8m.com/products/places/places-nutzungsbedingungen) |
 | Fonctionnalités principales de l’application | Places est une application qui permet de réserver des espaces de travail dans une configuration de lieu de travail hybride. Nous proposons des réservations sur des cartes ou dans un affichage calendrier. L’application est entièrement intégrée dans Microsoft Teams et utilise toutes les authentifications basées sur les services Microsoft. |
 | Emplacement du siège social de l’entreprise | Suisse |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.ti8m.ch/places](https://www.ti8m.ch/places) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,19 +53,12 @@ Informations fournies par ti &amp; m AG à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par ti m AG sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par &amp; l’application.
+Ces informations ont été fournies par tim&amp; AG sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé dans les 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,7 +100,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,10 +161,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite.Shared | délégué | Annuler des événements sur les calendriers des utilisateurs et des espaces de travail  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
->| Directory.ReadWrite.All | délégué | Installation et création de groupes d’administration AAD - Groupes de sécurité  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
->| Place.ReadWrite.All | délégué | Liste des espaces de travail et des noms de carte  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
->| User.Read | délégué | Nom d’utilisateur, e-mail et nom d’affichage, nécessaire pour afficher userdata dans l’application | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
+>| Calendars.ReadWrite.Shared | délégué | Annuler des événements sur les calendriers des utilisateurs et des espaces de travail  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](../azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38.md) |
+>| Directory.ReadWrite.All | délégué | Installation et création de groupes d’administration AAD - Groupes de sécurité  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](../azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38.md) |
+>| Place.ReadWrite.All | délégué | Liste des espaces de travail et des noms de carte  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](../azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38.md) |
+>| User.Read | délégué | Nom d’utilisateur, e-mail et nom d’affichage, nécessaire pour afficher userdata dans l’application | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](../azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

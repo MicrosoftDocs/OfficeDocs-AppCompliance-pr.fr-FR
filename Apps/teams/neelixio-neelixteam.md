@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Neelix.Team par Neelix.IO
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Neelix.Team, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ca9cdd0cbf9cd6c3a431e5b3864fcaf1170c8346
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 1af40c59e7c72991a3e127cb37996155f2c67499
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253590"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553173"
 ---
 # <a name="neelixteam"></a>Neelix.Team
 
@@ -40,8 +41,9 @@ Informations fournies par Neelix.IO à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.neelix.io/terms-of-use-en](https://www.neelix.io/terms-of-use-en) |
 | Fonctionnalités principales de l’application | La plateforme Neelix gère la boucle de commentaires comme un cycle complet. Les utilisateurs peuvent canaliser les expériences en cours, les commentaires et les sentiments dans le journal de leur équipe. |
 | Emplacement du siège social de l’entreprise | Australie |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.neelix.team](https://www.neelix.team) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Neelix.IO sur la façon dont cette appli
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -121,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,12 +161,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | délégué | l’application utilise les noms et les ID de canal pour permettre aux utilisateurs de gérer leurs préférences par défaut lors de l’envoi de commentaires à partir de MS Treams | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| Team.ReadBasic.All | délégué | l’application utilise les noms et les ID d’équipe pour permettre aux utilisateurs de gérer leurs préférences par défaut lors de l’envoi de commentaires à partir de MS Treams | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| email | délégué | Le courrier électronique est utilisé dans le cadre de l’inscription de l’utilisateur dans Neelix. Après l’inscription initiale, le courrier électronique est utilisé pour les notifications.  | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| offline_access | délégué | Utilisé pour obtenir le jeton d’actualisation | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| profil | délégué | Le nom d’utilisateur est utilisé pour créer un compte d’utilisateur lors de l’inscription auprès de Neelix.  | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| User.Read | délégué | L’application bot utilise user.read pour pouvoir envoyer des informations à l’utilisateur afin que la plateforme principale Neelix puisse identifier l’utilisateur. | [bed170ee-dbd7-4efa-b48e-b0937ded1689](https://docs.microsoft.com/microsoft-365-app-certification/azure/bed170ee-dbd7-4efa-b48e-b0937ded1689) |
+>| Channel.ReadBasic.All | délégué | l’application utilise les noms et les ID de canal pour permettre aux utilisateurs de gérer leurs préférences par défaut lors de l’envoi de commentaires à partir de MS Treams | [6996cad6-a969-487a-9182-f4dc4c6c8803](../azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md) |
+>| Team.ReadBasic.All | délégué | l’application utilise les noms et les ID d’équipe pour permettre aux utilisateurs de gérer leurs préférences par défaut lors de l’envoi de commentaires à partir de MS Treams | [6996cad6-a969-487a-9182-f4dc4c6c8803](../azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md) |
+>| email | délégué | Le courrier électronique est utilisé dans le cadre de l’inscription de l’utilisateur dans Neelix. Après l’inscription initiale, le courrier électronique est utilisé pour les notifications.  | [6996cad6-a969-487a-9182-f4dc4c6c8803](../azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md) |
+>| offline_access | délégué | Utilisé pour obtenir le jeton d’actualisation | [6996cad6-a969-487a-9182-f4dc4c6c8803](../azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md) |
+>| profil | délégué | Le nom d’utilisateur est utilisé pour créer un compte d’utilisateur lors de l’inscription auprès de Neelix.  | [6996cad6-a969-487a-9182-f4dc4c6c8803](../azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md) |
+>| User.Read | délégué | L’application bot utilise user.read pour pouvoir envoyer des informations à l’utilisateur afin que la plateforme principale Neelix puisse identifier l’utilisateur. | [bed170ee-dbd7-4efa-b48e-b0937ded1689](../azure/bed170ee-dbd7-4efa-b48e-b0937ded1689.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

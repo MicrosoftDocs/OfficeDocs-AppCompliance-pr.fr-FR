@@ -2,18 +2,19 @@
 title: Informations sur l’application pour les flux de travail Autopilot par les solutions de flux de travail Autopilot
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/14/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les flux de travail Autopilot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7eac665b024ff1f1474ea302af196dda40ec5252
-ms.sourcegitcommit: 9905237eb3270d099820cbf413d64b7cc066dc7c
+ms.openlocfilehash: bcfcb7cc0675aa859bc7302076e3c2382247d90a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62811756"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540020"
 ---
 # <a name="autopilot-workflows"></a>Flux de travail Autopilot
 
@@ -40,7 +41,7 @@ Informations fournies par les solutions de flux de travail Autopilot à Microsof
 | Conditions d’utilisation de l’application | [https://cdn.autopilot.co.za/legal/Autopilot%20Client%20Term...](https://cdn.autopilot.co.za/legal/Autopilot%20Client%20Terms%20%20Conditions%2020160224.pdf) |
 | Fonctionnalités principales de l’application | Les formulaires électroniques validés et les processus pré-configurés garantissent que les processus sont toujours exécutés de manière cohérente, quelle que soit la personne qui effectue la tâche. Une piste d’audit complète des actions effectuées permet de s’assurer que tout le monde reste responsable de ce qu’il a fait. Autopilot assure la continuité lorsque le personnel quitte et peut agir comme un excellent outil de formation pour familiariser les nouveaux membres du personnel avec vos processus. Les instructions intégrées les guident à chaque étape. |
 | Emplacement du siège social de l’entreprise | Afrique du Sud |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.autopilot.co.za](https://www.autopilot.co.za) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -61,7 +62,7 @@ Ces informations ont été fournies par Les solutions de flux de travail Autopil
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Clients azure tenant ID |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Royaume-Uni de Grande-France et Irlande du Nord (le) |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Non |
@@ -156,7 +157,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -169,13 +170,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Teams.ReadBasic.All | application | Envoi Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| TeamsActivity.Read | application | Envoi Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| TeamsActivity.Send | application | Envoi Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| User.Read.All | application | Envoi Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| Group.Read.All | délégué | Signin unique | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](https://docs.microsoft.com/microsoft-365-app-certification/azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc) |
->| User.Read | délégué | Signin unique | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](https://docs.microsoft.com/microsoft-365-app-certification/azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc) |
->| User.Read.All | délégué | Signin unique | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](https://docs.microsoft.com/microsoft-365-app-certification/azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc) |
+>| Teams.ReadBasic.All | application | Envoi Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| TeamsActivity.Read | application | Envoi Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| TeamsActivity.Send | application | Envoi Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| User.Read.All | application | Envoi Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| Group.Read.All | délégué | Signin unique | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](../azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.md) |
+>| User.Read | délégué | Signin unique | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](../azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.md) |
+>| User.Read.All | délégué | Signin unique | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](../azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

@@ -2,18 +2,19 @@
 title: Informations d’application pour PagerDuty par PagerDuty, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour PagerDuty, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ce084b52bb1159f417649bc8283cab4a1edc8f34
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 8b41c097db43cbce711f7a06dc44147e3aa367cd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264364"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539930"
 ---
 # <a name="pagerduty"></a>PagerDuty
 
@@ -40,8 +41,9 @@ Informations fournies par PagerDuty, Inc. à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.pagerduty.com/service-terms-use/](https://www.pagerduty.com/service-terms-use/) |
 | Fonctionnalités principales de l’application | Piloter des opérations en temps réel : déclencher, afficher, reconnaître et résoudre des incidents directement à partir Teams. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.pagerduty.com/integrations/microsoft-teams](https://www.pagerduty.com/integrations/microsoft-teams) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par PagerDuty, Inc. sur la façon dont cette
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Conservé |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,26 +161,26 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| OnlineMeetings.ReadWrite | délégué | À partir de la création ou de l’obtention d’une réponse de réunion, nous utilisons les champs join_web_url, audioConferencing. Ces champs sont nécessaires pour afficher à l’utilisateur un lien vers une réunion ou d’autres méthodes pour se connecter à la réunion. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| TeamsAppInstallation.ReadForTeam | délégué | Utilisation pour ajouter une application pagerduty à la conversation. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| TeamsAppInstallation.ReadWriteForTeam.All | délégué | Utilisation pour ajouter une application pagerduty à la conversation. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| TeamsTab.ReadWrite.All | délégué | Utilisation pour ajouter une application pagerduty en tant qu’onglet dans une réunion | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| User.Read | délégué | Les données sont utilisées : id, userPrincipalName . Il est utilisé pour que les utilisateurs de Microsoft Teams les ajoutent à la réunion en tant que participants | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| User.ReadBasic.All | délégué | Les données sont utilisées : id, userPrincipalName . Il est utilisé pour que les utilisateurs de Microsoft Teams les ajoutent à la réunion en tant que participants | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| email | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| offline_access | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| openid | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| profil | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| OnlineMeetings.ReadWrite | délégué | À partir de la création ou de l’obtention d’une réponse de réunion, nous utilisons les champs join_web_url, audioConferencing. Ces champs sont nécessaires pour afficher à l’utilisateur un lien vers une réunion ou d’autres méthodes pour se connecter à la réunion. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| TeamsAppInstallation.ReadForTeam | délégué | Utilisation pour ajouter une application pagerduty à la conversation. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| TeamsAppInstallation.ReadForTeam.All | délégué | Utilisation pour ajouter une application pagerduty à la conversation. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| TeamsTab.ReadWrite.All | délégué | Utilisation pour ajouter une application pagerduty en tant qu’onglet dans une réunion | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| User.Read | délégué | Les données sont utilisées : id, userPrincipalName . Il est utilisé pour que les utilisateurs de Microsoft Teams les ajoutent à la réunion en tant que participants | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| User.ReadBasic.All | délégué | Les données sont utilisées : id, userPrincipalName . Il est utilisé pour que les utilisateurs de Microsoft Teams les ajoutent à la réunion en tant que participants | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| email | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| offline_access | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| openid | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| profil | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
+>| OnlineMeetings.ReadWrite | délégué | À partir de la création ou de l’obtention d’une réponse de réunion, nous utilisons les champs join_web_url, audioConferencing. Ces champs sont nécessaires pour afficher à l’utilisateur un lien vers une réunion ou d’autres méthodes pour se connecter à la réunion. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](../azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md) |
+>| TeamsAppInstallation.ReadForTeam | délégué | Utilisation pour ajouter une application pagerduty à la conversation. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](../azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md) |
+>| TeamsAppInstallation.ReadWriteForTeam.All | délégué | Utilisation pour ajouter une application pagerduty à la conversation. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](../azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md) |
+>| TeamsTab.ReadWrite.All | délégué | Utilisation pour ajouter une application pagerduty en tant qu’onglet dans une réunion | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](../azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md) |
+>| User.Read | délégué | Les données sont utilisées : id, userPrincipalName . Il est utilisé pour que les utilisateurs de Microsoft Teams les ajoutent à la réunion en tant que participants | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](../azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md) |
+>| User.ReadBasic.All | délégué | Les données sont utilisées : id, userPrincipalName . Il est utilisé pour que les utilisateurs de Microsoft Teams les ajoutent à la réunion en tant que participants | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](../azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md) |
+>| email | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](../azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md) |
+>| offline_access | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](../azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md) |
+>| openid | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](../azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md) |
+>| profil | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](../azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md) |
+>| OnlineMeetings.ReadWrite | délégué | À partir de la création ou de l’obtention d’une réponse de réunion, nous utilisons les champs join_web_url, audioConferencing. Ces champs sont nécessaires pour afficher à l’utilisateur un lien vers une réunion ou d’autres méthodes pour se connecter à la réunion. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](../azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md) |
+>| TeamsAppInstallation.ReadForTeam | délégué | Utilisation pour ajouter une application pagerduty à la conversation. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](../azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md) |
+>| TeamsAppInstallation.ReadForTeam.All | délégué | Utilisation pour ajouter une application pagerduty à la conversation. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](../azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md) |
+>| TeamsTab.ReadWrite.All | délégué | Utilisation pour ajouter une application pagerduty en tant qu’onglet dans une réunion | [8f79a561-d2f1-4a1e-8092-c2039043a40e](../azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md) |
+>| User.Read | délégué | Les données sont utilisées : id, userPrincipalName . Il est utilisé pour que les utilisateurs de Microsoft Teams les ajoutent à la réunion en tant que participants | [8f79a561-d2f1-4a1e-8092-c2039043a40e](../azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md) |
+>| User.ReadBasic.All | délégué | Les données sont utilisées : id, userPrincipalName . Il est utilisé pour que les utilisateurs de Microsoft Teams les ajoutent à la réunion en tant que participants | [8f79a561-d2f1-4a1e-8092-c2039043a40e](../azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md) |
+>| email | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [8f79a561-d2f1-4a1e-8092-c2039043a40e](../azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md) |
+>| offline_access | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [8f79a561-d2f1-4a1e-8092-c2039043a40e](../azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md) |
+>| openid | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [8f79a561-d2f1-4a1e-8092-c2039043a40e](../azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md) |
+>| profil | délégué | Utilisation pour les demandes d’autorisation et de jeton. Les données sont utilisées : access_token, refresh_token, expires_in, étendue | [8f79a561-d2f1-4a1e-8092-c2039043a40e](../azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

@@ -2,18 +2,19 @@
 title: Informations sur l’application tendfor par Tendfor
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Tendfor, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: baf74e60015e41621c070103154d92432d7abdb9
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: ac7e3d8cd1e9a9cf851107f49d7ec305b8292759
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63080608"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536382"
 ---
 # <a name="tendfor"></a>Tendfor
 
@@ -39,7 +40,7 @@ Informations fournies par Tendfor à Microsoft :
 | Conditions d’utilisation de l’application | [https://tendfor.com/tendfor_docs/en/StandardContractMarch20...](https://tendfor.com/tendfor_docs/en/StandardContractMarch2019.pdf) |
 | Fonctionnalités principales de l’application | Un centre de contacts et une console de attendant complets pour Microsoft Teams. |
 | Emplacement du siège social de l’entreprise | Suède |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.tendfor.com](https://www.tendfor.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -60,7 +61,7 @@ Ces informations ont été fournies par Tendfor sur la façon dont cette applica
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Données de profil utilisateur, données de calendrier utilisateur |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Pays-Bas (les) |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -170,9 +171,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | délégué | Pour pouvoir se connecter aux utilisateurs | [b7e8237f-d86d-4874-8f8b-7faa8f768436](https://docs.microsoft.com/microsoft-365-app-certification/azure/b7e8237f-d86d-4874-8f8b-7faa8f768436) |
->| User.Read.All | application | Pour pouvoir importer des informations utilisateur | [b7e8237f-d86d-4874-8f8b-7faa8f768436](https://docs.microsoft.com/microsoft-365-app-certification/azure/b7e8237f-d86d-4874-8f8b-7faa8f768436) |
->| User.Read.All | délégué | Pour pouvoir importer des informations utilisateur | [b7e8237f-d86d-4874-8f8b-7faa8f768436](https://docs.microsoft.com/microsoft-365-app-certification/azure/b7e8237f-d86d-4874-8f8b-7faa8f768436) |
+>| User.Read | délégué | Pour pouvoir se connecter aux utilisateurs | [b7e8237f-d86d-4874-8f8b-7faa8f768436](../azure/b7e8237f-d86d-4874-8f8b-7faa8f768436.md) |
+>| User.Read.All | application | Pour pouvoir importer des informations utilisateur | [b7e8237f-d86d-4874-8f8b-7faa8f768436](../azure/b7e8237f-d86d-4874-8f8b-7faa8f768436.md) |
+>| User.Read.All | délégué | Pour pouvoir importer des informations utilisateur | [b7e8237f-d86d-4874-8f8b-7faa8f768436](../azure/b7e8237f-d86d-4874-8f8b-7faa8f768436.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

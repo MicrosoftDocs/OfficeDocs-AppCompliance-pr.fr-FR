@@ -2,18 +2,19 @@
 title: Informations sur les applications pour Project de migration par FluentPro Software Corporation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Project Migrator, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d575f58d47edb104deba3138697d8c948e35e980
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5a46cd25678376abbb92734b3fd4a36292687fb9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250114"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540010"
 ---
 # <a name="project-migrator"></a>Project Migrator
 
@@ -38,10 +39,11 @@ Informations fournies par FluentPro Software Corporation à Microsoft :
 | Nom de la société partenaire | FluentPro Software Corporation |
 | Site web de l’entreprise | [https://projectmigrator.com](https://projectmigrator.com) |
 | Conditions d’utilisation de l’application | [https://projectmigrator.com/terms-of-use](https://projectmigrator.com/terms-of-use) |
-| Fonctionnalités principales de l’application | Project Migrator est un logiciel de migration de données automatisé. Il prend en charge plusieurs scénarios de migration avec les systèmes de gestion de projet les plus populaires tels que Microsoft Planner, Trello, Asana, Microsoft Project Online, Project pour la migration Web, Monday.com et Smartsheets. Project Migrator est un logiciel entièrement automatisé, facile à utiliser, basé sur le cloud et rapide qui permet aux entreprises de migrer des projets entre les outils de gestion de projet les plus populaires. |
+| Fonctionnalités principales de l’application | Project Migrator est un logiciel de migration de données automatisé. Il prend en charge plusieurs scénarios de migration avec les systèmes de gestion de projet les plus populaires tels que Microsoft Planner, Trello, Asana, Microsoft Project Online, Project for Web, Monday.com et Smartsheets. Project Migrator est un logiciel entièrement automatisé, facile à utiliser, basé sur le cloud et rapide qui permet aux entreprises de migrer des projets entre les outils de gestion de projet les plus populaires. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://help.fluentpro.com/147404-project-migrator](https://help.fluentpro.com/147404-project-migrator) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par FluentPro Software Corporation sur la fa
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé dans les 2 semaines |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +101,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,13 +161,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | délégué | Lire les groupes et leur appartenance afin de migrer vers l’autre client. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| Group.ReadWrite.All | délégué | Nom du groupe, membres, plans et tâches. Utilisez des informations sur les groupes, les plans et les tâches pour la migration des données du Planificateur. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| Sites.ReadWrite.All | délégué | Migrer SharePoint documents pour les pièces jointes des tâches du Planificateur MS. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| User.Read | délégué | UPN pour stocker les informations récapitulatifs de migration du Planificateur MS liés au compte. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| User.ReadBasic.All | délégué | Utilisez les informations utilisateur pour migrer les affectations de tâches du Planificateur MS et l’appartenance à un groupe. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| offline_access | délégué | Les jetons d’actualisation et d’accès sont utilisés pour accéder aux données du Planificateur MS. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| User.Read | délégué | Prénom, Nom, Nom de la société, Téléphone, Courrier électronique d’entreprise. Données utilisées pour les processus d’inscription et d’authentification. | [c36d31a2-8de1-4eb5-9e7d-01da45244c04](https://docs.microsoft.com/microsoft-365-app-certification/azure/c36d31a2-8de1-4eb5-9e7d-01da45244c04) |
+>| Directory.Read.All | délégué | Lire les groupes et leur appartenance afin de migrer vers l’autre client. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| Group.ReadWrite.All | délégué | Nom du groupe, membres, plans et tâches. Utilisez des informations sur les groupes, les plans et les tâches pour la migration des données du Planificateur. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| Sites.ReadWrite.All | délégué | Migrer SharePoint documents pour les pièces jointes des tâches du Planificateur MS. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| User.Read | délégué | UPN pour stocker les informations récapitulatifs de migration du Planificateur MS liés au compte. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| User.ReadBasic.All | délégué | Utilisez les informations utilisateur pour migrer les affectations de tâches du Planificateur MS et l’appartenance à un groupe. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| offline_access | délégué | Les jetons d’actualisation et d’accès sont utilisés pour accéder aux données du Planificateur MS. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| User.Read | délégué | Prénom, Nom, Nom de la société, Téléphone, Courrier électronique d’entreprise. Données utilisées pour les processus d’inscription et d’authentification. | [c36d31a2-8de1-4eb5-9e7d-01da45244c04](../azure/c36d31a2-8de1-4eb5-9e7d-01da45244c04.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

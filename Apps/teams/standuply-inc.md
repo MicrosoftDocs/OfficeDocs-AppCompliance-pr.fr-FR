@@ -2,18 +2,19 @@
 title: Application Information for Standuply by Standuply Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la prise en charge, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3b7292e010ad6e244f4d5e6cdddb9b357520ca94
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 84d9c34f023fd8e4a9247de46443b711b33472c8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252240"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63537962"
 ---
 # <a name="standuply"></a>Autonome
 
@@ -38,9 +39,9 @@ Informations fournies par Standuply Inc. à Microsoft :
 | Nom de la société partenaire | Standuply Inc. |
 | Site web de l’entreprise | [https://standuply.com](https://standuply.com) |
 | Conditions d’utilisation de l’application | [https://standuply.com/terms](https://standuply.com/terms) |
-| Fonctionnalités principales de l’application | Automatise de manière automatisée les processus de gestion et fournit un système de Q A interne pour &amp; améliorer la productivité de votre équipe. |
+| Fonctionnalités principales de l’application | Automatise de manière automatisée les processus de gestion et fournit un système de QA&amp; interne pour améliorer la productivité de votre équipe. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://standuply.com](https://standuply.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
@@ -158,7 +159,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Non |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -171,8 +172,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| MailboxSettings.Read | application | Pour envoyer des rapports sur le fuseau horaire individuel des utilisateurs | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](https://docs.microsoft.com/microsoft-365-app-certification/azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176) |
->| User.Read | délégué | Pour autoriser les utilisateurs dans le produit | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](https://docs.microsoft.com/microsoft-365-app-certification/azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176) |
+>| MailboxSettings.Read | application | Pour envoyer des rapports sur le fuseau horaire individuel des utilisateurs | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](../azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176.md) |
+>| User.Read | délégué | Pour autoriser les utilisateurs dans le produit | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](../azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

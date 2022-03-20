@@ -2,18 +2,19 @@
 title: Informations sur les applications pour les huminos par SOE Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les huminos, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8586f417df16a0ae41c246dea922a72a2ed7db2e
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 30dbce16045e879e99bd888812aed7eab4116572
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62263862"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539800"
 ---
 # <a name="huminos"></a>huminos
 
@@ -40,8 +41,9 @@ Informations fournies par SOE Technologies à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.myokr.co/terms](https://www.myokr.co/terms) |
 | Fonctionnalités principales de l’application | Accélérer les performances |
 | Emplacement du siège social de l’entreprise | Inde |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.myokr.co](https://www.myokr.co) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par SOE Technologies sur la façon dont cett
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé au cours d’un mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +101,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -114,14 +109,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,11 +161,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Obtenir les détails du calendrier utilisateur pour créer une réunion 1:1 dans le calendrier de l’utilisateur, mettre à jour ou supprimer une réunion créée par ma plateformeOKR et afficher les créneaux horaires libres | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| User.Read | délégué | Nous utilisons l’ID d’objet azure de l’utilisateur pour faire en sorte que l’utilisateur se connecte à mon applicationOKR à l’aide de l’authentification Microsoft par rapport au courrier électronique | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| User.Read.All | application | Synchroniser les informations utilisateur avec la plateforme myOKR et affiche l’analyse de l’application myOKR à l’administrateur en fonction de différentes coupures d’utilisateurs telles que l’emplacement, le responsable du &amp; service | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| offline_access | délégué | ID Azure Active Directory de l’utilisateur | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| openid | délégué | Nous utilisons l’ID d’objet Azure de l’utilisateur pour effectuer une connexion utilisateur à mon applicationOKR à l’aide de l’authentification Microsoft | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
+>| Calendars.ReadWrite | délégué | Obtenir les détails du calendrier utilisateur pour créer une réunion 1:1 dans le calendrier de l’utilisateur, mettre à jour ou supprimer une réunion créée par ma plateformeOKR et afficher les créneaux horaires libres | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| User.Read | délégué | Nous utilisons l’ID d’objet azure de l’utilisateur pour faire en sorte que l’utilisateur se connecte à mon applicationOKR à l’aide de l’authentification Microsoft par rapport au courrier électronique | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| User.Read.All | application | Synchroniser les informations utilisateur avec la plateforme myOKR et affiche l’analyse de l’application myOKR à l’administrateur en fonction de différentes coupures d’utilisateurs telles que l’emplacement, le responsable du &amp; service | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| offline_access | délégué | ID Azure Active Directory de l’utilisateur | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| openid | délégué | Nous utilisons l’ID d’objet Azure de l’utilisateur pour effectuer une connexion utilisateur à mon applicationOKR à l’aide de l’authentification Microsoft | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

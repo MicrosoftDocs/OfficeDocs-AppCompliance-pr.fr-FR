@@ -2,18 +2,19 @@
 title: Informations sur l’application pour le navigateur d’entreprise par les solutions it de Konica Minolta
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le Navigateur d’entreprise, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 13ab94d8c86c280c6d6b932d1db65180a7a6caa2
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0bf467bf95ccd2a0399380d3c2aa66d6e0e7a83f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254906"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536392"
 ---
 # <a name="company-navigator"></a>Navigateur d’entreprise
 
@@ -40,7 +41,7 @@ Informations fournies par Konica Minolta IT Solutions à Microsoft :
 | Conditions d’utilisation de l’application | [https://company-navigator.kmglobalrd.com/info/termsofuse](https://company-navigator.kmglobalrd.com/info/termsofuse) |
 | Fonctionnalités principales de l’application | Outil de recherche globale qui recherche des documents, des personnes ou des actions pertinents pour vos projets ou vos intérêts. |
 | Emplacement du siège social de l’entreprise | Tchèque |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://company-navigator.kmglobalrd.com/info](https://company-navigator.kmglobalrd.com/info) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -59,14 +60,7 @@ Ces informations ont été fournies par konica Minolta IT Solutions sur la faço
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -110,7 +104,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
@@ -124,7 +118,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -157,7 +151,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,20 +164,20 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Calendars.Read.Shared | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Files.Read.All | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Mail.Read | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Mail.Read.Shared | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Mail.ReadBasic.All | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| People.Read | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Sites.Read.All | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| User.Read | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| User.ReadBasic.All | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| email | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| offline_access | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| openid | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| profil | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| Calendars.Read | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Calendars.Read.Shared | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Files.Read.All | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Mail.Read | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Mail.Read.Shared | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Mail.ReadBasic.All | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| People.Read | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Sites.Read.All | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| User.Read | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| User.ReadBasic.All | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| email | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| offline_access | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| openid | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| profil | délégué | lire les données utilisateur pertinentes pour utiliser le cas de l’application | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

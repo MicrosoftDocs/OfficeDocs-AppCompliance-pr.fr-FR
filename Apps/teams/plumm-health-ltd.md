@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Lemux par Plumm Health LTD
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Plumm, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6ba4a1853102f77129d740418b81f9de67146da0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f46060403be7542e485ca78cbbd3022bef51506e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255592"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538032"
 ---
 # <a name="plumm"></a>Plumm
 
@@ -40,8 +41,9 @@ Informations fournies par La société d’assurance maladie (LTD) à Microsoft 
 | Conditions d’utilisation de l’application | [https://www.plummhealth.com/terms-of-use](https://www.plummhealth.com/terms-of-use) |
 | Fonctionnalités principales de l’application | Elle fournit aux employés le support dont ils ont besoin pour leur bien-être physique. Chaque membre DeNtm a accès à une prise en charge de la santé physique de haute qualité avec un réseau mondial de plus de 150 personnes agréées, une bibliothèque numérique de cours de bien-être, des chat chat et des &#8211; de médiation guidée au même endroit. Les utilisateurs peuvent se connecter avec des personnes à l’aide de vidéos en ligne 1:1 ou discuter en privé avec eux au sujet de leurs besoins. Les cours en ligne et les formations en ligne dirigées par des personnes donnent un support autonome. |
 | Emplacement du siège social de l’entreprise | Royaume-Uni de Grande-France et Irlande du Nord (le) |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.plummhealth.com/about-us](https://www.plummhealth.com/about-us) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par LTD de Las Health Pour Savoir comment ce
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Conservé |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,13 +161,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | application | Nous utilisons l’userID dans cette autorisation. Il est utilisé pour envoyer les notifications requises à l’utilisateur en fonction de son utilisation de notre service. Ceci est important pour que l’utilisateur reçoie les notifications appropriées pour son compte sur notre application. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| TeamsAppInstallation.ReadWriteForUser.All | application | Nous recevons l’ID d’installation à l’aide de cette autorisation. Ceci est important pour nous afin de pouvoir envoyer la notification appropriée et correcte pour chaque utilisateur. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read | délégué | Nous collectons le nom, l’image et le courrier électronique de nos utilisateurs par le biais de cette autorisation. Cette opération est nécessaire pour pouvoir identifier des utilisateurs individuels et ces points de données doivent être affichés lorsque cela est nécessaire, par exemple une page de profil individuelle et lors d’une communication par courrier électronique/notification. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read.All | application | Cette autorisation permet à notre application de lire les profils utilisateur sans utilisateur. Dans ce cas, nous collectons uniquement le nom, l’image de profil et le courrier électronique. Cette opération est nécessaire pour pouvoir identifier des utilisateurs individuels et ces points de données doivent être affichés lorsque cela est nécessaire, par exemple une page de profil individuelle et lors d’une communication par courrier électronique/notification. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| email | délégué | L’ID de courrier de l’utilisateur est collecté. Nous avons besoin de ces données pour accorder l’accès à l’utilisateur pour nos services, nous connectons à notre application et recevons des notifications concernant leurs comptes et nos services sur cet ID de courrier électronique.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| openid | délégué | Pour cette autorisation, nous ne collectons aucune donnée.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| profil | délégué | Nous collectons le nom, l’image et le courrier électronique de nos utilisateurs par le biais de cette autorisation. Cette opération est nécessaire pour pouvoir identifier des utilisateurs individuels et ces points de données doivent être affichés lorsque cela est nécessaire, par exemple une page de profil individuelle et lors d’une communication par courrier électronique/notification. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| TeamsActivity.Send | application | Nous utilisons l’userID dans cette autorisation. Il est utilisé pour envoyer les notifications requises à l’utilisateur en fonction de son utilisation de notre service. Ceci est important pour que l’utilisateur reçoie les notifications appropriées pour son compte sur notre application. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | application | Nous recevons l’ID d’installation à l’aide de cette autorisation. Ceci est important pour nous afin de pouvoir envoyer la notification appropriée et correcte pour chaque utilisateur. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| User.Read | délégué | Nous collectons le nom, l’image et le courrier électronique de nos utilisateurs par le biais de cette autorisation. Cette opération est nécessaire pour pouvoir identifier des utilisateurs individuels et ces points de données doivent être affichés lorsque cela est nécessaire, par exemple une page de profil individuelle et lors d’une communication par courrier électronique/notification. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| User.Read.All | application | Cette autorisation permet à notre application de lire les profils utilisateur sans utilisateur. Dans ce cas, nous collectons uniquement le nom, l’image de profil et le courrier électronique. Cette opération est nécessaire pour pouvoir identifier des utilisateurs individuels et ces points de données doivent être affichés lorsque cela est nécessaire, par exemple une page de profil individuelle et lors d’une communication par courrier électronique/notification. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| email | délégué | L’ID de courrier de l’utilisateur est collecté. Nous avons besoin de ces données pour accorder l’accès à l’utilisateur pour nos services, nous connectons à notre application et recevons des notifications concernant leurs comptes et nos services sur cet ID de courrier électronique.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| openid | délégué | Pour cette autorisation, nous ne collectons aucune donnée.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| profil | délégué | Nous collectons le nom, l’image et le courrier électronique de nos utilisateurs par le biais de cette autorisation. Cette opération est nécessaire pour pouvoir identifier des utilisateurs individuels et ces points de données doivent être affichés lorsque cela est nécessaire, par exemple une page de profil individuelle et lors d’une communication par courrier électronique/notification. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

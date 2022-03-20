@@ -2,18 +2,19 @@
 title: Informations sur l’application pour yuccaHR par Yucca Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour yuccaHR, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f5e1475a1db71c51ac58a6bc062ce9e4b17e8ab3
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: da99569821461232ce6ed852810b85b989f2b944
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251494"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536342"
 ---
 # <a name="yuccahr"></a>yuccaHR
 
@@ -38,9 +39,9 @@ Informations fournies à Microsoft par Yucca Technologies
 | Nom de la société partenaire | Yucca Technologies GmbH |
 | Site web de l’entreprise | [https://www.yuccahr.com](https://www.yuccahr.com) |
 | Conditions d’utilisation de l’application | [https://www.yuccahr.com/terms-of-use](https://www.yuccahr.com/terms-of-use) |
-| Fonctionnalités principales de l’application | Connecter votre équipe, intégrer de nouveaux employés, renforcer l’engagement. Directement dans Microsoft Teams. |
+| Fonctionnalités principales de l’application | Connecter votre équipe, intégrez de nouveaux employés, développez l’engagement. Directement dans Microsoft Teams. |
 | Emplacement du siège social de l’entreprise | Allemagne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.yuccahr.com/product](https://www.yuccahr.com/product) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -60,7 +61,7 @@ Ces informations ont été fournies par Yucca Technologies StoresH sur la façon
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? | UserID, TenantID, Microsoft Teams TeamID, Microsoft Teams ChannelID, Adresse de messagerie de l’utilisateur des administrateurs |
+| Quelles données sont stockées dans vos bases de données ? | UserID, TenantID, Microsoft Teams TeamID, Microsoft Teams ChannelID, User email address from admins |
 | Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Allemagne |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Non |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
@@ -124,7 +125,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -157,7 +158,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,12 +171,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | application | Pour planifier un événement de calendrier pour les parties correspondantes | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| Channel.ReadBasic.All | application | Afficher les noms des canaux dans l’application web | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| ChannelMember.Read.All | application | Pour mettre en correspondance des personnes au sein d’un canal ou avec d’autres canaux | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| Group.Read.All | application | Afficher les noms d’équipe dans l’application web | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| MailboxSettings.Read | application | Pour obtenir la langue souhaitée par les utilisateurs, lors de l’envoi de messages | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| User.Read.All | application | Le courrier électronique est nécessaire pour générer des cartes adaptatives pour permettre aux utilisateurs de discuter directement | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| Calendars.ReadWrite | application | Pour planifier un événement de calendrier pour les parties correspondantes | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
+>| Channel.ReadBasic.All | application | Afficher les noms des canaux dans l’application web | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
+>| ChannelMember.Read.All | application | Pour mettre en correspondance des personnes au sein d’un canal ou avec d’autres canaux | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
+>| Group.Read.All | application | Afficher les noms d’équipe dans l’application web | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
+>| MailboxSettings.Read | application | Pour obtenir la langue souhaitée par les utilisateurs, lors de l’envoi de messages | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
+>| User.Read.All | application | Le courrier électronique est nécessaire pour générer des cartes adaptatives pour permettre aux utilisateurs de discuter directement | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
