@@ -2,18 +2,19 @@
 title: Informations d’application pour Moneypenny par CALLITECH LIMITED
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Moneypenny, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f40e36c1025e03a250505be381ff811dce0aa95b
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 4b7e370285a211225c888b1796e20c89453fc1a3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255820"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540592"
 ---
 # <a name="moneypenny"></a>Moneypenny
 
@@ -124,9 +125,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -156,7 +157,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,8 +171,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calls.AccessMedia.All | application | Pour diffuser du contenu multimédia du bot à l’Teams utilisateur | [8277a51c-3ad6-446c-9b7e-e3f6e27257c1](https://docs.microsoft.com/microsoft-365-app-certification/azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1) |
->| Calls.Initiate.All | application | Pour appeler un utilisateur Teams via un bot | [8277a51c-3ad6-446c-9b7e-e3f6e27257c1](https://docs.microsoft.com/microsoft-365-app-certification/azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1) |
+>| Calls.AccessMedia.All | application | Pour diffuser du contenu multimédia du bot à l’Teams utilisateur | [8277a51c-3ad6-446c-9b7e-e3f6e27257c1](../azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1.md) |
+>| Calls.Initiate.All | application | Pour appeler un utilisateur Teams via un bot | [8277a51c-3ad6-446c-9b7e-e3f6e27257c1](../azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

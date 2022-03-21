@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Email TeamMate par harmon.ie
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Email TeamMate, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7e076f074f670c64726c2f7304da8956de976a56
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7224ee3e7a964ceff6b4edce02634bef6e3716c0
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264429"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541662"
 ---
 # <a name="email-teammate"></a>Email TeamMate
 
@@ -40,8 +41,9 @@ Informations fournies par harmon.ie à Microsoft :
 | Conditions d’utilisation de l’application | [https://harmon.ie/legal/teammate-eula](https://harmon.ie/legal/teammate-eula) |
 | Fonctionnalités principales de l’application | Ajouter des e-mails à Microsoft Teams conversations avec Email TeamMate  |
 | Emplacement du siège social de l’entreprise | Israël |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://harmon.ie](https://harmon.ie) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par harmon.ie sur la façon dont cette appli
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Conservé |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,8 +101,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,12 +161,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Chat.Read | délégué | Requis par TeamMate pour obtenir les membres de conversation d’une conversation spécifique afin de partager des fichiers à enregistrer dans SharePoint/Un lecteur avec les membres de conversation | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Files.ReadWrite.All | délégué | Requis par TeamMate pour enregistrer les pièces jointes des &amp; e-mails dans SharePoint/Teams/OneDrive | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Mail.ReadWrite | délégué | Obligatoire par TeamMate pour afficher les courriers électroniques de l’utilisateur et répondre aux e-mails enregistrés dans Teams | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| People.Read | délégué | Requis par TeamMate pour rechercher des e-mails par des personnes et suggérer des personnes que vous contactez fréquemment. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| User.Read | délégué | permet aux utilisateurs de se connecter à TeamMate avec leur compte et permet à TeamMate de voir les informations de profil utilisateur de base | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| User.ReadBasic.All | délégué | Requis par TeamMate pour résoudre les adresses e-mail des membres de conversation afin que les fichiers de partage enregistrés OneDrive les contiennent  | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Chat.Read | délégué | Requis par TeamMate pour obtenir les membres de conversation d’une conversation spécifique afin de partager des fichiers à enregistrer dans SharePoint/Un lecteur avec les membres de conversation | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| Files.ReadWrite.All | délégué | Requis par TeamMate pour enregistrer les pièces jointes &amp; des e-mails dans SharePoint/Teams/OneDrive | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| Mail.ReadWrite | délégué | Obligatoire par TeamMate pour afficher les courriers électroniques de l’utilisateur et répondre aux e-mails enregistrés dans Teams | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| People.Read | délégué | Requis par TeamMate pour rechercher des e-mails par des personnes et suggérer des personnes que vous contactez fréquemment. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| User.Read | délégué | permet aux utilisateurs de se connecter à TeamMate avec leur compte et permet à TeamMate de voir les informations de profil utilisateur de base | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| User.ReadBasic.All | délégué | Requis par TeamMate pour résoudre les adresses e-mail des membres de conversation afin que les fichiers de partage enregistrés OneDrive avec eux  | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

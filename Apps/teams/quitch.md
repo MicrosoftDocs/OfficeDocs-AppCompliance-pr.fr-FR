@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Quitch par Quitch
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Quitch, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6de959937655902f2b569e42a4cbdce30561079d
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: 5b7aa8cfefd8b7a41443ad7bb82c3aeab50269e1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62235793"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541232"
 ---
 # <a name="quitch"></a>Quitch
 
@@ -40,7 +41,7 @@ Informations fournies par Quitch à Microsoft :
 | Conditions d’utilisation de l’application | [https://quitch.com/user-terms-of-service/](https://quitch.com/user-terms-of-service/) |
 | Fonctionnalités principales de l’application | Questionnaires interactifs pour vos réunions Microsoft Teams réunion |
 | Emplacement du siège social de l’entreprise | Australie |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://quitch.com/microsoft-teams/](https://quitch.com/microsoft-teams/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
@@ -109,7 +110,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -158,7 +159,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

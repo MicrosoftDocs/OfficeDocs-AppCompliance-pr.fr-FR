@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Pro contacts par Leivio
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour contacts Pro, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ca10bb626f33ce2c4b5bafc618c784b46fe3e1e7
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 9c5744d35076dbe6453a54dae466f99856e23030
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63080258"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544132"
 ---
 # <a name="contacts-pro"></a>Contacts Pro
 
@@ -61,7 +62,7 @@ Ces informations ont été fournies par Leivio sur la façon dont cette applicat
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Contacts |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Irlande |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 60 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -170,11 +171,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | délégué | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
->| email | délégué | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
->| offline_access | délégué | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
->| openid | délégué | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
->| profil | délégué | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
+>| User.Read | délégué | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](../azure/b2380441-bb33-439e-bf4a-8cd277dcebc8.md) |
+>| email | délégué | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](../azure/b2380441-bb33-439e-bf4a-8cd277dcebc8.md) |
+>| offline_access | délégué | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](../azure/b2380441-bb33-439e-bf4a-8cd277dcebc8.md) |
+>| openid | délégué | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](../azure/b2380441-bb33-439e-bf4a-8cd277dcebc8.md) |
+>| profil | délégué | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](../azure/b2380441-bb33-439e-bf4a-8cd277dcebc8.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

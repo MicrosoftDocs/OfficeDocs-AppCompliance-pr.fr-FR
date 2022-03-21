@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Q par ModuleQ
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Q, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3cdacc2f1ad638dd13bad6af4434a816eb419bb7
-ms.sourcegitcommit: edd55f34c004f0b5c7e4418b92b8ba325b8ab336
+ms.openlocfilehash: 88e9d369057d62e1c5588380b79731637964ae5c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62317010"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544342"
 ---
 # <a name="q"></a>Q
 
@@ -40,9 +41,8 @@ Informations fournies par ModuleQ à Microsoft :
 | Conditions d’utilisation de l’application | [https://moduleq.com/terms-of-service](https://moduleq.com/terms-of-service) |
 | Fonctionnalités principales de l’application | Q fonctionne comme un collègue approuvé, en suivant le focus de vos clients et en vous envoyant les actualités professionnelles que vous devez voir avant de vous poser des questions. Optimisé par ModuleQ AI et knowledge Graph de Thomson Reuters. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://moduleq.com/product](https://moduleq.com/product) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -156,7 +156,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Non |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -169,11 +169,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | application | Requis pour les fonctionnalités du produit. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| Group.Read.All | délégué | Requis pour les fonctionnalités du produit. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| Mail.Read | application | Requis pour les fonctionnalités du produit. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| User.Read | délégué | Requis pour les fonctionnalités du produit. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| User.Read.All | délégué | Requis pour les fonctionnalités du produit. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Calendars.Read | application | Requis pour les fonctionnalités du produit. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
+>| Group.Read.All | délégué | Requis pour les fonctionnalités du produit. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
+>| Mail.Read | application | Requis pour les fonctionnalités du produit. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
+>| User.Read | délégué | Requis pour les fonctionnalités du produit. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
+>| User.Read.All | délégué | Requis pour les fonctionnalités du produit. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

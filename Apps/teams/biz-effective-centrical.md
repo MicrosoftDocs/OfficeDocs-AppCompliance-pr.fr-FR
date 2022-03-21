@@ -2,18 +2,19 @@
 title: Informations d’application pour centrical par Biz-Effective
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Centrical, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9b85be6dba0ec4892beac7f564ed77d5e79f12e5
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c0ea722050696595f90a123740c6641902e4bb34
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254919"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541352"
 ---
 # <a name="centrical"></a>Centrical
 
@@ -40,8 +41,9 @@ Informations fournies par Biz-Effective à Microsoft :
 | Conditions d’utilisation de l’application | [https://centrical.com/terms](https://centrical.com/terms) |
 | Fonctionnalités principales de l’application | La plateforme centrée obtient et maintient les employés concentrés sur le travail à faire et, surtout, sur la façon d’y aller. Il utilise les données du travail mesuré pour inciter les microlearnings à développer leurs compétences. Il utilise l’intelligence artificielle pour améliorer l’engagement des employés, les performances ainsi que la microlearning. La plateforme Centrical est disponible via une application web, des applications mobiles, Microsoft Teams application, Salesforce et SuccessFactors. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://centrical.com/solutions/solutions-by-use-case-2/mic...](https://centrical.com/solutions/solutions-by-use-case-2/microsoft-teams-gamification/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Biz-Effective sur la façon dont cette a
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé après 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

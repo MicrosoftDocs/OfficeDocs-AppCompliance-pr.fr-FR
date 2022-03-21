@@ -2,18 +2,19 @@
 title: Informations d’application pour La GuinéePig par GuinéePig Health Technologies AB
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/20/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour GuinéePig, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: dbd872c0f919c8141d41771470546a5b75ae56b0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: bfbb46e2fa94292848778af8fa76a6596fd8276a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257820"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543942"
 ---
 # <a name="guineapig"></a>GuineaPig
 
@@ -38,9 +39,9 @@ Informations fournies par l’ab des technologies de santé GuinéePig à Micros
 | Nom de la société partenaire | Technologies d’intégrité AB GuineaPig |
 | Site web de l’entreprise | [https://guineapig.app](https://guineapig.app) |
 | Conditions d’utilisation de l’application | [https://www.guineapig.app/terms-and-conditions](https://www.guineapig.app/terms-and-conditions) |
-| Fonctionnalités principales de l’application | GuinéePig permet à votre équipe de rester saine, satisfaite et engagée avec des cours de forme à la demande et de courtes &amp; coupures de travail. |
+| Fonctionnalités principales de l’application | GuinéePig permet à votre équipe de rester saine, &amp; satisfaite et engagée avec des cours de forme à la demande et de courtes coupures de travail. |
 | Emplacement du siège social de l’entreprise | Suède |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://guineapig.app](https://guineapig.app) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | GCP |
 
@@ -125,7 +126,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -157,9 +158,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
-| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | S/O |
+| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Non |
@@ -170,7 +171,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | délégué | Nous utilisons User.Read pour lire des informations telles que le nom de l’utilisateur afin de les utiliser dans nos onglets et conversation, etc. Veuillez consulter https://www.guineapig.app/privacy-policy la description détaillée. | [d6a2090f-1447-456b-bd5f-121e4efd8c89](https://docs.microsoft.com/microsoft-365-app-certification/azure/d6a2090f-1447-456b-bd5f-121e4efd8c89) |
+>| User.Read | délégué | Nous utilisons User.Read pour lire des informations telles que le nom de l’utilisateur afin de les utiliser dans nos onglets et conversation, etc. Veuillez consulter https://www.guineapig.app/privacy-policy la description détaillée. | [d6a2090f-1447-456b-bd5f-121e4efd8c89](../azure/d6a2090f-1447-456b-bd5f-121e4efd8c89.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

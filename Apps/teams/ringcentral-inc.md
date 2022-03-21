@@ -2,18 +2,19 @@
 title: Informations d’application pour RingCentral par RingCentral, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour RingCentral, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0c9e81e8365e3a581c72faf90df3897ade7fd2d7
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: da58c323863f2c9aa89cb7869a67648d0853bef8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259310"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542822"
 ---
 # <a name="ringcentral"></a>RingCentral
 
@@ -40,8 +41,9 @@ Informations fournies par RingCentral, Inc. à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.ringcentral.com/legal/last-update-October-15-20...](https://www.ringcentral.com/legal/last-update-October-15-2019/eulatos.html) |
 | Fonctionnalités principales de l’application | Démarrez et rejoignez des appels vidéo ou audio RingCentral avec des commandes de bot rapide et des fonctionnalités de messagerie. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.ringcentral.com/apps/ringcentral-for-microsoft-...](https://www.ringcentral.com/apps/ringcentral-for-microsoft-teams) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par RingCentral, Inc. sur la façon dont cet
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,10 +161,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué |  Permet à l’application d’envoyer un événement d’invitation à une réunion via son calendrier | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
->| offline_access | délégué |  Permet à l’application d’obtenir et de mettre à jour le jeton oauth | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
->| User.Read | délégué |  Permet à l’application de lire un&#8217;profil de base (e-mail, nom) afin d’obtenir des correspondances de contact à notre fin. Permet également aux utilisateurs de se connecter et de lier leur compte O365 au compte RingCentral | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
->| User.Read.All | délégué | Permet à l’application de lire le profil complet d’un utilisateur avec des numéros de téléphone afin d’effectuer des appels téléphoniques avec nos services. | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| Calendars.ReadWrite | délégué |  Permet à l’application d’envoyer un événement d’invitation à une réunion via son calendrier | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](../azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md) |
+>| offline_access | délégué |  Permet à l’application d’obtenir et de mettre à jour le jeton oauth | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](../azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md) |
+>| User.Read | délégué |  Permet à l’application de lire un&#8217;profil de base (e-mail, nom) afin d’obtenir des correspondances de contact à notre fin. Permet également aux utilisateurs de se connecter et de lier leur compte O365 au compte RingCentral | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](../azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md) |
+>| User.Read.All | délégué | Permet à l’application de lire le profil complet d’un utilisateur avec des numéros de téléphone afin d’effectuer des appels téléphoniques avec nos services. | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](../azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

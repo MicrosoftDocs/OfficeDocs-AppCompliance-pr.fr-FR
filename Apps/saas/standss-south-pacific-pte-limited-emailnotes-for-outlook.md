@@ -2,24 +2,25 @@
 title: Informations d’application pour EmailNotes pour Outlook par stands (Pacifique Sud) PTE Limité
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/10/2022
+manager: tonybal
+ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour EmailNotes pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d1287dc50181b69c6f1d8f3f31b43c84db569641
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 4bd54849249220757f9c657380716ea27e7ac499
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63076188"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541382"
 ---
 # <a name="emailnotes-for-outlook"></a>EmailNotes for Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 17, 2022</p>
+<p>Last updated by the developer on: November 28, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/standsssouthpacificltd1581455821226.emailnotes" target="_blank">Afficher dans AppSource</a>
 
@@ -38,7 +39,7 @@ Informations fournies par les stands (Pacifique Sud) PTE limité à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.standss.com/sendguard_m365/terms_conditions.htm](https://www.standss.com/sendguard_m365/terms_conditions.htm) |
 | Fonctionnalités principales de l’application | SendGuard pour Outlook M365 est un outil de risque et de conformité qui permet de détecter, d’avertir, d’avertir et de protéger les utilisateurs contre l’envoi par courrier électronique d’informations sensibles, confidentielles ou inappropriées à des destinataires inattendus |
 | Emplacement du siège social de l’entreprise | Fidji |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.standss.com/sendguard_m365/default.htm](https://www.standss.com/sendguard_m365/default.htm) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -57,14 +58,7 @@ Ces informations ont été fournies par stands (Pacifique Sud) PTE Limited sur l
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -169,11 +163,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Pour lire le contenu de l’objet , du corps, du contenu des pièces jointes jointes à la demande de réunion  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| Mail.ReadWrite | délégué | Pour lire le contenu de l’objet, du corps, du contenu des pièces jointes jointes à l’élément de courrier  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| User.Read | délégué | Il s’agit de lire les données utilisateur pour vérifier les informations de licence de leur domaine/compte d’utilisateur | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| openid | délégué | Conditions requises pour l’autorisation d’sign-on unique (SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| profil | délégué | Conditions requises pour l’autorisation d’sign-on unique (SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| Calendars.ReadWrite | délégué | Pour lire le contenu de l’objet , du corps, du contenu des pièces jointes jointes à la demande de réunion  | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| Mail.ReadWrite | délégué | Pour lire le contenu de l’objet, du corps, du contenu des pièces jointes jointes à l’élément de courrier  | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| User.Read | délégué | Il s’agit de lire les données utilisateur pour vérifier les informations de licence de leur domaine/compte d’utilisateur | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| openid | délégué | Conditions requises pour l’autorisation d’sign-on unique (SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| profil | délégué | Conditions requises pour l’autorisation d’sign-on unique (SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

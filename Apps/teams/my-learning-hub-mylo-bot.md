@@ -2,18 +2,19 @@
 title: Informations sur l’application pour mylo Bot par Le Hub mon Learning
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/17/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Mylo Bot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9b3ea6be4b276b80916313c6614982074e8ea99c
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: f921397b188f7e23ebe5322acb729e73c6397e6e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081191"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542882"
 ---
 # <a name="mylo-bot"></a>Mylo Bot
 
@@ -57,14 +58,7 @@ Ces informations ont été fournies par my Learning Hub sur la façon dont cette
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -78,7 +72,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Effectuez-vous des tests de pénétration annuels sur l’application ? | Oui |
 | L’application a-t-elle un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
-| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? |  |
+| Votre environnement utilise-t-il la protection anti-programme malveillant classique ou les contrôles d’application ? | ApplicationControls |
 | Avez-vous un processus établi pour la mise en retrait et le classement des vulnérabilités de sécurité par risque ? | Oui |
 | Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application des correctifs ? | Oui |
 | Effectuez-vous des activités de gestion des correctifs en fonction de vos SSA de stratégie de correction ? | Oui |

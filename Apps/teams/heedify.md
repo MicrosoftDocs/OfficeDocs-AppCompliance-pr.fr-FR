@@ -2,18 +2,19 @@
 title: Informations d’application pour l’heédification par heédification
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Heedify, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 692b53d85d3d4e9e2984147575fdff0a702d193a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d45ae00313e1b138b72fff8647931a6062955d61
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257800"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543692"
 ---
 # <a name="heedify"></a>Heedify
 
@@ -38,7 +39,7 @@ Informations fournies par Heedify à Microsoft :
 | Nom de la société partenaire | Heedify |
 | Site web de l’entreprise | [https://heedify.io](https://heedify.io) |
 | Conditions d’utilisation de l’application | [https://heedify.io/terms](https://heedify.io/terms) |
-| Fonctionnalités principales de l’application | Agent de réception natif et agent du centre d’appels pour Microsoft Teams. |
+| Fonctionnalités principales de l’application | Attendant du réceptionniste natif et agent du centre d’appels pour Microsoft Teams. |
 | Emplacement du siège social de l’entreprise | France |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
@@ -92,7 +93,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
 | Authentification multifacteur (MFA) activée pour : | CodeRepositories, DNSManagement, Credential |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | S/O |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | N/A |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
 | Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
@@ -157,7 +158,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Non |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,11 +171,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | délégué | Le réceptionniste doit vérifier le calendrier des utilisateurs avant de transférer un appel ou de partager les informations avec le client au téléphone | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| Contacts.ReadWrite | délégué | L’application doit être en mesure d’ajouter des contacts à l’utilisateur(agent) et de lire ses contacts également  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| Contacts.ReadWrite.Shared | délégué | l’application doit être en mesure d’ajouter un contact de partage avec d’autres utilisateurs (agent) et de lire également leurs contacts partagés  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| Presence.Read.All | délégué | Les informations de présence sont nécessaires pour l’agent du centre de contacts afin de mieux gérer les appels et les contacts, en particulier en cas de transfert d’appel  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| User.Read.All | délégué | pour gérer le contact, l’utilisateur connecté doit être en mesure de parcourir les utilisateurs et de lire leurs informations, y compris leur départ et leur responsable (en cas de réceptionniste)  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Calendars.Read | délégué | Le réceptionniste doit vérifier le calendrier des utilisateurs avant de transférer un appel ou de partager les informations avec le client au téléphone | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| Contacts.ReadWrite | délégué | L’application doit être en mesure d’ajouter des contacts à l’utilisateur(agent) et de lire ses contacts également  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| Contacts.ReadWrite.Shared | délégué | l’application doit être en mesure d’ajouter un contact de partage avec d’autres utilisateurs (agent) et de lire également leurs contacts partagés  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| Presence.Read.All | délégué | Les informations de présence sont nécessaires pour l’agent du centre de contacts afin de mieux gérer les appels et les contacts, en particulier en cas de transfert d’appel  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| User.Read.All | délégué | pour gérer le contact, l’utilisateur connecté doit être en mesure de parcourir les utilisateurs et de lire leurs informations, y compris leur départ et leur responsable (en cas de réceptionniste)  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

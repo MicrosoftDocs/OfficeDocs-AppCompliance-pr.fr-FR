@@ -2,18 +2,19 @@
 title: Informations d’application pour WorkInSync par MoveInSync
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour WorkInSync, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: aa528136089b1ff6e54f24a82a0184bef58ee233
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: e8620c57d74d71649ed418f08fd8e634c7de47d6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255650"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543592"
 ---
 # <a name="workinsync"></a>WorkInSync
 
@@ -38,10 +39,11 @@ Informations fournies par MoveInSync à Microsoft :
 | Nom de la société partenaire | MoveInSync |
 | Site web de l’entreprise | [https://www.workinsync.io](https://www.workinsync.io) |
 | Conditions d’utilisation de l’application | [https://www.workinsync.io/terms-and-condition/](https://www.workinsync.io/terms-and-condition/) |
-| Fonctionnalités principales de l’application | WorkInSync permet aux organisations de planifier facilement l’organisation d’un modèle de réservation de bureau &amp; flexible pour votre bureau.  En tant qu’employé, vous pouvez : - Créer et gérer les réservations de bureau - Horloge lorsque vous travaillez à la maison à la fin de la journée en tant que responsable - Vous êtes informé des plans d’horloge/d’horloge des membres de votre équipe Dans l’onglet Activité de l’équipe que vous pouvez installer dans un contexte de canal, vous pouvez - Voir où toute l’équipe travaille à partir de sa présence - Rechercher un collègue spécifique au sein de l’organisation &amp; &amp; &amp; |
+| Fonctionnalités principales de l’application | WorkInSync permet aux organisations de planifier facilement &amp; l’organisation d’un modèle de réservation de bureau flexible pour votre bureau.  En tant qu’employé, vous pouvez : - Créer et gérer les réservations de bureau - &amp; Horloge lorsque vous travaillez à la maison à la fin de la journée en tant que responsable - Vous êtes informé des plans d’horloge/ &amp; d’horloge des membres de votre équipe Dans l’onglet Activité de l’équipe que vous pouvez installer dans un contexte de canal, vous pouvez - &amp; Voir où toute l’équipe travaille à partir de sa présence - Rechercher un collègue spécifique au sein de l’organisation |
 | Emplacement du siège social de l’entreprise | Inde |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.workinsync.io/teams-app-for-workinsync/](https://www.workinsync.io/teams-app-for-workinsync/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par MoveInSync sur la façon dont cette appl
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé dans les 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,7 +100,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -167,16 +162,16 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | délégué | 1. Pour obtenir les détails transitifs des membres du groupe. Ils sont utilisés dans l’onglet Activité de l’équipe lorsqu’ils sont installés dans le contexte du canal. 2. Pour obtenir la liste des détails du profil utilisateur des &amp;  utilisateurs de l’organisation. Ceux-ci sont utilisés lorsque l’onglet Activité d’équipe est installé dans un contexte personnel, comme un retour pour afficher l’aperçu de collègues en cas d’échec de l’API de personnes (utilisateurs non outlook) | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| People.Read | délégué | Pour que les personnes les plus liées à l’utilisateur connecté s’affiche dans l’onglet Activité d’équipe sont installées dans un contexte personnel. | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| Presence.Read | délégué | Pour obtenir des informations de présence d’une liste d’utilisateurs dans l’onglet Activité d’équipe dans le contexte personnel et de canal | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| Presence.Read.All | délégué | Pour obtenir des informations de présence d’une liste d’utilisateurs dans l’onglet Activité d’équipe dans le contexte personnel et de canal | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| User.Read.All | application | Permet d’obtenir les informations du gestionnaire de rapports d’un utilisateur pour envoyer des notifications de réservation et d’enregistrement/checkout au responsable | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| User.ReadBasic.All | délégué | Utilisé pour lire la photo de profil d’un employé | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| email | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| offline_access | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| openid | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| profil | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| Directory.Read.All | délégué | 1. Pour obtenir les détails transitifs des membres du groupe. Ils sont utilisés dans l’onglet Activité de l’équipe lorsqu’ils sont installés dans le contexte du canal. 2. Pour obtenir la liste des détails du profil utilisateur des utilisateurs &amp;  de l’organisation. Ceux-ci sont utilisés lorsque l’onglet Activité d’équipe est installé dans un contexte personnel, comme un retour pour afficher l’aperçu de collègues en cas d’échec de l’API de personnes (utilisateurs non outlook) | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| People.Read | délégué | Pour que les personnes les plus liées à l’utilisateur connecté s’affiche dans l’onglet Activité d’équipe sont installées dans un contexte personnel. | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| Presence.Read | délégué | Pour obtenir des informations de présence d’une liste d’utilisateurs dans l’onglet Activité d’équipe dans le contexte personnel et de canal | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| Presence.Read.All | délégué | Pour obtenir des informations de présence d’une liste d’utilisateurs dans l’onglet Activité d’équipe dans le contexte personnel et de canal | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| User.Read.All | application | Permet d’obtenir les informations du gestionnaire de rapports d’un utilisateur pour envoyer des notifications de réservation et d’enregistrement/checkout au responsable | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| User.ReadBasic.All | délégué | Utilisé pour lire la photo de profil d’un employé | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| email | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| offline_access | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| openid | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| profil | délégué | Nécessaire pour obtenir un jeton DSO à l’aide Teams bibliothèque cliente | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

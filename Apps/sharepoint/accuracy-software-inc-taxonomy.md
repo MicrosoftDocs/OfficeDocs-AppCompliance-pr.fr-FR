@@ -2,18 +2,19 @@
 title: Informations sur l’application pour la taxonomie par Accuracy Software Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la taxonomie, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1106b9e00a94d133c167b04bb31e4bc71c060c73
-ms.sourcegitcommit: 0465c6dd3a2c42fb1fd785548654d5b7f2601adc
+ms.openlocfilehash: 3adb6387e276e8f6a9827262227bb759514eebde
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2022
-ms.locfileid: "62909066"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543742"
 ---
 # <a name="taxonomy"></a>Taxonomie
 
@@ -39,7 +40,7 @@ Informations fournies par Accuracy Software Inc. à Microsoft :
 | Conditions d’utilisation de l’application | [https://accuracysoftware.ca/taxonomy-terms-of-service](https://accuracysoftware.ca/taxonomy-terms-of-service) |
 | Fonctionnalités principales de l’application | La taxonomie vous offre un moyen efficace de gérer votre plan de classification des fichiers, en permettant à la collaboration des professionnels de la messagerie instantanée avec les différentes parties prenantes de créer, examiner et publier le plan de gestion de fichiers à l’ensemble de l’organisation. En outre, la taxonomie vous permet de générer des étiquettes de rétention M365 à exporter que vous pouvez importer dans le Centre de conformité Microsoft et d’exporter votre plan de fichiers dans un format d’ensemble de termes que vous pouvez importer dans le magasin de termes SharePoint. |
 | Emplacement du siège social de l’entreprise | Canada |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.accuracysoftware.ca/taxonomy-sharepoint-webpart/](https://www.accuracysoftware.ca/taxonomy-sharepoint-webpart/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Client SharePoint client |
 
@@ -58,7 +59,7 @@ Ces informations ont été fournies par Accuracy Software Inc. sur la façon don
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Données de classification de plan de gestion de fichiers |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Canada |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Non |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Éléments non conservés |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Non |
@@ -153,7 +154,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

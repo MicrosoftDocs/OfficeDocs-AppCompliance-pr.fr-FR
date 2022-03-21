@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la superposition de calendrier, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a623b5e2887f0e08cdf5939e63dabd91ca47033a
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: 9cf8d0d45c519fb22188b220bd2dff932f834591
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63454271"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543132"
 ---
 # <a name="calendar-overlay"></a>Superposition du calendrier
 
@@ -61,7 +61,7 @@ Ces informations ont été fournies par Cloudwell sur la façon dont cette appli
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Adresse de messagerie de l’utilisateur, ID de locataire utilisateur |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |

@@ -2,18 +2,19 @@
 title: Informations sur l’application pour l’application Dontr.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Contrôle, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 408d46c4352292e2c5ad4320675f0283fc65dc16
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d05c1839ed59c6308ab621f6e3114e262e6f4e4a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147964"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542972"
 ---
 # <a name="hugo"></a>Hugo
 
@@ -40,9 +41,8 @@ Informations fournies par Lee à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.hugo.team/terms](https://www.hugo.team/terms) |
 | Fonctionnalités principales de l’application | Il s’agit d’un endroit pour les réunions, les notes et les tâches &#8211; pour les équipes qui utilisent Microsoft Teams. La plateforme de prise de notes centrée sur le calendrier de Celle-ci vous permet, ainsi qu’à votre équipe, d’être un endroit central pour les réunions, les notes, les tâches et les actions &#8211; toutes les réunions automatiquement organisées par les contacts et les entreprises que vous rencontrez, et connectées aux plus de 20 applications que vous utilisez quotidiennement. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.hugo.team/teams](https://www.hugo.team/teams) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -117,7 +117,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
@@ -157,7 +157,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

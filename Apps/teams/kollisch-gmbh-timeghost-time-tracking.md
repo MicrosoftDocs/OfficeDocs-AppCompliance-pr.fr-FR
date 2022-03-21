@@ -2,18 +2,19 @@
 title: Informations sur l’application pour timeghost - Suivi du temps par K&#246;ll contrôles
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Toutes les informations de sécurité et de conformité disponibles pour timeghost : suivi du temps, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e775eb831504c69d8aa20adfe2686b8e6a10469c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 9852b64e11aace1e68330a17f22cd92dcdaa6051
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62263870"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541632"
 ---
 # <a name="timeghost---time-tracking"></a>timeghost : suivi de l’heure
 
@@ -28,7 +29,7 @@ ms.locfileid: "62263870"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par K&#246;ll&#246;à Microsoft :
+Informations fournies par K&#246;ll à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -40,8 +41,9 @@ Informations fournies par K&#246;ll&#246;à Microsoft :
 | Conditions d’utilisation de l’application | [https://timeghost.io/terms-and-conditions/](https://timeghost.io/terms-and-conditions/) |
 | Fonctionnalités principales de l’application | Timeghost est votre outil de suivi du temps spécialement conçu pour Office 365. |
 | Emplacement du siège social de l’entreprise | Allemagne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://timeghost.io](https://timeghost.io) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,19 +53,12 @@ Informations fournies par K&#246;ll&#246;à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par K&#246;llraient LeH sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par K&#246;lls ContrôleH sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé dans les 2 semaines |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -121,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,12 +161,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | délégué | Titel, Startdatum, Enddatum, ID | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| People.Read | délégué | Adresse de messagerie | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| User.Read | délégué | Vorname, Nachname, E-Mail-Adresse, Organisation, Telefonnummer, Rolle, Sprache, Location | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| User.ReadBasic.All | délégué | Um das Profilbild anzigen. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| openid | délégué | ID  | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| profil | délégué | Vorname, Nachname, E-Mail-Adresse, Organisation, Telefonnummer, Rolle, Sprache, Location | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| Calendars.Read | délégué | Titel, Startdatum, Enddatum, ID | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| People.Read | délégué | Adresse de messagerie | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| User.Read | délégué | Vorname, Nachname, E-Mail-Adresse, Organisation, Telefonnummer, Rolle, Sprache, Location | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| User.ReadBasic.All | délégué | Um das Profilbild anzigen. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| openid | délégué | ID  | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| profil | délégué | Vorname, Nachname, E-Mail-Adresse, Organisation, Telefonnummer, Rolle, Sprache, Location | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

@@ -2,18 +2,19 @@
 title: Informations d’application pour CC4Teams par CC4ALL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour CC4Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 85d5b411929f2bd0c1c0610a6e4950cf2d5e6809
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7e4cbddad8f0e26efd3657fc36d86575c7a521dd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255910"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544082"
 ---
 # <a name="cc4teams"></a>CC4Teams
 
@@ -38,7 +39,7 @@ Informations fournies par CC4ALL à Microsoft :
 | Conditions d’utilisation de l’application | [https://contactcenter4all.com/contactcenter4all-saas-agreem...](https://contactcenter4all.com/contactcenter4all-saas-agreement/) |
 | Fonctionnalités principales de l’application | CC4Teams ajoute des fonctionnalités telles que le routage, le transfert à chaud, l’enregistrement des appels et la Teams |
 | Emplacement du siège social de l’entreprise | Pays-Bas (les) |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://contactcenter4all.com/cc4teams/](https://contactcenter4all.com/cc4teams/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -106,7 +107,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -123,7 +124,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -155,7 +156,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -168,14 +169,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| CallRecords.Read.All | application | utilisé pour les enregistrements | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.AccessMedia.All | application | utilisé pour accéder aux médias | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.Initiate.All | application | utilisé pour lancer des appels dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.InitiateGroupCall.All | application | utilisé pour lancer des appels dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.JoinGroupCall.All | application | utilisé pour lancer des appels dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.JoinGroupCallasGuest.All | application | utilisé pour lancer des appels dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Presence.Read | délégué | utilisé pour vérifier l’état des agents dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Presence.Read.All | délégué | utilisé pour vérifier l’état des agents dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| CallRecords.Read.All | application | utilisé pour les enregistrements | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.AccessMedia.All | application | utilisé pour accéder aux médias | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.Initiate.All | application | utilisé pour lancer des appels dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.InitiateGroupCall.All | application | utilisé pour lancer des appels dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.JoinGroupCall.All | application | utilisé pour lancer des appels dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.JoinGroupCallasGuest.All | application | utilisé pour lancer des appels dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Presence.Read | délégué | utilisé pour vérifier l’état des agents dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Presence.Read.All | délégué | utilisé pour vérifier l’état des agents dans le centre de contacts | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

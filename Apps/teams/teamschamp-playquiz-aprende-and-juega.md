@@ -2,18 +2,19 @@
 title: Informations sur l’application pour PlayQuiz - Aprende &amp; Juega par TeamsChamp
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour PlayQuiz - Aprende Juega, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre &amp; CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour PlayQuiz - Aprende &amp; Juega, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fea130e082035ef73446a9b6d6c895de06d6925a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d0cb64bd87dc5dca816ece1520a0991a14ebf630
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252160"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542742"
 ---
 # <a name="playquiz---aprende-amp-juega"></a>Questionnaire de jeu – Aprende &amp; Juega
 
@@ -40,8 +41,9 @@ Informations fournies par TeamsChamp à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.teamsquiz.com/en/terms/](https://www.teamsquiz.com/en/terms/) |
 | Fonctionnalités principales de l’application | PlayQuiz est une application de gamification dans laquelle l’utilisateur peut répondre à 3 questions par jour à partir de Microsoft 365'écosystème &#8220;gagner&#8221; points de connaissances numériques. L’utilisateur pourra regarder le classement de l’entreprise pour découvrir qui est le meilleur champion M365 de la société. En incluant la gamification dans l’entreprise, les utilisateurs peuvent obtenir des informations sur les meilleures pratiques d’utilisation Microsoft 365 outils. En outre, l’administrateur sera en mesure d’ajouter leurs questions personnalisées au système pour créer des campagnes axées sur un sujet spécifique. |
 | Emplacement du siège social de l’entreprise | Espagne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.teamsquiz.com](https://www.teamsquiz.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par TeamsChamp sur la façon dont cette appl
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Conservé |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,7 +102,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,10 +161,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | délégué | Nom, e-mail et photo de profil de l’utilisateur | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
->| User.ReadBasic.All | délégué | Nom, e-mail et image de profil | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
->| openid | délégué | afficher le profil de base de l’utilisateur | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
->| profil | délégué | Lire le profil de base de l’utilisateur | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| User.Read | délégué | Nom, e-mail et photo de profil de l’utilisateur | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
+>| User.ReadBasic.All | délégué | Nom, e-mail et image de profil | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
+>| openid | délégué | afficher le profil de base de l’utilisateur | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
+>| profil | délégué | Lire le profil de base de l’utilisateur | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

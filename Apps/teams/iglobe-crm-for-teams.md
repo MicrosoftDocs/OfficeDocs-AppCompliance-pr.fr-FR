@@ -2,18 +2,19 @@
 title: Informations sur l’application pour iGlobe CRM Teams par iGlobe
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour iGlobe CRM pour Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 63646b2a2425eeef310ae5534209d015d06896c1
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 2cd05e66be09be9374dc9e636a13acc81c5eee90
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257760"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544712"
 ---
 # <a name="iglobe-crm-for-teams"></a>iGlobe CRM pour Teams
 
@@ -37,9 +38,9 @@ Informations fournies par iGlobe à Microsoft :
 | Nom de la société partenaire | iGlobe |
 | Site web de l’entreprise | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Conditions d’utilisation de l’application | [https://iglobecrm.com/content/iglobe-crm-office-365-end-use...](https://iglobecrm.com/content/iglobe-crm-office-365-end-user-license-agreement) |
-| Fonctionnalités principales de l’application | iGlobe CRM Office 365 un SharePoint hébergé. IGlobe CRM Office 365 est un simple et facile à utiliser pour les entreprises à l’aide de Office 365. Avec Outlook, Excel, les add-ins Word et Teams App combinés avec une intégration transparente au Planificateur Office 365, SharePoint et Teams le SharePoint iGlobe est une véritable extension Office 365. Le niveau d’autorisation iGlobe CRM est de base sur l’intégration entre tous les services Microsoft 365 utilisés.  |
+| Fonctionnalités principales de l’application | iGlobe CRM Office 365 un SharePoint hébergé. IGlobe CRM Office 365 est un simple et facile à utiliser pour les entreprises à l’aide de Office 365. Avec Outlook, Excel, les applications Word et Teams associées à une intégration transparente au Planificateur Office 365, SharePoint et Teams le SharePoint iGlobe est une véritable extension Office 365. Le niveau d’autorisation iGlobe CRM est de base sur l’intégration entre tous les services Microsoft 365 utilisés.  |
 | Emplacement du siège social de l’entreprise | Danemark |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -56,14 +57,7 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -121,9 +115,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Oui |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Oui |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Oui |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -154,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Non |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -168,19 +162,19 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Avoir accès aux calendriers des utilisateurs lors de la convivialation d’un rapport de réunion à partir du canlendar dans iGlobe    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Contacts.ReadWrite | délégué | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté.    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Directory.Read.All | délégué | Recherchez les autorisations et obtenez les sites et les listes. Créez des dossiers, obtenez des fichiers et enregistrez des fichiers.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Directory.ReadWrite.All | délégué | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Files.ReadWrite.All | délégué | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers et des données dans SharePoint listes.     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Group.Read.All | délégué | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Group.ReadWrite.All | délégué | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. Intégration à iGlobe CRM Office 365     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Mail.ReadWrite | délégué | Svae the eamil to iGlobe CRM and get informatiopn from iGlobe to a new e-amil    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Sites.Manage.All | délégué | Créer, modifier et supprimer des éléments et des listes dans iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Sites.Read.All | délégué | Lire des éléments dans iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Sites.ReadWrite.All | délégué | Modifier et supprimer des éléments et des listes dans iGlobe CRM  | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Tasks.ReadWrite | délégué | Créer une tâche de planificateur à partir d’iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| User.Read | délégué | Pour obtenir des informations sur iGlobe CRM pour l’utilisateur speficic    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Calendars.ReadWrite | délégué | Avoir accès aux calendriers des utilisateurs lors de la convivialation d’un rapport de réunion à partir du canlendar dans iGlobe    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Contacts.ReadWrite | délégué | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté.    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Directory.Read.All | délégué | Recherchez les autorisations et obtenez les sites et les listes. Créez des dossiers, obtenez des fichiers et enregistrez des fichiers.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Directory.ReadWrite.All | délégué | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Files.ReadWrite.All | délégué | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers et des données dans SharePoint listes.     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Group.Read.All | délégué | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Group.ReadWrite.All | délégué | Lire, mettre à jour, créer des tâches du panneur, lire les fichiers récents et partagés des utilisateurs, pour obtenir SharePoint liste, bibliothèques et fichiers. Pour enregistrer des fichiers dans SharePoint listes. Intégration à iGlobe CRM Office 365     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Mail.ReadWrite | délégué | Svae the eamil to iGlobe CRM and get informatiopn from iGlobe to a new e-amil    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Sites.Manage.All | délégué | Créer, modifier et supprimer des éléments et des listes dans iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Sites.Read.All | délégué | Lire des éléments dans iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Sites.ReadWrite.All | délégué | Modifier et supprimer des éléments et des listes dans iGlobe CRM  | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| Tasks.ReadWrite | délégué | Créer une tâche de planificateur à partir d’iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
+>| User.Read | délégué | Pour obtenir des informations sur iGlobe CRM pour l’utilisateur speficic    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](../azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

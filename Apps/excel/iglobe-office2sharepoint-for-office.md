@@ -2,18 +2,19 @@
 title: Informations d’application pour Office2SharePoint Office par iGlobe
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Office2SharePoint pour Office, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b6330018461d182a7fce931f4c01ec4d79687ae6
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 075a95dfd600d781ca87b5eeb314ccef4c30c756
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63078408"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543822"
 ---
 # <a name="office2sharepoint-for-office"></a>Office2SharePoint pour Office
 
@@ -38,8 +39,9 @@ Informations fournies par iGlobe à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-office2sharepoint) |
 | Fonctionnalités principales de l’application | Office2SharePoint : travailler avec SharePoint et Teams à partir Outlook et Office la manière la plus simple. Pour éliminer les obstacles à la communication entre les membres de l’équipe, les documents et les pièces jointes sont accessibles à tous dans SharePoint &amp; Teams. Enregistrez les messages électroniques et les pièces jointes directement depuis Outlook vers SharePoint ou Teams sur n’importe quel appareil et plateforme. Le niveau d’autorisation des services d’application Office2SharePoint est Outlook pour le Office de messagerie. |
 | Emplacement du siège social de l’entreprise | Danemark |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://o2s.iglobe.dk](https://o2s.iglobe.dk) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -54,14 +56,7 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,16 +160,16 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Directory.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Sites.Manage.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Sites.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| Sites.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Directory.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Sites.Manage.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Sites.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| Sites.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
+>| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [5971c986-9d39-409c-a6f8-1385b1f690ef](../azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

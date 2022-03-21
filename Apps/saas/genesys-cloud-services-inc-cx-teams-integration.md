@@ -2,18 +2,19 @@
 title: Informations sur l’application pour l’intégration cloud CX Teams ParSys Cloud Services, Inc
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’intégration CX Teams cloud de Cloud, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 673c8bbc637288ae5c92c3367445893586523af9
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 81ddd4b2bcaaf688b5a95d6351673d3cad19a352
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081195"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541822"
 ---
 # <a name="genesys-cloud-cx-teams-integration"></a>Intégration cloud CX Teams Cloud
 
@@ -38,7 +39,7 @@ Informations fournies par Les services cloud de Casys, Inc à Microsoft :
 | Conditions d’utilisation de l’application | [https://help.mypurecloud.com/articles/global-genesys-cloud-...](https://help.mypurecloud.com/articles/global-genesys-cloud-service-terms-and-conditions/) |
 | Fonctionnalités principales de l’application | Intégration cloud CX&#8482; Cloud pour Microsoft Teams |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://appsource.microsoft.com/en-us/product/web-apps/gene...](https://appsource.microsoft.com/en-us/product/web-apps/genesyslabs.genesys-cloud_teams_integration) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
@@ -59,7 +60,7 @@ Ces informations ont été fournies par Les services cloud de Contrôleys, Inc. 
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Données de profil utilisateur |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 90 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -169,7 +170,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Presence.Read.All | les deux | L’agent du Centre de contacts doit être en mesure de voir la présence de son collègue avant de transférer un appel téléphonique. | [728ece5a-0f26-4c43-9705-cea9debe3fb5](https://docs.microsoft.com/microsoft-365-app-certification/azure/728ece5a-0f26-4c43-9705-cea9debe3fb5) |
+>| Presence.Read.All | les deux | L’agent du Centre de contacts doit être en mesure de voir la présence de son collègue avant de transférer un appel téléphonique. | [728ece5a-0f26-4c43-9705-cea9debe3fb5](../azure/728ece5a-0f26-4c43-9705-cea9debe3fb5.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Adobe Acrobat, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b94696ec95be7b58f03aaa048169e7c5b6cd89a0
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: 015ddceffb9bf0a0a7a45bdff8ac0f4ddbb9faad
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459317"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544032"
 ---
 # <a name="adobe-acrobat"></a>Adobe Acrobat
 
@@ -62,7 +62,7 @@ Ces informations ont été fournies par Adobe Systems Inc. sur la façon dont ce
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | tenant_id, upn_hash, profile_and_token_info, oauth_state, ims_login_changed_at, preference_data, updated_at, created_at, expires_at |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -171,13 +171,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite.All | délégué | Pour être en mesure de lister et de parcourir les fichiers et dossiers récents, OneDrive et Teams de l’utilisateur. Nous permettons aux utilisateurs d’accéder à ces fichiers, de les utiliser pour effectuer des opérations sur ces derniers et de les enregistrer dans leur stockage. | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| Team.ReadBasic.All | délégué | Accéder en lecture aux noms et les descriptions des équipes | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| User.Read | délégué | Activer la connexion et lire le profil utilisateur | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| email | délégué | Afficher l’adresse e-mail des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| offline_access | délégué | conserver l’accès aux données que vous lui avez accordées | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| openid | délégué | Connecter des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
->| profil | délégué | afficher le profil de base des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| Files.ReadWrite.All | délégué | Pour être en mesure de lister et de parcourir les fichiers et dossiers récents, OneDrive et Teams de l’utilisateur. Nous permettons aux utilisateurs d’accéder à ces fichiers, de les utiliser pour effectuer des opérations sur ces derniers et de les enregistrer dans leur stockage. | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| Team.ReadBasic.All | délégué | Accéder en lecture aux noms et les descriptions des équipes | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| User.Read | délégué | Activer la connexion et lire le profil utilisateur | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| email | délégué | Afficher l’adresse e-mail des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| offline_access | délégué | conserver l’accès aux données que vous lui avez accordées | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| openid | délégué | Connecter des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| profil | délégué | afficher le profil de base des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

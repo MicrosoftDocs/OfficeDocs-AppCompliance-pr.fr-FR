@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Natterhub par Natterhub
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Natterhub, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fd0c03b20732f7f83d9d6738779f011a4272d6db
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 8cce96e9f542f1b9ed160f9cfb83b01c073f8239
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256489"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544302"
 ---
 # <a name="natterhub"></a>Natterhub
 
@@ -40,7 +41,7 @@ Informations fournies par Natterhub à Microsoft :
 | Conditions d’utilisation de l’application | [https://natterhub.com/legal](https://natterhub.com/legal) |
 | Fonctionnalités principales de l’application | Natterhub est un hub de sécurité et d’culture multimédia en ligne. Conçu pour permettre aux étudiants de 5 à 11 ans d’être en ligne sûrs et expérimentés, Natterhub utilise une plateforme de style de réseau social immersive et sécurisée, avec des leçons et des activités interactives ayant un impact. |
 | Emplacement du siège social de l’entreprise | Royaume-Uni de Grande-France et Irlande du Nord (le) |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://natterhub.com](https://natterhub.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
@@ -126,7 +127,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | Non |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -158,7 +159,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -171,12 +172,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| EduAssignments.ReadWrite | délégué | Obligatoire pour créer des soumissions d’affectations | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| User.Read | délégué | Obligatoire pour lire le prénom et le nom de famille de l’utilisateur | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| email | délégué | Nous exigeons cette autorisation pour que l’utilisateur puisse recevoir des e-mails transactionnels | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| offline_access | délégué | Obligatoire pour soumettre des soumissions d’affectations | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| openid | délégué | Obligatoire pour identifier l’utilisateur | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| profil | délégué | Obligatoire pour lire le prénom et le nom de famille de l’utilisateur | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| EduAssignments.ReadWrite | délégué | Obligatoire pour créer des soumissions d’affectations | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| User.Read | délégué | Obligatoire pour lire le prénom et le nom de famille de l’utilisateur | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| email | délégué | Nous exigeons cette autorisation pour que l’utilisateur puisse recevoir des e-mails transactionnels | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| offline_access | délégué | Obligatoire pour soumettre des soumissions d’affectations | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| openid | délégué | Obligatoire pour identifier l’utilisateur | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| profil | délégué | Obligatoire pour lire le prénom et le nom de famille de l’utilisateur | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

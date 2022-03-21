@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Solo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e10502dc12daa3bf5c64fbc9bf59f06168d56105
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: ee5b3a7dda8caaefd5584af648d1a177058695b1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470149"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544162"
 ---
 # <a name="solo"></a>Solo
 
@@ -62,7 +62,7 @@ Ces informations ont été fournies par Teladoc, Inc. sur la façon dont cette a
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | ID d’objet de l’utilisateur et de l’ID de locataire du client |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 90 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -171,15 +171,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AppCatalog.Read.All | délégué | Pour obtenir l’ID d’application de catalogue pour notre application sidepanel et l’installer dans des rendez-vous de télésanté programmés | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| CallRecords.Read.All | application | Pour garantir la qualité des appels liés aux rendez-vous de télésanté | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| OnlineMeetings.ReadWrite | délégué | Installer host sidePanel et joindre un patient dans une application personnalisée à un rendez-vous | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| TeamsActivity.Send | application | Signalisation de fin de session pour un rendez-vous de télésanté. | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| User.Read | délégué | SSO de l’application à partir Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| email | délégué | SSO de l’application à partir Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| offline_access | délégué | SSO de l’application à partir Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| openid | délégué | SSO de l’application à partir Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
->| profil | délégué | oid et tid sont utilisés pour macaler entre un compte Solo et un compte Teams, de sorte qu’un médecin dans Teams peut afficher ses rendez-vous de télésanté | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e) |
+>| AppCatalog.Read.All | délégué | Pour obtenir l’ID d’application de catalogue pour notre application sidepanel et l’installer dans des rendez-vous de télésanté programmés | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| CallRecords.Read.All | application | Pour garantir la qualité des appels liés aux rendez-vous de télésanté | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| OnlineMeetings.ReadWrite | délégué | Installer host sidePanel et joindre un patient dans une application personnalisée à un rendez-vous | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| TeamsActivity.Send | application | Signalisation de fin de session pour un rendez-vous de télésanté. | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| User.Read | délégué | SSO de l’application à partir Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| email | délégué | SSO de l’application à partir Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| offline_access | délégué | SSO de l’application à partir Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| openid | délégué | SSO de l’application à partir Teams | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
+>| profil | délégué | oid et tid sont utilisés pour macaler entre un compte Solo et un compte Teams, de sorte qu’un médecin dans Teams peut afficher ses rendez-vous de télésanté | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](../azure/c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

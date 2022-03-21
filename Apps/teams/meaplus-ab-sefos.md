@@ -2,18 +2,19 @@
 title: Informations d’application pour SEFOS par Meaplus AB
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SEFOS, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cc937876c3c714ba07587691d4a0e88f458d994c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f54e6aefaf7a820e0c6bdad991fe9643d6bfba8b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256500"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541242"
 ---
 # <a name="sefos"></a>SEFOS
 
@@ -40,8 +41,9 @@ Informations fournies par Meaplus AB à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.meaplus.com/wp-content/uploads/2020/02/Meaplus-...](https://www.meaplus.com/wp-content/uploads/2020/02/Meaplus-end_user_agreement.pdf) |
 | Fonctionnalités principales de l’application | Envoyez des informations chiffrées à tout le monde ! Vous décidez comment le destinataire doit s’identifier. |
 | Emplacement du siège social de l’entreprise | Suède |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://sefos.se/en/sefos-i-teams/](https://sefos.se/en/sefos-i-teams/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Meaplus AB sur la façon dont cette appl
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé après 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,14 +161,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Créer une réunion pour le compte de l’utilisateur | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| Mail.Send | délégué | Envoi d’invitations à une réunion | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| MailboxSettings.Read | délégué | Collecte du fuseau horaire pour l’utilisateur authentifié | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| People.Read | délégué | Recherche dans un carnet d’adresses utilisateur authentifié | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| User.Read | délégué | Activer la connexion et lire le profil utilisateur | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| email | délégué | Adresse de messagerie pour identifier l’utilisateur dans SEFOS. | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| openid | délégué | Connectez l’utilisateur | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| profil | délégué | Lecture du profil utilisateur | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
+>| Calendars.ReadWrite | délégué | Créer une réunion pour le compte de l’utilisateur | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| Mail.Send | délégué | Envoi d’invitations à une réunion | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| MailboxSettings.Read | délégué | Collecte du fuseau horaire pour l’utilisateur authentifié | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| People.Read | délégué | Recherche dans un carnet d’adresses utilisateur authentifié | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| User.Read | délégué | Activer la connexion et lire le profil utilisateur | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| email | délégué | Adresse de messagerie pour identifier l’utilisateur dans SEFOS. | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| openid | délégué | Connectez l’utilisateur | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| profil | délégué | Lecture du profil utilisateur | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

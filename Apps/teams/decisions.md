@@ -2,18 +2,19 @@
 title: Informations sur l’application pour les décisions prises par décision
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les décisions, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 78bb80e67214a26172c6f83f57d8614fb8c9e518
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0353886df853f0916252e41e8829214ce1e0a4d5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259740"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544942"
 ---
 # <a name="decisions"></a>Décisions
 
@@ -40,7 +41,7 @@ Informations fournies par les décisions à l’aide de Microsoft :
 | Conditions d’utilisation de l’application | [https://www.meetingdecisions.com/terms-of-service](https://www.meetingdecisions.com/terms-of-service) |
 | Fonctionnalités principales de l’application | Faites en sorte que vos réunions comptent avec un générateur d’agenda, des modèles de minutes et des modèles plus intégrés Teams. |
 | Emplacement du siège social de l’entreprise | Norvège |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.meetingdecisions.com](https://www.meetingdecisions.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -108,7 +109,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -156,7 +157,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,23 +171,23 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Permet de lire des informations à partir du calendrier de l&#8217;pour activer des fonctionnalités telles que la liste de réunions et la recherche. Elle permet également à l’utilisateur de supprimer des réunions spécifiques du calendrier lorsque l’élément est supprimé des décisions. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Chat.ReadWrite | délégué | Utilisé pour envoyer des décisions de vote et créer des listes de haut-parleurs pour des éléments d’ordre du jour individuels directement à la Microsoft Teams conversation de réunion. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Directory.Read.All | délégué | Permet de collecter des informations de base sur Office 365 client lors de l’inscription, telles que le nom du client et les domaines vérifiés. Il est également nécessaire de vérifier les appartenances aux groupes. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Files.Read.All | délégué | Utilisé pour lire les fichiers partagés avec l’utilisateur afin de les fusionner dans le carnet de réunions PDF. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Files.ReadWrite.All | délégué | Permet de fournir aux utilisateurs la prise en charge des annotations de fichiers personnels. Les fichiers annotés sont stockés en privé dans les&#8217;'OneDrive Entreprise. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Group.ReadWrite.All | délégué | Permet de créer des structures de dossiers dans Office 365 site&#8217;groupe SharePoint pour les agendas de réunion, les fichiers associés et les conversations de groupe.   Remarque : les utilisateurs de décisions n’auront jamais accès à des ressources (par exemple, des groupes) à qui ils n’ont pas déjà accès dans le client Office 365 de votre organisation. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Mail.Send | délégué | Permet aux utilisateurs de décisions d’envoyer des notifications aux participants à la réunion, telles que des mises à jour de l’ordre du jour et des liens vers la réunion pour les co-auteurs. Les messages électroniques sont envoyés aux participants à la réunion ou à la liste de distribution sélectionnée par le propriétaire de la réunion. Toutes les notifications et tous les e-mails envoyés le sont activement par les utilisateurs de décisions.  Remarque : cela ne permet pas à l’utilisateur d’accéder à sa boîte de réception par le biais de Décisions. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| MailboxSettings.Read | délégué | Permet d’identifier un utilisateur&#8217;préférences de langue. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Notes.ReadWrite | délégué | Permet de configurer des blocs-notes privés pour les réunions afin de prendre des notes et de préparer des remarques et des questions. Il permet également de stocker les minutes de réunion de groupe dans leur bloc-notes partagé OneNote, si le groupe choisit d’utiliser OneNote. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Sites.ReadWrite.All | délégué | Utilisez cette propriété pour créer des structures de dossiers dans des canaux privés pour les informations de réunion. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Tasks.ReadWrite | délégué | Utilisé pour synchroniser les tâches et les décisions avec le Planificateur Microsoft. Il permet également aux utilisateurs d’exporter des tâches et des décisions à Excel. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsAppInstallation.ReadWriteForUser | délégué | Requis pour installer par programme l’application Décisions dans la conversation. Ceci est obligatoire avant d’ajouter l’onglet Décisions pour l’expérience de réunion. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsAppInstallation.ReadWriteForUser.All | délégué | Requis pour installer par programme l’application Décisions dans la conversation. Ceci est obligatoire avant d’ajouter l’onglet Décisions pour l’expérience de réunion. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsTab.Create | délégué | Ajout de l’onglet Réunion/Canal dans Teams. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsTab.Read.All | délégué | Obligatoire pour vérifier si l’onglet est installé ou non. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| User.ReadBasic.All | délégué | Utilisé pour afficher le prénom et le nom, la photo et l’adresse e-mail des membres du groupe et des participants externes. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| profil | délégué | Utilisé pour se connecter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Calendars.ReadWrite | délégué | Permet de lire des informations à partir du calendrier de l&#8217;pour activer des fonctionnalités telles que la liste de réunions et la recherche. Elle permet également à l’utilisateur de supprimer des réunions spécifiques du calendrier lorsque l’élément est supprimé des décisions. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Chat.ReadWrite | délégué | Utilisé pour envoyer des décisions de vote et créer des listes de haut-parleurs pour des éléments d’ordre du jour individuels directement à la Microsoft Teams conversation de réunion. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Directory.Read.All | délégué | Permet de collecter des informations de base sur Office 365 client lors de l’inscription, telles que le nom du client et les domaines vérifiés. Il est également nécessaire de vérifier les appartenances aux groupes. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Files.Read.All | délégué | Utilisé pour lire les fichiers partagés avec l’utilisateur afin de les fusionner dans le carnet de réunions PDF. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Files.ReadWrite.All | délégué | Permet de fournir aux utilisateurs la prise en charge des annotations de fichiers personnels. Les fichiers annotés sont stockés en privé dans les&#8217;'OneDrive Entreprise. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Group.ReadWrite.All | délégué | Permet de créer des structures de dossiers dans Office 365 site&#8217;groupe SharePoint pour les agendas de réunion, les fichiers associés et les conversations de groupe.   Remarque : les utilisateurs de décisions n’auront jamais accès à des ressources (par exemple, des groupes) à qui ils n’ont pas déjà accès dans le client Office 365 de votre organisation. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Mail.Send | délégué | Permet aux utilisateurs de décisions d’envoyer des notifications aux participants à la réunion, telles que des mises à jour de l’ordre du jour et des liens vers la réunion pour les co-auteurs. Les messages électroniques sont envoyés aux participants à la réunion ou à la liste de distribution sélectionnée par le propriétaire de la réunion. Toutes les notifications et tous les e-mails envoyés le sont activement par les utilisateurs de décisions.  Remarque : cela ne permet pas à l’utilisateur d’accéder à sa boîte de réception par le biais de Décisions. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| MailboxSettings.Read | délégué | Permet d’identifier un utilisateur&#8217;préférences de langue. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Notes.ReadWrite | délégué | Permet de configurer des blocs-notes privés pour les réunions afin de prendre des notes et de préparer des remarques et des questions. Il permet également de stocker les minutes de réunion de groupe dans leur bloc-notes partagé OneNote, si le groupe choisit d’utiliser OneNote. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Sites.ReadWrite.All | délégué | Utilisez cette propriété pour créer des structures de dossiers dans des canaux privés pour les informations de réunion. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Tasks.ReadWrite | délégué | Utilisé pour synchroniser les tâches et les décisions avec le Planificateur Microsoft. Il permet également aux utilisateurs d’exporter des tâches et des décisions à Excel. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsAppInstallation.ReadWriteForUser | délégué | Requis pour installer par programme l’application Décisions dans la conversation. Ceci est obligatoire avant d’ajouter l’onglet Décisions pour l’expérience de réunion. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | délégué | Requis pour installer par programme l’application Décisions dans la conversation. Ceci est obligatoire avant d’ajouter l’onglet Décisions pour l’expérience de réunion. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsTab.Create | délégué | Ajout de l’onglet Réunion/Canal dans Teams. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsTab.Read.All | délégué | Obligatoire pour vérifier si l’onglet est installé ou non. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| User.ReadBasic.All | délégué | Utilisé pour afficher le prénom et le nom, la photo et l’adresse e-mail des membres du groupe et des participants externes. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| profil | délégué | Utilisé pour se connecter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

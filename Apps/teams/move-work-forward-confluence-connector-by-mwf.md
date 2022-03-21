@@ -2,18 +2,19 @@
 title: Informations sur l’application pour connecteur connecteur de Connecteur de Connecteur de connecteur de jonction par déplacement de travail vers l’avant
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Connecteur Connecteur connecteur par MWF, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 21c6474d5b21537a4ff04705fd16b760d6698b73
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: aed26fd2aa3bc10316447f31e01e3fd53e0525b8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251030"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544322"
 ---
 # <a name="confluence-connector-by-mwf"></a>Connecteur de Connecteur de Connecteur par MWF
 
@@ -38,9 +39,9 @@ Informations fournies par Move Work Forward à Microsoft :
 | Nom de la société partenaire | Faire avancer le travail |
 | Site web de l’entreprise | [https://www.moveworkforward.com](https://www.moveworkforward.com) |
 | Conditions d’utilisation de l’application | [https://www.moveworkforward.com/license-agreement/eula](https://www.moveworkforward.com/license-agreement/eula) |
-| Fonctionnalités principales de l’application | Intégration finale d’Atlassian Microsoft Teams |
+| Fonctionnalités principales de l’application | Intégration finale de l’Atlassien à Microsoft Teams |
 | Emplacement du siège social de l’entreprise | Singapour |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.moveworkforward.com/product/microsoft-teams-con...](https://www.moveworkforward.com/product/microsoft-teams-confluence-connector) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
@@ -57,14 +58,7 @@ Ces informations ont été fournies par Move Work Forward sur la façon dont cet
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,7 +149,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -168,11 +162,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | délégué | Pour obtenir la liste des canaux pour les pages de configuration afin d’envoyer des notifications dans un canal. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| Teams.ReadBasic.All | délégué | Pour obtenir la liste des équipes pour les pages de configuration afin d’envoyer des notifications dans un canal d’une équipe. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| TeamsAppInstallation.ReadForTeam | délégué | Pour découvrir les équipes où Connecteur Connecteur connecteur est installé | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| User.Read | délégué | Pour lire les informations utilisateur de base | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| email | délégué | Pour améliorer le mappage des comptes entre Microsoft et Atlassian | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| Channel.ReadBasic.All | délégué | Pour obtenir la liste des canaux pour les pages de configuration afin d’envoyer des notifications dans un canal. | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| Teams.ReadBasic.All | délégué | Pour obtenir la liste des équipes pour les pages de configuration afin d’envoyer des notifications dans un canal d’une équipe. | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| TeamsAppInstallation.ReadForTeam | délégué | Pour découvrir les équipes où Connecteur Connecteur connecteur est installé | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| User.Read | délégué | Pour lire les informations utilisateur de base | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| email | délégué | Pour améliorer le mappage des comptes entre Microsoft et Atlassian | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

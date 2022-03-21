@@ -2,18 +2,19 @@
 title: Informations d’application pour WorkplaceBuddy par WorkplaceBuddy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour WorkplaceBuddy, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ba96ce620f58ccc26067da6fee9b2e3b68c5667d
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ef5a4cc2333c4e9ec434733306606661caa10c4a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62263778"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543332"
 ---
 # <a name="workplacebuddy"></a>WorkplaceBuddy
 
@@ -40,8 +41,9 @@ Informations fournies par WorkplaceBuddy à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.workplacebuddy.com/terms-of-use.pdf](https://www.workplacebuddy.com/terms-of-use.pdf) |
 | Fonctionnalités principales de l’application | WorkplaceBuddy vous aide à devenir plus productif |
 | Emplacement du siège social de l’entreprise | Pays-Bas (les) |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.workplacebuddy.com](https://www.workplacebuddy.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par WorkplaceBuddy sur la façon dont cette 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé dans les 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -121,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,10 +161,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | délégué | Nous synchroniseons ces données afin de permettre aux onglets WorkplaceBuddy de Teams travail et de cibler des utilisateurs spécifiques avec le chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| Group.Read.All | délégué | Nous synchroniseons ces données afin de permettre aux onglets WorkplaceBuddy de Teams travail et de cibler des utilisateurs spécifiques avec le chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| User.Read | délégué | Nous synchroniseons ces données afin de permettre aux utilisateurs de se connecter. | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| User.ReadBasic.All | délégué | Nous synchroniseons ces données afin de permettre aux utilisateurs de se connecter. | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
+>| Directory.Read.All | délégué | Nous synchroniseons ces données afin de permettre aux onglets WorkplaceBuddy de Teams travail et de cibler des utilisateurs spécifiques avec le chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| Group.Read.All | délégué | Nous synchroniseons ces données afin de permettre aux onglets WorkplaceBuddy de Teams travail et de cibler des utilisateurs spécifiques avec le chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| User.Read | délégué | Nous synchroniseons ces données afin de permettre aux utilisateurs de se connecter. | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| User.ReadBasic.All | délégué | Nous synchroniseons ces données afin de permettre aux utilisateurs de se connecter. | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

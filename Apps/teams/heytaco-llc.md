@@ -2,18 +2,19 @@
 title: Informations d’application pour HeyTaco par HeyTaco, LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour HeyTaco, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 43fa80b9334baaeb92d699ae6993e29fe44944e4
-ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
+ms.openlocfilehash: 1d409065a274e91d20b61fcd4e913bbaddd70f27
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62337994"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543672"
 ---
 # <a name="heytaco"></a>HeyTaco
 
@@ -115,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
@@ -124,7 +125,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Non |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | Non |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Non |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -155,7 +156,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -168,9 +169,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| email | délégué | Pour organiser les données utilisateur | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
->| openid | délégué | Autoriser les utilisateurs à se connecter aux onglets | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
->| profil | délégué | Pour stocker les informations de profil des utilisateurs | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| email | délégué | Pour organiser les données utilisateur | [be8d11cf-265a-4974-9912-4ff28c29fc21](../azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md) |
+>| openid | délégué | Autoriser les utilisateurs à se connecter aux onglets | [be8d11cf-265a-4974-9912-4ff28c29fc21](../azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md) |
+>| profil | délégué | Pour stocker les informations de profil des utilisateurs | [be8d11cf-265a-4974-9912-4ff28c29fc21](../azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

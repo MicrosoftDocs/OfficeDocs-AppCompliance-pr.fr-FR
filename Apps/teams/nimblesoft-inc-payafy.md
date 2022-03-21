@@ -2,18 +2,19 @@
 title: Informations d’application pour PayaFy par NimbleSoft Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour PayaFy, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2b3607c120cf2dfda0ad34ee522bf55572c98a20
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a5afd0dc6c6cb0acba3b8f763a2e6fc34d8a85c5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254800"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543572"
 ---
 # <a name="payafy"></a>PayaFy
 
@@ -40,7 +41,7 @@ Informations fournies par NimbleSoft Inc. à Microsoft :
 | Conditions d’utilisation de l’application | [https://payafy.com/termsofservice](https://payafy.com/termsofservice) |
 | Fonctionnalités principales de l’application | PayaFy permet aux entreprises d’accepter les paiements. Vous pouvez lier un compte Stripe existant ou en inscrire un nouveau. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://payafy.com](https://payafy.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -156,7 +157,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Non |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -169,7 +170,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.ReadWrite.All | les deux | Il lit les informations de base utilisées pour l’inscription des utilisateurs. | [1e96a64b-9c1c-4cbc-b015-70243ea06c9b](https://docs.microsoft.com/microsoft-365-app-certification/azure/1e96a64b-9c1c-4cbc-b015-70243ea06c9b) |
+>| User.ReadWrite.All | les deux | Il lit les informations de base utilisées pour l’inscription des utilisateurs. | [1e96a64b-9c1c-4cbc-b015-70243ea06c9b](../azure/1e96a64b-9c1c-4cbc-b015-70243ea06c9b.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

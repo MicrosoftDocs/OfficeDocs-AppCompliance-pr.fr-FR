@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Lucca par Lucca
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Lucca, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0251a16c4bd3096e89d08cd21a80f8b559774f22
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ea4cbf66e6218350477a0e3c26758abc989626f3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255677"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542962"
 ---
 # <a name="lucca"></a>Lucques
 
@@ -42,6 +43,7 @@ Informations fournies par Lucca à Microsoft :
 | Emplacement du siège social de l’entreprise | France |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Lucca sur la façon dont cette applicati
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé après 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,7 +100,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -121,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,14 +161,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.Read.All | délégué | Aucune donnée n’est collectée. Nous les avons utilisés pour filtrer la planification de l’affichage. Seuls les utilisateurs qui sont dans le canal ont leur planification affichée | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| Chat.ReadWrite | application | Aucune donnée n’est collectée ou utilisée. L’application publie uniquement un message contenant les absents du jour | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| Group.Read.All | application | Nous collectons le GroupId pour savoir dans quel groupe l’application doit envoyer le message avec les absents.  | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| User.Read | délégué | Utilisé pour se connecter aux utilisateurs | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| User.Read.All | application | Utilisé pour lire les profils utilisateur | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| email | délégué | Utilisé pour afficher le courrier électronique de l’utilisateur dans l’onglet de l’application | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| openid | délégué | Utilisé pour connecter l’utilisateur | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| profil | délégué | Utilisé pour afficher le profil utilisateur dans l’onglet de l’application | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| ChannelMember.Read.All | délégué | Aucune donnée n’est collectée. Nous les avons utilisés pour filtrer la planification de l’affichage. Seuls les utilisateurs qui sont dans le canal ont leur planification affichée | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| Chat.ReadWrite | application | Aucune donnée n’est collectée ou utilisée. L’application publie uniquement un message contenant les absents du jour | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| Group.Read.All | application | Nous collectons le GroupId pour savoir dans quel groupe l’application doit envoyer le message avec les absents.  | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| User.Read | délégué | Utilisé pour se connecter aux utilisateurs | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| User.Read.All | application | Utilisé pour lire les profils utilisateur | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| email | délégué | Utilisé pour afficher le courrier électronique de l’utilisateur dans l’onglet de l’application | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| openid | délégué | Utilisé pour connecter l’utilisateur | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| profil | délégué | Utilisé pour afficher le profil utilisateur dans l’onglet de l’application | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

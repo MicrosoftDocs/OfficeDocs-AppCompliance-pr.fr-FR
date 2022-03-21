@@ -2,18 +2,19 @@
 title: Informations d’application pour Meetgeek par AIVISION PRODUCTS SRL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Meetgeek, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 334a0658f1ce5403153bd1c94849148dce45ce8c
-ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
+ms.openlocfilehash: b020c5d318f563a9431ab68db48cb0af206c21f3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62335856"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543722"
 ---
 # <a name="meetgeek"></a>Meetgeek
 
@@ -40,7 +41,7 @@ Informations fournies par les PRODUITS AIVISION SRL à Microsoft :
 | Conditions d’utilisation de l’application | [https://meetgeek.ai/terms](https://meetgeek.ai/terms) |
 | Fonctionnalités principales de l’application | Optimisez la productivité de vos réunions en ligne ! Enregistrez, transcrissez, partagez automatiquement des résumés et accédez aux informations de réunion. |
 | Emplacement du siège social de l’entreprise | Roumanie |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://meetgeek.ai](https://meetgeek.ai) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -108,24 +109,24 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
 | Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -157,7 +158,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,17 +171,17 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Synchronisation des données de calendrier pour l’utilisateur | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| OnlineMeetings.ReadWrite | délégué | Synchronisation des réunions en ligne pour l’utilisateur | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| User.Read | délégué | Identification de l’utilisateur connecté | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| email | délégué | Identification de l’utilisateur connecté | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| offline_access | délégué | Synchronisation des données de calendrier pour l’utilisateur | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| openid | délégué | Identification de l’utilisateur connecté | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| profil | délégué | Identification de l’utilisateur connecté | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](https://docs.microsoft.com/microsoft-365-app-certification/azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2) |
->| Calls.AccessMedia.All | délégué | Déclenchement du bot Meetgeek pour rejoindre les appels Teams MS de l’utilisateur | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba) |
->| Calls.Initiate.All | délégué | Déclenchement du bot Meetgeek pour rejoindre les appels Teams MS de l’utilisateur | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba) |
->| Calls.InitiateGroupCall.All | délégué | Déclenchement du bot Meetgeek pour rejoindre les appels Teams MS de l’utilisateur | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba) |
->| Calls.JoinGroupCall.All | délégué | Déclenchement du bot Meetgeek pour rejoindre les appels Teams MS de l’utilisateur | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba) |
+>| Calendars.ReadWrite | délégué | Synchronisation des données de calendrier pour l’utilisateur | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| OnlineMeetings.ReadWrite | délégué | Synchronisation des réunions en ligne pour l’utilisateur | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| User.Read | délégué | Identification de l’utilisateur connecté | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| email | délégué | Identification de l’utilisateur connecté | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| offline_access | délégué | Synchronisation des données de calendrier pour l’utilisateur | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| openid | délégué | Identification de l’utilisateur connecté | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| profil | délégué | Identification de l’utilisateur connecté | [3f1a3775-c192-4e8c-ae48-d70d144a46c2](../azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md) |
+>| Calls.AccessMedia.All | délégué | Déclenchement du bot Meetgeek pour rejoindre le MS Teams appels de l’utilisateur | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](../azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba.md) |
+>| Calls.Initiate.All | délégué | Déclenchement du bot Meetgeek pour rejoindre le MS Teams appels de l’utilisateur | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](../azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba.md) |
+>| Calls.InitiateGroupCall.All | délégué | Déclenchement du bot Meetgeek pour rejoindre le MS Teams appels de l’utilisateur | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](../azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba.md) |
+>| Calls.JoinGroupCall.All | délégué | Déclenchement du bot Meetgeek pour rejoindre le MS Teams appels de l’utilisateur | [6f5cab29-c1ad-4048-bf96-fdbe54dba6ba](../azure/6f5cab29-c1ad-4048-bf96-fdbe54dba6ba.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
