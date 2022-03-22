@@ -1,19 +1,20 @@
 ---
-title: Informations sur les applications pour Smart Connecter Jira par yasoon
+title: Informations sur l’application pour smart Connecter Jira par yasoon
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Smart Connecter pour Jira, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2f8db5fc4087ece98bf19f20ff3b91ab96875ed0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: af133a525bc0809ecea134167b6a24b95b8c45d4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252065"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545842"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect pour Jira
 
@@ -38,10 +39,11 @@ Informations fournies par yasoon HarpH à Microsoft :
 | Nom de la société partenaire | yasoon GmbH |
 | Site web de l’entreprise | [https://www.yasoon.com](https://www.yasoon.com) |
 | Conditions d’utilisation de l’application | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474846970/Product_42949680957/Asset_3f25ec80-eacb-454f-8cc2-eeee583b65c6/170825EULAOfficeaddinEN.doc) |
-| Fonctionnalités principales de l’application | Yasoon se concentre sur la fourniture d’intégrations intelligentes et sécurisées entre &amp; Atlassian et services Microsoft. Nous proposons des outils qui connectent Outlook et Teams’atlasSian Jira. Notre application Jira pour Microsoft Teams aide les équipes logicielles et professionnelles à mieux travailler ensemble, en connectant Teams conversations et conversations aux problèmes de Jira. |
+| Fonctionnalités principales de l’application | Yasoon se concentre sur la fourniture d’intégrations &amp; intelligentes et sécurisées entre Atlassian et services Microsoft. Nous proposons des outils qui connectent Outlook et Teams’atlasSian Jira. Notre application Jira pour Microsoft Teams aide les équipes logicielles et professionnelles à mieux travailler ensemble, en connectant Teams conversations et conversations aux problèmes de Jira. |
 | Emplacement du siège social de l’entreprise | Allemagne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par yasoon Contrôleh sur la façon dont cet
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé dans les 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,15 +161,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | délégué | L’autorisation permet à l’utilisateur de sélectionner l’un de ces canaux joints dans Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelMessage.Read.Group | application | Permet à l’application d’afficher des messages de canal lié dans Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelMessage.Send | délégué | Aucune donnée n’est utilisée, cette API est utilisée pour permettre à l’utilisateur de répondre aux messages de canal à partir de Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelSettings.Read.Group | application | Utilisé pour rechercher des informations détaillées sur un canal. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Chat.ReadWrite | délégué | Permet à l’utilisateur d’ajouter de nouvelles réponses aux conversations et d’afficher les messages de conversation à partir de Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Member.Read.Group | application | Utilisé pour les vérifications d’autorisation, permet à l’application de valider l’appartenance des utilisateurs à l’équipe. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Team.ReadBasic.All | délégué | L’autorisation permet à l’utilisateur de sélectionner l’une de ces équipes jointes dans Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| TeamSettings.Read.Group | application | Permet à l’application de lire les paramètres d’équipe pour respecter certaines valeurs par défaut. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| User.ReadBasic.All | délégué | Permet à l’utilisateur de sélectionner des collègues à @mentionner dans un message de canal | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| Channel.ReadBasic.All | délégué | L’autorisation permet à l’utilisateur de sélectionner l’un de ces canaux joints dans Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| ChannelMessage.Read.Group | application | Permet à l’application d’afficher des messages de canal lié dans Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| ChannelMessage.Send | délégué | Aucune donnée n’est utilisée, cette API est utilisée pour permettre à l’utilisateur de répondre aux messages de canal à partir de Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| ChannelSettings.Read.Group | application | Utilisé pour rechercher des informations détaillées sur un canal. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| Chat.ReadWrite | délégué | Permet à l’utilisateur d’ajouter de nouvelles réponses aux conversations et d’afficher les messages de conversation à partir de Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| Member.Read.Group | application | Utilisé pour les vérifications d’autorisation, permet à l’application de valider l’appartenance des utilisateurs à l’équipe. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| Team.ReadBasic.All | délégué | L’autorisation permet à l’utilisateur de sélectionner l’une de ces équipes jointes dans Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| TeamSettings.Read.Group | application | Permet à l’application de lire les paramètres d’équipe pour respecter certaines valeurs par défaut. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| User.ReadBasic.All | délégué | Permet à l’utilisateur de sélectionner des collègues à @mentionner dans un message de canal | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

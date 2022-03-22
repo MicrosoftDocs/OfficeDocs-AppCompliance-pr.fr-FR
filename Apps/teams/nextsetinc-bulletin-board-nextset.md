@@ -2,18 +2,19 @@
 title: Informations sur l’application pour bulletin board - NextSet by NextSet,Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour bulletin Board - NextSet, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a241c2d18e5503662ce812de1ada21992ee16312
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a5770e321da5d5c19cc3861f4411c9ce639898a7
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257720"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547291"
 ---
 # <a name="bulletin-board---nextset"></a>Panneau d'affichage – NextSet
 
@@ -40,8 +41,9 @@ Informations fournies par NextSet,Inc. à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.nextset.co.jp/terms/bbs.pdf](https://www.nextset.co.jp/terms/bbs.pdf) |
 | Fonctionnalités principales de l’application | Les privilèges d’accès peuvent être définies pour chaque billet. Le formulaire d’entrée de publication peut être personnalisé dynamiquement. L’affichage de la liste des billets peut être personnalisé dynamiquement. La date de début/fin de publication peut être spécifiée, contacter les utilisateurs par courrier électronique lors de la publication, gérer les publications non lues/lues, envoyer des messages aux utilisateurs non lus et écrire des commentaires sur les publications. |
 | Emplacement du siège social de l’entreprise | Japon |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.nextset.co.jp/bbs.html](https://www.nextset.co.jp/bbs.html) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | GCP, Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par NextSet,Inc. sur la façon dont cette ap
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé après 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,10 +161,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite.All | les deux | &#25237;&#31295;&#12487;&#12540;&#12479;&#12434;Excel&#12458;&#12531;&#12521;&#12452;&#12531;&#12395;&#20986;&#21147;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
->| email | délégué | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;'ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
->| openid | délégué | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;'ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
->| profil | les deux | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;'ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [ff5f406c-2ded-423f-b6ba-2950a2532b69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ff5f406c-2ded-423f-b6ba-2950a2532b69) |
+>| Files.ReadWrite.All | les deux | &#25237;&#31295;&#12487;&#12540;&#12479;&#12434;Excel&#12458;&#12531;&#12521;&#12452;&#12531;&#12395;&#20986;&#21147;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [cec02d43-1b67-4430-9bc9-861da8582801](../azure/cec02d43-1b67-4430-9bc9-861da8582801.md) |
+>| email | délégué | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;'ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [cec02d43-1b67-4430-9bc9-861da8582801](../azure/cec02d43-1b67-4430-9bc9-861da8582801.md) |
+>| openid | délégué | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;'ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [cec02d43-1b67-4430-9bc9-861da8582801](../azure/cec02d43-1b67-4430-9bc9-861da8582801.md) |
+>| profil | les deux | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;'ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [ff5f406c-2ded-423f-b6ba-2950a2532b69](../azure/ff5f406c-2ded-423f-b6ba-2950a2532b69.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

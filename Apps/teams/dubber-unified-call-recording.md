@@ -1,19 +1,20 @@
 ---
-title: Informations sur l’application pour l’enregistrement d’appels unifiés Du unified dunk
+title: Informations sur l’application pour l’enregistrement d’appel unifié Du unified par Du dual
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour l’enregistrement des appels unifiés Du unified, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour l’enregistrement des appels unifié Du unified call recording, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: eec69f5594f642432bbb79830b69428f5c6d16f3
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 4c80e50a43abe71a1ca67d93ec9039a3c3357d22
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147917"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544952"
 ---
 # <a name="dubber-unified-call-recording"></a>Enregistrement d’appels unifiés durd
 
@@ -38,11 +39,10 @@ Informations fournies par Du dual à Microsoft :
 | Nom de la société partenaire | Dunk |
 | Site web de l’entreprise | [https://www.dubber.net](https://www.dubber.net) |
 | Conditions d’utilisation de l’application | [https://www.dubber.net/terms](https://www.dubber.net/terms) |
-| Fonctionnalités principales de l’application | Unified Cloud Call Recording &amp; Voice AI for compliance, sales service &amp; performance |
+| Fonctionnalités principales de l’application | Unified Cloud Call Recording &amp; Voice AI for compliance, sales &amp; service performance |
 | Emplacement du siège social de l’entreprise | Australie |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -157,7 +157,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

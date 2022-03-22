@@ -2,18 +2,19 @@
 title: Informations d’application pour la sauvegarde cloud Microsoft Office 365 par AvePoint Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour la sauvegarde cloud pour Microsoft Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6fc3b2c5bc0fb54b4075f71e21ef1c2d14ace0f7
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a053ad5e60924f5d45fb8b99f91fe87b6dfe844e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260940"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546562"
 ---
 # <a name="cloud-backup-for-microsoft-office-365"></a>Sauvegarde cloud pour Microsoft Office 365
 
@@ -36,7 +37,7 @@ Informations fournies par AvePoint Inc. à Microsoft :
 | Site web de l’entreprise | [https://www.avepoint.com](https://www.avepoint.com) |
 | Conditions d’utilisation de l’application | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 | Fonctionnalités principales de l’application | AvePoint Cloud Backup est l'&#8217;la solution de sauvegarde cloud à cloud la plus complète pour Microsoft 365. Par
-Des sauvegardes automatisées illimitées et un stockage sécurisé dans avePoint&#8217;le stockage Azure ou votre propre cloud, vous décidez simplement de la quantité à récupérer et du moment où. Une restauration granulaire et à la demande au niveau de l’élément fournit un accès à tout moment à vos e-mails, fichiers, conversations, enregistrements, projets, tâches, groupes, Teams, planificateur et sites critiques. | | Emplacement du siège social de l'| États-Unis d’Amérique | | Page d’informations sur l| | | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas | | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
+Des sauvegardes automatisées illimitées et un stockage sécurisé dans le stockage Azure d’AvePoint&#8217;ou votre propre cloud, vous décidez simplement de la quantité à récupérer et du moment où. Une restauration granulaire et à la demande au niveau de l’élément fournit un accès à tout moment à vos e-mails, fichiers, conversations, enregistrements, projets, tâches, groupes, Teams, planificateur et sites critiques. | | Emplacement du siège social de l'| États-Unis d’Amérique | | Page d’informations sur l| [https://www.avepoint.com/products/cloud/backup/microsoft-of...](https://www.avepoint.com/products/cloud/backup/microsoft-office-365-backup) | | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas | | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -102,7 +103,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -153,12 +154,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | L’application se fédéré avec Azure AD, afin que toutes les règles d’accès conditionnel soient utilisées. |
+| Liste des types de stratégies pris en charge | L’application fédérée avec Azure AD, afin que toutes les règles d’accès conditionnel peuvent être utilisées. |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Oui |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Oui |
@@ -167,15 +168,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.ReadWrite.All | application | Ajouter et supprimer des membres de tous les canaux | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| ChannelMessage.Read.All | application | Lire tous les messages du canal | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| ChannelSettings.ReadWrite.All | application | Lire et écrire les noms, descriptions et paramètres de tous les canaux | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Directory.Read.All | application | Lire les données de l’annuaire | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Files.Read.All | application | Lire les fichiers dans toutes les collections de sites | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Group.ReadWrite.All | application | Lire et écrire tous les groupes | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Reports.Read.All | application | Accéder en lecture à tous les rapports d’utilisation | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Sites.ReadWrite.All | application | Accéder en lecture et en écriture aux éléments de toutes les collections de sites | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| User.Read | délégué | Activer la connexion et lire le profil utilisateur | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| ChannelMember.ReadWrite.All | application | Ajouter et supprimer des membres de tous les canaux | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| ChannelMessage.Read.All | application | Lire tous les messages du canal | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| ChannelSettings.ReadWrite.All | application | Lire et écrire les noms, descriptions et paramètres de tous les canaux | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Directory.Read.All | application | Lire les données de l’annuaire | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Files.Read.All | application | Lire les fichiers dans toutes les collections de sites | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Group.ReadWrite.All | application | Lire et écrire tous les groupes | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Reports.Read.All | application | Accéder en lecture à tous les rapports d’utilisation | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Sites.ReadWrite.All | application | Accéder en lecture et en écriture aux éléments de toutes les collections de sites | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| User.Read | délégué | Activer la connexion et lire le profil utilisateur | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

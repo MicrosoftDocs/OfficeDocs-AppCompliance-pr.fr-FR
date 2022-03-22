@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Startgrid, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f77e20e7fc93faa5f0e6be80074d71248c9bb714
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: 2c93c1893e18f6e2f16751fb86b34d5d15f912ba
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470154"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546332"
 ---
 # <a name="startgrid"></a>Startgrid
 
@@ -43,7 +43,6 @@ Informations fournies par Startgrid à Microsoft :
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
 | Page d’informations sur l’application | [https://corp.startgrid.com/platform](https://corp.startgrid.com/platform) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

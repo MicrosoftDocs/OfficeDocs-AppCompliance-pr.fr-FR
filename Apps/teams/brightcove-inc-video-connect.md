@@ -1,19 +1,20 @@
 ---
-title: Informations sur l’application pour brightcove video Connecter par Brightcove Inc.
+title: Informations sur l’application pour Brightcove Video Connect par Brightcove Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Brightcove Video Connecter, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Brightcove Video Connect, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ae03e50930bf5738312d50aad725f42331d3e0d5
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 8a30ae8ad14767f47400a3f3e854c5df43138be0
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259821"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547432"
 ---
 # <a name="brightcove-video-connect"></a>Connexion vidéo Brightcove
 
@@ -21,7 +22,7 @@ ms.locfileid: "62259821"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 15, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/af7b350c-9e21-49a2-98b8-679327ed31c3" target="_blank">Afficher dans Teams store</a>
+* <a href="https://teams.microsoft.com/l/app/af7b350c-9e21-49a2-98b8-679327ed31c3" target="_blank">Afficher dans le magasin Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003247" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
@@ -34,14 +35,15 @@ Informations fournies par Brightcove Inc. à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Connexion vidéo Brightcove |
 | ID | WA200003247 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Clients Office 365 pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Brightcove Inc. |
 | Site web de l’entreprise | [https://www.brightcove.com/en/](https://www.brightcove.com/en/) |
 | Conditions d’utilisation de l’application | [https://www.brightcove.com/en/terms-and-conditions/](https://www.brightcove.com/en/terms-and-conditions/) |
-| Fonctionnalités principales de l’application | Brightcove Video Connecter prend en charge les options de collaboration autour des ressources vidéo et multimédias directement dans Microsoft Teams |
+| Fonctionnalités principales de l’application | Brightcove Video Connect prend en charge les options de collaboration autour des ressources vidéo et multimédias directement dans Microsoft Teams |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://integrations.support.brightcove.com/teams/installat...](https://integrations.support.brightcove.com/teams/installation.html) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Brightcove Inc. sur la façon dont cette
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé après 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +66,7 @@ Ces informations ont été fournies par Brightcove Inc. sur la façon dont cette
 
 ::: zone pivot="security"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du [catalogue Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -106,7 +101,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

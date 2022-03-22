@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Adobe Acrobat Sign pour Word et PowerPoint par Adobe Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Adobe Acrobat Sign pour Word et PowerPoint, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6acf8769762f9401cb92785de1d0fda1214575b4
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: a3868fdf799ff05543aa2af71e52a427b382aec5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081152"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547142"
 ---
 # <a name="adobe-acrobat-sign-for-word-and-powerpoint"></a>Signe Adobe Acrobat pour Word et PowerPoint
 
@@ -38,7 +39,7 @@ Informations fournies par Adobe Inc. à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.adobe.com/legal/licenses-terms.html](https://www.adobe.com/legal/licenses-terms.html) |
 | Fonctionnalités principales de l’application | Maintenez les flux de travail de signature de documents en mouvement rapide lorsque vous ajoutez Adobe Sign pour Office. À présent, dans les applications Office telles que Word et PowerPoint, vous pouvez signer des documents, les envoyer pour approbations et signatures électroniques légalement contraignantes &#8212; avec la solution de signature électronique préférée de Microsoft. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://helpx.adobe.com/sign/help/adobesign_microsoft_teams...](https://helpx.adobe.com/sign/help/adobesign_microsoft_teams.html) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Hybride |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS, Azure |
 
@@ -167,11 +168,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Mail.ReadWrite | délégué | Pour remplir le document joint, les e-mails de l’expéditeur et du destinataire, ainsi que le contenu des messages électroniques envoyés à Adobe sign to send for signature. Cela permet à l’utilisateur de gagner du temps pour retaper ces champs dans Adobe Sign. Une fois qu’un contrat est signé, nous rédigeons automatiquement un nouveau courrier électronique pour que l’utilisateur envoie un courrier électronique pour informer ses destinataires que la transaction est effectuée. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
->| People.Read | délégué | Pour remplir automatiquement l’adresse e-mail &quot;dans l’expérience Envoyer pour signature&quot; , en tapant des lettres initiales, n’exigez pas que les utilisateurs tapent l’intégralité des e-mails. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
->| User.Read | délégué | Pour lire le profil de l’utilisateur et faire correspondre son profil (en fait, son e-mail et userId) à notre base de données afin qu’il puisse utiliser Adobe Sign. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
->| offline_access | délégué | Pour actualiser le jeton d’accès, lorsque le jeton actuel a expiré. Par exemple, lorsque l’utilisateur &quot;se trouve dans une fenêtre d’envoi de signature&quot; et la laisse inactive pendant trop longtemps, nous devons actualiser un nouveau jeton lorsque l’utilisateur est actif. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
->| openid | délégué | E-mail et UserId. Pour que l’utilisateur se connecte afin de s’assurer de son consentement pour l’autorisation d’utiliser l’application Adobe Sign.  | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
+>| Mail.ReadWrite | délégué | Pour remplir le document joint, les e-mails de l’expéditeur et du destinataire, ainsi que le contenu des messages électroniques envoyés à Adobe sign to send for signature. Cela permet à l’utilisateur de gagner du temps pour retaper ces champs dans Adobe Sign. Une fois qu’un contrat est signé, nous rédigeons automatiquement un nouveau courrier électronique pour que l’utilisateur envoie un courrier électronique pour informer ses destinataires que la transaction est effectuée. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](../azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b.md) |
+>| People.Read | délégué | Pour remplir automatiquement l’adresse e-mail &quot;dans l’expérience Envoyer pour signature&quot; , en tapant des lettres initiales, n’exigez pas que les utilisateurs tapent l’intégralité des e-mails. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](../azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b.md) |
+>| User.Read | délégué | Pour lire le profil de l’utilisateur et faire correspondre son profil (en fait, son e-mail et userId) à notre base de données afin qu’il puisse utiliser Adobe Sign. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](../azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b.md) |
+>| offline_access | délégué | Pour actualiser le jeton d’accès, lorsque le jeton actuel a expiré. Par exemple, lorsque l’utilisateur &quot;se trouve dans une fenêtre d’envoi de signature&quot; et la laisse inactive pendant trop longtemps, nous devons actualiser un nouveau jeton lorsque l’utilisateur est actif. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](../azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b.md) |
+>| openid | délégué | E-mail et UserId. Pour que l’utilisateur se connecte afin de s’assurer de son consentement pour l’autorisation d’utiliser l’application Adobe Sign.  | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](../azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

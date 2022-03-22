@@ -2,18 +2,19 @@
 title: Informations sur l’application pour les programmes d’entreprise Coooo par Coo Networks Oy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour CooOo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour CooHandling, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f0f7c645b26737b397737d0d8c09477cab37b2fd
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: e97d071b9159dc898f16839233459a39b735bf6b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261320"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544982"
 ---
 # <a name="cuckoo-workout"></a>Entraînement du coucou
 
@@ -40,7 +41,7 @@ Informations fournies par Coooo Networks Oy à Microsoft :
 | Conditions d’utilisation de l’application | [https://cuckooworkout.com/terms-of-service/](https://cuckooworkout.com/terms-of-service/) |
 | Fonctionnalités principales de l’application | Des exercices de micro-coupure amusants et faciles pour renforcer votre énergie et votre brain. |
 | Emplacement du siège social de l’entreprise | Finlande |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://cuckooworkout.com](https://cuckooworkout.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
@@ -156,7 +157,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -169,11 +170,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | délégué | Nom d’utilisateur, ID de client pour les communications et le mappage d’abonnement | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| email | délégué | Courrier électronique requis pour l’authentification et la prise en charge | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| offline_access | délégué | S/O | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| openid | délégué | ID utilisateur pour l’authentification | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| profil | délégué | ID de profil pour l’authentification | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
+>| User.Read | délégué | Nom d’utilisateur, ID de client pour les communications et le mappage d’abonnement | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| email | délégué | Courrier électronique requis pour l’authentification et la prise en charge | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| offline_access | délégué | N/A | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| openid | délégué | ID utilisateur pour l’authentification | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| profil | délégué | ID de profil pour l’authentification | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

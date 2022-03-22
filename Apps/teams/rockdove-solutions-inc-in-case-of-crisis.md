@@ -2,18 +2,19 @@
 title: Informations sur l’application en cas de crise par Les solutions RockDove, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour en cas de crise, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f8dde14386683816f9a1dcd7f4f9d1365aa3a4d4
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5add607e4c0c1d78c2ed214fd15ec549d2bf70dd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254734"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547272"
 ---
 # <a name="in-case-of-crisis"></a>En cas de crise
 
@@ -40,8 +41,9 @@ Informations fournies par RockDove Solutions, Inc. à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.rockdovesolutions.com/terms-of-use](https://www.rockdovesolutions.com/terms-of-use) |
 | Fonctionnalités principales de l’application | En cas de crise est la plateforme conçue à cet effet pour le cycle de vie de gestion des problèmes dynamiques et de la crise. Notre application permet aux organisations de partager et d’activer facilement des manuels actionnables qui incluent vos protocoles de réponse et les meilleures pratiques en cas de situation.  Vous pouvez également gérer et capturer l’intégralité du cycle de vie des problèmes qui ont un impact sur votre entreprise, de la reporting initiale à la résolution.   |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.rockdovesolutions.com/in-case-of-crisis/in-case...](https://www.rockdovesolutions.com/in-case-of-crisis/in-case-of-crisis-platform) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure, AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par RockDove Solutions, Inc. sur la façon d
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé au cours d’un mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +101,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,15 +161,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Cela donne un accès complet au calendrier d’un utilisateur. Notre application affiche la description, le lien de conférence et les dates de début et de fin. Notre application permet également à un utilisateur de créer un événement sur le calendrier Outlook | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Channel.ReadBasic.All | délégué | Donne accès à un canal d’utilisateurs.  La liste des canaux des utilisateurs est utilisée pour sélectionner un canal vers le téléchargement d’un fichier | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Files.ReadWrite | délégué | N/A | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Files.ReadWrite.All | délégué | Nous permettons aux utilisateurs de télécharger des fichiers de gestion des problèmes vers Teams | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Sites.ReadWrite.All | délégué | Cette information est requise pour le chargement vers un canal privé | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Team.ReadBasic.All | délégué | La liste des équipes est requise pour obtenir la liste des canaux à qui appartient l’utilisateur. Cela nous permet d’afficher la liste des canaux de téléchargement disponibles. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| email | délégué | Besoin d’obtenir le courrier électronique de l’utilisateur après l’authentification pour comparer les e-mails dans notre base de données. Si l’utilisateur n’a pas de compte dans notre système, nous en créons un. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| offline_access | délégué | Cela nous permet d’actualiser le jeton d’accès graphique | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| openid | délégué | Autorisation requise pour s’authentifier via openid | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
+>| Calendars.ReadWrite | délégué | Cela donne un accès complet au calendrier d’un utilisateur. Notre application affiche la description, le lien de conférence et les dates de début et de fin. Notre application permet également à un utilisateur de créer un événement sur le calendrier Outlook | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Channel.ReadBasic.All | délégué | Donne accès à un canal d’utilisateurs.  La liste des canaux des utilisateurs est utilisée pour sélectionner un canal vers le téléchargement d’un fichier | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Files.ReadWrite | délégué | N/A | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Files.ReadWrite.All | délégué | Nous permettons aux utilisateurs de télécharger des fichiers de gestion des problèmes vers Teams | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Sites.ReadWrite.All | délégué | Cette information est requise pour le chargement vers un canal privé | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Team.ReadBasic.All | délégué | La liste des équipes est requise pour obtenir la liste des canaux à qui appartient l’utilisateur. Cela nous permet d’afficher la liste des canaux de téléchargement disponibles. | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| email | délégué | Besoin d’obtenir le courrier électronique de l’utilisateur après l’authentification pour comparer les e-mails dans notre base de données. Si l’utilisateur n’a pas de compte dans notre système, nous en créons un. | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| offline_access | délégué | Cela nous permet d’actualiser le jeton d’accès graphique | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| openid | délégué | Autorisation requise pour s’authentifier via openid | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

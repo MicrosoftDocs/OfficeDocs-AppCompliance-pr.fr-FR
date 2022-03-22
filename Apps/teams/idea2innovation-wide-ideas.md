@@ -2,18 +2,19 @@
 title: Informations sur l’application pour les idées larges par Idea2Innovation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les idées larges, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 69e417f81896c284406c5408d20f9aff32ac09a2
-ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
+ms.openlocfilehash: c744df41324bd82a299fbee58b7d724f9fef1033
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62877885"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546032"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -42,6 +43,7 @@ Informations fournies par Idea2Innovation à Microsoft :
 | Emplacement du siège social de l’entreprise | Suède |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Idea2Innovation sur la façon dont cette
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé dans les 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -167,12 +162,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | délégué | Pour créer un canal dans une équipe.  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| Directory.Read.All | délégué | Nous l’utilisons pour lister les utilisateurs à partir de l’annuaire client  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| Group.Read.All | délégué | Nous l’utilisons pour lire et synchroniser des équipes à partir Microsoft Teams. | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| TeamsAppInstallation.ReadWriteForTeam | délégué | Il est utilisé pour installer l’application dans Teams automatiquement  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| TeamsTab.Create | délégué | Nous l’utilisons pour créer automatiquement des onglets d’application (idées de défi/recherche) dans les canaux créés par Wide Ideas. | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| User.Read | délégué | Utilisé pour authentifier les utilisateurs via l’authentification sso et synchroniser les données utilisateur | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
+>| Channel.Create | délégué | Pour créer un canal dans une équipe.  | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| Directory.Read.All | délégué | Nous l’utilisons pour lister les utilisateurs à partir de l’annuaire client  | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| Group.Read.All | délégué | Nous l’utilisons pour lire et synchroniser des équipes à partir Microsoft Teams. | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| TeamsAppInstallation.ReadWriteForTeam | délégué | Il est utilisé pour installer l’application dans Teams automatiquement  | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| TeamsTab.Create | délégué | Nous l’utilisons pour créer automatiquement des onglets d’application (idées de défi/recherche) dans les canaux créés par Wide Ideas. | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| User.Read | délégué | Utilisé pour authentifier les utilisateurs via l’authentification sso et synchroniser les données utilisateur | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

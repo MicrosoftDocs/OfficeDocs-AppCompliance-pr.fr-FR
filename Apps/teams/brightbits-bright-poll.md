@@ -2,18 +2,19 @@
 title: Informations sur l’application pour un sondage lumineux par BrightBits
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Bright Poll, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 46f5ce9f928771544547f4b22e08d650e594c559
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 4a6f122940de3dcf5a42f810cf813a0a3050fff1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081102"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545472"
 ---
 # <a name="bright-poll"></a>Bright Poll
 
@@ -40,7 +41,7 @@ Informations fournies par BrightBits à Microsoft :
 | Conditions d’utilisation de l’application | [https://brightbits.app/terms/](https://brightbits.app/terms/) |
 | Fonctionnalités principales de l’application | Recueillir les commentaires de collègues via des sondages dans la conversation. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://brightbits.app/bright-poll/](https://brightbits.app/bright-poll/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws, Heroku |
 
@@ -61,7 +62,7 @@ Ces informations ont été fournies par BrightBits sur la façon dont cette appl
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Données de profil utilisateur |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Non |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Éléments non conservés |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |

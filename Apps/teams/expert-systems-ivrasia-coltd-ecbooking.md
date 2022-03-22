@@ -2,18 +2,19 @@
 title: Informations sur les applications pour l’ecBooking par les systèmes experts IVR (Asie) Co.Ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ecBooking, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d95f0198add6647c68d1be68008a4356a565a045
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7efabdf5319e2ec7928dfff1b9e70c9f90b1202b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257920"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546732"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -28,7 +29,7 @@ ms.locfileid: "62257920"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par la réponse vocale vocale (IVR) des systèmes experts (Asie) Co.Ltd. à Microsoft :
+Informations fournies par expert Systems IVR(Asia) Co.Ltd. à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -40,9 +41,8 @@ Informations fournies par la réponse vocale vocale (IVR) des systèmes experts 
 | Conditions d’utilisation de l’application | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/#1598241760681-29d114e0-5c2b) |
 | Fonctionnalités principales de l’application | Expérience de réservation efficace avec un système intelligent pour optimiser les espaces de réunion. |
 | Emplacement du siège social de l’entreprise | Hong Kong |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,7 +52,7 @@ Informations fournies par la réponse vocale vocale (IVR) des systèmes experts 
 
 ### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
 
-Ces informations ont été fournies par expert Systems IVR(Asia) Co.Ltd. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par les systèmes experts IVR (Asie) Co.Ltd. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -108,7 +108,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -124,8 +124,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | Non |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -156,9 +156,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
-| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | S/O |
+| Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Non |
@@ -169,12 +169,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | application | Écriture en lecture-écriture de calendriers | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
->| Calendars.ReadWrite | délégué | Écriture en lecture-écriture de calendriers | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
->| Mail.Send | délégué | envoyer un message électronique | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
->| Mail.Send | application | envoyer un message électronique | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
->| User.Read | délégué | lire l’utilisateur | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
->| User.Read.All | application | lire l’utilisateur | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| Calendars.ReadWrite | application | Écriture en lecture-écriture de calendriers | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
+>| Calendars.ReadWrite | délégué | Écriture en lecture-écriture de calendriers | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
+>| Mail.Send | délégué | envoyer un message électronique | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
+>| Mail.Send | application | envoyer un message électronique | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
+>| User.Read | délégué | lire l’utilisateur | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
+>| User.Read.All | application | lire l’utilisateur | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’absence, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 73642d7ff02b79175b19cb4141098917e500ad29
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: 0bf3b44455bd598b532f0708654252f6620c60c6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470164"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546112"
 ---
 # <a name="absentify"></a>absentify
 
@@ -62,7 +62,7 @@ Ces informations ont été fournies par BrainCore Solutions AndroidH sur la faç
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Microsoft User ID,Email,DisplayName |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Allemagne |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -171,10 +171,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | application | Facultatif. Pour envoyer des notifications à Microsoft Teams. | [0f5eabc0-89bf-4cc6-80d1-10094b5919d2](../azure/0f5eabc0-89bf-4cc6-80d1-10094b5919d2) |
->| Calendars.ReadWrite | délégué | Facultatif : pour créer automatiquement une entrée Outlook du calendrier pour les absences. | [3dbcb38b-8d2f-4e97-9bd1-975fb770b31c](../azure/3dbcb38b-8d2f-4e97-9bd1-975fb770b31c) |
->| User.Read | délégué | Pour la connexion | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886) |
->| User.ReadBasic.All | délégué | Facultatif : pour afficher les images de profil Microsoft des utilisateurs. | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886) |
+>| TeamsActivity.Send | application | Facultatif. Pour envoyer des notifications à Microsoft Teams. | [0f5eabc0-89bf-4cc6-80d1-10094b5919d2](../azure/0f5eabc0-89bf-4cc6-80d1-10094b5919d2.md) |
+>| Calendars.ReadWrite | délégué | Facultatif : pour créer automatiquement une entrée Outlook du calendrier pour les absences. | [3dbcb38b-8d2f-4e97-9bd1-975fb770b31c](../azure/3dbcb38b-8d2f-4e97-9bd1-975fb770b31c.md) |
+>| User.Read | délégué | Pour la connexion | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886.md) |
+>| User.ReadBasic.All | délégué | Facultatif : pour afficher les images de profil Microsoft des utilisateurs. | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

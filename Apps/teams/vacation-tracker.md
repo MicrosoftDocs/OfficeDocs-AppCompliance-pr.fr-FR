@@ -2,18 +2,19 @@
 title: Informations sur l’application pour le suivi des vacances par le suivi des vacances
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le suivi des vacances, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: bd7fc61e757600d1d1d87d09e3f67e9ade0546ba
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3b8b92ed24e229982eac3edbda8b59b19e281a7b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251630"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546312"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -40,7 +41,7 @@ Informations fournies par le suivi des vacances à Microsoft :
 | Conditions d’utilisation de l’application | [https://vacationtracker.io/terms-of-service/](https://vacationtracker.io/terms-of-service/) |
 | Fonctionnalités principales de l’application | Le suivi des vacances est un outil qui permet aux entreprises de suivre les congés dans leur organisation. Un tableau de bord web permet aux administrateurs de configurer les paramètres organisationnels. Les employés peuvent également effectuer des demandes et passer en revue leurs quotas sur le tableau de bord. En outre, les employés peuvent effectuer des demandes et les approuveurs peuvent approuver ou refuser des demandes par le biais Microsoft Teams bot ou de l’onglet. |
 | Emplacement du siège social de l’entreprise | Canada |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://vacationtracker.io/vacation-calendar-tracker-featur...](https://vacationtracker.io/vacation-calendar-tracker-features/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
@@ -156,8 +157,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
+| Votre application s’intègre-t-elle à La plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Non |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration de la plateforme d’identités Microsoft ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -167,17 +168,17 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|   **Autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | délégué | Nous lisons les ID et les noms des canaux publics lorsque les utilisateurs définissent leurs notifications hebdomadaires ou quotidiennes. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| Team.ReadBasic.All | délégué | Nous listons les utilisateurs Microsoft Teams teams joints lors de l’inscription pour permettre aux utilisateurs de sélectionner une équipe qu’ils souhaitent inscrire au suivi des vacances. Ils peuvent également s’inscrire à l’ensemble de leur organisation. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.Read | délégué | Nous collectons les informations de base de l’utilisateur, notamment son nom, son ID et son ID de client. Nous utilisons ces données pour connecter les utilisateurs connectés à leur organisation dans le suivi des vacances. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.Read.All | délégué | Nos utilisateurs peuvent importer tous les utilisateurs de leur Microsoft 365 organisation ou Microsoft Teams équipe. Nous utilisons cette autorisation pour importer uniquement les utilisateurs sous licence pour une équipe Microsoft Teams ou une organisation. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.ReadBasic.All | délégué | Nous permettons aux utilisateurs d’importer les autres utilisateurs de leur organisation ou de leur Microsoft Teams équipe. Nous utilisons cette autorisation pour lister les utilisateurs disponibles et leurs adresses de messagerie dans la fenêtre d’importation. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| email | délégué | Lorsque l’utilisateur se connecte à l’aide de Microsoft AAD, nous stockons son adresse de messagerie en tant qu’identificateur unique. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| offline_access | délégué | Nous ne collectons aucune donnée avec cette autorisation. Il est utilisé pour maintenir l’accès aux données que nous avons l’autorisation d’accéder. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| openid | délégué | Nous utilisons cette autorisation pour vous inscrire ou vous inscrire aux suivis de vacances. Nous ne collectons pas de données spécifiques avec cette autorisation. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| profil | délégué | Nous collectons les informations de base de l’utilisateur, notamment son nom, son ID et son ID de client. Nous utilisons ces données pour connecter les utilisateurs connectés à leur organisation dans le suivi des vacances. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| Group.Read.All | délégué | Nous lisons les ID et les noms des canaux publics lorsque les utilisateurs définissent leurs notifications hebdomadaires ou quotidiennes. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| Team.ReadBasic.All | délégué | Nous listons l’utilisateur des équipes Microsoft Teams joint lors de l’inscription pour permettre aux utilisateurs de sélectionner une équipe qu’ils souhaitent inscrire au suivi des vacances. Ils peuvent également s’inscrire à l’ensemble de leur organisation. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| User.Read | délégué | Nous collectons les informations de base de l’utilisateur, notamment son nom, son ID et son ID de client. Nous utilisons ces données pour connecter les utilisateurs connectés à leur organisation dans le suivi des vacances. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| User.Read.All | délégué | Nos utilisateurs peuvent importer tous les utilisateurs de leur organisation Microsoft 365 ou de leur équipe Microsoft Teams. Nous utilisons cette autorisation pour importer uniquement les utilisateurs sous licence pour une équipe ou une organisation Microsoft Teams sélectionnée. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| User.ReadBasic.All | délégué | Nous permettons aux utilisateurs d’importer les autres utilisateurs de leur organisation ou de leur équipe Microsoft Teams. Nous utilisons cette autorisation pour lister les utilisateurs disponibles et leurs adresses de messagerie dans la fenêtre d’importation. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| email | délégué | Lorsque l’utilisateur se connecte à l’aide de Microsoft AAD, nous stockons son adresse de messagerie en tant qu’identificateur unique. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| offline_access | délégué | Nous ne collectons aucune donnée avec cette autorisation. Il est utilisé pour maintenir l’accès aux données que nous avons l’autorisation d’accéder. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| openid | délégué | Nous utilisons cette autorisation pour vous inscrire ou vous inscrire aux suivis de vacances. Nous ne collectons pas de données spécifiques avec cette autorisation. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| profil | délégué | Nous collectons les informations de base de l’utilisateur, notamment son nom, son ID et son ID de client. Nous utilisons ces données pour connecter les utilisateurs connectés à leur organisation dans le suivi des vacances. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

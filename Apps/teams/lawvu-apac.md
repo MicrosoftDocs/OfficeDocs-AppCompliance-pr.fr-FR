@@ -2,18 +2,19 @@
 title: Informations d’application pour LawVu APAC par LawVu
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LawVu APAC, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 13067a989948468c3cfef21c486e93d52ae38e4a
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 84bc836f026ce2b45f58adb58567e5950cff20ac
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081140"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545972"
 ---
 # <a name="lawvu-apac"></a>LawVu APAC
 
@@ -40,7 +41,7 @@ Informations fournies par LawVu à Microsoft :
 | Conditions d’utilisation de l’application | [https://lawvu.com/wp-content/uploads/Std-Saas-Agreement-202...](https://lawvu.com/wp-content/uploads/Std-Saas-Agreement-2021.pdf) |
 | Fonctionnalités principales de l’application | Les utilisateurs professionnels peuvent faire des demandes juridiques directement à partir Teams.  L’intégration capture tous les champs pertinents, y compris le contenu et les pièces jointes du message d’origine, et crée l’élément dans LawVu afin qu’il&#8217;fait partie du système d’enregistrement de l’équipe juridique&#8217;. |
 | Emplacement du siège social de l’entreprise | Nouvelle-Zélande |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://help.lawvu.com/en/articles/5953276-microsoft-teams-...](https://help.lawvu.com/en/articles/5953276-microsoft-teams-integration-coming-soon) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -61,7 +62,7 @@ Ces informations ont été fournies par LawVu sur la façon dont cette applicati
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Le fichier joint dans les équipes MS est tiré dans notre magasin de données. |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Australie |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 90 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |

@@ -2,18 +2,19 @@
 title: Informations sur l’application pour officeatwork | Verifier for Office by officeatwork
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Toutes les informations de sécurité et de conformité disponibles pour officeatwork | Vérifiant les Office, ses stratégies de gestion des données, ses informations Microsoft Cloud App Security catalogue d’applications et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour officeatwork | Vérifiant les Office, ses stratégies de gestion des données, ses Microsoft Cloud App Security catalogue d’applications et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: bbf8d9d21939928adfeba4e9d421120e7197beeb
-ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
+ms.openlocfilehash: ab52f5d22e5cedbd90c6a1843b8e05836f244318
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62514599"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547112"
 ---
 # <a name="officeatwork--verifier-for-office"></a>officeatwork | Verifier for Office
 
@@ -38,7 +39,7 @@ Informations fournies par officeatwork à Microsoft :
 | Conditions d’utilisation de l’application | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 | Fonctionnalités principales de l’application | Vérifiez et mettez à jour automatiquement vos documents avec le contenu géré de manière centralisée le plus récent. |
 | Emplacement du siège social de l’entreprise | Suisse |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -57,14 +58,7 @@ Ces informations ont été fournies par officeatwork sur la façon dont cette ap
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,7 +149,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -169,13 +163,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.Read | délégué | Activer la lecture et la comparaison du contenu | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
->| Files.Read.All | délégué | Activer la lecture et la comparaison du contenu | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
->| Sites.Read.All | délégué | Activer la lecture et la comparaison du contenu | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
->| User.Read | délégué | Activer l’affichage de l’utilisateur inscrit | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
->| offline_access | délégué | Activer la sign-in automatisée pour les hôtes Office plus anciens | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
->| openid | délégué | Activer la sign-in | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
->| profil | délégué | Activer la sign-in | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| Files.Read | délégué | Activer la lecture et la comparaison du contenu | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](../azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7.md) |
+>| Files.Read.All | délégué | Activer la lecture et la comparaison du contenu | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](../azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7.md) |
+>| Sites.Read.All | délégué | Activer la lecture et la comparaison du contenu | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](../azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7.md) |
+>| User.Read | délégué | Activer l’affichage de l’utilisateur inscrit | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](../azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7.md) |
+>| offline_access | délégué | Activer la sign-in automatisée pour les hôtes Office plus anciens | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](../azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7.md) |
+>| openid | délégué | Activer la sign-in | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](../azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7.md) |
+>| profil | délégué | Activer la sign-in | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](../azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

@@ -2,18 +2,19 @@
 title: Informations d’application pour la supermétrie par supermétrie
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la supermétrie, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 044becc7df41ac7e060b0f941e81818bf9525d27
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: fe11180f0a71e8ca0f740fb5c194e35f9b069596
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200717"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546882"
 ---
 # <a name="supermetrics"></a>Supermétrie
 
@@ -37,9 +38,9 @@ Informations fournies par supermétrie à Microsoft :
 | Nom de la société partenaire | Supermétrie |
 | Site web de l’entreprise | [https://supermetrics.com](https://supermetrics.com) |
 | Conditions d’utilisation de l’application | [https://supermetrics.com/terms-of-service](https://supermetrics.com/terms-of-service) |
-| Fonctionnalités principales de l’application | Grâce à la supermétrie, les entreprises peuvent agréger des données cloisonées à partir de plus de 70 plateformes commerciales et marketing, telles que les publicités Facebook, Google Analytics, Android et bien plus encore, et transférer les données directement dans Excel à des fins de rapport. Cela vous permet d’automatiser les tâches d’importation manuelle des données . - Utilisez les formules et les outils déjà disponibles dans Excel pour analyser et visualiser vos données marketing ; - Obtenez une vue d’ensemble en visualisant plusieurs sources de données directement dans Excel. |
+| Fonctionnalités principales de l’application | Grâce à la supermétrie, les entreprises peuvent agréger des données cloisonées à partir de plus de 70 plateformes commerciales et marketing, telles que les publicités Facebook, Google Analytics, Android et bien plus encore, et transférer les données directement dans Excel à des fins de rapport. Cela vous permet d’automatiser les tâches d’importation manuelle des données . - Utilisez les formules et les outils déjà disponibles dans Excel pour analyser et visualiser vos données marketing ; - Obtenez une vue d’ensemble en visualisant plusieurs sources de données directement Excel. |
 | Emplacement du siège social de l’entreprise | Finlande |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://supermetrics.com/product/excel](https://supermetrics.com/product/excel) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | GCP, Aws |
 
@@ -107,8 +108,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Oui |
 | Date de certification SOC1 la plus récente |  2020-12-15 |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
@@ -116,16 +117,16 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Date de certification SOC2 la plus récente |  2021-07-07 |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
-| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | S/O |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Non |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -156,7 +157,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

@@ -2,18 +2,19 @@
 title: Informations sur l’application C.AI bot d’adoption par contexxt.ai
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Toutes les informations de sécurité et de conformité disponibles pour C.AI Adoption Bot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour le bot d’adoption C.AI, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6c7c8d1b083cab351889117aa58316332161f466
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c9aa789941856708605540eb96b6ff24f3526496
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261350"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547372"
 ---
 # <a name="cai-adoption-bot"></a>Bot C.AI d’adoption
 
@@ -37,10 +38,11 @@ Informations fournies par contexxt.ai à Microsoft :
 | Nom de la société partenaire | contexxt.ai |
 | Site web de l’entreprise | [https://contexxt.ai](https://contexxt.ai) |
 | Conditions d’utilisation de l’application | [https://contexxt.ai/terms-of-use](https://contexxt.ai/terms-of-use) |
-| Fonctionnalités principales de l’application | Lorsque vous utilisez l’ensemble de la suite d’adoption, incl. &quot; Personal Coaching , le moteur d’analyse (C.AI Adoption Analytics) via Graph DONNÉES d’utilisation anonymisées de l’API Exchange &quot; &amp; Teams. En fonction de ces données, l’algorithme de bot (C.AI Adoption Bot) détecte des situations d’apprentissage spécifiques qui envoient des &amp; conseils rapides à l’utilisateur. Par exemple, si un utilisateur n’a jamais ajouté d’objet à un billet Teams, le bot suppose que l’utilisateur ne sait pas comment le faire et envoie des supports d’apprentissage personnalisés. Sans Analytics, il s’agit simplement d’un &amp; bot de Q A. |
+| Fonctionnalités principales de l’application | Lorsque vous utilisez l’ensemble de la suite d’adoption, incl. &quot; Personal Coaching, the&quot; analytics engine (C.AI Adoption Analytics) analysis via Graph API anonymisized usage data from Exchange &amp; Teams. En fonction de ces données, l’algorithme de bot (C.AI Adoption Bot) détecte des situations &amp; d’apprentissage spécifiques qui envoient des conseils rapides à l’utilisateur. Par exemple, si un utilisateur n’a jamais ajouté d’objet à un billet Teams, le bot suppose que l’utilisateur ne sait pas comment le faire et envoie des supports d’apprentissage personnalisés. Sans Analytics, il s’agit simplement d’un bot QA&amp;. |
 | Emplacement du siège social de l’entreprise | Allemagne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://contexxt.ai/cai-adoption-bot/](https://contexxt.ai/cai-adoption-bot/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Ces informations ont été fournies par contexxt.ai sur la façon dont cette app
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé dans les 2 semaines |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -104,9 +99,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
@@ -152,7 +147,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -165,13 +160,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | application | Disponibilité de l’utilisateur en mesure d’envoyer des conseils au bon moment et non pendant les heures de travail au travail, par exemple | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| ChannelMessage.Read.All | application | Microsoft Teams métadonnées de canal, telles que privés ou non, ou la quantité de conversations par canal pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Chat.Read.All | application | Microsoft Teams métadonnées de conversation, comme si un message a été aimé ou combien de groupes et de conversations 1:1 existent pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Directory.Read.All | application | ID d’objet utilisateur pour pouvoir envoyer des conseils à l’utilisateur ultérieurement. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Group.Read.All | application | Microsoft Teams métadonnées, telles que la quantité de Teams et de canaux pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Mail.Read | application | Microsoft Exchange métadonnées, telles que la quantité d’e-mails et de groupes par rapport aux e-mails 1:1 pour analyser l’utilisation des Exchange (par rapport à Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| User.Read.All | application | Microsoft Teams de conversation et de conversation, comme si un utilisateur a été mentionné pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Calendars.Read | application | Disponibilité de l’utilisateur en mesure d’envoyer des conseils au bon moment et non pendant les heures de travail au travail, par exemple | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| ChannelMessage.Read.All | application | Microsoft Teams métadonnées de canal, telles que privées ou non, ou la quantité de conversations par canal pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Chat.Read.All | application | Microsoft Teams métadonnées de conversation, comme si un message a été aimé ou combien de groupes et de conversations 1:1 existent pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Directory.Read.All | application | ID d’objet utilisateur pour pouvoir envoyer des conseils à l’utilisateur ultérieurement. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Group.Read.All | application | Microsoft Teams métadonnées, telles que la quantité de Teams et de canaux pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Mail.Read | application | Microsoft Exchange métadonnées, telles que la quantité d’e-mails et de groupes par rapport aux e-mails 1:1 pour analyser l’utilisation des Exchange (par rapport à la Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| User.Read.All | application | Microsoft Teams de conversation et de conversation, comme si un utilisateur a été mentionné pour analyser l’utilisation des Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

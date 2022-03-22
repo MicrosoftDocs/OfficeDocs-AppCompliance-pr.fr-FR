@@ -2,20 +2,21 @@
 title: Informations d’application pour le Centre de contacts Teams par Geomant-Algotech Zrt.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le Centre de contacts de Gestion du Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b73e059f9b820a1f3f880a4bd4237649121b9c5b
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 10c37808d1ec33fb38927294c104c50a98dda001
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251315"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546892"
 ---
-# <a name="buzzeasy-contact-center-for-teams"></a>Centre de contacts pour les Teams
+# <a name="buzzeasy-contact-center-for-teams"></a>Centre de contacts Pour les Teams
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,14 +32,14 @@ Informations fournies par Geomant-Algotech Zrt. à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | Centre de contacts pour les Teams |
+| Nom de l'application | Centre de contacts Pour les Teams |
 | ID | geomant.buzzeasy_teams_contact_center |
 | Nom de la société partenaire | Geomant-Algotech Zrt. |
 | Site web de l’entreprise | [https://www.buzzeasy.com](https://www.buzzeasy.com) |
 | Conditions d’utilisation de l’application | [https://docs.geomant.com/buzzeasy/portal/Buzzeasy_Service_L...](https://docs.geomant.com/buzzeasy/portal/Buzzeasy_Service_Level_Agreement.html) |
 | Fonctionnalités principales de l’application | Solution centre de contacts pour Microsoft Teams |
 | Emplacement du siège social de l’entreprise | Hongrie |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.geomant.com/buzzeasy-contact-centre-for-microso...](https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -106,7 +107,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
@@ -124,7 +125,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -155,7 +156,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -168,14 +169,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Mail.Send | application | Envoi d’une invitation au nom d’un utilisateur de service. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
->| Presence.Read.All | délégué | Afficher l’état de l’agent/de l’utilisateur pour d’autres agents, synchroniser avec l’état de l’agent. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
->| User.Read | délégué | Afficher la liste des utilisateurs pour l’inscription des administrateurs. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
->| User.Read.All | délégué | Afficher les informations de AAD utilisateur sur les interfaces utilisateur/administrateur | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
->| User.ReadBasic.All | délégué | Afficher les informations de AAD utilisateur sur les interfaces utilisateur/administrateur | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
->| Mail.ReadWrite | application | Permet à l’agent de lire/écrire une boîte aux lettres spécifique (partagée) via l’interface utilisateur de l’agent. (Peut être filtré sur une boîte aux lettres spécifique.) | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
->| Mail.Send | application | Envoi d’e-mails au nom d’une boîte aux lettres partagée. | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
->| User.Read | délégué | Activer la connexion et lire le profil utilisateur | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
+>| Mail.Send | application | Envoi d’une invitation au nom d’un utilisateur de service. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](../azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c.md) |
+>| Presence.Read.All | délégué | Afficher l’état de l’agent/de l’utilisateur pour d’autres agents, synchroniser avec l’état de l’agent. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](../azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c.md) |
+>| User.Read | délégué | Afficher la liste des utilisateurs pour l’inscription des administrateurs. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](../azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c.md) |
+>| User.Read.All | délégué | Afficher les informations de AAD utilisateur sur les interfaces utilisateur/administrateur | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](../azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c.md) |
+>| User.ReadBasic.All | délégué | Afficher les informations de AAD utilisateur sur les interfaces utilisateur/administrateur | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](../azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c.md) |
+>| Mail.ReadWrite | application | Permet à l’agent de lire/écrire une boîte aux lettres spécifique (partagée) via l’interface utilisateur de l’agent. (Peut être filtré sur une boîte aux lettres spécifique.) | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](../azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e.md) |
+>| Mail.Send | application | Envoi d’e-mails au nom d’une boîte aux lettres partagée. | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](../azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e.md) |
+>| User.Read | délégué | Activer la connexion et lire le profil utilisateur | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](../azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

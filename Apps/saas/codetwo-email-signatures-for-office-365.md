@@ -2,18 +2,19 @@
 title: Informations sur l’application pour les signatures de courrier CodeTwo Office 365 par CodeTwo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les signatures électroniques CodeTwo pour Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84b557eb3ae79dcc747bb4d3d1492e2963a13da1
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 4662ec055aa9c74c091d8a2dffc648215bd5e676
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63080072"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546142"
 ---
 # <a name="codetwo-email-signatures-for-office-365"></a>CodeTwo Email Signatures for Office 365
 
@@ -38,7 +39,7 @@ Informations fournies par CodeTwo à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.codetwo.com/license-agreement](https://www.codetwo.com/license-agreement) |
 | Fonctionnalités principales de l’application | CodeTwo Email Signatures pour Office 365 est un service cloud Azure qui ajoute des signatures automatiques de courrier électronique, des clauses d’exclusion de responsabilité légales et la branding aux messages envoyés à partir de n’importe quel appareil client de messagerie&amp;. Il permet à une personne (un administrateur ou un utilisateur délégué) ou une équipe de gérer de manière centralisée les signatures électroniques dans une organisation Microsoft 365 (Office 365). Les signatures peuvent être ajoutées dans le cloud (une fois les e-mails envoyés) ou directement dans Outlook que les utilisateurs tapent. |
 | Emplacement du siège social de l’entreprise | Pologne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.codetwo.com/email-signatures/](https://www.codetwo.com/email-signatures/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -59,7 +60,7 @@ Ces informations ont été fournies par CodeTwo sur la façon dont cette applica
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Données de profil utilisateur |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 90 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -168,16 +169,16 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. Elle permet également à l’application de lire les informations de base sur la société des utilisateurs connectés. | [2a93620e-4345-4e3b-9bae-0195f08aab69](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a93620e-4345-4e3b-9bae-0195f08aab69) |
->| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. Elle permet également à l’application de lire les informations de base sur la société des utilisateurs connectés. | [7afd058a-f568-4496-96b1-28d06ab3500f](https://docs.microsoft.com/microsoft-365-app-certification/azure/7afd058a-f568-4496-96b1-28d06ab3500f) |
->| Directory.AccessAsUser.All | délégué | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| Directory.Read.All | les deux | Permet à l’application de lire les données de votre&#8217;répertoire, tels que les utilisateurs, les groupes et les applications. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs de votre organisation au nom de l’utilisateur connecté. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. Les informations sont utilisées pour personnaliser automatiquement les signatures électroniques des utilisateurs. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. Elle permet également à l’application de lire les informations de base de l’entreprise des utilisateurs inscrits. Utilisé pour inscrire l’utilisateur au service CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| email | délégué | Permet à l’application de lire l’adresse de messagerie principale de vos utilisateurs. Utilisé pour inscrire l’utilisateur au service CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| offline_access | délégué | Permet à l’application de voir et de mettre à jour les données à qui vous lui avez donné accès, même lorsque les utilisateurs n’utilisent pas l’application. Cela ne donne pas à l’application d’autorisations supplémentaires. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| openid | délégué | Permet aux utilisateurs de se connecter à l’application avec leurs comptes professionnels ou scolaires et permet à l’application d’afficher les informations de profil utilisateur de base. Utilisé pour inscrire l’utilisateur au service CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| profil | délégué | Permet à l’application d’afficher le profil de base de vos utilisateurs (nom, image, nom d’utilisateur). Utilisé pour inscrire l’utilisateur au service CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
+>| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. Elle permet également à l’application de lire les informations de base sur la société des utilisateurs connectés. | [2a93620e-4345-4e3b-9bae-0195f08aab69](../azure/2a93620e-4345-4e3b-9bae-0195f08aab69.md) |
+>| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. Elle permet également à l’application de lire les informations de base sur la société des utilisateurs connectés. | [7afd058a-f568-4496-96b1-28d06ab3500f](../azure/7afd058a-f568-4496-96b1-28d06ab3500f.md) |
+>| Directory.AccessAsUser.All | délégué | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| Directory.Read.All | les deux | Permet à l’application de lire les données de votre&#8217;répertoire, tels que les utilisateurs, les groupes et les applications. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs de votre organisation au nom de l’utilisateur connecté. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. Les informations sont utilisées pour personnaliser automatiquement les signatures électroniques des utilisateurs. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. Elle permet également à l’application de lire les informations de base de l’entreprise des utilisateurs inscrits. Utilisé pour inscrire l’utilisateur au service CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| email | délégué | Permet à l’application de lire l’adresse de messagerie principale de vos utilisateurs. Utilisé pour inscrire l’utilisateur au service CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| offline_access | délégué | Permet à l’application de voir et de mettre à jour les données à qui vous lui avez donné accès, même lorsque les utilisateurs n’utilisent pas l’application. Cela ne donne pas à l’application d’autorisations supplémentaires. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| openid | délégué | Permet aux utilisateurs de se connecter à l’application avec leurs comptes professionnels ou scolaires et permet à l’application d’afficher les informations de profil utilisateur de base. Utilisé pour inscrire l’utilisateur au service CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| profil | délégué | Permet à l’application d’afficher le profil de base de vos utilisateurs (nom, image, nom d’utilisateur). Utilisé pour inscrire l’utilisateur au service CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

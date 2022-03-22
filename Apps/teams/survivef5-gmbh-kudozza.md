@@ -2,12 +2,19 @@
 title: Informations sur l’application pour Kudozza par surviveF5
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Toutes les informations de sécurité et de conformité disponibles pour Kudozza, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
+description: Toutes les informations de sécurité et de conformité disponibles pour Kudozza, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: ae20cb817283550e9dd6c75ef2abe6215d616ff1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545929"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -34,7 +41,7 @@ Informations fournies par surviveF5 Contrôleh à Microsoft :
 | Conditions d’utilisation de l’application | [https://kudozza.com/terms](https://kudozza.com/terms) |
 | Fonctionnalités principales de l’application | Kudozza permet de donner Kudos à d’autres membres de l’équipe pour leur montrer votre satisfaction. Il propose différents outils tels que les participations emoji, les catégories ou les classements pour encourager l’utilisation de Kudos. |
 | Emplacement du siège social de l’entreprise | Allemagne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://kudozza.com](https://kudozza.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws, Azure |
 
@@ -102,9 +109,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
@@ -119,8 +126,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | Non |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | Non |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -151,7 +158,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Non |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -164,10 +171,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | délégué | Lecture des canaux d’une équipe pour donner à l’utilisateur la possibilité de sélectionner un canal dans lequel il souhaite publier les félicitations | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
->| Teams.ReadBasic.All | délégué | L’utilisateur peut sélectionner une équipe et un canal dans lequel il souhaite que les félicitations soient publiées. Les autorisations de lecture d’équipe sont nécessaires pour la lecture des équipes. | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
->| User.Read | délégué | Obtenir les équipes dont un utilisateur fait partie | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
->| User.ReadBasic.All | délégué | Lire le nom d’utilisateur | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
+>| Channel.ReadBasic.All | délégué | Lecture des canaux d’une équipe pour donner à l’utilisateur la possibilité de sélectionner un canal dans lequel il souhaite publier les félicitations | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
+>| Teams.ReadBasic.All | délégué | L’utilisateur peut sélectionner une équipe et un canal dans lequel il souhaite que les félicitations soient publiées. Les autorisations de lecture d’équipe sont nécessaires pour la lecture des équipes. | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
+>| User.Read | délégué | Obtenir les équipes dont un utilisateur fait partie | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
+>| User.ReadBasic.All | délégué | Lire le nom d’utilisateur | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

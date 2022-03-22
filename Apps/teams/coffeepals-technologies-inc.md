@@ -2,18 +2,19 @@
 title: Informations sur les applications pour CoffeePals par CoffeePals Technologies Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour CoffeePals, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0e3a60a4cf08eccad2811f1f2737432a667f9ba9
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 2863be05be41765c8100f8742f955eca2e8ff122
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081156"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546492"
 ---
 # <a name="coffeepals"></a>CoffeePals
 
@@ -40,8 +41,9 @@ Informations fournies par CoffeePals Technologies Inc. à Microsoft :
 | Conditions d’utilisation de l’application | [https://coffeepals.co/terms-of-service](https://coffeepals.co/terms-of-service) |
 | Fonctionnalités principales de l’application | CoffeePals associe les personnes de manière aléatoire pour se réunir et discuter pour former des connexions personnelles. Il inclut d’autres fonctionnalités qui permettent aux employés de mieux se connecter. |
 | Emplacement du siège social de l’entreprise | Canada |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://coffeepals.co/product](https://coffeepals.co/product) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par CoffeePals Technologies Inc. sur la faç
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Conservé |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

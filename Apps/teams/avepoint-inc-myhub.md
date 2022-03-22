@@ -2,18 +2,19 @@
 title: Informations d’application pour MyHub par AvePoint, inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MyHub, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7086ba2566e0b3d44b8a30edcd43e4dce7eb9963
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0620429641e4e7b9669d48ec07af70eafe3accd3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260783"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546822"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -38,9 +39,9 @@ Informations fournies par AvePoint, inc. à Microsoft :
 | Nom de la société partenaire | AvePoint, Inc. |
 | Site web de l’entreprise | [https://www.avepoint.com](https://www.avepoint.com) |
 | Conditions d’utilisation de l’application | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Fonctionnalités principales de l’application | Meet MyHub, a one-stop-shop for requesting new Office 365 workspaces &amp; managing existing ones. MyHub fournit des services de mise en service, de recertification et de cycle de vie faciles à utiliser sans que votre &amp; équipe de l’équipe en charge de l’it ne soit contrainte. Les utilisateurs sont en mesure d’effectuer une échelle, d’automatiser les espaces de travail sécurisés et de savoir quand effectuer une action, ce qui facilite la réalisation de leur liste &amp; &amp; de tâches. MyHub&#65533;'infrastructure sécurisée durable est optimisée par &amp; AvePoint&#65533;gouvernance cloud. |
+| Fonctionnalités principales de l’application | Meet MyHub, a one-stop-shop for requesting new Office 365 workspaces &amp; managing existing ones. MyHub fournit des services de mise en service, de recertification et de cycle de vie faciles à utiliser sans &amp; que votre équipe de l’équipe en charge de l’it ne soit contrainte. Les utilisateurs sont en mesure d’effectuer une échelle, d’automatiser &amp; les espaces de travail sécurisés &amp; et de savoir quand effectuer une action, ce qui facilite la réalisation de leur liste de tâches. MyHub&#65533;'infrastructure sécurisée &amp; durable est optimisée par AvePoint&#65533;gouvernance cloud. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -106,7 +107,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
@@ -122,7 +123,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Oui |
@@ -155,12 +156,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | L’application se fédéré avec Azure AD, afin que toutes les règles d’accès conditionnel soient utilisées. |
+| Liste des types de stratégies pris en charge | L’application fédérée avec Azure AD, afin que toutes les règles d’accès conditionnel peuvent être utilisées. |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Oui |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
@@ -169,18 +170,18 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | les deux | Récupérez la liste des objets de paramètre de groupe. Par exemple, partage externe classicfication, enableCreateGroup(application) et ainsi de suite. | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Group.ReadWrite.All | les deux | Créer un groupe, récupérer, ajouter ou supprimer l’appartenance à un groupe | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Mail.Send | délégué | Si l’utilisateur actuel souhaite rejoindre un groupe privé, nous enverrons une notification aux propriétaires du groupe. | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Reports.Read.All | application | obtenir un rapport d’utilisation de site/groupe | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.FullControl.All | application | créer ou supprimer des sites | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.Read.All | application | obtenir des informations de base sur le site | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.ReadWrite.All | délégué | suivre/ne pas suivre les sites | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| User.Read.All | les deux | Délégué : obtenir la photo des utilisateurs ; Application : rechercher/résoudre des utilisateurs | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| email | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| offline_access | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| openid | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| profil | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Directory.Read.All | les deux | Récupérez la liste des objets de paramètre de groupe. Par exemple, partage externe classicfication, enableCreateGroup(application) et ainsi de suite. | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Group.ReadWrite.All | les deux | Créer un groupe, récupérer, ajouter ou supprimer l’appartenance à un groupe | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Mail.Send | délégué | Si l’utilisateur actuel souhaite rejoindre un groupe privé, nous enverrons une notification aux propriétaires du groupe. | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Reports.Read.All | application | obtenir un rapport d’utilisation de site/groupe | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.FullControl.All | application | créer ou supprimer des sites | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.Read.All | application | obtenir des informations de base sur le site | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.ReadWrite.All | délégué | suivre/ne pas suivre les sites | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| User.Read.All | les deux | Délégué : obtenir la photo des utilisateurs ; Application : rechercher/résoudre des utilisateurs | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| email | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| offline_access | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| openid | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| profil | délégué | SSO de l’application Teams | [478c769e-titre3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
