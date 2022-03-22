@@ -2,18 +2,19 @@
 title: Informations sur l’application pour LeDocdesDoc parDoc
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ContrôleDoc, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3ab026ee7c8a3277dc4865e514637a609ce3133b
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7cfd701c52bfc076fb1352bac439479426bc8475
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251020"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549672"
 ---
 # <a name="pandadoc"></a>PandaDoc
 
@@ -40,8 +41,9 @@ Informations fournies par ContrôleDoc à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.pandadoc.com/terms-of-use/](https://www.pandadoc.com/terms-of-use/) |
 | Fonctionnalités principales de l’application | Teams utiliser LeDoc pour améliorer les flux de travail de document, les informations et la vitesse tout en offrent une expérience incroyable pour leurs clients. Les entreprises approuvent le logiciel d’automatisation de documents&#8217;ContrôleDoc pour simplifier le processus de création, d’approbation et d’eSign des propositions, de guillemets, de contrats, etc. Grâce à de puissantes fonctionnalités de création de documents et de flux de travail, les équipes peuvent offrir à leurs clients une expérience plus professionnelle, opportune et attrayante. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.pandadoc.com](https://www.pandadoc.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure, AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par ContrôleDoc sur la façon dont cette ap
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Conservé |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,28 +161,28 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| ChannelSettings.Read.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal.  | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| ChannelSettings.ReadWrite.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Directory.Read.All | les deux | Pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Directory.ReadWrite.All | les deux | Pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Files.Read | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Files.Read.All | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Files.Read.Selected | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Group.Read.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. Documentation - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp ;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Group.ReadWrite.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. Documentation - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp ;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Team.ReadBasic.All | les deux | pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamSettings.Read.All | les deux | Pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamSettings.ReadWrite.All | les deux | ou obtenez les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamsAppInstallation.ReadWriteSelfForTeam.All | les deux | nécessaire pour installer l’application sur un utilisateur dans Team et installer le bot dans la conversation. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamsAppInstallation.ReadWriteSelfForUser.All | les deux | nécessaire pour installer l’application sur un utilisateur dans Team et installer le bot dans la conversation. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.Read | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.Read.All | les deux |  pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.ReadWrite.All | les deux |  pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| email | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| offline_access | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| openid | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| profil | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Channel.ReadBasic.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| ChannelSettings.Read.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal.  | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| ChannelSettings.ReadWrite.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Directory.Read.All | les deux | Pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Directory.ReadWrite.All | les deux | Pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Files.Read | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Files.Read.All | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Files.Read.Selected | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Group.Read.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. Documentation - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Group.ReadWrite.All | les deux | pour obtenir un ID de liste des canaux pour chaque commande reçue précédemment et obtenir les ID de lecteurs de fichiers pour chaque canal. Documentation - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Team.ReadBasic.All | les deux | pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| TeamSettings.Read.All | les deux | Pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| TeamSettings.ReadWrite.All | les deux | ou obtenez les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| TeamsAppInstallation.ReadWriteSelfForTeam.All | les deux | nécessaire pour installer l’application sur un utilisateur dans Team et installer le bot dans la conversation. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | les deux | nécessaire pour installer l’application sur un utilisateur dans Team et installer le bot dans la conversation. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| User.Read | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| User.Read.All | les deux |  pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| User.ReadWrite.All | les deux |  pour obtenir les ID des équipes Microsoft Teams dont l’utilisateur est un membre direct. Ensuite, les canaux de réception pour chaque identificateur de commande. Pour obtenir les ID de coffre de fichiers, vous devez d’abord obtenir la liste des équipes entrées par l’utilisateur. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| email | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| offline_access | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| openid | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| profil | les deux | pour l’utilisateur sso à partir de l’onglet (exemple : https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Nécessaire pour obtenir un jeton utilisateur avec accès à Microsoft Graph et obtenir des fichiers utilisateur supplémentaires. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

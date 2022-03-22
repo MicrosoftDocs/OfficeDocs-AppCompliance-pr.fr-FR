@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour enA SmartUC Connector, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d2095a16fc5f3d9a0e28f8cf782ae292c330a947
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: 4f3825a2a210998277fcf00634fc8e78679ff6a5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459791"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548882"
 ---
-# <a name="ena-smartuc-connector"></a>CONNECTEUR SMARTUC ENA
+# <a name="ena-smartuc-connector"></a>Connecteur SmartUC ENA
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +33,7 @@ Informations fournies par l’ENA à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | CONNECTEUR SMARTUC ENA |
+| Nom de l'application | Connecteur SmartUC ENA |
 | ID | WA200003354 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | ENA |
@@ -163,13 +163,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.Read.All | délégué | ID d’utilisateur et noms d’affichage des membres du canal/conversation actuel. L’application l’utilise pour présenter à l’utilisateur une liste des membres de canal/conversation à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| Chat.ReadBasic | délégué | ID d’utilisateur et noms d’affichage des membres de la conversation en cours. L’application l’utilise pour présenter à l’utilisateur une liste de membres de conversation à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| People.Read.All | délégué | ID utilisateur et noms d’affichage des membres de l’équipe actuelle. L’application l’utilise pour présenter à l’utilisateur la liste des membres de l’équipe à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| User.Read.All | délégué | Numéros de téléphone professionnels et mobiles des utilisateurs. Cette procédure est requise pour que les appels téléphoniques vers ces numéros soient lancés. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| offline_access | délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison Graph API répertoriés en leur nom. Ces autorisations d’accès sont requises pour que les applications de plateforme Microsoft Identity fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| openid | délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison Graph API répertoriés en leur nom. Ces autorisations d’accès sont requises pour que les applications de plateforme Microsoft Identity fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
->| profil | délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison Graph API répertoriés en leur nom. Ces autorisations d’accès sont requises pour que les applications de plateforme Microsoft Identity fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| ChannelMember.Read.All | délégué | ID d’utilisateur et noms d’affichage des membres du canal/conversation actuel. L’application l’utilise pour présenter à l’utilisateur une liste des membres de canal/conversation à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| Chat.ReadBasic | délégué | ID d’utilisateur et noms d’affichage des membres de la conversation en cours. L’application l’utilise pour présenter à l’utilisateur une liste de membres de conversation à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| People.Read.All | délégué | ID utilisateur et noms d’affichage des membres de l’équipe actuelle. L’application l’utilise pour présenter à l’utilisateur la liste des membres de l’équipe à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| User.Read.All | délégué | Numéros de téléphone professionnels et mobiles des utilisateurs. Cette procédure est requise pour que les appels téléphoniques vers ces numéros soient lancés. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| offline_access | délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison Graph API répertoriés en leur nom. Ces autorisations d’accès sont requises pour que les applications de plateforme Microsoft Identity fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| openid | délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison Graph API répertoriés en leur nom. Ces autorisations d’accès sont requises pour que les applications de plateforme Microsoft Identity fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| profil | délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison Graph API répertoriés en leur nom. Ces autorisations d’accès sont requises pour que les applications de plateforme Microsoft Identity fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

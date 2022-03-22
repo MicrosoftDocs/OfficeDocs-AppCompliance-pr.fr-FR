@@ -2,18 +2,19 @@
 title: Informations d’application pour MyHub Teams par AvePoint Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MyHub pour Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: abf2df95a61552899c392b884fc306481aa72a08
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 85284efb009be8af3e7232782ddb85f5e7d6569a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255097"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549822"
 ---
 # <a name="myhub-for-teams"></a>MyHub pour Teams
 
@@ -36,10 +37,11 @@ Informations fournies par AvePoint Inc. à Microsoft :
 | Nom de la société partenaire | AvePoint Inc. |
 | Site web de l’entreprise | [https://www.avepoint.com](https://www.avepoint.com) |
 | Conditions d’utilisation de l’application | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Fonctionnalités principales de l’application | Meet MyHub, a one-stop-shop for requesting new Office 365 workspaces &amp; managing existing ones. MyHub fournit des services de mise en service, de recertification et de cycle de vie faciles à utiliser sans que votre &amp; équipe de l’équipe en charge de l’it ne soit contrainte. Les utilisateurs sont en mesure d’effectuer une échelle, d’automatiser les espaces de travail sécurisés et de savoir quand effectuer une action, ce qui facilite la réalisation de leur liste &amp; &amp; de tâches. MyHub&#65533;'infrastructure sécurisée durable est optimisée par &amp; AvePoint&#65533;gouvernance cloud. |
+| Fonctionnalités principales de l’application | Meet MyHub, a one-stop-shop for requesting new Office 365 workspaces &amp; managing existing ones. MyHub fournit des services de mise en service, de recertification et de cycle de vie faciles à utiliser sans &amp; que votre équipe de l’équipe en charge de l’it ne soit contrainte. Les utilisateurs sont en mesure d’effectuer une échelle, d’automatiser &amp; les espaces de travail sécurisés &amp; et de savoir quand effectuer une action, ce qui facilite la réalisation de leur liste de tâches. MyHub&#65533;'infrastructure sécurisée &amp; durable est optimisée par AvePoint&#65533;gouvernance cloud. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -54,14 +56,7 @@ Ces informations ont été fournies par AvePoint Inc. sur la façon dont cette a
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé au cours d’un mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -151,12 +146,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | L’application se fédéré avec Azure AD, afin que toutes les règles d’accès conditionnel soient utilisées. |
+| Liste des types de stratégies pris en charge | L’application fédérée avec Azure AD, afin que toutes les règles d’accès conditionnel peuvent être utilisées. |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) |  |
 | Votre application stocke-t-elle des informations d’identification dans le code ? |  |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
@@ -165,14 +160,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Group.ReadWrite.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Mail.Send | délégué | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Reports.Read.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Sites.FullControl.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Sites.Read.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Sites.ReadWrite.All | délégué | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| User.Read.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Directory.Read.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Group.ReadWrite.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Mail.Send | délégué | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Reports.Read.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Sites.FullControl.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Sites.Read.All | application | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Sites.ReadWrite.All | délégué | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| User.Read.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données ; | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

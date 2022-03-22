@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour vimheslo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0149e5bd2930cc2cbb93964cfdcd0399ce119f88
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: c419392746cbd58dcd3ba656b0da369f5294a06a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470172"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548472"
 ---
 # <a name="vimheslo"></a>vimheslo
 
@@ -161,10 +161,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.Read.All | délégué | Les données sont stockées dans OneDrive ou SharePoint bibliothèque de documents, l’application doit lire les données. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| Sites.Read.All | délégué | Application dans le contexte d’équipe stockant des données dans la bibliothèque de documents SharePoint, l’application doit lire le nom du site pour le chemin d’installation, où se trouve le fichier avec des données. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| User.Read | délégué | L’application doit connaître les informations OneDrive pour y stocker des données personnelles. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| email | délégué | Pour autoriser le partage de données. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
+>| Files.Read.All | délégué | Les données sont stockées dans OneDrive ou SharePoint bibliothèque de documents, l’application doit lire les données. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| Sites.Read.All | délégué | Application dans le contexte d’équipe stockant des données dans la bibliothèque de documents SharePoint, l’application doit lire le nom du site pour le chemin d’installation, où se trouve le fichier avec des données. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| User.Read | délégué | L’application doit connaître les informations OneDrive pour y stocker des données personnelles. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| email | délégué | Pour autoriser le partage de données. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

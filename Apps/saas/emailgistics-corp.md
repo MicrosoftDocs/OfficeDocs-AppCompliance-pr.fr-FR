@@ -2,18 +2,19 @@
 title: Informations d’application pour Emailgistics par Emailgistics Corp.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Emailgistics, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cea41a85550bd0b2a5d4effda544674d46c06b67
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c4e1eccf63daa20dfee84818da65ada9dd1fd7dd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250250"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549482"
 ---
 # <a name="emailgistics"></a>Emailgistics
 
@@ -36,9 +37,9 @@ Informations fournies par Emailgistics Corp. à Microsoft :
 | Nom de la société partenaire | Emailgistics Corp. |
 | Site web de l’entreprise | [https://emailgistics.com](https://emailgistics.com) |
 | Conditions d’utilisation de l’application | [https://emailgistics.com/tos](https://emailgistics.com/tos) |
-| Fonctionnalités principales de l’application | Logiciel de gestion du courrier électronique de boîte de réception d’équipe pour Microsoft 365 |
+| Fonctionnalités principales de l’application | Logiciel de gestion du courrier électronique de boîte de réception d’équipe Microsoft 365 |
 | Emplacement du siège social de l’entreprise | Canada |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://emailgistics.com/how-it-works](https://emailgistics.com/how-it-works) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -106,7 +107,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -145,7 +146,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application a-t-elle la possibilité de supprimer les données personnelles d’un individu sur demande ? | N/A |
 | L’application a-t-elle la possibilité de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | N/A |
 | L’application permet-elle aux utilisateurs de corriger ou de mettre à jour leurs données personnelles ? | N/A |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | S/O |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des analyses d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | N/A |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,7 +156,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Non |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -169,12 +170,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Mail.ReadWrite | délégué | Accéder en lecture aux informations sur les messages dans la boîte aux lettres partagée. Les informations sur les messages sont nécessaires pour exécuter des règles définies par le client (distribuer à l’utilisateur A si le &#8220;message contient des&#8221; de facture, par exemple), pour suivre correctement les conversations (pour l’historique des conversations et l’affectation automatique) et pour les rapports (par exemple, le rapport détail Ouvrir les messages).
-Écrire le req’d’accès pour envoyer des messages à partir de règles (telles que les réponses automatiques) et mettre à jour les sujets des messages avec l’ID de conversation Emailgistics. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
->| Mail.Send | délégué | Permet à Emailgistics d’envoyer des messages électroniques à partir de la boîte aux lettres partagée. Cette autorisation est requise pour envoyer des messages à partir de règles (telles que les réponses automatiques). | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
->| MailboxSettings.ReadWrite | délégué | Permet à Emailgistics d’obtenir le nom de la boîte aux lettres partagée et de créer une règle de boîte aux lettres pour router les messages entrants vers son dossier entrant masqué pour le traitement initial, l’exécution des règles et l’affectation automatique. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
->| User.Read | délégué | Permet à Emailgistics de se connecter en tant que boîte aux lettres partagée et de lire des informations de base à son sujet, telles que son ID principal de service, son adresse e-mail et son nom d’utilisateur. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
->| User.ReadBasic.All | délégué | Permet à Emailgistics de lire les informations de base sur les utilisateurs de votre client. Requis pour détecter les modifications apportées aux adresses e-mail et aux noms des membres de la boîte aux lettres et mettre à jour automatiquement ces informations, qui sont utilisées à des fins de suivi et de rapport, dans Emailgistics. Il s’agit de la seule autorisation dont l’étendue s’étend au-delà de la boîte aux lettres partagée. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
->| offline_access | délégué | Permet à Emailgistics de fonctionner comme une application back-end, au lieu d’une application interactive basée sur un navigateur nécessitant qu’un utilisateur se connecte chaque fois qu’elle fonctionne. Cette autorisation permet à Emailgistics d’obtenir un jeton d’actualisation, qu’il peut actualiser selon les besoins pour conserver un accès constant. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+Écrire le req’d’accès pour envoyer des messages à partir de règles (telles que les réponses automatiques) et mettre à jour les sujets des messages avec l’ID de conversation Emailgistics. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
+>| Mail.Send | délégué | Permet à Emailgistics d’envoyer des messages électroniques à partir de la boîte aux lettres partagée. Cette autorisation est requise pour envoyer des messages à partir de règles (telles que les réponses automatiques). | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
+>| MailboxSettings.ReadWrite | délégué | Permet à Emailgistics d’obtenir le nom de la boîte aux lettres partagée et de créer une règle de boîte aux lettres pour router les messages entrants vers son dossier entrant masqué pour le traitement initial, l’exécution des règles et l’affectation automatique. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
+>| User.Read | délégué | Permet à Emailgistics de se connecter en tant que boîte aux lettres partagée et de lire des informations de base à son sujet, telles que son ID principal de service, son adresse e-mail et son nom d’utilisateur. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
+>| User.ReadBasic.All | délégué | Permet à Emailgistics de lire les informations de base sur les utilisateurs de votre client. Requis pour détecter les modifications apportées aux adresses e-mail et aux noms des membres de la boîte aux lettres et mettre à jour automatiquement ces informations, qui sont utilisées à des fins de suivi et de rapport, dans Emailgistics. Il s’agit de la seule autorisation dont l’étendue s’étend au-delà de la boîte aux lettres partagée. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
+>| offline_access | délégué | Permet à Emailgistics de fonctionner comme une application back-end, au lieu d’une application interactive basée sur un navigateur nécessitant qu’un utilisateur se connecte chaque fois qu’elle fonctionne. Cette autorisation permet à Emailgistics d’obtenir un jeton d’actualisation, qu’il peut actualiser selon les besoins pour conserver un accès constant. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

@@ -2,18 +2,19 @@
 title: Informations d’application pour COCO par Hexaware Technologies Ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour COCO, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 43623e8d729706e7073f8bbc1317b90448d5140a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f7bd1b727df657699aa51a250b5429cb8532f991
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255770"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549322"
 ---
 # <a name="coco"></a>COCO
 
@@ -40,8 +41,9 @@ Informations fournies par Hexaware Technologies Ltd. à Microsoft :
 | Conditions d’utilisation de l’application | [https://tinyurl.com/2c6b9cdm](https://tinyurl.com/2c6b9cdm) |
 | Fonctionnalités principales de l’application | Teams Bot qui améliore la productivité et l’engagement des employés en unifiant des systèmes informatiques disparates tels qu’ERP, CRM, Service Desk et d’autres solutions du secteur via une solution omnicanale intuitive. |
 | Emplacement du siège social de l’entreprise | Inde |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://tinyurl.com/2c6b9cdm](https://tinyurl.com/2c6b9cdm) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Hexaware Technologies Ltd. sur la façon
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,13 +161,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | délégué | Aucune | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| Directory.Read.All | application | Aucune | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| Directory.ReadWrite.All | délégué | Aucune | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| User.Read | délégué | Aucune | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| User.Read.All | application | Aucune | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| User.ReadWrite.All | délégué | Aucune | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| openid | délégué | Aucune | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| Directory.AccessAsUser.All | délégué | Aucun | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| Directory.Read.All | application | Aucun | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| Directory.ReadWrite.All | délégué | Aucun | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| User.Read | délégué | Aucun | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| User.Read.All | application | Aucun | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| User.ReadWrite.All | délégué | Aucun | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| openid | délégué | Aucun | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

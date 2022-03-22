@@ -2,18 +2,19 @@
 title: Informations d’application pour SalesTim par SalesTim
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SalesTim, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 66997cbd8ecf5872454d9ec9a58dcb65b65a094b
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d650f6254f819ec1683641400e37f1c10a98291a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252194"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548752"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -40,7 +41,7 @@ Informations fournies par SalesTim à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.salestim.com/legal/tos](https://www.salestim.com/legal/tos) |
 | Fonctionnalités principales de l’application | SalesTim permet à chaque organisation d’améliorer ses processus de collaboration par le biais de modèles sans code Microsoft Teams création et d’automatisation de gouvernance à grande échelle. |
 | Emplacement du siège social de l’entreprise | France |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.salestim.com](https://www.salestim.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -59,14 +60,7 @@ Ces informations ont été fournies par SalesTim sur la façon dont cette applic
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé au cours d’un mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -156,7 +150,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,12 +164,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.ReadWrite.All | délégué | ID des utilisateurs invités à un canal par notre stratégie d’appartenance | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Directory.AccessAsUser.All | délégué | ID utilisateur. Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Group.ReadWrite.All | les deux | Nous&#8217;stocker uniquement les groupes/ID d’équipes, nous&#8217;stocker aucun contenu de groupes/équipes. Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe pour le compte de l’utilisateur. En outre, elle permet aux propriétaires de groupes de gérer leurs groupes et aux membres de groupes de mettre à jour le contenu des groupes. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Mail.Send | délégué | ID utilisateur. Nous&#8217;stocker les métadonnées de cette action, telles que la date de notification, les destinataires et l’ID de la demande. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| User.Read.All | les deux | ID utilisateur et données de profil. Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| offline_access | délégué | Jeton d’actualisation. Permet à l’application d’effectuer certaines opérations et actions en arrière-plan en tant qu’utilisateur. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| ChannelMember.ReadWrite.All | délégué | ID des utilisateurs invités à un canal par notre stratégie d’appartenance | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| Directory.AccessAsUser.All | délégué | ID utilisateur. Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| Group.ReadWrite.All | les deux | Nous&#8217;stocker uniquement les groupes/ID d’équipes, nous&#8217;stocker aucun contenu de groupes/équipes. Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe pour le compte de l’utilisateur. En outre, elle permet aux propriétaires de groupes de gérer leurs groupes et aux membres de groupes de mettre à jour le contenu des groupes. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| Mail.Send | délégué | ID utilisateur. Nous&#8217;stocker les métadonnées de cette action, telles que la date de notification, les destinataires et l’ID de la demande. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| User.Read.All | les deux | ID utilisateur et données de profil. Permet à un utilisateur de sélectionner d’autres utilisateurs à différents endroits dans l’application, tels que la sélection d’approbations dans un flux de travail. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| offline_access | délégué | Jeton d’actualisation. Permet à l’application d’effectuer certaines opérations et actions en arrière-plan en tant qu’utilisateur. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

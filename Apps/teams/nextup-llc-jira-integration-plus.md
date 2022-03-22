@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Jira Integration Plus, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8adf13a171e6a075ff4b22e9325912f6c1738cf8
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: 92f2d7375e92a2ff69e83af28380d6e6d038700c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470169"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548382"
 ---
 # <a name="jira-integration-plus"></a>Jira Integration Plus
 
@@ -43,7 +43,6 @@ Informations fournies par Nextup, LLC à Microsoft :
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
 | Page d’informations sur l’application | [https://www.nextup.ai/microsoft-teams/jira-integration-plus/](https://www.nextup.ai/microsoft-teams/jira-integration-plus/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -62,7 +61,7 @@ Ces informations ont été fournies par Nextup, LLC sur la façon dont cette app
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Identificateurs uniques et adresses e-mail |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -171,16 +170,16 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AccessReview.Read.All | les deux | Nous utilisons cette API pour vérifier que les utilisateurs sont autorisés à accéder à notre application | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68) |
->| AccessReview.ReadWrite.All | les deux | Nous utilisons cette API pour vérifier que les utilisateurs sont autorisés à accéder à notre application | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68) |
->| Directory.Read.All | les deux | Nous utilisons cette API pour nous assurer que les utilisateurs sont autorisés à utiliser le bot dans l’application Teams et l’équipe et le canal | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68) |
->| Directory.Read.All | les deux | Nous utilisons cette API pour nous assurer que les utilisateurs sont autorisés à utiliser le bot dans l’application Teams et l’équipe et le canal | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68) |
->| Files.ReadWrite.All | les deux | Nous utilisons cette API pour accepter les fichiers des utilisateurs, qu’ils peuvent joindre aux problèmes de Jira | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68) |
->| Files.ReadWrite.All | les deux | Nous utilisons cette API pour accepter les fichiers des utilisateurs, qu’ils peuvent joindre aux problèmes de Jira | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68) |
->| Sites.Read.All | les deux | Nous utilisons cette API pour voir à quels sites les utilisateurs ont accès afin qu’ils peuvent créer des tickets aux emplacements appropriés | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68) |
->| Sites.Read.All | les deux | Nous utilisons cette API pour voir à quels sites les utilisateurs ont accès afin qu’ils peuvent créer des tickets aux emplacements appropriés | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68) |
->| User.ReadWrite.All | les deux | Nous utilisons cette API pour permettre à un utilisateur administrateur d’accorder la persmission à son organisation pour utiliser notre application avec Jira. | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68) |
->| User.ReadWrite.All | les deux | Nous utilisons cette API pour permettre à un utilisateur administrateur d’accorder la persmission à son organisation pour utiliser notre application avec Jira. | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68) |
+>| AccessReview.Read.All | les deux | Nous utilisons cette API pour vérifier que les utilisateurs sont autorisés à accéder à notre application | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68.md) |
+>| AccessReview.ReadWrite.All | les deux | Nous utilisons cette API pour vérifier que les utilisateurs sont autorisés à accéder à notre application | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68.md) |
+>| Directory.Read.All | les deux | Nous utilisons cette API pour nous assurer que les utilisateurs sont autorisés à utiliser le bot dans l’application Teams et l’équipe et le canal | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68.md) |
+>| Directory.Read.All | les deux | Nous utilisons cette API pour nous assurer que les utilisateurs sont autorisés à utiliser le bot dans l’application Teams et l’équipe et le canal | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68.md) |
+>| Files.ReadWrite.All | les deux | Nous utilisons cette API pour accepter les fichiers des utilisateurs, qu’ils peuvent joindre aux problèmes de Jira | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68.md) |
+>| Files.ReadWrite.All | les deux | Nous utilisons cette API pour accepter les fichiers des utilisateurs, qu’ils peuvent joindre aux problèmes de Jira | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68.md) |
+>| Sites.Read.All | les deux | Nous utilisons cette API pour voir à quels sites les utilisateurs ont accès afin qu’ils peuvent créer des tickets aux emplacements appropriés | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68.md) |
+>| Sites.Read.All | les deux | Nous utilisons cette API pour voir à quels sites les utilisateurs ont accès afin qu’ils peuvent créer des tickets aux emplacements appropriés | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68.md) |
+>| User.ReadWrite.All | les deux | Nous utilisons cette API pour permettre à un utilisateur administrateur d’accorder la persmission à son organisation pour utiliser notre application avec Jira. | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68.md) |
+>| User.ReadWrite.All | les deux | Nous utilisons cette API pour permettre à un utilisateur administrateur d’accorder la persmission à son organisation pour utiliser notre application avec Jira. | [0f22abfb-b687-489d-9fd6-ad1bc95d6d68](../azure/0f22abfb-b687-489d-9fd6-ad1bc95d6d68.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

@@ -2,18 +2,19 @@
 title: Informations d’application pour Lesnals par Alight
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour LesNals, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1305a486a9eb68a21ce2be0d65a0d518c39b64c2
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c52064e4c96285fe98cdc1bb721bf3565aac1472
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251170"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548502"
 ---
 # <a name="zignals"></a>Zignals
 
@@ -40,8 +41,9 @@ Informations fournies par Alight à Microsoft :
 | Conditions d’utilisation de l’application | [https://zignals.eu/terms](https://zignals.eu/terms) |
 | Fonctionnalités principales de l’application | Faites aller la collaboration dans les organisations à un niveau supérieur en agrégeant du contenu et en affichant aux employés ce qui est important. |
 | Emplacement du siège social de l’entreprise | Allemagne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://zignals.eu/zignals-support/](https://zignals.eu/zignals-support/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Alight sur la façon dont cette applicat
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,7 +100,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
@@ -121,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,16 +161,16 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | délégué | Pour la zone Mes réunions, nous recevons les réunions de &quot; &quot; l’utilisateur aujourd’hui et demain. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Sites.ReadWrite.All | délégué | Nous recevons tous les sites SharePoint suivis de l’utilisateur et les affichons dans la zone Mon travail d’équipe et nous recevons toutes les tâches SharePoint de &quot; l’utilisateur et les affichons dans la zone Mes tâches &quot; &quot; &quot; . | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Tasks.ReadWrite | délégué | Nous lisons le Planificateur de l’utilisateur et Tâches à faire tâches et les affichons dans la zone &quot; Mes &quot; tâches. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Team.ReadBasic.All | délégué | Nous recevons les équipes jointes de l’utilisateur et les affichons dans la zone Mon travail &quot; &quot; d’équipe. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| User.ReadBasic.All | délégué | Dans la zone Mes documents, nous affichons le nom de &quot; &quot; l’utilisateur qui a été en collaboration | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| User.ReadWrite | délégué | Les documents récents de l’utilisateur sont affichés dans la zone &quot; Mes documents &quot; . Les applications favorites de l’utilisateur sont stockées en tant qu’extension de schéma dans le Graph MS. Ce niveau d’autorisation est nécessaire pour lire et écrire des données dans le graphique. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| email | délégué | Obtenir le courrier électronique des utilisateurs (étendue standard Teams MS) | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| offline_access | délégué | Étendue d’Teams MS standard | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| openid | délégué | Connectez-vous aux utilisateurs. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| profil | délégué | Connectez-vous au processus MS Teams | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
+>| Calendars.Read | délégué | Pour la zone &quot;Mes réunions&quot; , nous recevons les réunions de l’utilisateur aujourd’hui et demain. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| Sites.ReadWrite.All | délégué | Nous recevons tous les sites &quot;&quot; SharePoint suivis de l’utilisateur et les affichons dans la zone Mon travail d’équipe et nous recevons toutes les tâches SharePoint &quot;de l’utilisateur et les affichons dans la zone Mes&quot; tâches. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| Tasks.ReadWrite | délégué | Nous lisons le Planificateur de l’utilisateur et Tâches à faire tâches et les affichons dans la zone &quot;Mes tâches&quot;. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| Team.ReadBasic.All | délégué | Nous recevons les équipes jointes de l’utilisateur et les affichons dans la zone &quot;Mon travail d’équipe&quot; . | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| User.ReadBasic.All | délégué | Dans la zone &quot;Mes documents&quot; , nous affichons le nom de l’utilisateur qui a été en collaboration | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| User.ReadWrite | délégué | Les documents récents de l’utilisateur sont affichés dans la zone &quot;Mes documents&quot;. Les applications favorites de l’utilisateur sont stockées en tant qu’extension de schéma dans le Graph MS. Ce niveau d’autorisation est nécessaire pour lire et écrire des données dans le graphique. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| email | délégué | Obtenir le courrier électronique des utilisateurs (étendue standard Teams MS) | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| offline_access | délégué | Étendue d’Teams MS standard | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| openid | délégué | Connectez-vous aux utilisateurs. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| profil | délégué | Connectez-vous au processus MS Teams | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

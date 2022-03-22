@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Quéz par MiHCM
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Contrôle, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1e8fa45f92c45f54d50ce94397eeb5a9adba49ca
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 780b2ad28c44c486eeba73569fbe1448461bda25
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63079718"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548852"
 ---
 # <a name="mia"></a>Mia
 
@@ -40,7 +41,7 @@ Informations fournies par MiHCM à Microsoft :
 | Conditions d’utilisation de l’application | [https://mia.work/terms-of-use](https://mia.work/terms-of-use) |
 | Fonctionnalités principales de l’application | L’Virtual Assistant Workplace permet à votre organisation de fournir un assistant virtuel à tous vos Microsoft Teams utilisateurs. Cet assistant de l’espace de travail sur Microsoft Teams permet à votre organisation d’augmenter la productivité, d’améliorer l’engagement des employés, l’exécution d’une multitude de demandes RH, les demandes de service liées au travail, &amp; le bien-être, etc. Il s’assure de l’implication des employés et de l’expérience transparente des employés pour les interactions/services RH. |
 | Emplacement du siège social de l’entreprise | Sri Lanka |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://mia.work](https://mia.work) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -61,7 +62,7 @@ Ces informations ont été fournies par MiHCM sur la façon dont cette applicati
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Événements de calendrier utilisateur, fuseau horaire utilisateur |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Singapour |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -157,24 +158,24 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
+| Votre application s’intègre-t-elle à La plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration de la plateforme d’identités Microsoft ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Liste des types de stratégies pris en charge | L’application fédérée avec Azure AD, afin que toutes les règles d’accès conditionnel peuvent être utilisées. |
+| Liste des types de stratégies pris en charge | L’application se fédéré avec Azure AD, de sorte que toutes les règles d’accès conditionnel peuvent être utilisées. |
 | Votre application prend-elle en charge l’évaluation de l’accès continu (CAE) | Oui |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
 | Les applications et les compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
+>|   **Autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | application | Pour lire les événements de calendrier programmés de l’utilisateur | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| Group.Read.All | délégué | Pour lire les tâches du Planificateur Microsoft de l’utilisateur | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| MailboxSettings.Read | application | Pour lire le fuseau horaire de l’utilisateur | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| User.Read | délégué | Pour identifier de manière unique un utilisateur | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
+>| Calendars.Read | application | Pour lire les événements de calendrier programmés de l’utilisateur | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| Group.Read.All | délégué | Pour lire les tâches du Planificateur Microsoft de l’utilisateur | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| MailboxSettings.Read | application | Pour lire le fuseau horaire de l’utilisateur | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| User.Read | délégué | Pour identifier de manière unique un utilisateur | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

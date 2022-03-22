@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Prowd par Prowd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Prowd, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0597b5b8d4d1ff74a1b7c6be848d7a09650247f6
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: d5cc94b2c7da155298849223a83260fee761a842
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081155"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549632"
 ---
 # <a name="prowd"></a>Prowd
 
@@ -40,7 +41,7 @@ Informations fournies par Prowd à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.beprowd.com/cgu-chatbot-corporate](https://www.beprowd.com/cgu-chatbot-corporate) |
 | Fonctionnalités principales de l’application | Le chatbot Prowd propose &#224; chaque utilisateur des d&#233;fis, quiz et actualit&#233;s sur les th&#233;matiques du D&#233;veloppement Durable pour apprendre et passer &#224; l’action. Dans tout type d’entreprise, Prowd permet aux responsables RSE (Responsabilit&#233;&#233;tête des Entreprises) d’engager facilement les collaborateurs sur ces sujets. |
 | Emplacement du siège social de l’entreprise | France |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.beprowd.com/chatbot-teams/](https://www.beprowd.com/chatbot-teams/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Hybride |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
@@ -61,7 +62,7 @@ Ces informations ont été fournies par Prowd sur la façon dont cette applicati
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Teams ID de client, Teams conversation utilisateur, e-mail de l’utilisateur, nom d’utilisateur.  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Irlande |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Éléments non conservés |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |

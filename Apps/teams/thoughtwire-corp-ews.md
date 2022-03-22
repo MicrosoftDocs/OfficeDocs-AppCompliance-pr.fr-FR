@@ -2,18 +2,19 @@
 title: Informations sur l’application pour ThoughtWire EWS par ThoughtWire Corp.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ThoughtWire EWS, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: eeec8fecafa50ac799254ed331f93411c5cbbb35
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 940fdcb02fc289226fb5f7b9021abd6c66375568
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253380"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548692"
 ---
 # <a name="thoughtwire-ews"></a>ThoughtWire EWS
 
@@ -42,6 +43,7 @@ Informations fournies par ThoughtWire Corp. à Microsoft :
 | Emplacement du siège social de l’entreprise | Canada |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par ThoughtWire Corp. sur la façon dont cet
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé après 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,12 +161,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Create | application | Permet à l’application de créer des groupes/équipes pour les hôpitals/unités. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| Group.ReadWrite.All | application | Requis pour que l’application détermine les groupes qu’elle peut avoir besoin de créer/re-créer et pour gérer l’appartenance. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| GroupMember.ReadWrite.All | application | Requis pour que l’application puisse gérer l’appartenance au groupe. c’est-à-dire, en ajoutant/supprimant des membres d’une équipe lorsque les équipes changent. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| TeamMember.ReadWrite.All | application | Requis pour que l’application puisse gérer l’appartenance au groupe. c’est-à-dire, en ajoutant/supprimant des membres d’une équipe lorsque les équipes changent. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| TeamsAppInstallation.ReadWriteForTeam | application | Permet à l’application d’installer automatiquement le bot ThoughtWire pour les équipes qu’elle crée/gère. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| User.Read | application | Autorisez l’application à récupérer le nom d’utilisateur /AADID d’un utilisateur selon les besoins lors de la gestion de l’appartenance et/ou de la récupération du nom d’utilisateur pour identifier l’utilisateur au sein de notre application. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| Group.Create | application | Permet à l’application de créer des groupes/équipes pour les hôpitals/unités. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
+>| Group.ReadWrite.All | application | Requis pour que l’application détermine les groupes qu’elle peut avoir besoin de créer/re-créer et pour gérer l’appartenance. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
+>| GroupMember.ReadWrite.All | application | Requis pour que l’application puisse gérer l’appartenance au groupe. c’est-à-dire, en ajoutant/supprimant des membres d’une équipe lorsque les équipes changent. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
+>| TeamMember.ReadWrite.All | application | Requis pour que l’application puisse gérer l’appartenance au groupe. c’est-à-dire, en ajoutant/supprimant des membres d’une équipe lorsque les équipes changent. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
+>| TeamsAppInstallation.ReadWriteForTeam | application | Permet à l’application d’installer automatiquement le bot ThoughtWire pour les équipes qu’elle crée/gère. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
+>| User.Read | application | Autorisez l’application à récupérer le nom d’utilisateur /AADID d’un utilisateur selon les besoins lors de la gestion de l’appartenance et/ou de la récupération du nom d’utilisateur pour identifier l’utilisateur au sein de notre application. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

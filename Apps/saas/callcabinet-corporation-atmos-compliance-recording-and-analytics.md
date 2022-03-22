@@ -2,18 +2,19 @@
 title: Informations sur l’application pour l’enregistrement et l’analyse de la conformité d’CallCabinet Atmos par CallCabinet Corporation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’enregistrement et l’analyse de la conformité CallCabinet Atmos, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 276e898351611643a648dac9350e750b13fd8a1a
-ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
+ms.openlocfilehash: 463cccc6f77ec628c3024a6c29b292947ed8d6cf
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62877557"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548542"
 ---
 # <a name="callcabinet-atmos-compliance-recording-and-analytics"></a>CallCabinet Atmos Compliance Recording and Analytics
 
@@ -38,7 +39,7 @@ Informations fournies par CallCabinet Corporation à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.callcabinet.com/terms-and-conditions/](https://www.callcabinet.com/terms-and-conditions/) |
 | Fonctionnalités principales de l’application | Atmos by CallCabinet est un enregistrement d’appels de conformité natif Azure, une solution SaaS ai-analytics et QA pour Microsoft Teams et d’autres systèmes de centre de contacts ou de collaboration. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.callcabinet.com/compliance-microsoft-teams-call...](https://www.callcabinet.com/compliance-microsoft-teams-call-recording/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -58,8 +59,8 @@ Ces informations ont été fournies par CallCabinet Corporation sur la façon do
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? | Enregistrement Teams conversations, partage vidéo et d’écran |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Quelles données sont stockées dans vos bases de données ? | Enregistrement Teams conversations, partage de vidéos et d’écran |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -154,7 +155,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

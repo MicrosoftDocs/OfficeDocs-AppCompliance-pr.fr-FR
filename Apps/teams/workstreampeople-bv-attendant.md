@@ -2,18 +2,19 @@
 title: Informations d’application pour Attendant par WORKSTREAMPEOPLE BV
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Attendant, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fab44be866bc1afe6c54a0b96678a5c105c2328a
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: d208575f7eed4778e38e855d4042eb1cdbaf1b54
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081176"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549122"
 ---
 # <a name="attendant"></a>Attendant
 
@@ -40,7 +41,7 @@ Informations fournies par WORKSTREAMPEOPLE BV à Microsoft :
 | Conditions d’utilisation de l’application | [https://anywhere365.io/terms-conditions/](https://anywhere365.io/terms-conditions/) |
 | Fonctionnalités principales de l’application | Attendant by Anywhere365 est une console puissante de l’opérateur téléphonique de pointe. |
 | Emplacement du siège social de l’entreprise | Pays-Bas (les) |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://anywhere365.io/attendant-console-for-microsoft-team...](https://anywhere365.io/attendant-console-for-microsoft-teams/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -61,7 +62,7 @@ Ces informations ont été fournies par WORKSTREAMPEOPLE BV sur la façon dont c
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | TenantId |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | Pays-Bas (les) |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 90 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -170,14 +171,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read.Shared | délégué | Nous voulons afficher les calendriers des collègues à qui l’utilisateur a accès | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| People.Read | délégué | Nous voulons afficher les détails des collègues de l’utilisateur pour pouvoir les joindre | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| Presence.Read.All | délégué | Nous voulons afficher la présence de tous les utilisateurs dans la liste des contacts | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| User.Read.All | délégué | Nous voulons pouvoir afficher toutes les informations des collègues | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| email | délégué | Nous voulons être en mesure d’envoyer un courrier électronique à l’utilisateur et de l’utiliser dans les messages de retour | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| offline_access | délégué | Nous voulons être en mesure de maintenir nos données à jour | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| openid | délégué | Pour identifier l’utilisateur dans la plateforme | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| profil | délégué | Nous avons besoin des données de profil pour identifier l’utilisateur et personnaliser l’expérience | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
+>| Calendars.Read.Shared | délégué | Nous voulons afficher les calendriers des collègues à qui l’utilisateur a accès | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| People.Read | délégué | Nous voulons afficher les détails des collègues de l’utilisateur pour pouvoir les joindre | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| Presence.Read.All | délégué | Nous voulons afficher la présence de tous les utilisateurs dans la liste des contacts | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| User.Read.All | délégué | Nous voulons pouvoir afficher toutes les informations des collègues | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| email | délégué | Nous voulons être en mesure d’envoyer un courrier électronique à l’utilisateur et de l’utiliser dans les messages de retour | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| offline_access | délégué | Nous voulons être en mesure de maintenir nos données à jour | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| openid | délégué | Pour identifier l’utilisateur dans la plateforme | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| profil | délégué | Nous avons besoin des données de profil pour identifier l’utilisateur et personnaliser l’expérience | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

@@ -2,18 +2,19 @@
 title: Informations sur l’application pour le Cloud Hub par atwork
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le Cloud Hub, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6e982e29c1ba09097f3c2415aae5e1f644a87c5a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 2a4f56d9bf23739abd8c7c9d40f6023fbfe43f91
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259841"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549462"
 ---
 # <a name="cloud-hub"></a>Cloud Hub
 
@@ -38,9 +39,9 @@ Informations fournies par atwork Contrôleh à Microsoft :
 | Nom de la société partenaire | atwork GmbH |
 | Site web de l’entreprise | [https://www.atwork-it.com](https://www.atwork-it.com) |
 | Conditions d’utilisation de l’application | [https://www.atwork-it.com/eula](https://www.atwork-it.com/eula) |
-| Fonctionnalités principales de l’application | Cloud Hub est une application d’entreprise pour Microsoft Teams. Il permet aux utilisateurs de suivre les modifications à venir, y compris les fonctionnalités nouvelles et modifiées, la maintenance planifiée et d’autres annonces importantes à partir du Centre de messages Microsoft. Vous pouvez épingler l’application Cloud Hub à la barre de l’application Microsoft Teams. L’application est actuellement prise en charge en anglais et sans frais.  |
+| Fonctionnalités principales de l’application | Cloud Hub est une application d’entreprise pour Microsoft Teams. Il permet aux utilisateurs de suivre les modifications à venir, y compris les fonctionnalités nouvelles et modifiées, la maintenance planifiée et d’autres annonces importantes à partir du Centre de messages Microsoft. Vous pouvez épingler l’application Cloud Hub à la barre de l’application dans Microsoft Teams. L’application est actuellement prise en charge en anglais et sans frais.  |
 | Emplacement du siège social de l’entreprise | Autriche |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.atwork-it.com/solutions/cloudhub/](https://www.atwork-it.com/solutions/cloudhub/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -124,7 +125,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -156,7 +157,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,10 +171,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | application | Utilisé pour sélectionner un canal dans lequel vous souhaitez publier un message à partir du centre de messages. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
->| Mail.Send | application | Utilisé pour envoyer des messages directement à partir de l’application vers des canaux ou des personnes individuelles.  | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
->| TeamSettings.Read.All | application | Utilisé pour sélectionner une équipe dans laquelle vous souhaitez publier un message à partir du centre de messages. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
->| User.Read.All | application | Utilisé pour sélectionner une personne à qui vous souhaitez envoyer un message électronique. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| Channel.ReadBasic.All | application | Utilisé pour sélectionner un canal dans lequel vous souhaitez publier un message à partir du centre de messages. | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
+>| Mail.Send | application | Utilisé pour envoyer des messages directement à partir de l’application vers des canaux ou des personnes individuelles.  | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
+>| TeamSettings.Read.All | application | Utilisé pour sélectionner une équipe dans laquelle vous souhaitez publier un message à partir du centre de messages. | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
+>| User.Read.All | application | Utilisé pour sélectionner une personne à qui vous souhaitez envoyer un message électronique. | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

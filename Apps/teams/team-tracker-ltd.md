@@ -2,18 +2,19 @@
 title: Informations sur l’application pour le suivi d’équipe par Team Tracker Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Team Tracker, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cdb4c7dea2bfc330ddccbe58ad1f8405a9a419ef
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3901bf255ee6086a1d28ebb6135782236cafd0ef
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252204"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548702"
 ---
 # <a name="team-tracker"></a>Suivi d’équipe
 
@@ -59,14 +60,7 @@ Ces informations ont été fournies par Team Tracker Ltd sur la façon dont cett
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
 | Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -109,7 +103,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -124,9 +118,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -156,7 +150,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -169,12 +163,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Une fois qu’un utilisateur définit ses activités pour les semaines à venir, Team Tracker met à jour le calendrier des utilisateurs et leur disponibilité en fonction de leur sélection.  | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| MailboxSettings.Read | délégué | Utilisé pour obtenir le fuseau horaire pour la création d’événements de calendrier | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| User.Read | délégué | Vérifie les informations des utilisateurs par rapport à leur profil | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| email | délégué | Utilisé pour vérifier le courrier électronique des utilisateurs | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| openid | délégué | Permet aux utilisateurs de se connectent avec leur compte Office 365 client | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| profil | délégué | Vérifie les informations de base des utilisateurs par rapport à leur profil | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| Calendars.ReadWrite | délégué | Une fois qu’un utilisateur définit ses activités pour les semaines à venir, Team Tracker met à jour le calendrier des utilisateurs et leur disponibilité en fonction de leur sélection.  | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| MailboxSettings.Read | délégué | Utilisé pour obtenir le fuseau horaire pour la création d’événements de calendrier | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| User.Read | délégué | Vérifie les informations des utilisateurs par rapport à leur profil | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| email | délégué | Utilisé pour vérifier le courrier électronique des utilisateurs | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| openid | délégué | Permet aux utilisateurs de se connectent avec leur compte Office 365 client | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| profil | délégué | Vérifie les informations de base des utilisateurs par rapport à leur profil | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

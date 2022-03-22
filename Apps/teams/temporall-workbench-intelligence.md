@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Workbench Intelligence par Temporel
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Workbench Intelligence, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9a560adc52e8125118e24e6c57810a0a7e5d7027
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 948712fb4c4db715f8c464a8645f06d75c774c27
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62263794"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548682"
 ---
 # <a name="workbench-intelligence"></a>Workbench Intelligence
 
@@ -40,8 +41,9 @@ Informations fournies par Le Temps à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.temporall.com/eula](https://www.temporall.com/eula) |
 | Fonctionnalités principales de l’application | Workbench Intelligence fournit des informations en temps réel pour vous aider à prendre des décisions plus rapides et plus éclairées. |
 | Emplacement du siège social de l’entreprise | Royaume-Uni de Grande-France et Irlande du Nord (le) |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.temporall.com/teams_intelligence/](https://www.temporall.com/teams_intelligence/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Le Temps sur la façon dont cette applic
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé après 3 mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,7 +100,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
@@ -121,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Non |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,15 +161,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AppCatalog.Read.All | délégué | Obtient la liste des applications Teams installées pour pouvoir obtenir l’ID de l’application locale pour l’ID externe connu. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| Channel.ReadBasic.All | application | Nom de l’ID &amp; de canal. Justification : autoriser la jointation/la sortie du canal pour synchroniser l’activité des messages.  | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| ChannelMessage.Read.All | application | Type &amp; d’activité de message, ainsi que la cible de &amp; l’expéditeur. Données reçues à partir de ces itinéraires : /teams/${teamId}/channels/${channelId}/messages /teams/${teamId}/channels/${channelId}/messages/${messageId}. Justification : pour pouvoir calculer un rapport de mesures sur &amp; l’activité des messages. Cela constitue le cœur de notre module d’analyse réseau d’organisation pour pouvoir dessiner un diagramme d’activité entre les équipes des &amp; utilisateurs. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| Directory.Read.All | application | ClientId, liste des utilisateurs, liste des organisations et sous-canaux. Justification : Nécessaire pour lire les &amp; utilisateurs de synchronisation dans Temporall Workbench | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| Group.ReadWrite.All | application | Nom de l’ID &amp; de groupe. Justification : pour installer l’application sur chaque groupe/canal | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamMember.Read.All | application | Appartenance de l’utilisateur à l’équipe. Justification : autorise la synchronisation de tous les utilisateurs dans Teams avec à Workbench Temporel | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamsAppInstallation.ReadWriteForTeam.All | application | Lire la liste des applications installées pour Team. Justification : vérifiez si notre application est déjà installée, sinon, elle est installée pour être en mesure d’obtenir l’activité des messages via l’api de graphique | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamsAppInstallation.ReadWriteForUser.All | application | Lire la liste des applications installées. Vérifiez si notre application est déjà installée, sinon l’installe pour interagir avec l’utilisateur via un questionnaire | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| User.Read | délégué | Informations de base sur &amp; la société des utilisateurs. Justification : utilisée pour catégoriser l’activité des messages par utilisateur, permet au bot de participer à une messagerie proactive. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
+>| AppCatalog.Read.All | délégué | Obtient la liste des applications Teams installées pour pouvoir obtenir l’ID de l’application locale pour l’ID externe connu. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| Channel.ReadBasic.All | application | Nom de l’ID &amp; de canal. Justification : autoriser la jointation/la sortie du canal pour synchroniser l’activité des messages.  | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| ChannelMessage.Read.All | application | Type d’activité de &amp; message, ainsi que la cible de l’expéditeur &amp; . Données reçues à partir de ces itinéraires : /teams/${teamId}/channels/${channelId}/messages /teams/${teamId}/channels/${channelId}/messages/${messageId}. Justification : pour pouvoir calculer un rapport de mesures &amp; sur l’activité des messages. Cela constitue le cœur de notre module d’analyse réseau d’organisation pour pouvoir dessiner un diagramme d’activité entre les équipes des &amp; utilisateurs. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| Directory.Read.All | application | ClientId, liste des utilisateurs, liste des organisations et sous-canaux. Justification : Nécessaire pour lire les utilisateurs &amp; de synchronisation dans Temporall Workbench | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| Group.ReadWrite.All | application | Nom de l’ID de &amp; groupe. Justification : pour installer l’application sur chaque groupe/canal | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| TeamMember.Read.All | application | Appartenance de l’utilisateur à l’équipe. Justification : autorise la synchronisation de tous les utilisateurs dans Teams avec à Workbench Temporel | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| TeamsAppInstallation.ReadWriteForTeam.All | application | Lire la liste des applications installées pour Team. Justification : vérifiez si notre application est déjà installée, sinon, elle est installée pour être en mesure d’obtenir l’activité des messages via l’api de graphique | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | application | Lire la liste des applications installées. Vérifiez si notre application est déjà installée, sinon l’installe pour interagir avec l’utilisateur via un questionnaire | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| User.Read | délégué | Informations de base sur la société &amp; des utilisateurs. Justification : utilisée pour catégoriser l’activité des messages par utilisateur, permet au bot de participer à une messagerie proactive. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
