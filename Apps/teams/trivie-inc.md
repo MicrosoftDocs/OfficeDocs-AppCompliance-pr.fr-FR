@@ -2,18 +2,19 @@
 title: Informations d’application pour Trivie par Trivie, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Trivie, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9bd5ca53c6108da34ff26ce05b679f2bac8af9fb
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: d678d98c42a3c178ec71403c8cae72b18587f336
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60444444"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63750981"
 ---
 # <a name="trivie"></a>Trivie
 
@@ -30,7 +31,7 @@ ms.locfileid: "60444444"
 
 Informations fournies par Trivie, Inc. à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Trivie |
 | ID | WA200002718 |
@@ -99,7 +100,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37865' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37865' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37865" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -113,7 +114,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 Ces informations ont été fournies par Trivie, Inc. sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 

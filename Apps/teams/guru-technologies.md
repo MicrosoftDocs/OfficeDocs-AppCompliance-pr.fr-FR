@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Les technologies Duly
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Le Monde, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2697126a901dde102be0ee29c153b69d0021acf5
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: a0fbc5fb17729e2551e65c170ea2c59c4cf866f3
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60437148"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63748268"
 ---
 # <a name="guru"></a>Guru
 
@@ -30,7 +31,7 @@ ms.locfileid: "60437148"
 
 Informations fournies à Microsoft par Les Technologies Dulns :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Guru |
 | ID | WA200001719 |
@@ -64,7 +65,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Application de l’utilisateur final et bases de données internes de Sons | lorsqu’un utilisateur ou une société définit l’application Android pour Teams, les informations communes telles que le nom d’utilisateur, le courrier électronique et le nom de la société associés à leur profil utilisateur sont enregistrées et accessibles par Le Domaine | Étant donné qu’un utilisateur doit avoir à la fois un compte Teams et un compte Dente pour utiliser l’intégration, nous suivons et suivons les utilisateurs qui permettent l’intégration afin de fournir une assistance et une gestion à ces utilisateurs |
+>| Application de l’utilisateur final et bases de données internes de Sons | lorsqu’un utilisateur ou une société définit l’application Android pour Teams, les informations communes telles que le nom d’utilisateur, le courrier électronique et le nom de la société associés à leur profil utilisateur sont enregistrées et accessibles par Le Domaine | Étant donné qu’un utilisateur doit avoir à la fois un compte Teams et un compte Der pour utiliser l’intégration, nous suivons et suivons les utilisateurs qui permettent l’intégration afin de fournir une assistance et une gestion à ces utilisateurs |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -83,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les Paramètres d’équipe de Cerr permettent aux administrateurs d’une équipe de déterminer les groupes et les contrôles d’accès/rôle à mettre en service par collection, avec la possibilité d’ajouter, de supprimer et de ré assigner des cartes à d’autres personnes. Enterprise clients qui ont déployé l' utilisateur unique ont également l’avantage de la console de fournisseur DSO d’intégrer/d’installer des groupes via SCIM
+>Les Paramètres d’équipe de Cerr permettent aux administrateurs d’une équipe de déterminer les groupes et les contrôles d’accès/rôle à mettre en service par collection, avec la possibilité d’ajouter, de supprimer et de ré assigner des cartes à d’autres personnes. Enterprise clients qui ont déployé l’utilisateur unique ont également l’avantage de la console de fournisseur DSO d’intégrer/de se mettre hors-service et d’établir des groupes via SCIM
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -99,7 +100,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -113,7 +114,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 Ces informations ont été fournies par Les Technologies DeAndy sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 

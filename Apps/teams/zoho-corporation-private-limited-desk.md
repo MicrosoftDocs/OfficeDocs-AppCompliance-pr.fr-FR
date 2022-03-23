@@ -1,19 +1,20 @@
 ---
-title: Informations d’application pour Zoho Desk par Zoho Corporation Private Limited
+title: Informations sur l’application Zoho Desk par Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Zoho Desk, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8b934d980843f06ad78ca65ceb5782ce951fa41b
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: ee371d3cd431fae46b5f97d434ff9acb0fbcbe1e
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430272"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63751085"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -30,7 +31,7 @@ ms.locfileid: "60430272"
 
 Informations fournies par Zoho Corporation Private Limited à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Zoho Desk |
 | ID | WA104382044 |
@@ -55,15 +56,15 @@ Ces informations ont été fournies par Zoho Corporation Private Limited sur la 
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Files.Read | délégué |  | Lire les fichiers utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Files.Read.All | délégué |  | Lisez tous les fichiers accessibles par l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| User.Read | délégué |  | Connectez-vous et lisez le profil utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| User.ReadBasic.All | délégué |  | Lire les profils de base de tous les utilisateurs. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| email | délégué |  | Afficher l’adresse e-mail de l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| offline_access | délégué |  | Conservez l’accès aux données à qui vous avez accordé l’accès. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| profil | délégué |  | Afficher le profil de base de l’utilisateur. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.Read | délégué |  | Lire les fichiers utilisateur. |  |
+>| Files.Read.All | délégué |  | Lisez tous les fichiers accessibles par l’utilisateur. |  |
+>| User.Read | délégué |  | Connectez-vous et lisez le profil utilisateur. |  |
+>| User.ReadBasic.All | délégué |  | Lire les profils de base de tous les utilisateurs. |  |
+>| email | délégué |  | Afficher l’adresse e-mail de l’utilisateur. |  |
+>| offline_access | délégué |  | Conservez l’accès aux données à qui vous lui avez accordé l’accès. |  |
+>| profil | délégué |  | Afficher le profil de base de l’utilisateur. |  |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -89,7 +90,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->1) Il existe une option dans l’interface utilisateur pour supprimer les entités, les administrateurs et les agents à l’intérieur de Zoho desk ayant des options de suppression peuvent effectuer cette suppression. 2) Nous avons également des options d’exportation à l’aide des lesquelles l’administrateur peut exporter et atteindre à ses fins.  3) Nous tenez l’audit au niveau du back-end, à la demande du client, ces informations peuvent être fournies.
+>1) Il existe une option dans l’interface utilisateur pour supprimer les entités, les administrateurs et les agents à l’intérieur de Zoho desk ayant des options de suppression peuvent effectuer cette suppression. 2) Nous avons également des options d’exportation à l’aide des lesquelles l’administrateur peut exporter et atteindre à sa fin.  3) Nous tenez l’audit au niveau du back-end, à la demande du client, ces informations peuvent être fournies.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -100,7 +101,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308" target="_blank">Afficher dans un nouvel onglet</a>
 
