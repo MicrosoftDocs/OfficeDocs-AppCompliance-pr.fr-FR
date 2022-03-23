@@ -7,12 +7,12 @@ keywords: Certification ou Attestation d’éditeur de l’application m365 Micr
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: e36bee4289de320d264a8a5e55c7bc20a4ea803b
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: 17aab158f4fc7803966afed9df88adf9688fcc63
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60545766"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63697066"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Programme de conformité de l’application Microsoft 365
 
@@ -38,7 +38,7 @@ Le processus de certification Microsoft 365 comporte deux phases : **attestation
 1.  La **certification** implique un audit approfondi d’une application par rapport à un ensemble de contrôles dérivés de frameworks standard de pointe. Les éditeurs de logiciels indépendants sont invités à fournir des preuves pour démontrer qu’ils respectent chaque contrôle avant d’obtenir une certification. L’objectif est de donner aux clients l’assurance qu’ils peuvent faire confiance à l’application que les applications qui ont reçu une certification Microsoft 365 ont des pratiques de sécurité et de conformité fortes pour protéger la sécurité et la confidentialité de leurs données.
 
 
-La certification Microsoft 365 s’applique à WebApps et à toutes les applications qui s’intègrent aux produits Microsoft suivants :
+La certification Microsoft 365 s'applique à toutes les applications qui s'intègrent aux produits Microsoft suivants :
 -   Teams
 -   Word
 -   Excel
@@ -47,8 +47,9 @@ La certification Microsoft 365 s’applique à WebApps et à toutes les applicat
 - SharePoint
 - Project
 - OneNote
+- **Webapps** (les applications SaaS publiées via la place de marché commerciale dans Espace partenaires sont actuellement en préversion privée, si vous souhaitez participer, veuillez remplir ce [formulaire](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u).
 
 ### <a name="get-started"></a>Prise en main
-- [Comment effectuer la vérification du serveur de publication](https://docs.microsoft.com/en-us/azure/active-directory/develop/mark-app-as-publisher-verified)
-- [Comment effectuer le](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification) de certification Microsoft 365
+- [Comment effectuer la vérification du serveur de publication](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)
+- [Comment effectuer le](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification) de certification Microsoft 365
 

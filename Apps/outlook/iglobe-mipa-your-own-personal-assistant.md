@@ -2,18 +2,19 @@
 title: Informations sur l’application pour MIPA - Votre propre Assistant personnel par iGlobe
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: 'Toutes les informations de sécurité et de conformité disponibles pour MIPA : votre Propre Assistant personnel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d51eba652373176667c02c6c6e7d50249a877eb8
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: cc6661dee951770309315f3ff28f56b4c7bc8028
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63080298"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550813"
 ---
 # <a name="mipa---your-own-personal-assistant"></a>MIPA - Votre propre Assistant personnel
 
@@ -38,8 +39,9 @@ Informations fournies par iGlobe à Microsoft :
 | Conditions d’utilisation de l’application | [https://mipa.iglobe.dk/EULA](https://mipa.iglobe.dk/EULA) |
 | Fonctionnalités principales de l’application | MIPA - Mon assistant personnel intelligent - MIPA offre un moyen très visuel d’organiser et de gérer l’activité quotidienne et le travail. MIPA est utilisé dans les Outlook et Teams. Pour les organisations utilisant iGlobe CRM MIPA sera également intégré à iGlobe CRM. Le niveau d’autorisation des services d’application MIPA est Teams MIPA pour Outlook et pour l’intégration iGlobe CRM.  |
 | Emplacement du siège social de l’entreprise | Danemark |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://mipa.iglobe.dk/Support](https://mipa.iglobe.dk/Support) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -54,14 +56,7 @@ Ces informations ont été fournies par iGlobe sur la façon dont cette applicat
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,24 +160,24 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Contacts.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| MailboxSettings.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.ReadBasic.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| User.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| email | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| offline_access | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| openid | délégué | Aucune donnée n’est stockée dans la base de données d’application | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
->| profil | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Calendars.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| Contacts.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| Directory.AccessAsUser.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| Directory.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| Files.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| Group.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| Group.ReadWrite.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| Mail.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| MailboxSettings.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| Tasks.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| User.Read | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| User.Read.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| User.ReadBasic.All | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| User.ReadWrite | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| email | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| offline_access | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| openid | délégué | Aucune donnée n’est stockée dans la base de données d’application | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
+>| profil | délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [e854ea05-68ab-4204-fb-db4a784fb4d8](../azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

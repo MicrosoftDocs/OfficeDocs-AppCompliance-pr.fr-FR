@@ -1,15 +1,18 @@
 ---
+author: LGerrard
+ms.author: legerrar
+manager: tonybal
 ms.topic: article
 ms.prod: microsoft-365
-ms.openlocfilehash: d4c1e43e32be14fcf358ccbd8eb33c1d80ba89fa
-ms.sourcegitcommit: 64333f4e583bacd85f1b47af6e1eaee266658924
+ms.openlocfilehash: bee4329da4c4e3ddd79dd423cd1c8b840aae9aa4
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58422404"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63697974"
 ---
 # <a name="newsletter-archive"></a>NewsLetter Archive
 
-[Septembre 2020](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/docs/September%202020.md)
+[Septembre 2020](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/docs/September%202020.md)
 
 [Octobre 2020](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/docs/October%202020.md)

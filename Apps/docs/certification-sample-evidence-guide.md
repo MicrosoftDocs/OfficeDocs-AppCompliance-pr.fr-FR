@@ -2,16 +2,17 @@
 title: Microsoft 365 certification - Exemple de guide de preuves
 author: OrionOmalley
 ms.author: oromalle
+manager: tonybal
 description: Microsoft 365 vue d’ensemble de l’exemple de soumission de preuve de certification
 keywords: Exemple d’attestation de certification Microsoft 365 certification appSource
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 5e619ffe1f89f675b473f90dead3c0bc550ae41a
-ms.sourcegitcommit: 7975c249abac22ca1a8c7c9b592d4404bea10cf4
+ms.openlocfilehash: c5d300bf840a3357664a4365d0073bb211cad5ff
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61151819"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63697864"
 ---
 # <a name="microsoft-365-certification---sample-evidence-guide"></a>Microsoft 365 certification - Exemple de guide de preuves
 
@@ -22,7 +23,7 @@ Ce guide a été créé pour fournir aux isvs des exemples du type de preuve et 
 Veuillez noter que les interfaces, captures d’écran et documentation utilisées pour répondre aux exigences varient en fonction de l’utilisation du produit, de la configuration du système et des processus internes. En outre, notez que lorsque la documentation de stratégie ou de procédure est requise, l’isv doit envoyer les documents ACTUAL et non les captures d’écran, comme illustré dans certains exemples. 
 
 Il existe deux sections de la certification qui nécessitent des soumissions :
-1. [**Envoi de document initial :**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/initialdocumentsubguide) un petit ensemble de documents de haut niveau requis pour l’évaluation.
+1. [**Envoi de document initial :**](../docs/initialdocumentsubguide.md) un petit ensemble de documents de haut niveau requis pour l’évaluation.
 1. **La soumission de preuves :** ensemble complet de preuves requises pour chaque contrôle dans l’étendue de votre évaluation de certification. 
 
 ## <a name="structure"></a>Structure 
@@ -31,13 +32,13 @@ Ce document s’associe directement aux contrôles qui vous seront présentés l
 - Domaine de sécurité : les trois domaines de sécurité dans qui tous les contrôles sont regroupés : Sécurité des applications, Sécurité opérationnelle et Sécurité des données et Confidentialité.
 - Contrôles : = Description de l’activité d’évaluation : ces contrôles et le nombre associé (Non)) sont pris directement à partir de la liste Microsoft 365 de certification.  
 - Intention : = l’objectif de la raison pour laquelle le contrôle de sécurité est inclus dans le programme et le risque spécifique qu’il est destiné à atténuer.  L’idée est que ces informations fourniront aux isoeurs le raisonnement sous-fondé du contrôle pour mieux comprendre les types de preuves qui doivent être collectées et ce que les isv doivent être attentifs et connaître et comprendre pour produire leurs preuves.
-- Exemples de directives de preuve : = donnés pour aider à guider les tâches de collecte de preuves sur la feuille de calcul de la liste de vérification de certification de certification Microsoft 365, cela permet aux isv de voir clairement des exemples du type de preuve qui peut être utilisé par l’analyste de certification qui l’utilisera pour déterminer avec certitude qu’un contrôle est en place et maintenu ; il n’est en aucun cas exhaustif par nature.
+- Exemples de directives de preuve : = donnés pour aider à guider les tâches de collecte de preuves dans la feuille de calcul de la liste de vérification de certification de certification Microsoft 365, cela permet aux isv de voir clairement des exemples du type de preuve qui peut être utilisé par l’analyste de certification qui l’utilisera pour déterminer avec certitude qu’un contrôle est en place et maintenu ; il n’est en aucun cas exhaustif par nature.
 - Exemple de preuve : = cette section fournit des captures d’écran et des images d’exemples de preuves potentielles capturées sur chacun des contrôles de la feuille de calcul de la liste de vérification de certification Microsoft 365, spécifiquement pour les domaines sécurité opérationnelle et sécurité des données et sécurité de la confidentialité (onglets dans la feuille de calcul). Veuillez noter que les informations contenant des flèches et des cases rouges dans les exemples vous aideront à mieux comprendre les conditions requises pour répondre à n’importe quel contrôle.
 
 
 ## <a name="security-domain-application-security"></a>Domaine de sécurité : sécurité des applications
 
-**Contrôle 1 - Contrôle 16**:
+**Contrôle 1 - Contrôle 16** :
 
 Les contrôles de domaine de sécurité des applications peuvent être satisfés avec un rapport de test de pénétration publié au cours des 12 derniers mois indiquant que votre application ne présente aucune vulnérabilité en suspens. La seule soumission requise est un rapport propre par une société indépendante fiable. 
 
@@ -64,15 +65,15 @@ Exemple de preuve
 
 - Objectif : il est important que la protection antivirus (ou les défenses anti-programme malveillant) s’exécute dans votre environnement pour vous protéger contre les risques de cybersécurité que vous pouvez ou non connaître, car les attaques potentiellement dangereuses augmentent, à la fois en matière de technique et de nombre. Le déploiement de l’antivirus sur tous les composants système qui le permettent permet d’atténuer certains risques liés à l’introduction de logiciels anti-programme malveillant dans l’environnement. Il suffit qu’un point de terminaison unique ne soit pas protégé pour fournir potentiellement un vecteur d’attaque pour qu’un acteur de menace prenne pied dans l’environnement. L’antivirus doit donc être utilisé comme l’une des couches de défense pour se protéger contre ce type de menace.
 
-- Exemple de directives de preuve : pour prouver qu’une instance active de l’antivirus est en cours d’exécution dans l’environnement évalué. Fournissez une  capture d’écran pour chaque appareil de l’exemple qui prend en charge l’utilisation d’un antivirus qui montre le processus antivirus en cours d’exécution, le logiciel antivirus est actif ou si vous avez une console de gestion centralisée pour l’antivirus, vous pourrez peut-être le montrer à partir de cette console de gestion. Si vous utilisez la console de gestion, n’oubliez pas de vous assurer dans une capture d’écran que les appareils échantillonés sont connectés et fonctionnent.
+- Exemple de directives de preuve : pour prouver qu’une instance active de l’antivirus est en cours d’exécution dans l’environnement évalué. Fournissez une capture  d’écran pour chaque appareil de l’exemple qui prend en charge l’utilisation d’un antivirus qui montre le processus antivirus en cours d’exécution, le logiciel antivirus est actif ou si vous avez une console de gestion centralisée pour l’antivirus, vous pourrez peut-être le montrer à partir de cette console de gestion. Si vous utilisez la console de gestion, n’oubliez pas de vous assurer dans une capture d’écran que les appareils échantillonés sont connectés et fonctionnent.
 
-- Exemple de preuve 1 : la capture d’écran ci-dessous a été prise à partir du Centre de sécurité Azure ; il indique qu’une extension anti-programme malveillant a été déployée sur la VM nommée &quot; MSPGPRODAZUR01 &quot; .
+- Exemple de preuve 1 : la capture d’écran ci-dessous a été prise à partir du Centre de sécurité Azure ; Il indique qu’une extension anti-programme malveillant a été déployée sur la VM nommée &quot;MSPGPRODAZUR01&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-2.png)
 
 - Exemple de preuve 2
 
-La capture d’écran ci-dessous a été prise à partir d’un Windows 10, montrant que la protection en temps réel est activé pour le nom d’hôte &quot; &quot; &quot; COUPNET-SBU-WM &quot; .
+La capture d’écran ci-dessous a été prise à partir d’appareils Windows 10, &quot;montrant que la protection&quot; &quot;en temps réel est activé pour le nom d’hôte COUPNET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-2-1.png)
 
@@ -84,7 +85,7 @@ La capture d’écran ci-dessous a été prise à partir d’un Windows 10, mont
 
 - Exemple de directives de preuve : fournir des fichiers journaux antivirus à partir de chaque appareil échantilloné, montrant que les mises à jour sont appliquées quotidiennement.
 
-- Exemple de preuve : la capture d’écran suivante montre Microsoft Defender mis à jour au moins quotidiennement en affichant &#39;Event 2000, Windows Defender&#39; qui est la mise à jour. Le nom d’hôte s’affiche, montrant qu’il a été pris à partir du système dans l’étendue &quot; CONTRÔLENET-SBU-WM &quot; .
+- Exemple de preuve : la capture d’écran suivante montre Microsoft Defender mis à jour au moins quotidiennement en affichant &#39;Event 2000, Windows Defender&#39; qui est la mise à jour. Le nom d’hôte est affiché, montrant qu’il a été pris à partir du système dans l’étendue &quot;CONTRÔLENET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-3.png)
 
@@ -96,9 +97,9 @@ La capture d’écran ci-dessous a été prise à partir d’un Windows 10, mont
 
 - Objectif : l’objectif de ce contrôle est de s’assurer que les programmes malveillants sont rapidement identifiés afin de minimiser les effets que cela peut avoir sur l’environnement. Lorsque l’analyse de l’accès est effectuée et associée au blocage automatique des programmes malveillants, cela permet d’arrêter les infections par les programmes malveillants connues par le logiciel antivirus. Lorsque l’analyse à l’accès n&#39;est pas souhaitable en raison des risques de faux positifs entraînant des pannes de service, des mécanismes d’analyse et d’alerte adaptés (ou plus) quotidiens doivent être implémentés pour garantir une réponse rapide aux infections par des programmes malveillants afin de minimiser les dommages.
 
-- Exemple de recommandations en  matière de preuves : fournissez une capture d’écran pour chaque appareil de l’exemple qui prend en charge l’antivirus, montrant que l’antivirus est en cours d’exécution  sur l’appareil et configuré pour l’analyse en temps **réel,** OU fournissez une capture d’écran montrant que l’analyse périodique est activée pour l’analyse quotidienne, que l’alerte est configurée et que la dernière date d’analyse pour chaque appareil de l’exemple.
+- Exemple de recommandations en matière de preuves  : fournissez une capture d’écran pour chaque appareil de l’exemple qui prend en charge l’antivirus, montrant que l’antivirus est en cours d’exécution sur l’appareil et configuré pour l’analyse en temps **réel, OU** fournissez une capture d’écran montrant que l’analyse périodique est  activée pour l’analyse quotidienne, que l’alerte est configurée et que la dernière date d’analyse pour chaque appareil de l’exemple.
 
-- Exemple de preuve : la capture d’écran suivante montre que la protection en temps réel est activée pour l’hôte, &quot; CONTRÔLENET-SBU-WM &quot; .
+- Exemple de preuve : la capture d’écran suivante montre que la protection en temps réel est activée pour l’hôte, &quot;CONTRÔLENET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-4.png)
 
@@ -106,9 +107,9 @@ La capture d’écran ci-dessous a été prise à partir d’un Windows 10, mont
 
 - Intention : la complexité des programmes malveillants évolue constamment avec les différents degrés d’attaque qu’ils peuvent apporter. L’objectif de ce contrôle est soit d’empêcher les programmes malveillants de s’exécuter, soit de l’empêcher d’exécuter sa charge utile potentiellement utile, ou si le blocage automatique n’est pas une option, en limitant la durée de l’exécution des programmes malveillants en alertant et en répondant immédiatement à l’infection potentielle des programmes malveillants.
 
-- Exemple de directives de  preuve : fournissez une capture d’écran pour chaque appareil de l’exemple qui prend en charge l’antivirus, montrant que l’antivirus est en cours d’exécution sur l’ordinateur et qu’il est configuré pour bloquer automatiquement les programmes malveillants, les alertes ou la mise en quarantaine et l’alerte.
+- Exemple de directives de preuve : fournissez une capture d’écran pour chaque appareil de l’exemple qui prend en charge l’antivirus, montrant que l’antivirus est en cours d’exécution sur l’ordinateur et qu’il est configuré pour bloquer automatiquement les programmes malveillants, les alertes ou la mise en quarantaine et l’alerte.
 
-- Exemple de preuve 1 : la capture d’écran suivante montre que l’hôte &quot; CONTRÔLENET-SBU-WM est configuré avec une protection en temps réel pour &quot; Antivirus Microsoft Defender. Comme l’indique le paramètre, cela permet de localiser et d’arrêter l’installation ou l’exécution de programmes malveillants sur l’appareil.
+- Exemple de preuve 1 : la &quot;capture d’écran suivante montre que l’hôte CONTRÔLENET-SBU-WM&quot; est configuré avec une protection en temps réel pour Antivirus Microsoft Defender. Comme l’indique le paramètre, cela permet de localiser et d’arrêter l’installation ou l’exécution de programmes malveillants sur l’appareil.
 
 ![Image](../media/UserGuidePhotos/Control-No-5.png)
 
@@ -164,7 +165,7 @@ La capture d’écran suivante montre l’environnement M365 et les ordinateurs 
 
 ![Image](../media/UserGuidePhotos/Control-No-9-2.png)
 
-Cette dernière capture d’écran montre le serveur dans l’étendue DBServer1 se trouve dans l’ou dans la capture &quot; d’écran &quot; ci-dessus.
+Cette dernière capture d’écran montre le serveur dans l’étendue &quot;DBServer1&quot; se trouve dans l’ou dans la capture d’écran ci-dessus.
 
 ![Image](../media/UserGuidePhotos/Control-No-9-3.png)
 
@@ -192,7 +193,7 @@ Ce groupe de contrôle de sécurité est dans l’étendue des environnements d�
 
 - Objectif : l’objectif de ce contrôle est de s’assurer que le processus est suivi et&#39;suffisamment robuste pour identifier les nouvelles vulnérabilités de sécurité au sein de l’environnement. Il ne s’agit peut-être pas seulement des systèmes d’exploitation. Il peut inclure des applications en cours d’exécution dans l’environnement et toutes les dépendances de code.
 
-- Exemples de directives de preuve : des preuves peuvent être fournies au moyen de l’affichage d’abonnements à des listes de publipostage, révision manuelle des sources de sécurité pour les vulnérabilités nouvellement publiées (doit faire l’objet d’un suivi adéquat avec des timestamps des activités, c’est-à-dire, avec JIRA ou Azure DevOps), outils qui recherchent des logiciels récents (par exemple, snyk lors de la recherche de bibliothèques de logiciels à jour, ou nessus utilisant des analyses authentifiées qui identifient  logiciels à jour.)
+- Exemples de directives de preuve : des preuves peuvent être fournies au moyen d’un affichage des abonnements à des listes de diffusion, d’une révision manuelle des sources de sécurité pour les vulnérabilités nouvellement publiées (qui doivent être correctement suivis avec des timestamps des activités, c’est-à-dire, avec JIRA ou Azure DevOps), d’outils qui recherchent des logiciels récents (par exemple, peuvent être Snyk lors de la recherche de bibliothèques de logiciels non à jour, ou peuvent être des outils Nessus utilisant des analyses authentifiées qui identifient des analyses authentifiées).  logiciels à jour.)
 
 **Remarque** Si vous utilisez Nessus, vous devez l’exécuter régulièrement pour identifier rapidement les vulnérabilités. Nous vous recommandons au moins une fois par semaine.
 
@@ -214,7 +215,7 @@ Ce groupe de contrôle de sécurité est dans l’étendue des environnements d�
 
 ### <a name="patch-management--patching"></a>Gestion des correctifs : correction
 
-Les contrôles ci-dessous sont pour l’élément de correction pour la gestion des correctifs. Pour assurer la sécurité de l’environnement d’exploitation, les applications/modules et les systèmes de prise en charge doivent être corrigés. Un délai approprié entre l’identification (ou la publication publique) et la correction doit être géré pour réduire la fenêtre d’opportunité d’exploitation d’une vulnérabilité par un acteur de menace. La certification Microsoft 365 ne prévoit pas de &#39;fenêtre de correction&#39;, mais les analystes de certification rejetteront les périodes qui ne sont pas raisonnables.
+Les contrôles ci-dessous sont pour l’élément de correction pour la gestion des correctifs. Pour assurer la sécurité de l’environnement d’exploitation, les applications/modules et les systèmes de prise en charge doivent être corrigés. Un délai approprié entre l’identification (ou la publication publique) et la correction doit être géré pour réduire la fenêtre d’opportunité d’exploitation d’une vulnérabilité par un acteur de menace. La certification Microsoft 365 ne prévoit pas de &#39;de mise à jour&#39;, mais les analystes de certification rejetteront les périodes qui ne sont pas raisonnables.
 
 Ce groupe de contrôle de sécurité est dans l’étendue des environnements d’hébergement PaaS (Platform-as-a-Service), car les bibliothèques de logiciels et la base de code tierces d’application/de add-in doivent être corrigés en fonction du classement des risques.
 
@@ -236,9 +237,9 @@ Ce groupe de contrôle de sécurité est dans l’étendue des environnements d�
 
 - Objectif : la correction des vulnérabilités garantit que les différents modules qui font partie de l’infrastructure informatique (matériel, logiciel et services) sont tenus à jour et exempts de vulnérabilités connues. La correction doit être effectuée dès que possible pour réduire le risque d’incident de sécurité entre la publication des détails de la vulnérabilité et la correction. Ceci est encore plus critique lorsque l’exploitation des vulnérabilités connues est dans la nature.
 
-- Exemple de recommandations en  matière de preuves : fournissez une capture d’écran pour chaque appareil de l’exemple et des composants logiciels de prise en charge montrant que les correctifs sont installés en ligne avec le processus documenté de correction.
+- Exemple de recommandations en matière de preuves  : fournissez une capture d’écran pour chaque appareil de l’exemple et des composants logiciels de prise en charge montrant que les correctifs sont installés en ligne avec le processus documenté de correction.
 
-- Exemple de preuve : la capture d’écran suivante montre que le composant système DANS L’étendue &quot; DE LA CLÉ DNS-SBU-WM effectue des mises à jour Windows en ligne avec la stratégie de mise à &quot; jour des correctifs.
+- &quot;Exemple de preuve : la capture d’écran suivante montre que le composant système DANS L’étendue DE LA CLÉ DNS-SBU-WM&quot; effectue des mises à jour Windows en ligne avec la stratégie de mise à jour des correctifs.
 
 ![Image](../media/UserGuidePhotos/Control-No-14.png)
 
@@ -248,7 +249,7 @@ Ce groupe de contrôle de sécurité est dans l’étendue des environnements d�
 
 - Intention : les logiciels qui ne sont pas tenus à jour par les fournisseurs subiront, en heures supplémentaires, des vulnérabilités connues qui ne sont pas corrigées. Par conséquent, l’utilisation de systèmes d’exploitation et de composants logiciels non pris en charge ne doit pas être utilisée dans les environnements de production.
 
-- Exemple de recommandations en  matière de preuve : fournissez une capture d’écran pour chaque appareil de l’exemple montrant la version du système d’exploitation en cours d’exécution (y compris le nom du serveur&#39;dans la capture d’écran). En outre, indiquez que les composants logiciels en cours d’exécution dans l’environnement exécutent des versions prise en charge. Pour ce faire, vous pouvez fournir la sortie des rapports d’analyse des vulnérabilités internes (l’analyse authentifiée est incluse) et/ou la sortie d’outils qui vérifient des bibliothèques tierces, telles que [Snyk,](https://snyk.io/) [Trivy](https://github.com/aquasecurity/trivy) ou [NPM Audit](https://docs.npmjs.com/cli/v7/commands/npm-audit). S’il est uniquement en cours d’exécution dans PaaS, seule la correction de bibliothèque tierce doit être couverte par les groupes de contrôle de correction.
+- Exemple de recommandations en matière de preuve  : fournissez une capture d’écran pour chaque appareil de l’exemple montrant la version du système d’exploitation en cours d’exécution (y compris le nom du serveur&#39;dans la capture d’écran). En outre, indiquez que les composants logiciels en cours d’exécution dans l’environnement exécutent des versions prise en charge. Pour ce faire, vous pouvez fournir la sortie des rapports d’analyse des vulnérabilités internes (l’analyse authentifiée est incluse) et/ou la sortie d’outils qui vérifient des bibliothèques tierces, telles que [Snyk](https://snyk.io/), [Trivy](https://github.com/aquasecurity/trivy) ou [NPM Audit](https://docs.npmjs.com/cli/v7/commands/npm-audit). S’il est uniquement en cours d’exécution dans PaaS, seule la correction de bibliothèque tierce doit être couverte par les groupes de contrôle de correction.
 
 - Exemple de preuve : les preuves suivantes montrent que le composant système dans l’étendue DU MATÉRIEL exécute un logiciel pris en charge par le fournisseur étant donné que Nessus n'&#39;signalé aucun problème.
 
@@ -258,13 +259,13 @@ Ce groupe de contrôle de sécurité est dans l’étendue des environnements d�
 
 - Exemple de preuve 2
 
-Cette capture d’écran montre que le composant système dans l’étendue &quot; FONCTIONNET-SBU-WM est en cours d’exécution sur &quot; une version Windows prise en charge.
+Cette capture d’écran montre que le &quot;composant système dans l’étendue FONCTIONNET-SBU-WM&quot; est en cours d’exécution sur une version Windows prise en charge.
 
 ![Image](../media/UserGuidePhotos/Control-No-15-1.png)
 
 - Exemple de preuve 3
 
-La capture d’écran suivante présente la sortie [Trivy,](https://github.com/aquasecurity/trivy) dont le rapport complet ne&#39;aucune application non pris en compte.
+La capture d’écran suivante présente la sortie [Trivy](https://github.com/aquasecurity/trivy) , dont le rapport complet ne&#39;aucune application non pris en compte.
 
 ![Image](../media/UserGuidePhotos/Control-No-15-2.png)
 
@@ -280,7 +281,7 @@ En introduisant des évaluations régulières des vulnérabilités, les organisa
 
 - Objectif : l’analyse des vulnérabilités recherche les faiblesses possibles dans le système informatique, les réseaux et les applications web d’une organisation afin d’identifier les trous susceptibles d’entraîner des violations de la sécurité et l’exposition des données sensibles. L’analyse des vulnérabilités est souvent requise par les normes du secteur et les réglementations gouvernementales, par exemple la norme PCI DSS (Payment Card Industry Data Security Standard).
 
-- Un rapport de mesures de sécurité intitulé Guide des mesures de sécurité 2020 sur la conformité PCI DSS indique que les &#39;ont mis en moyenne &quot; 166 jours à partir du moment où une organisation a été considérée comme ayant des [vulnérabilités](https://info.securitymetrics.com/pci-guide-2020) pour qu’une personne malveillante compromette le &quot; système. Une fois compromis, les personnes malveillantes ont eu accès aux données sensibles pendant une moyenne de 127 jours&#39; par conséquent, ce contrôle vise à identifier les faiblesses de sécurité potentielles dans l’environnement au sein de l’étendue.
+- &quot; Un rapport de mesures de sécurité intitulé Guide des mesures de sécurité [2020 sur la conformité PCI DSS](https://info.securitymetrics.com/pci-guide-2020)&quot; indique que les &#39;ont mis en moyenne 166 jours à partir du moment où une organisation a été considérée comme ayant des vulnérabilités pour qu’une personne malveillante compromette le système. Une fois compromis, les personnes malveillantes ont eu accès aux données sensibles pendant une moyenne de 127 jours&#39; par conséquent, ce contrôle vise à identifier les faiblesses de sécurité potentielles dans l’environnement au sein de l’étendue.
 
 - Exemple de recommandations en matière de preuves : fournissez les rapports d’analyse complets pour chaque trimestre&#39;les analyses de vulnérabilité qui ont été effectuées au cours des 12 derniers mois. Les rapports doivent clairement faire état des cibles pour vérifier que l’empreinte publique complète est incluse et, le cas échéant, chaque sous-réseau interne. Fournissez **TOUS les** rapports d’analyse **pour CHAQUE** trimestre.
 
@@ -288,11 +289,11 @@ En introduisant des évaluations régulières des vulnérabilités, les organisa
 
 **Contrôle n. 17 :** Fournissez des preuves montrant que la correction des vulnérabilités identifiées au cours de l’analyse des vulnérabilités est mise à jour en ligne avec votre période de correction documentée.
 
-- Intention : l’échec de l’identification, de la gestion et de la correction rapides des vulnérabilités et des mauvaises configurations peut augmenter le risque d’une&#39;d’une compromission entraînant des violations de données potentielles. L’identification et la correction correctes des problèmes sont considérées comme importantes pour la posture de sécurité globale et l’environnement d’une&#39;d’une organisation, qui est conforme aux meilleures pratiques des différents cadres de sécurité pour ; par exemple, ISO 27001 et PCI DSS.
+- Intention : l’échec de l’identification, de la gestion et de la correction rapides des vulnérabilités et des mauvaises configurations peut augmenter le risque d’une&#39;d’une compromission entraînant des violations de données potentielles. L’identification et la correction correctes des problèmes sont considérées comme importantes pour la posture de sécurité globale et l’environnement d’une organisation&#39;qui est conforme aux meilleures pratiques des différents cadres de sécurité pour ; par exemple, ISO 27001 et PCI DSS.
 
 - Exemple de recommandations en matière de preuves : fournissez des artefacts appropriés (captures d’écran) montrant qu’un échantillon de vulnérabilités découvertes de l’analyse des vulnérabilités est corrigé en ligne avec les fenêtres de correction déjà fournies dans le contrôle 13 ci-dessus.
 
-- Exemple de preuve : la capture d’écran suivante montre une analyse Nessus de l’environnement dans l’étendue (un seul ordinateur dans cet exemple nommé « MPO ) affichant des vulnérabilités le &quot; &quot; 2 août 2021.
+- Exemple de preuve : la capture d’écran suivante montre une analyse Nessus de l’environnement dans l’étendue (un seul ordinateur &quot;dans cet exemple nommé « MPO&quot; ) affichant des vulnérabilités le 2 août 2021.
 
 ![Image](../media/UserGuidePhotos/Control-No-17.png)
 
@@ -308,7 +309,7 @@ Les pare-feu fournissent souvent une limite de sécurité entre les environnemen
 
 **Contrôle n 18 :** Fournir une documentation de stratégie qui régit les pratiques et procédures de gestion des pare-feu.
 
-- Intention : les pare-feu sont une première ligne de défense importante dans une stratégie de sécurité en couches (défense en profondeur), protégeant les environnements contre les zones réseau moins fiables. En règle générale, les pare-feu contrôlent les flux de trafic en fonction des adresses IP et des protocoles/ports. Des pare-feux plus riches en fonctionnalités peuvent également fournir des protections de couche d’application supplémentaires en inspectant le trafic des applications pour se protéger contre les utilisations abusives, les vulnérabilités et les menaces en fonction des &quot; &quot; applications accessibles. Ces protections sont aussi bonnes que la configuration du pare-feu. Par conséquent, des stratégies de pare-feu et des procédures de prise en charge fortes doivent être en place pour garantir qu’elles sont configurées pour fournir une protection adéquate des ressources internes. Par exemple, un pare-feu avec une règle permettant d’autoriser TOUT le trafic de TOUTE source vers N’importe quelle destination agit simplement en tant que routeur.
+- Intention : les pare-feu sont une première ligne de défense importante dans une stratégie de sécurité en couches (défense en profondeur), protégeant les environnements contre les zones réseau moins fiables. En règle générale, les pare-feu contrôlent les flux de trafic en fonction des adresses IP et des protocoles/ports. Des pare-feux plus riches en fonctionnalités &quot;peuvent également fournir des protections de couche d’application&quot; supplémentaires en inspectant le trafic des applications pour se protéger contre les utilisations abusives, les vulnérabilités et les menaces en fonction des applications accessibles. Ces protections sont aussi bonnes que la configuration du pare-feu. Par conséquent, des stratégies de pare-feu et des procédures de prise en charge fortes doivent être en place pour garantir qu’elles sont configurées pour fournir une protection adéquate des ressources internes. Par exemple, un pare-feu avec une règle permettant d’autoriser TOUT le trafic de TOUTE source vers N’importe quelle destination agit simplement en tant que routeur.
 
 - Exemple de directives de preuve : fournissez la documentation de prise en charge de votre stratégie/procédure de pare-feu complète. Ce document doit couvrir tous les points ci-dessous et toutes les meilleures pratiques supplémentaires applicables à votre environnement.
 
@@ -360,7 +361,7 @@ Dans la capture d’écran ci-dessous, il existe trois règles entrantes, chacun
 
 **Contrôle n 22 :** Fournissez la preuve que tout le trafic autorisé par le pare-feu passe par un processus d’approbation.
 
-- Intention : étant donné que les pare-feu sont un obstacle au trafic non sécurisé et aux ressources internes, et entre les réseaux de différents niveaux de confiance, les pare-feu doivent être configurés en toute sécurité et garantir que seul le trafic nécessaire pour les opérations d’entreprise est activé. En permettant un flux de trafic inutile ou un flux de trafic trop permissif, cela peut introduire des faiblesses au sein de la défense à la limite de ces différentes zones réseau. En établissant un processus d’approbation robuste pour toutes les modifications de pare-feu, le risque d’introduire une règle qui introduit un risque significatif pour l’environnement est réduit. Le rapport d’enquête sur les violations de données de Verizon&#39;[2020](https://enterprise.verizon.com/en-gb/resources/reports/dbir/) souligne que les&#39;d’erreur, qui incluent des &quot; configurations erronées, sont le seul type d’action qui augmente constamment d’une année à &quot; l’autre.
+- Intention : étant donné que les pare-feu sont un obstacle au trafic non sécurisé et aux ressources internes, et entre les réseaux de différents niveaux de confiance, les pare-feu doivent être configurés en toute sécurité et garantir que seul le trafic nécessaire pour les opérations d’entreprise est activé. En permettant un flux de trafic inutile ou un flux de trafic trop permissif, cela peut introduire des faiblesses au sein de la défense à la limite de ces différentes zones réseau. En établissant un processus d’approbation robuste pour toutes les modifications de pare-feu, le risque d’introduire une règle qui introduit un risque significatif pour l’environnement est réduit. Le rapport d’enquête sur les violations de données de Verizon&#39;[2020](https://enterprise.verizon.com/en-gb/resources/reports/dbir/) &quot;souligne que les&#39;&quot; d’erreur, qui incluent des configurations erronées, sont le seul type d’action qui augmente constamment d’une année à l’autre.
 
 - Exemple de recommandations en matière de preuve : la preuve peut se présenter sous la forme d’une documentation indiquant qu’une demande de modification de pare-feu est autorisée, qui peut être à quelques minutes d’une réunion cab (Conseil d’administration du conseiller des modifications) ou d’un système de contrôle des modifications qui suit toutes les modifications.
 
@@ -370,9 +371,9 @@ Dans la capture d’écran ci-dessous, il existe trois règles entrantes, chacun
 
 **Contrôle n 23 :** Fournissez la preuve que la base de règles de pare-feu est configurée pour abandonner le trafic non explicitement défini.
 
-- Intention : la plupart des pare-feu vont traiter les règles dans une approche de haut en bas pour essayer de trouver une règle correspondante. Si une règle correspond, l’action de cette règle est appliquée et tout autre traitement des règles s’arrête. Si aucune règle correspondante n’est trouvée, le trafic est refusé par défaut. L’objectif de ce contrôle est, si le pare-feu n&#39;est pas par défaut de déposer le trafic si aucune règle correspondante n’est trouvée, la base de règles doit inclure une règle Refuser tout à la fin de toutes les listes de pare-feu. &quot; &quot;  Cela permet de s’assurer que le pare-feu n&#39;pas par défaut dans un état d’autorisation par défaut lors du traitement des règles, ce qui autorise le trafic qui&#39;pas été explicitement défini.
+- Intention : la plupart des pare-feu vont traiter les règles dans une approche de haut en bas pour essayer de trouver une règle correspondante. Si une règle correspond, l’action de cette règle est appliquée et tout autre traitement des règles s’arrête. Si aucune règle correspondante n’est trouvée, le trafic est refusé par défaut. L’objectif de ce contrôle est, si le pare-feu n'&#39;pas par défaut de déposer le trafic si aucune règle correspondante n’est trouvée, la base &quot;&quot; de règles doit inclure une  règle Refuser tout à la fin de toutes les listes de pare-feu. Cela permet de s’assurer que le pare-feu n&#39;pas par défaut dans un état d’autorisation par défaut lors du traitement des règles, ce qui autorise le trafic qui&#39;pas été explicitement défini.
 
-- Exemples de directives de preuve : des preuves peuvent être fournies par le moyen de la configuration du pare-feu ou par des captures d’écran montrant toutes les règles de pare-feu affichant une règle Refuser tout à la fin&#39;, ou si le pare-feu abandonne le trafic qui ne correspond pas à une règle par défaut, puis fournissez une capture d’écran de toutes les règles de pare-feu et un lien vers les guides d’administration du fournisseur indiquant que, par défaut, le pare-feu déposera tout le trafic non mis en &quot; &quot; correspondance.
+- Exemples de directives de preuve : des preuves peuvent être fournies par le moyen de la configuration du pare-feu ou par des captures &quot;&quot; d’écran montrant toutes les règles de pare-feu affichant une règle Refuser tout à la fin&#39;, ou si le pare-feu abandonne le trafic qui ne correspond pas à une règle par défaut, puis fournissez une capture d’écran de toutes les règles de pare-feu et un lien vers les guides d’administration du fournisseur indiquant que, par défaut, le pare-feu déposera tout le trafic non mis en correspondance.
 
 - Exemple de preuve : voici une capture d’écran de la base de règles de pare-feu WatchGuard qui montre qu’aucune règle n’est configurée pour autoriser tout le trafic. Il n’existe aucune règle de refus à la fin, car watchGuard va abandonner le trafic qui&#39;ne correspond pas par défaut.
 
@@ -391,11 +392,11 @@ Lien centre d’aide WatchGuard suivant ; [https://www.watchguard.com/help/docs/
 - Exemple de preuve : la capture d’écran ci-dessous montre la sortie de [SSLScan](https://github.com/rbsec/sslscan) par rapport à l’interface d’administration web du pare-feu WatchGuard sur le port TCP 8080. Cela montre TLS 1.2 ou supérieur avec un chiffrement de chiffrement minimal AES-128bit.
 ![Image](../media/UserGuidePhotos/Control-No-24.png)
 
-**Remarque**: les pare-feu WatchGuard peuvent également prendre en charge les fonctions d’administration à l’aide de SSH (port TCP 4118) et de WatchGuard System Manager (ports TCP 4105 &amp; 4117). Des preuves de ces interfaces administratives non console doivent également être fournies.
+**Remarque** : les pare-feu WatchGuard peuvent également prendre en charge les fonctions d’administration à l’aide de SSH (port TCP 4118) et de WatchGuard System Manager (ports TCP 4105 &amp; 4117). Des preuves de ces interfaces administratives non console doivent également être fournies.
 
 **Contrôle n 25 :** Fournissez des preuves montrant que vous effectuez des révisions de règles de pare-feu au moins tous les 6 mois.
 
-- Objectif : au fil du temps, il existe un risque de configuration complexe dans les composants système avec l’environnement dans l’étendue. Cela peut souvent introduire des insécurités ou des configurations mal configurées qui peuvent augmenter le risque de compromission de l’environnement. L’étude de configuration peut être introduite pour de nombreuses raisons, telles que des modifications temporaires apportées au dépannage, des modifications temporaires pour des modifications fonctionnelles ad hoc, afin d’introduire des correctifs rapides aux problèmes qui peuvent parfois être trop permissifs en raison des pressions liées à l’introduction d’un correctif rapide. Par exemple, vous pouvez introduire une règle de pare-feu temporaire Autoriser tout à surmonter &quot; &quot; un problème urgent. L’objectif de ce contrôle est double, d’abord pour identifier les problèmes de configuration qui peuvent introduire des insécurités, et deuxièmement pour identifier les règles de pare-feu qui ne sont plus nécessaires et qui peuvent par conséquent être supprimées, c’est-à-dire si un service a été retiré mais que la règle de pare-feu a été laissée.
+- Objectif : au fil du temps, il existe un risque de configuration complexe dans les composants système avec l’environnement dans l’étendue. Cela peut souvent introduire des insécurités ou des configurations mal configurées qui peuvent augmenter le risque de compromission de l’environnement. L’étude de configuration peut être introduite pour de nombreuses raisons, telles que des modifications temporaires apportées au dépannage, des modifications temporaires pour des modifications fonctionnelles ad hoc, afin d’introduire des correctifs rapides aux problèmes qui peuvent parfois être trop permissifs en raison des pressions liées à l’introduction d’un correctif rapide. Par exemple, vous pouvez introduire une règle de pare-feu &quot;temporaire Autoriser&quot; tout à surmonter un problème urgent. L’objectif de ce contrôle est double, d’abord pour identifier les problèmes de configuration qui peuvent introduire des insécurités, et deuxièmement pour identifier les règles de pare-feu qui ne sont plus nécessaires et qui peuvent par conséquent être supprimées, c’est-à-dire si un service a été retiré mais que la règle de pare-feu a été laissée.
 
 - Exemple de directives de preuve : les preuves doivent être en mesure de démontrer que les réunions de révision ont eu lieu. Pour ce faire, vous pouvez partager les minutes de réunion de la révision du pare-feu et toute preuve de contrôle des changements supplémentaire qui indique les actions prises à partir de l’examen. Assurez-vous que les dates sont&#39;nous devons voir au moins deux de ces réunions (c’est-à-dire, tous les six mois)
 
@@ -409,7 +410,7 @@ La capture d’écran suivante montre la preuve d’une révision du pare-feu en
 
 ### <a name="firewalls--wafs"></a>Pare-feu : wafs
 
-Il est facultatif de déployer un pare-feu d’application web (WAF) dans la solution. Si un waf est utilisé, cela compte comme des crédits supplémentaires pour la matrice de notation au sein du domaine &#39;Operational Security&#39; security. Les wafs peuvent inspecter le trafic web pour filtrer et surveiller le trafic web entre Internet et les applications web publiées afin d’identifier les attaques spécifiques aux applications web. Les applications Web peuvent subir de nombreuses attaques spécifiques à des applications web telles que l’injection de SQL (SQLi), les scripts entre sites (XSS), la contrefaçon de demande entre sites (CSRF/XSRF), etc. et les FS sont conçues pour se protéger contre ces types de charges utiles malveillantes afin de protéger les applications web contre les attaques et les compromissions potentielles.
+Il est facultatif de déployer un pare-feu d’application web (WAF) dans la solution. Si un waf est utilisé, cela compte comme des crédits supplémentaires pour la matrice de notation au sein du domaine de sécurité &#39;operational security&#39;. Les wafs peuvent inspecter le trafic web pour filtrer et surveiller le trafic web entre Internet et les applications web publiées afin d’identifier les attaques spécifiques aux applications web. Les applications Web peuvent subir de nombreuses attaques spécifiques à des applications web telles que l’injection de SQL (SQLi), les scripts entre sites (XSS), la contrefaçon de demande entre sites (CSRF/XSRF), etc. et les FS sont conçues pour se protéger contre ces types de charges utiles malveillantes afin de protéger les applications web contre les attaques et les compromissions potentielles.
 
 **Contrôle n 26 :** Fournissez des preuves montrant que le pare-feu de l’application Web (WAF) est configuré pour surveiller, alerter et bloquer activement le trafic malveillant.
 
@@ -432,7 +433,7 @@ La capture d’écran ci-dessous montre les connexions web entrantes utilisant c
 
 ![Image](../media/UserGuidePhotos/Control-No-26-2.png)
 
-La capture d’écran suivante montre le CoreRules Contoso AppGW montrant qu’il s’agit de \_ \_ l’application api.contoso.com service.
+La capture d’écran suivante montre contosoAppGWCoreRules\_\_ montrant qu’il s’agit de l’api.contoso.com service.
 
 ![Image](../media/UserGuidePhotos/Control-No-26-3.png)
 
@@ -442,7 +443,7 @@ La capture d’écran suivante montre le CoreRules Contoso AppGW montrant qu’i
 
 - Exemple de directives de preuve : fournir des preuves de configuration via une exportation de configuration ou des captures d’écran qui montrent que le déchargement SSL est pris en charge et configuré.
 
-- Exemple de preuve : dans Azure Application Gateway, la configuration d’un port d’écoute SSL activé pour le déchargement SSL, consultez la page Présentation de l’arrêt de TLS et du [TLS](https://docs.microsoft.com/en-us/azure/application-gateway/ssl-overview) de bout en bout avec la documentation Microsoft de la passerelle d’application. La capture d’écran suivante illustre cette configuration pour contoso Production Azure Application Gateway.
+- Exemple de preuve : dans Azure Application Gateway, la configuration d’un port d’écoute SSL activé pour le déchargement SSL, consultez la page Présentation de l’arrêt de [TLS et du TLS](https://docs.microsoft.com/azure/application-gateway/ssl-overview) de bout en bout avec la documentation Microsoft de la passerelle d’application. La capture d’écran suivante illustre cette configuration pour contoso Production Azure Application Gateway.
 
 ![Image](../media/UserGuidePhotos/Control-No-27.png)
 
@@ -533,8 +534,8 @@ Les deux tickets ci-dessous montrent l’impact de la modification sur le systè
 
 Tout au long du processus, notez que la personne qui fait le travail, la personne qui en rapporte et la personne qui approuve le travail à faire sont différentes personnes.
 
-![Image ](../media/UserGuidePhotos/Control-No-32-3.png)
- ![](../media/UserGuidePhotos/Control-No-32-4.png)
+![PicturePicture](../media/UserGuidePhotos/Control-No-32-3.png)
+![](../media/UserGuidePhotos/Control-No-32-4.png)
 
 Le ticket ci-dessus indique que les modifications ont été approuvées pour l’implémentation dans l’environnement de production. La zone de droite indique que le test a fonctionné et a réussi et que les modifications ont été implémentées dans l’environnement Prod.
 
@@ -562,7 +563,7 @@ Les organisations impliquées dans les activités de développement de logiciels
 
 - Objectif : les organisations doivent faire tout ce qui est en leur pouvoir pour s’assurer que les logiciels sont développés en toute sécurité et exempts de vulnérabilités. Pour y parvenir, un cycle de vie de développement logiciel (SDLC) sécurisé et des meilleures pratiques de codage sécurisés doivent être établis pour promouvoir des techniques de codage sécurisées et un développement sécurisé tout au long du processus de développement logiciel. L’objectif est de réduire le nombre et la gravité des vulnérabilités dans le logiciel.
 
-- Exemple de directives de preuve : fournissez la documentation documentée sur le SDLC et/ou la documentation de support qui montre qu’un cycle de vie de développement sécurisé est en cours d’utilisation et que des instructions sont fournies à tous les développeurs pour promouvoir les meilleures pratiques en matière de codage sécurisé. Jetez un œil à [OWASP dans SDLC](https://owasp.org/www-project-integration-standards/writeups/owasp_in_sdlc/) et au modèle SAMM [(Software Assurance Maturity Model) OWASP.](https://owaspsamm.org/model/)
+- Exemple de directives de preuve : fournissez la documentation documentée sur le SDLC et/ou la documentation de support qui montre qu’un cycle de vie de développement sécurisé est en cours d’utilisation et que des instructions sont fournies à tous les développeurs pour promouvoir les meilleures pratiques en matière de codage sécurisé. Jetez un œil à [OWASP dans SDLC](https://owasp.org/www-project-integration-standards/writeups/owasp_in_sdlc/) et au modèle SAMM ( [Software Assurance Maturity Model) OWASP](https://owaspsamm.org/model/) .
 
 - Exemple de preuve : voici un extrait de la procédure de développement de logiciels sécurisé de Contoso&#39;, qui illustre les pratiques de développement et de codage sécurisées.
 
@@ -580,13 +581,13 @@ Les organisations impliquées dans les activités de développement de logiciels
 
 - Intention : l’objectif de ce contrôle est d’effectuer une révision du code par un autre développeur afin d’identifier les erreurs de codage qui pourraient introduire une vulnérabilité dans le logiciel. L’autorisation doit être établie pour s’assurer que les révisions de code sont effectuées, que les tests sont effectués, etc. avant le déploiement. L’étape d’autorisation peut valider que les processus corrects ont été suivis, ce qui sous-tend le SDLC défini ci-dessus.
 
-- Exemple de directives de preuve : fournir des preuves que le code fait l’objet d’une révision par un homologue et doit être autorisé avant de pouvoir être appliqué à l’environnement de production. Cette preuve peut être effectuée par le biais d’une exportation de tickets de modification, montrant que des révisions de code ont été effectuées et que les modifications sont autorisées, ou par le biais de logiciels de révision de code tels que Crucible ( [https://www.atlassian.com/software/crucible](https://www.atlassian.com/software/crucible) ).
+- Exemple de directives de preuve : fournir des preuves que le code fait l’objet d’une révision par un homologue et doit être autorisé avant de pouvoir être appliqué à l’environnement de production. Cette preuve peut être effectuée par le biais d’une exportation de tickets de modification, montrant que des révisions de code ont été effectuées et que les modifications sont autorisées, ou par le biais de logiciels de révision de code tels que Crucible ([https://www.atlassian.com/software/crucible](https://www.atlassian.com/software/crucible)).
 
 - Exemple de preuve
 
 ![Image](../media/UserGuidePhotos/Control-No-35.png)Voici un ticket qui indique que les modifications de code font l’objet d’un processus de révision et d’autorisation par une personne autre que le développeur d’origine. Il indique qu’une révision du code a été demandée par la personne affectée et qu’elle sera affectée à une autre personne pour la révision du code.
 
-L’image ci-dessous montre que la révision du code a été affectée à une personne autre que le développeur d’origine, comme illustré par la section mise en surbrillrillée sur le côté droit de l’image ci-dessous. Sur le côté gauche, vous pouvez voir que le code a été révisé et qu’il a été &#39;l’état&#39; révision du code passé par le réviseur de code.
+L’image ci-dessous montre que la révision du code a été affectée à une personne autre que le développeur d’origine, comme illustré par la section mise en surbrillrillée sur le côté droit de l’image ci-dessous. Sur le côté gauche, vous pouvez voir que le code a été révisé et qu’il a reçu &#39;'état&#39; révision du code par le réviseur de code.
 
 Le ticket doit maintenant obtenir l’approbation d’un responsable pour que les modifications soient mises sur des systèmes de production en direct.
 
@@ -616,11 +617,11 @@ Les informations ci-dessous montrent que des formations ont été demandées ave
 
 **Contrôle n 37 :** Fournir des preuves montrant que les référentiels de code sont sécurisés à l’aide de l’authentification multifacteur (MFA).
 
-- Intention : si un acteur de menace peut accéder à la base de code d’une&#39;logicielle et la modifier, il peut introduire des vulnérabilités, des backdoors ou du code malveillant dans la base de code et par conséquent dans l’application. Il y a déjà eu plusieurs instances de ce type, la plus signalée étant probablement l’attaque par ransomware NotPetya qui est semble-t-il infectée par une mise à jour compromise du logiciel fiscal ukrainien appelé M.E.Doc (voir Ce qui n’est [pasPetya](https://www.itpro.co.uk/malware/34381/what-is-notpetya)).
+- Intention : si un acteur de menace peut accéder à la base de code d’une&#39;logicielle et la modifier, il peut introduire des vulnérabilités, des backdoors ou du code malveillant dans la base de code et par conséquent dans l’application. Il y a déjà eu plusieurs instances de ce type, la plus signalée étant probablement l’attaque par ransomware NotPetya qui aurait été infectée via une mise à jour compromise du logiciel fiscal ukrainien appelé M.E.Doc (voir What [is NotPetya](https://www.itpro.co.uk/malware/34381/what-is-notpetya)).
 
-- Exemple de directives de preuve : fournir des  preuves par le moyen de captures d’écran à partir du référentiel de code que tous les utilisateurs ont l’fa MFA activée.
+- Exemple de directives de preuve : fournir des preuves par le moyen de captures d’écran à partir du référentiel de code que tous les utilisateurs ont l’fa MFA activée.
 
-- Exemple de preuve : la capture d’écran suivante montre que l' mbam est activé sur les 8 utilisateurs GitLab.
+- Exemple de preuve : la capture d’écran suivante montre que l’mbam est activé sur les 8 utilisateurs GitLab.
 
 ![Image](../media/UserGuidePhotos/Control-No-37.png)
 
@@ -630,7 +631,7 @@ Les informations ci-dessous montrent que des formations ont été demandées ave
 
 - Exemple de directives de preuve : fournir des preuves par le moyen de captures d’écran à partir du référentiel de code que l’accès est limité aux personnes nécessaires, y compris à différents privilèges.
 
-- Exemple de preuve : la capture d’écran suivante montre les membres du projet Clients dans GitLab, qui est le portail client &quot; &quot; Contoso. &quot; &quot; Comme le permet la capture d’écran, les utilisateurs ont différents &quot; rôles &quot; pour limiter l’accès au projet.
+- Exemple de preuve : la capture d’écran suivante &quot;montre les membres du projet Clients&quot; dans GitLab, qui est le portail client Contoso&quot;&quot;. Comme le permet la capture d’écran, les utilisateurs &quot;ont différents rôles&quot; pour limiter l’accès au projet.
 
 ![Image](../media/UserGuidePhotos/Control-No-38.png)
 
@@ -642,7 +643,7 @@ Les pratiques de gestion des comptes sécurisés sont importantes car les compte
 
 - Intention : les comptes d’utilisateur continuent d’être ciblés par les acteurs de menace et sont souvent la source d’une compromission de données. En configurant des comptes trop permissifs, les organisations augmentent non seulement le pool de comptes&#39; privilégiés &#39;qui peuvent être exploités par un acteur de menace pour effectuer une violation de données, mais peuvent également augmenter le risque de réussite de l’exploitation d’une vulnérabilité qui nécessiterait des privilèges spécifiques pour réussir.
 
--  BeyondTrust produit un rapport de vulnérabilités Microsoft chaque année qui analyse les vulnérabilités de sécurité Microsoft de l’année précédente et détaille les pourcentages de ces vulnérabilités qui reposent sur le compte d’utilisateur qui a des droits &quot; &quot; d’administrateur. Dans un billet de blog récent, un nouveau rapport sur les vulnérabilités De Microsoft révèle une augmentation de 48 % du nombre de vulnérabilités yoy par rapport à la façon dont elles pourraient être atténuées avec le moindre privilège , 90 % des vulnérabilités critiques dans Internet Explorer, 85 % des vulnérabilités critiques dans Microsoft Edge et &quot; [ &amp; ](https://www.beyondtrust.com/blog/entry/microsoft-vulnerabilities-report)100 % des vulnérabilités critiques dans Microsoft Outlook auraient été atténuées en supprimant des droits &quot; d’administrateur. Pour prendre en charge la gestion sécurisée des comptes, les organisations doivent s’assurer que les stratégies et procédures de prise en charge qui promeuvent les meilleures pratiques en matière de sécurité sont en place et suivies pour atténuer ces menaces.
+-  BeyondTrust produit un rapport de vulnérabilités &quot;Microsoft&quot; chaque année qui analyse les vulnérabilités de sécurité Microsoft de l’année précédente et détaille les pourcentages de ces vulnérabilités qui reposent sur le compte d’utilisateur qui a des droits d’administrateur. Dans un billet de blog &quot; récent, un nouveau rapport sur les vulnérabilités Microsoft révèle une augmentation de [48 &amp;](https://www.beyondtrust.com/blog/entry/microsoft-vulnerabilities-report)&quot;% du nombre de vulnérabilités par an et de la façon dont elles pourraient être atténuées avec le moindre privilège, 90 % des vulnérabilités critiques dans Internet Explorer, 85 % des vulnérabilités critiques dans Microsoft Edge et 100 % des vulnérabilités critiques dans Microsoft Outlook auraient été atténuées en supprimant des droits d’administrateur. Pour prendre en charge la gestion sécurisée des comptes, les organisations doivent s’assurer que les stratégies et procédures de prise en charge qui promeuvent les meilleures pratiques en matière de sécurité sont en place et suivies pour atténuer ces menaces.
 
 - Exemple de directives de preuve : fournissez les stratégies et documents de procédure documentés qui couvrent les pratiques de gestion de vos comptes. Au minimum, les rubriques couvertes doivent s’aligner sur les contrôles au sein de la Microsoft 365 certification.
 
@@ -656,23 +657,23 @@ Les pratiques de gestion des comptes sécurisés sont importantes car les compte
 
 **Contrôle n 40 :** Fournissez des preuves montrant que les informations d’identification par défaut sont désactivées, supprimées ou modifiées dans les composants système échantillonés.
 
-- Intention : bien que cela devienne moins populaire, il existe encore des cas où les acteurs des menaces peuvent tirer parti des informations d’identification utilisateur par défaut et bien documentées pour compromettre les composants du système de production. Dell iDRAC (Integrated Dell Remote Access Controller) en est un exemple populaire. Ce système peut être utilisé pour gérer à distance un serveur Dell Server, qui peut être utilisé par un acteur de menace pour prendre le contrôle du système d’exploitation&#39;server. Les informations d’identification par défaut de root::contrôle sont documentées et peuvent souvent être utilisées par les acteurs des menaces pour accéder aux systèmes utilisés par les organisations. L’objectif de ce contrôle est de s’assurer que ces informations d’identification par défaut sont désactivées ou supprimées
+- Intention : bien que cela devienne moins populaire, il existe encore des cas où les acteurs des menaces peuvent tirer parti des informations d’identification utilisateur par défaut et bien documentées pour compromettre les composants du système de production. Dell iDRAC (Integrated Dell Remote Access Controller) en est un exemple populaire. Ce système peut être utilisé pour gérer à distance un serveur Dell Server, qui peut être utilisé par un acteur de menace pour prendre le contrôle du système d’exploitation de Server&#39;. Les informations d’identification par défaut de root::contrôle sont documentées et peuvent souvent être utilisées par les acteurs des menaces pour accéder aux systèmes utilisés par les organisations. L’objectif de ce contrôle est de s’assurer que ces informations d’identification par défaut sont désactivées ou supprimées
 
 - Exemples de directives de preuve : il existe différentes façons de collecter des preuves pour prendre en charge ce contrôle. Les captures d’écran des utilisateurs configurés sur tous les composants système peuvent vous aider, c’est-à-dire que les captures d’écran des fichiers Linux /etc/shadow et /etc/passwd vous aideront à montrer si les comptes ont été désactivés. Notez que le fichier /etc/shadow serait nécessaire pour démontrer que les comptes sont réellement désactivés en observant que le hachage du mot de passe commence par un caractère non valide tel que &#39;!&#39; indiquant que le mot de passe est inutilisable. Le conseil serait de ne désactiver que quelques caractères du mot de passe et de les redessguer. D’autres options seraient pour les sessions de partage d’écran dans laquelle l’évaluateur a pu essayer manuellement les informations d’identification par défaut, par exemple dans la discussion ci-dessus sur Dell iDRAC, l’évaluateur doit essayer de s’authentifier sur toutes les interfaces Dell iDRAC à l’aide des informations d’identification par défaut.
 
-- Exemple de preuve : la capture d’écran suivante montre les comptes d’utilisateurs configurés pour le composant système dans l’étendue &quot; DE LA VIDÉONET-SBU-WM &quot; . L’affiche plusieurs comptes par défaut ; Administrateur, DefaultAccount et Invité, toutefois, les captures d’écran suivantes montrent que ces comptes sont désactivés.
+- Exemple de preuve : la capture d’écran suivante montre les comptes d’utilisateurs configurés &quot;pour le composant système dans l’étendue DUXNET-SBU-WM&quot;. L’affiche plusieurs comptes par défaut ; Administrateur, DefaultAccount et Invité, toutefois, les captures d’écran suivantes montrent que ces comptes sont désactivés.
 
 ![Image](../media/UserGuidePhotos/Control-No-40.png)
 
-La capture d’écran suivante montre que le compte Administrateur est désactivé sur le composant système dans l’étendue &quot; FONCTIONNET-SBU-WM &quot; .
+La capture d’écran suivante montre que le compte Administrateur est désactivé &quot;sur le composant système au niveau de l’étendue FONCTIONNET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-40-1.png)
 
-La capture d’écran suivante montre que le compte Invité est désactivé sur le composant système dans l’étendue &quot; FONCTIONNET-SBU-WM &quot; .
+La capture d’écran suivante montre que le compte d’invité est désactivé &quot;sur le composant système dans l’étendue FONCTIONNET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-40-2.png)
 
-La capture d’écran suivante montre que DefaultAccount est désactivé sur le composant système dans l’étendue &quot; FONCTIONNET-SBU-WM &quot; .
+La capture d’écran suivante montre que DefaultAccount &quot;est désactivé sur le composant système dans l’étendue FONCTIONNET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-40-3.png)
 
@@ -694,9 +695,9 @@ La création du compte a été réalisée via le processus d’approbation et le
 
 **Contrôle n 42 :** Fournir des preuves montrant qu’un processus est en place pour désactiver ou supprimer des comptes non utilisés dans les 3 mois.
 
-- Intention : les comptes inactifs peuvent parfois être compromis soit parce qu’ils sont ciblés dans des attaques en force brute qui peuvent ne pas être signalées comme l’utilisateur ne tentera pas de se connecter aux comptes, ou par une violation de base de données de mot de passe dans laquelle le mot de passe d’un utilisateur&#39;a été réutilisé et est disponible dans un vidage nom d’utilisateur/mot de passe sur Internet. Les comptes inutilisés doivent être désactivés/supprimés pour réduire la surface d’attaque dont un acteur de menace a besoin pour effectuer des activités de compromission de compte. Ces comptes peuvent être dus à un processus de déversage qui n’est pas exécuté correctement, à un membre du personnel en congé à long terme ou à un membre du personnel qui part en congé de famille ou de paternité. En implémentant un processus trimestrielle pour identifier ces comptes, les organisations peuvent réduire la surface d’attaque.
+- Intention : les comptes inactifs peuvent parfois être compromis soit parce qu’ils sont ciblés dans des attaques en force brute qui peuvent ne pas être signalées car l’utilisateur ne tentera pas de se connecter aux comptes, ou par une violation de la base de données de mots de passe dans laquelle le mot de passe d’un utilisateur&#39;a été réutilisé et est disponible dans un vidage nom d’utilisateur/mot de passe sur Internet. Les comptes inutilisés doivent être désactivés/supprimés pour réduire la surface d’attaque dont un acteur de menace a besoin pour effectuer des activités de compromission de compte. Ces comptes peuvent être dus à un processus de déversage qui n’est pas exécuté correctement, à un membre du personnel en congé à long terme ou à un membre du personnel qui part en congé de famille ou de paternité. En implémentant un processus trimestrielle pour identifier ces comptes, les organisations peuvent réduire la surface d’attaque.
 
-- Exemples de directives de preuve : la preuve doit être double. Tout d’abord, une capture d’écran ou une exportation de fichier affichant la dernière logon de tous les comptes &quot; d’utilisateur dans l’environnement dans &quot; l’étendue. Il peut s’agit de comptes locaux, ainsi que de comptes au sein d’un service d’annuaire centralisé, tels que AAD (Azure Active Directory). Cela montre qu’aucun compte de plus de 3 mois n’est activé. Deuxièmement, preuve du processus de révision trimestrielle qui peut être la preuve de la tâche en cours d’accomplir dans des tickets ADO (Azure DevOps) ou JIRA, ou par le biais d’enregistrements papier qui doivent être signés.
+- Exemples de directives de preuve : la preuve doit être double. Tout d’abord, une capture d’écran ou une exportation de fichier &quot;affichant la dernière logon&quot; de tous les comptes d’utilisateur dans l’environnement dans l’étendue. Il peut s’agit de comptes locaux, ainsi que de comptes au sein d’un service d’annuaire centralisé, tels que AAD (Azure Active Directory). Cela montre qu’aucun compte de plus de 3 mois n’est activé. Deuxièmement, preuve du processus de révision trimestrielle qui peut être la preuve de la tâche en cours d’opération dans les tickets ADO (Azure DevOps) ou JIRA, ou par le biais d’enregistrements papier qui doivent être signés.
 
 - Exemple de preuve : cette première capture d’écran montre la sortie du script qui est exécuté tous les trimestres pour afficher le dernier attribut d’accès pour les utilisateurs au sein AAD.
 
@@ -714,11 +715,11 @@ Comme le montre la capture d’écran ci-dessus, deux utilisateurs indiquent qu�
 - Historique des mots de passe d’un minimum de 5 mots de passe
 - Application de l’utilisation d’un mot de passe fort
 
-- Intention : comme nous l’avons déjà vu, les informations d’identification de l’utilisateur sont souvent la cible d’attaques par des acteurs de menace qui tentent d’accéder à une organisation&#39;'environnement. L’objectif d’une stratégie de mot de passe forte est d’essayer de forcer les utilisateurs à choisir des mots de passe forts afin d’atténuer les risques que les acteurs de menace puissent les forcer de force brute. L’objectif de l’ajout de l’ou d’autres atténuations appropriées est de reconnaître que les organisations peuvent implémenter d’autres mesures de sécurité pour protéger les informations d’identification des utilisateurs en fonction des développements du secteur tels que la publication spéciale &quot; &quot; &quot; [800-63B du NIST.](https://pages.nist.gov/800-63-3/sp800-63b.html) &quot;
+- Intention : comme nous l’avons déjà vu, les informations d’identification de l’utilisateur sont souvent la cible d’attaques par des acteurs de menace qui tentent d’accéder à une organisation&#39;'environnement. L’objectif d’une stratégie de mot de passe forte est d’essayer de forcer les utilisateurs à choisir des mots de passe forts afin d’atténuer les risques que les acteurs de menace puissent les forcer de force brute. L’objectif &quot;de l’ajout de l’ou d’autres atténuations&quot; appropriées est de reconnaître que les organisations peuvent implémenter d’autres mesures de sécurité pour protéger les informations d’identification des utilisateurs en fonction des développements &quot; du secteur tels que la publication spéciale [800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html)&quot; du NIST.
 
-- Exemple de recommandations en matière de preuve : la preuve d’une stratégie de mot de passe forte peut prendre la forme d’une capture d’écran d’un objet de stratégie de groupe ou de stratégies de compte de sécurité locale à stratégie de mot de passe et stratégies de compte à paramètres de stratégie de verrouillage de &quot; &quot; &quot; &quot; compte. La preuve dépend des technologies utilisées ; C’est-à-dire, pour Linux, il peut s’utiliser comme fichier de config /etc/pam.d/common-password, pour BitBucket, section Stratégies d’authentification dans le portail d’administration &quot; &quot; ( ), [https://support.atlassian.com/security-and-access-policies/docs/manage-your-password-policy/](https://support.atlassian.com/security-and-access-policies/docs/manage-your-password-policy/) etc.
+- &quot;&quot; &quot;&quot; Exemple de recommandations en matière de preuve : la preuve d’une stratégie de mot de passe forte peut prendre la forme d’une capture d’écran d’un objet de stratégie de groupe ou de stratégies de compte de sécurité locale à stratégie de mot de passe et stratégies de compte à paramètres de stratégie de verrouillage de compte. La preuve dépend des technologies utilisées ; C’est-à-dire, pour Linux, il peut s’utiliser comme fichier de config /etc/pam.d/common-password, pour BitBucket&quot;&quot;, la section Stratégies d’authentification dans le portail d’administration ([https://support.atlassian.com/security-and-access-policies/docs/manage-your-password-policy/](https://support.atlassian.com/security-and-access-policies/docs/manage-your-password-policy/)), etc.
 
-- Exemple de preuve : les preuves ci-dessous illustrent la stratégie de mot de passe configurée dans la stratégie de sécurité locale du composant système dans l’étendue &quot; &quot; &quot; CONTRÔLENET-SBU-WM &quot; .
+- Exemple de preuve : les preuves &quot;&quot; ci-dessous &quot;illustrent la stratégie de mot de passe configurée dans la stratégie de sécurité locale du composant système dans l’étendue DE LA SOCIÉTÉNET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-43.png)
 
@@ -738,19 +739,19 @@ Vous trouverez ci-dessous un exemple de longueur de phrase passphrase minimale p
 
 - Exemple de recommandations en matière de preuves : des preuves seraient des captures d’écran montrant des comptes d’utilisateur configurés dans les composants système dans l’étendue, qui peuvent inclure des serveurs, des référentiels de code, des plateformes de gestion cloud, Active Directory, des pare-feu, etc.
 
-- Exemple de preuve : la capture d’écran suivante montre les comptes d’utilisateurs configurés pour le composant système dans l’étendue &quot; DE LA VIDÉONET-SBU-WM &quot; .
+- Exemple de preuve : la capture d’écran suivante montre les comptes d’utilisateurs configurés &quot;pour le composant système dans l’étendue DUXNET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-44.png)
 
-La capture d’écran suivante montre que le compte Administrateur est désactivé sur le composant système dans l’étendue &quot; FONCTIONNET-SBU-WM &quot; .
+La capture d’écran suivante montre que le compte Administrateur est désactivé &quot;sur le composant système au niveau de l’étendue FONCTIONNET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-44-1.png)
 
-La capture d’écran suivante montre que le compte Invité est désactivé sur le composant système dans l’étendue &quot; FONCTIONNET-SBU-WM &quot; .
+La capture d’écran suivante montre que le compte d’invité est désactivé &quot;sur le composant système dans l’étendue FONCTIONNET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-44-2.png)
 
-La capture d’écran suivante montre que DefaultAccount est désactivé sur le composant système dans l’étendue &quot; FONCTIONNET-SBU-WM &quot; .
+La capture d’écran suivante montre que DefaultAccount &quot;est désactivé sur le composant système dans l’étendue FONCTIONNET-SBU-WM&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-44-3.png)
 
@@ -777,19 +778,19 @@ La capture d’écran suivante montre que les utilisateurs sont alloués à des 
 - Restriction des comptes à un ensemble d’ordinateurs dans Active Directory,
 - Définir le compte de sorte qu’il soit interactif n&#39;pas autorisé,
 - Définition d’un mot de passe extrêmement complexe
-- Pour Active Directory, activez &quot; l’indicateur Compte sensible et ne peut pas être &quot; délégué. Ces techniques sont abordées dans l’article suivant Segmentation et Active Directory partagé pour un environnement de données de &quot; [cardholder.](https://pciramblings.com/2019/12/13/segmentation-and-shared-active-directory-of-a-cardholder-data-environment/) &quot;
+- Pour Active Directory, activez l’indicateur &quot;Compte sensible et ne peut pas être délégué&quot; . Ces techniques sont abordées dans l’article [suivant Segmentation et Active Directory partagé pour un environnement](https://pciramblings.com/2019/12/13/segmentation-and-shared-active-directory-of-a-cardholder-data-environment/) de données de cardholder&quot;.&quot;
 
 - Exemple de preuve : il existe plusieurs façons de renforcement de la sécurité d’un compte de service, qui dépend de chaque environnement individuel. Les mécanismes appropriés à votre environnement, qui sont utilisés, seraient documentés plus tôt dans le document de stratégie/procédure de gestion des comptes, ce qui vous aidera à examiner ces preuves. Voici quelques-uns des mécanismes qui peuvent être utilisés :
 
-La capture d’écran suivante montre que le compte &#39;est sensible et que la connexion est déléguée&#39; option est sélectionnée sur le compte de service &quot; \_ Prod SQL Service. &quot;
+La capture d’écran suivante montre que le compte &#39;est sensible et que la connexion est déléguée&#39; l’option est sélectionnée sur le compte de service &quot;\_Prod SQL Service Account&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-46.png)
 
-La capture d’écran suivante montre que le compte de service Prod SQL Service Est verrouillé sur le SQL Server et ne peut se connecter &quot; \_ &quot; qu’à ce serveur.
+La capture d’écran suivante montre que le compte de service &quot;\_Prod SQL Service Est&quot; verrouillé sur le SQL Server et ne peut se connecter qu’à ce serveur.
 
 ![Image](../media/UserGuidePhotos/Control-No-46-1.png)
 
-La capture d’écran suivante montre que le compte de service Prod SQL service est uniquement autorisé à se rendre &quot; \_ en tant que &quot; service.
+La capture d’écran suivante montre que le compte de service &quot;\_Prod SQL service est&quot; uniquement autorisé à se rendre en tant que service.
 
 ![Image](../media/UserGuidePhotos/Control-No-46-2.png)
 
@@ -797,7 +798,7 @@ La capture d’écran suivante montre que le compte de service Prod SQL service 
 
 Termes définis comme :
 - **Accès à** distance : en règle générale, il s’agit des technologies utilisées pour accéder à l’environnement de prise en charge. Par exemple, VPN IPSec d’accès à distance, VPN SSL ou Jumpbox/Hôte Bastian.
-- **Interfaces administratives non** console : en règle générale, il s’agit des connexions administratives réseau aux composants système. Il peut s’agit du Bureau à distance, du SSH ou d’une interface web.
+- **Interfaces administratives non console :** en règle générale, il s’agit des connexions administratives réseau aux composants système. Il peut s’agit du Bureau à distance, du SSH ou d’une interface web.
 
 
 - Objectif : l’objectif de ce contrôle est de fournir des atténuations contre le forçage brut des comptes privilégiés et des comptes avec un accès sécurisé à l’environnement. En fournissant l’authentification multifacteur (MFA), un mot de passe compromis doit toujours être protégé contre une connexion réussie, car le mécanisme d’authentification multifacteur doit toujours être sécurisé. Cela permet de s’assurer que toutes les actions d’accès et d’administration sont uniquement effectuées par des membres du personnel autorisés et fiables.
@@ -808,7 +809,7 @@ Termes définis comme :
 
 ![Image](../media/UserGuidePhotos/Control-No-47.png)
 
-Cette capture d’écran montre qu’un serveur d’authentification supplémentaire est activé et pointe vers Duo-LDAP pour le domaine d’authentification &quot; &#39;Duo - Default Route &quot;&#39;.
+Cette capture d’écran &quot;montre qu’un serveur d’authentification supplémentaire est activé et pointe vers Duo-LDAP&quot; pour le domaine d’authentification &#39;Duo - Default Route&#39;.
 
 ![Image](../media/UserGuidePhotos/Control-No-47-1.png)
 
@@ -820,7 +821,7 @@ Exemple de preuve 2 : les captures d’écran suivantes montrent que tous les ut
 
 ![Image](../media/UserGuidePhotos/Control-No-47-3.png)
 
-**Remarque :** Vous devrez fournir des preuves pour toutes les connexions non-console afin de démontrer que l' mbam est activé pour eux. Ainsi, par exemple, si vous RDP ou SSH vers des serveurs ou d’autres composants système (par exemple, pare-feu).
+**Remarque :** Vous devrez fournir des preuves pour toutes les connexions non-console afin de démontrer que l’mbam est activé pour eux. Ainsi, par exemple, si vous RDP ou SSH vers des serveurs ou d’autres composants système (par exemple, pare-feu).
 
 **Contrôle n 48 :** Fournissez des preuves montrant que le chiffrement fort est configuré pour toutes les connexions d’accès à distance et toutes les interfaces d’administration non console, y compris l’accès aux référentiels de code et aux interfaces de gestion cloud.
 
@@ -832,11 +833,11 @@ Termes définis comme :
 
 - Exemple de directives de preuve : des preuves peuvent être fournies par des captures d’écran montrant les paramètres de chiffrement pour les technologies d’accès à distance, RDP, SSH et les interfaces d’administration web. Pour les interfaces d’administration web, le scanneur Qualys SSL Labs (s’il est accessible publiquement, c’est-à-dire, les interfaces de gestion cloud, les référentiels de code SaaS ou les connexions VPN SSL) peut être utilisé.
 
-- Exemple de preuve : la preuve ci-dessous montre le niveau de chiffrement RDP sur Webserver01 configuré avec un paramètre &quot; de &#39;niveau élevé &quot; &quot; . Comme le montre le texte d’aide, il s’agit d’un chiffrement 128 bits fort (qui est le niveau le plus élevé pour Microsoft Windows RDP.
+- Exemple de preuve : la preuve ci-dessous montre le niveau de chiffrement RDP &quot;sur Webserver01&quot; configuré avec &#39;niveau élevé&quot;. Comme le montre le texte d’aide, il s’agit d’un chiffrement 128 bits fort (qui est le niveau le plus élevé pour Microsoft Windows RDP.
 
 ![Image](../media/UserGuidePhotos/Control-No-48.png)
 
-Les preuves ci-dessous montrent également que la sécurité de transport RDP est configurée pour utiliser TLS 1.0 sur &quot; Webserver01 (qui est le plus élevé pour &quot; Windows Server).
+Les preuves ci-dessous montrent également que la sécurité de transport RDP est configurée pour utiliser TLS 1.0 &quot;sur Webserver01&quot; (qui est le plus élevé pour Windows Server).
 
 ![Image](../media/UserGuidePhotos/Control-No-48-1.png)
 
@@ -844,7 +845,7 @@ Les preuves ci-dessous montrent également que la sécurité de transport RDP es
 
 - Intention : si un acteur de menace malveillante peut accéder aux enregistrements DNS publics, il existe un risque qu’il soit en mesure de modifier les URL utilisées par l’application, ou lorsque le fichier manifeste pointe vers l’introduction de code malveillant ou pour diriger le trafic utilisateur vers un point de terminaison sous le contrôle des acteurs. Cela peut entraîner une perte de données utilisateur ou des infections par programme malveillant/ransomware au sein de la base d’utilisateurs de l’application.
 
-- Exemple de directives de preuve : fournir des preuves qui montrent que les portails d’administration DNS publics sont protégés par l’mf. Même si le DNS public est hébergé sur des serveurs au sein de l’environnement dans l’étendue (c’est-à-dire, contrôlé et géré par l’organisation), il peut toujours y avoir un portail d’administration quelque part où le nom de domaine a été enregistré, et les enregistrements DNS &#39;été&#39; gérés pour pointer les serveurs DNS vers votre propre infrastructure. Lorsque c’est le cas, l’mfmf doit être activée sur l’interface d’administration du bureau d’enregistrement de domaines si les enregistrements DNS des domaines peuvent être modifiés. Une capture d’écran doit être fournie montrant que l’interface d’administration est activée pour l' pdf au niveau du système (c’est-à-dire, tous les comptes privilégiés).
+- Exemple de directives de preuve : fournir des preuves qui montrent que les portails d’administration DNS publics sont protégés par l’mf. Même si le DNS public est hébergé sur des serveurs au sein de l’environnement dans l’étendue (c’est-à-dire, contrôlé et géré par l’organisation), il peut toujours y avoir un portail d’administration quelque part où le nom de domaine a été enregistré, et les enregistrements DNS &#39;été&#39; gérés pour pointer les serveurs DNS vers votre propre infrastructure. Lorsque c’est le cas, l’mfmf doit être activée sur l’interface d’administration du bureau d’enregistrement de domaines si les enregistrements DNS des domaines peuvent être modifiés. Une capture d’écran doit être fournie montrant que l’interface d’administration est activée pour l’pdf au niveau du système (c’est-à-dire, tous les comptes privilégiés).
 
 - Exemple de preuve : la capture d’écran suivante montre contoso.com DNS est géré dans Microsoft Azure pour Contoso Corporation.
 
@@ -882,7 +883,7 @@ La capture d’écran supplémentaire ci-dessous montre que le service IDPS est 
 
 - Exemple de recommandations en matière de preuves : la preuve sera probablement le fait d’une capture d’écran montrant que le système IDPS est configuré pour mettre à jour les signatures au moins quotidiennement et afficher la dernière mise à jour.
 
-- Exemple de preuve : bien que cette capture d’écran ne montre&#39;pas que les signatures IDPS ont été mises à jour au cours des dernières 24 heures, elle démontre que la dernière version est installée, qui date d’une semaine (preuves collectées sur le _18__th_ _mai_). Ceci, combiné à la capture d’écran suivante, montre que les signatures seront à jour dans un délai de 24 heures.
+- Exemple de preuve : bien que cette capture d’écran ne montre&#39;pas que les signatures IDPS ont été mises à jour au cours des dernières 24 heures, elle montre que la dernière version est installée, qui date d’une semaine (preuves collectées sur le _18__th_ _mai_). Ceci, combiné à la capture d’écran suivante, montre que les signatures seront à jour dans un délai de 24 heures.
 
 ![Image](../media/UserGuidePhotos/Control-No-51.png)
 
@@ -902,7 +903,7 @@ La capture d’écran suivante montre que les IDPS sont activés sur ces règles
 
 ![Image](../media/UserGuidePhotos/Control-No-52-1.png)
 
-La capture d’écran suivante montre qu’une action de proxy est appliquée à la règle &#39;trafic entrant du bot&#39;, qui est utilisée pour activer &quot; &quot; l’inspection du \_ \_ contenu.
+La capture d’écran &quot;suivante montre qu’une &#39;action&quot; de proxy est appliquée à la règle de&#39; InboundBotTraffic\_\_, qui est utilisée pour activer l’inspection du contenu.
 
 ![Image](../media/UserGuidePhotos/Control-No-52-2.png)
 
@@ -1002,11 +1003,11 @@ La journalisation des événements de sécurité fait partie intégrante d’une
 
 - Exemples de directives de preuve : des preuves par le moyen de captures d’écran ou de paramètres de configuration doivent être fournies sur tous les appareils échantillonés et tous les composants système de pertinence afin de montrer comment la journalisation est configurée pour garantir que ces types d’événements de sécurité sont capturés.
 
-- Exemple de preuve 1 : la capture d’écran suivante montre les paramètres de configuration à partir de l’un des appareils échantillonés &quot; appelés VICTIM1-WINDOWS &quot; . Les paramètres indiquent différents paramètres d’audit activés dans la stratégie de sécurité &#39;locale « Stratégies locales » . Stratégie d’audit&#39; paramètres.
+- Exemple de preuve 1 : la capture d’écran suivante montre les paramètres de configuration de l’un des appareils échantillonnés appelés &quot;VICTIM1-WINDOWS&quot;. Les paramètres indiquent différents paramètres d’audit activés dans la stratégie de sécurité &#39;locale « Stratégies locales » . Stratégie d’audit&#39; paramètres.
 
 ![Image](../media/UserGuidePhotos/Control-No-56.png)
 
-La capture d’écran suivante montre un événement dans lequel un utilisateur a effacé un journal des événements de l’un des appareils échantillonés &quot; appelés VICTIM1-WINDOWS. &quot;
+La capture d’écran suivante montre un événement dans lequel un utilisateur a effacé un journal des événements de l’un des appareils échantillonés appelés &quot;VICTIM1-WINDOWS&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-56-1.png)
 
@@ -1014,7 +1015,7 @@ Cette dernière capture d’écran montre le message du journal qui apparaît da
 
 ![Image](../media/UserGuidePhotos/Control-No-56-2.png)
 
-**Remarque**: des captures d’écran sont **requises** pour tous les composants système échantillonés ET **DOIVENT** être des preuves de tous les événements de sécurité détaillés ci-dessus.
+**Remarque** : des captures d’écran sont **requises pour** tous les composants système échantillonés ET **DOIVENT** être des preuves de tous les événements de sécurité détaillés ci-dessus.
 
 **Contrôle n 57 :** Fournissez des preuves montrant que les événements de sécurité consignés contiennent les informations minimales suivantes :
 - Utilisateur
@@ -1027,11 +1028,11 @@ Cette dernière capture d’écran montre le message du journal qui apparaît da
 
 - Exemple de directives de preuve : les preuves doivent afficher des exemples de journaux de tous les composants système montrant ces types d’événements de sécurité. Les journaux doivent inclure toutes les informations répertoriées ci-dessus.
 
-- Exemple de preuve : la capture d’écran suivante montre les informations des événements de sécurité au sein de Windows Observateur d’événements à partir du composant système &quot; seGSVR02 &quot; .
+- Exemple de preuve : la capture d’écran suivante montre les informations des événements de sécurité au sein de Windows Observateur &quot;d’événements à partir du composant système seGSVR02&quot;.
 
 ![Image](../media/UserGuidePhotos/Control-No-57.png)
 
-**Remarque**: des captures d’écran sont **requises** pour tous les composants système échantillonés ET DOIVENT être des preuves de tous les événements de sécurité détaillés dans le contrôle ci-dessus. Il est probable que les preuves collectées pour le contrôle ci-dessus répondent également à ce contrôle, en fournissant des détails adéquats sur les informations de journalisation fournies.
+**Remarque** : des captures d’écran sont **requises pour** tous les composants système échantillonés ET DOIVENT être des preuves de tous les événements de sécurité détaillés dans le contrôle ci-dessus. Il est probable que les preuves collectées pour le contrôle ci-dessus répondent également à ce contrôle, en fournissant des détails adéquats sur les informations de journalisation fournies.
 
 **Contrôle n 58 :** Fournissez des preuves montrant que tous les composants système échantillonés sont synchronisés dans le temps sur les mêmes serveurs principaux et secondaires.
 
@@ -1047,7 +1048,7 @@ La capture d’écran suivante montre watchGuard configuré en tant que serveur 
 
 ![Image](../media/UserGuidePhotos/Control-No-58-1.png)
 
-Cette dernière capture d’écran montre le composant système dans l’étendue, LA FONCTIONNEZNET-SBU-WM est configurée pour que NTP pointe vers le serveur principal qui est le pare-feu &quot; &quot; WatchGuard (10.0.1.1).
+Cette dernière capture d’écran montre le composant système dans l’étendue, &quot;LA FONCTIONNEZNET-SBU-WM&quot; est configurée pour que NTP pointe vers le serveur principal qui est le pare-feu WatchGuard (10.0.1.1).
 
 ![Image](../media/UserGuidePhotos/Control-No-58-2.png)
 
@@ -1057,7 +1058,7 @@ Cette dernière capture d’écran montre le composant système dans l’étendu
 
 - Exemple de directives de preuve : les preuves doivent être fournies au moyen de captures d’écran ou de paramètres de configuration, montrant que les journaux sont configurés pour être envoyés immédiatement (ou à proximité immédiatement) à une solution de journalisation centralisée en dehors du DMZ. Nous recherchons la livraison quasi immédiate des journaux, car plus la livraison des journaux vers la solution de journalisation centralisée prend de temps, plus un acteur de traitement doit falsifier les journaux locaux avant que l’envoi ne se produise.
 
-- Exemple de preuve : les systèmes DMZ Contoso utilisent NXLog pour l’envoi des fichiers journaux. La capture d’écran suivante montre le service &#39;nxlog&#39; en cours d’exécution sur la boîte de réception &quot; DMZ DESKTOP-7S65PN utilisée pour gérer tous les serveurs &quot; DMZ.
+- Exemple de preuve : les systèmes DMZ Contoso utilisent NXLog pour l’envoi des fichiers journaux. La capture d’écran suivante montre le service &quot;&#39;nxlog&#39; en cours d’exécution sur la boîte de réception DMZ DESKTOP-7S65PN&quot; utilisée pour gérer tous les serveurs DMZ.
 
 ![Image](../media/UserGuidePhotos/Control-No-59.png)
 
@@ -1065,7 +1066,7 @@ La capture d’écran suivante montre un extrait du fichier nxlog.conf, montrant
 
 ![Image](../media/UserGuidePhotos/Control-No-59-1.png)
 
-L’URL suivante pour NXLog ( ) indique que la livraison des journaux de bord est en temps réel [https://nxlog.co/documentation/nxlog-user-guide/modes.html](https://nxlog.co/documentation/nxlog-user-guide/modes.html) via l’extraction suivante :
+L’URL suivante pour NXLog ([https://nxlog.co/documentation/nxlog-user-guide/modes.html](https://nxlog.co/documentation/nxlog-user-guide/modes.html)) indique que la livraison des journaux de bord est en temps réel via l’extraction suivante :
 
 ![Image](../media/UserGuidePhotos/Control-No-59-2.png)
 
@@ -1075,7 +1076,7 @@ L’URL suivante pour NXLog ( ) indique que la livraison des journaux de bord es
 
 - Exemples de directives de preuve : les preuves se font généralement au moyen de captures d’écran montrant la configuration de l’autorisation et de l’authentification de la solution de journalisation centralisée, montrant que les utilisateurs sont limités à ceux qui sont requis pour leur rôle/fonction.
 
-- Exemple de preuve : le SOC externalisé par Contoso utilise EntemVault comme outils SIEM centralisés. En 2018, Il a été acheté par AT T et passe &amp; maintenant par USM Anywhere. La page web suivante ( ) explique comment USM Anywhere protège les données contre toute [https://cybersecurity.att.com/documentation/usm-anywhere/deployment-guide/admin/usm-anywhere-data-security.htm](https://cybersecurity.att.com/documentation/usm-anywhere/deployment-guide/admin/usm-anywhere-data-security.htm) falsification non autorisée. Le lien suivant ( ) met en évidence la façon dont le produit USM Anywhere garantit également l’intégrité [https://cybersecurity.att.com/documentation/usm-appliance/raw-logs/raw-log-management.htm](https://cybersecurity.att.com/documentation/usm-appliance/raw-logs/raw-log-management.htm) des journaux archivés.
+- Exemple de preuve : le SOC externalisé par Contoso utilise EntemVault comme outils SIEM centralisés. Ce dernier a été acheté par ATT&amp; en 2018 et passe désormais par USM Anywhere. La page web suivante ([https://cybersecurity.att.com/documentation/usm-anywhere/deployment-guide/admin/usm-anywhere-data-security.htm](https://cybersecurity.att.com/documentation/usm-anywhere/deployment-guide/admin/usm-anywhere-data-security.htm)) explique comment USM Anywhere protège les données contre toute falsification non autorisée. Le lien suivant ([https://cybersecurity.att.com/documentation/usm-appliance/raw-logs/raw-log-management.htm](https://cybersecurity.att.com/documentation/usm-appliance/raw-logs/raw-log-management.htm)) met en évidence la façon dont le produit USM Anywhere garantit également l’intégrité des journaux archivés.
 
 **Remarque :** Si le SIEM est interne, des preuves doivent être fournies pour démontrer que l’accès aux données de journalisation est limité à un nombre sélectionné d’utilisateurs en fonction de leurs besoins en fonction de leurs besoins et que la plateforme elle-même est protégée contre la falsification (la plupart des solutions le créent dans les fonctionnalités de la solution de journalisation).
 
@@ -1089,13 +1090,13 @@ L’URL suivante pour NXLog ( ) indique que la livraison des journaux de bord es
 
 ![Image](../media/UserGuidePhotos/Control-No-61.png)
 
-**Remarque**: étant donné qu’il s’agit d’un document public, le numéro de série du pare-feu&#39;été rédigé, mais nous n’envisageons pas les logiciels&#39;prendre en charge les captures d’écran expurgées, sauf s’il contient des informations d’identification personnelle.
+**Remarque** : étant donné qu’il s’agit d’un document public, le numéro de série du pare-feu&#39;été rédigé, mais nous n’envisageons pas les isv pour prendre en charge les captures d’écran expurgées, sauf s’il contient des informations d’identification personnelle.
 
 La capture d’écran suivante montre que les journaux sont disponibles en affichant un extrait de journal qui remonte à 5 mois.
 
 ![Image](../media/UserGuidePhotos/Control-No-61-1.png)
 
-**Remarque**: étant donné qu’il s’agit d’un document public, les adresses IP publiques ont été expurgées, toutefois, nous n’envisageons&#39;pas les isv de prendre en charge les captures d’écran expurgées, sauf si elles contiennent des informations d’identification personnelle.
+**Remarque** : étant donné qu’il s’agit d’un document public, les adresses IP publiques ont été expurgées, toutefois, nous n&#39;envisageons pas que les isvs ne peuvent prendre en charge les captures d’écran expurgées, sauf si elles contiennent des informations d’identification personnelle.
 
 - Exemple de preuve 2 : la capture d’écran suivante montre que les événements de journal sont conservés pendant 30 jours en direct et 90 jours dans un stockage à froid dans Azure.
 
@@ -1107,7 +1108,7 @@ La révision des journaux de sécurité est une fonction importante pour aider l
 
 **Contrôle n 62 :** Fournir une documentation de stratégie qui régit les pratiques et procédures de révision des journaux.
 
-- Intention : un rapport d’IBM intitulé Coût d’un rapport de violation de données 2020 souligne que le temps moyen d’identification et de contenu d’une violation de données peut prendre 280 jours, c’est-à-dire plus lorsque la violation est le fait d’un acteur malveillant qui est signalé comme &quot; [](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/) &quot; étant 315days. Étant donné que le coût moyen d’une violation de données est signalé comme étant en millions de dollars, il est essentiel que ce cycle de vie de violation de données soit réduit non seulement pour réduire la fenêtre d’exposition aux données, mais aussi pour réduire le délai dont un acteur de menace a besoin pour exfiltrer les données de l’environnement. En réduisant cette fenêtre, les organisations peuvent réduire le coût global d’une violation de données.
+- Intention : un rapport d’IBM &quot; intitulé Coût d’un rapport de violation de données [2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)&quot; souligne que le temps moyen d’identification et de contenu d’une violation de données peut prendre 280 jours, c’est-à-dire plus lorsque la violation est le fait d’un acteur malveillant qui est signalé comme étant 315days. Étant donné que le coût moyen d’une violation de données est signalé comme étant en millions de dollars, il est essentiel que ce cycle de vie de violation de données soit réduit non seulement pour réduire la fenêtre d’exposition aux données, mais aussi pour réduire le délai dont un acteur de menace a besoin pour exfiltrer les données de l’environnement. En réduisant cette fenêtre, les organisations peuvent réduire le coût global d’une violation de données.
 
 - En implémentant un processus de révision et d’alerte robuste, les organisations sont beaucoup mieux dotées pour identifier les violations beaucoup plus rapidement dans le cycle de vie des violations de données afin de minimiser son impact sur l’organisation. En outre, un processus fort peut aider à identifier les tentatives de violation, ce qui permet aux organisations d’empêcher les mécanismes de sécurité d’atténuer cette menace accrue afin de réduire davantage les risques de compromission par la campagne d’attaque.
 
@@ -1123,13 +1124,13 @@ La révision des journaux de sécurité est une fonction importante pour aider l
 
 - Objectif : l’objectif de ce contrôle est de s’assurer que les révisions quotidiennes des journaux sont effectuées. Ceci est important pour identifier les anomalies qui peuvent ne pas être détectées par les scripts/requêtes d’alerte configurés pour fournir des alertes d’événements de sécurité.
 
-- Exemples de recommandations en matière de preuves : les preuves sont généralement fournies par capture d’écran ou partage d’écran, montrant que des révisions de journal sont en cours. Il peut s’agit de formulaires qui sont remplis chaque jour, ou d’un ticket JIRA ou DevOps avec des commentaires pertinents publiés pour montrer qu’ils sont exécutés quotidiennement. Par exemple, un ticket JIRA hebdomadaire peut être créé le 26 juin 2021 pour la révision quotidienne des journaux, chaque jour où quelqu’un publie les résultats de l’examen quotidien du &quot; &quot; journal. Si des anomalies sont signalées, cela peut être documenté dans ce même ticket pour montrer le contrôle suivant dans une seule JIRA.
+- Exemples de recommandations en matière de preuves : les preuves sont généralement fournies par capture d’écran ou partage d’écran, montrant que des révisions de journal sont en cours. Il peut s’agit de formulaires qui sont remplis chaque jour, ou d’un ticket JIRA ou DevOps avec des commentaires pertinents publiés pour montrer qu’ils sont exécutés quotidiennement. Par exemple, un ticket &quot;JIRA hebdomadaire peut être créé le 26 juin 2021&quot; pour la révision quotidienne des journaux, chaque jour où quelqu’un publie les résultats de l’examen quotidien du journal. Si des anomalies sont signalées, cela peut être documenté dans ce même ticket pour montrer le contrôle suivant dans une seule JIRA.
 
 - Si des outils automatisés sont utilisés, des preuves de capture d’écran peuvent être fournies pour démontrer l’automatisation configurée et fournir des preuves supplémentaires pour montrer que l’automatisation est en cours d’exécution et que quelqu’un examine la sortie automatisée.
 
 - Exemple de preuve : Contoso utilise un fournisseur SOC tiers, Contrôlenet Cyber Security, pour la corrélation de journaux et les avis. Le fournisseur SOC a la possibilité de fournir une analyse automatisée des journaux pour les journaux anormaux et les événements chaînés qui peuvent mettre en évidence un événement de sécurité potentiel. Les trois captures d’écran suivantes montrent les règles de corrélation dans LeVault.
 
-Cette première capture d’écran identifie l’endroit où un utilisateur a été ajouté &#39;groupe administrateurs&#39; domaine.
+Cette première capture d’écran identifie l’endroit où un utilisateur a été ajouté au groupe &#39;administrateurs&#39; domaine.
 
 ![Image](../media/UserGuidePhotos/Control-No-63.png)
 
@@ -1165,13 +1166,13 @@ Les événements de sécurité critiques doivent être immédiatement examinés 
 
 **Contrôle n 65 :** Fournir une documentation de stratégie qui régit les procédures et les pratiques d’alerte des événements de sécurité.
 
-- Intention : l’alerte doit être utilisée pour les événements de sécurité clés qui nécessitent une réponse immédiate d’une organisation, car il est possible que l’événement indique une violation d’environnement et/ou une violation de données. Un processus fort autour du processus d’alerte doit être documenté pour garantir que cette opération est effectuée de manière cohérente et répétable. Cela permettra, espérons-le, de réduire la chronologie du cycle de vie &quot; des &quot; violations de données.
+- Intention : l’alerte doit être utilisée pour les événements de sécurité clés qui nécessitent une réponse immédiate d’une organisation, car il est possible que l’événement indique une violation d’environnement et/ou une violation de données. Un processus fort autour du processus d’alerte doit être documenté pour garantir que cette opération est effectuée de manière cohérente et répétable. Cela permettra, espérons-le, de réduire la chronologie du &quot;cycle de vie des violations&quot; de données.
 
 - Exemple de directives de preuve : fournir aux organisations des documents de stratégie et de procédure documentés couvrant les meilleures pratiques en matière d’alertes d’événements de sécurité.
 
 - Exemple de preuve : voici un extrait de la stratégie/procédure d’alerte des événements de sécurité. Veuillez fournir les documents de stratégie et de procédure complets pour prendre en charge votre évaluation.
-![Image ](../media/UserGuidePhotos/Control-No-65.png)
- ![](../media/UserGuidePhotos/Control-No-65-1.png)
+![PicturePicture](../media/UserGuidePhotos/Control-No-65.png)
+![](../media/UserGuidePhotos/Control-No-65-1.png)
 
 **Remarque :** Cette capture d’écran montre un document de stratégie/processus. Les isoeurs s’attend à partager la documentation de stratégie/procédure de prise en charge réelle et non simplement à fournir une capture d’écran.
 
@@ -1185,7 +1186,7 @@ Les événements de sécurité critiques doivent être immédiatement examinés 
 
 - Exemple de directives de preuve : des preuves doivent être fournies au moyen de captures d’écran de la configuration d’alerte **ET** de preuves des alertes reçues. Les captures d’écran de configuration doivent afficher la logique qui déclenche les alertes et la façon dont les alertes sont envoyées. Les alertes peuvent être envoyées par SMS, courrier électronique, Teams canaux, canaux Slack, etc.
 
-- Exemple de preuve : Contoso utilise un SOC tiers fourni par [La cybersécurité de Contrôlenet](https://www.claranet.co.uk/services/cybersecurity/managed-detection-and-response). L’exemple suivant montre que l’alerte dans ForeignVault, utilisée par le SOC, est configurée pour envoyer une alerte à un membre de l’équipe SOC, Dan Contrôle chez Contrôlenet Cyber Security.
+- Exemple de preuve : Contoso utilise un SOC tiers fourni par [la cybersécurité Dunet](https://www.claranet.co.uk/services/cybersecurity/managed-detection-and-response). L’exemple suivant montre que l’alerte dans ForeignVault, utilisée par le SOC, est configurée pour envoyer une alerte à un membre de l’équipe SOC, Dan Contrôle chez Contrôlenet Cyber Security.
 ![Image](../media/UserGuidePhotos/Control-No-66.png)
 
 La capture d’écran suivante montre une alerte reçue par Dan.
@@ -1209,7 +1210,7 @@ La gestion des risques de sécurité des informations est une activité importan
 
 - Intention : comme nous l’avons vu plus haut, un processus solide de gestion des risques liés à la sécurité des informations est important pour aider les organisations à gérer efficacement les risques. Cela permettra aux organisations de planifier des atténuations efficaces contre les menaces qui pèsent sur l’environnement.
 
-**Il est important que l’évaluation des risques inclut le risque de sécurité des informations et pas seulement les risques &quot; &quot; généraux de l’entreprise.**
+**Il est important que l’évaluation des risques inclut le risque de sécurité des informations et pas seulement les risques &quot;généraux de l’entreprise&quot; .**
 
 - Exemple de directives de preuve : le processus de gestion de l’évaluation des risques officiellement documenté doit être fourni.
 
@@ -1224,7 +1225,7 @@ La gestion des risques de sécurité des informations est une activité importan
 
 - Objectif : les menaces de sécurité changent constamment en fonction des modifications apportées à l’environnement, des modifications apportées aux services offerts, des influences externes, de l’évolution du paysage des menaces de sécurité, etc. Les organisations doivent passer par ce processus au moins une fois par an. Il est recommandé que ce processus soit également effectué en cas de modifications importantes, car les menaces peuvent changer.
 
-- Exemple de directives de preuve : la preuve peut être par le suivi de version ou des preuves obsolètes. Des preuves doivent être fournies, qui indiquent le résultat de l’évaluation des risques de sécurité des informations et les dates **NOT** sur le processus d’évaluation des risques de sécurité des informations lui-même.
+- Exemple de directives de preuve : la preuve peut être par le suivi de version ou des preuves obsolètes. Des preuves doivent être fournies, qui indiquent le résultat de l’évaluation des risques de sécurité des informations et **les dates NOT** sur le processus d’évaluation des risques de sécurité des informations lui-même.
 
 - Exemple de preuve : cette capture d’écran montre une réunion d’évaluation des risques en cours de planification tous les six mois.
 ![Image](../media/UserGuidePhotos/Control-No-69.png)
@@ -1286,7 +1287,7 @@ La capture d’écran suivante illustre un plan de traitement des risques.
 
 Une réponse aux incidents de sécurité est importante pour toutes les organisations, car cela peut réduire le temps passé par une organisation à contenir un incident de sécurité et à limiter le niveau d’exposition des organisations à l’exfiltration des données. En développant un plan de réponse complet et détaillé aux incidents de sécurité, cette exposition peut être considérablement réduite du moment de l’identification au moment de l’endiguement.
 
-Un rapport d’IBM intitulé Coût d’un rapport de violation de données &quot; [2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/) met en évidence qu’en moyenne, le temps pris pour contenir une violation était &quot; de 73 jours. En outre, le même rapport identifie l’économiseur de coût le plus important pour les organisations qui ont subi une violation, était la préparation aux réponses aux incidents, offrant une économie moyenne de 2 000 000 dollars.
+Un rapport d’IBM &quot; intitulé Coût d’un rapport [de violation de données 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)&quot; met en évidence qu’en moyenne, le temps pris pour contenir une violation était de 73 jours. En outre, le même rapport identifie l’économiseur de coût le plus important pour les organisations qui ont subi une violation, était la préparation aux réponses aux incidents, offrant une économie moyenne de 2 000 000 dollars.
 
 Les organisations doivent suivre les meilleures pratiques en matière de conformité de la sécurité à l’aide d’infrastructure standard telles que ISO 27001, NIST, SOC 2, PCI DSS, etc.
 
@@ -1316,7 +1317,7 @@ Les organisations doivent suivre les meilleures pratiques en matière de conform
 
 - Intention : comme nous l’avons déjà mentionné précédemment, plus il faut de temps pour qu’une organisation contienne une compromission, plus le risque d’exfiltration des données est élevé, ce qui peut entraîner un volume plus important de données exfiltrées et plus le coût global de la compromission est élevé. Il est important que les équipes&#39;de réponse aux incidents soient équipés pour répondre aux incidents de sécurité en temps voulu. En suivant une formation régulière et en faisant des exercices de tabletop, l’équipe doit gérer rapidement et efficacement les incidents de sécurité.
 
-- Il est recommandé d’effectuer à la fois  une formation interne sur la réponse aux incidents pour l’équipe de réponse aux incidents et d’effectuer des exercices réguliers au niveau du plan de table, qui doivent être associés à l’évaluation des risques de sécurité des informations afin d’identifier les incidents de sécurité les plus susceptibles de se produire. Ainsi, l’équipe sait rapidement quelles mesures prendre pour contenir et examiner les incidents de sécurité les plus probables.
+- Il est recommandé d’effectuer à la fois une formation interne sur la réponse aux  incidents pour l’équipe de réponse aux incidents et d’effectuer des exercices réguliers au niveau du plan de table, qui doivent être associés à l’évaluation des risques de sécurité des informations afin d’identifier les incidents de sécurité les plus susceptibles de se produire. Ainsi, l’équipe sait rapidement quelles mesures prendre pour contenir et examiner les incidents de sécurité les plus probables.
 
 - Exemples de directives de preuve : des preuves doivent être fournies, qui montrent que la formation a été effectuée au moyen du partage du contenu de la formation et des enregistrements montrant qui a participé (qui doit inclure toute l’équipe de réponse aux incidents). Autrement, ou aussi enregistrements indiquant qu’un exercice de tabletop a été effectué. Tout cela doit avoir été effectué dans un délai de 12 mois à partir du moment où la preuve est envoyée.
 
@@ -1354,13 +1355,13 @@ Ce domaine de sécurité est inclus pour s’assurer que toutes les données con
 
 En raison des exigences de connectivité des applications/des applications développées par M365, les communications se feront via des réseaux publics, à savoir Internet. Pour cette raison, les données en transit doivent être protégées de manière équitable. Cette section couvre la protection des communications de données sur Internet.
 
-**Contrôle n 1 :** Fournissez des preuves montrant que la configuration TLS répond ou dépasse les exigences de chiffrement dans les exigences de configuration de profil [TLS.](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#appendix-a)
+**Contrôle n 1 :** Fournissez des preuves montrant que la configuration TLS répond ou dépasse les exigences de chiffrement dans les conditions requises pour la [configuration de profil TLS](../docs/certification-submission-guide.md#appendix-a).
 
 - Objectif : l’objectif de ce contrôle est de s’assurer que les données M365 consommées par votre organisation sont transmises en toute sécurité. La configuration de profil TLS définit les exigences spécifiques de TLS pour garantir que le trafic est sécurisé contre les attaques de l’intermédiaire.
 
 - Exemples de recommandations en matière de preuves : le moyen le plus simple de le vérifier consiste à exécuter l’outil test du serveur [SSL Qualys](https://www.ssllabs.com/ssltest/) sur TOUS les écouteurs **web,** y compris ceux qui s’exécutent sur des ports nonstandards.
 
-- N’oubliez pas de cocher l’option Ne pas afficher les résultats sur les tableaux, ce qui empêche l’ajout de &quot; &quot; l’URL au site web.
+- N’oubliez pas de cocher &quot;l’option Ne pas afficher les résultats sur les tableaux&quot; , ce qui empêche l’ajout de l’URL au site web.
 
 - Vous pouvez également fournir des preuves pour démontrer les vérifications individuelles dans les exigences de configuration de profil TLS. Les paramètres de configuration peuvent être utilisés, ainsi que des scripts et des outils logiciels pour vous aider à fournir des preuves de certains paramètres spécifiques, c’est-à-dire que la compression TLS est désactivée.
 
@@ -1370,7 +1371,7 @@ En raison des exigences de connectivité des applications/des applications déve
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-1-1.png)
 
-**Remarque**: les analystes de certification examineront la sortie complète pour confirmer que toutes les conditions requises pour la configuration de profil TLS sont remplies (veuillez fournir des captures d’écran de la sortie complète de l’analyse). Depending_ sur __what_ preuve a été fournie, les analystes peuvent exécuter leur propre analyse Qualys.
+**Remarque** : les analystes de certification examineront la sortie complète pour confirmer que toutes les conditions requises pour la configuration de profil TLS sont remplies (veuillez fournir des captures d’écran de la sortie complète de l’analyse). Depending_ _sur _what_ preuve a été fournie, les analystes peuvent exécuter leur propre analyse Qualys.
 
 - Exemple de preuve 2 : la capture d’écran suivante montre que TLS 1.2 est configuré sur le stockage.
 
@@ -1388,17 +1389,17 @@ Binaire : 0 - off 1 - on
 
 Hexadécimal : 0x00000000 - hors 0xffffffff - on
 
-Remarque **:** - N’utilisez pas cette méthodologie si vous ne la comprenez pas, car nous (Microsoft) ne sommes pas responsables de l’utilisation ou du suivi de cet exemple ou de tout impact de son utilisation sur vos systèmes. Il s’agit ici d’illustrer simplement une autre façon de montrer si TLS est activé ou désactivé.
+Remarque **: -** N’utilisez pas cette méthodologie si vous ne la comprenez pas, car nous (Microsoft) ne sommes pas responsables de l’utilisation ou du suivi de cet exemple ou de tout impact de son utilisation sur vos systèmes. Il s’agit ici d’illustrer simplement une autre façon de montrer si TLS est activé ou désactivé.
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-1-4.png)
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-1-5.png)
 
-**Remarque**: ces captures d’écran ne peuvent pas répondre à cette exigence.
+**Remarque** : ces captures d’écran ne peuvent pas répondre à cette exigence.
 
 **Contrôle n 2 :** Fournir des preuves montrant que la compression TLS est désactivée dans tous les services publics qui gèrent les demandes web.
 
-- Intention : il existe une vulnérabilité TLS spécifique,CRIM ([CVE-2012-4929](https://nvd.nist.gov/vuln/detail/CVE-2012-4929)), qui affecte la compression TLS. Pour cette raison, les recommandations du secteur sont de désactiver cette fonctionnalité.
+- Intention : il existe une vulnérabilité TLS spécifique, LACRIM ([CVE-2012-4929](https://nvd.nist.gov/vuln/detail/CVE-2012-4929)), qui affecte la compression TLS. Pour cette raison, les recommandations du secteur sont de désactiver cette fonctionnalité.
 
 - Exemple de directives de preuve : cela peut être une preuve par le biais de l’outil Qualys SSL Labs.
 
@@ -1408,11 +1409,11 @@ Remarque **:** - N’utilisez pas cette méthodologie si vous ne la comprenez pa
 
 **Contrôle n 3 :** Fournissez des preuves montrant que la sécurité de transport http TLS stricte est activée et configurée pour >= 15552000 sur tous les sites.
 
-- Intention : le protocole HSTS (Http Strict Transport Security) est un mécanisme de sécurité conçu pour protéger les sites web contre les attaques de l’intermédiaire en forçant les connexions TLS à l’intermédiaire d’un champ d’en-tête de réponse HTTPS nommé &quot; Strict-Transport-Security &quot; .
+- Intention : le protocole HSTS (Http Strict Transport Security) est un mécanisme de sécurité conçu pour protéger les sites web contre les attaques de l’intermédiaire en forçant les connexions TLS à l’intermédiaire d’un champ d’en-tête de réponse HTTPS &quot;nommé Strict-Transport-Security&quot;.
 
 - Exemples de recommandations en matière de preuve : cela peut être une preuve par le biais de l’outil Qualys SSL Labs ou d’autres outils et des applications de navigateur web.
 
-- Exemple de preuve : la capture d’écran suivante illustre cette situation par le biais d’un &#39;de navigateur web appelé&#39;'en-tête HTTP&#39; le site web [www.microsoft.com](http://www.microsoft.com/) web.
+- Exemple de preuve : la capture d’écran suivante illustre cette situation par le biais d’un &#39;de navigateur web appelé&#39;'en-tête HTTP&#39; le site web [www.microsoft.com](https://www.microsoft.com/) web.
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-3.png)
 
@@ -1424,15 +1425,15 @@ Lorsque les données consommées à partir de la plateforme Microsoft 365 sont s
 
 - Intention : certains algorithmes de chiffrement plus anciens contiennent des faiblesses de chiffrement, ce qui augmente le risque qu’un acteur de menace puisse déchiffrer les données à l’insu de la clé. Pour cette raison, l’objectif de ce contrôle est de s’assurer que seuls les algorithmes de chiffrement acceptés par le secteur sont utilisés pour protéger les données M365 stockées.
 
-- Exemple de directives de preuve : des preuves peuvent être fournies au moyen de captures d’écran montrant le chiffrement utilisé pour protéger les données M365 dans les bases de données et d’autres emplacements de stockage. Les preuves doivent démontrer que la configuration du chiffrement est conforme aux exigences de [configuration](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#appendix-b) du profil de chiffrement de la certification Microsoft 365 de chiffrement.
+- Exemple de directives de preuve : des preuves peuvent être fournies au moyen de captures d’écran montrant le chiffrement utilisé pour protéger les données M365 dans les bases de données et d’autres emplacements de stockage. Les preuves doivent démontrer que la configuration du chiffrement est conforme aux exigences de [configuration](../docs/certification-submission-guide.md#appendix-b) du profil de chiffrement de la certification Microsoft 365 chiffrement.
 
-- Exemple de preuve : la capture d’écran suivante montre que le TDE (Transparent Data Encryption) est activé sur la base de données Contoso. La deuxième capture d’écran montre la page de documents Microsoft &#39;Chiffrement transparent des données pour SQL Database, SQL Managed Instance et [Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=sql-server-ver15&amp;tabs=azure-portal)&#39; montrant que le chiffrement AES 256 est utilisé pour Azure TDE.
+- Exemple de preuve : la capture d’écran suivante montre que le TDE (Transparent Data Encryption) est activé sur la base de données Contoso. La deuxième capture d’écran montre la page de documents Microsoft &#39;Chiffrement transparent des données pour [SQL Database, SQL Managed Instance et Azure Synapse Analytics](https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=sql-server-ver15&amp;tabs=azure-portal)&#39; montrant que le chiffrement AES 256 est utilisé pour Azure TDE.
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-4.png)
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-4-1.png)
 
-- Exemple de preuve 2 : la capture d’écran suivante montre stockage Azure configuré avec le chiffrement pour les blobs et les fichiers. La capture d’écran suivante montre la page de documents Microsoft stockage Azure chiffrement des données au repos montrant que &quot; [](https://docs.microsoft.com/en-gb/azure/storage/common/storage-service-encryption) &quot; stockage Azure utilise AES-256 pour le chiffrement.
+- Exemple de preuve 2 : la capture d’écran suivante montre stockage Azure configuré avec le chiffrement pour les blobs et les fichiers. La capture d’écran suivante montre [la page](https://docs.microsoft.com/azure/storage/common/storage-service-encryption)&quot; &quot; documents Microsoft stockage Azure chiffrement des données au repos montrant que stockage Azure utilise AES-256 pour le chiffrement.
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-4-2.png)
 
@@ -1460,13 +1461,13 @@ Lorsque les données consommées à partir de la plateforme Microsoft 365 sont s
 
 ### <a name="data-retention-and-disposal"></a>Conservation et suppression de données
 
-Lorsque les isv consomment et stockent des données M365, cela risque de compromettre les données en cas de compromission de l’environnement isv par un acteur de menace. Pour réduire ce risque, les organisations doivent uniquement conserver les données dont elles ont besoin pour la distribution des services et non les données qui peuvent être utilisés &quot; &quot; à l’avenir. En outre, les données doivent être conservées uniquement aussi longtemps que nécessaire pour fournir les services pour les données capturées. La rétention des données doit être définie et communiquée aux utilisateurs. Une fois que les données dépassent la période de rétention définie, elles doivent être supprimées en toute sécurité afin que les données ne peuvent pas être reconstruites ou récupérées.
+Lorsque les isv consomment et stockent des données M365, cela risque de compromettre les données en cas de compromission de l’environnement isv par un acteur de menace. Pour réduire ce risque, les organisations doivent uniquement conserver les données dont elles ont besoin pour la distribution des services &quot;&quot; et non les données qui peuvent être utilisés à l’avenir. En outre, les données doivent être conservées uniquement aussi longtemps que nécessaire pour fournir les services pour les données capturées. La rétention des données doit être définie et communiquée aux utilisateurs. Une fois que les données dépassent la période de rétention définie, elles doivent être supprimées en toute sécurité afin que les données ne peuvent pas être reconstruites ou récupérées.
 
 **Contrôle n 7 :** Fournir des preuves montrant qu’une période de rétention des données approuvée et documentée est officiellement établie.
 
 - Objectif : une stratégie de rétention documentée et suivie est importante non seulement pour répondre à certaines obligations légales, telles que la législation sur la confidentialité des données telle que, mais sans s’y limiter, le Règlement général sur la protection des données (R GDPR de l’UE) et la DPA du Royaume-Uni 2018, mais également pour limiter un risque pour les organisations. En comprenant les besoins en matière de données de l’organisation et la durée pendant combien de temps les données sont nécessaires à l’entreprise pour effectuer ses fonctions, les organisations peuvent s’assurer que les données sont correctement éliminées une fois leur utilité expirée. En réduisant les volumes de données stockées, les organisations réduisent la quantité de données exposées en cas de compromission des données. Cela limite l’impact global.
 
-- Souvent, les organisations stockent des données simplement parce qu’il est bon de l’avoir juste au cas où, toutefois, si l’organisation &quot;&#39;n'&#39;pas besoin des données pour effectuer son service ou ses fonctions professionnelles, les données ne doivent pas être stockées, car cela augmente inutilement les risques pour les &quot; organisations.&#39;
+- Bien souvent, les organisations stockent des données simplement parce qu’il est bon de l’avoir juste au cas où, toutefois, si l’organisation&#39;n'&#39;pas besoin des données pour effectuer son service ou ses fonctions professionnelles, les données ne doivent pas être stockées, car cela augmente inutilement les risques pour les organisations.&#39;&quot;&quot;
 
 - Exemple de directives de preuve : fournir la stratégie de rétention complète des données qui détaille clairement la durée pendant laquelle les données (qui doivent couvrir tous les types de données) doivent être conservées pour que l’entreprise puisse effectuer ses fonctions professionnelles.
 
@@ -1486,7 +1487,7 @@ Lorsque les isv consomment et stockent des données M365, cela risque de comprom
 
 **Remarque :** Toutes les données client personnelles/sensibles doivent être expurgées dans la capture d’écran.
 
-- Exemple de preuve : la preuve suivante montre une requête SQL montrant le contenu de la table de base de données trié dans l’ordre croissant sur le champ &#39;DATE TRANSACTION&#39; pour afficher les enregistrements les plus anciens dans la base de \_ données. Si les données ont deux mois, cela&#39;pas dépasser la période de rétention définie.
+- Exemple de preuve : la preuve suivante montre une requête SQL montrant le contenu de la table de base de données trié dans l’ordre croissant sur le champ&#39; DATETRANSACTION\_ &#39;pour afficher les enregistrements les plus anciens dans la base de données. Si les données ont deux mois, cela&#39;pas dépasser la période de rétention définie.
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-8.png)
 
@@ -1496,7 +1497,7 @@ Lorsque les isv consomment et stockent des données M365, cela risque de comprom
 
 - Objectif : l’objectif de ce contrôle est de s’assurer que le mécanisme utilisé pour supprimer des données qui dépasse la période de rétention le fait en toute sécurité. Les données supprimées peuvent parfois être récupérées . Par conséquent, le processus de suppression doit être suffisamment robuste pour garantir que les données ne peuvent pas être récupérées une fois supprimées.
 
-- Exemple de directives de preuve : si le processus de suppression est effectué par programme, fournissez une capture d’écran du script utilisé pour effectuer cette opération. S’il&#39;est exécuté selon une planification, fournissez une capture d’écran montrant la planification. Par exemple, un script pour supprimer des fichiers au sein d’un partage de fichiers peut être configuré en tant que travail CRON, capture d’écran du travail CRON montrant la planification et le script qui est exécuté et fournir le script montrant la commande utilisée.
+- Exemple de directives de preuve : si le processus de suppression est effectué par programme, fournissez une capture d’écran du script utilisé pour effectuer cette opération. Si elle&#39;exécutée selon une planification, fournissez une capture d’écran montrant la planification. Par exemple, un script pour supprimer des fichiers au sein d’un partage de fichiers peut être configuré en tant que travail CRON, capture d’écran du travail CRON montrant la planification et le script qui est exécuté et fournir le script montrant la commande utilisée.
 
 - Exemple de preuve 1 : il s’agit d’un script simple qui peut être utilisé pour supprimer tous les enregistrements de données conservés en fonction de la date -WHERE DateAdd est -30 jours, ce qui purge tous les enregistrements conservés plus de 30 jours après la date de rétention des données sélectionnée. Veuillez noter que nous avons besoin du script, mais également de la preuve de l’exécuter et des résultats.
 
@@ -1544,7 +1545,7 @@ Cette image montre qu’une demande a été créée dans Jira pour obtenir l’a
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-11-1.png)
 
-Cela montre que la demande d’accès à Sam Daily a été approuvée par Jon Smith, une personne de la direction qui est visible dans le contrôle 10. (Veuillez noter que l’approbation doit être provenant d’une personne habilitée à autoriser la demande de modification, elle ne peut pas être un autre développeur).
+Cela montre que la demande d’accès à Sam Daily a été approuvée par Jon Smith, une personne de la direction qui est visible dans le contrôle 10. (Veuillez noter que l’approbation doit être provenant d’une personne  habilitée à autoriser la demande de modification, elle ne peut pas être un autre développeur).
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-11-2.png)
 
@@ -1552,7 +1553,7 @@ L’exemple ci-dessus montre un flux de travail dans Jira pour ce processus note
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-11-3.png)
 
-Le Project ci-dessus montre maintenant que l’approbation de Sam Daily&#39;'accès aux clés de chiffrement. Sous le journal des travaux en souffrance, sam Daily&#39;demande d’approbation et la personne affectée pour faire le travail.
+Le tableau Project ci-dessus montre maintenant que l’approbation de Sam Daily&#39;'accès aux clés de chiffrement. Sous le journal des travaux en souffrance, sam Daily&#39;demande d’approbation et la personne affectée pour faire le travail.
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-11-4.png)
 
@@ -1574,7 +1575,7 @@ Vous pouvez voir ci-dessus que l’accès a été approuvé et signé comme term
 
 - Exemple de directives de preuve : des preuves peuvent être fournies au moyen d’une capture d’écran qui montre les données et/ou les privilèges d’accès à la clé de chiffrement accordés aux individus échantillonés. Les preuves doivent couvrir tous les emplacements de données.
 
-- Exemple de preuve : cette capture d’écran montre les autorisations accordées à l’utilisateur John Smith qui seraient référencés par rapport à la demande d’approbation pour ce même utilisateur, selon la preuve du &quot; &quot; contrôle précédent.
+- Exemple de preuve : cette capture d’écran montre les autorisations accordées &quot;à l’utilisateur John Smith&quot; qui seraient référencés par rapport à la demande d’approbation pour ce même utilisateur, selon la preuve du contrôle précédent.
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-12.png)
 
@@ -1621,7 +1622,7 @@ Vous pouvez voir ci-dessus que l’accès a été approuvé et signé comme term
 
 ### <a name="gdpr"></a>RGPD
 
-La plupart des organisations traiteront des données qui sont potentiellement des données de&#39;(sujets de données). Lorsque les données **d’une** personne objet de données sont traitées, les organisations doivent respecter le Règlement général sur la protection des données (R GDPR). Cela s’applique à la fois aux contrôleurs de données (vous capturez directement ces données) ou aux processeurs de données (vous traitez ces données au nom d’un contrôleur de données). Bien que cette section&#39;ne couvre pas l’intégralité de la réglementation, elle aborde certains des éléments clés du R GDPR pour vous aider à vous assurer que l’organisation prend au sérieux le R GDPR.
+La plupart des organisations traiteront des données qui sont potentiellement des données de&#39;(sujets de données). Lorsque les données **d’une** personne objet de données sont traitées, les organisations doivent respecter le Règlement général sur la protection des données (R GDPR). Cela s’applique à la fois aux contrôleurs de données (vous capturez directement ces données) ou aux processeurs de données (vous traitez ces données au nom d’un contrôleur de données). Bien que cette section ne couvre&#39;l’intégralité de la réglementation, elle aborde certains des éléments clés du R GDPR pour vous aider à vous assurer que l’organisation prend au sérieux le R GDPR.
 
 **Contrôle n 15 :** Fournir un processus documenté de demande d’accès de l’objet (R.A.S.) et fournir des preuves montrant que les sujets de données sont en mesure de lever des demandes d’accès client.
 
@@ -1645,7 +1646,7 @@ La plupart des organisations traiteront des données qui sont potentiellement de
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-17.png)
 
-Les quatre images ci-dessous montrent comment les emplacements de données de l’isv dans lequel l’explorateur Stockage a été interrogé, puis utilisé pour explorer les fichiers ou les objets blob qui devaient être supprimés du stockage pour se conformer à la demande d’accès client.
+Les quatre images ci-dessous montrent comment les emplacements de données de l’isv dans lequel l’explorateur Stockage a été interrogé et utilisé pour explorer les fichiers ou les objets blob qui devaient être supprimés du stockage pour se conformer à la demande d’accès client.
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-17-1.png)
 
@@ -1697,34 +1698,34 @@ Vous trouverez ci-dessous une stratégie de protection des données qui peut êt
 
 ![Image](../media/UserGuidePhotos/Security-Domain-Control-No-18-5.png)
 
-L’image ci-dessus d’Azure montre comment Azure a été configuré pour répondre aux exigences de conformité du R GDPR pour les données stockées dans un environnement back-end. La stratégie (qui peut être personnalisée ou conçue à partir de plans _Azure)_ permet à l’isv de s’assurer que les données de l'&#39;client sont stockées correctement et qu’elles sont accessibles uniquement par les mesures et alertes définies pour garantir la conformité et afficheront les données non conformes ou l’accès des utilisateurs sur le tableau de bord du Gestionnaire de conformité.
+L’image ci-dessus d’Azure montre comment Azure a été configuré pour répondre aux exigences de conformité du R GDPR pour les données stockées dans un environnement back-end. La stratégie (qui peut être personnalisée ou conçue à partir de plans _Azure_) permet à l’isv de s’assurer que les données du&#39;client sont stockées correctement et qu’elles sont accessibles uniquement par les mesures et alertes définies sont définies pour garantir la conformité et afficheront les données non conformes ou l’accès des utilisateurs sur le tableau de bord du Gestionnaire de conformité.
 
 Livres
 
-Contrôle D. (2018) Manuel d’équipe bleu : édition Réponse aux incidents : guide de champ condensé pour le répondeur d’incident de cybersécurité. 2nd Edition, Publisher : Plateforme de publication indépendante CreateSpace.
+Contrôle D. (2018) Manuel d’équipe bleu : édition Réponse aux incidents : guide de champ condensé pour le répondeur d’incident de cybersécurité. 2nd Edition, Publisher : plateforme de publication indépendante CreateSpace.
 
-Références
+References
 
-- Signalement des cybercriminels de l’action : [https://www.actionfraud.police.uk/](https://www.actionfraud.police.uk/) (accessible le 21/08/02/21).
+- Signalement des cybercriminels de l’action [https://www.actionfraud.police.uk/](https://www.actionfraud.police.uk/) : (accessible le 21/08/02/21).
 - UE. (2021) Liste de vérification R GDPR pour les contrôleurs de données Disponible à l':: [https://gdpr.eu/checklist/](https://gdpr.eu/checklist/) (Accessible le 21/01/02/21).
 - Microsoft. (2018) Journalisation des événements (programme d’installation Windows) Disponible à l’docs.microsoft.com/en-us/windows/win32/msi/event-logging (accès : 12/02/20).
-- Technologies positives. (2020) Comment aborder le développement de logiciels sécurisé disponible dans : [https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-approach-secure-software-development/](https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-approach-secure-software-development/) (Accès : 21/12/20).
-- Règlement (UE) 2016/679 de l’Union européenne et du Conseil du 27 avril 2016 sur la protection des personnes physiques en ce qui concerne le traitement des données personnelles et sur la libre circulation de ces données, et la directive 95/46/EC (Règlement général sur la protection des données) (texte avec pertinence de l’EEE) (2016) Disponible à l’adresse : (Accès : [https://www.legislation.gov.uk/eur/2016/679/contents](https://www.legislation.gov.uk/eur/2016/679/contents) 11/01/2021).
-- Mesures de sécurité. (2020) Guide des mesures de sécurité pour la conformité PCI DSS. Disponible à : [https://info.securitymetrics.com/pci-guide-2020](https://info.securitymetrics.com/pci-guide-2020) (Accès : 06/01/21).
+- Technologies positives. (2020) Comment aborder le développement de logiciels sécurisé disponible dans : [https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-approach-secure-software-development/](https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-approach-secure-software-development/)(Accès : 21/12/20).
+- Règlement (UE) 2016/679 de l’Union européenne et du Conseil du 27 avril 2016 sur la protection des personnes physiques en ce qui concerne le traitement des données personnelles et sur la libre circulation de ces données, et la directive 95/46/EC (Règlement général sur la protection des données) (texte avec pertinence de l’EEE) (2016) Disponible à l’adresse : [https://www.legislation.gov.uk/eur/2016/679/contents](https://www.legislation.gov.uk/eur/2016/679/contents) (Accès : 11/01/2021).
+- Mesures de sécurité. (2020) Guide des mesures de sécurité pour la conformité PCI DSS. Disponible à : [https://info.securitymetrics.com/pci-guide-2020](https://info.securitymetrics.com/pci-guide-2020)(Accès : 06/01/21).
 - Williams J. OWASP Risk Ranking Available at: [https://owasp.org/www-community/OWASP\_Risk\_Rating\_Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology) (Accessed: 12/08/20).
 - Qualys. (2014) Ateliers SSL : problèmes de nouvelles notes de confiance (T) et d’insérialisation (M) disponibles à l':: [https://blog.qualys.com/product-tech/2014/06/17/ssl-labs-new-grades-for-trust-t-and-mismatch-m-issues](https://blog.qualys.com/product-tech/2014/06/17/ssl-labs-new-grades-for-trust-t-and-mismatch-m-issues) (Accès : 29/01/21).
-- NIST SP800-61r2 : Guide de gestion des incidents de sécurité informatique disponible à l':: (accessible le [https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) 24/01/21).
+- NIST SP800-61r2 : Guide de gestion des incidents de sécurité informatique disponible à l'::[https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) (accessible le 24/01/21).
 
 **Images provenant de documents Microsoft**
 
 - [https://www.sans.org/information-security-policy/](https://www.sans.org/information-security-policy/)(Accessible le 21/18/02/21).
-- [https://docs.microsoft.com/en-us/cloud-app-security/anomaly-detection-policy](https://docs.microsoft.com/en-us/cloud-app-security/anomaly-detection-policy)(Accessible le 21/16/02/21).
-- [https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) (Accessible le 21/17/02/21).
-- [https://docs.microsoft.com/en-us/cloud-app-security/anomaly-detection-policy](https://docs.microsoft.com/en-us/cloud-app-security/anomaly-detection-policy) (Accessible le 22/02/21).
-- [https://docs.microsoft.com/en-us/azure/security-center/security-center-managing-and-responding-alerts](https://docs.microsoft.com/en-us/azure/security-center/security-center-managing-and-responding-alerts) (Accessible le 24/02/21).
-- [https://docs.microsoft.com/en-us/azure/security-center/security-center-managing-and-responding-alerts](https://docs.microsoft.com/en-us/azure/security-center/security-center-managing-and-responding-alerts) (Accessible le 24/02/21).
+- [https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy)(Accessible le 21/16/02/21).
+- [https://docs.microsoft.com/azure/azure-monitor/alerts/alerts-overview](https://docs.microsoft.com/azure/azure-monitor/alerts/alerts-overview) (Accessible le 21/17/02/21).
+- [https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) (Accessible le 22/02/21).
+- [https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts) (Accessible le 24/02/21).
+- [https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts) (Accessible le 24/02/21).
 - [https://microsoft.github.io/AzureTipsAndTricks/blog/tip272.html](https://microsoft.github.io/AzureTipsAndTricks/blog/tip272.html)
-- [https://docs.microsoft.com/en-gb/azure/information-protection/what-is-information-protection](https://docs.microsoft.com/en-gb/azure/information-protection/what-is-information-protection)
-- [https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal](https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal)
-- [https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-portal](https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-portal)
-- [https://docs.microsoft.com/en-us/azure/azure-sql/database/threat-detection-configure](https://docs.microsoft.com/en-us/azure/azure-sql/database/threat-detection-configure)
+- [https://docs.microsoft.com/azure/information-protection/what-is-information-protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
+- [https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal](https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal)
+- [https://docs.microsoft.com/azure/governance/policy/assign-policy-portal](https://docs.microsoft.com/azure/governance/policy/assign-policy-portal)
+- [https://docs.microsoft.com/azure/azure-sql/database/threat-detection-configure](https://docs.microsoft.com/azure/azure-sql/database/threat-detection-configure)

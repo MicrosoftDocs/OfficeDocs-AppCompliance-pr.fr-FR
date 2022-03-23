@@ -2,18 +2,19 @@
 title: Informations d’application pour les calendriers de contacts approuvés par le contact approuvé
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les calendriers de contacts approuvés, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b768fc171c2df854bfd863ee8f2597d523d60320
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7e33aa973b2382ef2d2fd75d219864bd81c24d83
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259910"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550843"
 ---
 # <a name="approved-contact-calendars"></a>Calendriers de contacts approuvés
 
@@ -41,6 +42,7 @@ Informations fournies par le contact approuvé à Microsoft :
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Ces informations ont été fournies par le contact approuvé sur la façon dont 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé au cours d’un mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -152,7 +147,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -165,12 +160,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Pour le bot de calendrier, nous stockons les heures de libre/occupé des utilisateurs pour la recherche de périodes gratuites pour plusieurs personnes.  | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
->| Contacts.Read | délégué | Oui, nous stockons les informations de contact. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
->| User.Read | délégué | Oui | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
->| User.ReadBasic.All | délégué | Non | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
->| offline_access | délégué | Oui, les heures de libre/occupé pour les utilisateurs hors connexion. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
->| openid | délégué | Non | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| Calendars.ReadWrite | délégué | Pour le bot de calendrier, nous stockons les heures de libre/occupé des utilisateurs pour la recherche de périodes gratuites pour plusieurs personnes.  | [adef9811-448f-4dd5-88d9-68734050fe58](../azure/adef9811-448f-4dd5-88d9-68734050fe58.md) |
+>| Contacts.Read | délégué | Oui, nous stockons les informations de contact. | [adef9811-448f-4dd5-88d9-68734050fe58](../azure/adef9811-448f-4dd5-88d9-68734050fe58.md) |
+>| User.Read | délégué | Oui | [adef9811-448f-4dd5-88d9-68734050fe58](../azure/adef9811-448f-4dd5-88d9-68734050fe58.md) |
+>| User.ReadBasic.All | délégué | Non | [adef9811-448f-4dd5-88d9-68734050fe58](../azure/adef9811-448f-4dd5-88d9-68734050fe58.md) |
+>| offline_access | délégué | Oui, les heures de libre/occupé pour les utilisateurs hors connexion. | [adef9811-448f-4dd5-88d9-68734050fe58](../azure/adef9811-448f-4dd5-88d9-68734050fe58.md) |
+>| openid | délégué | Non | [adef9811-448f-4dd5-88d9-68734050fe58](../azure/adef9811-448f-4dd5-88d9-68734050fe58.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

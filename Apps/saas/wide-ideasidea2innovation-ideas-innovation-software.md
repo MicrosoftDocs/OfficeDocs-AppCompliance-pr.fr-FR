@@ -2,18 +2,19 @@
 title: 'Informations sur les applications pour les idées larges : logiciels d’innovation par idées larges/Idea2Innovation'
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Toutes les informations de sécurité et de conformité disponibles pour les idées larges : logiciels d’innovation, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d5bbf1d032d5537dab0775522f80d83a472db661
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 60d577d402e68c31f10ed0e5f73ea92f047dfc73
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251200"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550823"
 ---
 # <a name="wide-ideas---innovation-software"></a>Idées larges : logiciels d’innovation
 
@@ -36,11 +37,10 @@ Informations fournies par Wide Ideas/Idea2Innovation à Microsoft :
 | Nom de la société partenaire | Wide Ideas/Idea2Innovation |
 | Site web de l’entreprise | [https://getwideideas.com](https://getwideideas.com) |
 | Conditions d’utilisation de l’application | [https://getwideideas.com/eula](https://getwideideas.com/eula) |
-| Fonctionnalités principales de l’application | Avec le logiciel de gestion de l’innovation de Larges idées incorporé dans Microsoft 365 et Teams, le partage de défis, d’expériences client et d’idées de nouvelles solutions fait partie de la culture professionnelle des employés. |
+| Fonctionnalités principales de l’application | Avec le logiciel de gestion de l’innovation des idées larges incorporé dans Microsoft 365 et Teams, le partage de défis, d’expériences client et d’idées de nouvelles solutions fait partie de la culture professionnelle des employés. |
 | Emplacement du siège social de l’entreprise | Suède |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,8 +106,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -155,7 +155,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -168,12 +168,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | délégué | Permet au Centre d’administration Idées larges de créer un canal dans n’importe quelle équipe, au nom de l’utilisateur inscrit.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| Directory.Read.All | délégué | permet au Centre d’administration Idées larges de lire les données de votre organisation dans&#8217;'annuaire, tels que les utilisateurs, les groupes et les applications | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| Group.Read.All | délégué | permet au Centre d’administration Idées larges de ré lister les groupes et de lire leurs propriétés et toutes les appartenances aux groupes au nom de l’utilisateur inscrit | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| TeamsAppInstallation.ReadWriteForTeam | délégué | Permet au Centre d’administration Idées larges de lire, installer, mettre à niveau et désinstaller Teams applications dans les équipes accessibles par l’utilisateur.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| TeamsTab.Create | délégué |  Permet au Centre d’administration Idées larges de créer des onglets dans n’importe quelle équipe Microsoft Teams, au nom de l’utilisateur inscrit. | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| User.Read | délégué | permet aux utilisateurs de se connecter au Centre d’administration Idées larges et permet à l’application de lire le profil des utilisateurs qui sont inscrits.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| Channel.Create | délégué | Permet au Centre d’administration Idées larges de créer un canal dans n’importe quelle équipe, au nom de l’utilisateur inscrit.  | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| Directory.Read.All | délégué | permet au Centre d’administration Idées larges de lire les données de votre organisation dans&#8217;'annuaire, tels que les utilisateurs, les groupes et les applications | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| Group.Read.All | délégué | permet au Centre d’administration Idées larges de ré lister les groupes et de lire leurs propriétés et toutes les appartenances aux groupes au nom de l’utilisateur inscrit | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| TeamsAppInstallation.ReadWriteForTeam | délégué | Permet au Centre d’administration Idées larges de lire, installer, mettre à niveau et désinstaller Teams applications dans les équipes accessibles par l’utilisateur.  | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| TeamsTab.Create | délégué |  Permet au Centre d’administration Idées larges de créer des onglets dans n’importe quelle équipe Microsoft Teams, au nom de l’utilisateur inscrit. | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| User.Read | délégué | permet aux utilisateurs de se connecter au Centre d’administration Idées larges et permet à l’application de lire le profil des utilisateurs qui sont inscrits.  | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

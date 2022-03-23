@@ -2,18 +2,19 @@
 title: Informations sur l’application pour Aimful par Aimful
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Aimful, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ec08bb1f91c332cd0cde36d199566a4b06cc4816
-ms.sourcegitcommit: 58f40775dd4adee3a6037a74e4ccd98823f4832c
+ms.openlocfilehash: ec3fbf394e219d7d7b3b108e70186510bd6d6a31
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62306063"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551633"
 ---
 # <a name="aimful"></a>Aimful
 
@@ -40,7 +41,7 @@ Informations fournies par Aimful à Microsoft :
 | Conditions d’utilisation de l’application | [https://aimful.io/terms-and-conditions/](https://aimful.io/terms-and-conditions/) |
 | Fonctionnalités principales de l’application | Aimful encourage la transformation de la culture de réunion dans votre équipe ou dans votre entreprise  |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://aimful.io/how-it-works/](https://aimful.io/how-it-works/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
@@ -92,7 +93,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
 | Authentification multifacteur (MFA) activée pour : | CodeRepositories, DNSManagement, Credential |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | S/O |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | N/A |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
 | Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Non |
@@ -157,7 +158,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,8 +171,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Accès aux événements de calendrier | [93544582-de9c-42a0-baa5-df3d25e9bd48](https://docs.microsoft.com/microsoft-365-app-certification/azure/93544582-de9c-42a0-baa5-df3d25e9bd48) |
->| MailboxSettings.Read | délégué | Fuseau horaire de l’utilisateur Access | [93544582-de9c-42a0-baa5-df3d25e9bd48](https://docs.microsoft.com/microsoft-365-app-certification/azure/93544582-de9c-42a0-baa5-df3d25e9bd48) |
+>| Calendars.ReadWrite | délégué | Accès aux événements de calendrier | [93544582-de9c-42a0-baa5-df3d25e9bd48](../azure/93544582-de9c-42a0-baa5-df3d25e9bd48.md) |
+>| MailboxSettings.Read | délégué | Fuseau horaire de l’utilisateur Access | [93544582-de9c-42a0-baa5-df3d25e9bd48](../azure/93544582-de9c-42a0-baa5-df3d25e9bd48.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

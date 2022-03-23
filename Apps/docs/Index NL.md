@@ -2,29 +2,28 @@
 title: Archive de bulletin d’informations
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: Archive des bulletins d’informations de conformité
 keywords: Bulletin de conformité
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 72d288c7409dea138e6150537f7f90df7be597ae
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d4c501f8db279c63fe3129c111fd7a6d1bc27a73
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59274898"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63698504"
 ---
 # <a name="newsletter-archive"></a>Archive de bulletin d’informations
 
-[Mai 2021](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/may2021)
+[Mai 2021](../docs/may2021.md)
 
-[Mars 2021](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/March21%20NL)
+[Mars 2021](../docs/March21%20NL.md)
 
-[Janvier 2021](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/January%2021%20NL)
+[Janvier 2021](../docs/January%2021%20NL.md)
 
-[Décembre 2020](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/december%2020%20NL)
+[Décembre 2020](../docs/december%2020%20NL.md)
 
-[Octobre 2020](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/october%20NL)
+[Octobre 2020](../docs/october%20NL.md)
 
-[Septembre 2020](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/September%20NL)
-
-
+[Septembre 2020](../docs/September%20NL.md)

@@ -2,18 +2,19 @@
 title: Informations d’application pour leQQ par SuperQuickQuestion
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le SQQ, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0dfeb1cc7cf0cbc593cb2cfa2f897bd299963236
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d9a92e995202636c4a5439385b89a217b570747d
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251661"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550052"
 ---
 # <a name="sqq"></a>SQQ
 
@@ -38,9 +39,9 @@ Informations fournies par SuperQuickQuestion à Microsoft :
 | Nom de la société partenaire | SuperQuickQuestion |
 | Site web de l’entreprise | [https://superquickquestion.com](https://superquickquestion.com) |
 | Conditions d’utilisation de l’application | [https://superquickquestion.com/termsofuse](https://superquickquestion.com/termsofuse) |
-| Fonctionnalités principales de l’application | SuperQuickQuestion est une plateforme de vidéoconférence en direct avec une limite de temps de 60 secondes. Nous voulons encourager des conversations plus productives, éliminer les réunions inutiles et vous aider à accélérer la résolution des problèmes et à récupérer votre calendrier, une minute à la fois. Comme n’importe lequel d’entre nous qui a passé du temps dans des réunions avec une dizaine de personnes essayant de parler les uns des autres peut attester, les réunions plus longues ne sont pas nécessairement plus collaboratives, et c’est là&#8217;que SQQ peut vous aider. |
+| Fonctionnalités principales de l’application | SuperQuickQuestion est une plateforme de vidéoconférence en direct avec une limite de temps de 60 secondes. Nous voulons encourager des conversations plus productives, éliminer les réunions inutiles et vous aider à accélérer la résolution des problèmes et à récupérer votre calendrier, une minute à la fois. Comme n’importe lequel d’entre nous qui a passé du temps dans des réunions avec une dizaine de personnes essayant de discuter les uns des autres peut attester, les réunions plus longues ne sont pas nécessairement plus collaboratives, et ce&#8217;où SQQ peut vous aider. |
 | Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://superquickquestion.com/UserGuide/msteams](https://superquickquestion.com/UserGuide/msteams) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
@@ -124,9 +125,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
-| L’application est-elle conforme au NIST 800-171 ? | S/O |
+| L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -157,7 +158,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,9 +171,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Chat.ReadBasic | délégué | Obtenir le nombre de participants dans une conversation | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
->| User.Read | délégué | Lire le nom du client utilisateur | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
->| openid | délégué | Connectez-vous aux utilisateurs de l’application pour accéder au point Graph de terminaison | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
+>| Chat.ReadBasic | délégué | Obtenir le nombre de participants dans une conversation | [25379fc8-577f-4935-b681-6f027977fbe3](../azure/25379fc8-577f-4935-b681-6f027977fbe3.md) |
+>| User.Read | délégué | Lire le nom du client utilisateur | [25379fc8-577f-4935-b681-6f027977fbe3](../azure/25379fc8-577f-4935-b681-6f027977fbe3.md) |
+>| openid | délégué | Connectez-vous aux utilisateurs de l’application pour accéder au point Graph de terminaison | [25379fc8-577f-4935-b681-6f027977fbe3](../azure/25379fc8-577f-4935-b681-6f027977fbe3.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

@@ -2,18 +2,19 @@
 title: Informations sur les applications pour SuitePro-G par IQar
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SuitePro-G, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a436df31649d7f73d34650e3c0e3bac4119ce9cc
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3d98560d9a350e118543b17c54293ba215e7bb1b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264452"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551453"
 ---
 # <a name="suitepro-g"></a>SuitePro-G
 
@@ -38,9 +39,9 @@ Informations fournies par IQar à Microsoft :
 | Nom de la société partenaire | IQar |
 | Site web de l’entreprise | [https://iqar-france.fr](https://iqar-france.fr) |
 | Conditions d’utilisation de l’application | [https://iqar-france.fr/cgu](https://iqar-france.fr/cgu) |
-| Fonctionnalités principales de l’application | SuitePro-G est un outil collaboratif et estimation pour la gestion de votre portefeuille de projets. Connectez votre outil de pilotage de projets en 3 cliques et gardez une &#233;quipe projet impliqu&#233;e, organis&#233;e et connect&#233;e.  SuitePro-G est une solution collaborative et intuitive qui vous permet de gérer votre portefeuille de projets. Connecter votre outil de gestion de projet en 3 clics et maintenez une équipe de projet impliquée, organisée et connectée.  |
+| Fonctionnalités principales de l’application | SuitePro-G est un outil collaboratif et estimation pour la gestion de votre portefeuille de projets. Connectez votre outil de pilotage de projets en 3 cliques et gardez une &#233;quipe projet impliqu&#233;e, organis&#233;e et connect&#233;e.  SuitePro-G est une solution collaborative et intuitive qui vous permet de gérer votre portefeuille de projets. Connecter outil de gestion de projet en 3 clics et maintenez une équipe de projet impliquée, organisée et connectée.  |
 | Emplacement du siège social de l’entreprise | France |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://admin.suiteprog.com/Terms](https://admin.suiteprog.com/Terms) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | SelfHosted |
 
@@ -57,14 +58,7 @@ Ces informations ont été fournies par IQar sur la façon dont cette applicatio
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Non |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? |  |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |

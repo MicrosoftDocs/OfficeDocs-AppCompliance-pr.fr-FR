@@ -2,18 +2,19 @@
 title: Informations sur l’application pour les Connecter par Engage Squared
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les Connecter du comité, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 91d88db95de0991f7ccb65f9e19e276fce27158c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5327ac45a97b2a0cade740eecbcbc38971ec3243
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62263803"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550603"
 ---
 # <a name="board-connect"></a>Connexion de tableau
 
@@ -38,10 +39,11 @@ Informations fournies par Engage Squared à Microsoft :
 | Nom de la société partenaire | Engage Squared |
 | Site web de l’entreprise | [https://engagesq.com](https://engagesq.com) |
 | Conditions d’utilisation de l’application | [https://boardconnect.app/terms](https://boardconnect.app/terms) |
-| Fonctionnalités principales de l’application | Les Connecter aideront les organisations à gérer les réunions plus efficacement. Une Microsoft Teams, associée à une équipe Microsoft, permet aux organisations de créer des réunions, de gérer des agendas, des sondages, des documents, etc. L’application s’intègre également aux calendriers Outlook et aux groupes Office 365 pour créer des événements de calendrier et aider les administrateurs à organiser et gérer l’événement. |
+| Fonctionnalités principales de l’application | Le Connecter aide les organisations à gérer les réunions plus efficacement. Une Microsoft Teams, associée à une équipe Microsoft, permet aux organisations de créer des réunions, de gérer des agendas, des sondages, des documents, etc. L’application s’intègre également aux calendriers Outlook et aux groupes Office 365 pour créer des événements de calendrier et aider les administrateurs à organiser et gérer l’événement. |
 | Emplacement du siège social de l’entreprise | Australie |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://boardconnect.app](https://boardconnect.app) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par Engage Squared sur la façon dont cette 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé immédiatement |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,8 +101,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | Quelle certification SOC 2 avez-vous atteinte ? | |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | true |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,12 +161,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | Pour permettre à l’application de mettre à jour les calendriers des utilisateurs afin qu’ils reflètent les réponses de participation aux réunions du conseil envoyées via l’application. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| Group.ReadWrite.All | délégué | Pour permettre à l’application de créer, mettre à jour et supprimer des événements de calendrier de groupe. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| Sites.Manage.All | délégué | Pour permettre à l’application de créer des listes et des bibliothèques, gérez les éléments de liste et gérez les documents sur une collection de sites d’équipe. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| User.Read | délégué | Pour autoriser les utilisateurs à se connecter à l’application et permettre à l’application de lire le profil de l’utilisateur actuellement connecté. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs au nom de l’utilisateur inscrit, afin de l’afficher dans l’application. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| offline_access | délégué | Pour permettre à l’application d’obtenir un jeton d’actualisation, qu’elle peut utiliser pour obtenir un nouveau jeton d’accès à l’expiration de l’actuel. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| Calendars.ReadWrite | délégué | Pour permettre à l’application de mettre à jour les calendriers des utilisateurs afin qu’ils reflètent les réponses de participation aux réunions du conseil envoyées via l’application. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
+>| Group.ReadWrite.All | délégué | Pour permettre à l’application de créer, mettre à jour et supprimer des événements de calendrier de groupe. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
+>| Sites.Manage.All | délégué | Pour permettre à l’application de créer des listes et des bibliothèques, gérez les éléments de liste et gérez les documents sur une collection de sites d’équipe. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
+>| User.Read | délégué | Pour autoriser les utilisateurs à se connecter à l’application et permettre à l’application de lire le profil de l’utilisateur actuellement connecté. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
+>| User.ReadBasic.All | délégué | Permet à l’application de lire un ensemble de base de propriétés de profil d’autres utilisateurs au nom de l’utilisateur inscrit, afin de l’afficher dans l’application. Cela inclut le nom d’affichage, le prénom et le nom, l’adresse e-mail et la photo. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
+>| offline_access | délégué | Pour permettre à l’application d’obtenir un jeton d’actualisation, qu’elle peut utiliser pour obtenir un nouveau jeton d’accès à l’expiration de l’actuel. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

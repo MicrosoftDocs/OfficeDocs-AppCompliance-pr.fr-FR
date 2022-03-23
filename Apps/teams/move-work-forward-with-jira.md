@@ -2,18 +2,19 @@
 title: Informations sur l’application pour déplacer le travail vers l’avant avec Jira par déplacer le travail vers l’avant
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Move Work Forward avec Jira, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 44ed4ba1ac4dbfd4d311083701a21a1cee846f24
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: b1d64e9bc54fbd67d3eeb60d2fc72898a1982c37
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255690"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551423"
 ---
 # <a name="move-work-forward-with-jira"></a>Faire avancer le travail avec Jira
 
@@ -40,7 +41,7 @@ Informations fournies par Move Work Forward à Microsoft :
 | Conditions d’utilisation de l’application | [https://www.moveworkforward.com/license-agreement/eula](https://www.moveworkforward.com/license-agreement/eula) |
 | Fonctionnalités principales de l’application | Move Work Forward permet aux entreprises d’accroître la productivité, la transparence des équipes et de gagner du temps en fournissant un ensemble de produits qui intègrent les outils Atlassian à Microsoft Teams, GitHub, Azure DevOps et d’autres outils de productivité d’équipe. |
 | Emplacement du siège social de l’entreprise | Singapour |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://www.moveworkforward.com/product/microsoft-teams-jir...](https://www.moveworkforward.com/product/microsoft-teams-jira-connector) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
@@ -124,8 +125,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
@@ -157,7 +158,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -170,12 +171,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | délégué | Créer un canal de discussion pour un problème Jira | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
->| Channel.ReadBasic.All | délégué | Lire les canaux d’une équipe pour envoyer des notifications | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
->| Team.ReadBasic.All | délégué | Pour lire les équipes à afficher sur la page de configuration. Pour les notifications de Jira. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
->| TeamsAppInstallation.ReadForTeam | délégué | Vérifiez si l’application est installée dans une équipe. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
->| User.Read | délégué | Pour améliorer l’expérience utilisateur. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
->| email | délégué | pour matricer des comptes Microsoft et Atlassian | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| Channel.Create | délégué | Créer un canal de discussion pour un problème Jira | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](../azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea.md) |
+>| Channel.ReadBasic.All | délégué | Lire les canaux d’une équipe pour envoyer des notifications | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](../azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea.md) |
+>| Team.ReadBasic.All | délégué | Pour lire les équipes à afficher sur la page de configuration. Pour les notifications de Jira. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](../azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea.md) |
+>| TeamsAppInstallation.ReadForTeam | délégué | Vérifiez si l’application est installée dans une équipe. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](../azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea.md) |
+>| User.Read | délégué | Pour améliorer l’expérience utilisateur. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](../azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea.md) |
+>| email | délégué | pour matricer des comptes Microsoft et Atlassian | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](../azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 

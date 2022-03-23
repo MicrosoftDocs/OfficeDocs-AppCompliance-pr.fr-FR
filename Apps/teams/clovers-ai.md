@@ -2,20 +2,21 @@
 title: Informations sur l’application pour les personnes à l’aide de l’IA des personnes à l’emploi
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/22/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les personnes responsables du traitement des données, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e15d1a7e34c8ad8b1cd12ed170457182b71f1466
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: c5c338e404ece344565788051d4f660feb4c93b4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081207"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551603"
 ---
-# <a name="clovers"></a>Attaquants
+# <a name="clovers"></a>Clovers
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +33,10 @@ Informations fournies par l’IA des navigateurs à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | Attaquants |
+| Nom de l'application | Clovers |
 | ID | WA200003795 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Intelligence artificielle des attaquants |
+| Nom de la société partenaire | IA des clovers |
 | Site web de l’entreprise | [https://clovers.ai](https://clovers.ai) |
 | Conditions d’utilisation de l’application | [https://clovers.ai/terms-of-use/](https://clovers.ai/terms-of-use/) |
 | Fonctionnalités principales de l’application | Les joueurs - guide d’entretien pour aider les équipes à engager plus efficacement |
@@ -57,14 +58,7 @@ Ces informations ont été fournies par l’IA des personnes en question sur la 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? |  |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’intégration du centre de contacts cloud de tempélage Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6e4c79749325a66c6a9537e23257f2131ac9acf1
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: 37d301bcbab0c389e87eb49fcb8b7c86a01cd00b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459810"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551693"
 ---
 # <a name="storm-cloud-contact-center-teams-integration"></a>Intégration du centre de contacts cloud Teams tempél
 
@@ -41,7 +41,6 @@ Informations fournies par Content Contents à Microsoft :
 | Emplacement du siège social de l’entreprise | Royaume-Uni de Grande-France et Irlande du Nord (le) |
 | Page d’informations sur l’application | [https://www.contentguru.com/microsoft-teams-integration/](https://www.contentguru.com/microsoft-teams-integration/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

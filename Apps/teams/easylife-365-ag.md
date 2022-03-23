@@ -3,24 +3,24 @@ title: Informations sur les applications pour EasyLife 365 par EasyLife 365 AG
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 02/04/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour EasyLife 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cf7a3b8b77e915f42d1a8d3d1573ca23fcf1cf78
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 1bbd4661f847866ed0d9094f641ba7d34fefd8c0
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63548492"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63696506"
 ---
 # <a name="easylife-365"></a>EasyLife 365
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 5, 2022</p>
+<p>Last updated by the developer on: March 21, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/93731bac-4d43-480f-9e40-9fc567dfb817" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003697" target="_blank">Afficher dans AppSource</a>
@@ -42,7 +42,8 @@ Informations fournies par EasyLife 365 AG à Microsoft :
 | Fonctionnalités principales de l’application | Faciliter la gouvernance ! |
 | Emplacement du siège social de l’entreprise | Suisse |
 | Page d’informations sur l’application | [https://www.easylife365.cloud/governance/features](https://www.easylife365.cloud/governance/features) |
-| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -92,7 +93,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Les pratiques de codage sécurisé prennent-ils en compte les classes de vulnérabilité courantes telles que les 10 premières classes OWASP ? | Oui |
 | Authentification multifacteur (MFA) activée pour : | DNSManagement, Credential, CodeRepositories |
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
-| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | N/A |
+| Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | S/O |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
 | Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
@@ -170,22 +171,42 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | délégué | Permet de gérer les groupes Microsoft 365 dans l’application | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
->| User.Read.All | délégué | Permet de récupérer des informations utilisateur dans l’application. Utilisé dans les s sélectionneurs de personnes | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
->| ChannelMember.ReadWrite.All | application | Utilisé pour lire et manipuler les membres du canal dans l’application back-end | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| Directory.ReadWrite.All | les deux | Permet de vérifier si les autorisations d’application dans le client pour EasyLife 365. Permet de désactiver/activer l’accès invité à un groupe Microsoft 365 dans le back-end. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| Group.ReadWrite.All | application | Utilisé pour mettre en service Microsoft 365 groupes, vérifier les propriétaires d’un groupe, archiver Teams, supprimer des groupes dans le service backend | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| Mail.Send | application | Permet d’envoyer les notifications par courrier électronique aux utilisateurs avec n’importe quelle boîte aux lettres dans l’environnement. Cette configuration est configurée par les administrateurs pour envoyer des messages électroniques à partir d’une boîte aux lettres ou d’un utilisateur partagé. Les administrateurs limitent généralement les autorisations de cette application à l’ID de l’application. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| MailboxSettings.Read | application | Utilisé pour lire les paramètres de langue d’une boîte aux lettres d’utilisateurs avant d’envoyer des notifications dans cette langue spécifique | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| Reports.Read.All | application | Utilisé pour vérifier l’utilisation des groupes Microsoft 365 dans le système back-end | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| Sites.Read.All | application | Utilisé pour éumérer les sites SharePoint Online dans un client | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| User.Read.All | application | Utilisé pour rechercher des utilisateurs et récupérer des informations de base pour envoyer des notifications | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| User.ReadWrite.All | application | Permet d’inviter des comptes invités, de modifier les métadonnées du compte invité et de supprimer des comptes invités si nécessaire dans l’application back-end | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
->| ChannelMember.ReadWrite.All | délégué | Utilisé par les utilisateurs pour manipuler l’appartenance au canal d’une équipe | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
->| Group.ReadWrite.All | délégué | Utilisé pour manipuler les métadonnées pour Microsoft 365 groupes et Teams. Utilisé pour rechercher des groupes dans votre environnement | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| Group.Read.All | délégué | Permet de lire les groupes ou les Teams | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| Group.ReadWrite.All | délégué | Permet de manipualte les métadonnées des groupes ou des Teams | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| GroupMember.Read.All | délégué | Lit les membres d’un groupe | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| User.Read.All | délégué | Permet de récupérer les métadonnées du compte invité | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| User.ReadBasic.All | délégué | Permet de rechercher des membres ou des comptes invités dans une organisation | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| Channel.Create | application | Crée des canaux pour une équipe | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Channel.ReadBasic.All | application | Lit les canaux d’une équipe existante | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Directory.Read.All | application | Obtenir les modèles de paramètres de groupe et de compte invité actuels | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Directory.ReadWrite.All | application | Appliquer les paramètres du compte invité pour le groupe ou l’équipe | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Group.Create | application | Crée un groupe | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Group.Read.All | les deux | Lit les informations de groupe et récupère les alias de groupe | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Group.ReadWrite.All | application | Manipule les métadonnées de groupe dans le back-end | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| GroupMember.Read.All | application | Récupère les appartenances de groupe ou d’équipe dans le back-end | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| GroupMember.ReadWrite.All | application | Permet d’ajouter ou de supprimer des membres d’un groupe ou d’une équipe | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| IdentityRiskyUser.ReadWrite.All | application | Permet de manipuler les comptes invités et leurs métadonnées | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Mail.Send | application | Envoie des messages électroniques à l’aide d’une boîte aux lettres partagée | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| MailboxSettings.Read | application | Récupère les paramètres de langue préférés d’un utilisateur | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Reports.Read.All | application | Récupère les données d’utilisation des groupes et des Teams | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Team.ReadBasic.All | application | Récupérer les informations d’équipe de base | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| TeamSettings.ReadWrite.All | application | Permet d’archiver et d’désarchiver une équipe | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Teams. Créer | application | Crée une équipe | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| TeamsTab.Read.All | application | Récupère les onglets d’une équipe créée | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| TeamsTab.ReadWrite.All | application | Permet de créer ou de manipualiser des onglets d’une équipe créée | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| User.Invite.All | application | Invite un utilisateur au client | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| User.Read | délégué | Obtient les informations utilisateur et les informations de l’organisation | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| User.Read.All | les deux | Récupère les informations sur les invités et les utilisateurs | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Group.Read.All | délégué | Lire tous les groupes d’utilisateurs | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| Group.ReadWrite.All | délégué | Modifier les métadonnées de groupe de l’utilisateur et manipuler les groupes et les Teams | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| GroupMember.Read.All | délégué | Permet à un propriétaire de groupe de lire l’appartenance d’un groupe ou d’une équipe | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| GroupMember.ReadWrite.All | délégué | Permet au propriétaire du groupe de manipuler l’appartenance à un groupe ou à une équipe | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| TeamSettings.ReadWrite.All | délégué | Permet d’archiver ou d’désarchiver une équipe | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 >| TeamsActivity.Send | application | Utilisé pour envoyer Teams notifications dans le système back-end | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 >| TeamsAppInstallation.ReadForUser.All | application | Vérifiez si l’application EasyLife est installée sur l’utilisateur avant d’envoyer des notifications Teams. | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
->| User.Read.All | délégué | Utilisé par les s sélectionneurs de personnes pour rechercher des utilisateurs dans une organisation ; Permet d’éumer les comptes invités | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| User.Read | délégué | Lit les données de l’organisation et les informations utilisateur | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| User.Read.All | délégué | Permet de rechercher d’autres membres ou comptes invités dans un répertoire | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| User.ReadBasic.All | délégué | Affiche les photos de l’utilisateur | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 >| email | délégué | Utilisé par l’authentification sso | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 >| offline_access | délégué | Utilisé par l’authentification sso | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 >| openid | délégué | Utilisé par l’authentification sso | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |

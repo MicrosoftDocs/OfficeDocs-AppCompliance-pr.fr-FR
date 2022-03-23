@@ -2,18 +2,19 @@
 title: Informations sur l’application pour l’outil Kanban par labs Labs
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’outil Kanban, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7f2e2c3677a81a6d838fe46ca5c52178294a9b33
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: da12e6a803deb9fd8c0ba31f44da77a28397c18e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253450"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551433"
 ---
 # <a name="kanban-tool"></a>Kanban Tool
 
@@ -40,8 +41,9 @@ Informations fournies par Labs Labs à Microsoft :
 | Conditions d’utilisation de l’application | [https://kanbantool.com/policy/terms-of-service](https://kanbantool.com/policy/terms-of-service) |
 | Fonctionnalités principales de l’application | Visualisez le travail et le suivi du temps sur un tableau kanban. |
 | Emplacement du siège social de l’entreprise | Pologne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://kanbantool.com](https://kanbantool.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | AWS, SelfHosted, GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Ces informations ont été fournies par labs Labs sur la façon dont cette appli
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? |  |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? |  |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? |  |
-| Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Supprimé au cours d’un mois |
-| Avez-vous un processus de gestion de l’accès aux données établi ? |  |
-| Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? |  |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -121,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -153,7 +148,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l' sign-on unique, l’accès AUX API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à la plateforme d’identités Microsoft (Azure AD) pour l’sign-on unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Microsoft Authentication Library) ou Microsoft Identity Web pour l’authentification ? | false |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque d’authentification utilise-t-elle ? |  |
@@ -166,12 +161,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| email | délégué | Adresse de messagerie de l’utilisateur pour la communication, la correspondance d’identité et la remise des notifications. | [4e820d60-9e62-403c-accd-857b987cc13c](https://docs.microsoft.com/microsoft-365-app-certification/azure/4e820d60-9e62-403c-accd-857b987cc13c) |
->| Team.ReadBasic.All | délégué | Identificateurs et noms des équipes dont l’utilisateur est un membre direct. Ils sont utilisés pour affecter automatiquement des utilisateurs à des groupes corrects dans l’outil Kanban. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| User.Read | délégué | Informations de base sur l’entreprise des utilisateurs inscrits. Il est utilisé pour remplir les détails du compte des nouveaux comptes et pour reconnaître les utilisateurs qui appartiennent à votre organisation afin de fournir la fonctionnalité Sign-On unique. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| offline_access | délégué | Autorise la fonctionnalité « Se connecter avec Microsoft » et la synchronisation des données à qui vous avez accordé l’accès à l’application, lors de la connexion de l’utilisateur. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| openid | délégué | Ouvrez les jetons d’ID qui permettent aux utilisateurs de se connectent à l’application avec leurs comptes professionnels ou scolaires via le bouton « Se connectez avec Microsoft ». | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| profil | délégué | Nom d’utilisateur àpopuler automatiquement dans l’outil Kanban et rester synchronisé avec les modifications apportées Microsoft Teams. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| email | délégué | Adresse de messagerie de l’utilisateur pour la communication, la correspondance d’identité et la remise des notifications. | [4e820d60-9e62-403c-accd-857b987cc13c](../azure/4e820d60-9e62-403c-accd-857b987cc13c.md) |
+>| Team.ReadBasic.All | délégué | Identificateurs et noms des équipes dont l’utilisateur est un membre direct. Ils sont utilisés pour affecter automatiquement des utilisateurs à des groupes corrects dans l’outil Kanban. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| User.Read | délégué | Informations de base sur l’entreprise des utilisateurs inscrits. Il est utilisé pour remplir les détails du compte des nouveaux comptes et pour reconnaître les utilisateurs qui appartiennent à votre organisation afin de fournir la fonctionnalité Sign-On unique. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| offline_access | délégué | Autorise la fonctionnalité « Se connecter avec Microsoft » et la synchronisation des données à qui vous avez accordé l’accès à l’application, lors de la connexion de l’utilisateur. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| openid | délégué | Ouvrez les jetons d’ID qui permettent aux utilisateurs de se connectent à l’application avec leurs comptes professionnels ou scolaires via le bouton « Se connectez avec Microsoft ». | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| profil | délégué | Nom d’utilisateur àpopuler automatiquement dans l’outil Kanban et rester synchronisé avec les modifications apportées Microsoft Teams. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
