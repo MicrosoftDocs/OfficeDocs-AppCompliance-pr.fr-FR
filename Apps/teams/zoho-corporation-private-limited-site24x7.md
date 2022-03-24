@@ -2,18 +2,19 @@
 title: Informations sur l’application site24x7 par Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Site24x7, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fbc53d0d7efbe32bc2f61b26507713566206232c
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 56af9bdf29f9c23a2c10f665e6f96e7bdf511f4b
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60434383"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752752"
 ---
 # <a name="site24x7"></a>Site24x7
 
@@ -30,7 +31,7 @@ ms.locfileid: "60434383"
 
 Informations fournies par Zoho Corporation Private Limited à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Site24x7 |
 | ID | WA104381289 |
@@ -81,7 +82,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Une fois qu’un client a initié la résiliation de son compte Site24x7, Site24x7 conserve toutes les données de cet utilisateur pendant 30 jours avant de les effacer complètement de nos centres de données américains ou européens ou IN ou CN. Les clients ayant les autorisations utilisateur requises peuvent se connecter manuellement au client web de Site24x7 à l’aide de leurs informations d’identification valides et corriger leurs données personnelles inexactes ou incomplètes. En outre, ils peuvent mettre à jour toutes les données personnelles à l’aide de nos API RESTful documentées.
+>Une fois qu’un client a initié la résiliation de son compte Site24x7, Site24x7 conserve toutes les données de cet utilisateur pendant 30 jours avant de les effacer complètement de nos centres de données américains ou européens ou IN ou CN. Les clients  ayant les autorisations utilisateur requises peuvent se connecter manuellement au client web de Site24x7 à l’aide de leurs informations d’identification valides et corriger leurs données personnelles inexactes ou incomplètes. En outre, ils peuvent mettre à jour toutes les données personnelles à l’aide de nos API RESTful documentées.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -92,7 +93,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/19224' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/19224' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/19224" target="_blank">Afficher dans un nouvel onglet</a>
 

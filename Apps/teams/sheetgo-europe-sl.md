@@ -2,18 +2,19 @@
 title: Informations d’application pour Sheetgo par SHEETGO EUROPE SL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Sheetgo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a91a3ac8e1d7ead5a469a88787b4b5809d48615a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 154adf8fe539a631b13f2aba451c307ef5ab2a62
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281494"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753702"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -30,7 +31,7 @@ ms.locfileid: "59281494"
 
 Informations fournies par SHEETGO EUROPE SL à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Sheetgo |
 | ID | WA200002067 |
@@ -63,7 +64,7 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quels OII sont transférés ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| MongoDB : enregistrer les données système et utilisateur afin de fonctionner, Google BigQuery : enregistrer l’utilisation du système d’enregistrement, Google Firestore : un système qui maintient et orchestre l’état de nos microservices, Stripe : système de paiement |  | Ces applications n’utilisent pas d’API Microsoft supplémentaires |
+>| MongoDB : enregistrer le système et les données utilisateur pour fonctionner, Google BigQuery : enregistrer l’utilisation du système d’enregistrement, Google Firestore : un système qui maintient et orchestre l’état de nos microservices, Stripe : système de paiement |  | Ces applications n’utilisent pas d’API Microsoft supplémentaires |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -74,7 +75,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
 >La télémétrie/journaux inclut l’adresse de messagerie de l’utilisateur uniquement en tant qu’informations d’identification de l’utilisateur final. Lorsque l’utilisateur le demande, l’équipe de support technique de l’application exécute une routine automatique interne qui estompe les adresses de messagerie dans les journaux/télémétrie et rend les données utilisateur non identifiables.
 
@@ -82,7 +83,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->MongoDB : enregistrer les données système et utilisateur afin de fonctionner Google BigQuery : enregistrer le système enregistre l’utilisation google Firestore : un système qui maintient et orchestre l’état de nos microservices. Les seules données critiques transitant par ce service sont les informations d’identification de l’utilisateur, qui sont chiffrées à l’aide d’AES256 Stripe : Système de paiement.
+>MongoDB : enregistrer les données système et utilisateur afin de fonctionner Google BigQuery : le système d’enregistrement enregistre l’utilisation google Firestore : un système qui maintient et orchestre l’état de nos microservices. Les seules données critiques transitant par ce service sont les informations d’identification de l’utilisateur, qui sont chiffrées à l’aide d’AES256 Stripe : Système de paiement.
  
 Toutes les données en transit utilisent HTTPS pour les connexions sécurisées et toutes les données sensibles sont chiffrées à l’aide d’AES256
 
@@ -98,9 +99,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36141' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36141' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36141" target="_blank">Afficher dans un nouvel onglet</a>
 

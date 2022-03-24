@@ -2,18 +2,19 @@
 title: Informations d’application pour AttendanceBot par Anaek
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour AttendanceBot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bd6cda0bf9f1a7b05684cee46ae68f286c59bfad
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 56e5dc8ea5847564786f53bcf879686decb0b59f
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60429071"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752766"
 ---
 # <a name="attendancebot"></a>AttendanceBot
 
@@ -30,7 +31,7 @@ ms.locfileid: "60429071"
 
 Informations fournies par Anaek à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | AttendanceBot |
 | ID | WA104381652 |
@@ -70,7 +71,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| AttendanceBot accède aux informations d’informations d’Teams | Prénom, nom et adresse de messagerie | L’adresse e-mail est l’identificateur unique de chaque équipe qui installe AttendanceBot |
+>| AttendanceBot accède aux informations d’Teams | Prénom, nom et adresse de messagerie | L’adresse e-mail est l’identificateur unique de chaque équipe qui installe AttendanceBot |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -99,7 +100,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35980' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35980' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35980" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -113,7 +114,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 Ces informations ont été fournies par Anaek sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 

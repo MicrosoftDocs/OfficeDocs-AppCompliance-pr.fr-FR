@@ -2,18 +2,19 @@
 title: Informations d’application pour TeamMate par ChitChattr par ChitChattr
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TeamMate par ChitChattr, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9e12f758f81980d155f769e14323556e73c67fab
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 64d99813e4c76f06a776f5882fac52d9eea8285a
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430856"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753555"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate par ChitChattr
 
@@ -30,7 +31,7 @@ ms.locfileid: "60430856"
 
 Informations fournies par ChitChattr à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | TeamMate par ChitChattr |
 | ID | WA200002530 |
@@ -55,9 +56,9 @@ Ces informations ont été fournies par ChitChattr sur la façon dont cette appl
 
 List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| People.Read | délégué | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom, le courrier électronique et l’ID d’objet Azure AD de l’utilisateur. | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom, le courrier électronique et l’ID d’objet Azure AD de l’utilisateur. | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50) |
+>| People.Read | délégué | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom, le courrier électronique et l’ID d’objet Azure AD utilisateur. | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom, le courrier électronique et l’ID d’objet Azure AD utilisateur. | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](../azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50.md) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -72,7 +73,7 @@ Si cette application contient un bot ou une extension de messagerie, elle peut a
 
 >| **Justification de l’accès à EUII ?**  | **L’EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| En cas de problème, le bot recherche et affiche à l’utilisateur les noms et les coordonnées des utilisateurs inscrits en tant qu’administrateurs dans l’application (en fait, contactez votre administrateur, c’est-à-dire qui ils &quot; &quot; sont). | Nom, Courrier électronique | Comme décrit dans les sections précédentes, vous pouvez identifier les utilisateurs pour les expériences ciblées (en fonction de leur administrateur qui les configure) et permettre aux utilisateurs de voir qui sont leurs administrateurs internes pour l’application. |
+>| En cas de problème, le bot recherche et affiche à l’utilisateur les noms et les coordonnées des utilisateurs inscrits en tant qu’administrateurs dans l’application (&quot;&quot;en fait, contactez votre administrateur, c’est-à-dire qui ils sont) | Nom, Courrier électronique | Comme décrit dans les sections précédentes, vous pouvez identifier les utilisateurs pour les expériences ciblées (en fonction de leur administrateur qui les configure) et permettre aux utilisateurs de voir qui sont leurs administrateurs internes pour l’application. |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
@@ -85,7 +86,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Nous utilisons uniquement les services hébergés par Azure (y compris Mongo Atlas) et nous avons un contrôle total sur les données de ces services.
+>Nous utilisons uniquement les services hébergés par Azure (y compris Mongo Atlas) et avons un contrôle total sur les données de ces services.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -101,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -115,19 +116,19 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 Ces informations ont été fournies par ChitChattr sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Liste des types de stratégies pris en charge | Exiger l’authentification multifacteur pour les utilisateurs ayant des rôles d’administration, exiger l’appartenance d’un utilisateur ou d’un groupe pour les utilisateurs ayant des rôles d’administration |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
 | Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
-| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | - URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/>- Flux ROPC (Resource Owner Password Credential) |
+| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | -  URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/>- Flux ROPC (Resource Owner Password Credential) |
 | Votre application expose-t-elle des API web ? | Oui |
 | Votre modèle d’autorisation autorise-t-il uniquement les appels à réussir si l’application cliente reçoit le consentement approprié ? | Oui |
 | Votre application utilise-t-elle les API d’aperçu ? | Non |
