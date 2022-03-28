@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/21/2022
+ms.date: 03/22/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 986648a0513293d543294d88546d20151f3f924f
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+ms.openlocfilehash: e299560f8b29558d3b75377bf02f95e28c17746d
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63697964"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752445"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -327,6 +327,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Proconnect pour Sitecore](./subramanian-ramanathan-proconnect-for-sitecore.md) | Ramanathan subramanien | **✓** |  |
 | [ProdBot](./prodoscore-prodbot.md) | Prodoscore | **✓** |  |
+| [Project Insight](./project-insight.md) | Project Insight | **✓** |  |
 | [Project Migrator](./fluentpro-software-corporation-project-migrator.md) | FluentPro Software Corporation | **✓** |  |
 | [Projectplace](./planview-inc-projectplace.md) | Planview, Inc. | **✓** |  |
 | [Prowd](./prowd.md) | Prowd | **✓** |  |
@@ -341,6 +342,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Quéiky](./global-congress-srl-rafiky.md) | SRL GLOBAL DU SRL | **✓** |  |
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
 | [Traducteur en temps réel](./fairuse-real-time-translator.md) | Utilisation équitable | **✓** |  |
+| [RecognitionNow DM](./bi-worldwide-recognitionnow-dm.md) | BI DANS LE MONDE | **✓** |  |
 | [Rappeler](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
 | [researcHR](./researchr.md) | KBE&#26666;&#24335;&#20250;&#31038; | **✓** |  |
 | [Responsum](./responsum-inc.md) | Responsum Inc. | **✓** |  |

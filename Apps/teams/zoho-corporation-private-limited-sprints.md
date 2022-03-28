@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Zoho Sprints, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ab4f76f0563b92d9e5ca6129ffba013069db37f1
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: 8e0826aa1c1c3f78cdc90bfb2e5f322531d96844
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753138"
+ms.locfileid: "63773485"
 ---
 # <a name="zoho-sprints"></a>Zoho Sprints
 
@@ -53,18 +53,18 @@ Ces informations ont été fournies par Zoho Corporation Private Limited sur la 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+List any [Microsoft Graph permissions](/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | délégué | L’ID du dossier alendar est stocké pour synchroniser les contacts entre Zoho Sprints et Microsoft &amp; , vice-versa. |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
->| Contacts.ReadWrite | délégué | L’ID du dossier contacts est stocké pour synchroniser les contacts. |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
->| Files.Read.All | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
->| Files.Read.Selected | délégué | UserPrincipalName est stocké pour l’identification de l’utilisateur. | Lire des fichiers sélectionnés par l’utilisateur | [f6d7187a-b437-4eca-bbc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
->| User.Read | délégué |  | Activer la connexion et lire le profil utilisateur | [f6d7187a-b437-4eca-bbc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
->| User.ReadBasic.All | délégué |  | Autoriser les utilisateurs à importer des utilisateurs Office365 dans Zoho Sprints. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
->| email | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
->| offline_access | délégué |  | Gérer l’accès aux données auxquelles vous avez accordé l’accès | [f6d7187a-b437-4eca-bbc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
+>| Calendars.ReadWrite | délégué | L’ID du dossier alendar est stocké pour synchroniser les contacts entre Zoho Sprints et Microsoft &amp; , vice-versa. |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Contacts.ReadWrite | délégué | L’ID du dossier contacts est stocké pour synchroniser les contacts. |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.All | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.Selected | délégué | UserPrincipalName est stocké pour l’identification de l’utilisateur. | Lire des fichiers sélectionnés par l’utilisateur | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Read | délégué |  | Activer la connexion et lire le profil utilisateur | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.ReadBasic.All | délégué |  | Autoriser les utilisateurs à importer des utilisateurs Office365 dans Zoho Sprints. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| email | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| offline_access | délégué |  | Gérer l’accès aux données auxquelles vous avez accordé l’accès | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -101,7 +101,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35375' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35375' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35375" target="_blank">Afficher dans un nouvel onglet</a>
 

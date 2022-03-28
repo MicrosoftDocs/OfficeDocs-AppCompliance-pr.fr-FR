@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les entretiens Talview, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 19dc757e6bd95c434999f7f2228f8cb757addd28
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: c4465b676ea2b85e8f2d6fcbffaf1f00c2a5d349
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753153"
+ms.locfileid: "63773545"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -54,14 +54,14 @@ Ces informations ont été fournies par Talview Inc sur la façon dont cette app
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+List any [Microsoft Graph permissions](/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | délégué | Activer la connexion et lire le profil utilisateur | Adresse de messagerie/Noms d’utilisateur pour les notifications et l’authentification | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| email | délégué | Afficher l’adresse e-mail des utilisateurs pour le mappage des comptes d’utilisateurs | Adresse de messagerie/Noms d’utilisateur pour les notifications et l’authentification | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| openid | délégué | Connectez-vous aux utilisateurs pour vous connecter à la plateforme | Adresse de messagerie/Noms d’utilisateur pour les notifications et l’authentification | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| profil | délégué | Afficher le profil de base des utilisateurs | Adresse de messagerie/Noms d’utilisateur pour les notifications et l’authentification | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
+>| User.Read | délégué | Activer la connexion et lire le profil utilisateur | Adresse de messagerie/Noms d’utilisateur pour les notifications et l’authentification | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| email | délégué | Afficher l’adresse e-mail des utilisateurs pour le mappage des comptes d’utilisateurs | Adresse de messagerie/Noms d’utilisateur pour les notifications et l’authentification | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| openid | délégué | Connectez-vous aux utilisateurs pour vous connecter à la plateforme | Adresse de messagerie/Noms d’utilisateur pour les notifications et l’authentification | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| profil | délégué | Afficher le profil de base des utilisateurs | Adresse de messagerie/Noms d’utilisateur pour les notifications et l’authentification | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -103,7 +103,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431" target="_blank">Afficher dans un nouvel onglet</a>
 

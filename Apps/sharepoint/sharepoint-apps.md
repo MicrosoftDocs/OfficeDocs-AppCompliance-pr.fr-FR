@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft SharePoint - Toutes 
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/17/2022
+ms.date: 03/23/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft SharePoint.
 localization_priority: Normal
-ms.openlocfilehash: 66433eb54bf05965fb4a762a84f64d666d8c423a
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 887651563cf6fdb420768a623ce9618b9c7b8c78
+ms.sourcegitcommit: 7c03de919310456c10f7cc3685f83d40cac504de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63540070"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63778278"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft SharePoint
 
@@ -36,6 +36,8 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [Flash d’outils - Flash](./lightning-tools-conductor.md) | Outils De flash | **✓** |  |
 | [officeatwork - S’il s’il s’SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Power BI Collaboration](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
+| [SharePoint formation des employés](./sharepointsapiens-employee-training-management.md) | SharePointSapiens | **✓** |  |
+| [SharePoint’événements « SharePoint-contrôles](./sharepointsapiens-event-management.md) | SharePointSapiens | **✓** |  |
 | [Réservation d’événements plus intelligente](./smarter-business-solutions-gmbh-event-booking.md) | Solutions métiers plus intelligentes | **✓** |  |
 | [Forums de discussion sur les carrés sociaux](./lightning-tools-social-squared-discussion-forums.md) | Outils De flash | **✓** |  |
 | [Taxonomie](./accuracy-software-inc-taxonomy.md) | Accuracy Software Inc. | **✓** |  |

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour TeamMate par ChitChattr, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 64d99813e4c76f06a776f5882fac52d9eea8285a
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: 827f47ec43ce055ce0c5e09ed703a3a25667292e
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753555"
+ms.locfileid: "63773355"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate par ChitChattr
 
@@ -54,11 +54,11 @@ Ces informations ont été fournies par ChitChattr sur la façon dont cette appl
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+List any [Microsoft Graph permissions](/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| People.Read | délégué | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom, le courrier électronique et l’ID d’objet Azure AD utilisateur. | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom, le courrier électronique et l’ID d’objet Azure AD utilisateur. | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](../azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50.md) |
+>| People.Read | délégué | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom, le courrier électronique et l’ID d’objet Azure AD utilisateur. | L’application permet aux administrateurs de choisir des utilisateurs pour cibler des expériences spécifiques. Elle doit donc stocker le nom, le courrier électronique et l’ID d’objet Azure AD utilisateur. | a8e903c7-3b7f-4ec5-a474-b5d32e595f50 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -102,7 +102,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320" target="_blank">Afficher dans un nouvel onglet</a>
 

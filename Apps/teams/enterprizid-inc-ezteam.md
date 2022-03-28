@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ezTeam, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ff6cde9fda8939e2be6d45025f0c1b9e173340e6
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: bf4e7019e7c963ae475548b766fbe0427ac01744
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63752605"
+ms.locfileid: "63772115"
 ---
 # <a name="ezteam"></a>ezTeam
 
@@ -54,34 +54,34 @@ Ces informations ont été fournies par EnterprizID Inc. sur la façon dont cett
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+List any [Microsoft Graph permissions](/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| AppCatalog.Read.All | délégué | Liste des applications disponibles sur Teams afin de pouvoir l’afficher lors du Teams création d’une demande | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Application.Read.All | délégué | Permet à l'application de lire les applications et les principes de service pour le compte de l'utilisateur connecté. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Directory.AccessAsUser.All | délégué | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Directory.Read.All | délégué | Permet à l’application de lire les données dans l’annuaire de votre organisation, comme les utilisateurs, les groupes et les applications. | Teams propriété et les informations d’appartenance  | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Directory.Read.All | application | Permet à l’application de lire les données dans l’annuaire de votre organisation, comme les utilisateurs, les groupes et les applications, sans utilisateur connecté. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Directory.ReadWrite.All | délégué | Permet à l’application de lire et d’écrire des données dans l’annuaire de votre organisation, telles que les utilisateurs et les groupes | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Directory.ReadWrite.All | application | Permet à l’application de lire et d’écrire des données dans l’annuaire de votre organisation, telles que les utilisateurs et les groupes, sans utilisateur connecté. N’autorise pas la suppression d’un utilisateur ou d’un groupe. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Files.Read.All | application | Permet à l’application de lire tous les fichiers dans toutes les collections de sites sans utilisateur connecté. | Quantité de données sous gouvernance de l’utilisateur final en Go | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Group.Create | application | Permet à l’application de créer des groupes sans utilisateur. | Détails des nouvelles propriétés de groupe. | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Group.Read.All | délégué | Permet à l’application de répertorier les groupes et de lire leurs propriétés et toutes les appartenances au groupe, au nom de l’utilisateur connecté. Utilisé pour déterminer Mon Teams  | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Group.Read.All | application | Permet à l’application de lire les propriétés et les appartenances aux groupes, ainsi que de lire le calendrier et les conversations de tous les groupes, sans utilisateur. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Group.ReadWrite.All | délégué | Permet à l’application de créer des groupes et de lire toutes les propriétés et les appartenances du groupe, au nom de l’utilisateur connecté.  | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Group.ReadWrite.All | application | Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe, de mettre à jour les propriétés et appartenances des groupes et de supprimer des groupes. Permet également à l’application de lire et d’écrire le calendrier de groupe et les conversations.  | Dernière activité de l’équipe. | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| GroupMember.Read.All | application | Permet à l’application de consulter les abonnements et les propriétés de base de chaque groupe sans connexion d’utilisateur. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| GroupMember.ReadWrite.All | application | Permet à l’application de répertorier des groupes, consulter leurs propriétés de base et mettre à jour l’abonnement des groupes auxquels l’application a accès sans connexion d’utilisateur. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| People.Read.All | application | Permet à l’application de lire la liste des contacts pertinents de n’importe quel utilisateur, sans utilisateur. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Reports.Read.All | délégué | Permet à l’application de lire tous les rapports d’utilisation du service pour le compte de l’utilisateur connecté. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Reports.Read.All | application | Permet à l’application de lire tous les rapports d’utilisation du service sans utilisateur connecté. | Dernière activité utilisateur par groupe | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Sites.ReadWrite.All | application | Permet à l’application de créer, de lire, de mettre à jour et de supprimer des documents et des éléments de liste dans toutes les collections de sites sans utilisateur connecté. | 10 premiers sites par taille pour chaque utilisateur | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| User.Read.All | application | Permet à l’application de lire les profils utilisateur sans utilisateur. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| offline_access | délégué | Permet à l’application de voir et de mettre à jour les données à qui vous lui avez donné accès, même lorsque les utilisateurs n’utilisent pas l’application.  | Notifications de bot | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| openid | délégué | Permet aux utilisateurs de se connecter à l’application avec leurs comptes professionnels ou scolaires et permet à l’application d’afficher les informations de profil utilisateur de base. | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| profil | délégué | Permet à l’application de voir le profil de base de vos utilisateurs (nom, image, nom d’utilisateur) | S/O | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| AppCatalog.Read.All | délégué | Liste des applications disponibles sur Teams afin de pouvoir l’afficher lors du Teams création d’une demande | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Application.Read.All | délégué | Permet à l'application de lire les applications et les principes de service pour le compte de l'utilisateur connecté. | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.AccessAsUser.All | délégué | Permet à l’application de disposer du même accès aux informations dans l’annuaire que l’utilisateur connecté. | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.Read.All | délégué | Permet à l’application de lire les données dans l’annuaire de votre organisation, comme les utilisateurs, les groupes et les applications. | Teams propriété et les informations d’appartenance  | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.Read.All | application | Permet à l’application de lire les données dans l’annuaire de votre organisation, comme les utilisateurs, les groupes et les applications, sans utilisateur connecté. | N/A | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.ReadWrite.All | délégué | Permet à l’application de lire et d’écrire des données dans l’annuaire de votre organisation, telles que les utilisateurs et les groupes | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.ReadWrite.All | application | Permet à l’application de lire et d’écrire des données dans l’annuaire de votre organisation, telles que les utilisateurs et les groupes, sans utilisateur connecté. N’autorise pas la suppression d’un utilisateur ou d’un groupe. | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Files.Read.All | application | Permet à l’application de lire tous les fichiers dans toutes les collections de sites sans utilisateur connecté. | Quantité de données sous gouvernance de l’utilisateur final en Go | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.Create | application | Permet à l’application de créer des groupes sans utilisateur. | Détails des nouvelles propriétés de groupe. | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.Read.All | délégué | Permet à l’application de répertorier les groupes et de lire leurs propriétés et toutes les appartenances au groupe, au nom de l’utilisateur connecté. Utilisé pour déterminer Mon Teams  | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.Read.All | application | Permet à l’application de lire les propriétés et les appartenances aux groupes, ainsi que de lire le calendrier et les conversations de tous les groupes, sans utilisateur. | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.ReadWrite.All | délégué | Permet à l’application de créer des groupes et de lire toutes les propriétés et les appartenances du groupe, au nom de l’utilisateur connecté.  | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.ReadWrite.All | application | Permet à l’application de créer des groupes, de lire toutes les propriétés et appartenances de groupe, de mettre à jour les propriétés et appartenances des groupes et de supprimer des groupes. Permet également à l’application de lire et d’écrire le calendrier de groupe et les conversations.  | Dernière activité de l’équipe. | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| GroupMember.Read.All | application | Permet à l’application de consulter les abonnements et les propriétés de base de chaque groupe sans connexion d’utilisateur. | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| GroupMember.ReadWrite.All | application | Permet à l’application de répertorier des groupes, consulter leurs propriétés de base et mettre à jour l’abonnement des groupes auxquels l’application a accès sans connexion d’utilisateur. | N/A | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| People.Read.All | application | Permet à l’application de lire la liste des contacts pertinents de n’importe quel utilisateur, sans utilisateur. | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Reports.Read.All | délégué | Permet à l’application de lire tous les rapports d’utilisation du service pour le compte de l’utilisateur connecté. | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Reports.Read.All | application | Permet à l’application de lire tous les rapports d’utilisation du service sans utilisateur connecté. | Dernière activité utilisateur par groupe | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Sites.ReadWrite.All | application | Permet à l’application de créer, de lire, de mettre à jour et de supprimer des documents et des éléments de liste dans toutes les collections de sites sans utilisateur connecté. | 10 premiers sites par taille pour chaque utilisateur | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| User.Read | délégué | Permet aux utilisateurs de se connecter à l’application et permet à l’application de lire le profil des utilisateurs connectés. | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| User.Read.All | application | Permet à l’application de lire les profils utilisateur sans utilisateur. | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| offline_access | délégué | Permet à l’application de voir et de mettre à jour les données à qui vous lui avez donné accès, même lorsque les utilisateurs n’utilisent pas l’application.  | Notifications de bot | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| openid | délégué | Permet aux utilisateurs de se connecter à l’application avec leurs comptes professionnels ou scolaires et permet à l’application d’afficher les informations de profil utilisateur de base. | N/A | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| profil | délégué | Permet à l’application de voir le profil de base de vos utilisateurs (nom, image, nom d’utilisateur) | S/O | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -125,7 +125,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36552' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36552' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36552" target="_blank">Afficher dans un nouvel onglet</a>
 

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Reach, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c58462500079df7f7b8b2736eec9289443df4a4c
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: 59022602a3102344dd130a1d6782464d9fa836ef
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753738"
+ms.locfileid: "63773655"
 ---
 # <a name="reach"></a>Reach
 
@@ -54,15 +54,15 @@ Ces informations ont été fournies par LiveTiles sur la façon dont cette appli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+List any [Microsoft Graph permissions](/graph/permissions-reference) this app requires.
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| TeamsActivity.Send | application | none | none | [a7c1920d-3ac0-42db-9757-078a2b321fd8 ](../azure/a7c1920d-3ac0-42db-9757-078a2b321fd8.md ) |
->| User.Read | délégué | User DisplayName, User Email Address, UPN. Obligatoire pour permettre aux utilisateurs de se connecter à l’application et d’obtenir des informations de base de l’utilisateur, telles que le nom complet. L’adresse e-mail est utilisée pour envoyer des notifications par courrier électronique.  | User DisplayName, User Email Address, UPN. Obligatoire pour permettre aux utilisateurs de se connecter à l’application et d’obtenir des informations de base de l’utilisateur, telles que le nom complet. L’adresse e-mail est utilisée pour envoyer des notifications par courrier électronique.  | [d492530a-8cff-481c-90da-9c3c3f1be7da](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md) |
->| User.ReadBasic.All | délégué | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Téléphone Number, User Business Téléphone Number, User Office Location. Obligatoire pour permettre aux utilisateurs de rechercher d’autres utilisateurs dans l’application (Phonebook) et voir le profil de base et les informations de contact des autres utilisateurs.  | none | [d492530a-8cff-481c-90da-9c3c3f1be7da](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md) |
->| Directory.Read.All | application | Appartenance aux groupes, groupes AD dans l’annuaire. L’appartenance à un groupe d’utilisateurs est stockée dans un cache pour minimiser les appels à l’API Microsoft Graph. Obligatoire pour permettre aux utilisateurs de rechercher des groupes Active Directory. En outre, cette autorisation est requise pour que l’application résolve l’appartenance à un groupe AD d’utilisateurs dans les travaux web du serveur arrière. | Appartenance à un groupe d’utilisateurs. L’appartenance à un groupe d’utilisateurs est stockée dans un cache pour minimiser les appels à l’API Microsoft Graph. Obligatoire pour permettre aux utilisateurs de rechercher des groupes Active Directory. En outre, cette autorisation est requise pour que l’application résolve l’appartenance à un groupe AD d’utilisateurs dans les travaux web du serveur arrière.  | [d492530a-8cff-481c-90da-9c3c3f1be7da ](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md ) |
->| User.Read.All | application | Les données récupérées à partir du profil utilisateur dépendent de la configuration de la fonctionnalité de ciblage d’audience spécifiée dans l’application. Obligatoire pour permettre à l’application de lire les profils utilisateur sans utilisateur. La lecture des données de profil est nécessaire pour la fonctionnalité de ciblage d’informations dans l’application, afin que les informations s’affichent pour des utilisateurs spécifiques en fonction d’une valeur de propriété de profil spécifique.  | none | [d492530a-8cff-481c-90da-9c3c3f1be7da ](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md ) |
+>| TeamsActivity.Send | application | none | none | a7c1920d-3ac0-42db-9757-078a2b321fd8 |
+>| User.Read | délégué | User DisplayName, User Email Address, UPN. Obligatoire pour permettre aux utilisateurs de se connecter à l’application et d’obtenir des informations de base de l’utilisateur, telles que le nom complet. L’adresse e-mail est utilisée pour envoyer des notifications par courrier électronique.  | User DisplayName, User Email Address, UPN. Obligatoire pour permettre aux utilisateurs de se connecter à l’application et d’obtenir des informations de base de l’utilisateur, telles que le nom complet. L’adresse e-mail est utilisée pour envoyer des notifications par courrier électronique.  | d492530a-8cff-481c-90da-9c3c3f1be7da |
+>| User.ReadBasic.All | délégué | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Téléphone Number, User Business Téléphone Number, User Office Location. Obligatoire pour permettre aux utilisateurs de rechercher d’autres utilisateurs dans l’application (Phonebook) et voir le profil de base et les informations de contact des autres utilisateurs.  | none | d492530a-8cff-481c-90da-9c3c3f1be7da |
+>| Directory.Read.All | application | Appartenance aux groupes, groupes AD dans l’annuaire. L’appartenance à un groupe d’utilisateurs est stockée dans un cache pour minimiser les appels à l’API Microsoft Graph. Obligatoire pour permettre aux utilisateurs de rechercher des groupes Active Directory. En outre, cette autorisation est requise pour que l’application résolve l’appartenance à un groupe AD d’utilisateurs dans les travaux web du serveur arrière. | Appartenance à un groupe d’utilisateurs. L’appartenance à un groupe d’utilisateurs est stockée dans un cache pour minimiser les appels à l’API Microsoft Graph. Obligatoire pour permettre aux utilisateurs de rechercher des groupes Active Directory. En outre, cette autorisation est requise pour que l’application résolve l’appartenance à un groupe AD d’utilisateurs dans les travaux web du serveur arrière.  | d492530a-8cff-481c-90da-9c3c3f1be7da |
+>| User.Read.All | application | Les données récupérées à partir du profil utilisateur dépendent de la configuration de la fonctionnalité de ciblage d’audience spécifiée dans l’application. Obligatoire pour permettre à l’application de lire les profils utilisateur sans utilisateur. La lecture des données de profil est nécessaire pour la fonctionnalité de ciblage d’informations dans l’application, afin que les informations s’affichent pour des utilisateurs spécifiques en fonction d’une valeur de propriété de profil spécifique.  | none | d492530a-8cff-481c-90da-9c3c3f1be7da |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -106,7 +106,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36551' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36551' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36551" target="_blank">Afficher dans un nouvel onglet</a>
 
