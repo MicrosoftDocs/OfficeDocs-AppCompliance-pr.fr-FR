@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Le Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7245730e77597a9d22c387f3001990786ea1f827
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 7fffe34f51520ebec1cc5dce2761ce59269b0e35
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63550072"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462917"
 ---
 # <a name="powell-teams"></a>Powell Teams
 
@@ -39,7 +39,7 @@ Informations fournies par Software à Microsoft :
 | Nom de la société partenaire | Powell Software |
 | Site web de l’entreprise | [https://www.powell-software.com](https://www.powell-software.com) |
 | Conditions d’utilisation de l’application | [https://powell-software.com/en/powell-teams-terms-of-use/](https://powell-software.com/en/powell-teams-terms-of-use/) |
-| Fonctionnalités principales de l’application | L’application Teams fournit un tableau de bord intelligent pour tous les employés de l’entreprise, &amp; les aide à organiser facilement les balises de toutes les équipes, à découvrir les équipes d’entreprise promues les plus importantes et enfin à utiliser des modèles d’équipe basés sur des rôles pré-basés sur des rôles pour gagner du temps. Une API est également disponible pour récupérer et travailler avec des données définies dans la base de données Teams (https://docapiteams.powell-software.com) Enfin, un connecteur pour Logic Apps et Power Automate est également disponible (https://docs.microsoft.com/en-us/connectors/powellteams) |
+| Fonctionnalités principales de l’application | L’application Teams fournit un tableau de bord intelligent pour tous les employés de l’entreprise, &amp; les aide à organiser facilement les balises de toutes les équipes, à découvrir les équipes d’entreprise promues les plus importantes et enfin à utiliser des modèles d’équipe basés sur des rôles pré-basés sur des rôles pour gagner du temps. Une API est également disponible pour récupérer et travailler avec des données définies dans la base de données Teams (https://docapiteams.powell-software.com) Enfin, un connecteur pour Logic Apps et Power Automate est également disponible (https://docs.microsoft.com/connectors/powellteams) |
 | Emplacement du siège social de l’entreprise | France |
 | Page d’informations sur l’application | [https://helpteams.powell-software.com](https://helpteams.powell-software.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |

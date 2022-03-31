@@ -2,18 +2,19 @@
 title: 'Informations sur l’application pour xLaw : système de gestion des connaissances par evertn'
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Toutes les informations de sécurité et de conformité disponibles pour xLaw : système de gestion des connaissances, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cce6d174386db07ebf7e062066549cc47c61c845
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: bac0b2c58acd70749ed6fb66580442b24de771b7
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60429292"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462097"
 ---
 # <a name="xlaw---knowledge-management-system"></a>xLaw : système de gestion des connaissances
 
@@ -29,7 +30,7 @@ ms.locfileid: "60429292"
 
 Informations fournies par evertn à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | xLaw : système de gestion des connaissances |
 | ID | WA104381077 |
@@ -51,7 +52,7 @@ Ces informations ont été fournies par evertn sur la façon dont cette applicat
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+List any [Microsoft Graph permissions](/graph/permissions-reference) this app requires.
 
 >Cette application n’utilise pas Microsoft Graph.
 
@@ -90,7 +91,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36910' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36910' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36910" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -104,7 +105,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 Ces informations ont été fournies par evertn sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
 

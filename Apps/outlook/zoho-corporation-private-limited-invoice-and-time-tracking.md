@@ -2,18 +2,19 @@
 title: Informations sur l’application pour le suivi des factures et du temps - Facture Zoho par Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/04/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la facture et le suivi du temps - Zoho Invoice, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cc7454e5f1181637f2ecacbf510c8191d51da0e7
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 65d71d027c2101c5332a9070e641300e77a39081
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428186"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461367"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>Facture et suivi du temps : facture Zoho
 
@@ -29,11 +30,11 @@ ms.locfileid: "60428186"
 
 Informations fournies par Zoho Corporation Private Limited à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Facture et suivi du temps : facture Zoho |
 | ID | WA104381067 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Zoho Corporation Private Limited |
 | URL du site web partenaire | [https://www.zoho.com/](https://www.zoho.com/) |
 | URL de la politique de confidentialité | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
@@ -51,18 +52,18 @@ Ces informations ont été fournies par Zoho Corporation Private Limited sur la 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+List any [Microsoft Graph permissions](/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Contacts.Read | délégué |  |  Autoriser les utilisateurs à synchroniser les contacts Office365 avec Zoho Invoice. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Mail.Read | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Mail.Send | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Export.All | délégué |  | Autoriser l’utilisateur à exporter toutes les informations associées à l’utilisateur. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Read.All | délégué |  | Autoriser les utilisateurs à se connecter et à lire le profil utilisateur. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.ReadBasic.All | délégué |  | Autoriser les utilisateurs à importer des utilisateurs Office365 vers Zoho. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| email | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| profil | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.Read | délégué |  |  Autoriser les utilisateurs à synchroniser les contacts Office365 avec la facture Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Mail.Read | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Mail.Send | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Export.All | délégué |  | Autoriser l’utilisateur à exporter toutes les informations associées à l’utilisateur. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Read.All | délégué |  | Autoriser les utilisateurs à se connecter et à lire le profil utilisateur. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.ReadBasic.All | délégué |  | Autoriser les utilisateurs à importer des utilisateurs Office365 vers Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| email | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| profil | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -83,7 +84,7 @@ Les informations d’identification organisationnelle (OII) ou d’identificatio
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
 
->Les données sont récupérées uniquement après le consentement de l’utilisateur. L’accès logique aux serveurs est fourni via un réseau dédié isolé et est &amp; hautement sécurisé et surveillé. Ce réseau est protégé par pare-feu, 2- Factor Authentication et Kerberos Authent
+>Les données sont récupérées uniquement après le consentement de l’utilisateur. L’accès logique aux serveurs est fourni via &amp; un réseau dédié isolé et est hautement sécurisé et surveillé. Ce réseau est protégé par pare-feu, 2- Factor Authentication et Kerberos Authent
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -94,7 +95,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305" target="_blank">Afficher dans un nouvel onglet</a>
 

@@ -2,18 +2,19 @@
 title: Informations d’application pour ServiceDesk Plus pour la messagerie électronique par Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/04/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ServiceDesk Plus pour la messagerie, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0ccf0b8f7a17077bbf468369779e70335ac8e7e5
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: f41cd7e3b578b3eea68a8d83c8bc8f39c64f2735
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60439265"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462127"
 ---
 # <a name="servicedesk-plus-for-email"></a>ServiceDesk Plus pour la messagerie
 
@@ -29,11 +30,11 @@ ms.locfileid: "60439265"
 
 Informations fournies par Zoho Corporation Private Limited à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | ServiceDesk Plus pour la messagerie |
 | ID | WA104381518 |
-| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou une ultérieure sur Mac, Outlook sur le web |
+| Office 365 clients pris en charge | Outlook 2013 ou une Windows, Outlook 2016 ou ultérieure sur Mac, Outlook sur le web |
 | Nom de la société partenaire | Zoho Corporation Private Limited |
 | URL du site web partenaire | [https://www.manageengine.com/products/service-desk](https://www.manageengine.com/products/service-desk) |
 | URL de la politique de confidentialité | [https://www.manageengine.com/privacy.html](https://www.manageengine.com/privacy.html) |
@@ -51,19 +52,19 @@ Ces informations ont été fournies par Zoho Corporation Private Limited sur la 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+List any [Microsoft Graph permissions](/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD ID d’application** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | application |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Files.Read | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Files.Read.Selected | délégué |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Read | délégué | ID de messagerie de l’utilisateur. | Permet à l’utilisateur de se connecter et donne à l’application accès à son UPN pour activer la connexion silencieuse. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Read.All | application |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.ReadBasic.All | délégué | ID de courrier électronique, nom, ID d’employé, fonction, Téléphone, Mobile, Site, Service, Paramètres régionaux, Photo de profil de l’utilisateur. | Permet d’importer les informations de base des utilisateurs à partir Azure Active Directory. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| email | délégué | ID de messagerie de l’utilisateur. | Afficher l’adresse e-mail de l’utilisateur. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| offline_access | délégué |  | Conservez l’accès aux données à qui vous avez accordé l’accès. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| profil | délégué |  | Afficher le profil de base de l’utilisateur. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Calendars.ReadWrite | application |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.Selected | délégué |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Read | délégué | ID de messagerie de l’utilisateur. | Permet à l’utilisateur de se connecter et donne à l’application accès à son UPN pour activer la connexion silencieuse. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Read.All | application |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.ReadBasic.All | délégué | ID de courrier électronique, nom, ID d’employé, fonction, Téléphone, mobile, site, service, paramètres régionaux, photo de profil de l’utilisateur. | Permet d’importer les informations de base des utilisateurs à partir Azure Active Directory. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| email | délégué | ID de messagerie de l’utilisateur. | Afficher l’adresse e-mail de l’utilisateur. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| offline_access | délégué |  | Conservez l’accès aux données à qui vous lui avez accordé l’accès. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| profil | délégué |  | Afficher le profil de base de l’utilisateur. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
@@ -95,7 +96,7 @@ Décrire comment les administrateurs de l’organisation peuvent contrôler leur
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/18802' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/18802' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/18802" target="_blank">Afficher dans un nouvel onglet</a>
 

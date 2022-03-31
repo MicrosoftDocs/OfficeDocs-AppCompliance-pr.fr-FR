@@ -1,19 +1,20 @@
 ---
-title: 'Informations sur l’application pour CocoFax : envoi de télécopies &amp; faciles à sécuriser &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496;'
+title: 'Informations sur l’application pour CocoFax : envoi de télécopies faciles &amp; à sécuriser &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496;'
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Toutes les informations de sécurité et de conformité disponibles pour CocoFax : envoi de télécopies sécurisées, stratégies de gestion des données, informations de catalogue d’applications Microsoft Cloud App Security et informations de sécurité/conformité dans le Registre &amp; CSA STAR.'
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 8b44af37fc4fcfcb9452b3af6fdd666b0565d9d4
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+description: 'Toutes les informations de sécurité et de conformité disponibles pour CocoFax &amp; : envoi de télécopies sécurisées, stratégies de gestion des données, informations de catalogue d’applications Microsoft Cloud App Security et informations de sécurité/conformité dans le Registre CSA STAR.'
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 621b61963a89ca4d2bfd2eeca0b39366cb261c1d
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404566"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461357"
 ---
 # <a name="cocofax---sending-fax-made-easy-amp-secure"></a>CocoFax : envoi de télécopies faciles à &amp; sécuriser
 
@@ -51,7 +52,7 @@ Ces informations ont été fournies par &#28145;&#22323;&#23545;&#20113;&#31185;
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+List any [Microsoft Graph permissions](/graph/permissions-reference) this app requires.
 
 >Cette application n’utilise pas Microsoft Graph.
 
@@ -90,7 +91,7 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -102,7 +103,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par des &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
