@@ -1,25 +1,25 @@
 ---
-title: Sécurité et conformité des ID d’application Azure - Toutes les applications
+title: Azure App sécurité et conformité des ID - Toutes les applications
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/25/2022
+ms.date: 03/26/2022
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour tous les ID d’application Azure.
+description: Toutes les informations de sécurité et de conformité disponibles pour tous les ID Azure App de sécurité.
 localization_priority: Normal
-ms.openlocfilehash: 3716bbc49ea616ba3341a6d607b0a7563a465231
-ms.sourcegitcommit: c0192e544acac1e5b80a80fca21bf271cbcd0a28
+ms.openlocfilehash: 95c9e6d06e5c2cb0367c1276656210aa33ff20e2
+ms.sourcegitcommit: 890a5b31f2a31a7747d88f0f3f203c0551440293
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480496"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64517016"
 ---
-# <a name="azure-app-ids-security-and-compliance"></a>Sécurité et conformité des ID d’application Azure
+# <a name="azure-app-ids-security-and-compliance"></a>Azure App sécurité et conformité des ID de sécurité
 
-Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant les ID d’application Azure et les applications qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
+Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant les Azure App et les modules complémentaires qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 
-| **ID d’application Azure** | **Éditeur attesté** | **Certifié** |
+| **Azure App ID** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:-------------:|
 | [00485db5-81b3-4299-833a-8d6c366d0ac0](./00485db5-81b3-4299-833a-8d6c366d0ac0.md) | **✓** |  |
 | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](./00738e07-f9a4-4bf5-b6f9-851ec7ea31d5.md) | **✓** |  |
@@ -274,6 +274,7 @@ Microsoft collabore avec nos partenaires Microsoft 365 développeur pour fournir
 | [d6a2090f-1447-456b-bd5f-121e4efd8c89](./d6a2090f-1447-456b-bd5f-121e4efd8c89.md) | **✓** |  |
 | [d76f016f-52c7-41b5-835b-900361d7040c](./d76f016f-52c7-41b5-835b-900361d7040c.md) | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [d7db1079-6f45-4373-bb2b-ae5d71169b31](./d7db1079-6f45-4373-bb2b-ae5d71169b31.md) | **✓** |  |
+| [d863a24b-7cdd-46c9-8309-a15878f4f7bf](./d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) | **✓** |  |
 | [d871e46e-e346-445d-bfe8-2a66419bf278](./d871e46e-e346-445d-bfe8-2a66419bf278.md) | **✓** |  |
 | [d8843264-a57b-41e3-aea6-b83ea56f6bd6](./d8843264-a57b-41e3-aea6-b83ea56f6bd6.md) | **✓** |  |
 | [d980249e-fb0c-40a9-8706-f77f95660bdc](./d980249e-fb0c-40a9-8706-f77f95660bdc.md) | **✓** |  |

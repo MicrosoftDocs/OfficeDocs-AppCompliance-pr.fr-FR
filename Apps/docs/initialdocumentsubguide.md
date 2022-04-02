@@ -2,16 +2,17 @@
 ms.author: oromalle
 title: Microsoft 365 certification - Guide de soumission de document initial
 author: orionomalley
+manager: tonybal
 description: Vue Microsoft 365 granulaire du Guide de soumission de certification
 keywords: Équipes de certification des Microsoft 365 conformité de la sécurité m365 envoi initial de documents
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 0f879ce6b02fb469b0210500e4706d468ccb4011
-ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
+ms.openlocfilehash: 66afcbd482ee1269ce21e2af6fdeea5026b294ee
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61261676"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463277"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 - Guide de soumission de document initial
 
@@ -55,9 +56,9 @@ Un inventaire à jour de toutes les ressources logicielles, y compris tous les l
 |Logiciels|  Éditeur|  Version|     Objectif|
 |-|-|-|-|
 |Windows Server|    Microsoft 2016 | Build 14393| Système d’exploitation serveur pour l’environnement de production|.
-|Linux Ubuntu|  S/O|    16.04 (Xenial)| Système d’exploitation serveur utilisé dans la DMZ.|
+|Linux Ubuntu|  N/A|    16.04 (Xenial)| Système d’exploitation serveur utilisé dans la DMZ.|
 |ESXi|  VMWare| 6.5.0 (Build 13004031)| Utilisé pour prendre en charge les serveurs virtuels.|
-|Mysql (Windows)|   S/O|    8.0.2.1|    Serveur de base de données pour stocker l’historique des conversation.|
+|Mysql (Windows)|   N/A|    8.0.2.1|    Serveur de base de données pour stocker l’historique des conversation.|
 |Tomcat|        Apache| 7.0.92| Portail client.|
 |Services Internet (IIS)|   Microsoft|  10.0|   Prend en charge les API.|
 
@@ -106,7 +107,7 @@ Liste complète de tous les points de terminaison d’API utilisés par votre ap
 |API client Contoso|  https://customerapi.contoso.com|
 |Contoso Bot Service|   https://bot.contoso.com|
 |API de fichiers Contoso| https://filesapi.contoso.com|
-|Microsoft Graph| https://graph.microsoft.com/v1.0/|
+|Microsoft Graph| https://graph.microsoft.com/v1.0/|
 
 
 ## <a name="architectural-diagram"></a>Diagramme d’architecture

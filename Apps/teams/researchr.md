@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour researcHR, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d9190b5c268a2ff73f204e3c81015532b1b3e4df
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: ec1149c58d7c7b5c77243af43b529fa6434e5520
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63543422"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463597"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -161,13 +161,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph d’autorisation**  | **Type d’autorisation** |          **Justification**          | **Azure AD’application** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | application | Nous utilisons cette étendue pour permettre à notre bot de créer un canal sur le client Teams client. Voir : https://docs.microsoft.com/en-us/graph/api/channel-post | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Directory.Read.All | application | Nous utilisons cette étendue pour obtenir les ID de canal et les noms pour afficher ces données sur notre site web. Voir : https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Group.Read.All | application | Nous utilisons cette étendue pour obtenir les ID de canal et les noms pour afficher ces données sur notre site web. Voir : https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Team.ReadBasic.All | application | Nous utilisons cette étendue pour obtenir les membres de l’équipe afin que les utilisateurs peuvent voir leurs membres sur notre site web. Voir : https://docs.microsoft.com/en-us/graph/api/group-list-members | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.Read.All | application | Nous utilisons cette étendue pour obtenir les canaux joints de l’utilisateur afin que les utilisateurs peuvent voir leurs équipes jointes sur notre site web. Voir : https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.ReadBasic.All | délégué | Nous utilisons cette étendue pour activer la connexion OAuth et collecter l’ID AAD utilisateur, le jeton d’accès et le jeton d’actualisation. Voir : https://docs.microsoft.com/en-us/graph/auth-v2-user | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| offline_access | délégué | Nous utilisons cette étendue pour obtenir le jeton d’actualisation afin que nous pouvons actualiser le jeton d’accès des utilisateurs authentés sans aucune interaction utilisateur. Voir : https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Channel.Create | application | Nous utilisons cette étendue pour permettre à notre bot de créer un canal sur le client Teams client. Voir : https://docs.microsoft.com/graph/api/channel-post | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Directory.Read.All | application | Nous utilisons cette étendue pour obtenir les ID de canal et les noms pour afficher ces données sur notre site web. Voir : https://docs.microsoft.com/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Group.Read.All | application | Nous utilisons cette étendue pour obtenir les ID de canal et les noms pour afficher ces données sur notre site web. Voir : https://docs.microsoft.com/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Team.ReadBasic.All | application | Nous utilisons cette étendue pour obtenir les membres de l’équipe afin que les utilisateurs peuvent voir leurs membres sur notre site web. Voir : https://docs.microsoft.com/graph/api/group-list-members | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.Read.All | application | Nous utilisons cette étendue pour obtenir les canaux joints de l’utilisateur afin que les utilisateurs peuvent voir leurs équipes jointes sur notre site web. Voir : https://docs.microsoft.com/graph/api/user-list-joinedteams | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.ReadBasic.All | délégué | Nous utilisons cette étendue pour activer la connexion OAuth et collecter l’ID AAD utilisateur, le jeton d’accès et le jeton d’actualisation. Voir : https://docs.microsoft.com/graph/auth-v2-user | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| offline_access | délégué | Nous utilisons cette étendue pour obtenir le jeton d’actualisation afin que nous pouvons actualiser le jeton d’accès des utilisateurs authentés sans aucune interaction utilisateur. Voir : https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#offline_access | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
 
 >Cette application ne comprend pas d’API supplémentaires.
 
