@@ -7,14 +7,8 @@ ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Cloud Cloud, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: 'Toutes les informations de sécurité et de conformité disponibles pour Cloud Cloud, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0ce3c1464a4933de72d1a69a49432c986f1679cd
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63547462"
 ---
 # <a name="confluence-cloud"></a>Confluence Cloud
 
@@ -39,8 +33,7 @@ Informations fournies par Atlassian à Microsoft :
 | Nom de la société partenaire | Atlassian |
 | Site web de l’entreprise | [https://www.atlassian.com](https://www.atlassian.com) |
 | Conditions d’utilisation de l’application | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
-| Fonctionnalités principales de l’application | Prenez facilement des notes de réunion, partagez des pages et restez à jour avec Cloud Cloud pour Teams.
- |
+| Fonctionnalités principales de l’application | Prenez facilement des notes de réunion, partagez des pages et restez à jour avec Cloud Cloud pour Teams.  |
 | Emplacement du siège social de l’entreprise | Australie |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? |  |
@@ -87,11 +80,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? |  |
 | Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? |  |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? |  |
-| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | |
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? |  |
 | Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? |  |
 | Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
-| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

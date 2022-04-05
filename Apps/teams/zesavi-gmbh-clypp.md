@@ -3,24 +3,18 @@ title: Informations sur l’application pour Clypp par Zesavi
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 01/03/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Clypp, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: 'Toutes les informations de sécurité et de conformité disponibles pour Clypp, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e51dcf98573c2dc259438e8ec8926cc14e55a2eb
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63551843"
 ---
 # <a name="clypp"></a>Clypp
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 17, 2021</p>
+<p>Last updated by the developer on: March 30, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/34ed2c1e-bccf-463d-8fbc-0403e72e89fc" target="_blank">Afficher dans Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003621" target="_blank">Afficher dans AppSource</a>
@@ -37,13 +31,13 @@ Informations fournies par Zesavi ContrôleH à Microsoft :
 | ID | WA200003621 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Zesavi GmbH |
-| Site web de l’entreprise | [https://zesavi.com](https://zesavi.com) |
-| Conditions d’utilisation de l’application | [https://zesavi.com/en/impressum/](https://zesavi.com/en/impressum/) |
-| Fonctionnalités principales de l’application | Zesavi permet à tous les utilisateurs d’une entreprise de créer, de modifier de &amp; courtes documentations vidéo directement dans leur navigateur Internet. |
+| Site web de l’entreprise | [https://getclypp.com](https://getclypp.com) |
+| Conditions d’utilisation de l’application | [https://getclypp.com/en/terms-of-use/](https://getclypp.com/en/terms-of-use/) |
+| Fonctionnalités principales de l’application | Clypp permet à tous les utilisateurs de votre entreprise de créer, de modifier de &amp; courtes documentations vidéo directement dans leur navigateur Internet. |
 | Emplacement du siège social de l’entreprise | Allemagne |
-| Page d’informations sur l’application | |
+| Page d’informations sur l’application | [https://getclypp.com/en/](https://getclypp.com/en/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
-| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Autres |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Autre |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -138,7 +132,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Avez-vous des exigences en matière de confidentialité ou de protection des données ou d’autres obligations (telles que le CCPA) en matière de confidentialité ou de protection des données ? | Oui |
 | L’application a-t-elle une notification de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
-| URL de la politique de confidentialité | https://zesavi.com/en/datenschutz/ |
+| URL de la politique de confidentialité | https://getclypp.com/en/privacy-policy/ |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui peut avoir un effet juridique ou un impact similaire ? | Non |
 | L’application traitera-t-elle les données client à des fins secondaires qui ne sont pas décrites dans la notification de confidentialité (c’est-à-dire, marketing, analyse) ? | Non |
 | Traiter des catégories spéciales de données sensibles (c’est-à-dire, l’origine ethnique ou ethnique, l’opinion politique, les opinions ethniques ou ethniques, les données génétiques ou biométriques, les données de santé) ou les catégories de données soumises aux lois sur les notifications de violation ? | Non |
