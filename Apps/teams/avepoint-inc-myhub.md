@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour MyHub, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0620429641e4e7b9669d48ec07af70eafe3accd3
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 483147bf1dbde67aa105e245012cdc3938227e01
+ms.sourcegitcommit: 2c06ca843da2f9359a834b1479d2b9b7eee1f68d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63546822"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64645879"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -40,7 +40,7 @@ Informations fournies par AvePoint, inc. à Microsoft :
 | Site web de l’entreprise | [https://www.avepoint.com](https://www.avepoint.com) |
 | Conditions d’utilisation de l’application | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 | Fonctionnalités principales de l’application | Meet MyHub, a one-stop-shop for requesting new Office 365 workspaces &amp; managing existing ones. MyHub fournit des services de mise en service, de recertification et de cycle de vie faciles à utiliser sans &amp; que votre équipe de l’équipe en charge de l’it ne soit contrainte. Les utilisateurs sont en mesure d’effectuer une échelle, d’automatiser &amp; les espaces de travail sécurisés &amp; et de savoir quand effectuer une action, ce qui facilite la réalisation de leur liste de tâches. MyHub&#65533;'infrastructure sécurisée &amp; durable est optimisée par AvePoint&#65533;gouvernance cloud. |
-| Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
+| Emplacement du siège social de l’entreprise | États-Unis Amérique |
 | Page d’informations sur l’application | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
@@ -60,12 +60,11 @@ Ces informations ont été fournies par AvePoint, inc. sur la façon dont cette 
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Collection de sites/Groupe O365/Teams métadonnées de base ; ID utilisateur, e-mail, nom |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 60 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -93,11 +92,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
 | Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | Oui |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
-| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
+| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui |
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
 | Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Oui |
-| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
-| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? | Oui |
+| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -108,7 +107,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
@@ -123,9 +122,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
-| L’application est-elle conforme au NIST 800-171 ? | N/A |
+| L’application est-elle conforme au NIST 800-171 ? | S/O |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

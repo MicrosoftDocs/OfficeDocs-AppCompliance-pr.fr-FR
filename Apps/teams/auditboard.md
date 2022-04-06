@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour AuditBoard, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0c907d62fc6cf781bf5cac2e528ccace8b902bb0
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 55cd70d81f797eb0c37008d824c43a37ceabd4f9
+ms.sourcegitcommit: 2c06ca843da2f9359a834b1479d2b9b7eee1f68d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63549452"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64645869"
 ---
 # <a name="auditboard"></a>AuditBoard
 
@@ -40,7 +40,7 @@ Informations fournies par AuditBoard à Microsoft :
 | Site web de l’entreprise | [https://www.auditboard.com](https://www.auditboard.com) |
 | Conditions d’utilisation de l’application | [https://www.auditboard.com/terms-of-use/](https://www.auditboard.com/terms-of-use/) |
 | Fonctionnalités principales de l’application | Permet aux abonnés AuditBoard de recevoir des notifications dans Microsoft Teams. |
-| Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
+| Emplacement du siège social de l’entreprise | États-Unis Amérique |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws, Azure |
@@ -86,11 +86,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
 | Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | Oui |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
-| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
+| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui |
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
 | Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Oui |
-| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
-| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? | Oui |
+| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Non |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Oui |

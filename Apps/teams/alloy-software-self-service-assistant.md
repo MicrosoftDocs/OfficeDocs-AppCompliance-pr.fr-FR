@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour l’Assistant Gestion de Self-Service, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 43f94e5fc6e97a7a8691089d8fa2b5a1ef498a3c
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: d4a1a93efe1ed21f47fc16eda0c1ba0115448aaf
+ms.sourcegitcommit: 2c06ca843da2f9359a834b1479d2b9b7eee1f68d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63545522"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64645892"
 ---
 # <a name="alloy-self-service-assistant"></a>Assistant libre-service Alloy
 
@@ -39,8 +39,8 @@ Informations fournies par software software à Microsoft :
 | Nom de la société partenaire | Logiciels Alloy |
 | Site web de l’entreprise | [https://alloysoftware.com](https://alloysoftware.com) |
 | Conditions d’utilisation de l’application | [https://www.alloysoftware.com/resources/eula/](https://www.alloysoftware.com/resources/eula/) |
-| Fonctionnalités principales de l’application | Créez des tickets de bureau de service, recherchez dans la base de connaissances et approuvez les demandes. |
-| Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
+| Fonctionnalités principales de l’application | Créez des tickets de service, recherchez les base de connaissances et approuvez les demandes. |
+| Emplacement du siège social de l’entreprise | États-Unis Amérique |
 | Page d’informations sur l’application | [https://docs.alloysoftware.com/alloynavigator/2021/docs/int...](https://docs.alloysoftware.com/alloynavigator/2021/docs/integrations/topics/microsoft-teams-bot.htm) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
@@ -58,16 +58,15 @@ Ces informations ont été fournies par Le logiciel d’entreprise sur la façon
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traitera-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
-| Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Quelles données sont traitées par votre application ? | adresses e-mail des utilisateurs, locataires du client |
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | clients |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client à des tiers ou des sous-processeurs ? | Non |
-| Avez-vous des accords de partage de données en place avec un service tiers avec qui vous partagez des données client Microsoft ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -95,11 +94,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
 | Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | N/A |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
-| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
+| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui |
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
 | Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Oui |
-| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
-| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? | Oui |
+| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -118,14 +117,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Date de certification SOC2 la plus récente |  2021-11-15 |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Oui |
 | Date de certification SOC3 la plus récente |  2021-11-09 |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Oui |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |

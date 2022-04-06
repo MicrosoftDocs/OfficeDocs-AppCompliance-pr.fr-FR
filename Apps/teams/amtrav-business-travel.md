@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour AmTrav Business Travel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 784a5b98fc56414a8921387d37a56c534348640d
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: c73e4dfa325fd6b4146a8e70cf2b0be3e6ad1227
+ms.sourcegitcommit: 2c06ca843da2f9359a834b1479d2b9b7eee1f68d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63545132"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64645895"
 ---
 # <a name="amtrav-business-travel"></a>AmTrav Business Travel
 
@@ -40,7 +40,7 @@ Informations fournies par AmTrav à Microsoft :
 | Site web de l’entreprise | [https://www.Amtrav.com](https://www.Amtrav.com) |
 | Conditions d’utilisation de l’application | [https://www.amtrav.com/user-agreement](https://www.amtrav.com/user-agreement) |
 | Fonctionnalités principales de l’application | Application de conversation qui connecte les clients à un conseiller en voyage. |
-| Emplacement du siège social de l’entreprise | États-Unis d’Amérique |
+| Emplacement du siège social de l’entreprise | États-Unis Amérique |
 | Page d’informations sur l’application | [https://www.amtrav.com/our-story](https://www.amtrav.com/our-story) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
 
@@ -85,11 +85,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous un processus établi pour la mise en service, la modification et la suppression de comptes d’employés ? | Oui |
 | Avez-vous un logiciel de détection et de prévention des intrusions (IDPS) déployé sur le périmètre de la limite du réseau qui permet de soutenir votre application ? | Oui |
 | La journalisation des événements est-elle définie sur tous les composants système qui la prise en charge de votre application ? | Oui |
-| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
+| Tous les journaux sont-ils examinés à une cadence régulière par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui |
 | Lorsqu’un événement de sécurité est détecté, des alertes sont-elles automatiquement envoyées à un employé pour tri ? | Oui |
 | Avez-vous établi un processus formel de gestion des risques de sécurité des informations ? | Oui |
-| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
-| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ?| |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? | Oui |
+| Signalez-vous des violations de données d’application ou de service aux autorités de surveillance et aux personnes affectées par la violation dans les 72 heures qui s’s après la détection ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -117,7 +117,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
 | L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
-| L’application est-elle conforme au NIST 800-171 ? | N/A |
+| L’application est-elle conforme au NIST 800-171 ? | S/O |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
