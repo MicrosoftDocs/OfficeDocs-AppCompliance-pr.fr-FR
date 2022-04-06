@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour la matrice de priorité, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 83e82e68a5159a645e39c520f2620d9593b2b7d3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c40d5d346b7786a01afee112147f9e3653b7559c
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280564"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64626946"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
@@ -28,7 +28,7 @@ ms.locfileid: "59280564"
 
 Informations fournies par Appfluence Inc à Microsoft :
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Nom de l'application | Priority Matrix |
 | ID | appfluenceinc.m_pm_msft |
@@ -49,16 +49,16 @@ Ces informations ont été fournies par Appfluence Inc. sur la façon dont cette
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+List any [Microsoft Graph permissions](/graph/permissions-reference) this app requires.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **ID d’application Azure AD** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | délégué | Uniquement lorsqu’un nouvel utilisateur est ajouté au compte, stockons-nous son courrier électronique. | Lors de la création d’un nouveau compte, nous l’utilisons pour suggérer d’autres membres de l’équipe. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| User.ReadBasic.All | délégué | Uniquement lorsqu’un nouvel utilisateur est ajouté au compte, stockons-nous son courrier électronique. | Lors de la création d’un nouveau compte, nous l’utilisons pour suggérer d’autres membres de l’équipe. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
+>| Calendars.Read | délégué | Uniquement lorsqu’un nouvel utilisateur est ajouté au compte, stockons-nous son courrier électronique. | Lors de la création d’un compte, nous l’utilisons pour suggérer d’autres membres de l’équipe. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
+>| User.ReadBasic.All | délégué | Uniquement lorsqu’un nouvel utilisateur est ajouté au compte, stockons-nous son courrier électronique. | Lors de la création d’un compte, nous l’utilisons pour suggérer d’autres membres de l’équipe. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
 >| offline_access | délégué | Nous stockons le jeton de connexion afin d’effectuer des demandes au nom de l’utilisateur | Actualisez le jeton sans déranger l’utilisateur. (Matrice de priorité pour Teams) | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| Files.Read.All | délégué | Nous ne stockons pas d’informations sur les fichiers, sauf si l’utilisateur crée explicitement et en connaissance de cause un élément de matrice prioritaire lié au fichier d’origine. | Dans notre fonctionnalité un-à-un (disponible via notre application web et également nos applications Outlook/Teams), nous utilisons cette fonctionnalité pour mettre en évidence les fichiers SharePoint/OneDrive partagés entre deux utilisateurs dans notre système, afin de faciliter les réunions et la collaboration globale. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
+>| Files.Read.All | délégué | Nous ne stockons pas d’informations sur les fichiers, sauf si l’utilisateur crée explicitement et en connaissance de cause un élément de matrice prioritaire lié au fichier d’origine. | Dans notre fonctionnalité un-à-un (disponible via notre application web et également nos Outlook/Teams), nous utilisons cette fonctionnalité pour mettre en évidence les fichiers SharePoint/OneDrive partagés entre deux utilisateurs dans notre système, afin de faciliter les réunions et la collaboration globale. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| User.Read | délégué | Les informations de profil utilisateur de base (nom d’affichage, prénom, nom, e-mail, avatar) sont stockées par nous. | Obtenez le nom de l’utilisateur, son e-mail, son avatar, pour personnaliser son compte avec nous. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
->| openid | délégué | Nous stockons la connexion DSO pour indiquer le mode de connexion de l’utilisateur. | Pour vous inscrire aux utilisateurs via l' sign-on unique. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
+>| openid | délégué | Nous stockons la connexion DSO pour indiquer le mode de connexion de l’utilisateur. | Pour se connecter aux utilisateurs via l’sign-on unique. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| Calendars.Read | délégué | Un petit nombre d’événements de calendrier sont transformés en tâches stockées dans notre système. | Lisez les événements de calendrier afin qu’ils soient affichés dans notre vue 1:1. Également pour initialiser de nouveaux comptes. | d76f016f-52c7-41b5-835b-900361d7040c |
 >| Mail.Read | délégué | Nous stockons les tâches créées dans notre système, avec un lien vers le message d’origine. | Utilisé dans notre Outlook pour transformer les e-mails en tâches et pour afficher le travail partagé en affichage 1:1. | d76f016f-52c7-41b5-835b-900361d7040c |
 >| Tasks.Read | délégué | Certaines tâches Outlook/Planificateur sont répliquées dans notre système pour aider les nouveaux utilisateurs. | Nous a bootstrap new user accounts with their Graph tasks. | d76f016f-52c7-41b5-835b-900361d7040c |
@@ -74,9 +74,9 @@ Si l’application transfère ou partage des données organisationnelles avec un
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans la télémétrie ou les journaux de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Oui, nous utilisons le courrier électronique de l’utilisateur comme ID unique dans notre système, qui sert à suivre les erreurs d’application et à suivre les événements clés dans le système (téléchargements, connectes, versions d’application, etc.) afin que notre équipe de service clientèle puisse fournir une réponse rapide aux requêtes des clients. Dans le cadre de notre conformité R GDPR, nous supprimons toutes les données client dans les 2 semaines suivant une demande de suppression, bien que dans la pratique nous le faisons le même jour, car nous avons des scripts internes pour le faire de manière semi-automatique.
+>Oui, nous utilisons le courrier électronique de l’utilisateur comme ID unique dans notre système, qui sert à suivre les erreurs de l’application et à suivre les événements clés dans le système (téléchargements, connectes, versions d’application, etc.) afin que notre équipe de service clientèle puisse fournir une réponse rapide aux requêtes des clients. Dans le cadre de notre conformité au R GDPR, nous supprimons toutes les données client dans les 2 semaines suivant une demande de suppression, bien que dans la pratique nous le faisons le même jour, car nous avons des scripts internes pour le faire de manière semi-automatique.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
 
@@ -96,9 +96,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -110,20 +110,20 @@ Les informations du catalogue [de Microsoft Cloud App Security](https://www.micr
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Appfluence Inc sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription de l’application et d’autres critères d’identité.
+Ces informations ont été fournies par Appfluence Inc sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
 
-| **Information** | **Réponse** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Intégrez-vous La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
 | Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
-| Votre application demande-t-elle des autorisations de moindre privilège pour votre scénario ? | Oui |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
 | Votre application prend-elle en charge l’location multiple ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Oui |
 | Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
-| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | - URIs de redirection générique,<br/><br/>- Flux ROPC (Resource Owner Password Credential) |
+| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | -  URIs de redirection générique,<br/><br/>- Flux ROPC (Resource Owner Password Credential) |
 | Votre application expose-t-elle des API web ? | Oui |
 | Votre modèle d’autorisation autorise-t-il uniquement les appels à réussir si l’application cliente reçoit le consentement approprié ? | Oui |
 | Votre application utilise-t-elle les API d’aperçu ? | Non |

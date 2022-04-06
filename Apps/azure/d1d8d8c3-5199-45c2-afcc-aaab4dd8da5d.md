@@ -1,19 +1,19 @@
 ---
-title: Azure App informations d’ID pour d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d
+title: Azure App’ID pour d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/02/2022
+ms.date: 03/30/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.
-ms.openlocfilehash: 92656ed40097787c432c7832e50086f974609c6e
-ms.sourcegitcommit: 1ec89e36ca96efb9704a11b904ab84f4030b3578
+ms.openlocfilehash: d47b8189662cfaf5a50f59b4355971a5a8c67f26
+ms.sourcegitcommit: 0b61e3c35f05a7f7926b2ccd6049be4fc2a149c9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64657727"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64555407"
 ---
 # <a name="azure-app-id-d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d"></a>Azure App ID : d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d
 
@@ -23,5 +23,5 @@ ms.locfileid: "64657727"
 |--------------|---------------|-----------------------|
 | [Suivi d’équipe](../forward/WA200003572.md) |  | [https://appsource.microsoft.com/product/office/WA200003572](https://appsource.microsoft.com/product/office/WA200003572) |
 
-### <a name="microsoft-365-app-compliance-status"></a>état de conformité de l’application Microsoft 365
-- état de l’attestaton Publisher : terminé
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 conformité des applications
+- Publisher statut attestaton : Terminé
