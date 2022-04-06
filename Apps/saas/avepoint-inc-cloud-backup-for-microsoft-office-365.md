@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour la sauvegarde cloud pour Microsoft Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a053ad5e60924f5d45fb8b99f91fe87b6dfe844e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: dca13bf8ef2d0ab2147e7457ab617196edae7fd6
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63546562"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64623206"
 ---
 # <a name="cloud-backup-for-microsoft-office-365"></a>Sauvegarde cloud pour Microsoft Office 365
 
@@ -36,8 +36,11 @@ Informations fournies par AvePoint Inc. à Microsoft :
 | Nom de la société partenaire | AvePoint Inc. |
 | Site web de l’entreprise | [https://www.avepoint.com](https://www.avepoint.com) |
 | Conditions d’utilisation de l’application | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Fonctionnalités principales de l’application | AvePoint Cloud Backup est l'&#8217;la solution de sauvegarde cloud à cloud la plus complète pour Microsoft 365. Par
-Des sauvegardes automatisées illimitées et un stockage sécurisé dans le stockage Azure d’AvePoint&#8217;ou votre propre cloud, vous décidez simplement de la quantité à récupérer et du moment où. Une restauration granulaire et à la demande au niveau de l’élément fournit un accès à tout moment à vos e-mails, fichiers, conversations, enregistrements, projets, tâches, groupes, Teams, planificateur et sites critiques. | | Emplacement du siège social de l'| États-Unis d’Amérique | | Page d’informations sur l| [https://www.avepoint.com/products/cloud/backup/microsoft-of...](https://www.avepoint.com/products/cloud/backup/microsoft-office-365-backup) | | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas | | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
+| Fonctionnalités principales de l’application | AvePoint Cloud Backup est l'&#8217;la solution de sauvegarde cloud à cloud la plus complète pour Microsoft 365. Avec des sauvegardes automatisées illimitées et un stockage sécurisé dans le stockage Azure d’AvePoint&#8217;ou votre propre cloud, vous décidez simplement de la quantité à récupérer et du moment où. Une restauration granulaire et à la demande au niveau de l’élément fournit un accès à tout moment à vos e-mails, fichiers, conversations, enregistrements, projets, tâches, groupes, Teams, planificateur et sites critiques. |
+| Emplacement du siège social de l’entreprise | États-Unis Amérique |
+| Page d’informations sur l’application | [https://www.avepoint.com/products/cloud/backup/microsoft-of...](https://www.avepoint.com/products/cloud/backup/microsoft-office-365-backup) |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,7 +59,7 @@ Ces informations ont été fournies par AvePoint Inc. sur la façon dont cette a
 | L’application prend-elle en charge TLS 1.1 ou une valeur supérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | SharePoint site/site ODFB/Microsoft 365 groupe/ID d’équipe, nom, URL ; |
-| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis d’Amérique |
+| Si des infastructures sous-jacentes traitent ou stockent des données client Microsoft, où sont stockées géographiquement ces données ? | États-Unis Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-elles conservées après la résiliation d’un compte ? | Moins de 30 jours |
 | Avez-vous un processus de gestion de l’accès aux données établi ? | Oui |
@@ -103,23 +106,23 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
+| L’application est-elle conforme à la loi HIPAA (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
 | Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
 | Quelle certification SOC 2 avez-vous atteinte ? |  type2 |
 | Date de certification SOC2 la plus récente |  2/19/2021 |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Date de certification SOC3 la plus récente | |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
 | L’application International Organization for Standardization (ISO 27001) est-elle certifiée ? | Oui |
-| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | N/A |
+| L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27018) ? | S/O |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27017) ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale de normalisation (ISO 27002) ? | Non |
 | Le programme fedramp (Federal Risk and Authorization Management Program) de l’application est-il conforme ? | Oui |
 | L’application est-elle conforme à la loi FERPA (Family Educational Rights and Privacy Act) ? | N/A |
-| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à la réglementation COPPA (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
 | L’application est-elle conforme au NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Oui |
