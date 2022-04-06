@@ -3,11 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/29/2022
+ms.date: 04/02/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
+ms.openlocfilehash: 075fe575aaf6bf02c60e8ea3430a28c78ccc28ad
+ms.sourcegitcommit: 1ec89e36ca96efb9704a11b904ab84f4030b3578
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64652153"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -20,11 +26,12 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [365-QA](./advantive-365-qa.md) | Advantif | **✓** |  |
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
 | [8x8](./8x8-inc.md) | 8x8, Inc | **✓** |  |
-| [absentify](./braincore-solutions-gmbh-absentify.md) | BrainCore Solutions GmbH | **✓** |  |
+| [absentify](./braincore-solutions-absentify.md) | BrainCore Solutions | **✓** |  |
 | [ADI](./akari-solutions-limited-adi.md) | Solutions Akari Limitée | **✓** |  |
 | [Adobe Acrobat](./adobe-systems-inc-acrobat.md) | Adobe Systems Inc. | **✓** |  |
-| [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Acrobat Sign](./adobe-acrobat-sign.md) | Adobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Agenda Boss](./appfluence-inc-agenda-boss.md) | Appfluence Inc | **✓** |  |
+| [Producteur d’IA](./livearena-technologies-ab-ai-producer.md) | LiveArena Technologies AB | **✓** |  |
 | [Aimful](./aimful.md) | Aimful | **✓** |  |
 | [Akouo Interpretation](./akouo-technologies-inc-interpretation.md) | Akouo Technologies Inc. | **✓** |  |
 | [Assistant libre-service Alloy](./alloy-software-self-service-assistant.md) | Logiciels Alloy | **✓** |  |
@@ -156,7 +163,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Engagement](./engagedly-inc.md) | Engagedly Inc | **✓** |  |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  |
 | [enmacc](./enmacc.md) | enmacc | **✓** |  |
-| [EQ Everywhere](./humantelligence-eq-everywhere.md) | Humantelligence | **✓** |  |
 | [Espresso](./solutions2share-gmbh-espresso.md) | Solutions2Share GmbH | **✓** |  |
 | [eTeamer](./eteamer.md) | &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [Gestion des événements](./sharepointsapiens-event-management.md) | SharePoint-Sapiens | **✓** |  |
@@ -193,7 +199,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Goalhub](./momentum-cloud-pty-ltd-goalhub.md) | Momentum Cloud Pty Ltd | **✓** |  |
 | [GoLinks](./golinks.md) | GoLinks | **✓** |  |
 | [Good4work](./good4work.md) | Good4work | **✓** |  |
-| [Goodera](./goodera.md) | Goodera | **✓** |  |
 | [GoToConnect](./logmein-inc-gotoconnect.md) | LogMeIn Inc. | **✓** |  |
 | [GRATICA](./okwave-inc-gratica.md) | OKWAVE, Inc. | **✓** |  |
 | [Group Address Book – NextSet](./nextsetinc-group-address-book-nextset.md) | NextSet, Inc. | **✓** |  |
@@ -210,11 +215,13 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [hi Digital Coach](./digital-attitude-srl-hi-coach.md) | Digital Attitude Srl | **✓** |  |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  |
 | [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
+| [HighSide Collaboration](./highside-inc-collaboration.md) | HighSide, Inc | **✓** |  |
 | [Highspot](./highspot.md) | Highspot | **✓** |  |
 | [HitHorizons](./finstat-sro-hithorizons.md) | FinStat s.r.o. | **✓** |  |
 | [Hive](./hive.md) | Ruche | **✓** |  |
 | [HubSite 365](./netforce-365-gmbh-hubsite.md) | NetForce 365 GmbH | **✓** |  |
 | [Hugo](./hugo.md) | Hugo | **✓** |  |
+| [Humantelligence](./humantelligence.md) | Humantelligence | **✓** |  |
 | [huminos](./soe-technologies-huminos.md) | SOE Technologies | **✓** |  |
 | [Humu](./humu-inc.md) | Humu Inc. | **✓** |  |
 | [Hyperlinks](./solutions2share-gmbh-hyperlinks.md) | Solutions2Share GmbH | **✓** |  |
@@ -235,6 +242,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Jira Cloud](./atlassian-jira-cloud.md) | Atlassian | **✓** |  |
 | [Jira Integration Plus](./nextup-llc-jira-integration-plus.md) | Nextup, LLC | **✓** |  |
 | [JobPts](./semos-cloud-soultions-jobpts.md) | Semos Cloud Soultions | **✓** |  |
+| [Joye](./joye-pte-ltd.md) | Joye Pte Ltd | **✓** |  |
 | [Kakeai](./kakeai.md) | KAKEAI | **✓** |  |
 | [Kanban Tool](./shore-labs-kanban-tool.md) | Shore Labs | **✓** |  |
 | [Kaptain Charlie](./askrai-kaptain-charlie.md) | askR.ai | **✓** |  |
@@ -299,6 +307,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Neelix.Team](./neelixio-neelixteam.md) | Neelix.IO | **✓** |  |
 | [netDocShare](./kl-software-technologies-netdocshare.md) | KL Software Technologies | **✓** |  |
 | [NewCOS](./newtech-newcos.md) | Newtech | **✓** |  |
+| [Actualités - Jalios](./jalios-sa-news.md) | Jalios SA | **✓** |  |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | Toutes les solutions bleues | **✓** |  |
 | [NickNack](./nicknack-ltd.md) | NickNack Ltd. | **✓** |  |
 | [surnom par les jeux flow](./room6-nickname-by-flowrish-games.md) | room6 | **✓** |  |
@@ -363,7 +372,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Bot RFPIO](./rfpio-bot.md) | RFPIO | **✓** |  |
 | [RingCentral](./ringcentral-inc.md) | RingCentral, Inc. | **✓** |  |
 | [RowShare](./rowshare.md) | RowShare | **✓** |  |
-| [Saberr](./saberr.md) | Saberr | **✓** |  |
 | [Safe Spaces](./ecare-vault-inc-safe-spaces.md) | eCare Vault Inc. | **✓** |  |
 | [Sailpoint](./sailpoint-technologies-inc.md) | SailPoint Technologies, Inc. | **✓** |  |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
@@ -422,8 +430,8 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Tactileo](./maskott-tactileo.md) | Maskott | **✓** |  |
 | [TagMyFav](./avishkaram-technologies-pvt-ltd-tagmyfav.md) | Avishkaram Technologies Pvt Ltd | **✓** |  |
 | [TagTeam](./smarter-business-solution-gmbh-tagteam.md) | Smarter Business Solution GmbH | **✓** |  |
-| [Talview Interviews](./talview-inc-interviews.md) | Talview Inc | **✓** |  |
 | [TAMPLO](./ityss-tamplo.md) | ITYSS | **✓** |  |
+| [TaskCall](./taskcall-cloud-services-sl.md) | TaskCall Services cloud, S.L. | **✓** |  |
 | [Taskworld](./taskworld.md) | Taskworld | **✓** |  |
 | [Team Central](./atlassian-inc-team-central.md) | Atlassian, Inc. | **✓** |  |
 | [Suivi d’équipe](./team-tracker-ltd.md) | Team Tracker Ltd | **✓** |  |

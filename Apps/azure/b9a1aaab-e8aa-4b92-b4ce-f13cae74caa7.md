@@ -1,19 +1,19 @@
 ---
-title: Azure App’ID pour b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
+title: Azure App informations d’ID pour b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/31/2022
+ms.date: 04/02/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.
-ms.openlocfilehash: 25f1834f87841251d92a90584e1693a9a3a3d7d6
-ms.sourcegitcommit: 021c258a4aad74b2525c08b60926fbbcd421f0c0
+ms.openlocfilehash: d43a71a282c21f3935f2b8cdddd4085205615d46
+ms.sourcegitcommit: 1ec89e36ca96efb9704a11b904ab84f4030b3578
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "64597233"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64652732"
 ---
 # <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>Azure App ID : b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 
@@ -23,5 +23,5 @@ ms.locfileid: "64597233"
 |--------------|---------------|-----------------------|
 | [Gestionnaire Teams](../forward/WA200000764.md) |  | [https://appsource.microsoft.com/product/office/WA200000764](https://appsource.microsoft.com/product/office/WA200000764) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 conformité des applications
-- Publisher statut attestaton : Terminé
+### <a name="microsoft-365-app-compliance-status"></a>état de conformité de l’application Microsoft 365
+- état de l’attestaton Publisher : terminé
