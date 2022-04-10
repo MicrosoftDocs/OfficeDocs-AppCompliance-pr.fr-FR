@@ -156,6 +156,8 @@
       items:
         - name: Adobe Acrobat Sign for Microsoft Office SharePoint Online
           href: sharepoint/adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md
+        - name: Tableau des tâches agiles pour SharePoint Online
+          href: sharepoint/agile-is-task-board-for-sharepoint-online.md
         - name: ArcGIS pour SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: Système de gestion des enchères
@@ -176,7 +178,7 @@
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: Konnect eMail Parser
           href: sharepoint/konnect-email-parser.md
-        - name: Viva Connections LifeWorks
+        - name: Connexions LifeWorks Viva
           href: sharepoint/lifeworks-inc-viva-connections.md
         - name: Lightning Tools Lightning Conductor
           href: sharepoint/lightning-tools-conductor.md
@@ -221,6 +223,8 @@
           href: teams/adobe-acrobat-sign.md
         - name: Agenda Boss
           href: teams/appfluence-inc-agenda-boss.md
+        - name: Tableau de tâches Agile
+          href: teams/agile-is-task-board.md
         - name: Producteur d’IA
           href: teams/livearena-technologies-ab-ai-producer.md
         - name: Aimful
@@ -1057,7 +1061,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker par Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Travail d’équipe
+        - name: Travail d'équipe
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -1161,7 +1165,7 @@
           href: teams/workjam-tasks.md
         - name: Horloge WorkJam
           href: teams/workjam-time-clock.md
-        - name: Chemin d’accès
+        - name: Workpath
           href: teams/workpath-gmbh.md
         - name: WorkplaceBuddy
           href: teams/workplacebuddy.md
@@ -1862,6 +1866,8 @@
           href: azure/dae2eacf-3eb5-4440-baff-984fbd5cae68.md
         - name: dc171e47-c074-4bc2-9e7b-3856b71e0630
           href: azure/dc171e47-c074-4bc2-9e7b-3856b71e0630.md
+        - name: dc8facfc-c606-44b4-a0ad-04f81446845c
+          href: azure/dc8facfc-c606-44b4-a0ad-04f81446845c.md
         - name: dea67e43-444e-4852-b57b-b57878a4022b
           href: azure/dea67e43-444e-4852-b57b-b57878a4022b.md
         - name: e208746a-2666-4d95-b925-e2ff64b3181d
