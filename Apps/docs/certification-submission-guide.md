@@ -7,12 +7,12 @@ description: Microsoft 365 détails du guide de soumission de certification
 keywords: équipes de certification des applications Microsoft 365 conformité de la sécurité m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 753b40f63b293fea83705ae8124f5f22cbebe394
-ms.sourcegitcommit: 9cc3fe8502a6f21f3f6abb4dd23b99b116c51b8e
+ms.openlocfilehash: 5081e187615400b038795215ad0d5dcc934e1a87
+ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64720978"
+ms.lasthandoff: 04/10/2022
+ms.locfileid: "64751823"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Guide de soumission de certification Microsoft 365
 
@@ -90,6 +90,7 @@ Les éditeurs de logiciels indépendants qui ont déjà démarré l’évaluatio
 
 ### <a name="infrastructure-as-a-service-iaas-platform-as-a-service-paas-and-software-as-a-service-saas"></a>Infrastructure as a Service (IaaS), Platform as a Service (PaaS) et Software as a Service (SaaS) 
 Lorsque IaaS et/ou PaaS sont utilisés pour prendre en charge l’infrastructure de la remise de code d’application ou de complément en cours d’examen, le fournisseur de plateforme cloud est responsable de certains des contrôles de sécurité évalués tout au long du processus de certification. Par conséquent, les analystes de certification devront disposer d’une vérification externe indépendante des bonnes pratiques de sécurité par le fournisseur de plateforme cloud par le biais de rapports de conformité externes tels que les rapports DSS PCI Attestation of Compliance (AOC), ISO27001 ou SOC 2 Type II. 
+
 
 L’annexe F fournit des détails sur les contrôles de sécurité susceptibles d’être applicables en fonction des types de déploiement suivants et selon que l’application/complément exfiltre ou non les données M365 : 
 * ISV hébergé 
@@ -249,6 +250,7 @@ Lorsque des techniques sont utilisées pour segmenter les environnements dans l�
 Les rapports de test d’intrusion seront examinés pour vous assurer qu’aucune vulnérabilité ne répond aux  **critères d’échec automatique suivants** décrits dans les contrôles ci-dessous.
  
 **Exigences en matière de test d’intrusion**
+
 
 |**Type de critère**|**Contrôles de test d’intrusion**|
 | -------------------------|-----------------------------|
