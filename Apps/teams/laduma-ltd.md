@@ -1,48 +1,48 @@
 ---
-title: Informations sur les applications pour la gestion de la formation des employés par SharePoint| Sapiens
+title: Application Information for Laduma by Laduma Ltd.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/23/2022
+ms.date: 04/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Les informations de cette page sont basées sur un rapport d’auto-évaluation fourni par le développeur de l’application sur les pratiques de sécurité, de conformité et de gestion des données suivies par cette application.
+description: Toutes les informations de sécurité et de conformité disponibles pour Laduma, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9df7f3a0757caf2df5309e79e07ff28d1163093f
+ms.openlocfilehash: 3907a9a025a2d11abae4414d7a403fde9e2ccb22
 ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784553"
+ms.locfileid: "64784600"
 ---
-# <a name="employee-training-management"></a>Gestion de la formation des employés
+# <a name="laduma"></a>Laduma
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 22 mars 2022</p>
+<p>Dernière mise à jour par le développeur : 28 février 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/17b6b751-7463-4afd-a3ae-ad26a20c8904" target="_blank">Afficher dans Teams magasin</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001512" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/3bcb0d8a-5ec8-4637-a946-958e5c0277fd" target="_blank">Afficher dans Teams magasin</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003907" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par SharePoint| Sapiens vers Microsoft :
+Informations fournies par Laduma Ltd. à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | Gestion de la formation des employés |
-| ID | WA200001512 |
+| Nom de l'application | Laduma |
+| ID | WA200003907 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | \|SharePoint Sapiens |
-| Site web de la société | [https://www.sharepointsapiens.com](https://www.sharepointsapiens.com) |
-| Conditions d’utilisation de l’application | [https://addins.sharepointsapiens.com/licensing/services-agr...](https://addins.sharepointsapiens.com/licensing/services-agreement.html) |
-| Fonctionnalités principales de l’application | Le complément Gestion de la formation des employés facilite l’organisation et l’administration du perfectionnement professionnel continu des employés pour tout le monde. De la configuration et de la planification d’événements de formation, de la gestion des apprenants, de leurs affectations et de leurs inscriptions, en passant par le suivi des réussites et des commentaires, tout est abordé. Le complément vous aide à respecter vos réglementations de conformité et vos stratégies de sécurité. Il vous permet d’attribuer l’entraînement requis, de suivre les succès, de gérer les expirations et bien plus encore. |
-| Emplacement du siège social de la société | Autriche |
-| Page d’informations sur l’application | [https://www.sharepointsapiens.com/employee-training-managem...](https://www.sharepointsapiens.com/employee-training-management-office365/documentation/teams/) |
-| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
+| Nom de la société partenaire | Laduma Ltd. |
+| Site web de la société | [https://laduma.com](https://laduma.com) |
+| Conditions d’utilisation de l’application | [https://laduma.com/terms-of-service/](https://laduma.com/terms-of-service/) |
+| Fonctionnalités principales de l’application | Partage illimité de tableaux blancs, de documents et d’applications pour Microsoft Teams |
+| Emplacement du siège social de la société | Royaume-Uni de Grande-Bretagne et d’Irlande du Nord (le) |
+| Page d’informations sur l’application | |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Hybride |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -53,14 +53,20 @@ Informations fournies par SharePoint| Sapiens vers Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Comment l’application gère les données
 
-Ces informations ont été fournies par SharePoint| Vous trouverez des informations sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Laduma Ltd. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
-| Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Quelles données sont traitées par votre application ? | Données de profil utilisateur, données d’événement utilisateur, jetons d’accès GraphAPI, canaux Microsoft Teams, ressources de calendrier et de salle |
 | L’application prend-elle en charge TLS 1.1 ou version ultérieure ? | Oui |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
+| Quelles données sont stockées dans vos bases de données ? | Données de profil utilisateur, données d’événement utilisateur, jetons d’accès GraphAPI, canaux Microsoft Teams, ressources de calendrier et de salle |
+| Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | Royaume-Uni de Grande-Bretagne et d’Irlande du Nord (le) |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Moins de 90 jours |
+| Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
+| Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -75,24 +81,23 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Effectuez-vous des tests d’intrusion annuels sur l’application ? | Non |
 | L’application dispose-t-elle d’un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
 | Votre environnement utilise-t-il une protection anti-programme malveillant traditionnelle ou des contrôles d’application ? | ApplicationControls |
-| Avez-vous mis en place un processus de mise en retrait et de classement des risques des vulnérabilités de sécurité ? | Non |
-| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application de correctifs ? | Non |
-| Effectuez-vous des activités de gestion des correctifs en fonction de vos contrats SLA de stratégie de mise à jour corrective ? | Non |
+| Avez-vous mis en place un processus de mise en retrait et de classement des risques des vulnérabilités de sécurité ? | Oui |
+| Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application de correctifs ? | Oui |
+| Effectuez-vous des activités de gestion des correctifs en fonction de vos contrats SLA de stratégie de mise à jour corrective ? | Oui |
 | Votre environnement a-t-il des systèmes d’exploitation ou logiciels non pris en charge ? | Non |
-| Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et l’infastructure qui la prend en charge ? | Non |
-| Un pare-feu est-il installé sur votre limite de réseau externe ? | Non |
-| Avez-vous un processus de gestion des modifications établi pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Non |
-| Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code soumises à la production par le développeur d’origine ? | Non |
+| Effectuez-vous une analyse trimestrielle des vulnérabilités sur votre application et l’infastructure qui la prend en charge ? | Oui |
+| Un pare-feu est-il installé sur votre limite de réseau externe ? | Oui |
+| Avez-vous un processus de gestion des modifications établi pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Oui |
+| Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code soumises à la production par le développeur d’origine ? | Oui |
 | Les pratiques de codage sécurisées prennent-elles en compte les classes de vulnérabilité courantes telles que OWASP Top 10 ? | Oui |
-| Authentification multifacteur (MFA) activée pour : | CodeRepositories, Credential |
+| Authentification multifacteur (MFA) activée pour : | DNSManagement, Informations d’identification |
 | Disposez-vous d’un processus établi pour l’approvisionnement, la modification et la suppression de comptes d’employés ? | Oui |
 | Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? | S/O |
 | La journalisation des événements est-elle configurée sur tous les composants système qui prennent en charge votre application ? | Oui |
-| Tous les journaux sont-ils examinés régulièrement par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
-| Lorsqu’un événement de sécurité est détecté, les alertes sont-ils automatiquement envoyées à un employé pour le triage ? | Oui |
+| Tous les journaux sont-ils examinés régulièrement par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui |
+| Lorsqu’un événement de sécurité est détecté, les alertes sont-ils automatiquement envoyées à un employé pour le triage ? | Non |
 | Avez-vous établi un processus officiel de gestion des risques liés à la sécurité des informations ? | Non |
-| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
-| Signalez-vous les violations de données d’application ou de service aux autorités de surveillance et aux personnes concernées par la violation dans les 72 heures suivant la détection ?| |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,15 +110,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | S/O |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
-| Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
-| Quelle certification SOC 2 avez-vous obtenue ? | |
-| Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
-| Date de certification SOC3 la plus récente | |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
 | L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | S/O |
+| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
@@ -133,15 +134,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Oui |
 | L’application a-t-elle un avis de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
-| URL de la politique de confidentialité | https://addins.sharepointsapiens.com/licensing/data-processing-agreement.html |
+| URL de la politique de confidentialité | https://laduma.com/privacy-policy/ |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui pourrait avoir un effet juridique ou un impact similaire ? | Non |
 | L’application traite-t-elle les données client à des fins secondaires qui ne sont pas décrites dans l’avis de confidentialité (c’est-à-dire marketing, analytique) ? | Non |
 | Traitez-vous des catégories spéciales de données sensibles (origines raciales ou ethniques, opinions politiques, croyances religieuses ou philosophiques, données génétiques ou biométriques, données de santé) ou catégories de données soumises à des lois de notification de violation ? | Non |
 | L’application collecte-t-elle ou traite-t-elle des données auprès de mineurs (c’est-à-dire des personnes de moins de 16 ans) ? | Non |
-| L’application dispose-t-elle de fonctionnalités permettant de supprimer les données personnelles d’une personne sur demande ? | S/O |
-| L’application dispose-t-elle de fonctionnalités permettant de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | S/O |
+| L’application dispose-t-elle de fonctionnalités permettant de supprimer les données personnelles d’une personne sur demande ? | Non |
+| L’application dispose-t-elle de fonctionnalités permettant de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Non |
 | L’application offre-t-elle aux utilisateurs la possibilité de corriger ou de mettre à jour leurs données personnelles ? | S/O |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des évaluations d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | S/O |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des évaluations d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,18 +154,19 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Oui |
-| Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | Oui |
+| Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | S/O |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque ou bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application prend-elle en charge l’évaluation continue de l’accès (CAE) | Non |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
-| Les applications et compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Oui |
+| Les applications et compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
 >|   **autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.ReadBasic.All | Délégué | Lire les informations utilisateur de base pour activer Exchange réservation de salle | [9e8e113c-8a08-4606-b08a-de4decc7252f](../azure/9e8e113c-8a08-4606-b08a-de4decc7252f.md) |
+>| Application.Read.All | application | Vérifiez que notre application est installée lorsque nous essayons d’ajouter une réunion à votre calendrier | [21759f96-a64d-450b-bf2a-b5e932d6ea01](../azure/21759f96-a64d-450b-bf2a-b5e932d6ea01.md) |
+>| Calendars.Read | les deux | Nous devons ajouter des réunions au calendrier de l’utilisateur | [21759f96-a64d-450b-bf2a-b5e932d6ea01](../azure/21759f96-a64d-450b-bf2a-b5e932d6ea01.md) |
 
 >Cette application n’a pas d’API supplémentaires.
 

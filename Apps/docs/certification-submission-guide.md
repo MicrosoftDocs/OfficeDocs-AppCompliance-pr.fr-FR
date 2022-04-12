@@ -3,16 +3,16 @@ ms.author: oromalle
 title: Guide de soumission de certification Microsoft 365
 author: orionomalley
 manager: tonybal
-description: Microsoft 365 détails du guide de soumission de certification
+description: Microsoft 365 Certification offre aux organisations d’entreprise l’assurance et la confiance que les données et la confidentialité sont adéquatement sécurisées et protégées.
 keywords: équipes de certification des applications Microsoft 365 conformité de la sécurité m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 5081e187615400b038795215ad0d5dcc934e1a87
-ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
+ms.openlocfilehash: fd6082a482cdf5e4dc268f140b7f2a8de4d8880f
+ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/10/2022
-ms.locfileid: "64751823"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784523"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Guide de soumission de certification Microsoft 365
 
@@ -36,7 +36,7 @@ ms.locfileid: "64751823"
 - [Annexe E](#appendix-e) 
 - [Annexe F](#appendix-f) 
 - [Annexe G ](#appendix-g)
-- [En savoir plus](#learn-more) 
+- [Si vous souhaitez en savoir plus](#learn-more) 
 - [Glossaire](#glossary) 
 
 
@@ -89,8 +89,7 @@ Les éditeurs de logiciels indépendants qui ont déjà démarré l’évaluatio
 > L’environnement dans l’étendue doit avoir une zone DMZ et l’environnement de prise en charge de l’application/complément doit être segmenté à partir des systèmes d’entreprise internes et des environnements d’entreprise, limitant ainsi l’étendue des activités d’évaluation aux systèmes inclus uniquement. Les analystes de certification valideront les techniques de segmentation pendant l’évaluation, ainsi que les rapports de test d’intrusion qui auraient dû inclure des tests pour valider l’efficacité de toutes les techniques de segmentation en cours d’utilisation.
 
 ### <a name="infrastructure-as-a-service-iaas-platform-as-a-service-paas-and-software-as-a-service-saas"></a>Infrastructure as a Service (IaaS), Platform as a Service (PaaS) et Software as a Service (SaaS) 
-Lorsque IaaS et/ou PaaS sont utilisés pour prendre en charge l’infrastructure de la remise de code d’application ou de complément en cours d’examen, le fournisseur de plateforme cloud est responsable de certains des contrôles de sécurité évalués tout au long du processus de certification. Par conséquent, les analystes de certification devront disposer d’une vérification externe indépendante des bonnes pratiques de sécurité par le fournisseur de plateforme cloud par le biais de rapports de conformité externes tels que les rapports DSS PCI Attestation of Compliance (AOC), ISO27001 ou SOC 2 Type II. 
-
+Lorsque IaaS et/ou PaaS sont utilisés pour prendre en charge l’infrastructure de la remise de code d’application ou de complément en cours d’examen, le fournisseur de plateforme cloud est responsable de certains des contrôles de sécurité évalués tout au long du processus de certification. Par conséquent, les analystes de certification devront disposer d’une vérification externe indépendante des meilleures pratiques de sécurité par le fournisseur de plateforme cloud par le biais de rapports de conformité externes tels que les rapports d’attestation de conformité (AOC) [PCI DSS], ISO27001 ou [SOC 2] De type II. 
 
 L’annexe F fournit des détails sur les contrôles de sécurité susceptibles d’être applicables en fonction des types de déploiement suivants et selon que l’application/complément exfiltre ou non les données M365 : 
 * ISV hébergé 

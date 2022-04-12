@@ -2,17 +2,18 @@
 title: Programme de conformité de l’application Microsoft 365
 author: LGerrard
 ms.author: Legerrar
+manager: tonybal
 description: Introduction et vue d’ensemble du programme
 keywords: Certification ou Attestation d’éditeur de l’application m365 Microsoft 365
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: 17aab158f4fc7803966afed9df88adf9688fcc63
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+ms.openlocfilehash: fec13172c98d6ec63b3ba4160eb04c9b345acb8d
+ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63697066"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784353"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Programme de conformité de l’application Microsoft 365
 
@@ -24,7 +25,7 @@ Notre mission : offrir aux clients Microsoft un moyen de faire entièrement conf
 
 ## <a name="publisher-verification"></a>Vérification de l’éditeur
 
-La [Vérification de l’éditeur](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview) permet aux administrateurs et aux utilisateurs de comprendre l’authenticité de l’application que les développeurs intègrent avec la plateforme d’identité Microsoft. Lorsqu’une application est marquée comme vérifiée par l’éditeur, cela signifie que celui-ci a vérifié son identité à l’aide d’un compte Microsoft Partner Network qui a effectué un processus de vérification et a associé ce compte Microsoft Partner Network à son inscription d’application.
+La [Vérification de l’éditeur](/azure/active-directory/develop/publisher-verification-overview) permet aux administrateurs et aux utilisateurs de comprendre l’authenticité de l’application que les développeurs intègrent avec la plateforme d’identité Microsoft. Lorsqu’une application est marquée comme vérifiée par l’éditeur, cela signifie que celui-ci a vérifié son identité à l’aide d’un compte Microsoft Partner Network qui a effectué un processus de vérification et a associé ce compte Microsoft Partner Network à son inscription d’application.
 La vérification de l’éditeur s’applique aux applications répondant aux conditions suivantes :  
 - Utilisation d’OAuth 2.0 et d’OpenID Connect pour connecter les utilisateurs et demander un accès aux données à l’aide des API côté service telles que Microsoft Graph. 
 - Inscription dans Azure AD en tant que multi-locataire.  
@@ -50,6 +51,6 @@ La certification Microsoft 365 s'applique à toutes les applications qui s'intè
 - **Webapps** (les applications SaaS publiées via la place de marché commerciale dans Espace partenaires sont actuellement en préversion privée, si vous souhaitez participer, veuillez remplir ce [formulaire](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u).
 
 ### <a name="get-started"></a>Prise en main
-- [Comment effectuer la vérification du serveur de publication](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)
-- [Comment effectuer le](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification) de certification Microsoft 365
+- [Comment effectuer la vérification du serveur de publication](/azure/active-directory/develop/mark-app-as-publisher-verified)
+- [Comment effectuer le](/microsoft-365-app-certification/docs/certification) de certification Microsoft 365
 
