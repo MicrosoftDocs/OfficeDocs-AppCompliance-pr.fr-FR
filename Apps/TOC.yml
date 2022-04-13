@@ -869,6 +869,8 @@
           href: teams/price-monitor.md
         - name: Priority Matrix
           href: teams/appfluence-inc-priority-matrix.md
+        - name: Process Street
+          href: teams/process-street.md
         - name: Proconnect pour Sitecore
           href: teams/subramanian-ramanathan-proconnect-for-sitecore.md
         - name: ProdBot
@@ -1073,7 +1075,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker par Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Travail d'équipe
+        - name: Travail d’équipe
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -1289,6 +1291,8 @@
           href: saas/officeatwork-content-chooser-browser.md
         - name: Designer
           href: saas/officeatwork-designer.md
+        - name: Enregistrement d’appel unifié Dubber pour Microsoft Teams
+          href: saas/dubber-corp-unified-call-recording-for-microsoft-teams.md
         - name: Emailgistics
           href: saas/emailgistics-corp.md
         - name: EmailNotes pour Outlook
