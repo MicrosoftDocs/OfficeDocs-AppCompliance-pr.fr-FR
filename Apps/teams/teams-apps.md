@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/12/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 6038f62bf7b6b5c56cfe3eb8bbcdc5dafb721d2b
-ms.sourcegitcommit: a1c141babe5cca98683ce1378f956c5955fb9caf
+ms.openlocfilehash: 97893b85233aff20e9293b35af47ee5b0ee643de
+ms.sourcegitcommit: 10b79d3f6a6d9d89c3b288789a14eafdfcc42d7a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64812941"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64838724"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -354,6 +354,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Présentations IA](./infographfx-technologies-presentations-ai.md) | Technologies Infographfx | **✓** |  |
 | [Moniteur de prix](./price-monitor.md) | &#19978;&#28023;&#20134;&#24698;&#20114;&#32852;&#32593;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Process Street](./process-street.md) | Process Street | **✓** |  |
 | [Proconnect pour Sitecore](./subramanian-ramanathan-proconnect-for-sitecore.md) | Ramanathan subramanien | **✓** |  |
 | [ProdBot](./prodoscore-prodbot.md) | Prodoscore | **✓** |  |
 | [Aperçu du projet](./project-insight.md) | Aperçu du projet | **✓** |  |
