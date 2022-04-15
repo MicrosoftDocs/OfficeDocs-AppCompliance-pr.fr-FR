@@ -3,23 +3,23 @@ title: Azure App informations d’ID pour 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/13/2022
+ms.date: 04/14/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb.
-ms.openlocfilehash: 9304c506bf789f328f7c5c05a883f7b8dde4fab0
-ms.sourcegitcommit: 8272a4eaea1bbd9196b998f1cb9b87c6cbb7d5d0
+ms.openlocfilehash: 94013d4d488d0205b6788c866d3ed4020070ea0a
+ms.sourcegitcommit: aa6c1546afd356990d681ee68ce976cb7faebd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64832751"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64857280"
 ---
 # <a name="azure-app-id-2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb"></a>Azure App ID : 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
 
 
 ### <a name="apps-associated-with-this-id"></a>Applications associées à cet ID :
-| **Nom de l’application** | **Certifié** | **Afficher dans AppSource** |
+| **Nom de l'application** | **Certifié** | **Afficher dans AppSource** |
 |--------------|---------------|-----------------------|
 | [Weekly10](../forward/WA200001441.md) |  | [https://appsource.microsoft.com/product/office/WA200001441](https://appsource.microsoft.com/product/office/WA200001441) |
 
