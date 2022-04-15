@@ -3,23 +3,23 @@ title: Azure App informations d’ID pour dae2eacf-3eb5-4440-baff-984fbd5cae68
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/13/2022
+ms.date: 04/14/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour dae2eacf-3eb5-4440-baff-984fbd5cae68.
-ms.openlocfilehash: 5367ab369e4b027e4f75af6cd2691bea27fc308c
-ms.sourcegitcommit: 8272a4eaea1bbd9196b998f1cb9b87c6cbb7d5d0
+ms.openlocfilehash: 1121a52f35f7ac08e554283f2665bf3e775b45f6
+ms.sourcegitcommit: aa6c1546afd356990d681ee68ce976cb7faebd02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64830221"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64858510"
 ---
 # <a name="azure-app-id-dae2eacf-3eb5-4440-baff-984fbd5cae68"></a>Azure App ID : dae2eacf-3eb5-4440-baff-984fbd5cae68
 
 
 ### <a name="apps-associated-with-this-id"></a>Applications associées à cet ID :
-| **Nom de l’application** | **Certifié** | **Afficher dans AppSource** |
+| **Nom de l'application** | **Certifié** | **Afficher dans AppSource** |
 |--------------|---------------|-----------------------|
 | [Template Chooser](../forward/officeatwork-ag.template-chooser.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser](https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser) |
 | [Navigateur du choisisseur de modèle](../forward/officeatwork-ag.template-chooser-browser.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser-browser](https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser-browser) |
