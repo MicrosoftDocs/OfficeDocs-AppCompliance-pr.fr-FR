@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application Pro Office 365 iPlanner
+title: Informations sur l’application pour iPlanner Pro Office 365 par iGlobe
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour iPlanner Pro Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6f1cc1d4fe798b0de40f0454e044c21c15758c1b
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 862e0c20b61bf596a9ac2b1dc988d2476ce3d901
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784403"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64881465"
 ---
-# <a name="iplanner-pro-office-365-application-information"></a>Informations sur l’application Pro Office 365 iPlanner
+# <a name="iplanner-pro-office-365"></a>iPlanner Pro Office 365
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Dernière mise à jour par le développeur : 12 août 2021</p>
@@ -84,11 +84,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Disposez-vous d’un processus établi pour l’approvisionnement, la modification et la suppression de comptes d’employés ? |  |
 | Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? |  |
 | La journalisation des événements est-elle configurée sur tous les composants système qui prennent en charge votre application ? |  |
-| Tous les journaux sont-ils examinés régulièrement par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | |
 | Lorsqu’un événement de sécurité est détecté, les alertes sont-ils automatiquement envoyées à un employé pour le triage ? |  |
 | Avez-vous établi un processus officiel de gestion des risques liés à la sécurité des informations ? |  |
 | Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
-| Signalez-vous les violations de données d’application ou de service aux autorités de surveillance et aux personnes concernées par la violation dans les 72 heures suivant la détection ?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -101,12 +99,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | Oui |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | Oui |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Oui |
-| Date de certification SOC1 la plus récente |  2020-11-01 |
+| Date de certification SOC1 la plus récente | 2020-11-01 |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
-| Quelle certification SOC 2 avez-vous obtenue ? |   |
-| Date de certification SOC2 la plus récente |  2020-11-01 |
+| Date de certification SOC2 la plus récente | 2020-11-01 |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Oui |
-| Date de certification SOC3 la plus récente |  2020-11-01 |
+| Date de certification SOC3 la plus récente | 2020-11-01 |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Oui |
 | L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | Oui |
@@ -128,15 +125,6 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? |  |
-| L’application a-t-elle un avis de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? |  |
-| L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui pourrait avoir un effet juridique ou un impact similaire ? |  |
-| L’application traite-t-elle les données client à des fins secondaires qui ne sont pas décrites dans l’avis de confidentialité (c’est-à-dire marketing, analytique) ? |  |
-| Traitez-vous des catégories spéciales de données sensibles (origines raciales ou ethniques, opinions politiques, croyances religieuses ou philosophiques, données génétiques ou biométriques, données de santé) ou catégories de données soumises à des lois de notification de violation ? |  |
-| L’application collecte-t-elle ou traite-t-elle des données auprès de mineurs (c’est-à-dire des personnes de moins de 16 ans) ? |  |
-| L’application dispose-t-elle de fonctionnalités permettant de supprimer les données personnelles d’une personne sur demande ? |  |
-| L’application dispose-t-elle de fonctionnalités permettant de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? |  |
-| L’application offre-t-elle aux utilisateurs la possibilité de corriger ou de mettre à jour leurs données personnelles ? |  |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des évaluations d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -148,10 +136,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès à l’API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Oui |
-| Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | false |
+| Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | Non |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque ou bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
 | Répertorier les types de stratégies prises en charge | Paramètres de sécurité par défaut et autres stratégies courantes telles que Bloquer l’authentification héritée* Exiger l’authentification multifacteur pour les administrateurs* Exiger l’authentification multifacteur pour la gestion Azure* Exiger l’authentification multifacteur pour tous les utilisateurs* |
+| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Votre application prend-elle en charge l’évaluation continue de l’accès (CAE) |  |
 | Votre application stocke-t-elle des informations d’identification dans le code ? |  |
 | Les applications et compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Oui |

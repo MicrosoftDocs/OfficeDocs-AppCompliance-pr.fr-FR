@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour researcHR, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1ef8e528aaab8471ee521e1e7e7a22ca409c5af2
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 11d6640b20388c99facf61d5d1a35bd36eadb415
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784163"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64879643"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -86,11 +86,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Disposez-vous d’un processus établi pour l’approvisionnement, la modification et la suppression de comptes d’employés ? |  |
 | Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? |  |
 | La journalisation des événements est-elle configurée sur tous les composants système qui prennent en charge votre application ? |  |
-| Tous les journaux sont-ils examinés régulièrement par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | |
 | Lorsqu’un événement de sécurité est détecté, les alertes sont-ils automatiquement envoyées à un employé pour le triage ? |  |
 | Avez-vous établi un processus officiel de gestion des risques liés à la sécurité des informations ? |  |
 | Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
-| Signalez-vous les violations de données d’application ou de service aux autorités de surveillance et aux personnes concernées par la violation dans les 72 heures suivant la détection ?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,12 +101,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | S/O |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
-| Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
-| Quelle certification SOC 2 avez-vous obtenue ? | |
-| Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
-| Date de certification SOC3 la plus récente | |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
 | L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | S/O |
@@ -130,15 +124,6 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? |  |
-| L’application a-t-elle un avis de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? |  |
-| L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui pourrait avoir un effet juridique ou un impact similaire ? |  |
-| L’application traite-t-elle les données client à des fins secondaires qui ne sont pas décrites dans l’avis de confidentialité (c’est-à-dire marketing, analytique) ? |  |
-| Traitez-vous des catégories spéciales de données sensibles (origines raciales ou ethniques, opinions politiques, croyances religieuses ou philosophiques, données génétiques ou biométriques, données de santé) ou catégories de données soumises à des lois de notification de violation ? |  |
-| L’application collecte-t-elle ou traite-t-elle des données auprès de mineurs (c’est-à-dire des personnes de moins de 16 ans) ? |  |
-| L’application dispose-t-elle de fonctionnalités permettant de supprimer les données personnelles d’une personne sur demande ? |  |
-| L’application dispose-t-elle de fonctionnalités permettant de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? |  |
-| L’application offre-t-elle aux utilisateurs la possibilité de corriger ou de mettre à jour leurs données personnelles ? |  |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des évaluations d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -161,13 +146,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | application | Nous utilisons cette étendue pour permettre à notre bot de créer un canal sur le client Teams. Voir: [https://docs.microsoft.com/graph/api/channel-post](/graph/api/channel-post) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Directory.Read.All | application | Nous utilisons cette étendue pour obtenir les ID de canal et les noms pour afficher ces données sur notre site web. Voir: [https://docs.microsoft.com/graph/api/channel-list](/graph/api/channel-list) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Group.Read.All | application | Nous utilisons cette étendue pour obtenir les ID de canal et les noms pour afficher ces données sur notre site web. Voir: [https://docs.microsoft.com/graph/api/channel-list](/graph/api/channel-list) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Team.ReadBasic.All | application | Nous utilisons cette étendue pour obtenir les membres de l’équipe afin que les utilisateurs puissent voir leurs membres sur notre site web. Voir: [https://docs.microsoft.com/graph/api/group-list-members](/graph/api/group-list-members) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.Read.All | application | Nous utilisons cette étendue pour obtenir les canaux joints de l’utilisateur afin que les utilisateurs puissent voir leurs équipes jointes sur notre site web. Voir: [https://docs.microsoft.com/graph/api/user-list-joinedteams](/graph/api/user-list-joinedteams) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.ReadBasic.All | Délégué | Nous utilisons cette étendue pour activer la connexion OAuth et collecter l’ID AAD de l’utilisateur, le jeton d’accès et le jeton d’actualisation. Voir: [https://docs.microsoft.com/graph/auth-v2-user](/graph/auth-v2-user) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| offline_access | Délégué | Nous utilisons cette étendue pour obtenir le jeton d’actualisation afin que nous puissions actualiser le jeton d’accès des utilisateurs authed sans aucune interaction de l’utilisateur. Voir: [https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Channel.Create | application | Nous utilisons cette étendue pour permettre à notre bot de créer un canal sur le client Teams. Voir: https://docs.microsoft.com/en-us/graph/api/channel-post | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Directory.Read.All | application | Nous utilisons cette étendue pour obtenir les ID de canal et les noms pour afficher ces données sur notre site web. Voir: https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Group.Read.All | application | Nous utilisons cette étendue pour obtenir les ID de canal et les noms pour afficher ces données sur notre site web. Voir: https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Team.ReadBasic.All | application | Nous utilisons cette étendue pour obtenir les membres de l’équipe afin que les utilisateurs puissent voir leurs membres sur notre site web. Voir: https://docs.microsoft.com/en-us/graph/api/group-list-members | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.Read.All | application | Nous utilisons cette étendue pour obtenir les canaux joints de l’utilisateur afin que les utilisateurs puissent voir leurs équipes jointes sur notre site web. Voir: https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.ReadBasic.All | Délégué | Nous utilisons cette étendue pour activer la connexion OAuth et collecter l’ID AAD de l’utilisateur, le jeton d’accès et le jeton d’actualisation. Voir: https://docs.microsoft.com/en-us/graph/auth-v2-user | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| offline_access | Délégué | Nous utilisons cette étendue pour obtenir le jeton d’actualisation afin que nous puissions actualiser le jeton d’accès des utilisateurs authed sans aucune interaction de l’utilisateur. Voir: https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
 
 >Cette application n’a pas d’API supplémentaires.
 

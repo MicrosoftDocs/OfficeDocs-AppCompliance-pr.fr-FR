@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/13/2022
+ms.date: 04/15/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 97893b85233aff20e9293b35af47ee5b0ee643de
-ms.sourcegitcommit: 10b79d3f6a6d9d89c3b288789a14eafdfcc42d7a
+ms.openlocfilehash: 8f9980b2abcf99b1afb1bd73d8f13d42956e8422
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64838724"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64879601"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -371,6 +371,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Quitch](./quitch.md) | Quitch | **✓** |  |
 | [Quéiky](./global-congress-srl-rafiky.md) | SRL GLOBAL DU SRL | **✓** |  |
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
+| [Read Dashboard](./read-ai-inc-dashboard.md) | Read AI, Inc. | **✓** |  |
 | [Traducteur en temps réel](./fairuse-real-time-translator.md) | Utilisation équitable | **✓** |  |
 | [ReconnaissanceNow DM](./bi-worldwide-recognitionnow-dm.md) | BI MONDIAL | **✓** |  |
 | [Rappeler](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |

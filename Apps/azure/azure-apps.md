@@ -3,17 +3,17 @@ title: sécurité et conformité des ID Azure App - Toutes les applications
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/14/2022
+ms.date: 04/15/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour tous les ID Azure App.
 localization_priority: Normal
-ms.openlocfilehash: 3fd267b4e5727a68302dcfc2e4603ac2a5910891
-ms.sourcegitcommit: aa6c1546afd356990d681ee68ce976cb7faebd02
+ms.openlocfilehash: e937176358a0f90beb59afbca3a9bb7fa818a914
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64856840"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64880101"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>sécurité et conformité des ID Azure App
 
@@ -242,6 +242,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [afd2c390-8b78-40fa-913b-7fc5911e884a](./afd2c390-8b78-40fa-913b-7fc5911e884a.md) | **✓** |  |
 | [affadfb6-f17b-428f-97f9-9aae3b6175bc](./affadfb6-f17b-428f-97f9-9aae3b6175bc.md) | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [b0656c15-44aa-4aab-8956-bb97e3016535](./b0656c15-44aa-4aab-8956-bb97e3016535.md) | **✓** |  |
+| [b12699ab-e60a-46b1-8c9e-231d489947aa](./b12699ab-e60a-46b1-8c9e-231d489947aa.md) | **✓** |  |
 | [b13c40ee-e073-459e-96b5-3f3cca046a37](./b13c40ee-e073-459e-96b5-3f3cca046a37.md) | **✓** |  |
 | [b1d1c038-a1f3-4802-be93-0f4a66589e73](./b1d1c038-a1f3-4802-be93-0f4a66589e73.md) | **✓** |  |
 | [b2380441-bb33-439e-bf4a-8cd277dcebc8](./b2380441-bb33-439e-bf4a-8cd277dcebc8.md) | **✓** |  |
