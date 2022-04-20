@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/15/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 8f9980b2abcf99b1afb1bd73d8f13d42956e8422
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 85ad21ee223c047b78a06f6ce7829a7141d68219
+ms.sourcegitcommit: 57d7b0335ec02b7f20a47ec888b4ca39d75bab67
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64879601"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910022"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -131,6 +131,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Cultr Connect](./cultr-connect.md) | Cultr | **✓** |  |
 | [Culture Amp](./culture-amp.md) | Culture Amp | **✓** |  |
 | [Cyberday](./digiturvamalli-cyberday.md) | Digiturvamalli | **✓** |  |
+| [DataFetch](./datafetch-inc.md) | DataFetch, Inc | **✓** |  |
 | [DataMiner](./skyline-communications-dataminer.md) | Skyline Communications | **✓** |  |
 | [Espace de travail Datto](./datto-inc-workplace.md) | Datto, Inc. | **✓** |  |
 | [DBit](./diamondsoft-solutions-llc-dbit.md) | Diamondsoft Solutions, LLC | **✓** |  |
@@ -142,6 +143,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [DeskBooking](./desknow-gmbh-deskbooking.md) | DeskNow GmbH | **✓** |  |
 | [DeskManager](./desknow-gmbh-deskmanager.md) | DeskNow GmbH | **✓** |  |
 | [Digiplein](./educatieve-uitgeversgroep-bv-digiplein.md) | Educatieve Uitgeversgroep B.V. | **✓** |  |
+| [Boîte à outils DigitalOps](./medalsoft-digitalops-toolbox.md) | Medalsoft | **✓** |  |
 | [Diligent Boards](./diligent-boards.md) | Diligent | **✓** |  |
 | [Listes de distribution Pro](./witivio-distribution-lists-pro.md) | Witivio | **✓** |  |
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
@@ -152,6 +154,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [EasyLife 365](./easylife-365-ag.md) | EasyLife 365 AG | **✓** |  |
 | [eCademy Lernplattform](./cornelsen-ecademyinside-gmbh-ecademy-lernplattform.md) | Cornelsen eCademy &amp; inside GmbH | **✓** |  |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  |
+| [Edgility](./edgility.md) | Edgility | **✓** |  |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  |
 | [Efecte Service Management](./efecte-oyj-service-management.md) | Efecte Oyj | **✓** |  |
 | [eformity - Gestion des modèles](./eformity-eformitytemplate-management.md) | eformity | **✓** |  |
@@ -185,6 +188,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [File Fabric](./storage-made-easy-file-fabric.md) | Storage Made Easy | **✓** |  |
 | [Gestionnaire de fichiers](./solutions2share-gmbh-file-manager.md) | Solutions2Share GmbH | **✓** |  |
 | [Findit](./ctelo-findit.md) | CTELO | **✓** |  |
+| [FinTech Studios](./fintech-studios.md) | FinTech Studios | **✓** |  |
 | [Fireflies AI](./firefliesai-fireflies-ai.md) | Fireflies.ai | **✓** |  |
 | [FireHydrant](./firehydrant.md) | FireHydrant | **✓** |  |
 | [Assistant Pare-feu](./dewmaker-design-inc-firewall-assistant.md) | DewMaker Design, Inc. | **✓** |  |
