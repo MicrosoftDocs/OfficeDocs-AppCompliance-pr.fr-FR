@@ -3,23 +3,23 @@ title: Azure App informations d’ID pour 3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/20/2022
+ms.date: 04/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour 3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.
-ms.openlocfilehash: 01405ddbbd4ee9002f53f596e4f54e48b3cc2d72
-ms.sourcegitcommit: 3f7acf13ff182026b75f58baa2290a68c8281b46
+ms.openlocfilehash: 6d9bd9b6158fb296fad77e5b4a3d924354e1d41f
+ms.sourcegitcommit: 6a86cfad0d14b309aa1e990c124ed1c0cc85fbeb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64965393"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65024101"
 ---
 # <a name="azure-app-id-3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc"></a>Azure App ID : 3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc
 
 
 ### <a name="apps-associated-with-this-id"></a>Applications associées à cet ID :
-| **Nom de l'application** | **Certifié** | **Afficher dans AppSource** |
+| **Nom de l’application** | **Certifié** | **Afficher dans AppSource** |
 |--------------|---------------|-----------------------|
 | [Flux de travail Autopilot](../forward/WA200003745.md) |  | [https://appsource.microsoft.com/product/office/WA200003745](https://appsource.microsoft.com/product/office/WA200003745) |
 
