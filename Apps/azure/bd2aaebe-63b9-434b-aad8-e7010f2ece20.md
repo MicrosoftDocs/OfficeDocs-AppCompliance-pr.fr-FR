@@ -3,23 +3,23 @@ title: Azure App informations d’ID pour bd2aaebe-63b9-434b-aad8-e7010f2ece20
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/27/2022
+ms.date: 04/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour bd2aaebe-63b9-434b-aad8-e7010f2ece20.
-ms.openlocfilehash: e2fd3f8e4d7399563a00fc92edfcf9244a6f039d
-ms.sourcegitcommit: b0c1d8160b4e9a27f23a9d723f7e76d38ab12d9e
+ms.openlocfilehash: 745d76f047b560e1cd5443471ff4f50e4c658e35
+ms.sourcegitcommit: db48137bbc58500d2e4b5ec78cb8f585b835237e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65124593"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "65151391"
 ---
 # <a name="azure-app-id-bd2aaebe-63b9-434b-aad8-e7010f2ece20"></a>Azure App ID : bd2aaebe-63b9-434b-aad8-e7010f2ece20
 
 
 ### <a name="apps-associated-with-this-id"></a>Applications associées à cet ID :
-| **Nom de l'application** | **Certifié** | **Afficher dans AppSource** |
+| **Nom de l’application** | **Certifié** | **Afficher dans AppSource** |
 |--------------|---------------|-----------------------|
 | [Geekbot](../forward/WA200003224.md) |  | [https://appsource.microsoft.com/product/office/WA200003224](https://appsource.microsoft.com/product/office/WA200003224) |
 
