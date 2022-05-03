@@ -3,24 +3,23 @@ title: Informations d’application pour Adobe Acrobat Sign for Microsoft 365 pa
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/20/2022
+ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Adobe Acrobat Sign for Microsoft 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9b87349c5829954b6c2f421590406110d32d85fe
-ms.sourcegitcommit: 9dbbec778006471c0193a7fd39e2f81e7d441275
+ms.openlocfilehash: 96500b3df087be8333684b6c7f793a551ccc4a2e
+ms.sourcegitcommit: 4e4e1e4f91f4fab06f3585388784a0da1a963453
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014314"
+ms.lasthandoff: 05/02/2022
+ms.locfileid: "65168511"
 ---
 # <a name="adobe-acrobat-sign-for-microsoft-365"></a>Adobe Acrobat Sign for Microsoft 365
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 11 avril 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Dernière mise à jour par le développeur : 29 avril 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/adobe.adobe_sign_msft_saas_offer" target="_blank">Afficher dans AppSource</a>
 
