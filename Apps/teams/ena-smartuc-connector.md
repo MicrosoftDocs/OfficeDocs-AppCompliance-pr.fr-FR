@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour enA SmartUC Connector, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3f2f49283d559d7d1392339969884fb50ba2a777
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 35216e57d20e4893f3d349809568c89df0b60032
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64876401"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226158"
 ---
 # <a name="ena-smartuc-connector"></a>Connecteur SmartUC ENA
 
@@ -150,13 +150,13 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.Read.All | Délégué | ID d’utilisateur et noms d’affichage des membres du canal/conversation actuel. L’application l’utilise pour présenter à l’utilisateur une liste de membres de canal/conversation à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| Chat.ReadBasic | Délégué | ID d’utilisateur et noms d’affichage des membres de la conversation actuelle. L’application l’utilise pour présenter à l’utilisateur une liste de membres de conversation à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| People.Read.All | Délégué | ID d’utilisateur et noms d’affichage des membres de l’équipe active. L’application l’utilise pour présenter à l’utilisateur une liste de membres de l’équipe à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| User.Read.All | Délégué | Numéros de téléphone professionnel et mobile des utilisateurs. Cela est nécessaire pour que les appels téléphoniques à ces numéros puissent être lancés. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| offline_access | Délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison API Graph répertoriés en son nom. Ces autorisations d’accès sont requises pour que les applications de plateforme d’identités Microsoft fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| openid | Délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison API Graph répertoriés en son nom. Ces autorisations d’accès sont requises pour que les applications de plateforme d’identités Microsoft fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| profil | Délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison API Graph répertoriés en son nom. Ces autorisations d’accès sont requises pour que les applications de plateforme d’identités Microsoft fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| ChannelMember.Read.All | Délégué | ID d’utilisateur et noms d’affichage des membres du canal/conversation actuel. L’application l’utilise pour présenter à l’utilisateur une liste de membres de canal/conversation à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| Chat.ReadBasic | Délégué | ID d’utilisateur et noms d’affichage des membres de la conversation actuelle. L’application l’utilise pour présenter à l’utilisateur une liste de membres de conversation à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| People.Read.All | Délégué | ID d’utilisateur et noms d’affichage des membres de l’équipe active. L’application l’utilise pour présenter à l’utilisateur une liste de membres de l’équipe à appeler. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| User.Read.All | Délégué | Numéros de téléphone professionnel et mobile des utilisateurs. Cela est nécessaire pour que les appels téléphoniques à ces numéros puissent être lancés. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| offline_access | Délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison API Graph répertoriés en son nom. Ces autorisations d’accès sont requises pour que les applications de plateforme d’identités Microsoft fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| openid | Délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison API Graph répertoriés en son nom. Ces autorisations d’accès sont requises pour que les applications de plateforme d’identités Microsoft fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| profil | Délégué | Jeton d’autorisation pour l’utilisateur, autorisant l’application à accéder aux autres points de terminaison API Graph répertoriés en son nom. Ces autorisations d’accès sont requises pour que les applications de plateforme d’identités Microsoft fonctionnent. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
 
 >Cette application n’a pas d’API supplémentaires.
 

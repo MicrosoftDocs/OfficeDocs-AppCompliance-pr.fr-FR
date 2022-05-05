@@ -1,46 +1,46 @@
 ---
-title: Informations sur l’application pour Sobol
+title: Informations sur l’application pour Sympli par Sympli, LLC
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/24/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Sobol, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Sympli, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 562b420ee2289b9caac8d7be016d2b5619a6f682
+ms.openlocfilehash: f5fb3a6fb4d767d45c1f533ca5a1dd39092ab7db
 ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/05/2022
-ms.locfileid: "65227228"
+ms.locfileid: "65227208"
 ---
-# <a name="application-information-for-sobol"></a>Informations sur l’application pour Sobol
+# <a name="sympli"></a>Sympli
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 24 juin 2021</p>
+<p>Dernière mise à jour par le développeur : 16 février 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/659f0ad6-8b3d-4846-8c4c-00ea9dfd64c8" target="_blank">Afficher dans Teams magasin</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002999" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/f1d676ab-0d2c-4afe-a9be-0af4528949ce" target="_blank">Afficher dans Teams magasin</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001551" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par ConsenSys AG&#8217;sobol à Microsoft :
+Informations fournies par Sympli, LLC à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | Sobol |
-| ID | WA200002999 |
+| Nom de l'application | Sympli |
+| ID | WA200001551 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | ConsenSys AG&#8217;s Sobol |
-| URL du site web du partenaire | [https://sobol.io](https://sobol.io) |
-| URL de Teams page d’informations sur l’application | [https://sobol.io/features](https://sobol.io/features) |
-| URL de la politique de confidentialité | [https://sobol.io/privacy-policy](https://sobol.io/privacy-policy) |
-| URL des conditions d’utilisation | [https://sobol.io/terms-of-service/](https://sobol.io/terms-of-service/) |
+| Nom de la société partenaire | Sympli, LLC |
+| URL du site web du partenaire | [https://sympli.io](https://sympli.io) |
+| URL de Teams page d’informations sur l’application | [https://help.sympli.io/en/articles/3931575-using-microsoft-...](https://help.sympli.io/en/articles/3931575-using-microsoft-teams-with-sympli-handoff) |
+| URL de la politique de confidentialité | [https://sympli.io/policy](https://sympli.io/policy) |
+| URL des conditions d’utilisation | [https://sympli.io/agreement](https://sympli.io/agreement) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,7 +50,7 @@ Informations fournies par ConsenSys AG&#8217;sobol à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Comment l’application gère les données
 
-Ces informations ont été fournies par ConsenSys AG&#8217;sobol sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Sympli, LLC sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -65,26 +65,28 @@ Si l’application transfère ou partage des données d’organisation avec un s
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quel OII est transféré ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Hubspot, Fullstory | nom d’utilisateur, e-mail | marketing et analytique |
+>| Intercom, Stripe, HubSpot | Nom de l’organisation | Support technique, ventes, mises à jour de produits |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
 Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre de l’équipe d’une équipe ou d’une conversation à laquelle elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
->Aucun EUII n’est accessible.
+>| **Justification de l’accès à l’EUII ?**  | **EUII est-il stocké dans des bases de données ?** | **Justification du stockage de l’EUII ?** |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Le nom donné des utilisateurs est utilisé pour l’enrichissement de l’expérience utilisateur conversationnelle. | Non |  |
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
 Des informations d’identification organisationnelle (OII) ou des informations d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou les données de télémétrie de cette application ? Si c’est le cas, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->nom d’utilisateur, e-mail. Suppression après 2 ans ou sur demande de l’utilisateur.
+>Aucune OII ou EUII n’apparaît dans les journaux ou les données de télémétrie des applications.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par partenaire
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? Par exemple, suppression, rétention, audit, archivage, stratégie de l’utilisateur final, etc.
 
->Les administrateurs ont la possibilité d’auditer et de supprimer les informations. Nous collectons les informations minimales nécessaires pour identifier les utilisateurs.
+>Nous nous appuyons sur les stratégies des services correspondants, par exemplehttps://www.intercom.com/legal/privacy, https://legal.hubspot.com/privacy-policyhttps://stripe.com/privacy
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -100,9 +102,9 @@ Les humains sont-ils impliqués dans l’examen ou l’analyse des données d’
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) s’affichent ci-dessous.
 
-<iframe height='1020' title='informations de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no'></iframe>
+<iframe height='1020' title='informations de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/30740' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/30740" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,7 +114,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par ConsenSys AG&#8217;sobol sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+Ces informations ont été fournies par Sympli, LLC sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Response** |
 |:----------------|:-------------|

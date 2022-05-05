@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour la matrice de priorité par Appfluence Inc.
+title: Vue d’ensemble d’Appfluence Priority Matrix
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Priority Matrix, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1e54f03e42b1bcadb6a6f7e705e1f1e2e92a8669
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 5dfde1bc2230c31f30426de8653e7ddb52630c9a
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877821"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226548"
 ---
-# <a name="priority-matrix"></a>Priority Matrix
+# <a name="appfluence-priority-matrix-overview"></a>Vue d’ensemble d’Appfluence Priority Matrix
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Dernière mise à jour par le développeur : 23 juin 2021</p>

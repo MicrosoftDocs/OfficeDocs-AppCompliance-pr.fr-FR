@@ -1,5 +1,5 @@
 ---
-title: Informations d’application pour SalesTim par SalesTim
+title: Informations de sécurité et de conformité pour SalesTim by SalesTim
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SalesTim, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b56a29bf28dd4cb9ce74c11754e5093572185631
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: d4a6367b4d688b1d913fcf9991348b6d4c832317
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877161"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226128"
 ---
-# <a name="salestim"></a>SalesTim
+# <a name="salestim-application-information"></a>Informations sur l’application SalesTim
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />

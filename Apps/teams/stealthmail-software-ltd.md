@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour Lemailassagermail par Ltn Software Ltd
+title: Informations d’application pour StealthMail par Stealthmail Software Ltd
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,29 +7,29 @@ ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour La messagerie inttérable, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour StealthMail, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 53b80f2835bbea55ccd2d571fead808dca70ba05
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: a0a31e0eceafbaa4188587411503514692c4b743
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63752534"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65225568"
 ---
 # <a name="stealthmail"></a>StealthMail
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 31, 2021</p>
+<p>Dernière mise à jour par le développeur : 31 mars 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/1ed0a549-c730-44c7-a984-a8c658fe9807" target="_blank">Afficher dans Teams store</a>
+* <a href="https://teams.microsoft.com/l/app/1ed0a549-c730-44c7-a984-a8c658fe9807" target="_blank">Afficher dans Teams magasin</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001748" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Ltn Software Ltd à Microsoft :
+Informations fournies par Stealthmail Software Ltd à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -37,8 +37,8 @@ Informations fournies par Ltn Software Ltd à Microsoft :
 | ID | WA200001748 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Stealthmail Software Ltd |
-| URL du site web partenaire | [https://stealthmail.com](https://stealthmail.com) |
-| URL de la Teams d’informations sur l’application | [https://stealthmail.com/product/teams](https://stealthmail.com/product/teams) |
+| URL du site web du partenaire | [https://stealthmail.com](https://stealthmail.com) |
+| URL de Teams page d’informations sur l’application | [https://stealthmail.com/product/teams](https://stealthmail.com/product/teams) |
 | URL de la politique de confidentialité | [https://stealthmail.com/privacy-statement](https://stealthmail.com/privacy-statement) |
 | URL des conditions d’utilisation | [https://stealthmail.com/terms-and-conditions](https://stealthmail.com/terms-and-conditions) |
 
@@ -48,53 +48,53 @@ Informations fournies par Ltn Software Ltd à Microsoft :
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
+### <a name="how-the-app-handles-data"></a>Comment l’application gère les données
 
-Ces informations ont été fournies par La Société DNS sur la façon dont cette application collecte et stocke les données organisationnelles, ainsi que sur le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Stealthmail Software Ltd sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+Répertoriez les [autorisations Microsoft Graph](/graph/permissions-reference) requises par cette application.
 
->| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-elles stockées ? Justification de son stockage ?** | **Azure AD’application** |
+>| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-ils stockées ? Justification du stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| ChannelMessage.Read.All | délégué | L’application envoie le message au canal avec la référence sur le courrier électronique sécurisé créé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
->| ChannelMessage.Send | délégué | L’application envoie le message au canal avec la référence sur le courrier électronique sécurisé créé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
->| Chat.ReadWrite | délégué | L’application envoie le message pour discuter avec la référence sur le courrier électronique sécurisé créé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
->| GroupMember.Read.All | délégué | L’application obtient les membres du canal pour rendre la messagerie sécurisée pour eux | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
->| User.Read.All | délégué | L’application obtient les membres de conversation pour sécuriser les e-mails pour eux | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
->| User.ReadBasic.All | délégué | L’application obtient les membres de conversation pour sécuriser les e-mails pour eux | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
->| email | délégué | Authentifier l’utilisateur | rien stocker dans la base de données | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| ChannelMessage.Read.All | Délégué | L’application envoie le message au canal avec la référence sur l’e-mail sécurisé créé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| ChannelMessage.Send | Délégué | L’application envoie le message au canal avec la référence sur l’e-mail sécurisé créé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| Chat.ReadWrite | Délégué | L’application envoie le message pour discuter avec la référence sur l’e-mail sécurisé créé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| GroupMember.Read.All | Délégué | L’application obtient les membres du canal pour qu’ils obtiennent un e-mail sécurisé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| User.Read.All | Délégué | L’application obtient des membres de conversation pour qu’ils obtiennent un e-mail sécurisé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| User.ReadBasic.All | Délégué | L’application obtient des membres de conversation pour qu’ils obtiennent un e-mail sécurisé | Néant | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| email | Délégué | Authentifier l’utilisateur | magasin de rien dans la base de données | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
 
 
-#### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
+#### <a name="non-microsoft-services-used"></a>Non-services Microsoft utilisé
 
-Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
+Si l’application transfère ou partage des données d’organisation avec un service non-Microsoft, répertoriez le service non-Microsoft utilisé par l’application, les données transférées et incluez une justification pour laquelle l’application doit transférer ces informations.
 
->Les éléments services Microsoft ne sont pas utilisés.
+>Les non-services Microsoft ne sont pas utilisées.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre de l’équipe d’une équipe ou d’une conversation à laquelle elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >Aucun EUII n’est accessible.
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Des informations d’identification organisationnelle (OII) ou des informations d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou les données de télémétrie de cette application ? Si c’est le cas, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Aucun OII ou EUII n’apparaît dans la télémétrie ou les journaux des applications.
+>Aucune OII ou EUII n’apparaît dans les journaux ou les données de télémétrie des applications.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par partenaire
 
-Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? Par exemple, suppression, rétention, audit, archivage, stratégie de l’utilisateur final, etc.
 
 >Nous n’avons aucun contrôle sur les données des partenaires dans leurs systèmes.
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
+Les humains sont-ils impliqués dans l’examen ou l’analyse des données d’information d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Non
 
@@ -104,9 +104,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) s’affichent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37867' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='informations de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37867' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37867" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -118,24 +118,24 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par Authenticationmail Software Ltd sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par Stealthmail Software Ltd sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle Plateforme d'identités Microsoft’intégration ?  | Oui |
-| Votre application utilise-t-elle MSAL (Bibliothèque d’authentification Microsoft) pour l’authentification ? | Non |
+| Intégrez-vous à La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ?  | Oui |
+| Votre application utilise-t-elle MSAL (Microsoft Authentication Library) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
-| Les autorisations enregistrées statiquement de votre application reflètent-elles précisément les autorisations que votre application demande dynamiquement et incrémentiellement ? | Oui |
-| Votre application prend-elle en charge l’location multiple ? | Oui |
+| Les autorisations inscrites statiquement de votre application reflètent-elles précisément les autorisations demandées par votre application de manière dynamique et incrémentielle ? | Oui |
+| Votre application prend-elle en charge la mutualisation ? | Oui |
 | Votre application a-t-elle un client confidentiel ? | Non |
-| Êtes-vous propriétaire de tous les URI (Unified Resource Identifier) de redirection enregistrés pour votre application ? | Oui |
-| Pour votre application, qu’est-ce que vous évitez d’utiliser ? | -  URIs de redirection générique,<br/>- OAuth2 Implicit Flow, sauf si requis pour une SPA<br/>- Flux ROPC (Resource Owner Password Credential) |
+| Êtes-vous propriétaire de l’URI (Identificateur de ressource unifié) de redirection inscrit pour votre application ? | Oui |
+| Pour votre application, que pouvez-vous éviter d’utiliser ? | - URI de redirection par caractères génériques,<br/>- Flow implicite OAuth2, sauf si nécessaire pour une spa<br/>- Flux ROPC (Resource Owner Password Credential) |
 | Votre application expose-t-elle des API web ? | Oui |
-| Votre modèle d’autorisation autorise-t-il uniquement les appels à réussir si l’application cliente reçoit le consentement approprié ? | Oui |
-| Votre application utilise-t-elle les API d’aperçu ? | Oui |
-| Votre application utilise-t-elle des API dépréciées ? | Non |
+| Votre modèle d’autorisation autorise-t-il uniquement la réussite des appels si l’application cliente reçoit le consentement approprié ? | Oui |
+| Votre application utilise-t-elle des API de préversion ? | Oui |
+| Votre application utilise-t-elle des API déconseillées ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
