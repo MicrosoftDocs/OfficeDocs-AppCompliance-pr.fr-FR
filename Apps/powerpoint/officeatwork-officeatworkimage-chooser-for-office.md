@@ -1,5 +1,5 @@
 ---
-title: PowerPoint des informations d’application pour les | officeatwork Générateur d’images pour Office par officeatwork
+title: Vue d’ensemble du générateur d’images Office
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,16 +7,16 @@ ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: PowerPoint a été examinée par Microsoft par rapport aux normes et contrôles du secteur pour les pratiques de sécurité, de conformité et de gestion des données. Cette page répertorie toutes les informations de sécurité et de conformité disponibles pour officeatwork | Choisisseur d’images pour Office.
+description: Toutes les informations de sécurité et de conformité disponibles pour officeatwork | Choisisseur d’images pour Office, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1d5ef6c575239e2840d53308b273824b749ffd38
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 5d1bf4b128cde51f1f1349b6708e63a0b20c0a82
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784453"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65225161"
 ---
-# <a name="image-chooser-for-office"></a>Choisisseur d’images pour Office
+# <a name="office-image-chooser-overview"></a>Vue d’ensemble du générateur d’images Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Dernière mise à jour par le développeur : 24 janvier 2022</p>
@@ -30,14 +30,14 @@ ms.locfileid: "64784453"
 Informations fournies par officeatwork à Microsoft :
 
 | **Information** | **Response** |
-|---|---|
+|:----------------|:-------------|
 | Nom de l'application | officeatwork - Générateur d’images pour Office |
 | ID | WA200002683 |
 | Office 365 clients pris en charge | Excel sur iPad, Excel 2016 ou version ultérieure sur Mac, Excel Service Pack 1 ou version ultérieure sur Windows, Excel sur le Web, Word sur iPad, Word 2016 ou version ultérieure sur Mac, Word sur le web , Word 2013 Service Pack 1 ou version ultérieure sur Windows, PowerPoint sur iPad, PowerPoint 2016 ou ultérieur sur Mac, PowerPoint sur le web, PowerPoint 2013 Service Pack 1 ou version ultérieure sur Windows, OneNote sur le web |
 | Nom de la société partenaire | officeatwork |
 | Site web de la société | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Conditions d’utilisation de l’application | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Fonctionnalités principales de l’application | Banque d’images pour M365 \| Accéder à vos images partagées de manière centralisée dans Word, Excel, PowerPoint et d’autres applications |
+| Fonctionnalités principales de l’application | Banque d’images pour M365 - Accéder à vos images partagées de manière centralisée dans Word, Excel, PowerPoint et d’autres applications |
 | Emplacement du siège social de la société | Suisse |
 | Page d’informations sur l’application | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
@@ -56,7 +56,7 @@ Ces informations ont été fournies par officeatwork sur la façon dont cette ap
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
-| Quelles données sont traitées par votre application ? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Quelles données sont traitées par votre application ? | Collecté : ID de locataire Microsoft, ID d’objet Azure AD utilisateur ; Le traitement des données dépend des autorisations accordées et a lieu côté client. Seules les données requises pour les autorisations et le flux de connexion sont traitées par les services Azure PaaS officeatwork contrôlés, serverless et approuvés. |
 | L’application prend-elle en charge TLS 1.1 ou version ultérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
@@ -86,11 +86,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Disposez-vous d’un processus établi pour l’approvisionnement, la modification et la suppression de comptes d’employés ? | Oui |
 | Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? | S/O |
 | La journalisation des événements est-elle configurée sur tous les composants système qui prennent en charge votre application ? | Oui |
-| Tous les journaux sont-ils examinés régulièrement par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui|
+| Tous les journaux sont-ils examinés régulièrement par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui |
 | Lorsqu’un événement de sécurité est détecté, les alertes sont-ils automatiquement envoyées à un employé pour le triage ? | Oui |
 | Avez-vous établi un processus officiel de gestion des risques liés à la sécurité des informations ? | Oui |
-| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? |  |
-| Signalez-vous les violations de données d’application ou de service aux autorités de surveillance et aux personnes concernées par la violation dans les 72 heures suivant la détection ?| |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? | Oui |
+| Signalez-vous les violations de données d’application ou de service aux autorités de surveillance et aux personnes concernées par la violation dans les 72 heures suivant la détection ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,12 +103,8 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | S/O |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
-| Date de certification SOC1 la plus récente |   |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
-| Quelle certification SOC 2 avez-vous obtenue ? | |
-| Date de certification SOC2 la plus récente | |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
-| Date de certification SOC3 la plus récente | |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
 | L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | S/O |

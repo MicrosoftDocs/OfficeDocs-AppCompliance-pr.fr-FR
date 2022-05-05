@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour le bot de vérification de l’état du teame par &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531;
+title: Informations sur l’application pour TeaMe Health Check Bot
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,22 +7,22 @@ ms.date: 05/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour le bot de vérification de l’état de TeaMe, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le Registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour TeaMe Health Check Bot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 840aae9bb34679f6fc53bea8d823bcf0be1e28b2
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: c49a15f912605040201459f745038d2c6af4aca0
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63747818"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65225588"
 ---
 # <a name="teame-health-check-bot"></a>Bot de vérification de l’intégrité de TeaMe
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: May 26, 2021</p>
+<p>Dernière mise à jour par le développeur : 26 mai 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/7a9603e3-0647-4f2c-a9a9-13ab355423c1" target="_blank">Afficher dans Teams store</a>
+* <a href="https://teams.microsoft.com/l/app/7a9603e3-0647-4f2c-a9a9-13ab355423c1" target="_blank">Afficher dans Teams magasin</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002779" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
@@ -37,7 +37,7 @@ Informations fournies par &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#1252
 | ID | WA200002779 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; |
-| URL du site web partenaire | [https://www.cdc-jp.com](https://www.cdc-jp.com) |
+| URL du site web du partenaire | [https://www.cdc-jp.com](https://www.cdc-jp.com) |
 | URL de la politique de confidentialité | [https://www.cdc-jp.com/health_check_privacy](https://www.cdc-jp.com/health_check_privacy) |
 | URL des conditions d’utilisation | [https://www.cdc-jp.com/health_check_terms](https://www.cdc-jp.com/health_check_terms) |
 
@@ -47,45 +47,45 @@ Informations fournies par &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#1252
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Gestion des données par l’application
+### <a name="how-the-app-handles-data"></a>Comment l’application gère les données
 
 Ces informations ont été fournies par &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
-List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.
+Répertoriez les [autorisations Microsoft Graph](/graph/permissions-reference) requises par cette application.
 
 >Cette application n’utilise pas Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>Non utilisé services Microsoft
+#### <a name="non-microsoft-services-used"></a>Non-services Microsoft utilisé
 
-Si l’application transfère ou partage des données organisationnelles avec un service non-Microsoft, indiquez le service non-Microsoft utilisé par l’application, quelles données sont transférées et incluez une justification pour la raison pour laquelle l’application doit transférer ces informations.
+Si l’application transfère ou partage des données d’organisation avec un service non-Microsoft, répertoriez le service non-Microsoft utilisé par l’application, les données transférées et incluez une justification pour laquelle l’application doit transférer ces informations.
 
->Les éléments services Microsoft ne sont pas utilisés.
+>Les non-services Microsoft ne sont pas utilisées.
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
-Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre d’une équipe ou d’une conversation à qui elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
+Si cette application contient un bot ou une extension de messagerie, elle peut accéder aux informations d’identification de l’utilisateur final (EUII) : la liste (prénom, nom, nom d’affichage, adresse e-mail) d’un membre de l’équipe d’une équipe ou d’une conversation à laquelle elle est ajoutée. Cette application utilise-t-elle cette fonctionnalité ?
 
 >Aucun EUII n’est accessible.
 
 
 #### <a name="telemetry-data"></a>Données de télémétrie
 
-Les informations d’identification organisationnelle (OII) ou d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou télémétrie de cette application ? Si oui, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
+Des informations d’identification organisationnelle (OII) ou des informations d’identification de l’utilisateur final (EUII) apparaissent-elles dans les journaux ou les données de télémétrie de cette application ? Si c’est le cas, décrivez quelles données sont stockées et quelles sont les stratégies de rétention et de suppression ?
 
->Données de remise : ID d’organisation des utilisateurs, ID d’utilisateur (EUII) et réponses des utilisateurs aux questions ; Ces données sont supprimées lorsqu’un utilisateur demande à supprimer ses données.
+>Remise des données : ID d’organisation des utilisateurs, ID d’utilisateur (EUII) et réponses des utilisateurs aux questions ; Ces données seront supprimées lorsqu’un utilisateur demande à supprimer ses données.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par le partenaire
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Contrôles organisationnels pour les données stockées par partenaire
 
-Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? par exemple, la suppression, la rétention, l’audit, l’archivage, la stratégie de l’utilisateur final, etc.
+Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? Par exemple, suppression, rétention, audit, archivage, stratégie de l’utilisateur final, etc.
 
->Stocker dans notre base de données conforme à ISMS/ISO27001/27002 ; l’administrateur système supprime les données des partenaires lorsque nous recevons une demande de suppression des données. 
+>Stocker dans notre base de données conforme à ISMS/ISO27001/27002 ; l’administrateur système supprime les données des partenaires lorsque nous obtenons une demande de suppression des données. 
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
-Les humains sont-ils impliqués dans la révision ou l’analyse de données d’informations d’identification organisationnelle (OII) collectées ou stockées par cette application ?
+Les humains sont-ils impliqués dans l’examen ou l’analyse des données d’information d’identification organisationnelle (OII) collectées ou stockées par cette application ?
 
 >Non
 
@@ -95,9 +95,9 @@ Les humains sont-ils impliqués dans la révision ou l’analyse de données d�
 
 ::: zone pivot="mcas"
 
-Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) de données apparaissent ci-dessous.
+Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) s’affichent ci-dessous.
 
-<iframe height='1020' title='Microsoft Cloud App Security informations' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38165' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='informations de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38165' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38165" target="_blank">Afficher dans un nouvel onglet</a>
 
@@ -109,11 +109,11 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par des &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription des applications et d’autres critères d’identité.
+Ces informations ont été fournies par &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Intégrez-vous la plateforme d’identification Microsoft (Azure AD) ?  | Non |
+| Intégrez-vous à La plateforme d’identification Microsoft (Azure AD) ?  | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

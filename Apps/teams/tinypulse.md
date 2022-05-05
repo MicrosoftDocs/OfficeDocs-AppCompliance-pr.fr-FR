@@ -1,45 +1,46 @@
 ---
-title: Informations sur l’application pour le notifieur de package par QBURST TECHNOLOGIES PVT LTD
+title: Informations d’application pour TINYpulse par TINYpulse
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/05/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour package Notifier, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour TINYpulse, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d81848f0e3d99a296fb84ed76994fbe0a68410a0
+ms.openlocfilehash: cb382f9ca989cd97f57d9ad72b8d60da1d245634
 ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222512"
+ms.locfileid: "65222475"
 ---
-# <a name="package-notifier"></a>Notificateur de package
+# <a name="tinypulse"></a>TINYpulse
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 25 mars 2021</p>
+<p>Dernière mise à jour par le développeur : 10 mars 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/74d74206-0183-401d-932e-315f5021fdb1" target="_blank">Afficher dans Teams magasin</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002737" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/1950b3dc-66fc-4c5f-bbbe-e411ad91a49f" target="_blank">Afficher dans Teams magasin</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381729" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par QBURST TECHNOLOGIES PVT LTD à Microsoft :
+Informations fournies par TINYpulse à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | Notificateur de package |
-| ID | WA200002737 |
+| Nom de l'application | TINYpulse |
+| ID | WA104381729 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | QBURST TECHNOLOGIES PVT LTD |
-| URL du site web du partenaire | [https://www.qburst.in](https://www.qburst.in) |
-| URL de la politique de confidentialité | [https://package-notifier.qburst.in/privacy-policy.html](https://package-notifier.qburst.in/privacy-policy.html) |
-| URL des conditions d’utilisation | [https://package-notifier.qburst.in/terms-and-conditions.html](https://package-notifier.qburst.in/terms-and-conditions.html) |
+| Nom de la société partenaire | TINYpulse |
+| URL du site web du partenaire | [https://www.tinypulse.com](https://www.tinypulse.com) |
+| URL de Teams page d’informations sur l’application | [https://www.tinypulse.com/engage](https://www.tinypulse.com/engage) |
+| URL de la politique de confidentialité | [https://www.tinypulse.com/privacy-policy](https://www.tinypulse.com/privacy-policy) |
+| URL des conditions d’utilisation | [https://www.tinypulse.com/terms-and-conditions](https://www.tinypulse.com/terms-and-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +50,7 @@ Informations fournies par QBURST TECHNOLOGIES PVT LTD à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Comment l’application gère les données
 
-Ces informations ont été fournies par QBURST TECHNOLOGIES PVT LTD sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+TinYpulse a fourni ces informations sur la façon dont cette application collecte et stocke les données d’organisation et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
@@ -57,13 +58,6 @@ Répertoriez les [autorisations Microsoft Graph](/graph/permissions-reference) r
 
 >Cette application n’utilise pas Microsoft Graph.
 
-#### <a name="data-access-using-other-microsoft-apis"></a>Accès aux données à l’aide d’autres API Microsoft
-
-Les applications et compléments basés sur Microsoft 365 peuvent utiliser des API Microsoft supplémentaires autres que Microsoft Graph pour collecter ou traiter des informations d’identification organisationnelles (OII). Répertoriez toutes les API Microsoft autres que Microsoft Graph utilisées par cette application.
-
->| **API** |  **OII est-il collecté ?** |  **Quelle OII est collectée ?** | **Justification de la collecte d’OII ?** | **OII est-il stocké ?** | **Justification du stockage d’OII ?** |
->|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| API REST Azure DevOps Services | Non |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Non-services Microsoft utilisé
 
@@ -88,7 +82,7 @@ Des informations d’identification organisationnelle (OII) ou des informations 
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? Par exemple, suppression, rétention, audit, archivage, stratégie de l’utilisateur final, etc.
 
->S/O
+>nous ne partageons pas nos données avec le système du partenaire
 
 #### <a name="human-review-of-organizational-information"></a>Examen humain des informations organisationnelles
 
@@ -104,9 +98,9 @@ Les humains sont-ils impliqués dans l’examen ou l’analyse des données d’
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) s’affichent ci-dessous.
 
-<iframe height='1020' title='informations de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37866' frameborder='no'></iframe>
+<iframe height='1020' title='informations de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/34569' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37866" target="_blank">Afficher dans un nouvel onglet</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/34569" target="_blank">Afficher dans un nouvel onglet</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,21 +110,20 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Informations d’identité
 
-Ces informations ont été fournies par QBURST TECHNOLOGIES PVT LTD sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
+TinYpulse a fourni ces informations sur la façon dont cette application gère l’authentification, l’autorisation, les meilleures pratiques d’inscription d’application et d’autres critères d’identité.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Intégrez-vous à La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ?  | Oui |
 | Votre application utilise-t-elle MSAL (Microsoft Authentication Library) pour l’authentification ? | Non |
-| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Répertorier les types de stratégies prises en charge | 499b84ac-1321-427f-aa17-267ca6975798/user_impersonation offline_access |
+| Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
 | Les autorisations inscrites statiquement de votre application reflètent-elles précisément les autorisations demandées par votre application de manière dynamique et incrémentielle ? | Oui |
 | Votre application prend-elle en charge la mutualisation ? | Oui |
-| Votre application a-t-elle un client confidentiel ? | Oui |
+| Votre application a-t-elle un client confidentiel ? | Non |
 | Êtes-vous propriétaire de l’URI (Identificateur de ressource unifié) de redirection inscrit pour votre application ? | Oui |
-| Pour votre application, que pouvez-vous éviter d’utiliser ? | - URI de redirection par caractères génériques,<br/><br/>- Flux ROPC (Resource Owner Password Credential) |
+| Pour votre application, que pouvez-vous éviter d’utiliser ? | - URI de redirection par caractères génériques,<br/>- Flow implicite OAuth2, sauf si nécessaire pour une spa<br/>- Flux ROPC (Resource Owner Password Credential) |
 | Votre application expose-t-elle des API web ? | Non |
 | Votre application utilise-t-elle des API de préversion ? | Non |
 | Votre application utilise-t-elle des API déconseillées ? | Non |
