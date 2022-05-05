@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Adobe Acrobat, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0676fce7e7bd024e1db5d898e35dfc272bb2aa1c
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 7328d06302dd7e932ca75c1591b0fa661bec2cd7
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64876511"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65229152"
 ---
 # <a name="adobe-acrobat"></a>Adobe Acrobat
 
@@ -170,12 +170,12 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 >|   **autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Files.ReadWrite.All | Délégué | Pour pouvoir répertorier et parcourir les fichiers et dossiers récents, OneDrive et Teams des canaux de l’utilisateur. Nous permettons aux utilisateurs d’accéder à ces fichiers, de les utiliser pour effectuer des opérations sur eux et d’enregistrer les fichiers dans leur stockage. | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| Team.ReadBasic.All | Délégué | Accéder en lecture aux noms et les descriptions des équipes | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| User.Read | Délégué | Activer la connexion et lire le profil utilisateur | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| email | Délégué | Afficher l’adresse e-mail des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| offline_access | Délégué | conserver l’accès aux données aux | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| openid | Délégué | Connecter des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| profil | Délégué | afficher le profil de base des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| Team.ReadBasic.All | Délégué | Accéder en lecture aux noms et les descriptions des équipes | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| User.Read | Délégué | Activer la connexion et lire le profil utilisateur | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| email | Délégué | Afficher l’adresse e-mail des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| offline_access | Délégué | conserver l’accès aux données aux | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| openid | Délégué | Connecter des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| profil | Délégué | afficher le profil de base des utilisateurs | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
 
 >Cette application n’a pas d’API supplémentaires.
 

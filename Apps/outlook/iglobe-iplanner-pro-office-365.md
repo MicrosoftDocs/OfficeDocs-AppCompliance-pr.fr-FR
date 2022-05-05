@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour iPlanner Pro Office 365, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 862e0c20b61bf596a9ac2b1dc988d2476ce3d901
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: bbc378ffde97885713716b715b7de6acb2de17bb
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881465"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65228188"
 ---
 # <a name="iplanner-pro-office-365"></a>iPlanner Pro Office 365
 
@@ -149,15 +149,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 >|   **autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b.md) |
->| Contacts.ReadWrite | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b.md) |
->| Directory.AccessAsUser.All | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b.md) |
->| Files.Read | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b.md) |
->| Files.ReadWrite.All | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b.md) |
->| Group.Read.All | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b.md) |
->| User.Read | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b.md) |
->| User.ReadBasic.All | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b.md) |
->| profil | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](../azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b.md) |
+>| Calendars.ReadWrite | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Contacts.ReadWrite | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Directory.AccessAsUser.All | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Files.Read | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Files.ReadWrite.All | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Group.Read.All | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| User.Read | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| User.ReadBasic.All | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| profil | Délégué | Aucune donnée n’est stockée dans les bases de données d’application. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 
 >Cette application n’a pas d’API supplémentaires.
 

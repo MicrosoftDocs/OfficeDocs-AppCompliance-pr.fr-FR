@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour MIPA - Votre Assistant personnel, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0bb92bfb26eabd3f82b059de1b74d12142d87051
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: be514104f84b94f2c7c5ca75f1fe4270f59866a0
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64880181"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65229058"
 ---
-# <a name="mipa---your-personal-assistant"></a>MIPA – Votre assistant personnel
+# <a name="application-informatoin-for-mipa---your-personal-assistant"></a>Informations d’application pour MIPA - Votre Assistant personnel
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Dernière mise à jour par le développeur : 12 août 2021</p>
