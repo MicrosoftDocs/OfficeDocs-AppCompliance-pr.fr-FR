@@ -3,17 +3,17 @@ title: sécurité et conformité des applications Microsoft Word - Toutes les ap
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/04/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Word.
 localization_priority: Normal
-ms.openlocfilehash: 1c7906cdcd4b92b9adfda6de01bb04a0d46bed30
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 27a17e36d470c95cdf38786fafaaa06c352c3098
+ms.sourcegitcommit: 5a5b683ad499649b57c2c0400f231ba92efa8ed5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65221095"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "65269897"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>sécurité et conformité des applications Microsoft Word
 
@@ -27,6 +27,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Citasion](./citasion-llc.md) | Citasion LLC | **✓** |  |
 | [CocoFax - Envoi d’une télécopie facilement &amp; sécurisée](./cocofax-sending-fax-made-easysecure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [Recoupement](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
+| [Brouillon de document](./green-meadow-aps-document-drafter.md) | Green Meadow ApS | **✓** |  |
 | [Excel-to-Word Document Automation](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [Complément Fabasoft Cloud Office](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
 | [Éditeur PDF Foxit pour Microsoft Word, Excel et PowerPoint](./foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md) | Foxit Software Inc. | **✓** |  |
