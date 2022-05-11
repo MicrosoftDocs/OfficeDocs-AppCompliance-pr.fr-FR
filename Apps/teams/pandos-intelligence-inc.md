@@ -3,24 +3,24 @@ title: Informations d’application pour Pandos par Pandos Intelligence Inc
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/05/2022
+ms.date: 05/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Pandos, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 62c12bd8fe350ffee99159f1cb31df9d2d9aebf4
-ms.sourcegitcommit: 2f4d962dc1778849751d2e1db212ff702c247627
+ms.openlocfilehash: c2737bd36f43610770a938a136563f6c14068748
+ms.sourcegitcommit: 0c3ca169e16a6825888669d1e8ea14f66db725bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65266247"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65305620"
 ---
 # <a name="pandos"></a>Pandos
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 5 mai 2022</p>
+<p>Dernière mise à jour par le développeur : 10 mai 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/0e777926-2ab4-4e40-9fe5-80dc68e5044f" target="_blank">Afficher dans Teams magasin</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003534" target="_blank">Afficher dans AppSource</a>
@@ -101,7 +101,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
@@ -125,7 +125,17 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Non |
+| Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Oui |
+| L’application a-t-elle un avis de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
+| URL de la politique de confidentialité | https://pandos.io/gdpr/ |
+| L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui pourrait avoir un effet juridique ou un impact similaire ? | Non |
+| L’application traite-t-elle les données client à des fins secondaires qui ne sont pas décrites dans l’avis de confidentialité (c’est-à-dire marketing, analytique) ? | Non |
+| Traitez-vous des catégories spéciales de données sensibles (origines raciales ou ethniques, opinions politiques, croyances religieuses ou philosophiques, données génétiques ou biométriques, données de santé) ou catégories de données soumises à des lois de notification de violation ? | Non |
+| L’application collecte-t-elle ou traite-t-elle des données auprès de mineurs (c’est-à-dire des personnes de moins de 16 ans) ? | Non |
+| L’application dispose-t-elle de fonctionnalités permettant de supprimer les données personnelles d’une personne sur demande ? | Oui |
+| L’application dispose-t-elle de fonctionnalités permettant de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Oui |
+| L’application offre-t-elle aux utilisateurs la possibilité de corriger ou de mettre à jour leurs données personnelles ? | Oui |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des évaluations d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -135,7 +145,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès à l’API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | N/A |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
