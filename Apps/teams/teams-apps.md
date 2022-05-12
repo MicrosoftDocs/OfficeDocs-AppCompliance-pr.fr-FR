@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/10/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: bb9dfcdbdc1da94f767084c560b7f0a0f3287ce2
-ms.sourcegitcommit: 0c3ca169e16a6825888669d1e8ea14f66db725bf
+ms.openlocfilehash: 0edba727df2fcc1c0e67275c097cf648160d6e0e
+ms.sourcegitcommit: ae319a079de7bac03a3f4afb7c95a12a6248c9b0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/11/2022
-ms.locfileid: "65308410"
+ms.locfileid: "65355748"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -148,6 +148,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Diligent Boards](./diligent-boards.md) | Diligent | **✓** |  |
 | [Listes de distribution Pro](./witivio-distribution-lists-pro.md) | Witivio | **✓** |  |
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
+| [Rédacteur de documents](./green-meadow-aps-document-drafter.md) | Green Meadow ApS | **✓** |  |
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [eSignature DocuSign](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
 | [Enregistrement d’appels unifiés durd](./dubber-unified-call-recording.md) | Dunk | **✓** |  |
@@ -188,6 +189,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Fifty](./fifty.md) | Fifty | **✓** |  |
 | [File Fabric](./storage-made-easy-file-fabric.md) | Storage Made Easy | **✓** |  |
 | [Gestionnaire de fichiers](./solutions2share-gmbh-file-manager.md) | Solutions2Share GmbH | **✓** |  |
+| [Financial Times](./financial-times.md) | Financial Times | **✓** |  |
 | [Findit](./ctelo-findit.md) | CTELO | **✓** |  |
 | [FinTech Studios](./fintech-studios.md) | FinTech Studios | **✓** |  |
 | [Fireflies AI](./firefliesai-fireflies-ai.md) | Fireflies.ai | **✓** |  |
@@ -205,6 +207,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [gauge.it](./cloud-cover-it-gaugeit.md) | Cloud Cover IT | **✓** |  |
 | [Geekbot](./geekbot-ltd.md) | Geekbot Ltd | **✓** |  |
 | [Gensys](./gensys-solutions-bv.md) | Gensys Solutions BV | **✓** |  |
+| [Genuity](./stratum-networks-genuity.md) | Stratum Networks | **✓** |  |
 | [Gfacility](./gfacility.md) | Gfacility | **✓** |  |
 | [GitHub](./microsoft-corporation-github.md) | Microsoft Corporation | **✓** |  |
 | [Go1](./go1.md) | Go1 | **✓** |  |
@@ -226,7 +229,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [HeyTaco](./heytaco-llc.md) | HeyTaco, LLC | **✓** |  |
 | [hi Digital Coach](./digital-attitude-srl-hi-coach.md) | Digital Attitude Srl | **✓** |  |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  |
-| [HighSide Collaboration](./highside-inc-collaboration.md) | HighSide, Inc | **✓** |  |
+| [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
 | [Highspot](./highspot.md) | Highspot | **✓** |  |
 | [HitHorizons](./finstat-sro-hithorizons.md) | FinStat s.r.o. | **✓** |  |
 | [Hive](./hive.md) | Ruche | **✓** |  |
@@ -338,7 +341,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Org@Work](./lundano-org@work.md) | Lundano | **✓** |  |
 | [PA PEOPLE](./pa-people.md) | &#26666;&#24335;&#20250;&#31038;APPLICATION DE TÉLÉPHONE | **✓** |  |
 | [Notificateur de package](./qburst-technologies-pvt-ltd-package-notifier.md) | QBURST TECHNOLOGIES PVT LTD | **✓** |  |
-| [PagerDuty](./pagerduty-inc.md) | PagerDuty, Inc. | **✓** |  |
+| [PagerDuty](./pagerduty.md) | PagerDuty | **✓** |  |
 | [PandaDoc](./pandadoc.md) | PandaDoc | **✓** |  |
 | [Pandos](./pandos-intelligence-inc.md) | Pandos Intelligence Inc | **✓** |  |
 | [Panopto](./panopto.md) | Panopto | **✓** |  |
@@ -375,8 +378,9 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Quire](./potix-corporation-quire.md) | Potix Corporation | **✓** |  |
 | [Quitch](./quitch.md) | Quitch | **✓** |  |
 | [Quéiky](./global-congress-srl-rafiky.md) | SRL GLOBAL DU SRL | **✓** |  |
+| [Rattle](./rattle.md) | Rattle | **✓** |  |
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
-| [Read Dashboard](./read-ai-inc-dashboard.md) | Read AI, Inc. | **✓** |  |
+| [Navigateur de réunion Read](./read-ai-inc-meeting-navigator.md) | Read AI, Inc. | **✓** |  |
 | [Traducteur en temps réel](./fairuse-real-time-translator.md) | Utilisation équitable | **✓** |  |
 | [ReconnaissanceNow DM](./bi-worldwide-recognitionnow-dm.md) | BI MONDIAL | **✓** |  |
 | [Rappeler](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
@@ -468,13 +472,14 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Tendfor](./tendfor.md) | Tendfor | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Text](./approved-contact-text.md) | Contact approuvé | **✓** |  |
 | [The Captivate Hub](./captivate-io-ltd-the-hub.md) | Captivate IO Ltd | **✓** |  |
+| [The Mental Move](./the-mental-move-bv.md) | The Mental Move B.V. | **✓** |  |
 | [ThoughtExchange](./thoughtexchange.md) | ThoughtExchange | **✓** |  |
 | [ThoughtWire EWS](./thoughtwire-corp-ews.md) | ThoughtWire Corp. | **✓** |  |
 | [ti8m places](./tim-ag-ti8m-places.md) | ti &amp; m AG | **✓** |  |
-| [Billetterie](./kitameraki-limited-ticketing.md) | kitameraki limité | **✓** |  |
+| [Billetterie en tant que service](./kitameraki-limited-ticketing-as-a-service.md) | kitameraki limité | **✓** |  |
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  |
 | [TimeClock 365](./softsale-timeclock-365.md) | Softsale | **✓** |  |
-| [timeghost : suivi de l’heure](./kollisch-gmbh-timeghost-time-tracking.md) | K&#246;llisch GmbH | **✓** |  |
+| [timeghost : suivi de l’heure](./timeghostio-timeghost-time-tracking.md) | timeghost.io | **✓** |  |
 | [Timeneye](./dm-digital-srl-timeneye.md) | DM Digital SRL | **✓** |  |
 | [Totara](./totara-learning.md) | Totara Learning | **✓** |  |
 | [touchSMS](./edgility-touchsms.md) | Edgility | **✓** |  |
@@ -524,7 +529,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [YAROOMS](./yarooms.md) | YAROOMS | **✓** |  |
 | [yuccaHR](./yucca-technologies-gmbh-yuccahr.md) | Yucca Technologies GmbH | **✓** |  |
 | [Zero Time Bot](./replicon-zero-time-bot.md) | Replicon | **✓** |  |
-| [Zignals](./alight-zignals.md) | Alight | **✓** |  |
+| [Zignals](./alight-consulting-gmbh-zignals.md) | Alight Consulting GmbH | **✓** |  |
 | [Zoho Desk](./zoho-corporation-private-limited-desk.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho Notebook](./zoho-corporation-private-limited-notebook.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho Sign](./zoho-corporation-private-limited-sign.md) | Zoho Corporation Private Limited | **✓** |  |
