@@ -7,18 +7,18 @@ description: Vue d’ensemble de l’outil d’automatisation de la conformité 
 keywords: Microsoft 365 d’automatisation de la certification des applications
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: debd3c9e2ecd1538446d09f5019ea995260345fd
-ms.sourcegitcommit: 785d1c5d829e44e0ad696b85c92be81f549b989e
+ms.openlocfilehash: bd570496ce11bf72270cb18542846140122efb8b
+ms.sourcegitcommit: 3931a0f41e8a6637cd1ce0a7c5273dabf592e475
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/17/2022
-ms.locfileid: "65433429"
+ms.locfileid: "65441990"
 ---
 # <a name="app-compliance-automation-tool-for-microsoft-365"></a>Outil d’automatisation de la conformité des applications pour Microsoft 365
 Dans cet article, vous allez découvrir ce qu’est l’outil App Compliance Automation tool for Microsoft 365 (ACAT) et comment il simplifie la conformité et l’obtention de la certification Microsoft 365.
 
 > [!IMPORTANT]
-> ACAT est actuellement en *préversion privée* . Si vous souhaitez rejoindre le programme de préversion privée, contactez [acatprivatepreview@microsoft.com](mailto:acatprivatepreview@microsoft.com).
+> ACAT est actuellement en préversion privée. Si vous souhaitez participer au programme de préversion privée, inscrivez-vous [ici](https://aka.ms/acat/private/signup).
 
 ## <a name="what-is-app-compliance-automation-tool-for-microsoft-365"></a>Qu’est-ce que l’outil d’automatisation de la conformité des applications pour Microsoft 365
 App Compliance Automation Tool for Microsoft 365 (ACAT) est un service dans le portail Azure qui permet de simplifier le parcours de conformité pour toute application qui consomme Microsoft 365 données client et qui est publiée via l’Espace partenaires. L’outil d’automatisation de la conformité des applications pour Microsoft 365 est un outil d’automatisation de conformité centré sur les applications qui vous permet d’achever Microsoft 365 certification avec plus de facilité et de commodité. En préversion privée, ACAT est disponible pour les applications s’exécutant sur Azure.
