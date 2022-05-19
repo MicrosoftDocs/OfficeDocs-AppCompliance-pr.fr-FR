@@ -86,6 +86,8 @@ items:
         href: outlook/codetwo-for-outlook.md
       - name: Déplacements quotidiens
         href: outlook/commuty.md
+      - name: DocuSign pour Outlook
+        href: outlook/docusign-inc-for-outlook.md
       - name: Dynamo
         href: outlook/dynamo-software.md
       - name: Réacteur d’e-mail
@@ -844,7 +846,7 @@ items:
         href: teams/officetogether-inc.md
       - name: Officevibe
         href: teams/officevibe.md
-      - name: Offishall Planning
+      - name: Planning Offishall
         href: teams/offishall-planning.md
       - name: OLIVE VLE
         href: teams/olivegroup-olive-vle.md
@@ -1269,6 +1271,8 @@ items:
         href: word/krevealllc-crosscheck.md
       - name: Rédacteur de documents
         href: word/green-meadow-aps-document-drafter.md
+      - name: DocuSign pour Word
+        href: word/docusign-inc-for-word.md
       - name: Excel-to-Word Document Automation
         href: word/analysisplace-excel-to-word-document-automation.md
       - name: Complément Fabasoft Cloud Office
