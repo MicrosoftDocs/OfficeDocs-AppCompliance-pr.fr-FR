@@ -3,24 +3,24 @@ title: Informations sur l’application pour HitHorizons par FinStat s.r.o.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 02/15/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour HitHorizons, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0e871decd4c20caa9d7117d553fd07c7bbcdbfe2
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: cc57752e30c13456f0fdc4e33eab36f9eb9d7e97
+ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64878231"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65477668"
 ---
 # <a name="hithorizons"></a>HitHorizons
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 11 février 2022</p>
+<p>Dernière mise à jour par le développeur : 18 mai 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/2b492ea3-0727-4789-90d7-8e2079d46717" target="_blank">Afficher dans Teams magasin</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001411" target="_blank">Afficher dans AppSource</a>
@@ -73,7 +73,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Effectuez-vous des tests d’intrusion annuels sur l’application ? | Non |
 | L’application dispose-t-elle d’un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
 | Votre environnement utilise-t-il une protection anti-programme malveillant traditionnelle ou des contrôles d’application ? | ApplicationControls |
-| Avez-vous mis en place un processus de mise en retrait et de classement des risques des vulnérabilités de sécurité ? | Oui |
+| Avez-vous mis en place un processus de mise en retrait et de classement des risques des vulnérabilités de sécurité ? | Non |
 | Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application de correctifs ? | Non |
 | Effectuez-vous des activités de gestion des correctifs en fonction de vos contrats SLA de stratégie de mise à jour corrective ? | Non |
 | Votre environnement a-t-il des systèmes d’exploitation ou logiciels non pris en charge ? | Non |
@@ -133,10 +133,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès à l’API, etc. ? | Non |
+| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? |  |
-| Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque ou bibliothèque d’authentification utilise-t-elle ? |  |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application prend-elle en charge l’évaluation continue de l’accès (CAE) | Non |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
