@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/18/2022
+ms.date: 05/19/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 13d2185f5a914d8ada9426335fdd8aa618ce12f8
-ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
+ms.openlocfilehash: e5d2a66a0965a870d356a980e27baa26155fb51b
+ms.sourcegitcommit: b363fcc87dc5720eaddbe567a857270732ef9e1c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65477058"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "65546587"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -67,6 +67,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Avaamo IT Assistant](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
 | [Axelleron](./axelleron.md) | Axelleron | **✓** |  |
 | [Axis](./axis-workshops-ltd.md) | Axis Workshops Ltd | **✓** |  |
+| [B12](./apprentx-b12.md) | Apprentx | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | Point de décision | **✓** |  |
 | [Bedriftsnett](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [Beekast](./beekast.md) | Beekast | **✓** |  |
@@ -116,7 +117,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [CoffeePals](./coffeepals-technologies-inc.md) | CoffeePals Technologies Inc. | **✓** |  |
 | [Collaboard](./ibv-solutions-collaboard.md) | IBV Solutions | **✓** |  |
 | [Collection Pot](./gifted-to-you-limited-collection-pot.md) | Gifted to You Limited | **✓** |  |
-| [Commander](./nimbella-commander.md) | Nimbella | **✓** |  |
 | [Navigateur d’entreprise](./konica-minolta-it-solutions-company-navigator.md) | Solutions informatiques Konica Minolta | **✓** |  |
 | [Complish](./cauzey-pty-ltd-complish.md) | Cauzey Pty Ltd | **✓** |  |
 | [Conférences E/S](./conferences-io.md) | Conférences E/S | **✓** |  |
@@ -149,6 +149,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Diligent Boards](./diligent-boards.md) | Diligent | **✓** |  |
 | [Listes de distribution Pro](./witivio-distribution-lists-pro.md) | Witivio | **✓** |  |
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
+| [DoctorOnline](./nlsql-doctoronline.md) | NLSQL | **✓** |  |
 | [Rédacteur de documents](./green-meadow-aps-document-drafter.md) | Green Meadow ApS | **✓** |  |
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [eSignature DocuSign](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
@@ -426,7 +427,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Sociabble](./sociabble.md) | Sociabble | **✓** |  |
 | [Causes sociales](./oktopost-social-advocacy.md) | Oktopost | **✓** |  |
 | [Solo](./teladoc-inc-solo.md) | Teladoc, Inc. | **✓** |  |
-| [Spatial Standup](./high-fidelity-inc-spatial-standup.md) | High Fidelity Inc | **✓** |  |
 | [SQQ](./superquickquestion-sqq.md) | SuperQuickQuestion | **✓** |  |
 | [StaffCircle](./staffcircle.md) | StaffCircle | **✓** |  |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  |
