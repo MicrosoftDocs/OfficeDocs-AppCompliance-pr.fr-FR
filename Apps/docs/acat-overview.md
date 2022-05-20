@@ -7,18 +7,21 @@ description: Vue d’ensemble de l’outil d’automatisation de la conformité 
 keywords: Microsoft 365 d’automatisation de la certification des applications
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: bd570496ce11bf72270cb18542846140122efb8b
-ms.sourcegitcommit: 3931a0f41e8a6637cd1ce0a7c5273dabf592e475
+ms.openlocfilehash: 5e3fbc062c1887a205a7b99a85a292ad9a64f8d0
+ms.sourcegitcommit: 0865622c8abffc11115e56d966729e5318d67ab9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65441990"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65608807"
 ---
 # <a name="app-compliance-automation-tool-for-microsoft-365"></a>Outil d’automatisation de la conformité des applications pour Microsoft 365
 Dans cet article, vous allez découvrir ce qu’est l’outil App Compliance Automation tool for Microsoft 365 (ACAT) et comment il simplifie la conformité et l’obtention de la certification Microsoft 365.
 
 > [!IMPORTANT]
 > ACAT est actuellement en préversion privée. Si vous souhaitez participer au programme de préversion privée, inscrivez-vous [ici](https://aka.ms/acat/private/signup).
+
+> [!NOTE]
+> Si vous souhaitez envoyer des commentaires à la préversion privée ACAT, vous pouvez commencer à partir de ce [formulaire](https://aka.ms/acat/feedback). L’équipe produit ACAT vous suivra dès que possible une fois que nous aurons vos messages. 
 
 ## <a name="what-is-app-compliance-automation-tool-for-microsoft-365"></a>Qu’est-ce que l’outil d’automatisation de la conformité des applications pour Microsoft 365
 App Compliance Automation Tool for Microsoft 365 (ACAT) est un service dans le portail Azure qui permet de simplifier le parcours de conformité pour toute application qui consomme Microsoft 365 données client et qui est publiée via l’Espace partenaires. L’outil d’automatisation de la conformité des applications pour Microsoft 365 est un outil d’automatisation de conformité centré sur les applications qui vous permet d’achever Microsoft 365 certification avec plus de facilité et de commodité. En préversion privée, ACAT est disponible pour les applications s’exécutant sur Azure.
@@ -57,7 +60,7 @@ Dans le rapport de conformité réglementaire, les résultats de conformité son
 - **Échec - Preuve supplémentaire nécessaire** : des responsabilités client ayant échoué sont détectées pour les contrôles de certification Microsoft 365 *partiellement automatisés*.
 - **Contrôle manuel** : ACAT n’automatise aucune responsabilité du client pour les contrôles de certification Microsoft 365.
 
-### <a name="customer-responsibility"></a>Responsabilité du client
+### <a name="customer-responsibility"></a>Responsabilités du client
 Il existe un ensemble de responsabilités client associées à chaque contrôle qui doivent être satisfaites. Ce sont des responsabilités que vous conservez dans les domaines suivants : données, points de terminaison, compte, gestion des accès, etc.
 
 ACAT collecte des données pour chaque responsabilité du client et retourne un résultat d’évaluation pour celui-ci. Il vous fournit également une action de correction, qui est notre guide qui vous aide à vous aligner sur les normes de certification Microsoft 365.
