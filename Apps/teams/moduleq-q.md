@@ -3,24 +3,23 @@ title: Informations sur l’application pour Q by ModuleQ
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 01/31/2022
+ms.date: 05/19/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Q, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4a90a8365ce0dbb577c384c5d17655f3694d7397
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 55315e7e32000fc2b853b39bb6b13d715daf2f15
+ms.sourcegitcommit: d72fe5bb3407b6191790530fab8ba3fab320fcd6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64878611"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "65596898"
 ---
 # <a name="q"></a>Q
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 29 janvier 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Dernière mise à jour par le développeur : 10 février 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/72bb25c7-3644-4318-8249-a08e5493a520" target="_blank">Afficher dans Teams magasin</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381433" target="_blank">Afficher dans AppSource</a>
@@ -142,7 +141,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès à l’API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | Non |
 | Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque ou bibliothèque d’authentification utilise-t-elle ? | Microsoft.AspNetCore.Authentication.MicrosoftAccount |
@@ -167,3 +166,39 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Informations de certification
+
+| **Contrôle** | **Microsoft 365 résultat de la certification** |
+|:------------|:---------------------------------------|
+| [**SÉCURITÉ DES APPLICATIONS**](../docs/certification-submission-guide.md#application-security) | **PASSER** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test de pénétration | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Évaluation des vulnérabilités (DAST/SAST/Test d’intrusion) | Dans l’étendue |
+| [**SÉCURITÉ OPÉRATIONNELLE**](../docs/certification-submission-guide.md#operational-security) | **PASSER** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Antivirus | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Contrôle d’application | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs - Classement des risques | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs - Mise à jour corrective | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyse des vulnérabilités | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu - Pare-feu (ou technologies équivalentes) | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu - Pare-feu d’applications web (WAF) (facultatif) | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modifier le contrôle | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Développement/déploiement de logiciels sécurisés | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des comptes | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Détection et prévention des intrusions (facultatif) | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Journalisation des événements de sécurité | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Révision (données de journalisation) | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertes d’événements de sécurité | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des risques liés à la sécurité des informations | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Réponse aux incidents | Dans l’étendue |
+| [**CONFIDENTIALITÉ DE LA SÉCURITÉ DE GESTION &amp; DES DONNÉES**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASSER** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données en transit | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données au repos | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservation et élimination des données | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion de l’accès aux données | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | S/O |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
