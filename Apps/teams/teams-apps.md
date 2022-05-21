@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 91a6a336a7b8fb2a6a873e06cd01f4de771bf00e
-ms.sourcegitcommit: 44d44584aecd6cfc08b9cd06f47cd4363fb3a812
+ms.openlocfilehash: de21d7b83d211f2ee7d420a10e3971898de908d1
+ms.sourcegitcommit: d72fe5bb3407b6191790530fab8ba3fab320fcd6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/19/2022
-ms.locfileid: "65586940"
+ms.locfileid: "65596908"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -162,7 +162,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  |
 | [Edgility](./edgility.md) | Edgility | **✓** |  |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  |
-| [EdPuzzle](./edpuzzle.md) | Edpuzzle | **✓** |  |
+| es[EdPuzzle](./edpuzzle.md) | Edpuzzle | **✓** |  |
 | [Efecte Service Management](./efecte-oyj-service-management.md) | Efecte Oyj | **✓** |  |
 | [eformity - Gestion des modèles](./eformity-eformitytemplate-management.md) | eformity | **✓** |  |
 | [Egnyte](./egnyte.md) | Egnyte | **✓** |  |
@@ -375,7 +375,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Project Migrator](./fluentpro-software-corporation-project-migrator.md) | FluentPro Software Corporation | **✓** |  |
 | [Projectplace](./planview-inc-projectplace.md) | Planview, Inc. | **✓** |  |
 | [Prowd](./prowd.md) | Prowd | **✓** |  |
-| [q](./moduleq-q.md) | ModuleQ | **✓** |  |
+| [q](./moduleq-q.md) | ModuleQ | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [qbo](./unscrambl-qbo.md) | Unscrambl | **✓** |  |
 | [Expérience de leader qChange](./qchange-software-solution-inc-leader-experience.md) | qChange Software Solution, Inc. | **✓** |  |
 | [Qooper](./cognata-technologies-llc-qooper.md) | COGNATA TECHNOLOGIES, LLC | **✓** |  |
