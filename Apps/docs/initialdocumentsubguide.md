@@ -7,19 +7,19 @@ description: La soumission initiale du document fait partie de la phase de pré-
 keywords: les équipes de certification des applications Microsoft 365 la soumission initiale du document m365 de conformité à la sécurité
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 23c3cf7a64025bb7269adb35175e8d87bc64224e
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 8cb7ac4711b7399ae24b76794c251e3cae845e94
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784503"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65618581"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification - Guide initial de soumission de document
 
 La soumission initiale du document fait partie de la phase de pré-évaluation de la certification. Les informations fournies donneront aux analystes de certification l’arrière-plan nécessaire pour identifier les contrôles et les composants système qui seront inclus dans l’étendue de votre évaluation. Ce document est destiné à servir uniquement d’exemple de ce qui est attendu de votre soumission initiale de document. La documentation que vous fournissez varie en fonction de la façon dont votre solution est conçue, implémentée et gérée.
 
 ## <a name="what-is-the-hosting-environment-or-service-model-used-to-run-your-app"></a>Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ?
-- L’infrastructure en tant que service (IaaS) est un modèle de service cloud dans lequel votre fournisseur de services cloud héberge vos composants d’infrastructure, mais les éditeurs de logiciels indépendants sont toujours responsables du déploiement et de la gestion des composants individuellement, tels que Machines Virtuelles/systèmes d’exploitation, magasins de données et composants réseau. Les machines virtuelles Azure et les Stockage de disque Azure en sont des exemples.
+- L’infrastructure en tant que service (IaaS) est un modèle de service cloud dans lequel votre fournisseur de services cloud héberge vos composants d’infrastructure, mais les éditeurs de logiciels indépendants sont toujours responsables du déploiement et de la gestion des composants individuellement, tels que les machines virtuelles/systèmes d’exploitation, les magasins de données et les composants réseau. Les machines virtuelles Azure et les Stockage de disque Azure en sont des exemples.
 - Platform as a Service (PaaS) est un modèle de service cloud où les composants d’infrastructure sont gérés par le fournisseur de services cloud. Les éditeurs de logiciels indépendants sont uniquement responsables du déploiement de leurs propres applications et services. Les services Azure App, les Azure Functions et les Azure CDN en sont des exemples.
 - L’isv hébergé dans ce contexte signifie qu’aucun fournisseur de services cloud n’est utilisé. L’éditeur de logiciels indépendant gère physiquement ses propres serveurs, disques et réseau local.
 - Hybride dans ce contexte signifie qu’un des modèles ci-dessus est utilisé. Par exemple, certains éditeurs de logiciels indépendants peuvent choisir d’utiliser un mélange de services IaaS et de services PaaS pour prendre en charge leur application, ou ils peuvent avoir des composants hébergés par un éditeur de logiciels indépendants locaux et externaliser d’autres services à un fournisseur de services cloud. Si vous utilisez un autre modèle de service, sélectionnez hybride.
@@ -125,5 +125,7 @@ Flow diagrammes détaillant les éléments suivants :
 
 ![diagramme Data Flow](../media/Dataflowdiagram.png)
 
+## <a name="external-certifications-soc2-pci-dss-iso27001---optional"></a>Certifications externes (SOC2, PCI DSS, ISO27001) - FACULTATIF
 
+Si vous avez déjà obtenu une certification SOC2, PCI DSS ou ISO27001 et que vous disposez d’un rapport émis au cours des 12 derniers mois qui inclut l’étendue complète de l’application certifiée ainsi que l’environnement de prise en charge, vous pouvez le soumettre lors de la soumission initiale du document. Nous tenterons de l’exploiter pour satisfaire un sous-ensemble de contrôles et accélérer votre évaluation. Toutefois, cela n’est pas nécessaire pour obtenir une certification Microsoft 365. 
 

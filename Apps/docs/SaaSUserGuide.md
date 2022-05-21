@@ -7,12 +7,12 @@ description: Guide utilisateur de l’éditeur de logiciels indépendants pour M
 keywords: Guide utilisateur de l’éditeur de logiciels indépendants pour Microsoft 365 saaS du programme de conformité des applications
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: abb26a45c9dc0d0d91ebd26c06b29644b41b2dfd
-ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
+ms.openlocfilehash: af6561ffb4670269fc4e219f58d069ce3fa20ce9
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/10/2022
-ms.locfileid: "64752863"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65618291"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>Guide de l’utilisateur du partenaire pour Microsoft 365 programme de conformité des applications - SaaS
 
@@ -24,6 +24,9 @@ ms.locfileid: "64752863"
 ## <a name="1-overview"></a>1. Vue d’ensemble 
 
 Ce document fait office de guide d’utilisateur pas à pas pour nos partenaires, inscrits à Microsoft 365 programme de conformité des applications visant à subir Publisher attestation et certification pour leurs applications SaaS, via le portail de l’Espace partenaires.
+
+>[!IMPORTANT]
+>Ce guide s’applique uniquement aux applications SaaS qui ont été approuvées et mises sur liste verte par l’équipe de conformité des applications Microsoft 365. Si votre application n’est pas dans la liste verte, vous ne pourrez pas continuer dans l’Espace partenaires. Pour obtenir votre liste verte SaaS, contactez appcert@microsoft.com.
 
 ## <a name="2-acronyms--definitions"></a>2. Acronymes & Definitions
 |Acronyme | Définition |
