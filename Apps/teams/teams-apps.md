@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: de21d7b83d211f2ee7d420a10e3971898de908d1
-ms.sourcegitcommit: d72fe5bb3407b6191790530fab8ba3fab320fcd6
+ms.openlocfilehash: 588b1a0e7fc21b7df04624cd5c868144ba47591a
+ms.sourcegitcommit: 0865622c8abffc11115e56d966729e5318d67ab9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "65596908"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65608843"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -162,7 +162,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  |
 | [Edgility](./edgility.md) | Edgility | **✓** |  |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  |
-| es[EdPuzzle](./edpuzzle.md) | Edpuzzle | **✓** |  |
+| [EdPuzzle](./edpuzzle.md) | Edpuzzle | **✓** |  |
 | [Efecte Service Management](./efecte-oyj-service-management.md) | Efecte Oyj | **✓** |  |
 | [eformity - Gestion des modèles](./eformity-eformitytemplate-management.md) | eformity | **✓** |  |
 | [Egnyte](./egnyte.md) | Egnyte | **✓** |  |
@@ -218,7 +218,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Goalhub](./momentum-cloud-pty-ltd-goalhub.md) | Momentum Cloud Pty Ltd | **✓** |  |
 | [GoLinks](./golinks.md) | GoLinks | **✓** |  |
 | [Good4work](./good4work.md) | Good4work | **✓** |  |
-| [GoToConnect](./logmein-inc-gotoconnect.md) | LogMeIn Inc. | **✓** |  |
 | [GRATICA](./okwave-inc-gratica.md) | OKWAVE, Inc. | **✓** |  |
 | [Group Address Book – NextSet](./nextsetinc-group-address-book-nextset.md) | NextSet, Inc. | **✓** |  |
 | [GroupLotse](./controlex-gmbh-grouplotse.md) | controlex GmbH | **✓** |  |
