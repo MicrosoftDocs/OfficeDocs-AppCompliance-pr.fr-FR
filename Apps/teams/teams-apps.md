@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/19/2022
+ms.date: 05/20/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 588b1a0e7fc21b7df04624cd5c868144ba47591a
-ms.sourcegitcommit: 0865622c8abffc11115e56d966729e5318d67ab9
+ms.openlocfilehash: 0ed41ac60058a87de4e493d3063aff39359103b1
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/20/2022
-ms.locfileid: "65608843"
+ms.locfileid: "65617394"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -57,7 +57,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Assembly](./carrothr-inc-assembly.md) | CarrotHR Inc. | **✓** |  |
 | [Aster](./aster.md) | Aster | **✓** |  |
 | [AtBot](./h3-solutions-inc-atbot.md) | H3 Solutions, Inc. | **✓** |  |
-| [AttendanceBot](./anaek-attendancebot.md) | Anaek | **✓** |  |
 | [Attendant](./workstreampeople-bv-attendant.md) | WORKSTREAMPEOPLE BV | **✓** |  |
 | [Attender](./aros-cloud-aps-attender.md) | Aros Cloud ApS | **✓** |  |
 | [Attensa](./attensa-corporation.md) | Attensa Corporation | **✓** |  |
@@ -97,7 +96,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Calendrier Pro](./witivio-calendar-pro.md) | Witivio | **✓** |  |
 | [Contrôle de validité](./yattee-inc-canary.md) | YATTEE Inc. | **✓** |  |
 | [Casedoc Virtual Hearing](./casedoc-virtual-hearing.md) | Casedoc | **✓** |  |
-| [CatchEm](./chimu-software-catchem.md) | Logiciel Chimu | **✓** |  |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  |
 | [check.it](./cloud-cover-it-checkit.md) | Cloud Cover IT | **✓** |  |
 | [Chronoscope Time Tracking](./chrono-innovation-chronoscope-time-tracking.md) | Chrono Innovation | **✓** |  |
@@ -161,7 +159,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [eCademy Lernplattform](./cornelsen-ecademyinside-gmbh-ecademy-lernplattform.md) | Cornelsen eCademy &amp; inside GmbH | **✓** |  |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  |
 | [Edgility](./edgility.md) | Edgility | **✓** |  |
-| [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  |
 | [EdPuzzle](./edpuzzle.md) | Edpuzzle | **✓** |  |
 | [Efecte Service Management](./efecte-oyj-service-management.md) | Efecte Oyj | **✓** |  |
 | [eformity - Gestion des modèles](./eformity-eformitytemplate-management.md) | eformity | **✓** |  |
@@ -225,7 +222,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Gtmhub](./gtmhub.md) | Gtmhub | **✓** |  |
 | [GuideSpark Communicate Cloud](./guidespark-communicate-cloud.md) | GuideSpark | **✓** |  |
 | [GuineaPig](./guineapig-health-technologies-ab.md) | Technologies d’intégrité AB GuineaPig | **✓** |  |
-| [Guru](./guru-technologies.md) | Guru Technologies | **✓** |  |
 | [Health Hero](./health-hero.md) | Health Hero | **✓** |  |
 | [Heedify](./heedify.md) | Heedify | **✓** |  |
 | [HelloTeam](./helloteam-inc.md) | HelloTeam Inc. | **✓** |  |
@@ -290,7 +286,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Lucca](./lucca.md) | Lucques | **✓** |  |
 | [Tableau de bord Lucidspark](./lucid-software-lucidspark-whiteboard.md) | Logiciel Lucid | **✓** |  |
 | [LumApps](./lumapps.md) | LumApps | **✓** |  |
-| [Lumio par SMART](./smart-technologies-ulc-lumio-by.md) | SMART Technologies ULC | **✓** |  |
+| [Lumio](./smart-technologies-ulc-lumio.md) | SMART Technologies ULC | **✓** |  |
 | [Map Pro](./witivio-map-pro.md) | Witivio | **✓** |  |
 | [Marvel](./marvel.md) | Marvel | **✓** |  |
 | [MeasureUp](./media-interactiva-solutions-measureup.md) | Media Interactiva Solutions | **✓** |  |
@@ -336,7 +332,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [OfficeRnD Hybrid Work](./officernd-hybrid-work.md) | OfficeRnd | **✓** |  |
 | [OfficeSuite](./windstream-officesuite.md) | WindStream | **✓** |  |
 | [OfficeTogether](./officetogether-inc.md) | OfficeTogether, Inc. | **✓** |  |
-| [Officevibe](./officevibe.md) | Officevibe | **✓** |  |
 | [Planning Offishall](./offishall-planning.md) | Offishall | **✓** |  |
 | [OLIVE VLE](./olivegroup-olive-vle.md) | OliveGroup | **✓** |  |
 | [Démarrage de l’intégration](./apr-management-solutions-lda-onboarding-start.md) | APR - Solutions de gestion Lda. | **✓** |  |
@@ -422,6 +417,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Smart Connect pour Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  |
 | [SmartDraw](./smartdraw-software-llc.md) | SmartDraw Software, LLC | **✓** |  |
 | [Smartnotation](./smartnotation-bv.md) | Smartnotation B.V. | **✓** |  |
+| [SmartPods](./discourse-analytics-smartpods.md) | Discourse Analytics | **✓** |  |
 | [SmartWork](./smartwork-of-intumit.md) | SmartWork de Intumit | **✓** |  |
 | [SmileBack](./smileback.md) | SmileBack | **✓** |  |
 | [Sobol](./consensys-ags-sobol.md) | ConsenSys AG&#8217;s Sobol | **✓** |  |
@@ -467,7 +463,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Teamflect](./grepsi-software-teamflect.md) | Grepsi Software | **✓** |  |
 | [TeamGether](./effency-teamgether.md) | EFFENCY | **✓** |  |
 | [Teamhood](./eylean-teamhood.md) | Eylean | **✓** |  |
-| [TeamMate par ChitChattr](./chitchattr-teammate-by.md) | ChitChattr | **✓** |  |
 | [TeamMood](./power-up-conseil-teammood.md) | Power Up Conseil | **✓** |  |
 | [Gestionnaire Teams](./solutions2share-gmbh-teams-manager.md) | Solutions2Share GmbH | **✓** |  |
 | [TeamsChamp](./teamschamp.md) | TeamsChamp | **✓** |  |
