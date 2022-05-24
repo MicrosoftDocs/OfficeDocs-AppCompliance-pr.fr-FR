@@ -3,17 +3,17 @@ title: sécurité et conformité des applications Microsoft Word - Toutes les ap
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/20/2022
+ms.date: 05/21/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Word.
 localization_priority: Normal
-ms.openlocfilehash: 28a1f34f21b783fec68f1ffaab516f8abd432a3e
-ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
+ms.openlocfilehash: ae8172aafe219e2d4f2967385fece91599f2bd4d
+ms.sourcegitcommit: 92295c3ae2ea6543be22c92e741da0e494ada2b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65618980"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65638592"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>sécurité et conformité des applications Microsoft Word
 
