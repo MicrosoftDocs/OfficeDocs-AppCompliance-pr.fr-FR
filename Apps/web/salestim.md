@@ -1,19 +1,20 @@
 ---
 title: Informations sur l’application pour SalesTim
 ms.author: elmalova
+manager: tonybal
 author: elenamalova
 ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour SalesTim, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
+description: Passez en revue toutes les informations de sécurité et de conformité disponibles pour SalesTim, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9fce7871fc306b19170cddb2d1524ef7a82a01f4
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 9bf1f4057ad73ba33a8ae3ba0ff02c74851cdecf
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222435"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688119"
 ---
 # <a name="application-information-for-salestim-by-salestim"></a>Informations d’application pour SalesTim by SalesTim
 
@@ -34,7 +35,7 @@ Informations fournies par SalesTim à Microsoft :
 | Nom de l'application | SalesTim |
 | ID | salestim.salestim |
 | Nom de la société partenaire | SalesTim |
-| URL du site web du partenaire | [https://salestim.com](https://salestim.com) |
+| URL du site web du partenaire | [https://nbold.co/](https://nbold.co/) |
 | URL de la politique de confidentialité | [https://www.salestim.com/legal/privacy/](https://www.salestim.com/legal/privacy/) |
 | URL des conditions d’utilisation | [https://www.salestim.com/legal/tos/](https://www.salestim.com/legal/tos/) |
 
@@ -119,7 +120,7 @@ Ces informations ont été fournies par SalesTim sur la façon dont cette applic
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Intégrez-vous à La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Vous intégrez-vous à Microsoft Identify Platform (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ?  | Oui |
 | Votre application utilise-t-elle MSAL (Microsoft Authentication Library) pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |

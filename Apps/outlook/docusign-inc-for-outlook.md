@@ -3,24 +3,24 @@ title: Informations sur l’application pour DocuSign pour Outlook par DocuSign,
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/18/2022
+ms.date: 05/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour DocuSign pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cafb05155f7df5d228c71a3fc379262684f72aa3
-ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
+ms.openlocfilehash: d942c5f4cf0bfd9665ed13b9538894c11edd142b
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65476291"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688579"
 ---
 # <a name="docusign-for-outlook"></a>DocuSign pour Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 13 mai 2022</p>
+<p>Dernière mise à jour par le développeur : 24 mai 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104218067" target="_blank">Afficher dans AppSource</a>
 
@@ -99,20 +99,23 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | Oui |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Oui |
+| Date de certification SOC1 la plus récente | 2021-12-10 |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
+| Quelle certification SOC 2 avez-vous obtenue ? | type2 |
+| Date de certification SOC2 la plus récente | 2021-12-10 |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
-| L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | S/O |
-| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Non |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Oui |
+| L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Oui |
+| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | Oui |
+| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
-| L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
+| L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Oui |
 | L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | Non |
 | L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | Non |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Non |
 | L’application est-elle conforme à NIST 800-171 ? | Non |
-| L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
+| L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -7,14 +7,14 @@ ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Toutes les informations de sécurité et de conformité disponibles pour Workboard, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
+description: Passez en revue toutes les informations de sécurité et de conformité disponibles pour Workboard, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b20a6e58680109d719fca48cf8f2152c9239026a
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: ccf27f1fa0c6db96446fc0fa7afc686fe2a49e20
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222455"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688099"
 ---
 # <a name="application-information-for-workboard"></a>Informations sur l’application pour Workboard
 
@@ -57,7 +57,7 @@ Répertoriez les [autorisations Microsoft Graph](/graph/permissions-reference) r
 
 >| **Permission**  | **Type d’autorisation (Délégué/Application)** | **Les données sont-elles collectées ? Justification de la collecte ?** | **Les données sont-ils stockées ? Justification du stockage ?** | **ID d’application Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Délégué | adresse e-mail et ID des utilisateurs.  Il est utilisé pour mapper l’utilisateur à l’ID d’utilisateur de WorkBoard | WorkBoard stocke uniquement l’identité de l’utilisateur dans ses bases de données | [User.Read](/microsoft-365-app-certification/azure/User.Read) |
+>| User.Read | Délégué | adresse e-mail et ID des utilisateurs.  Il est utilisé pour mapper l’utilisateur à l’ID d’utilisateur de WorkBoard | WorkBoard stocke uniquement l’identité de l’utilisateur dans ses bases de données | [User.Read](/graph/permissions-reference#user-permissions) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non-services Microsoft utilisé
@@ -117,7 +117,7 @@ Ces informations ont été fournies par Workboard sur la façon dont cette appli
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Intégrez-vous à La plateforme d’identification Microsoft (Azure AD) ?  | Oui |
+| Vous intégrez-vous à Microsoft Identify Platform (Azure AD) ?  | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ?  | Oui |
 | Votre application utilise-t-elle MSAL (Microsoft Authentication Library) pour l’authentification ? | Non |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |

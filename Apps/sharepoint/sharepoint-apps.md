@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft SharePoint - Toutes 
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/13/2022
+ms.date: 05/25/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft SharePoint.
 localization_priority: Normal
-ms.openlocfilehash: 41a841c6ca0476fd46db20aa8d740924d8512778
-ms.sourcegitcommit: 7eb24e5432be5d305fa7140c46d6d52c234fb621
+ms.openlocfilehash: b277edc0ba48acb512169eb9ef7f2cdedb8dbf51
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "65420237"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65689649"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sécurité et conformité de Microsoft SharePoint Apps
 
@@ -27,6 +27,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Système de gestion des enchères](./beyond-technologies-bid-management-system.md) | Au-delà des technologies | **✓** |  |
 | [Composants WebPart Bizagi](./bizagi-team-webparts.md) | Bizagi, équipe | **✓** |  |
 | [Superposition de calendrier](./cloudwell-calendar-overlay.md) | Cloudwell | **✓** |  |
+| [DocuSign pour SharePoint Online](./docusign-inc-for-sharepoint-online.md) | DocuSign, Inc. | **✓** |  |
 | [Connecteur FormMachines pour SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | ENTERPRISE DIGITAL MACHINES PTY LTD | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [HelloSign pour SharePoint](./dropbox-inc-hellosign-for-sharepoint.md) | Dropbox Inc. | **✓** |  |
 | [Ichicraft Boards - Votre espace de travail numérique](./ichicraft-bv-boards-your-digital-workplace.md) | ichicraft b.v. | **✓** |  |
@@ -35,6 +36,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Konnect eMail Parser](./konnect-email-parser.md) | Konnect eMail | **✓** |  |
 | [Viva Connections LifeWorks](./lifeworks-inc-viva-connections.md) | Lifeworks Inc | **✓** |  |
 | [Lightning Tools Lightning Conductor](./lightning-tools-conductor.md) | Outils Lightning | **✓** |  |
+| [officeatwork - Choisisseur de modèles pour SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Power BI Collaboration](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
 | [SharePoint-sapiens Employee Training Management](./sharepointsapiens-employee-training-management.md) | SharePointSapiens | **✓** |  |
 | [gestion des événements SharePoint-sapiens](./sharepointsapiens-event-management.md) | SharePointSapiens | **✓** |  |
