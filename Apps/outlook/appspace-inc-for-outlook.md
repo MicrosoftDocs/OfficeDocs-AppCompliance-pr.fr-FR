@@ -1,5 +1,5 @@
 ---
-title: Informations sur l’application pour DocuSign pour Word par DocuSign, Inc.
+title: Informations d’application pour Appspace pour Outlook par Appspace, Inc
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,41 +7,42 @@ ms.date: 05/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour DocuSign pour Word, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Appspace pour Outlook, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8cde4186d69cf52b28f2b5d6e5d111ddf69238c7
+ms.openlocfilehash: 56b8a1b592169e4dbeb223ce1981c7064e03e0c3
 ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/26/2022
-ms.locfileid: "65690899"
+ms.locfileid: "65692377"
 ---
-# <a name="docusign-for-word"></a>DocuSign pour Word
+# <a name="appspace-for-outlook"></a>Appspace pour Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 24 mai 2022</p>
+<p>Dernière mise à jour par le développeur : 2 février 2022</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104218065" target="_blank">Afficher dans AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200004102" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par DocuSign, Inc. à Microsoft :
+Informations fournies par Appspace, Inc à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | DocuSign pour Word |
-| ID | WA104218065 |
-| Office 365 clients pris en charge | Word 2016 ou version ultérieure sur Windows, Word 2016 ou version ultérieure sur Mac, Word sur le web |
-| Nom de la société partenaire | DocuSign, Inc. |
-| Site web de la société | [https://www.docusign.com](https://www.docusign.com) |
-| Conditions d’utilisation de l’application | [https://www.docusign.com/company/terms-and-conditions/web](https://www.docusign.com/company/terms-and-conditions/web) |
-| Fonctionnalités principales de l’application | Obtenir rapidement des signatures ou signer des documents Word avec DocuSign |
+| Nom de l'application | Appspace pour Outlook |
+| ID | WA200004102 |
+| Office 365 clients pris en charge | Outlook 2013 ou version ultérieure sur Windows, Outlook 2016 ou version ultérieure sur Mac, Outlook sur le web |
+| Nom de la société partenaire | Appspace, Inc |
+| Site web de la société | [https://www.appspace.com](https://www.appspace.com) |
+| Conditions d’utilisation de l’application | [https://www.appspace.com/legal/user-agreement/](https://www.appspace.com/legal/user-agreement/) |
+| Fonctionnalités principales de l’application | Appspace est une plateforme de gestion des communications et de l’espace pour aider votre entreprise avec l’organisation et l’efficacité, en travaillant de n’importe où. |
 | Emplacement du siège social de la société | États-Unis d’Amérique |
-| Page d’informations sur l’application | [https://www.docusign.com/solutions/microsoft/word](https://www.docusign.com/solutions/microsoft/word) |
-| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
+| Page d’informations sur l’application | [https://www.appspace.com](https://www.appspace.com) |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,12 +52,20 @@ Informations fournies par DocuSign, Inc. à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Comment l’application gère les données
 
-Ces informations ont été fournies par DocuSign, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Appspace, Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
+| L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
+| Quelles données sont traitées par votre application ? | Nom d’utilisateur |
+| L’application prend-elle en charge TLS 1.1 ou version ultérieure ? | Oui |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
+| Quelles données sont stockées dans vos bases de données ? | Nom d’utilisateur |
+| Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | États-Unis d’Amérique |
+| Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Moins de 30 jours |
+| Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
+| Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -70,7 +79,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Effectuez-vous des tests d’intrusion annuels sur l’application ? | Oui |
 | L’application dispose-t-elle d’un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
-| Votre environnement utilise-t-il une protection anti-programme malveillant traditionnelle ou des contrôles d’application ? | ApplicationControls, TraditionalAntiMalware |
+| Votre environnement utilise-t-il une protection anti-programme malveillant traditionnelle ou des contrôles d’application ? | TraditionalAntiMalware, ApplicationControls |
 | Avez-vous mis en place un processus de mise en retrait et de classement des risques des vulnérabilités de sécurité ? | Oui |
 | Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application de correctifs ? | Oui |
 | Effectuez-vous des activités de gestion des correctifs en fonction de vos contrats SLA de stratégie de mise à jour corrective ? | Oui |
@@ -80,14 +89,15 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous un processus de gestion des modifications établi pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Oui |
 | Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code soumises à la production par le développeur d’origine ? | Oui |
 | Les pratiques de codage sécurisées prennent-elles en compte les classes de vulnérabilité courantes telles que OWASP Top 10 ? | Oui |
-| Authentification multifacteur (MFA) activée pour : | Credential, DNSManagement |
+| Authentification multifacteur (MFA) activée pour : | CodeRepositories, DNSManagement, Credential |
 | Disposez-vous d’un processus établi pour l’approvisionnement, la modification et la suppression de comptes d’employés ? | Oui |
-| Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? | Oui |
+| Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? | S/O |
 | La journalisation des événements est-elle configurée sur tous les composants système qui prennent en charge votre application ? | Oui |
 | Tous les journaux sont-ils examinés régulièrement par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui |
-| Lorsqu’un événement de sécurité est détecté, les alertes sont-ils automatiquement envoyées à un employé pour le triage ? | Non |
-| Avez-vous établi un processus officiel de gestion des risques liés à la sécurité des informations ? | Non |
-| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? | Non |
+| Lorsqu’un événement de sécurité est détecté, les alertes sont-ils automatiquement envoyées à un employé pour le triage ? | Oui |
+| Avez-vous établi un processus officiel de gestion des risques liés à la sécurité des informations ? | Oui |
+| Avez-vous un processus formel de réponse aux incidents de sécurité documenté et établi ? | Oui |
+| Signalez-vous les violations de données d’application ou de service aux autorités de surveillance et aux personnes concernées par la violation dans les 72 heures suivant la détection ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -97,24 +107,24 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | Oui |
+| L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | S/O |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Oui |
-| Date de certification SOC1 la plus récente | 2021-12-10 |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
 | Quelle certification SOC 2 avez-vous obtenue ? | type2 |
-| Date de certification SOC2 la plus récente | 2021-12-10 |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | Oui |
+| Date de certification SOC2 la plus récente | 2020-11-09 |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Oui |
+| Date de certification SOC3 la plus récente | 2020-11-09 |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
 | L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Oui |
-| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | Oui |
+| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | S/O |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
-| L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Oui |
-| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | Non |
-| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | Non |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Non |
-| L’application est-elle conforme à NIST 800-171 ? | Non |
+| L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
+| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | S/O |
+| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme à NIST 800-171 ? | Oui |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -127,7 +137,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Oui |
 | L’application a-t-elle un avis de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
-| URL de la politique de confidentialité | https://www.docusign.com/company/privacy-policy |
+| URL de la politique de confidentialité | https://www.appspace.com/legal/privacy-policy/ |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui pourrait avoir un effet juridique ou un impact similaire ? | Non |
 | L’application traite-t-elle les données client à des fins secondaires qui ne sont pas décrites dans l’avis de confidentialité (c’est-à-dire marketing, analytique) ? | Non |
 | Traitez-vous des catégories spéciales de données sensibles (origines raciales ou ethniques, opinions politiques, croyances religieuses ou philosophiques, données génétiques ou biométriques, données de santé) ou catégories de données soumises à des lois de notification de violation ? | Non |
@@ -145,9 +155,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Non |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Non |
-| Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? |  |
+| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Oui |
+| Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | S/O |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application prend-elle en charge l’évaluation continue de l’accès (CAE) | Non |
 | Votre application stocke-t-elle des informations d’identification dans le code ? | Non |

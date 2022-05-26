@@ -1,5 +1,5 @@
 ---
-title: Informations d’application pour Sheetgo par SHEETGO EUROPE SL
+title: Informations d’application pour Sheetgo fournies par SHEETGO EUROPE SL
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,23 +7,23 @@ ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour Sheetgo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
+description: Passez en revue toutes les informations de sécurité et de conformité disponibles pour Sheetgo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9cbad6d4fcd5f6e081187af10c3c8a69de7122ba
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 001ad5dcce2a95885420f8413bfbfe03562eb5b2
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65225308"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65690429"
 ---
-# <a name="sheetgo"></a>Sheetgo
+# <a name="sheetgo-application-information"></a>Informations sur l’application Sheetgo
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Dernière mise à jour par le développeur : 3 novembre 2020</p>
 
 * <a href="https://teams.microsoft.com/l/app/583de270-58d0-4f94-af06-bf971f82fd94" target="_blank">Afficher dans Teams magasin</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002067" target="_blank">Afficher dans AppSource</a>
+* <a href="https://appsource.microsoft.com/en-US/product/office/WA200002128?tab=Overview" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
@@ -64,7 +64,7 @@ Si l’application transfère ou partage des données d’organisation avec un s
 
 >| **Toutes les OII non services Microsoft sont transférées vers** |  **Quel OII est transféré ?** | **Justification du transfert d’OII ?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| MongoDB : Enregistrer le système et les données utilisateur afin de fonctionner, Google BigQuery : Enregistrer l’utilisation des journaux système, Google Firestore : un système qui gère et orchestre l’état de nos microservices, Stripe : Système de paiement |  | Ces applications n’utilisent pas d’API Microsoft supplémentaires |
+>| MongoDB : Enregistrer les données système et utilisateur afin de fonctionner, Google BigQuery : Enregistrer l’utilisation des journaux système, Google Firestore : un système qui gère et orchestre l’état de nos microservices, Stripe : Système de paiement |  | Ces applications n’utilisent pas d’API Microsoft supplémentaires |
 
 #### <a name="data-access-via-bots"></a>Accès aux données via des bots
 
@@ -83,7 +83,7 @@ Des informations d’identification organisationnelle (OII) ou des informations 
 
 Décrire comment les administrateurs de l’organisation peuvent contrôler leurs informations dans les systèmes partenaires ? Par exemple, suppression, rétention, audit, archivage, stratégie de l’utilisateur final, etc.
 
->MongoDB : Enregistrer les données système et utilisateur afin de fonctionner google BigQuery : Enregistrer les journaux système d’utilisation de Google Firestore : système qui gère et orchestre l’état de nos microservices. Les seules données critiques de ce service transitent par les informations d’identification de l’utilisateur, qui sont chiffrées à l’aide d’AES256 Stripe: Payment system.
+>MongoDB : Enregistrer les données système et utilisateur afin de fonctionner avec Google BigQuery : Enregistrer les journaux système d’utilisation de Google Firestore : système qui gère et orchestre l’état de nos microservices. Les seules données critiques de ce service transitent par les informations d’identification de l’utilisateur, qui sont chiffrées à l’aide d’AES256 Stripe: Payment system.
  
 Toutes les données en transit utilisent HTTPS pour des connexions sécurisées et toutes les données sensibles sont chiffrées à l’aide d’AES256
 

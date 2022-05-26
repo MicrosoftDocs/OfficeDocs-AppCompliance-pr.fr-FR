@@ -1,28 +1,28 @@
 ---
-title: Informations sur l’application pour DocuSign pour Word par DocuSign, Inc.
+title: Informations d’application pour DocuSign pour SharePoint Online par DocuSign, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/25/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour DocuSign pour Word, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour DocuSign pour SharePoint Online, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8cde4186d69cf52b28f2b5d6e5d111ddf69238c7
+ms.openlocfilehash: f28eb43569050094f196ab5e88ee155d2f634705
 ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/26/2022
-ms.locfileid: "65690899"
+ms.locfileid: "65692381"
 ---
-# <a name="docusign-for-word"></a>DocuSign pour Word
+# <a name="docusign-for-sharepoint-online"></a>DocuSign pour SharePoint Online
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 24 mai 2022</p>
+<p>Dernière mise à jour par le développeur : 28 août 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104218065" target="_blank">Afficher dans AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104218069" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
@@ -32,15 +32,15 @@ Informations fournies par DocuSign, Inc. à Microsoft :
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Nom de l'application | DocuSign pour Word |
-| ID | WA104218065 |
-| Office 365 clients pris en charge | Word 2016 ou version ultérieure sur Windows, Word 2016 ou version ultérieure sur Mac, Word sur le web |
+| Nom de l'application | DocuSign pour SharePoint Online |
+| ID | WA104218069 |
+| Office 365 clients pris en charge | SharePoint 2013 ou version ultérieure |
 | Nom de la société partenaire | DocuSign, Inc. |
 | Site web de la société | [https://www.docusign.com](https://www.docusign.com) |
 | Conditions d’utilisation de l’application | [https://www.docusign.com/company/terms-and-conditions/web](https://www.docusign.com/company/terms-and-conditions/web) |
-| Fonctionnalités principales de l’application | Obtenir rapidement des signatures ou signer des documents Word avec DocuSign |
+| Fonctionnalités principales de l’application | Signer ou demander des signatures pour les documents dans SharePoint. |
 | Emplacement du siège social de la société | États-Unis d’Amérique |
-| Page d’informations sur l’application | [https://www.docusign.com/solutions/microsoft/word](https://www.docusign.com/solutions/microsoft/word) |
+| Page d’informations sur l’application | [https://www.docusign.com/solutions/microsoft/sharepoint-onl...](https://www.docusign.com/solutions/microsoft/sharepoint-online) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
