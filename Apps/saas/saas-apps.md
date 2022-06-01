@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications SaaS - Toutes les applications
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/29/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications SaaS.
 localization_priority: Normal
-ms.openlocfilehash: ddd2212052e7e4998442bc41fee6935503d27382
-ms.sourcegitcommit: 4e4e1e4f91f4fab06f3585388784a0da1a963453
+ms.openlocfilehash: 19607b575ae4c5b257415c0d7e373a36c398802b
+ms.sourcegitcommit: 29a4475d630d2f1d0755a6322eb994646322aca1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "65168530"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65804678"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sécurité et conformité des applications SaaS
 
@@ -38,7 +38,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Enregistrement d’appel unifié Dubber pour Microsoft Teams](./dubber-corp-unified-call-recording-for-microsoft-teams.md) | Dubber Corp | **✓** |  |
 | [Emailgistics](./emailgistics-corp.md) | Emailgistics Corp. | **✓** |  |
 | [EmailNotes pour Outlook](./standss-south-pacific-pte-limited-emailnotes-for-outlook.md) | Stands (Pacifique Sud) PTE Limited | **✓** |  |
-| [Intégration de Genesys Cloud CX Teams](./genesys-cloud-services-inc-cx-teams-integration.md) | Genesys Services cloud, Inc | **✓** |  |
+| [Intégration de Genesys Cloud CX Teams](./genesys-cloud-services-inc-cx-teams-integration.md) | Genesys Cloud Services, Inc | **✓** |  |
 | [Ice Contact Center](./computertalk-ice-contact-center.md) | ComputerTalk | **✓** |  |
 | [iGlobe CRM Office 365 pour Microsoft 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Choisisseur d’images](./officeatwork-image-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -57,6 +57,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Découverte Onna pour MS365](./onna-discovery-for-ms365.md) | Onna | **✓** |  |
 | [Stratégies &amp; Informations pour Microsoft Office 365](./avepoint-inc-policiesinsights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Project Migrator](./fluentpro-software-corporation-project-migrator.md) | FluentPro Software Corporation | **✓** |  |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
 | [Choisisseur de diapositives](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Storm Cloud Contact Center Teams Integration](./content-guru-storm-cloud-contact-center-teams-integration.md) | Guru du contenu | **✓** |  |
