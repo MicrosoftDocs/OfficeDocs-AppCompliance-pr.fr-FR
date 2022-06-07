@@ -1,21 +1,21 @@
 ---
-title: Azure App informations d’ID pour 39d845a0-3fa2-4fba-acc2-61afe40cfcea
+title: Informations d’ID d’application Azure pour 39d845a0-3fa2-4fba-acc2-61afe40cfcea
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/02/2022
+ms.date: 06/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour 39d845a0-3fa2-4fba-acc2-61afe40cfcea.
-ms.openlocfilehash: ebf2c4902eb03fcb6f7cecf22c6f424caef26e8b
-ms.sourcegitcommit: 4ceff6ef6aa0bae1075da646773b852970bb4049
+ms.openlocfilehash: 4a92d194bdb43f57dfe1d7de88c8af73ce48d8f5
+ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65869105"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65932161"
 ---
-# <a name="azure-app-id-39d845a0-3fa2-4fba-acc2-61afe40cfcea"></a>Azure App ID : 39d845a0-3fa2-4fba-acc2-61afe40cfcea
+# <a name="azure-app-id-39d845a0-3fa2-4fba-acc2-61afe40cfcea"></a>ID d’application Azure : 39d845a0-3fa2-4fba-acc2-61afe40cfcea
 
 
 ### <a name="apps-associated-with-this-id"></a>Applications associées à cet ID :
@@ -23,5 +23,5 @@ ms.locfileid: "65869105"
 |--------------|---------------|-----------------------|
 | [Faire avancer le travail avec Jira](../forward/WA200002855.md) |  | [https://appsource.microsoft.com/product/office/WA200002855](https://appsource.microsoft.com/product/office/WA200002855) |
 
-### <a name="microsoft-365-app-compliance-status"></a>état de conformité de l’application Microsoft 365
-- état de l’attestaton Publisher : terminé
+### <a name="microsoft-365-app-compliance-status"></a>État de conformité des applications Microsoft 365
+- État de l’attestaton de l’éditeur : terminé
