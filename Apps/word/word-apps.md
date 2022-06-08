@@ -1,27 +1,27 @@
 ---
-title: sécurité et conformité des applications Microsoft Word - Toutes les applications
+title: Sécurité et conformité de Microsoft Word Apps - Toutes les applications
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/25/2022
+ms.date: 06/07/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Word.
 localization_priority: Normal
-ms.openlocfilehash: 0d44c91dae339e1402f104a8e054847bb935b421
-ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
+ms.openlocfilehash: 6049f63161765ee4b557952e2385a212b97bd431
+ms.sourcegitcommit: dbf716786f7a3c0b84fa4563e47510e4bd3a2fd0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65688509"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "65943139"
 ---
-# <a name="microsoft-word-apps-security-and-compliance"></a>sécurité et conformité des applications Microsoft Word
+# <a name="microsoft-word-apps-security-and-compliance"></a>Sécurité et conformité de Microsoft Word Apps
 
-Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions relatives aux applications et compléments Microsoft Word qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
+Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant Microsoft Word Apps et les compléments qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Adobe Acrobat Sign for Microsoft Word and PowerPoint](./adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Acrobat Sign pour Microsoft Word et PowerPoint](./adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Complément AuditBoard](./auditboard-inc-add-in.md) | Auditboard, Inc. | **✓** |  |
 | [BriefCatch](./briefcatch-llc.md) | BriefCatch LLC | **✓** |  |
 | [Citasion](./citasion-llc.md) | Citasion LLC | **✓** |  |
@@ -29,8 +29,9 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Recoupement](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
 | [Rédacteur de documents](./green-meadow-aps-document-drafter.md) | Green Meadow ApS | **✓** |  |
 | [DocuSign pour Word](./docusign-inc-for-word.md) | DocuSign, Inc. | **✓** |  |
-| [Excel-to-Word Document Automation](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
+| [Automatisation de documents Excel-to-Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [Complément Fabasoft Cloud Office](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
+| [Mxmn FD - Importer des données métier](./maximon-ltd-fd-mxmn-import-business-data.md) | Maximon Ltd. | **✓** |  |
 | [Éditeur PDF Foxit pour Microsoft Word, Excel et PowerPoint](./foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md) | Foxit Software Inc. | **✓** |  |
 | [Signatures d’impression](./impression-signatures.md) | Signatures d’impression | **✓** |  |
 | [Jus2vec](./n2vec-tecnologia-jus2vec.md) | N2VEC TECNOLOGIA | **✓** |  |
