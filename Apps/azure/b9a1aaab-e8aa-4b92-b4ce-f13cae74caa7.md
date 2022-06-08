@@ -1,21 +1,21 @@
 ---
-title: Azure App informations d’ID pour b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
+title: Informations d’ID d’application Azure pour b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/02/2022
+ms.date: 06/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.
-ms.openlocfilehash: 3a7251c934bdd60c4bb416ed8f9dcac180b3dac1
-ms.sourcegitcommit: 4ceff6ef6aa0bae1075da646773b852970bb4049
+ms.openlocfilehash: efa02c474b49e9a6ff9d4437c1fcae2a3585c90e
+ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65871425"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65938501"
 ---
-# <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>Azure App ID : b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
+# <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>ID d’application Azure : b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 
 
 ### <a name="apps-associated-with-this-id"></a>Applications associées à cet ID :
@@ -23,5 +23,5 @@ ms.locfileid: "65871425"
 |--------------|---------------|-----------------------|
 | [Gestionnaire Teams](../forward/WA200000764.md) |  | [https://appsource.microsoft.com/product/office/WA200000764](https://appsource.microsoft.com/product/office/WA200000764) |
 
-### <a name="microsoft-365-app-compliance-status"></a>état de conformité de l’application Microsoft 365
-- état de l’attestaton Publisher : terminé
+### <a name="microsoft-365-app-compliance-status"></a>État de conformité des applications Microsoft 365
+- État de l’attestaton de l’éditeur : terminé
