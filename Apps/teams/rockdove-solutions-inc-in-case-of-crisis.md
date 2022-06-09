@@ -3,24 +3,24 @@ title: Application Information for In Case of Crisis by RockDove Solutions, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/07/2022
+ms.date: 06/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour In Case of Crisis, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 95c70c26f32bacabd6721e4b60f2417765a8eea0
-ms.sourcegitcommit: dbf716786f7a3c0b84fa4563e47510e4bd3a2fd0
+ms.openlocfilehash: 2a8c81db5aeda003ad0f71971f0b63a5b5cee460
+ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "65943123"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "65967654"
 ---
 # <a name="in-case-of-crisis"></a>En cas de crise
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 6 juin 2022</p>
+<p>Dernière mise à jour par le développeur : 8 juin 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/cf430644-447e-4572-8467-3892596d05c7" target="_blank">Afficher dans le magasin Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003194" target="_blank">Afficher dans AppSource</a>
@@ -109,7 +109,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
@@ -120,7 +120,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
 | L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | N/A |
-| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | N/A |
+| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme à NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -158,7 +158,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application prend-elle en charge l’évaluation continue de l’accès (CAE) | Oui |
-| Votre application stocke-t-elle des informations d’identification dans le code ? | Oui |
+| Votre application stocke-t-elle des informations d’identification dans le code ? | Non |
 | Les applications et compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
