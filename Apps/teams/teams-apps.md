@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/07/2022
+ms.date: 06/08/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 214ccdc88047d8e8c011f349d0e325bc76fb051f
-ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
+ms.openlocfilehash: 8cffaff6fd0c6f0ccdefd98021978d04a5fa6f1c
+ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65937001"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "65968834"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -191,6 +191,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Gestionnaire de fichiers](./solutions2share-gmbh-file-manager.md) | Solutions2Share GmbH | **✓** |  |
 | [Financial Times](./financial-times.md) | Financial Times | **✓** |  |
 | [Findit](./ctelo-findit.md) | CTELO | **✓** |  |
+| [Matrice de décision du bout des doigts](./fingertip-decision-matrix.md) | Doigt | **✓** |  |
 | [FinTech Studios](./fintech-studios.md) | FinTech Studios | **✓** |  |
 | [Fireflies AI](./firefliesai-fireflies-ai.md) | Fireflies.ai | **✓** |  |
 | [FireHydrant](./firehydrant.md) | FireHydrant | **✓** |  |
