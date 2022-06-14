@@ -3,24 +3,24 @@ title: Informations d’application pour Confluence Cloud par Atlassian
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/09/2022
+ms.date: 06/13/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Confluence Cloud, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1534755072b148cfd57e4eb479f69f328c7b92ac
-ms.sourcegitcommit: 6e1bedf47a32902e15f956a9492d8f5ec44a9650
+ms.openlocfilehash: 2b1fce0ac0210113dc5dee3ca08b5e52636ea1c3
+ms.sourcegitcommit: b6dd040770330d4499a0e19998f909be31b67c34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2022
-ms.locfileid: "65982158"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66076225"
 ---
 # <a name="confluence-cloud"></a>Confluence Cloud
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 9 juin 2022</p>
+<p>Dernière mise à jour par le développeur : 13 juin 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/30bb610c-6321-40fe-a047-056e7d0dac96" target="_blank">Afficher dans Teams magasin</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003113" target="_blank">Afficher dans AppSource</a>
@@ -35,7 +35,7 @@ Informations fournies par Atlassian à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Confluence Cloud |
 | ID | WA200003113 |
-| Office 365 clients pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Atlassian |
 | Site web de la société | [https://www.atlassian.com](https://www.atlassian.com) |
 | Conditions d’utilisation de l’application | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
