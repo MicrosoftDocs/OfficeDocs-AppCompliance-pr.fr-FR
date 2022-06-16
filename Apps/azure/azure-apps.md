@@ -1,25 +1,25 @@
 ---
-title: sécurité et conformité des ID Azure App - Toutes les applications
+title: sécurité et conformité des ID Aplicação Azure AD - Toutes les applications
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/14/2022
+ms.date: 06/15/2022
 ms.topic: article
 ms.service: attestation
-description: Toutes les informations de sécurité et de conformité disponibles pour tous les ID Azure App.
+description: Toutes les informations de sécurité et de conformité disponibles pour tous les ID Aplicação Azure AD.
 localization_priority: Normal
-ms.openlocfilehash: 14988852df190b09a3f96bc13e44e68c68788a55
-ms.sourcegitcommit: b6dd040770330d4499a0e19998f909be31b67c34
+ms.openlocfilehash: 10253c572c543df69497004ec292f197ea89f8a6
+ms.sourcegitcommit: 6df79f38ffe390e7339cd6ce5eb32641a9f4c1a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66076145"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66111792"
 ---
-# <a name="azure-app-ids-security-and-compliance"></a>sécurité et conformité des ID Azure App
+# <a name="azure-app-ids-security-and-compliance"></a>sécurité et conformité des ID Aplicação Azure AD
 
-Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant Azure App ID et compléments qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
+Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant Aplicação Azure AD ID et compléments qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 
-| **ID Azure App** | **Éditeur attesté** | **Certifié** |
+| **ID Aplicação Azure AD** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:-------------:|
 | [00485db5-81b3-4299-833a-8d6c366d0ac0](./00485db5-81b3-4299-833a-8d6c366d0ac0.md) | **✓** |  |
 | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](./00738e07-f9a4-4bf5-b6f9-851ec7ea31d5.md) | **✓** |  |
