@@ -44,7 +44,7 @@ items:
         href: excel/birdie-indicadores-economicos-chile.md
       - name: Jira Cloud pour Excel
         href: excel/atlassiancom-jira-cloud-for-excel.md
-      - name: MeaningCloud Analyse de texte pour Excel
+      - name: MeaningCloud Analiză text pour Excel
         href: excel/meaningcloud-text-analytics-for-excel.md
       - name: Office2SharePoint pour Office
         href: excel/iglobe-office2sharepoint-for-office.md
@@ -169,8 +169,8 @@ items:
   - name: Applications Microsoft SharePoint
     href: sharepoint/sharepoint-apps.md
     items:
-      - name: 4Mata
-        href: sharepoint/cloudignite-llc-4mata.md
+      - name: 4Mata - Concepteur de mise en forme de liste
+        href: sharepoint/cloudignite-llc-4mata-list-formatting-designer.md
       - name: Adobe Acrobat Sign for Microsoft Office SharePoint Online
         href: sharepoint/adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md
       - name: Tableau des tâches agiles pour SharePoint Online
@@ -306,8 +306,6 @@ items:
         href: teams/autopilot-workflow-solutions-workflows.md
       - name: Avaamo IT Assistant
         href: teams/avaamo-it-assistant.md
-      - name: Axelleron
-        href: teams/axelleron.md
       - name: Axis
         href: teams/axis-workshops-ltd.md
       - name: B12
@@ -1118,7 +1116,7 @@ items:
         href: teams/teamschamp.md
       - name: TeamSticker par Communitio
         href: teams/communitio-corporation-teamsticker-by.md
-      - name: Travail d’équipe
+      - name: Travail d'équipe
         href: teams/teamwork.md
       - name: TELUS Business Connect
         href: teams/ringcentral-inc-telus-business-connect.md
@@ -1142,6 +1140,8 @@ items:
         href: teams/kitameraki-limited-ticketing-as-a-service.md
       - name: Tikit
         href: teams/cireson-tikit.md
+      - name: Tilly
+        href: teams/tilly-group-limited.md
       - name: TimeClock 365
         href: teams/softsale-timeclock-365.md
       - name: 'timeghost : suivi de l’heure'
@@ -1188,6 +1188,8 @@ items:
         href: teams/vtiger-crm.md
       - name: Waldo
         href: teams/kickle-waldo.md
+      - name: Wanda
+        href: teams/unit4-business-software-wanda.md
       - name: Wats
         href: teams/skillbase-wats.md
       - name: Wazoku
@@ -1248,6 +1250,8 @@ items:
         href: teams/replicon-zero-time-bot.md
       - name: Zignals
         href: teams/alight-consulting-gmbh-zignals.md
+      - name: Zoho CRM
+        href: teams/zoho-corporation-pvt-ltd-crm.md
       - name: Zoho Desk
         href: teams/zoho-corporation-private-limited-desk.md
       - name: Zoho Notebook
@@ -1380,6 +1384,8 @@ items:
         href: saas/officeatwork-mail-signature.md
       - name: MIPA - Mon assistant personnel intelligent
         href: saas/iglobe-mipa-my-intelligent-personal-assistant.md
+      - name: ModuleQ
+        href: saas/moduleq.md
       - name: MURAL
         href: saas/mural.md
       - name: MyHub pour Teams
@@ -1424,7 +1430,7 @@ items:
         href: saas/wide-ideasidea2innovation-ideas-innovation-software.md
       - name: Assistant
         href: saas/officeatwork-wizard.md
-  - name: ID Azure App
+  - name: ID Aplicação Azure AD
     href: azure/azure-apps.md
     items:
       - name: 00485db5-81b3-4299-833a-8d6c366d0ac0
