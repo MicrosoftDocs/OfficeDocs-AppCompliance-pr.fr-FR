@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/14/2022
+ms.date: 06/16/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 2ebf1d7ad0ccbd4a34e05d6f627cdbae74a9cab2
-ms.sourcegitcommit: b6dd040770330d4499a0e19998f909be31b67c34
+ms.openlocfilehash: 13e1660cc680d6f954657ca1f34b2a95b6d80652
+ms.sourcegitcommit: bb53eca8ac8750b33a86501b91c332f74e998edc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66076325"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "66135823"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -63,7 +63,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Aula Digital](./leya-sa-aula-digital.md) | Leya, S.A. | **✓** |  |
 | [Flux de travail Autopilot](./autopilot-workflow-solutions-workflows.md) | Solutions de flux de travail Autopilot | **✓** |  |
 | [Avaamo IT Assistant](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
-| [Axelleron](./axelleron.md) | Axelleron | **✓** |  |
 | [Axis](./axis-workshops-ltd.md) | Axis Workshops Ltd | **✓** |  |
 | [B12](./apprentx-b12.md) | Apprentx | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | Point de décision | **✓** |  |
@@ -286,6 +285,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Conversation en direct](./social-intents-live-chat.md) | Intentions sociales | **✓** |  |
 | [LMS365](./elearningforce-international-lms365.md) | ELEARNINGFORCE International | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Loop](./friendly-flows-loop.md) | Flux convivial | **✓** |  |
+| [Loopio](./loopio-inc.md) | Loopio Inc. | **✓** |  |
 | [Loops – Creative Learning](./skooler-loops-creative-learning.md) | Skooler | **✓** |  |
 | [Client LTI](./flipick-pvt-ltd-lti-client.md) | Flipick Pvt Ltd | **✓** |  |
 | [Lucca](./lucca.md) | Lucques | **✓** |  |
@@ -481,6 +481,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [ti8m places](./tim-ag-ti8m-places.md) | ti &amp; m AG | **✓** |  |
 | [Billetterie en tant que service](./kitameraki-limited-ticketing-as-a-service.md) | kitameraki limité | **✓** |  |
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  |
+| [Tilly](./tilly-group-limited.md) | Tilly Group Limited | **✓** |  |
 | [TimeClock 365](./softsale-timeclock-365.md) | Softsale | **✓** |  |
 | [timeghost : suivi de l’heure](./timeghostio-timeghost-time-tracking.md) | timeghost.io | **✓** |  |
 | [Timeneye](./dm-digital-srl-timeneye.md) | DM Digital SRL | **✓** |  |
@@ -504,6 +505,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Vonage Business Communications](./vonage-business-communications.md) | Vonage | **✓** |  |
 | [Vtiger CRM](./vtiger-crm.md) | Vtiger | **✓** |  |
 | [Waldo](./kickle-waldo.md) | Kickle | **✓** |  |
+| [Wanda](./unit4-business-software-wanda.md) | Unit4 Business Software | **✓** |  |
 | [Wats](./skillbase-wats.md) | Skillbase | **✓** |  |
 | [Wazoku](./wazoku.md) | Wazoku | **✓** |  |
 | [Webdashboard](./in-summa-webdashboard.md) | In Summa | **✓** |  |
@@ -534,6 +536,8 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [yuccaHR](./yucca-technologies-gmbh-yuccahr.md) | Yucca Technologies GmbH | **✓** |  |
 | [Zero Time Bot](./replicon-zero-time-bot.md) | Replicon | **✓** |  |
 | [Zignals](./alight-consulting-gmbh-zignals.md) | Alight Consulting GmbH | **✓** |  |
+| [Zoho CRM](./zoho-corporation-pvt-ltd-crm.md) | Zoho Corporation Pvt Ltd | **✓** |  |
 | [Zoho Desk](./zoho-corporation-private-limited-desk.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho Notebook](./zoho-corporation-private-limited-notebook.md) | Zoho Corporation Private Limited | **✓** |  |
+| [Zoho Projects](./zoho-corporation-private-limited-projects.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho Sign](./zoho-corporation-private-limited-sign.md) | Zoho Corporation Private Limited | **✓** |  |
