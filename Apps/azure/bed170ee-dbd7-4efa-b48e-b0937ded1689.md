@@ -1,21 +1,21 @@
 ---
-title: Aplicação Azure AD informations d’ID pour bed170ee-dbd7-4efa-b48e-b0937ded1689
+title: Azure App informations d’ID pour bed170ee-dbd7-4efa-b48e-b0937ded1689
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/15/2022
+ms.date: 06/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour bed170ee-dbd7-4efa-b48e-b0937ded1689.
-ms.openlocfilehash: 5e3121fe20b91af9bbb69d3208c71c8be3eeba6d
-ms.sourcegitcommit: 6df79f38ffe390e7339cd6ce5eb32641a9f4c1a9
+ms.openlocfilehash: b920b5c17060888da0b37090cff11e273552ed2e
+ms.sourcegitcommit: bb53eca8ac8750b33a86501b91c332f74e998edc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66111292"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "66135623"
 ---
-# <a name="azure-app-id-bed170ee-dbd7-4efa-b48e-b0937ded1689"></a>Aplicação Azure AD ID : bed170ee-dbd7-4efa-b48e-b0937ded1689
+# <a name="azure-app-id-bed170ee-dbd7-4efa-b48e-b0937ded1689"></a>Azure App ID : bed170ee-dbd7-4efa-b48e-b0937ded1689
 
 
 ### <a name="apps-associated-with-this-id"></a>Applications associées à cet ID :
