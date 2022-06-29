@@ -3,26 +3,25 @@ title: Sécurité et conformité des applications Microsoft Outlook - Toutes les
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/31/2022
+ms.date: 06/24/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 9328f65dcdbc22d97a0b71a1e7e4a1c83814140b
-ms.sourcegitcommit: 9cbff2dbc9762426293b9b094a29e3d2bebc760b
+ms.openlocfilehash: 931290ecbe2e51c6d9a94232eacab98a693bc25f
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65818372"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66247300"
 ---
-# <a name="microsoft-outlook-apps-security-and-compliance"></a>Sécurité et conformité de Microsoft Outlook Apps
+# <a name="microsoft-outlook-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Outlook
 
 Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions relatives aux applications et compléments Microsoft Outlook qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Adobe Acrobat Sign for Microsoft Outlook](./adobe-inc-acrobat-sign-for-microsoft-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Calendriers de contacts approuvés](./approved-contact-calendars.md) | Contact approuvé | **✓** |  |
+| [Adobe Acrobat Sign pour Microsoft Outlook](./adobe-inc-acrobat-sign-for-microsoft-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Appspace pour Outlook](./appspace-inc-for-outlook.md) | Appspace, Inc | **✓** |  |
 | [Boost My Mail](./boost-my-mail.md) | Boost My Mail | **✓** |  |
 | [CI-Signature](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
@@ -35,7 +34,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Signatures d’impression pour Outlook](./impression-signatures-for-outlook.md) | Signatures d’impression | **✓** |  |
 | [Complément iPlanner Office 365 Planner pour Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Jira Cloud for Outlook (officiel)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
+| [Jira Cloud pour Outlook (officiel)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
 | [LawToolBox Deadlines &amp; Matter Management - Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlinesmatter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
 | [Échéances lawToolBox et gestion des matières - Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
 | [Mailbutler](./mailbutler.md) | Mailbutler | **✓** |  |
@@ -43,7 +42,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [ngDesk](./all-blue-solutions-ngdesk.md) | Toutes les solutions bleues | **✓** |  |
 | [Office2SharePoint pour Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Choisisseur de contenu pour Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork - Signature de courrier pour Outlook](./officeatwork-officeatworkmail-signature-for-outlook.md) | officeatwork | **✓** |  |
+| [officeatwork - Signature de messagerie pour Outlook](./officeatwork-officeatworkmail-signature-for-outlook.md) | officeatwork | **✓** |  |
 | [OnePlaceMail pour Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | OnePlace Solutions | **✓** |  |
 | [Engagement commercial de sensibilisation pour Outlook](./outreach-sales-engagement-for-outlook.md) | Sensibilisation | **✓** |  |
 | [Pexip One pour Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |

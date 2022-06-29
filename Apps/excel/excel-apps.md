@@ -1,30 +1,30 @@
 ---
-title: sécurité et conformité des applications Microsoft Excel - Toutes les applications
+title: Sécurité et conformité des applications Microsoft Excel - Toutes les applications
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/31/2022
+ms.date: 06/23/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Excel.
 localization_priority: Normal
-ms.openlocfilehash: 1087e5cf36b285c0d45888f7d20f3dcd3a01f482
-ms.sourcegitcommit: 9cbff2dbc9762426293b9b094a29e3d2bebc760b
+ms.openlocfilehash: 0743bf016e61458613bac5e2402ff57d325f66ec
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65818302"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66245591"
 ---
-# <a name="microsoft-excel-apps-security-and-compliance"></a>sécurité et conformité des applications Microsoft Excel
+# <a name="microsoft-excel-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Excel
 
-Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant Microsoft Excel Applications et compléments qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
+Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions relatives aux applications et compléments Microsoft Excel qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Complément AuditBoard](./auditboard-inc-add-in.md) | Auditboard, Inc. | **✓** |  |
 | [Calculatrice de coûts du service EMEA Canon pour les partenaires B2B](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
 | [CloudExtend Analytics pour NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | Celigo CloudExtend | **✓** |  |
-| [Excel-to-Word Document Automation](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
+| [Automatisation de documents Excel-to-Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [Forbury](./forbury-property.md) | Forbury, propriété | **✓** |  |
 | [Éditeur PDF Foxit pour Microsoft Word, Excel et PowerPoint](./foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md) | Foxit Software Inc. | **✓** |  |
 | [Signatures d’impression](./impression-signatures.md) | Signatures d’impression | **✓** |  |
