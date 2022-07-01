@@ -230,6 +230,8 @@ items:
         href: teams/365apps-365projects.md
       - name: 8x8
         href: teams/8x8-inc.md
+      - name: Abi
+        href: teams/beroe-abi.md
       - name: absentify
         href: teams/braincore-solutions-absentify.md
       - name: ACV
@@ -546,6 +548,8 @@ items:
         href: teams/sharepointsapiens-employee-training-management.md
       - name: Empuls
         href: teams/empuls.md
+      - name: Dictionnaire EN-UA
+        href: teams/skyline-consulatnts-en-ua-dictionary.md
       - name: Connecteur SmartUC ENA
         href: teams/ena-smartuc-connector.md
       - name: Enboarder
@@ -728,6 +732,8 @@ items:
         href: teams/semos-cloud-soultions-jobpts.md
       - name: Joye
         href: teams/joye-pte-ltd.md
+      - name: JustLogin
+        href: teams/justlogin.md
       - name: Kakeai
         href: teams/kakeai.md
       - name: Kami
@@ -1096,6 +1102,8 @@ items:
         href: teams/smartsheet.md
       - name: SmartWork
         href: teams/smartwork-of-intumit.md
+      - name: Smy
+        href: teams/supermonday-smy.md
       - name: Sobol
         href: teams/consensys-ags-sobol.md
       - name: Sociabble
@@ -1218,6 +1226,8 @@ items:
         href: teams/hippo-ed-tech-ltd-tigim-analytics.md
       - name: Tikit
         href: teams/cireson-tikit.md
+      - name: Tikit Virtual Agent
+        href: teams/cireson-tikit-virtual-agent.md
       - name: Tilly
         href: teams/tilly-group-limited.md
       - name: TimeClock 365
