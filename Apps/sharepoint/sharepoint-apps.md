@@ -1,27 +1,28 @@
 ---
-title: Sécurité et conformité des applications Microsoft SharePoint - Toutes les applications
+title: Sécurité et conformité de Microsoft SharePoint Apps - Toutes les applications
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/15/2022
+ms.date: 07/06/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft SharePoint.
 localization_priority: Normal
-ms.openlocfilehash: 0ad39778f4880151442e5bee9cb393e15907ff1d
-ms.sourcegitcommit: 6df79f38ffe390e7339cd6ce5eb32641a9f4c1a9
+ms.openlocfilehash: 7a93836c906f12cc639561366e2dbedf5921e523
+ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66110322"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66654406"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sécurité et conformité de Microsoft SharePoint Apps
 
-Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions relatives aux applications et compléments Microsoft SharePoint qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
+Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fournir les informations dont les organisations ont besoin pour accélérer et informer les décisions concernant Microsoft SharePoint Apps et les compléments qu’elles utilisent. Ces informations sur la conformité, le traitement des données et la sécurité est destinée à aider les organisations à évaluer et gérer les risques dans l’utilisation de ces applications.
 
 | **Application** | **Partenaire** | **Éditeur attesté** | **Certifié** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [4Mata - Concepteur de mise en forme de liste](./cloudignite-llc-4mata-list-formatting-designer.md) | CLOUDIGNITE LLC | **✓** |  |
+| [Résultats pour Viva Connections](./achievers-for-viva-connections.md) | Performants | **✓** |  |
 | [Adobe Acrobat Sign for Microsoft Office SharePoint Online](./adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Tableau des tâches agiles pour SharePoint Online](./agile-is-task-board-for-sharepoint-online.md) | Agile-IS | **✓** |  |
 | [ArcGIS pour SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
@@ -31,7 +32,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [DocuSign pour SharePoint Online](./docusign-inc-for-sharepoint-online.md) | DocuSign, Inc. | **✓** |  |
 | [Connecteur FormMachines pour SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | ENTERPRISE DIGITAL MACHINES PTY LTD | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [HelloSign pour SharePoint](./dropbox-inc-hellosign-for-sharepoint.md) | Dropbox Inc. | **✓** |  |
-| [Ichicraft Boards - Votre espace de travail numérique](./ichicraft-bv-boards-your-digital-workplace.md) | ichicraft b.v. | **✓** |  |
+| [Tableaux Ichicraft - Votre espace de travail numérique](./ichicraft-bv-boards-your-digital-workplace.md) | ichicraft b.v. | **✓** |  |
 | [Modules complémentaires iGlobe CRM](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iGlobe CRM Office 365 pour Microsoft Office 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Konnect eMail Parser](./konnect-email-parser.md) | Konnect eMail | **✓** |  |
@@ -39,10 +40,10 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Lightning Tools Lightning Conductor](./lightning-tools-conductor.md) | Outils Lightning | **✓** |  |
 | [officeatwork - Choisisseur de modèles pour SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Power BI Collaboration](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
-| [SharePoint-sapiens Employee Training Management](./sharepointsapiens-employee-training-management.md) | SharePointSapiens | **✓** |  |
-| [gestion des événements SharePoint-sapiens](./sharepointsapiens-event-management.md) | SharePointSapiens | **✓** |  |
-| [interface utilisateur moderne SharePoint-sapiens](./sharepointsapiens-modern-user-interface.md) | SharePointSapiens | **✓** |  |
+| [Gestion de la formation des employés SharePoint-sapiens](./sharepointsapiens-employee-training-management.md) | SharePointSapiens | **✓** |  |
+| [Gestion des événements SharePoint-sapiens](./sharepointsapiens-event-management.md) | SharePointSapiens | **✓** |  |
+| [Interface utilisateur moderne SharePoint-sapiens](./sharepointsapiens-modern-user-interface.md) | SharePointSapiens | **✓** |  |
 | [Réservation d’événements plus intelligente](./smarter-business-solutions-gmbh-event-booking.md) | Smarter Business Solutions GmbH | **✓** |  |
 | [Forums de discussion sur les réseaux sociaux](./lightning-tools-social-squared-discussion-forums.md) | Outils Lightning | **✓** |  |
 | [Taxonomie](./accuracy-software-inc-taxonomy.md) | Accuracy Software Inc. | **✓** |  |
-| [Zynyo Sign for SharePoint Online](./zynyo-sign-for-sharepoint-online.md) | Zynyo | **✓** |  |
+| [Signe Zynyo pour SharePoint Online](./zynyo-sign-for-sharepoint-online.md) | Zynyo | **✓** |  |

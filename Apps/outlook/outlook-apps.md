@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Outlook - Toutes les
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/24/2022
+ms.date: 07/06/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 931290ecbe2e51c6d9a94232eacab98a693bc25f
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: e068b2d07c5fb1e006f593e5d4423d78e1c5dd71
+ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66247300"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66654816"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Outlook
 
@@ -29,6 +29,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Déplacements quotidiens](./commuty.md) | Déplacements quotidiens | **✓** |  |
 | [DocuSign pour Outlook](./docusign-inc-for-outlook.md) | DocuSign, Inc. | **✓** |  |
 | [Dynamo](./dynamo-software.md) | Dynamo Software | **✓** |  |
+| [Egnyte pour Outlook](./egnyte-inc-for-outlook.md) | Egnyte, Inc. | **✓** |  |
 | [Réacteur d’e-mail](./flow-simulation-ltd-email-reactor.md) | Flow Simulation Ltd. | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [Signatures d’impression pour Outlook](./impression-signatures-for-outlook.md) | Signatures d’impression | **✓** |  |
@@ -47,6 +48,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [Engagement commercial de sensibilisation pour Outlook](./outreach-sales-engagement-for-outlook.md) | Sensibilisation | **✓** |  |
 | [Pexip One pour Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
 | [Matrice de priorité - Transformer les e-mails en tâches](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
 | [Stratégie-IA pour Outlook](./chinchilla-software-limited-strategy-ai-for-outlook.md) | Chinchilla Software Limited | **✓** |  |
 | [E-mail sécurisé XQ](./xq-message-secure-email.md) | XQ Message | **✓** |  |
