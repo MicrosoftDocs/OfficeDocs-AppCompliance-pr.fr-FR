@@ -306,6 +306,8 @@ items:
         href: teams/h3-solutions-inc-atbot.md
       - name: Atlas
         href: teams/atlassian-inc-atlas.md
+      - name: AttendanceBot
+        href: teams/anaek-attendancebot.md
       - name: Attendant
         href: teams/workstreampeople-bv-attendant.md
       - name: Attender
@@ -454,7 +456,7 @@ items:
         href: teams/cor-global-ltd.md
       - name: CorporateFitness.app
         href: teams/noctilucent-bv-corporatefitnessapp.md
-      - name: Création
+      - name: Creately
         href: teams/creately.md
       - name: CSOD Learn
         href: teams/cornerstone-ondemand-csod-learn.md
@@ -466,7 +468,7 @@ items:
         href: teams/culture-amp.md
       - name: Cyberday
         href: teams/digiturvamalli-cyberday.md
-      - name: Centre de contacts CyCX
+      - name: CyCX Contact Centre
         href: teams/cytrack-cycxcontact-centre.md
       - name: CyDesk
         href: teams/cytrack-cydesk.md
@@ -492,7 +494,7 @@ items:
         href: teams/degreed.md
       - name: Delayed Send
         href: teams/appfluence-inc-delayed-send.md
-      - name: Delibera
+      - name: delibera
         href: teams/dontknow-internet-sl-delibera.md
       - name: DELTAoverC
         href: teams/deltaoverc.md
@@ -638,7 +640,7 @@ items:
         href: teams/tritium-software-sl-forcemanager-crm.md
       - name: FormMachines
         href: teams/enterprise-digital-machines-formmachines.md
-      - name: Carte Forza
+      - name: Forza Board
         href: teams/toolpack-solutions-forza-board.md
       - name: Éditeur PDF Foxit
         href: teams/foxit-software-incorporated-pdf-editor.md
@@ -740,7 +742,7 @@ items:
         href: teams/rockdove-solutions-inc-in-case-of-crisis.md
       - name: InCaseIT
         href: teams/pilotech-as-incaseit.md
-      - name: Réunions du Conseil d’administration de l’Indeqa
+      - name: Indeqa Board Meetings
         href: teams/easy2meet-bv-indeqa-board-meetings.md
       - name: Informer Coleman
         href: teams/infor-us-inc-coleman.md
@@ -854,6 +856,8 @@ items:
         href: teams/aivision-products-srl-meetgeek.md
       - name: Meety
         href: teams/operalogica-srl-meety.md
+      - name: Meltwater
+        href: teams/meltwater.md
       - name: Mentimeter
         href: teams/mentimeter.md
       - name: Rappel de message
@@ -968,7 +972,7 @@ items:
         href: teams/pandos-intelligence-inc.md
       - name: Panopto
         href: teams/panopto.md
-      - name: Bot PAP
+      - name: PAP bot
         href: teams/pap-bot.md
       - name: ParkHere Corporate
         href: teams/parkhere-gmbh-corporate.md
@@ -1212,7 +1216,7 @@ items:
         href: teams/maskott-tactileo.md
       - name: TagMyFav
         href: teams/avishkaram-technologies-pvt-ltd-tagmyfav.md
-      - name: Conférences personnalisées
+      - name: Tailored Talks
         href: teams/pogo-studio-tailored-talks.md
       - name: TAMPLO
         href: teams/ityss-tamplo.md
@@ -1224,7 +1228,7 @@ items:
         href: teams/team-today-ltd.md
       - name: Teamble
         href: teams/teamble.md
-      - name: TeamConnect pour Sitecore
+      - name: TeamConnect for Sitecore
         href: teams/subramanian-ramanathan-teamconnect-for-sitecore.md
       - name: Bot de vérification de l’intégrité de TeaMe
         href: teams/teame-health-check-bot.md
@@ -1242,7 +1246,7 @@ items:
         href: teams/communitio-corporation-teamsticker-by.md
       - name: TeamSurvey
         href: teams/builduplabs-teamsurvey.md
-      - name: Travail d'équipe
+      - name: Travail d’équipe
         href: teams/teamwork.md
       - name: TELUS Business Connect
         href: teams/ringcentral-inc-telus-business-connect.md
@@ -1286,7 +1290,7 @@ items:
         href: teams/dm-digital-srl-timeneye.md
       - name: TINYpulse
         href: teams/tinypulse.md
-      - name: Liste de vérification des tâches pour l’équipe
+      - name: Liste de vérification des tâches pour Teams
         href: teams/herocoders-to-do-checklist-for-team.md
       - name: Tonkean
         href: teams/tonkean.md
@@ -1382,7 +1386,7 @@ items:
         href: teams/xmatters-inc.md
       - name: YAROOMS
         href: teams/yarooms.md
-      - name: Espace de travail yeastar
+      - name: Yeastar Workplace
         href: teams/xiamen-yeastar-coltd-workplace.md
       - name: yuccaHR
         href: teams/yucca-technologies-gmbh-yuccahr.md
