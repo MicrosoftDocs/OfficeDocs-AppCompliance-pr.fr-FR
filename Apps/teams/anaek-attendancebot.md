@@ -1,5 +1,5 @@
 ---
-title: Informations d’application pour OfficeAmp par Anaek Inc
+title: Informations sur l’application pour AttendanceBot par Anaek
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,41 +7,41 @@ ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour OfficeAmp, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour AttendanceBot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a2acfb48fc37ce950afb2f6d2d92d77bfd4dbef6
+ms.openlocfilehash: ae38fae7ea7f5f93c8f070c9d0079f7feea5cce1
 ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/10/2022
-ms.locfileid: "66704173"
+ms.locfileid: "66705836"
 ---
-# <a name="officeamp"></a>OfficeAmp
+# <a name="attendancebot"></a>AttendanceBot
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 22 juin 2022</p>
+<p>Dernière mise à jour par le développeur : 6 juillet 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/b3f65e46-d08c-4ab9-a11d-20836a9dcdda" target="_blank">Afficher dans le magasin Teams</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381756" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/77231724-5a80-4edf-ad93-dfd2e61207fa" target="_blank">Afficher dans le magasin Teams</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381652" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Anaek Inc à Microsoft :
+Informations fournies par Anaek à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | OfficeAmp |
-| ID | WA104381756 |
+| Nom de l'application | AttendanceBot |
+| ID | WA104381652 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Anaek Inc |
+| Nom de la société partenaire | Anaek |
 | Site web de la société | [https://www.harmonizehq.com](https://www.harmonizehq.com) |
-| Conditions d’utilisation de l’application | [https://www.officeamp.com/adminbot/tos/](https://www.officeamp.com/adminbot/tos/) |
-| Fonctionnalités principales de l’application | Bot de support technique interne, système ITSM robuste dans Microsoft Teams et vous donne un tableau de bord Kanban pour suivre, affecter et résoudre les tickets. |
+| Conditions d’utilisation de l’application | [https://www.attendancebot.com/attendance/tos/](https://www.attendancebot.com/attendance/tos/) |
+| Fonctionnalités principales de l’application | Ressources humaines modernes pour suivre l’heure, la présence, le PTO, le délai d’attente, le travail hybride, &amp; la planification des équipes |
 | Emplacement du siège social de la société | États-Unis d’Amérique |
-| Page d’informations sur l’application | [https://www.officeamp.com](https://www.officeamp.com) |
+| Page d’informations sur l’application | [https://www.attendancebot.com](https://www.attendancebot.com) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Hybride |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
@@ -53,7 +53,7 @@ Informations fournies par Anaek Inc à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Comment l’application gère les données
 
-Ces informations ont été fournies par Anaek Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Anaek sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
@@ -135,7 +135,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Oui |
 | L’application a-t-elle un avis de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
-| URL de la politique de confidentialité | https://www.officeamp.com/adminbot/privacy/ |
+| URL de la politique de confidentialité | https://www.attendancebot.com/attendance/privacy/ |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui pourrait avoir un effet juridique ou un impact similaire ? | Non |
 | L’application traite-t-elle les données client à des fins secondaires qui ne sont pas décrites dans l’avis de confidentialité (c’est-à-dire marketing, analytique) ? | Non |
 | Traitez-vous des catégories spéciales de données sensibles (origines raciales ou ethniques, opinions politiques, croyances religieuses ou philosophiques, données génétiques ou biométriques, données de santé) ou catégories de données soumises à des lois de notification de violation ? | Non |

@@ -1,5 +1,5 @@
 ---
-title: Informations d’application pour OfficeAmp par Anaek Inc
+title: Informations d’application pour Meltwater par Meltwater
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,42 +7,42 @@ ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour OfficeAmp, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
+description: Toutes les informations de sécurité et de conformité disponibles pour Meltwater, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a2acfb48fc37ce950afb2f6d2d92d77bfd4dbef6
+ms.openlocfilehash: a130b27965a26617a68e5ebe212f3cb0634f7357
 ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/10/2022
-ms.locfileid: "66704173"
+ms.locfileid: "66705749"
 ---
-# <a name="officeamp"></a>OfficeAmp
+# <a name="meltwater"></a>Meltwater
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 22 juin 2022</p>
+<p>Dernière mise à jour par le développeur : 1er juillet 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/b3f65e46-d08c-4ab9-a11d-20836a9dcdda" target="_blank">Afficher dans le magasin Teams</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381756" target="_blank">Afficher dans AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/83b0e721-a17c-4284-8af3-7ac51418dd86" target="_blank">Afficher dans le magasin Teams</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003094" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informations générales
 
-Informations fournies par Anaek Inc à Microsoft :
+Informations fournies par Meltwater à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | OfficeAmp |
-| ID | WA104381756 |
+| Nom de l'application | Meltwater |
+| ID | WA200003094 |
 | Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Anaek Inc |
-| Site web de la société | [https://www.harmonizehq.com](https://www.harmonizehq.com) |
-| Conditions d’utilisation de l’application | [https://www.officeamp.com/adminbot/tos/](https://www.officeamp.com/adminbot/tos/) |
-| Fonctionnalités principales de l’application | Bot de support technique interne, système ITSM robuste dans Microsoft Teams et vous donne un tableau de bord Kanban pour suivre, affecter et résoudre les tickets. |
+| Nom de la société partenaire | Meltwater |
+| Site web de la société | [https://www.meltwater.com](https://www.meltwater.com) |
+| Conditions d’utilisation de l’application | [https://www.meltwater.com/en/terms-of-use](https://www.meltwater.com/en/terms-of-use) |
+| Fonctionnalités principales de l’application | Nous offrons une analyse et une analyse complètes des médias sur les actualités en ligne, les réseaux sociaux, l’impression, la diffusion et les podcasts, capturant plus de contenu et de conversations que n’importe qui d’autre dans l’industrie.  |
 | Emplacement du siège social de la société | États-Unis d’Amérique |
-| Page d’informations sur l’application | [https://www.officeamp.com](https://www.officeamp.com) |
-| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Hybride |
+| Page d’informations sur l’application | [https://help.meltwater.com/en/articles/5360376-set-up-your-...](https://help.meltwater.com/en/articles/5360376-set-up-your-alerts-with-teams-integration) |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -53,20 +53,12 @@ Informations fournies par Anaek Inc à Microsoft :
 
 ### <a name="how-the-app-handles-data"></a>Comment l’application gère les données
 
-Ces informations ont été fournies par Anaek Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
+Ces informations ont été fournies par Meltwater sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
-| Quelles données sont traitées par votre application ? | Données de profil utilisateur |
-| L’application prend-elle en charge TLS 1.1 ou version ultérieure ? | Oui |
-| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? | Jetons d’accès, données de locataire (ID de locataire, nom, détails de l’équipe), données utilisateur (nom, e-mail) |
-| Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | États-Unis d’Amérique |
-| Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
-| Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
-| Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
+| L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Non |
+| L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -78,9 +70,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Effectuez-vous des tests d’intrusion annuels sur l’application ? | Non |
+| Effectuez-vous des tests d’intrusion annuels sur l’application ? | Oui |
 | L’application dispose-t-elle d’un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
-| Votre environnement utilise-t-il une protection anti-programme malveillant traditionnelle ou des contrôles d’application ? | TraditionalAntiMalware, ApplicationControls |
+| Votre environnement utilise-t-il une protection anti-programme malveillant traditionnelle ou des contrôles d’application ? | ApplicationControls |
 | Avez-vous mis en place un processus de mise en retrait et de classement des risques des vulnérabilités de sécurité ? | Oui |
 | Avez-vous une stratégie qui régit votre contrat de niveau de service (SLA) pour l’application de correctifs ? | Oui |
 | Effectuez-vous des activités de gestion des correctifs en fonction de vos contrats SLA de stratégie de mise à jour corrective ? | Oui |
@@ -90,7 +82,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Avez-vous un processus de gestion des modifications établi pour examiner et approuver les demandes de modification avant qu’elles ne soient déployées en production ? | Oui |
 | Une personne supplémentaire examine-t-elle et approuve-t-elle toutes les demandes de modification de code soumises à la production par le développeur d’origine ? | Oui |
 | Les pratiques de codage sécurisées prennent-elles en compte les classes de vulnérabilité courantes telles que OWASP Top 10 ? | Oui |
-| Authentification multifacteur (MFA) activée pour : | DNSManagement, Informations d’identification |
+| Authentification multifacteur (MFA) activée pour : | CodeRepositories, DNSManagement, Credential |
 | Disposez-vous d’un processus établi pour l’approvisionnement, la modification et la suppression de comptes d’employés ? | Oui |
 | Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? | Oui |
 | La journalisation des événements est-elle configurée sur tous les composants système qui prennent en charge votre application ? | Oui |
@@ -115,7 +107,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
 | L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | Non |
+| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | S/O |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
@@ -135,14 +127,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Oui |
 | L’application a-t-elle un avis de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
-| URL de la politique de confidentialité | https://www.officeamp.com/adminbot/privacy/ |
+| URL de la politique de confidentialité | https://www.meltwater.com/en/privacy/gdpr |
 | L’application effectue-t-elle une prise de décision automatisée, y compris le profilage qui pourrait avoir un effet juridique ou un impact similaire ? | Non |
 | L’application traite-t-elle les données client à des fins secondaires qui ne sont pas décrites dans l’avis de confidentialité (c’est-à-dire marketing, analytique) ? | Non |
 | Traitez-vous des catégories spéciales de données sensibles (origines raciales ou ethniques, opinions politiques, croyances religieuses ou philosophiques, données génétiques ou biométriques, données de santé) ou catégories de données soumises à des lois de notification de violation ? | Non |
 | L’application collecte-t-elle ou traite-t-elle des données auprès de mineurs (c’est-à-dire des personnes de moins de 16 ans) ? | Non |
 | L’application dispose-t-elle de fonctionnalités permettant de supprimer les données personnelles d’une personne sur demande ? | Oui |
 | L’application dispose-t-elle de fonctionnalités permettant de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | Oui |
-| L’application offre-t-elle aux utilisateurs la possibilité de corriger ou de mettre à jour leurs données personnelles ? | Oui |
+| L’application offre-t-elle aux utilisateurs la possibilité de corriger ou de mettre à jour leurs données personnelles ? | S/O |
 | Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des évaluations d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | Oui |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
