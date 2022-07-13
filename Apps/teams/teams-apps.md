@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/08/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: cfa7d528ef4a368955ceff556eb5c6e0528795c8
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+ms.openlocfilehash: f0676af49b6a4c273e7836185540d9ef3bbb3bb7
+ms.sourcegitcommit: 1d78b47ae32dd7ee29fb848e04ac0c5090d6b41c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66702632"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66762833"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -57,7 +57,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Asana](./asana.md) | Asana | **✓** |  |
 | [ASC Recording Insights](./asc-technologies-ag-recording-insights.md) | ASC Technologies AG | **✓** |  |
 | [Demander Vizir](./vizirco-ask-vizir.md) | Vizir.co | **✓** |  |
-| [Assembly](./carrothr-inc-assembly.md) | CarrotHR Inc. | **✓** |  |
 | [Aster](./entrup-aster.md) | Entrup | **✓** |  |
 | [AtBot](./h3-solutions-inc-atbot.md) | H3 Solutions, Inc. | **✓** |  |
 | [Atlas](./atlassian-inc-atlas.md) | Atlassian, Inc. | **✓** |  |
@@ -94,7 +93,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Bright Poll](./brightbits-bright-poll.md) | BrightBits | **✓** |  |
 | [Bright Remind Me](./chat-apps-llc-bright-remind-me.md) | Chat Apps, LLC | **✓** |  |
 | [Connexion vidéo Brightcove](./brightcove-inc-video-connect.md) | Brightcove Inc. | **✓** |  |
-| [Broadcast](./cerkl-broadcast.md) | Cerkl | **✓** |  |
 | [Brochesia](./brochesia.md) | Brochesia | **✓** |  |
 | [Panneau d'affichage – NextSet](./nextsetinc-bulletin-board-nextset.md) | NextSet, Inc. | **✓** |  |
 | [Bot C.AI d’adoption](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -106,7 +104,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [check.it](./cloud-cover-it-checkit.md) | Cloud Cover IT | **✓** |  |
 | [Chronoscope Time Tracking](./chrono-innovation-chronoscope-time-tracking.md) | Chrono Innovation | **✓** |  |
 | [Chronus](./chronus.md) | Chronus | **✓** |  |
-| [ChurnZero](./churnzero.md) | ChurnZero | **✓** |  |
 | [CI-Out-of-Office Lite](./ci-solution-gmbh-out-of-office-lite.md) | ci solution GmbH | **✓** |  |
 | [Liste classifiée](./binaryroots-classified-listing.md) | BinaryRoots | **✓** |  |
 | [SMS du greffier](./unnamed-ventures-llc-clerk-sms.md) | Unnamed Ventures, LLC. | **✓** |  |
@@ -406,7 +403,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Photo Filer](./ichicraft-photo-filer.md) | Ichicraft | **✓** |  |
 | [Pigeonhole Live](./pigeonlab-pte-ltd-pigeonhole-live.md) | PigeonLab Pte Ltd | **✓** |  |
 | [Plandisc](./plandisc.md) | Plandisc | **✓** |  |
-| [Lire par IntraActive](./fellowmind-denmark-play-by-intraactive.md) | Fellowmind Danemark | **✓** |  |
+| [PlanIt](./enable-365-planit.md) | Enable 365 | **✓** |  |
 | [Questionnaire de jeu – Aprende &amp; Juega](./teamschamp-playquiz-aprendejuega.md) | TeamsChamp | **✓** |  |
 | [Pling](./fellowmind-denmark-pling.md) | Fellowmind Danemark | **✓** |  |
 | [Plumm](./plumm-health-ltd.md) | Plumm Health LTD | **✓** |  |
@@ -434,7 +431,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Qooper](./cognata-technologies-llc-qooper.md) | COGNATA TECHNOLOGIES, LLC | **✓** |  |
 | [Quadra Thankz](./quadrasystemsnet-quadra-thankz.md) | Quadrasystems.net | **✓** |  |
 | [Quadra Visitorz](./quadrasystemsnet-quadra-visitorz.md) | Quadrasystems.net | **✓** |  |
-| [Qualifié](./qualified.md) | Qualifié | **✓** |  |
 | [Quire](./potix-corporation-quire.md) | Potix Corporation | **✓** |  |
 | [Quitch](./quitch.md) | Quitch | **✓** |  |
 | [Quéiky](./global-congress-srl-rafiky.md) | SRL GLOBAL DU SRL | **✓** |  |
@@ -444,6 +440,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [ReconnaissanceNow DM](./bi-worldwide-recognitionnow-dm.md) | BI MONDIAL | **✓** |  |
 | [Recognize](./recognize.md) | Recognize | **✓** |  |
 | [Rappeler](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
+| [Replay by IntraActive](./fellowmind-denmark-replay-by-intraactive.md) | Fellowmind Danemark | **✓** |  |
 | [researcHR](./researchr.md) | KBE&#26666;&#24335;&#20250;&#31038; | **✓** |  |
 | [Responsum](./responsum-inc.md) | Responsum Inc. | **✓** |  |
 | [ReTeam](./beremote-llc-reteam.md) | BeRemote LLC | **✓** |  |
@@ -487,6 +484,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Causes sociales](./oktopost-social-advocacy.md) | Oktopost | **✓** |  |
 | [Solo](./teladoc-inc-solo.md) | Teladoc, Inc. | **✓** |  |
 | [SQQ](./superquickquestion-sqq.md) | SuperQuickQuestion | **✓** |  |
+| [Squadify](./squadify-holdings-pty-ltd.md) | Squadify Holdings Pty Ltd | **✓** |  |
 | [Stack Overflow pour Teams](./stack-overflow-for-teams.md) | Stack Overflow | **✓** |  |
 | [StaffCircle](./staffcircle.md) | StaffCircle | **✓** |  |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  |
@@ -604,7 +602,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Yeastar Workplace](./xiamen-yeastar-coltd-workplace.md) | Xiamen Yeastar Co.,Ltd | **✓** |  |
 | [yuccaHR](./yucca-technologies-gmbh-yuccahr.md) | Yucca Technologies GmbH | **✓** |  |
 | [Zavvy](./zavvy-gmbh.md) | Zavvy GmbH | **✓** |  |
-| [Zero Time Bot](./replicon-zero-time-bot.md) | Replicon | **✓** |  |
+| [ZeroTime Bot](./replicon-zerotime-bot.md) | Replicon | **✓** |  |
 | [Zignals](./alight-consulting-gmbh-zignals.md) | Alight Consulting GmbH | **✓** |  |
 | [Zoho CRM](./zoho-corporation-pvt-ltd-crm.md) | Zoho Corporation Pvt Ltd | **✓** |  |
 | [Zoho Desk](./zoho-corporation-private-limited-desk.md) | Zoho Corporation Private Limited | **✓** |  |
