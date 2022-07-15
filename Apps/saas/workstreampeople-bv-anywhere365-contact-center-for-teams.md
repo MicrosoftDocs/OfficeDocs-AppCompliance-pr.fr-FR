@@ -3,23 +3,24 @@ title: Informations sur l’application pour anywhere365 Contact Center for Team
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/07/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour le Centre de contacts Anywhere365 pour Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: c23a5fbfc50b64a17f74e84f84e9aacba4b0045b
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 292b852f749cc9c1c88b10d7a4e55389285b8c61
+ms.sourcegitcommit: ac75dd8bb815bc9e8b1d5b39a2d2dbe46e65f680
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66703602"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66800945"
 ---
 # <a name="anywhere365-contact-center-for-teams"></a>Centre de contacts Anywhere365 pour Teams
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Dernière mise à jour par le développeur : 7 avril 2022</p>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Dernière mise à jour par le développeur : 14 mars 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/workstreampeople.anywhere365contactcenterforteams" target="_blank">Afficher dans AppSource</a>
 
@@ -172,39 +173,3 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Informations de certification
-
-| **Contrôle** | **Résultat de la certification Microsoft 365** |
-|:------------|:---------------------------------------|
-| [**SÉCURITÉ DES APPLICATIONS**](../docs/certification-submission-guide.md#application-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test de pénétration | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Évaluation des vulnérabilités (DAST/SAST/Test d’intrusion) | S/O |
-| [**SÉCURITÉ OPÉRATIONNELLE**](../docs/certification-submission-guide.md#operational-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Antivirus | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Contrôle d’application | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs - Classement des risques | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs - Mise à jour corrective | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyse des vulnérabilités | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu - Pare-feu (ou technologies équivalentes) | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu - Pare-feu d’applications web (WAF) (facultatif) | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modifier le contrôle | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Développement/déploiement de logiciels sécurisés | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des comptes | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Détection et prévention des intrusions (facultatif) | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Journalisation des événements de sécurité | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Révision (données de journalisation) | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertes d’événements de sécurité | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des risques liés à la sécurité des informations | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Réponse aux incidents | S/O |
-| [**CONFIDENTIALITÉ DE LA SÉCURITÉ DE GESTION &amp; DES DONNÉES**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données en transit | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données au repos | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservation et élimination des données | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion de l’accès aux données | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | S/O |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
