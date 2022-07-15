@@ -3,23 +3,24 @@ title: Informations sur l’application pour ice Contact Center par ComputerTalk
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/07/2022
+ms.date: 02/01/2022
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour ice Contact Center, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 3624609e62383a44e9dd6eba04d68a6bcc356685
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 06a7e536f486ecc5b3e6ba90824f5baab12831ae
+ms.sourcegitcommit: ac75dd8bb815bc9e8b1d5b39a2d2dbe46e65f680
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66707341"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66806335"
 ---
 # <a name="ice-contact-center"></a>Ice Contact Center
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Dernière mise à jour par le développeur : 14 février 2022</p>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Dernière mise à jour par le développeur : 31 janvier 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/computertalk.ice-contact-center" target="_blank">Afficher dans AppSource</a>
 
@@ -54,10 +55,10 @@ Ces informations ont été fournies par ComputerTalk sur la façon dont cette ap
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
-| Quelles données sont traitées par votre application ? | AzureADGuid (liaison de comptes).  L’adresse e-mail et le numéro de téléphone peuvent être importés à partir d’AAD. |
+| Quelles données sont traitées par votre application ? | AzureADGuid (liaison de comptes).  Email adresse et numéro de téléphone peuvent être importés à partir d’AAD. |
 | L’application prend-elle en charge TLS 1.1 ou version ultérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? | AzureADGuid (liaison de comptes).  L’adresse e-mail et le numéro de téléphone peuvent être importés à partir d’AAD. |
+| Quelles données sont stockées dans vos bases de données ? | AzureADGuid (liaison de comptes).  Email adresse et numéro de téléphone peuvent être importés à partir d’AAD. |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | Canada |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
 | Combien de temps les données sont-ils conservées après la résiliation du compte ? | Moins de 30 jours |
@@ -157,39 +158,3 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Informations de certification
-
-| **Contrôle** | **Résultat de la certification Microsoft 365** |
-|:------------|:---------------------------------------|
-| [**SÉCURITÉ DES APPLICATIONS**](../docs/certification-submission-guide.md#application-security) | **FAIL** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test de pénétration | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Évaluation des vulnérabilités (DAST/SAST/Test d’intrusion) | Dans l’étendue |
-| [**SÉCURITÉ OPÉRATIONNELLE**](../docs/certification-submission-guide.md#operational-security) | **PASSER** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Antivirus | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Contrôle d’application | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs - Classement des risques | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs - Mise à jour corrective | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyse des vulnérabilités | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu - Pare-feu (ou technologies équivalentes) | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu - Pare-feu d’applications web (WAF) (facultatif) | S/O |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modifier le contrôle | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Développement/déploiement de logiciels sécurisés | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des comptes | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Détection et prévention des intrusions (facultatif) | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Journalisation des événements de sécurité | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Révision (données de journalisation) | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertes d’événements de sécurité | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des risques liés à la sécurité des informations | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Réponse aux incidents | Dans l’étendue |
-| [**CONFIDENTIALITÉ DE LA SÉCURITÉ DE GESTION &amp; DES DONNÉES**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASSER** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données en transit | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données au repos | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservation et élimination des données | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion de l’accès aux données | Dans l’étendue |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | Dans l’étendue |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
