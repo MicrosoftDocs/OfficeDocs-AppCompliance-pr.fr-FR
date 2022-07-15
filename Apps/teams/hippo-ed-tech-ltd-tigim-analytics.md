@@ -3,24 +3,24 @@ title: Informations d’application pour Tigim Analytics par Hippo Ed Tech LTD
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/16/2022
+ms.date: 07/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Tigim Analytics, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 81d3b55c0609d1d3f56e6dd55b0e6b5d8194842c
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: 66a78bdd74c3002e176335c62c5a5f8a090847cb
+ms.sourcegitcommit: 9e5c6c3b4885bc6fa0a4af61432c86a232bc7ec9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66247377"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66818186"
 ---
 # <a name="tigim-analytics"></a>Tigim Analytics
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 25 mai 2022</p>
+<p>Dernière mise à jour par le développeur : 14 juillet 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/98172521-768f-4271-a872-00bd46bd9460" target="_blank">Afficher dans le magasin Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200004242" target="_blank">Afficher dans AppSource</a>
@@ -42,7 +42,8 @@ Informations fournies par Hippo Ed Tech LTD à Microsoft :
 | Fonctionnalités principales de l’application | Communication, productivité, gestion des entreprises, formation |
 | Emplacement du siège social de la société | Irlande |
 | Page d’informations sur l’application | |
-| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | IsvHosted |
+| Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
+| Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Autre |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
