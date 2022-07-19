@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/15/2022
+ms.date: 07/18/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 497609f2820ce7932a5eb5f6ab7bda14f39e8cf2
-ms.sourcegitcommit: 9e5c6c3b4885bc6fa0a4af61432c86a232bc7ec9
+ms.openlocfilehash: 3309095b4fb299aca5dc85bfd198eed0b30d22cf
+ms.sourcegitcommit: cb9d047bfc5e5890edd2962db826c77cdee9c0f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66815344"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66853578"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -25,14 +25,12 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [1Page](./oayaw-inc-1page.md) | OAYAW, Inc. | **✓** |  |
 | [365-QA](./advantive-365-qa.md) | Advantif | **✓** |  |
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
-| [8x8](./8x8-inc.md) | 8x8, Inc | **✓** |  |
 | [Abi](./beroe-abi.md) | Beroe | **✓** |  |
 | [absentify](./braincore-solutions-absentify.md) | BrainCore Solutions | **✓** |  |
 | [ACV](./tangible-it-mexico-acv.md) | Tangible IT Mexico | **✓** |  |
 | [Adobe Acrobat](./adobe-acrobat.md) | Adobe | **✓** |  |
 | [Adobe Acrobat Sign](./adobe-acrobat-sign.md) | Adobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Adobe Creative Cloud Express](./adobe-express.md) | Adobe | **✓** |  |
-| [Agenda Boss](./appfluence-inc-agenda-boss.md) | Appfluence Inc | **✓** |  |
 | [Tableau de tâches Agile](./agile-is-task-board.md) | Agile-IS | **✓** |  |
 | [ahead](./ahead-ag.md) | ahead AG | **✓** |  |
 | [Producteur d’IA](./livearena-technologies-ab-ai-producer.md) | LiveArena Technologies AB | **✓** |  |
@@ -95,7 +93,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Connexion vidéo Brightcove](./brightcove-inc-video-connect.md) | Brightcove Inc. | **✓** |  |
 | [Brochesia](./brochesia.md) | Brochesia | **✓** |  |
 | [BrowserStack](./browserstack-inc.md) | BrowserStack Inc | **✓** |  |
-| [Panneau d'affichage – NextSet](./nextsetinc-bulletin-board-nextset.md) | NextSet, Inc. | **✓** |  |
 | [Bot C.AI d’adoption](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Calendrier Pro](./witivio-calendar-pro.md) | Witivio | **✓** |  |
 | [Contrôle de validité](./yattee-inc-canary.md) | YATTEE Inc. | **✓** |  |
@@ -122,7 +119,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Collection Pot](./gifted-to-you-limited-collection-pot.md) | Gifted to You Limited | **✓** |  |
 | [Navigateur d’entreprise](./konica-minolta-it-solutions-company-navigator.md) | Solutions informatiques Konica Minolta | **✓** |  |
 | [ComplianceCow](./continube-inc-compliancecow.md) | ContiNube Inc | **✓** |  |
-| [Complish](./cauzey-pty-ltd-complish.md) | Cauzey Pty Ltd | **✓** |  |
 | [Conférences E/S](./conferences-io.md) | Conférences E/S | **✓** |  |
 | [Confluence Cloud](./atlassian-confluence-cloud.md) | Atlassian | **✓** |  |
 | [Connecteur de Connecteur de Connecteur par MWF](./move-work-forward-confluence-connector-by-mwf.md) | Faire avancer le travail | **✓** |  |
@@ -150,7 +146,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Data Hu](./data-hu.md) | &#21271;&#20140;&#20061;&#40594;&#20449;&#24687;&#25216;&#26415;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [DataFetch](./datafetch-inc.md) | DataFetch, Inc | **✓** |  |
 | [DataMiner](./skyline-communications-dataminer.md) | Skyline Communications | **✓** |  |
-| [Espace de travail Datto](./datto-inc-workplace.md) | Datto, Inc. | **✓** |  |
 | [DBit](./diamondsoft-solutions-llc-dbit.md) | Diamondsoft Solutions, LLC | **✓** |  |
 | [Décisions](./decisions.md) | Décisions | **✓** |  |
 | [Deeplink Chatbot](./deeplink-sa-chatbot.md) | Deeplink SA | **✓** |  |
@@ -259,7 +254,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Heedify](./heedify.md) | Heedify | **✓** |  |
 | [HelloTeam](./helloteam-inc.md) | HelloTeam Inc. | **✓** |  |
 | [HeyTaco](./heytaco-llc.md) | HeyTaco, LLC | **✓** |  |
-| [hi Digital Coach](./digital-attitude-srl-hi-coach.md) | Digital Attitude Srl | **✓** |  |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  |
 | [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
 | [HitHorizons](./finstat-sro-hithorizons.md) | FinStat s.r.o. | **✓** |  |
@@ -292,7 +286,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [JobPts](./semos-cloud-soultions-jobpts.md) | Semos Cloud Soultions | **✓** |  |
 | [Joye](./joye-pte-ltd.md) | Joye Pte Ltd | **✓** |  |
 | [JustLogin](./justlogin.md) | JustLogin | **✓** |  |
-| [Kakeai](./kakeai.md) | KAKEAI | **✓** |  |
 | [Kami](./kami.md) | Kami | **✓** |  |
 | [Kanban Tool](./shore-labs-kanban-tool.md) | Shore Labs | **✓** |  |
 | [KangoGift](./kangogift-inc.md) | KangoGift, Inc. | **✓** |  |
@@ -520,7 +513,6 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Switchvox](./sangoma-switchvox.md) | Sangoma | **✓** |  |
 | [SWOOP Analytics](./swoop-analytics-pty-ltd.md) | SWOOP Analytics Pty Ltd | **✓** |  |
 | [SysAid](./sysaid.md) | SysAid | **✓** |  |
-| [Tactileo](./maskott-tactileo.md) | Maskott | **✓** |  |
 | [TagMyFav](./avishkaram-technologies-pvt-ltd-tagmyfav.md) | Avishkaram Technologies Pvt Ltd | **✓** |  |
 | [Tailored Talks](./pogo-studio-tailored-talks.md) | Pogo Studio | **✓** |  |
 | [TAMPLO](./ityss-tamplo.md) | ITYSS | **✓** |  |
@@ -608,7 +600,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [X2O](./x2o-media-inc.md) | X2O Media, Inc. | **✓** |  |
 | [xMatters](./xmatters-inc.md) | xMatters Inc. | **✓** |  |
 | [YAROOMS](./yarooms.md) | YAROOMS | **✓** |  |
-| [Yeastar Workplace](./xiamen-yeastar-coltd-workplace.md) | Xiamen Yeastar Co.,Ltd | **✓** |  |
+| [Yeastar Workplace](./yeastar-information-technology-workplace.md) | Yeastar Information Technology | **✓** |  |
 | [yuccaHR](./yucca-technologies-gmbh-yuccahr.md) | Yucca Technologies GmbH | **✓** |  |
 | [Zavvy](./zavvy-gmbh.md) | Zavvy GmbH | **✓** |  |
 | [Zendesk](./softserve-inc-office-store-zendesk.md) | SoftServe Inc. Office Store | **✓** |  |
