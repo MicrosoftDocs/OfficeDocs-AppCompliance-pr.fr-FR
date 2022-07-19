@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/18/2022
+ms.date: 07/19/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 3309095b4fb299aca5dc85bfd198eed0b30d22cf
-ms.sourcegitcommit: cb9d047bfc5e5890edd2962db826c77cdee9c0f6
+ms.openlocfilehash: 36f1310237b28b3c2ccedc15212b64e3e298cbdd
+ms.sourcegitcommit: c98623463f83636439af4fb49219918e87f2086a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/19/2022
-ms.locfileid: "66853578"
+ms.locfileid: "66877200"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -71,6 +71,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Beacapp ici](./beacapp-inc-here.md) | Beacapp Inc. | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | Point de décision | **✓** |  |
 | [Bedriftsnett](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
+| [Beep](./medxnote-beep.md) | Medxnote | **✓** |  |
 | [Baie](./berryworksai-berry.md) | Berryworks.ai | **✓** |  |
 | [Berrycast](./technologies-openmind-inc-les-berrycast.md) | Technologies Openmind Inc, Les | **✓** |  |
 | [BGA Notify](./honeywell-bga-notify.md) | Honeywell | **✓** |  |
@@ -371,6 +372,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Actualités - Jalios](./jalios-sa-news.md) | Jalios SA | **✓** |  |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | Toutes les solutions bleues | **✓** |  |
 | [surnom par les jeux flow](./room6-nickname-by-flowrish-games.md) | room6 | **✓** |  |
+| [Agent désormais virtuel](./servicenow-now-virtual-agent.md) | ServiceNow | **✓** |  |
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  |
 | [O2S - Office2SharePoint](./iglobe-o2s-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [OfficeAmp](./anaek-inc-officeamp.md) | Anaek Inc | **✓** |  |
@@ -431,6 +433,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Qooper](./cognata-technologies-llc-qooper.md) | COGNATA TECHNOLOGIES, LLC | **✓** |  |
 | [Quadra Thankz](./quadrasystemsnet-quadra-thankz.md) | Quadrasystems.net | **✓** |  |
 | [Quadra Visitorz](./quadrasystemsnet-quadra-visitorz.md) | Quadrasystems.net | **✓** |  |
+| [QuickMinutes](./quickminutes.md) | QuickMinutes | **✓** |  |
 | [Quire](./potix-corporation-quire.md) | Potix Corporation | **✓** |  |
 | [Quitch](./quitch.md) | Quitch | **✓** |  |
 | [Quéiky](./global-congress-srl-rafiky.md) | SRL GLOBAL DU SRL | **✓** |  |
