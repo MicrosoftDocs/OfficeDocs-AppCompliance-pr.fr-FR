@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/19/2022
+ms.date: 07/20/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 36f1310237b28b3c2ccedc15212b64e3e298cbdd
-ms.sourcegitcommit: c98623463f83636439af4fb49219918e87f2086a
+ms.openlocfilehash: f86b5b37fd1c146c7517c7a4861f474a5093df1d
+ms.sourcegitcommit: b072ed662849382b6df1bebf43454e12e5ed544d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66877200"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66912868"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -27,6 +27,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
 | [Abi](./beroe-abi.md) | Beroe | **✓** |  |
 | [absentify](./braincore-solutions-absentify.md) | BrainCore Solutions | **✓** |  |
+| [Performants](./achievers.md) | Performants | **✓** |  |
 | [ACV](./tangible-it-mexico-acv.md) | Tangible IT Mexico | **✓** |  |
 | [Adobe Acrobat](./adobe-acrobat.md) | Adobe | **✓** |  |
 | [Adobe Acrobat Sign](./adobe-acrobat-sign.md) | Adobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -162,6 +163,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Digiplein](./educatieve-uitgeversgroep-bv-digiplein.md) | Educatieve Uitgeversgroep B.V. | **✓** |  |
 | [Boîte à outils DigitalOps](./medalsoft-digitalops-toolbox.md) | Medalsoft | **✓** |  |
 | [Diligent Boards](./diligent-boards.md) | Diligent | **✓** |  |
+| [DirectFax](./etherfax-llc-directfax.md) | etherFAX LLC | **✓** |  |
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  |
 | [Listes de distribution Pro](./witivio-distribution-lists-pro.md) | Witivio | **✓** |  |
 | [Ditox](./ditox.md) | Ditox | **✓** |  |
@@ -236,6 +238,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Genuity](./stratum-networks-genuity.md) | Stratum Networks | **✓** |  |
 | [Gfacility](./gfacility.md) | Gfacility | **✓** |  |
 | [GitHub](./microsoft-corporation-github.md) | Microsoft Corporation | **✓** |  |
+| [Glowbl](./glowbl.md) | Glowbl | **✓** |  |
 | [Go1](./go1.md) | Go1 | **✓** |  |
 | [Goalhub](./momentum-cloud-pty-ltd-goalhub.md) | Momentum Cloud Pty Ltd | **✓** |  |
 | [GoLinks](./golinks.md) | GoLinks | **✓** |  |
@@ -463,6 +466,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [ServiceDesk Plus Cloud](./zoho-corporation-private-limited-servicedesk-plus-cloud.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Thread partagé par WNI](./wni-shared-thread-by.md) | WNI | **✓** |  |
 | [SHL](./shl.md) | SHL | **✓** |  |
+| [Showmaster](./cherryware-showmaster.md) | cherryware | **✓** |  |
 | [Sift](./sift.md) | Sift | **✓** |  |
 | [SightCall](./sightcall.md) | SightCall | **✓** |  |
 | [SIGNL4](./derdack-signl4.md) | Derdack SIGNL4 | **✓** |  |
@@ -488,6 +492,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Causes sociales](./oktopost-social-advocacy.md) | Oktopost | **✓** |  |
 | [Solo](./teladoc-inc-solo.md) | Teladoc, Inc. | **✓** |  |
 | [SQQ](./superquickquestion-sqq.md) | SuperQuickQuestion | **✓** |  |
+| [Squadcast](./squadcast.md) | Squadcast | **✓** |  |
 | [Squadify](./squadify-holdings-pty-ltd.md) | Squadify Holdings Pty Ltd | **✓** |  |
 | [Stack Overflow pour Teams](./stack-overflow-for-teams.md) | Stack Overflow | **✓** |  |
 | [StaffCircle](./staffcircle.md) | StaffCircle | **✓** |  |
@@ -526,7 +531,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [TeamConnect for Sitecore](./subramanian-ramanathan-teamconnect-for-sitecore.md) | Ramanathan subramanien | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Bot de vérification de l’intégrité de TeaMe](./teame-health-check-bot.md) | &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; | **✓** |  |
 | [Teameo Class Space](./ls2-innovation-teameo-class-space.md) | LS2 Innovation | **✓** |  |
-| [Teamflect](./grepsi-software-teamflect.md) | Grepsi Software | **✓** |  |
+| [Teamflect](./teamflect.md) | Teamflect | **✓** |  |
 | [TeamMood](./power-up-conseil-teammood.md) | Power Up Conseil | **✓** |  |
 | [Gestionnaire Teams](./solutions2share-gmbh-teams-manager.md) | Solutions2Share GmbH | **✓** |  |
 | [TeamsChamp](./teamschamp.md) | TeamsChamp | **✓** |  |
