@@ -3,24 +3,23 @@ title: Informations sur l’application pour MyHub pour Teams par AvePoint Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 10/06/2021
+ms.date: 06/22/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Toutes les informations de sécurité et de conformité disponibles pour MyHub pour Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f9c4b496558efd7d164ab05e91e031dcfb40d2aa
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+certification_type: certified
+description: Toutes les informations de sécurité et de conformité disponibles pour MyHub for Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 539fb0347185133f1d81d169c14922bb44f5aea3
+ms.sourcegitcommit: 8f06a03c298fca9d066cc977fcbd2717c310caa4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64878761"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66916786"
 ---
 # <a name="myhub-for-teams"></a>MyHub pour Teams
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 29 septembre 2021</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Dernière mise à jour par le développeur : 22 juin 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/avepoint.myhubforteams" target="_blank">Afficher dans AppSource</a>
 
@@ -30,7 +29,7 @@ ms.locfileid: "64878761"
 
 Informations fournies par AvePoint Inc. à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | MyHub pour Teams |
 | ID | avepoint.myhubforteams |
@@ -53,7 +52,7 @@ Informations fournies par AvePoint Inc. à Microsoft :
 
 Ces informations ont été fournies par AvePoint Inc. sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? |  |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? |  |
@@ -66,7 +65,7 @@ Ces informations ont été fournies par AvePoint Inc. sur la façon dont cette a
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) s’affichent ci-dessous.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Effectuez-vous des tests d’intrusion annuels sur l’application ? | Oui |
 | L’application dispose-t-elle d’un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
@@ -94,22 +93,22 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | S/O |
-| L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Oui |
 | Date de certification SOC2 la plus récente | 2/9/2021 |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
-| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | S/O |
-| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | N/A |
+| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | Oui |
 | L’application est-elle conforme à NIST 800-171 ? |  |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Oui |
@@ -120,7 +119,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? |  |
 
@@ -130,22 +129,20 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès à l’API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Oui |
-| Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | Oui |
-| Si votre application n’utilise pas l’une des bibliothèques ci-dessus, quelle bibliothèque ou bibliothèque d’authentification utilise-t-elle ? |  |
+| Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | true |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Oui |
-| Répertorier les types de stratégies prises en charge | L’application fédère avec Azure AD, de sorte que toutes les règles d’accès conditionnel peuvent être utilisées. |
-| Votre application demande-t-elle des autorisations de privilège minimum pour votre scénario ? | Oui |
+| Répertorier les types de stratégies prises en charge | L’application fédère avec Azure AD, afin que toutes les règles d’accès conditionnel puissent être utilisées. |
 | Votre application prend-elle en charge l’évaluation continue de l’accès (CAE) |  |
 | Votre application stocke-t-elle des informations d’identification dans le code ? |  |
 | Les applications et compléments pour Microsoft 365 peuvent utiliser des API Microsoft supplémentaires en dehors de Microsoft Graph. Votre application ou complément utilise-t-il des API Microsoft supplémentaires ? | Non |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
+>|   **Autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Directory.Read.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
 >| Group.ReadWrite.All | les deux | les données de configuration d’application sont stockées du point de vue de la gestion des données | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
@@ -162,3 +159,39 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Informations de certification
+
+| **Contrôle** | **Résultat de la certification Microsoft 365** |
+|:------------|:---------------------------------------|
+| [**SÉCURITÉ DES APPLICATIONS**](../docs/certification-submission-guide.md#application-security) | **PASSER** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test de pénétration | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Évaluation des vulnérabilités (DAST/SAST/Test d’intrusion) | Dans l’étendue |
+| [**SÉCURITÉ OPÉRATIONNELLE**](../docs/certification-submission-guide.md#operational-security) | **PASSER** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Antivirus | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Contrôle d’application | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs - Classement des risques | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs - Mise à jour corrective | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyse des vulnérabilités | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu - Pare-feu (ou technologies équivalentes) | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu - Pare-feu d’applications web (WAF) (facultatif) | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modifier le contrôle | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Développement/déploiement de logiciels sécurisés | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des comptes | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Détection et prévention des intrusions (facultatif) | N/A |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Journalisation des événements de sécurité | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Révision (données de journalisation) | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertes d’événements de sécurité | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des risques liés à la sécurité des informations | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Réponse aux incidents | Dans l’étendue |
+| [**CONFIDENTIALITÉ DE LA SÉCURITÉ DE GESTION &amp; DES DONNÉES**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASSER** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données en transit | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données au repos | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservation et élimination des données | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion de l’accès aux données | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | Dans l’étendue |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
