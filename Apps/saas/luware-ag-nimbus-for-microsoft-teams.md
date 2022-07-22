@@ -3,24 +3,23 @@ title: Informations sur l’application pour Luware Nimbus pour Microsoft Teams 
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 10/07/2021
+ms.date: 07/21/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toutes les informations de sécurité et de conformité disponibles pour Luware Nimbus pour Microsoft Teams, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e39857df084f656c6ebbf2302287e11fc61366ea
-ms.sourcegitcommit: 72f4a6341a000d08a27b69b25ee9d3fb0bbfea6e
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 7e6c59192b9b3328396ee1fcb17ef6de6cb3e266
+ms.sourcegitcommit: ce10fa06370903c7c2ee18b55b219dc735ac6b58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66792783"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66960889"
 ---
 # <a name="luware-nimbus-for-microsoft-teams"></a>Luware Nimbus pour Microsoft Teams
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Dernière mise à jour par le développeur : 1er octobre 2021</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Dernière mise à jour par le développeur : 19 octobre 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/luwareagzurich.advanced_routing_azure_marketplace" target="_blank">Afficher dans AppSource</a>
 
@@ -115,7 +114,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
-| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | S/O |
+| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | N/A |
 | L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | S/O |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
 | L’application est-elle conforme à NIST 800-171 ? |  |
@@ -181,3 +180,39 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Informations de certification
+
+| **Contrôle** | **Résultat de la certification Microsoft 365** |
+|:------------|:---------------------------------------|
+| [**SÉCURITÉ DES APPLICATIONS**](../docs/certification-submission-guide.md#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test de pénétration | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Évaluation des vulnérabilités (DAST/SAST/Test d’intrusion) | S/O |
+| [**SÉCURITÉ OPÉRATIONNELLE**](../docs/certification-submission-guide.md#operational-security) | **FAIL** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Antivirus | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protection contre les programmes malveillants - Contrôle d’application | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs - Classement des risques | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des correctifs - Mise à jour corrective | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyse des vulnérabilités | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu - Pare-feu (ou technologies équivalentes) | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pare-feu - Pare-feu d’applications web (WAF) (facultatif) | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modifier le contrôle | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Développement/déploiement de logiciels sécurisés | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des comptes | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Détection et prévention des intrusions (facultatif) | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Journalisation des événements de sécurité | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Révision (données de journalisation) | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertes d’événements de sécurité | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion des risques liés à la sécurité des informations | S/O |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Réponse aux incidents | Dans l’étendue |
+| [**CONFIDENTIALITÉ DE LA SÉCURITÉ DE GESTION &amp; DES DONNÉES**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASSER** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données en transit | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Données au repos | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservation et élimination des données | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestion de l’accès aux données | Dans l’étendue |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | Dans l’étendue |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 4068da99fbf2a389479345f645ba4e2cfbc680b1
-ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
+ms.openlocfilehash: 32374a0e7ed126ca77614aaf55b7614034db8703
+ms.sourcegitcommit: ce10fa06370903c7c2ee18b55b219dc735ac6b58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66929469"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66960879"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sécurité et conformité des applications SaaS
 
@@ -46,7 +46,7 @@ Microsoft collabore avec nos partenaires développeurs Microsoft 365 pour fourni
 | [IXCloud - Veille d’enregistrement de &amp; conformité Teams](./numonix-llc-ixcloud-teams-compliance-recordingintelligence.md) | Numonix LLC | **✓** |  |
 | [LMS365](./elearningforce-international-aps-lms365.md) | ELEARNINGFORCE International Aps | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Enregistrement de conformité Luware pour Microsoft Teams](./luware-ag-compliance-recording-for-microsoft-teams.md) | Luware AG | **✓** |  |
-| [Luware Nimbus pour Microsoft Teams](./luware-ag-nimbus-for-microsoft-teams.md) | Luware AG | **✓** |  |
+| [Luware Nimbus pour Microsoft Teams](./luware-ag-nimbus-for-microsoft-teams.md) | Luware AG | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Signature de messagerie](./officeatwork-mail-signature.md) | officeatwork | **✓** |  |
 | [MIPA - Mon assistant personnel intelligent](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ModuleQ](./moduleq.md) | ModuleQ | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
