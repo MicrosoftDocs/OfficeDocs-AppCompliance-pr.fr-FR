@@ -3,17 +3,17 @@ title: Azure App informations d’ID pour 777d9a9f-feef-48dd-b62d-562ff21aeda2
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/21/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour 777d9a9f-feef-48dd-b62d-562ff21aeda2.
-ms.openlocfilehash: d9345f5a2bb91be998fb808da4ab59170ae83a8b
-ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
+ms.openlocfilehash: 24dc10d4e0ed1884c7a2622e967fd55fff1d7c00
+ms.sourcegitcommit: 9c114837630164e4c4965abc220743e2b08a1df5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66924279"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66980769"
 ---
 # <a name="azure-app-id-777d9a9f-feef-48dd-b62d-562ff21aeda2"></a>Azure App ID : 777d9a9f-feef-48dd-b62d-562ff21aeda2
 

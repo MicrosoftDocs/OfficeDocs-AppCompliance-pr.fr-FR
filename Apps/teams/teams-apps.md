@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 10a62a78badfecf37ff486dfddd69662553817b3
-ms.sourcegitcommit: d35f3194155f00ecca787b2bc9bea5c69a534b0a
+ms.openlocfilehash: 8911e9f63db4b8183f5380ee1cac73b35e75668c
+ms.sourcegitcommit: 59837739b2c8bbc7420121ee780fbf273a331512
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66949577"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66961560"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -560,6 +560,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [TimeClock 365](./softsale-timeclock-365.md) | Softsale | **✓** |  |
 | [timeghost : suivi de l’heure](./timeghostio-timeghost-time-tracking.md) | timeghost.io | **✓** |  |
 | [Timeneye](./dm-digital-srl-timeneye.md) | DM Digital SRL | **✓** |  |
+| [Timewax](./timewax.md) | Timewax | **✓** |  |
 | [TINYpulse](./tinypulse.md) | TINYpulse | **✓** |  |
 | [Liste de vérification des tâches pour Teams](./herocoders-to-do-checklist-for-team.md) | HeroCoders | **✓** |  |
 | [Tonkean](./tonkean.md) | Tonkean | **✓** |  |
