@@ -3,18 +3,18 @@ title: Informations d’application pour SalesTim par SalesTim
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/27/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour SalesTim, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: dedccb17f83675fa128af424c5769a5ee395d984
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: d7faa5b8162e99eb7d463acf441c0d59a0a53cd3
+ms.sourcegitcommit: b0ba698028b1a5124488394b51a34755aa74137e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66250009"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67036093"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -37,11 +37,11 @@ Informations fournies par SalesTim à Microsoft :
 | ID | WA200001393 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | SalesTim |
-| Site web de la société | [https://www.salestim.com](https://www.salestim.com) |
-| Conditions d’utilisation de l’application | [https://www.salestim.com/legal/tos](https://www.salestim.com/legal/tos) |
+| Site web de la société | [https://nbold.co/](https://nbold.co/) |
+| Conditions d’utilisation de l’application | [https://nbold.co/legal/tos/](https://nbold.co/legal/tos/) |
 | Fonctionnalités principales de l’application | SalesTim aide chaque organisation à améliorer ses processus collaboratifs via la création de modèles Microsoft Teams sans code et l’automatisation de la gouvernance à grande échelle. |
 | Emplacement du siège social de la société | France |
-| Page d’informations sur l’application | [https://www.salestim.com](https://www.salestim.com) |
+| Page d’informations sur l’application | [https://nbold.co/microsoft-teams-for-project-management/](https://nbold.co/microsoft-teams-for-project-management/) |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Paas |
 | Quels fournisseurs de cloud d’hébergement l’application utilise-t-elle ? | Azure |
 
