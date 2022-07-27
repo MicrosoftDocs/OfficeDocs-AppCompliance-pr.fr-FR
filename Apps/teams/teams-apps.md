@@ -3,17 +3,17 @@ title: Sécurité et conformité des applications Microsoft Teams - Toutes les a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/25/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 69c1bc8e9c8f14bead7f698ebaa54fef7ea01e0d
-ms.sourcegitcommit: ee1611493dd5ad0ad53da0380e73acd25340a76e
+ms.openlocfilehash: 83eaf925ecd8a36bfea3761d2e53429090ee5c35
+ms.sourcegitcommit: 6d3b549e1bef908d74a643e57b7315aaa27261ee
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/26/2022
-ms.locfileid: "67014863"
+ms.locfileid: "67032458"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -73,6 +73,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Beagle](./decision-point-beagle.md) | Point de décision | **✓** |  |
 | [Bedriftsnett](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [Beep](./medxnote-beep.md) | Medxnote | **✓** |  |
+| [Beesy](./beesapps-beesy.md) | BeesApps | **✓** |  |
 | [Baie](./berryworksai-berry.md) | Berryworks.ai | **✓** |  |
 | [Berrycast](./technologies-openmind-inc-les-berrycast.md) | Technologies Openmind Inc, Les | **✓** |  |
 | [BGA Notify](./honeywell-bga-notify.md) | Honeywell | **✓** |  |
@@ -574,6 +575,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Contacts unifiés](./glueckkanja-gab-ag-unified-contacts.md) | glueckkanja-gab AG | **✓** |  |
 | [UserVoice](./uservoice.md) | UserVoice | **✓** |  |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  |
+| [Versebook](./versebook.md) | &#24191;&#19996;&#26102;&#35867;&#26234;&#33021;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [Verto 365](./tmi-systems-verto-365.md) | Systèmes TMI | **✓** |  |
 | [Vibe](./vibe-inc.md) | Vibe Inc | **✓** |  |
 | [vimheslo](./european-code-factory-sro-vimheslo.md) | European Code Factory s.r.o. | **✓** |  |
