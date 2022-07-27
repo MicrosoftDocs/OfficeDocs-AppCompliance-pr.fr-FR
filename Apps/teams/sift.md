@@ -3,26 +3,26 @@ title: Informations d’application pour Sift par Sift
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/26/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Sift, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e512af6a13192347f76e98516a1a3b8ed48bef09
-ms.sourcegitcommit: b0c1d8160b4e9a27f23a9d723f7e76d38ab12d9e
+ms.openlocfilehash: 04cd18d76682248c2270f53791647b19ae948ef9
+ms.sourcegitcommit: 6771e51564baf354398b12cdf2f9eede6a8ce994
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125320"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67045472"
 ---
-# <a name="sift"></a>Tamiser
+# <a name="sift"></a>Sift
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Dernière mise à jour par le développeur : 25 avril 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/d2a1ed44-6cca-44d2-9b9c-1c9c1d597093" target="_blank">Afficher dans Teams magasin</a>
+* <a href="https://teams.microsoft.com/l/app/d2a1ed44-6cca-44d2-9b9c-1c9c1d597093" target="_blank">Afficher dans le magasin Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002545" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
@@ -31,12 +31,12 @@ ms.locfileid: "65125320"
 
 Informations fournies par Sift à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Tamiser |
+| Nom de l'application | Sift |
 | ID | WA200002545 |
-| Office 365 clients pris en charge | Microsoft Teams |
-| Nom de la société partenaire | Tamiser |
+| Office 365 clients pris en charge | Microsoft Teams |
+| Nom de la société partenaire | Sift |
 | Site web de la société | [https://www.justsift.com](https://www.justsift.com) |
 | Conditions d’utilisation de l’application | [https://www.justsift.com/sift-msteams-eula](https://www.justsift.com/sift-msteams-eula) |
 | Fonctionnalités principales de l’application | Rechercher, découvrir et communiquer avec les personnes de votre organisation |
@@ -55,16 +55,16 @@ Informations fournies par Sift à Microsoft :
 
 Ces informations ont été fournies par Sift sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
-| Quelles données sont traitées par votre application ? | Notre application Teams demande des informations de profil de base et un consentement pour afficher les données de réunion des utilisateurs de Azure AD. Il collecte également volontairement des informations de profil supplémentaires auprès des utilisateurs pour améliorer leurs profils au sein de notre plateforme. |
+| Quelles données sont traitées par votre application ? | Notre application Teams demande des informations de profil de base et un consentement pour afficher les données de réunion des utilisateurs d’Azure AD. Il collecte également volontairement des informations de profil supplémentaires auprès des utilisateurs pour améliorer leurs profils au sein de notre plateforme. |
 | L’application prend-elle en charge TLS 1.1 ou version ultérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
 | Quelles données sont stockées dans vos bases de données ? | Les informations de profil utilisateur de Microsoft Graph sont collectées si le consentement est accordé par un utilisateur administratif. |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Oui |
 | Avez-vous des contrats de partage de données en place avec un service tiers avec lequel vous partagez des données client Microsoft ? | Oui |
@@ -77,7 +77,7 @@ Ces informations ont été fournies par Sift sur la façon dont cette applicatio
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) s’affichent ci-dessous.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Effectuez-vous des tests d’intrusion annuels sur l’application ? | Oui |
 | L’application dispose-t-elle d’un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
@@ -107,7 +107,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | S/O |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
@@ -122,10 +122,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
-| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | N/A |
+| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | S/O |
 | L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | S/O |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
-| L’application est-elle conforme à NIST 800-171 ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
+| L’application est-elle conforme à NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -134,7 +134,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Oui |
 | L’application a-t-elle un avis de confidentialité externe qui décrit comment elle collecte, utilise, partage et stocke les données client ? | Oui |
@@ -154,9 +154,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
-| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès à l’API, etc. ? | Oui |
+| Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Non |
 | Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
@@ -166,7 +166,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
+>|   **Autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Group.Read.All | Délégué | Nous récupérons des informations de groupe à partir de Graph pour filtrer les utilisateurs récupérés par groupe | [270b510a-7cfb-4a9a-8071-5ceab03cf357](../azure/270b510a-7cfb-4a9a-8071-5ceab03cf357.md) |
 >| User.Read.All | Délégué | Nous récupérons des objets utilisateur à partir de Graph dans le but de provisionner et de mettre à jour de manière cohérente les profils des employés dans notre produit | [270b510a-7cfb-4a9a-8071-5ceab03cf357](../azure/270b510a-7cfb-4a9a-8071-5ceab03cf357.md) |
