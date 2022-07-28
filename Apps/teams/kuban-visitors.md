@@ -3,18 +3,18 @@ title: Informations d’application pour les visiteurs Kuban par &#19978;&#28023
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/01/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les visiteurs Kuban, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 716e440db7e7337b4fe92e9dd72ea382461c06dc
-ms.sourcegitcommit: 4ceff6ef6aa0bae1075da646773b852970bb4049
+ms.openlocfilehash: 8e0420379d45a27e6721a8cee4c23e5db76cc8b2
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65874225"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053066"
 ---
 # <a name="kuban-visitors"></a>Visiteurs Kuban
 
@@ -22,7 +22,7 @@ ms.locfileid: "65874225"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Dernière mise à jour par le développeur : 1er juin 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/08c71ed0-0b39-46eb-8ec8-42c66a1579de" target="_blank">Afficher dans Teams magasin</a>
+* <a href="https://teams.microsoft.com/l/app/08c71ed0-0b39-46eb-8ec8-42c66a1579de" target="_blank">Afficher dans le magasin Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200004147" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
@@ -31,7 +31,7 @@ ms.locfileid: "65874225"
 
 Informations fournies par &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | Visiteurs Kuban |
 | ID | WA200004147 |
@@ -39,7 +39,7 @@ Informations fournies par &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#2637
 | Nom de la société partenaire | &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; |
 | Site web de la société | [https://kuban.io](https://kuban.io) |
 | Conditions d’utilisation de l’application | [https://api.ent.kuban.io/terms_us.html](https://api.ent.kuban.io/terms_us.html) |
-| Fonctionnalités principales de l’application | Kuban Visitors for Microsoft Teams facilite l’invitation des visiteurs. Vous pouvez inviter des visiteurs et vous connecter et les déconnecter rapidement. Vous pouvez également afficher la liste des visiteurs d’aujourd’hui.  REMARQUE : Pour utiliser cette application, les utilisateurs doivent disposer d’un compte Kuban actif, contactez notre équipe de support technique pour plus d’informations.  |
+| Fonctionnalités principales de l’application | Kuban Visitors pour Microsoft Teams facilite l’invitation des visiteurs. Vous pouvez inviter des visiteurs et vous connecter et les déconnecter rapidement. Vous pouvez également afficher la liste des visiteurs d’aujourd’hui.  REMARQUE : Pour utiliser cette application, les utilisateurs doivent disposer d’un compte Kuban actif, contactez notre équipe de support technique pour plus d’informations.  |
 | Emplacement du siège social de la société | Chine |
 | Page d’informations sur l’application | |
 | Quel est l’environnement d’hébergement ou le modèle de service utilisé pour exécuter votre application ? | Iaas |
@@ -55,16 +55,16 @@ Informations fournies par &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#2637
 
 Ces informations ont été fournies par &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
-| Quelles données sont traitées par votre application ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer l’e-mail et le nom d’utilisateur et stocker dans notre base de données |
+| Quelles données sont traitées par votre application ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer Email et le nom d’utilisateur et stocker dans notre base de données |
 | L’application prend-elle en charge TLS 1.1 ou version ultérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer l’e-mail et le nom d’utilisateur et stocker dans notre base de données |
+| Quelles données sont stockées dans vos bases de données ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer Email et le nom d’utilisateur et stocker dans notre base de données |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | Singapour |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
 
@@ -76,7 +76,7 @@ Ces informations ont été fournies par &#19978;&#28023;&#37239;&#20134;&#31185;
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) s’affichent ci-dessous.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Effectuez-vous des tests d’intrusion annuels sur l’application ? | Oui |
 | L’application dispose-t-elle d’un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
@@ -106,7 +106,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | Non |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | Non |
@@ -131,7 +131,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Non |
 
@@ -141,7 +141,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Non |

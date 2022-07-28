@@ -3,18 +3,18 @@ title: Informations sur l’application pour AttendanceBot par Anaek
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/07/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour AttendanceBot, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ae38fae7ea7f5f93c8f070c9d0079f7feea5cce1
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+ms.openlocfilehash: 15b2e1e76b3e0df07a96e50a24eb0e2e8a377edd
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66705836"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053299"
 ---
 # <a name="attendancebot"></a>AttendanceBot
 
@@ -64,7 +64,7 @@ Ces informations ont été fournies par Anaek sur la façon dont cette applicati
 | Quelles données sont stockées dans vos bases de données ? | Jetons d’accès, données de locataire (ID de locataire, nom, détails de l’équipe), données utilisateur (nom, e-mail) |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
 
@@ -113,14 +113,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
-| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | S/O |
-| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | N/A |
+| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
 | L’application est-elle conforme à NIST 800-171 ? | S/O |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |

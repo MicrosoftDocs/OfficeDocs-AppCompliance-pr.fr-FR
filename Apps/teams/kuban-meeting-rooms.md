@@ -3,18 +3,18 @@ title: Informations sur l’application pour les salles de réunion Kuban par &#
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/01/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les salles de réunion Kuban, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: badf024dd9be2c042364d82d3387b7cbe8445eb9
-ms.sourcegitcommit: bf531e5ed502c5940a365322da320749873267a4
+ms.openlocfilehash: 2a1ade4b60b8390816f85793394e32c908f04308
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851170"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053046"
 ---
 # <a name="kuban-meeting-rooms"></a>Salles de réunion Kuban
 
@@ -22,7 +22,7 @@ ms.locfileid: "65851170"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Dernière mise à jour par le développeur : 19 mai 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/55df8703-59be-4925-bc57-df54f9369edf" target="_blank">Afficher dans Teams magasin</a>
+* <a href="https://teams.microsoft.com/l/app/55df8703-59be-4925-bc57-df54f9369edf" target="_blank">Afficher dans le magasin Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200004101" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
@@ -31,7 +31,7 @@ ms.locfileid: "65851170"
 
 Informations fournies par &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | Salles de réunion Kuban |
 | ID | WA200004101 |
@@ -55,16 +55,16 @@ Informations fournies par &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#2637
 
 Ces informations ont été fournies par &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
-| Quelles données sont traitées par votre application ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer l’e-mail et le nom d’utilisateur et stocker dans notre base de données |
+| Quelles données sont traitées par votre application ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer Email et le nom d’utilisateur et stocker dans notre base de données |
 | L’application prend-elle en charge TLS 1.1 ou version ultérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer l’e-mail et le nom d’utilisateur et stocker dans notre base de données |
+| Quelles données sont stockées dans vos bases de données ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer Email et le nom d’utilisateur et stocker dans notre base de données |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | Singapour |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
 
@@ -76,7 +76,7 @@ Ces informations ont été fournies par &#19978;&#28023;&#37239;&#20134;&#31185;
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) s’affichent ci-dessous.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Effectuez-vous des tests d’intrusion annuels sur l’application ? | Oui |
 | L’application dispose-t-elle d’un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
@@ -106,7 +106,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | Non |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | Non |
@@ -131,7 +131,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Non |
 
@@ -141,7 +141,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Non |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Non |

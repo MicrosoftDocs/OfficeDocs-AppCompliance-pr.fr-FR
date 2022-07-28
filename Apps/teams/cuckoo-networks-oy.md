@@ -3,18 +3,18 @@ title: Informations sur l’application pour le coucou par Cuckoo Networks Oy
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/22/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Cuckoo, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 34c89f7ef3634340232df4c8bdda4a2713930b0e
-ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
+ms.openlocfilehash: 911bbea2a84f5601b83a189b649277a885d9b391
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66547189"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053082"
 ---
 # <a name="cuckoo"></a>Cuckoo
 
@@ -64,7 +64,7 @@ Ces informations ont été fournies par Cuckoo Networks Oy sur la façon dont ce
 | Quelles données sont stockées dans vos bases de données ? | Informations d’identification de l’utilisateur et de l’activité de l’utilisateur |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | Irlande |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Oui |
 | Avez-vous des contrats de partage de données en place avec un service tiers avec lequel vous partagez des données client Microsoft ? | Oui |
@@ -93,7 +93,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Les pratiques de codage sécurisées prennent-elles en compte les classes de vulnérabilité courantes telles que OWASP Top 10 ? | Oui |
 | Authentification multifacteur (MFA) activée pour : | CodeRepositories, Credential, DNSManagement |
 | Disposez-vous d’un processus établi pour l’approvisionnement, la modification et la suppression de comptes d’employés ? | Oui |
-| Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? | N/A |
+| Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? | S/O |
 | La journalisation des événements est-elle configurée sur tous les composants système qui prennent en charge votre application ? | Oui |
 | Tous les journaux sont-ils examinés régulièrement par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui |
 | Lorsqu’un événement de sécurité est détecté, les alertes sont-ils automatiquement envoyées à un employé pour le triage ? | Oui |
@@ -110,19 +110,19 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | N/A |
-| L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
-| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
+| L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
+| L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
 | Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
 | L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Non |
-| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | N/A |
+| L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | S/O |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
 | L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | S/O |
-| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | N/A |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
 | L’application est-elle conforme à NIST 800-171 ? | S/O |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 

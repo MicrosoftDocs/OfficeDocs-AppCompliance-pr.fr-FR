@@ -3,20 +3,20 @@ title: Informations sur l’application pour les discussions personnalisées par
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/05/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour les conférences personnalisées, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a01ac28ae80eae71eee577a8d1d468c3f11f4b2e
-ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
+ms.openlocfilehash: 5a1e44cf35df8ede13b5073b0fa8dd13ff9ba724
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66656192"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053300"
 ---
-# <a name="tailored-talks"></a>Conférences personnalisées
+# <a name="tailored-talks"></a>Tailored Talks
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +33,7 @@ Informations fournies par Pogo Studio à Microsoft :
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Conférences personnalisées |
+| Nom de l'application | Tailored Talks |
 | ID | WA200004309 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | Pogo Studio |
@@ -64,7 +64,7 @@ Ces informations ont été fournies par Pogo Studio sur la façon dont cette app
 | Quelles données sont stockées dans vos bases de données ? | client, e-mail |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | Royaume-Uni de Grande-Bretagne et d’Irlande du Nord (le) |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Non |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Oui |
 | Avez-vous des contrats de partage de données en place avec un service tiers avec lequel vous partagez des données client Microsoft ? | Oui |
@@ -107,7 +107,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | N/A |
+| L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | S/O |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | Non |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | Non |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -118,10 +118,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
-| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | N/A |
-| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | N/A |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme à NIST 800-171 ? | N/A |
+| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | S/O |
+| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme à NIST 800-171 ? | S/O |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

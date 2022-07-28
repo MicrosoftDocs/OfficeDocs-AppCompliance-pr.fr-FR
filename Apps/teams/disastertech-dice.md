@@ -3,18 +3,18 @@ title: Informations d’application pour DisasterTech DICE par DisasterTech
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/31/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour DisasterTech DICE, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0ed797cb886577f74601c0cd6effa546b9587efc
-ms.sourcegitcommit: 29a4475d630d2f1d0755a6322eb994646322aca1
+ms.openlocfilehash: a905f01e10c28843b1e823c561abade8bce06501
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65811232"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053226"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -22,7 +22,7 @@ ms.locfileid: "65811232"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Dernière mise à jour par le développeur : 31 mai 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/7df3e67b-ed62-48e9-a950-c95bd7ebce80" target="_blank">Afficher dans Teams magasin</a>
+* <a href="https://teams.microsoft.com/l/app/7df3e67b-ed62-48e9-a950-c95bd7ebce80" target="_blank">Afficher dans le magasin Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001909" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
@@ -31,7 +31,7 @@ ms.locfileid: "65811232"
 
 Informations fournies par DisasterTech à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | DisasterTech DICE |
 | ID | WA200001909 |
@@ -55,7 +55,7 @@ Informations fournies par DisasterTech à Microsoft :
 
 Ces informations ont été fournies par DisasterTech sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
 | Quelles données sont traitées par votre application ? | Profil utilisateur |
@@ -64,7 +64,7 @@ Ces informations ont été fournies par DisasterTech sur la façon dont cette ap
 | Quelles données sont stockées dans vos bases de données ? | Profil utilisateur |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Non |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Non |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
 
@@ -76,7 +76,7 @@ Ces informations ont été fournies par DisasterTech sur la façon dont cette ap
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) s’affichent ci-dessous.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Effectuez-vous des tests d’intrusion annuels sur l’application ? | Non |
 | L’application dispose-t-elle d’un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Non |
@@ -104,7 +104,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | S/O |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
@@ -118,7 +118,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
 | L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | S/O |
-| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
 | L’application est-elle conforme à NIST 800-171 ? | Non |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
@@ -129,7 +129,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Non |
 
@@ -139,7 +139,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Non |
@@ -151,7 +151,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Accès aux données à l’aide de Microsoft Graph
 
->|   **autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
+>|   **Autorisation Graph**  | **Type d’autorisation** |          **Justification**          | **ID d’application Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| User.Read | Délégué | Authentification unique Microsoft Teams | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
 >| email | Délégué | Authentification unique Microsoft Teams | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |

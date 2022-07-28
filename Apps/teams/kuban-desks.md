@@ -3,20 +3,20 @@ title: Informations d’application pour kuban Desks par &#19978;&#28023;&#37239
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/27/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Kuban Desks, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fea7553360feb8cab303cb52d427dc11ea16b3ca
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: 9d24ecb0cd772eeafb095e47b2a87de65cb8611d
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66250200"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053209"
 ---
-# <a name="kuban-desks"></a>Bureaux Kuban
+# <a name="kuban-desks"></a>Kuban Desks
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +33,7 @@ Informations fournies par &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#2637
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| Nom de l'application | Bureaux Kuban |
+| Nom de l'application | Kuban Desks |
 | ID | WA200004276 |
 | Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; |
@@ -58,13 +58,13 @@ Ces informations ont été fournies par &#19978;&#28023;&#37239;&#20134;&#31185;
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
-| Quelles données sont traitées par votre application ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer l’e-mail et le nom d’utilisateur et stocker dans notre base de données |
+| Quelles données sont traitées par votre application ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer Email et le nom d’utilisateur et stocker dans notre base de données |
 | L’application prend-elle en charge TLS 1.1 ou version ultérieure ? | Oui |
 | L’application ou l’infrastructure sous-jacente stocke-t-elle des données client Microsoft ? | Oui |
-| Quelles données sont stockées dans vos bases de données ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer l’e-mail et le nom d’utilisateur et stocker dans notre base de données |
+| Quelles données sont stockées dans vos bases de données ? | Utiliser le profil utilisateur en lecture (graphe/moi) pour récupérer Email et le nom d’utilisateur et stocker dans notre base de données |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | Singapour |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
 

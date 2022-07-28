@@ -3,18 +3,18 @@ title: Informations d’application pour Berry par Berryworks.ai
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/31/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour Berry, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 61eeef4dfc351544be4220a00a313ad755729758
-ms.sourcegitcommit: 4ceff6ef6aa0bae1075da646773b852970bb4049
+ms.openlocfilehash: be9d388a35f80f09136b1455e4df0b95a4e6a075
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65874215"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053026"
 ---
 # <a name="berry"></a>Baie
 
@@ -22,7 +22,7 @@ ms.locfileid: "65874215"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Dernière mise à jour par le développeur : 19 mai 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/3694c470-c14b-11ec-97bc-6b8526f20a81" target="_blank">Afficher dans Teams magasin</a>
+* <a href="https://teams.microsoft.com/l/app/3694c470-c14b-11ec-97bc-6b8526f20a81" target="_blank">Afficher dans le magasin Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200004138" target="_blank">Afficher dans AppSource</a>
 
 ::: zone pivot="general"
@@ -31,7 +31,7 @@ ms.locfileid: "65874215"
 
 Informations fournies par Berryworks.ai à Microsoft :
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Nom de l'application | Baie |
 | ID | WA200004138 |
@@ -55,7 +55,7 @@ Informations fournies par Berryworks.ai à Microsoft :
 
 Ces informations ont été fournies par Berryworks.ai sur la façon dont cette application collecte et stocke les données organisationnelles et le contrôle que votre organisation aura sur les données collectées par l’application.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | L’application ou l’infrastructure sous-jacente traite-t-elle les données relatives à un client Microsoft ou à son appareil ? | Oui |
 | Quelles données sont traitées par votre application ? | Données de profil utilisateur, données de messagerie utilisateur |
@@ -64,7 +64,7 @@ Ces informations ont été fournies par Berryworks.ai sur la façon dont cette a
 | Quelles données sont stockées dans vos bases de données ? | Informations de locataire telles que l’ID de locataire, l’ID de communication utilisateur |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Oui |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
 
@@ -76,7 +76,7 @@ Ces informations ont été fournies par Berryworks.ai sur la façon dont cette a
 
 Les informations du catalogue [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) s’affichent ci-dessous.
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Effectuez-vous des tests d’intrusion annuels sur l’application ? | Oui |
 | L’application dispose-t-elle d’un plan de récupération d’urgence documenté, y compris une stratégie de sauvegarde et de restauration ? | Oui |
@@ -92,7 +92,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Les pratiques de codage sécurisées prennent-elles en compte les classes de vulnérabilité courantes telles que OWASP Top 10 ? | Oui |
 | Authentification multifacteur (MFA) activée pour : | DNSManagement, Informations d’identification |
 | Disposez-vous d’un processus établi pour l’approvisionnement, la modification et la suppression de comptes d’employés ? | Oui |
-| Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? | N/A |
+| Disposez-vous d’un logiciel de détection et de prévention des intrusions (IDPS) déployé au périmètre de la limite réseau qui prend en charge votre application ? | S/O |
 | La journalisation des événements est-elle configurée sur tous les composants système qui prennent en charge votre application ? | Oui |
 | Tous les journaux sont-ils examinés régulièrement par des outils humains ou automatisés pour détecter les événements de sécurité potentiels ? | Oui |
 | Lorsqu’un événement de sécurité est détecté, les alertes sont-ils automatiquement envoyées à un employé pour le triage ? | Oui |
@@ -106,14 +106,14 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | N/A |
+| L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | S/O |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | S/O |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 3) ? | Non |
-| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | N/A |
+| Effectuez-vous des évaluations PCI DSS annuelles par rapport à l’application et à son environnement de prise en charge ? | S/O |
 | L’application Organisation internationale pour la normalisation (ISO 27001) est-elle certifiée ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27018) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Non |
@@ -122,7 +122,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | N/A |
 | L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme à NIST 800-171 ? | N/A |
+| L’application est-elle conforme à NIST 800-171 ? | S/O |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -131,7 +131,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Avez-vous un RGPD ou d’autres exigences ou obligations en matière de confidentialité ou de protection des données (comme le CCPA) ? | Non |
 
@@ -141,7 +141,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Réponse** |
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Oui |
 | Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Oui |

@@ -3,18 +3,18 @@ title: Informations sur l’application pour RingCentral par RingCentral, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/21/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour RingCentral, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9c9c2febfd6153c8ba5184d806d2bb67d611881a
-ms.sourcegitcommit: ce10fa06370903c7c2ee18b55b219dc735ac6b58
+ms.openlocfilehash: 2b82a908252784ca02b3210adb99678d78ef72aa
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66960869"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053110"
 ---
 # <a name="ringcentral"></a>RingCentral
 
@@ -63,7 +63,7 @@ RingCentral, Inc. a fourni ces informations sur la façon dont cette application
 | Quelles données sont stockées dans vos bases de données ? | Données de profil utilisateur |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Non |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
 
@@ -121,10 +121,10 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Oui |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Oui |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
-| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | N/A |
-| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | N/A |
-| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | S/O |
-| L’application est-elle conforme à NIST 800-171 ? | S/O |
+| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | S/O |
+| L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | S/O |
+| L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
+| L’application est-elle conforme à NIST 800-171 ? | N/A |
 | L’application a-t-elle été certifiée Cloud Security Alliance (CSA Star) ? | Non |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

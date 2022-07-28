@@ -3,18 +3,18 @@ title: Informations sur l’application pour la liste classifiée par BinaryRoot
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/01/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour la liste classifiée, ses stratégies de gestion des données, ses informations de catalogue d’applications Microsoft Cloud App Security et les informations de sécurité/conformité dans le registre CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e64f6953c0157e09c3a2896926ca63a15988b63c
-ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
+ms.openlocfilehash: 0813d8c063e64c6ccc37a1d1d4aad659be54ee75
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65938689"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053108"
 ---
 # <a name="classified-listing"></a>Liste classifiée
 
@@ -35,7 +35,7 @@ Informations fournies par BinaryRoots à Microsoft :
 |:----------------|:-------------|
 | Nom de l'application | Liste classifiée |
 | ID | WA200004155 |
-| Clients Office 365 pris en charge | Microsoft Teams |
+| Office 365 clients pris en charge | Microsoft Teams |
 | Nom de la société partenaire | BinaryRoots |
 | Site web de la société | [https://binaryroots.com](https://binaryroots.com) |
 | Conditions d’utilisation de l’application | [https://binaryroots.com/classifiedapp-terms-and-conditions](https://binaryroots.com/classifiedapp-terms-and-conditions) |
@@ -62,7 +62,7 @@ Ces informations ont été fournies par BinaryRoots sur la façon dont cette app
 | Quelles données sont stockées dans vos bases de données ? | Seuls les ID : ID de locataire, ID d’utilisateur administrateur, URL de site et ID de site, ID de liste/bibliothèque |
 | Si l’infastructure sous-jacente traite ou stocke les données client Microsoft, où ces données sont-elles stockées géographiquement ? | États-Unis d’Amérique |
 | Disposez-vous d’un processus de location et d’élimination des données établi ? | Non |
-| Combien de temps les données sont-ils conservées après la résiliation du compte ? |  |
+| Combien de temps les données sont-ils conservées après la résiliation du compte ? | Plus de 90 jours |
 | Disposez-vous d’un processus de gestion de l’accès aux données établi ? | Oui |
 | Transférez-vous des données client ou du contenu client vers des tiers ou des sous-processeurs ? | Non |
 
@@ -105,7 +105,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Réponse** |
 |:----------------|:-------------|
-| L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | S/O |
+| L’application est-elle conforme à la Loi hipaa (Health Insurance Portability and Accounting Act) ? | N/A |
 | L’application est-elle conforme à Health Information Trust Alliance, Common Security Framework (HITRUST CSF) ? | N/A |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 1) ? | S/O |
 | L’application est-elle conforme aux contrôles d’organisation de service (SOC 2) ? | Non |
@@ -116,7 +116,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27017) ? | Non |
 | L’application est-elle conforme à l’Organisation internationale pour la normalisation (ISO 27002) ? | Non |
 | L’application Federal Risk and Authorization Management Program (FedRAMP) est-elle conforme ? | Non |
-| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | N/A |
+| L’application est-elle conforme à la Loi sur les droits à l’éducation et la vie privée de la famille (FERPA) ? | S/O |
 | L’application est-elle conforme à la Loi coppa (Children’s Online Privacy Protection Act) ? | N/A |
 | L’application est-elle conforme à Sarbanes-Oxley Act (SOX) ? | N/A |
 | L’application est-elle conforme à NIST 800-171 ? | N/A |
@@ -138,9 +138,9 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | Traitez-vous des catégories spéciales de données sensibles (origines raciales ou ethniques, opinions politiques, croyances religieuses ou philosophiques, données génétiques ou biométriques, données de santé) ou catégories de données soumises à des lois de notification de violation ? | Non |
 | L’application collecte-t-elle ou traite-t-elle des données auprès de mineurs (c’est-à-dire des personnes de moins de 16 ans) ? | Non |
 | L’application dispose-t-elle de fonctionnalités permettant de supprimer les données personnelles d’une personne sur demande ? | N/A |
-| L’application dispose-t-elle de fonctionnalités permettant de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | N/A |
-| L’application offre-t-elle aux utilisateurs la possibilité de corriger ou de mettre à jour leurs données personnelles ? | S/O |
-| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des évaluations d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | N/A |
+| L’application dispose-t-elle de fonctionnalités permettant de restreindre ou de limiter le traitement des données personnelles d’une personne sur demande ? | S/O |
+| L’application offre-t-elle aux utilisateurs la possibilité de corriger ou de mettre à jour leurs données personnelles ? | N/A |
+| Des examens réguliers de la sécurité et de la confidentialité des données sont-ils effectués (par exemple, des évaluations d’impact sur la protection des données ou des évaluations des risques de confidentialité) pour identifier les risques liés au traitement des données personnelles pour l’application ? | S/O |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -151,7 +151,7 @@ Les informations du catalogue [Microsoft Cloud App Security](https://www.microso
 | **Information** | **Réponse** |
 |:----------------|:-------------|
 | Votre application s’intègre-t-elle à Microsoft Identity Platform (Azure AD) pour l’authentification unique, l’accès aux API, etc. ? | Oui |
-| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration de la plateforme d’identités Microsoft ? | Oui |
+| Avez-vous examiné et respecté toutes les meilleures pratiques applicables décrites dans la liste de contrôle d’intégration Plateforme d'identités Microsoft ? | Oui |
 | Votre application utilise-t-elle la dernière version de MSAL (Bibliothèque d’authentification Microsoft) ou Microsoft Identity Web pour l’authentification ? | Oui |
 | Votre application prend-elle en charge les stratégies d’accès conditionnel ? | Non |
 | Votre application prend-elle en charge l’évaluation continue de l’accès (CAE) | Non |
