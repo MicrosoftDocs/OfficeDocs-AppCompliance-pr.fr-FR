@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: Toutes les informations de sécurité et de conformité disponibles pour toutes les applications Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 66736f1377b082fa3450ff61073e314c65ca7c10
-ms.sourcegitcommit: 6771e51564baf354398b12cdf2f9eede6a8ce994
+ms.openlocfilehash: 6319052428f74b46b0937655a43d1a749cce7ccc
+ms.sourcegitcommit: 6db14016165d8319708983a9022eff3cbb68856a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "67041802"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67057513"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sécurité et conformité des applications Microsoft Teams
 
@@ -495,6 +495,7 @@ Microsoft collabore avec nos partenaires de développement Microsoft 365 pour fo
 | [Sociabble](./sociabble.md) | Sociabble | **✓** |  |
 | [Causes sociales](./oktopost-social-advocacy.md) | Oktopost | **✓** |  |
 | [Solo](./teladoc-inc-solo.md) | Teladoc, Inc. | **✓** |  |
+| [Soundbite&#8482;](./soundbite-inc.md) | Soundbite Inc. | **✓** |  |
 | [SQQ](./superquickquestion-sqq.md) | SuperQuickQuestion | **✓** |  |
 | [Squadcast](./squadcast.md) | Squadcast | **✓** |  |
 | [Squadify](./squadify-holdings-pty-ltd.md) | Squadify Holdings Pty Ltd | **✓** |  |
