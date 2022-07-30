@@ -418,6 +418,8 @@ items:
         href: teams/clovers-ai.md
       - name: Clypp
         href: teams/zesavi-gmbh-clypp.md
+      - name: Coachello
+        href: teams/coachello-sas.md
       - name: COCO
         href: teams/hexaware-technologies-ltd-coco.md
       - name: CodeStream
@@ -592,8 +594,6 @@ items:
         href: teams/springrole-engagewith.md
       - name: enmacc
         href: teams/enmacc.md
-      - name: Espresso
-        href: teams/solutions2share-gmbh-espresso.md
       - name: eTeamer
         href: teams/eteamer.md
       - name: Eusoft Rdp Manager
@@ -754,6 +754,8 @@ items:
         href: teams/easy2meet-bv-indeqa-board-meetings.md
       - name: Informer Coleman
         href: teams/infor-us-inc-coleman.md
+      - name: Intranet by Solutions2Share
+        href: teams/solutions2share-gmbh-intranet-by.md
       - name: IQ
         href: teams/nlsql-iq.md
       - name: isLucid
@@ -802,6 +804,8 @@ items:
         href: teams/koaretech-sl-koare-dashboard.md
       - name: Koare I-management
         href: teams/koaretech-sl-koare-i-management.md
+      - name: Chaises Koare Rotation
+        href: teams/koaretech-sl-koare-rotation-chairs.md
       - name: Kuban Desks
         href: teams/kuban-desks.md
       - name: Salles de réunion Kuban
@@ -854,6 +858,8 @@ items:
         href: teams/lumapps.md
       - name: Lumio
         href: teams/smart-technologies-ulc-lumio.md
+      - name: Gestionnaire360
+        href: teams/mgr360-manager360.md
       - name: Map Pro
         href: teams/witivio-map-pro.md
       - name: Marvel
@@ -880,8 +886,6 @@ items:
         href: teams/wafer-systems-metavisitor.md
       - name: MetaWorkspace
         href: teams/wafer-systems-metaworkspace.md
-      - name: MGR360
-        href: teams/mgr360.md
       - name: Mia
         href: teams/mihcm-mia.md
       - name: Micromate
@@ -1060,7 +1064,7 @@ items:
         href: teams/moduleq-q.md
       - name: qbo
         href: teams/unscrambl-qbo.md
-      - name: qChange Leadership Experience
+      - name: Expérience de leadership qChange
         href: teams/qchange-software-solution-inc-leadership-experience.md
       - name: Qooper
         href: teams/cognata-technologies-llc-qooper.md
@@ -1338,6 +1342,8 @@ items:
         href: teams/glueckkanja-gab-ag-unified-contacts.md
       - name: UserVoice
         href: teams/uservoice.md
+      - name: uWebChat
+        href: teams/universal-it-bv-uwebchat.md
       - name: Vacation Tracker
         href: teams/vacation-tracker.md
       - name: Versebook
@@ -1428,6 +1434,8 @@ items:
         href: teams/softserve-inc-office-store-zendesk.md
       - name: ZeroTime Bot
         href: teams/replicon-zerotime-bot.md
+      - name: Zeste
+        href: teams/zestmeup-zest.md
       - name: Zignals
         href: teams/alight-consulting-gmbh-zignals.md
       - name: Zoho CRM
