@@ -3,17 +3,17 @@ title: Azure App informations d’ID pour 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/28/2022
+ms.date: 07/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toutes les informations de sécurité et de conformité disponibles pour 9af6eceb-6a8b-4710-b51d-dde2ac01cc71.
-ms.openlocfilehash: bf0ac8e98daa7819548b184885e62bf6f3b79c76
-ms.sourcegitcommit: 2787e3eed97b8dfb6fab7dd837e2d7fe65828121
+ms.openlocfilehash: 6a0af11d4d77f0e7d6569890d4cc6a8be16a737a
+ms.sourcegitcommit: 878a7b7e9c6fe787c6dfc9c95d4d46268562f84c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67065512"
+ms.lasthandoff: 07/30/2022
+ms.locfileid: "67088162"
 ---
 # <a name="azure-app-id-9af6eceb-6a8b-4710-b51d-dde2ac01cc71"></a>Azure App ID : 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 
